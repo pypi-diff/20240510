@@ -1,0 +1,94 @@
+[2024-05-10 00:01:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138253]
+[2024-05-10 00:01:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libdeeplake
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guan
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: copy-to
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slalom-tapdance
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-contrib-core
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-contrib-embed
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-contrib-pyodide
+[2024-05-10 00:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet-contrib-runtime
+[2024-05-10 00:01:22] INFO root fetch - processPackages [slalom-tapdance]: New version: [1.0.1.dev73] Old Version: [1.0.1.dev72]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [copy-to]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-embed]: New version: [2024.5.9.2200] Old Version: [2024.5.3.1625]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-core]: New version: [2024.5.9.2200] Old Version: [2024.5.3.1625]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-runtime]: New version: [2024.5.9.2200] Old Version: [2024.5.3.1625]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-pyodide]: New version: [2024.5.9.2200] Old Version: [2024.5.3.1625]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [slalom-tapdance]: Downloading https://files.pythonhosted.org/packages/4e/03/0286c58959dd2cd950618ec9a1c9067c346899125b451146aaafce46b1be/slalom_tapdance-1.0.1.dev72.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [guan]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/3f/bd/552ffe4c7bf8dac05eee1ff1cfa399e95179c832a683082191c1bbc84635/copy-to-1.3.8.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/72/1b/98a4f343688cf918ba1e3f51f408a91cff754434b6e95d4e8090657449a3/libdeeplake-0.0.98-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-embed]: Downloading https://files.pythonhosted.org/packages/c4/3c/16df87cd1196b1017ea72ba133422e5eb6cfa6e9b9e5d22ed3fdb5ec20e7/flet_contrib_embed-2024.5.3.1625.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-core]: Downloading https://files.pythonhosted.org/packages/9c/01/3a5d67adae55a458a17a2c9eb7635f721b74d42cf2cf0d53c6530f6b5eba/flet_contrib_core-2024.5.3.1625.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-runtime]: Downloading https://files.pythonhosted.org/packages/d3/69/ea8e10efd7abd7ae8b819b4cb6766d2a7585ee0b5c0ec196a5a083000017/flet_contrib_runtime-2024.5.3.1625.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/83/e1/6b686ecb9b6d4816a6835f0fe2c00899526ca31fe7fe9fb3a31f123331f3/guan-0.1.98.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-pyodide]: Downloading https://files.pythonhosted.org/packages/79/bc/0c782f400150c643d2c69896752169b2dde9b6a6b2714bfefaa2f1a1767e/flet_contrib_pyodide-2024.5.3.1625.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-10 00:01:23] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 16175016>=10485760
+[2024-05-10 00:01:23] INFO root fetch - processPackages [libdeeplake]: Start processing: flet-contribute
+[2024-05-10 00:01:23] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2024-05-10 00:01:23] INFO root fetch - processPackages [slalom-tapdance]: Downloading https://files.pythonhosted.org/packages/e2/0e/48787894383ff5025d056a48661abb44a6e65ec35ca94f81b5e00423f23f/slalom_tapdance-1.0.1.dev73.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/d5/9a/e1cf706621904d886141bebf3c24390caf4c9135cae97c5a2df84d95731c/copy-to-1.3.9.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contribute]: New version: [2024.5.9.2200] Old Version: [2024.5.3.1625]
+[2024-05-10 00:01:23] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-10 00:01:23] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240510/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-10 00:01:23] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2024-05-10 00:01:23] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.3.8.tar.gz tmp/copy-to-1.3.9.tar.gz --markdown 20240510/c/copy-to/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-10 00:01:23] INFO root fetch - processPackages [slalom-tapdance]: executing diffoscope
+[2024-05-10 00:01:23] INFO root fetch - processPackages [slalom-tapdance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slalom_tapdance-1.0.1.dev72.tar.gz tmp/slalom_tapdance-1.0.1.dev73.tar.gz --markdown 20240510/s/slalom-tapdance/1.0.1.dev72-1.0.1.dev73/README.md --exclude *.pyd
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-embed]: Downloading https://files.pythonhosted.org/packages/87/63/6426f405dfb3c208cfaaedc211563c4f3db6a26458f2eff6e59f58a517bf/flet_contrib_embed-2024.5.9.2200.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-pyodide]: Downloading https://files.pythonhosted.org/packages/c6/d2/2d385d2435a03227a4768406cb7090790b0438745db5e5a0dadec90135a1/flet_contrib_pyodide-2024.5.9.2200.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-core]: Downloading https://files.pythonhosted.org/packages/0d/c8/5926169f94dec209e9709d799dc9f2deab88d7b799f022e4af475aff4942/flet_contrib_core-2024.5.9.2200.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-10 00:01:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240510/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-10 00:01:23] INFO root fetch - processPackages [flet-contrib-runtime]: Downloading https://files.pythonhosted.org/packages/6e/87/0568977ee719f3ae3ded6b7a656dba4d1ab83c41a8aaa686d4bf5f10bf51/flet_contrib_runtime-2024.5.9.2200.tar.gz
+[2024-05-10 00:01:23] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/23/9b/7e086c2a15515ecf196da0393766200ec49ac8a52033424da629a3b9055e/guan-0.1.99.tar.gz
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contribute]: Downloading https://files.pythonhosted.org/packages/22/cd/1ba335ce2c6950e6ee03e143d71d97084768a0e5501420f28afdacb0a715/flet_contribute-2024.5.3.1625.tar.gz
+[2024-05-10 00:01:24] WARNING root fetch - processPackages [flet-contribute]: Skipping package: exceeds size limit 26493791>=10485760
+[2024-05-10 00:01:24] INFO root fetch - main [MainThread]: End processing [flet-contribute] error
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-embed]: executing diffoscope
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_contrib_embed-2024.5.3.1625.tar.gz tmp/flet_contrib_embed-2024.5.9.2200.tar.gz --markdown 20240510/f/flet-contrib-embed/2024.5.3.1625-2024.5.9.2200/README.md --exclude *.pyd
+[2024-05-10 00:01:24] INFO root fetch - processPackages [guan]: executing diffoscope
+[2024-05-10 00:01:24] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.1.98.tar.gz tmp/guan-0.1.99.tar.gz --markdown 20240510/g/guan/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-pyodide]: executing diffoscope
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_contrib_pyodide-2024.5.3.1625.tar.gz tmp/flet_contrib_pyodide-2024.5.9.2200.tar.gz --markdown 20240510/f/flet-contrib-pyodide/2024.5.3.1625-2024.5.9.2200/README.md --exclude *.pyd
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-runtime]: executing diffoscope
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_contrib_runtime-2024.5.3.1625.tar.gz tmp/flet_contrib_runtime-2024.5.9.2200.tar.gz --markdown 20240510/f/flet-contrib-runtime/2024.5.3.1625-2024.5.9.2200/README.md --exclude *.pyd
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-core]: executing diffoscope
+[2024-05-10 00:01:24] INFO root fetch - processPackages [flet-contrib-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_contrib_core-2024.5.3.1625.tar.gz tmp/flet_contrib_core-2024.5.9.2200.tar.gz --markdown 20240510/f/flet-contrib-core/2024.5.3.1625-2024.5.9.2200/README.md --exclude *.pyd
+[2024-05-10 00:01:24] INFO root fetch - processPackages [slalom-tapdance]: Remove: archive file [/home/abi/fetcher/tmp/slalom_tapdance-1.0.1.dev72.tar.gz]
+[2024-05-10 00:01:24] INFO root fetch - processPackages [slalom-tapdance]: Remove: archive file [/home/abi/fetcher/tmp/slalom_tapdance-1.0.1.dev73.tar.gz]
+[2024-05-10 00:01:24] INFO root fetch - main [MainThread]: End processing [slalom-tapdance]: success
+[2024-05-10 00:01:25] INFO root fetch - processPackages [flet-contrib-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_pyodide-2024.5.3.1625.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [flet-contrib-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_pyodide-2024.5.9.2200.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - main [MainThread]: End processing [flet-contrib-pyodide]: success
+[2024-05-10 00:01:25] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.8.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.9.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2024-05-10 00:01:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [flet-contrib-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_embed-2024.5.3.1625.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [flet-contrib-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_embed-2024.5.9.2200.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - main [MainThread]: End processing [flet-contrib-embed]: success
+[2024-05-10 00:01:25] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-10 00:01:25] INFO root fetch - processPackages [flet-contrib-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_runtime-2024.5.3.1625.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [flet-contrib-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_runtime-2024.5.9.2200.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - main [MainThread]: End processing [flet-contrib-runtime]: success
+[2024-05-10 00:01:25] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.98.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.99.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2024-05-10 00:01:25] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-10 00:01:25] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-10 00:01:26] INFO root fetch - processPackages [flet-contrib-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_core-2024.5.3.1625.tar.gz]
+[2024-05-10 00:01:26] INFO root fetch - processPackages [flet-contrib-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_contrib_core-2024.5.9.2200.tar.gz]
+[2024-05-10 00:01:26] INFO root fetch - main [MainThread]: End processing [flet-contrib-core]: success
+[2024-05-10 00:01:26] INFO root fetch - main [MainThread]: Store serial: [23138303]
