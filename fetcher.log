@@ -1151,3 +1151,27 @@
 [2024-05-10 00:50:17] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240509215225-py3-none-any.whl.zip]
 [2024-05-10 00:50:17] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-05-10 00:50:17] INFO root fetch - main [MainThread]: Store serial: [23138703]
+[2024-05-10 00:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138703]
+[2024-05-10 00:52:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 00:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-ionq
+[2024-05-10 00:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unsewz
+[2024-05-10 00:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scwrypts
+[2024-05-10 00:52:26] INFO root fetch - processPackages [scwrypts]: New version: [4.4.0] Old Version: [4.3.1]
+[2024-05-10 00:52:26] WARNING root fetch - processPackages [unsewz]: Skipping, unable to determine old version
+[2024-05-10 00:52:26] INFO root fetch - main [MainThread]: End processing [unsewz] error
+[2024-05-10 00:52:26] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240509215225] Old Version: [1.4.0.dev20240509162830]
+[2024-05-10 00:52:26] INFO root fetch - processPackages [scwrypts]: Downloading https://files.pythonhosted.org/packages/58/33/a920d23f820ac34c55356e31ce7ea0b55fab5b672757b5e2adbafb38924c/scwrypts-4.3.1.tar.gz
+[2024-05-10 00:52:26] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/0a/d3/8db912edb7529a342d7fac3eff01f2b94928d8f6badfd0663efe4d94d130/cirq_ionq-1.4.0.dev20240509162830-py3-none-any.whl
+[2024-05-10 00:52:26] INFO root fetch - processPackages [scwrypts]: Downloading https://files.pythonhosted.org/packages/e2/76/36b5829681466f4cda76b460518e9a369fc302f8daaf117b4e088dacebe4/scwrypts-4.4.0.tar.gz
+[2024-05-10 00:52:26] INFO root fetch - processPackages [scwrypts]: executing diffoscope
+[2024-05-10 00:52:26] INFO root fetch - processPackages [scwrypts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scwrypts-4.3.1.tar.gz tmp/scwrypts-4.4.0.tar.gz --markdown 20240510/s/scwrypts/4.3.1-4.4.0/README.md --exclude *.pyd
+[2024-05-10 00:52:27] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/55/4a/39263510615bd68f809a8ca02e0f5b02f2c549247aa3b2591bf7c18a75e8/cirq_ionq-1.4.0.dev20240509215225-py3-none-any.whl
+[2024-05-10 00:52:27] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-05-10 00:52:27] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240509162830-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240509215225-py3-none-any.whl.zip --markdown 20240510/c/cirq-ionq/1.4.0.dev20240509162830-1.4.0.dev20240509215225/README.md --exclude *.pyd
+[2024-05-10 00:52:27] INFO root fetch - processPackages [scwrypts]: Remove: archive file [/home/abi/fetcher/tmp/scwrypts-4.3.1.tar.gz]
+[2024-05-10 00:52:27] INFO root fetch - processPackages [scwrypts]: Remove: archive file [/home/abi/fetcher/tmp/scwrypts-4.4.0.tar.gz]
+[2024-05-10 00:52:27] INFO root fetch - main [MainThread]: End processing [scwrypts]: success
+[2024-05-10 00:52:27] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240509162830-py3-none-any.whl.zip]
+[2024-05-10 00:52:27] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240509215225-py3-none-any.whl.zip]
+[2024-05-10 00:52:27] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-05-10 00:52:27] INFO root fetch - main [MainThread]: Store serial: [23138712]
