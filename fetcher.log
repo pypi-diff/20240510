@@ -1187,3 +1187,30 @@
 [2024-05-10 00:54:37] INFO root fetch - processPackages [elucidoc]: Remove: archive file [/home/abi/fetcher/tmp/elucidoc-2024.5.8.tar.gz]
 [2024-05-10 00:54:37] INFO root fetch - main [MainThread]: End processing [elucidoc]: success
 [2024-05-10 00:54:37] INFO root fetch - main [MainThread]: Store serial: [23138717]
+[2024-05-10 00:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138717]
+[2024-05-10 00:56:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 00:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hack-vm-translator-brickman
+[2024-05-10 00:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perilenticularz
+[2024-05-10 00:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geoh5-interop
+[2024-05-10 00:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: megham
+[2024-05-10 00:56:45] INFO root fetch - processPackages [megham]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-10 00:56:45] WARNING root fetch - processPackages [perilenticularz]: Skipping, unable to determine old version
+[2024-05-10 00:56:45] INFO root fetch - main [MainThread]: End processing [perilenticularz] error
+[2024-05-10 00:56:45] INFO root fetch - processPackages [geoh5-interop]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-05-10 00:56:45] WARNING root fetch - processPackages [hack-vm-translator-brickman]: Skipping, unable to determine old version
+[2024-05-10 00:56:45] INFO root fetch - main [MainThread]: End processing [hack-vm-translator-brickman] error
+[2024-05-10 00:56:45] INFO root fetch - processPackages [megham]: Downloading https://files.pythonhosted.org/packages/2f/ab/1da84a56b717a39470329efaf72c88ec9b3b55011b2e0a2ea36eeb1a7f4f/megham-1.1.0.tar.gz
+[2024-05-10 00:56:45] INFO root fetch - processPackages [geoh5-interop]: Downloading https://files.pythonhosted.org/packages/7f/bb/569e0241fb91be2783f141448c61a80d8cceb68cf18071fb4914685e0e88/geoh5_interop-1.0.0rc1.tar.gz
+[2024-05-10 00:56:46] INFO root fetch - processPackages [megham]: Downloading https://files.pythonhosted.org/packages/14/6f/4338a769ac1ca368913ae85c41d122014d3d01feab55be8e82f029eb187b/megham-1.2.0.tar.gz
+[2024-05-10 00:56:46] INFO root fetch - processPackages [geoh5-interop]: Downloading https://files.pythonhosted.org/packages/4f/01/8bab044584e175e9ad5f6cec77b9ba71cf22942b523bf64a334fce55e57d/geoh5_interop-1.0.0rc2.tar.gz
+[2024-05-10 00:56:46] INFO root fetch - processPackages [megham]: executing diffoscope
+[2024-05-10 00:56:46] INFO root fetch - processPackages [megham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megham-1.1.0.tar.gz tmp/megham-1.2.0.tar.gz --markdown 20240510/m/megham/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-10 00:56:46] INFO root fetch - processPackages [geoh5-interop]: executing diffoscope
+[2024-05-10 00:56:46] INFO root fetch - processPackages [geoh5-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoh5_interop-1.0.0rc1.tar.gz tmp/geoh5_interop-1.0.0rc2.tar.gz --markdown 20240510/g/geoh5-interop/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-05-10 00:56:46] INFO root fetch - processPackages [geoh5-interop]: Remove: archive file [/home/abi/fetcher/tmp/geoh5_interop-1.0.0rc1.tar.gz]
+[2024-05-10 00:56:46] INFO root fetch - processPackages [geoh5-interop]: Remove: archive file [/home/abi/fetcher/tmp/geoh5_interop-1.0.0rc2.tar.gz]
+[2024-05-10 00:56:46] INFO root fetch - main [MainThread]: End processing [geoh5-interop]: success
+[2024-05-10 00:56:46] INFO root fetch - processPackages [megham]: Remove: archive file [/home/abi/fetcher/tmp/megham-1.1.0.tar.gz]
+[2024-05-10 00:56:46] INFO root fetch - processPackages [megham]: Remove: archive file [/home/abi/fetcher/tmp/megham-1.2.0.tar.gz]
+[2024-05-10 00:56:46] INFO root fetch - main [MainThread]: End processing [megham]: success
+[2024-05-10 00:56:46] INFO root fetch - main [MainThread]: Store serial: [23138732]
