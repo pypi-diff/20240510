@@ -170,3 +170,51 @@
 [2024-05-10 00:03:37] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.9.tar.gz]
 [2024-05-10 00:03:37] INFO root fetch - main [MainThread]: End processing [toomanycells]: success
 [2024-05-10 00:03:37] INFO root fetch - main [MainThread]: Store serial: [23138331]
+[2024-05-10 00:05:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138331]
+[2024-05-10 00:05:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 00:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 00:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyfit
+[2024-05-10 00:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-grpcio
+[2024-05-10 00:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai
+[2024-05-10 00:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-sheets-sdk
+[2024-05-10 00:05:46] INFO root fetch - processPackages [tinyfit]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 00:05:46] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 00:05:46] INFO root fetch - processPackages [google-sheets-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 00:05:46] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 00:05:46] INFO root fetch - processPackages [py-grpcio]: New version: [1.3.1] Old Version: [1.2.1]
+[2024-05-10 00:05:46] INFO root fetch - processPackages [google-sheets-sdk]: Downloading https://files.pythonhosted.org/packages/44/fc/d6cea37ebcdb92f1d32b1a6df09334ff7adee54f2f21c6ad8c1492b755c3/google_sheets_sdk-0.1.1.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/6c/af/d4f52f5271c5185dcb0683fdea82ccd34534111b732c96913ee6cee20ba2/protein_design_tools-0.1.7.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [tinyfit]: Downloading https://files.pythonhosted.org/packages/a0/3f/ba563ffa87952a24c8eac7c06cb735c5ae6103543f428ad4514d108fd351/tinyfit-0.0.1.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [py-grpcio]: Downloading https://files.pythonhosted.org/packages/9d/85/4badaf5f5453389f93cda2d8564ec8c1ffc0298b026b14899ab5732081c5/py_grpcio-1.2.1.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [google-sheets-sdk]: Downloading https://files.pythonhosted.org/packages/9b/9e/5e9ab54b1fb111a69d9242c64d1516b88d307206c3c8848d8ec8744d9039/google_sheets_sdk-0.1.2.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [google-sheets-sdk]: executing diffoscope
+[2024-05-10 00:05:46] INFO root fetch - processPackages [google-sheets-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_sheets_sdk-0.1.1.tar.gz tmp/google_sheets_sdk-0.1.2.tar.gz --markdown 20240510/g/google-sheets-sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 00:05:46] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [tinyfit]: Downloading https://files.pythonhosted.org/packages/62/b9/c5b6cc7b5198297b7225dfe755dc714d6819dfc4332867e8f94a3019a82a/tinyfit-0.0.2.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [py-grpcio]: Downloading https://files.pythonhosted.org/packages/4e/3f/303dc509b3d907bb892defcab63ee23ef1c0a56ac4a4d2cca05b1166b3de/py_grpcio-1.3.1.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-05-10 00:05:46] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 00:05:46] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.7.tar.gz tmp/protein_design_tools-0.1.8.tar.gz --markdown 20240510/p/protein-design-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 00:05:46] INFO root fetch - processPackages [tinyfit]: executing diffoscope
+[2024-05-10 00:05:46] INFO root fetch - processPackages [tinyfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfit-0.0.1.tar.gz tmp/tinyfit-0.0.2.tar.gz --markdown 20240510/t/tinyfit/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 00:05:47] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-05-10 00:05:47] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240510/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 00:05:47] INFO root fetch - processPackages [py-grpcio]: executing diffoscope
+[2024-05-10 00:05:47] INFO root fetch - processPackages [py-grpcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_grpcio-1.2.1.tar.gz tmp/py_grpcio-1.3.1.tar.gz --markdown 20240510/p/py-grpcio/1.2.1-1.3.1/README.md --exclude *.pyd
+[2024-05-10 00:05:47] INFO root fetch - processPackages [google-sheets-sdk]: Remove: archive file [/home/abi/fetcher/tmp/google_sheets_sdk-0.1.1.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - processPackages [google-sheets-sdk]: Remove: archive file [/home/abi/fetcher/tmp/google_sheets_sdk-0.1.2.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - main [MainThread]: End processing [google-sheets-sdk]: success
+[2024-05-10 00:05:47] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.7.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 00:05:47] INFO root fetch - processPackages [py-grpcio]: Remove: archive file [/home/abi/fetcher/tmp/py_grpcio-1.2.1.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - processPackages [py-grpcio]: Remove: archive file [/home/abi/fetcher/tmp/py_grpcio-1.3.1.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - main [MainThread]: End processing [py-grpcio]: success
+[2024-05-10 00:05:47] INFO root fetch - processPackages [tinyfit]: Remove: archive file [/home/abi/fetcher/tmp/tinyfit-0.0.1.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - processPackages [tinyfit]: Remove: archive file [/home/abi/fetcher/tmp/tinyfit-0.0.2.tar.gz]
+[2024-05-10 00:05:47] INFO root fetch - main [MainThread]: End processing [tinyfit]: success
+[2024-05-10 00:05:48] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-05-10 00:05:48] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-05-10 00:05:48] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-05-10 00:05:48] INFO root fetch - main [MainThread]: Store serial: [23138343]
