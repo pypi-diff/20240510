@@ -294,3 +294,123 @@
 [2024-05-10 00:13:07] ERROR root fetch - processPackages [cfn-lint]: Timeout during execution of pkgdiff
 [2024-05-10 00:13:07] INFO root fetch - main [MainThread]: End processing [cfn-lint] error
 [2024-05-10 00:13:07] INFO root fetch - main [MainThread]: Store serial: [23138378]
+[2024-05-10 00:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138378]
+[2024-05-10 00:15:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbl-aquarium
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shiv
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: delf
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protein-design-tools
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: REVHubInterface
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tamilnumbers
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-infraflow-cdk
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rra-tools
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alluviaz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: checkov
+[2024-05-10 00:15:16] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [vbl-aquarium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.2.dev7] Old Version: [1.3.2.dev6]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.88]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [shiv]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-10 00:15:16] WARNING root fetch - processPackages [alluviaz]: Skipping, unable to determine old version
+[2024-05-10 00:15:16] INFO root fetch - processPackages [alluviaz]: Start processing: SQLDataModel
+[2024-05-10 00:15:16] INFO root fetch - main [MainThread]: End processing [alluviaz] error
+[2024-05-10 00:15:16] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 00:15:16] WARNING root fetch - processPackages [rra-tools]: Skipping, unable to determine old version
+[2024-05-10 00:15:16] INFO root fetch - processPackages [rra-tools]: Start processing: KFSlog
+[2024-05-10 00:15:16] INFO root fetch - main [MainThread]: End processing [rra-tools] error
+[2024-05-10 00:15:16] WARNING root fetch - processPackages [Tamilnumbers]: Skipping, unable to determine old version
+[2024-05-10 00:15:16] INFO root fetch - processPackages [Tamilnumbers]: Start processing: mayan-importer
+[2024-05-10 00:15:16] INFO root fetch - main [MainThread]: End processing [Tamilnumbers] error
+[2024-05-10 00:15:16] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.9.0.8] Old Version: [0.1.9.9.0.7]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [delf]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/17/a8/727ee31f6d6197ab57b31ae006428d162efe6e5b9a2a38bd805787539e4e/revhubinterface-1.3.2.dev6.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/31/a0/700b83101a9f634db7452e49f589cfbd501b21409984da5a0265d32a46bb/checkov-3.2.88.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [shiv]: Downloading https://files.pythonhosted.org/packages/f8/4b/11a41374015b592e6de7e17164e923da5f7830b5e1a89c96e88f159d588a/shiv-1.0.5.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [vbl-aquarium]: Downloading https://files.pythonhosted.org/packages/71/85/0999a87a8c383e07f0c218a3b9830993449d5ff41355c703f1680a33af74/vbl_aquarium-0.0.8.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [SQLDataModel]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [KFSlog]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [mayan-importer]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-05-10 00:15:16] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/bd/86/0eee8496383f088007b699e9595c44b852c99d69b0e5c0d9b35903891ac2/py_infraflow_cdk-0.1.9.9.0.7.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [delf]: Downloading https://files.pythonhosted.org/packages/62/af/bc514ba8f185006e91522b58736897bafda311cc976b0b0ce4d5bbf4a1a1/delf-0.1.3.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/44/41/1d34c323b159e218481ac70ee73120b04208ac3321241dfb902f8b22cc83/revhubinterface-1.3.2.dev7.tar.gz
+[2024-05-10 00:15:16] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/ed/1e/711865a46c6a68c3cac10e0ed55b8fcd08c19395a7b371d1d747f6eedde0/sqldatamodel-0.4.3.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/8e/a1/53555e938f816a1aa4dafd9abcb9832f63297a8e2982f29b830f76efa03f/mayan-importer-3.2.1.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [KFSlog]: Downloading https://files.pythonhosted.org/packages/89/20/8f06883e0d262013349d93c2084af6e1faaf934bdc28484b0c6648313075/kfslog-1.1.1.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [shiv]: Downloading https://files.pythonhosted.org/packages/85/ce/7fddd356c382a5959655d0afe723d36273d3332bc4ae4d783f5811dd3e5b/shiv-1.0.6.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [vbl-aquarium]: Downloading https://files.pythonhosted.org/packages/88/c6/569de4dc5f361160cc7222d92400c6976b7359b325be1c45a6900bf337be/vbl_aquarium-0.0.9.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.2.dev6.tar.gz tmp/revhubinterface-1.3.2.dev7.tar.gz --markdown 20240510/R/REVHubInterface/1.3.2.dev6-1.3.2.dev7/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/e6/90/6a2899f46f57d36284a39f5b71a4ef60bfa7e40cad83d20af6460c5083ae/py_infraflow_cdk-0.1.9.9.0.8.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [delf]: Downloading https://files.pythonhosted.org/packages/ea/8e/b6e83e465c6ac5c7ce1808cd7cf55662103bd7f2411016351943f3fe59d2/delf-0.1.4.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [shiv]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [shiv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiv-1.0.5.tar.gz tmp/shiv-1.0.6.tar.gz --markdown 20240510/s/shiv/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.88.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240510/c/checkov/3.2.88-3.2.9/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.9.0.7.tar.gz tmp/py_infraflow_cdk-0.1.9.9.0.8.tar.gz --markdown 20240510/p/py-infraflow-cdk/0.1.9.9.0.7-0.1.9.9.0.8/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/7d/5d/7946c8516d5101b027b2312c6ed87fdab509e44ac2c6bded9171ce03252e/sqldatamodel-0.5.0.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/12/fc/b9d4372c0a415fd044d01180f47c46e99d4c537ef5b58383393d9e8bd374/mayan-importer-3.2.2.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [vbl-aquarium]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [vbl-aquarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbl_aquarium-0.0.8.tar.gz tmp/vbl_aquarium-0.0.9.tar.gz --markdown 20240510/v/vbl-aquarium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [KFSlog]: Downloading https://files.pythonhosted.org/packages/38/80/30539615f69d1b685200dd844fc277fae9b7f9c7132e4c581bb32506fd06/kfslog-2.0.0.tar.gz
+[2024-05-10 00:15:17] INFO root fetch - processPackages [delf]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [delf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delf-0.1.3.tar.gz tmp/delf-0.1.4.tar.gz --markdown 20240510/d/delf/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [KFSlog]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [KFSlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfslog-1.1.1.tar.gz tmp/kfslog-2.0.0.tar.gz --markdown 20240510/K/KFSlog/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [SQLDataModel]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [SQLDataModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqldatamodel-0.4.3.tar.gz tmp/sqldatamodel-0.5.0.tar.gz --markdown 20240510/S/SQLDataModel/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [mayan-importer]: executing diffoscope
+[2024-05-10 00:15:17] INFO root fetch - processPackages [mayan-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-importer-3.2.1.tar.gz tmp/mayan-importer-3.2.2.tar.gz --markdown 20240510/m/mayan-importer/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-05-10 00:15:17] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 00:15:17] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 00:15:17] INFO root fetch - processPackages [protein-design-tools]: Start processing: google-sheets-sdk
+[2024-05-10 00:15:17] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 00:15:17] INFO root fetch - processPackages [google-sheets-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 00:15:17] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev6.tar.gz]
+[2024-05-10 00:15:17] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev7.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [REVHubInterface]: Start processing: sbcli-mig
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-10 00:15:18] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/6b/ca/195b17c881ccf7d806544ac663e3d3ba0fdf8d4fb2d49de83841f3a372d8/sbcli_mig-1.0.98.zip
+[2024-05-10 00:15:18] INFO root fetch - processPackages [google-sheets-sdk]: Downloading https://files.pythonhosted.org/packages/9d/c5/53687ff5d9066f6c9ea2002764575b635e53892cad8b5fe12f08518afd79/google_sheets_sdk-0.1.3.tar.gz
+[2024-05-10 00:15:18] INFO root fetch - processPackages [shiv]: Remove: archive file [/home/abi/fetcher/tmp/shiv-1.0.5.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [shiv]: Remove: archive file [/home/abi/fetcher/tmp/shiv-1.0.6.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [shiv]: success
+[2024-05-10 00:15:18] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.7.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.8.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-05-10 00:15:18] INFO root fetch - processPackages [KFSlog]: Remove: archive file [/home/abi/fetcher/tmp/kfslog-1.1.1.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [KFSlog]: Remove: archive file [/home/abi/fetcher/tmp/kfslog-2.0.0.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [KFSlog]: success
+[2024-05-10 00:15:18] INFO root fetch - processPackages [google-sheets-sdk]: Downloading https://files.pythonhosted.org/packages/58/e9/d1691b1cc3fe9b3aa5d7830734ecade768707f27d9aa35f34612d3371c30/google_sheets_sdk-0.1.4.tar.gz
+[2024-05-10 00:15:18] INFO root fetch - processPackages [vbl-aquarium]: Remove: archive file [/home/abi/fetcher/tmp/vbl_aquarium-0.0.8.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [vbl-aquarium]: Remove: archive file [/home/abi/fetcher/tmp/vbl_aquarium-0.0.9.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [vbl-aquarium]: success
+[2024-05-10 00:15:18] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/cf/04/ae220da966a36c254f338107cfb89676096dd3639725049e08c36876035d/sbcli_mig-1.0.99.zip
+[2024-05-10 00:15:18] INFO root fetch - processPackages [delf]: Remove: archive file [/home/abi/fetcher/tmp/delf-0.1.3.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [delf]: Remove: archive file [/home/abi/fetcher/tmp/delf-0.1.4.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [delf]: success
+[2024-05-10 00:15:18] INFO root fetch - processPackages [google-sheets-sdk]: executing diffoscope
+[2024-05-10 00:15:18] INFO root fetch - processPackages [google-sheets-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_sheets_sdk-0.1.3.tar.gz tmp/google_sheets_sdk-0.1.4.tar.gz --markdown 20240510/g/google-sheets-sdk/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 00:15:18] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-05-10 00:15:18] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mig-1.0.98.zip tmp/sbcli_mig-1.0.99.zip --markdown 20240510/s/sbcli-mig/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-10 00:15:18] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-3.2.1.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-3.2.2.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [mayan-importer]: success
+[2024-05-10 00:15:18] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/sqldatamodel-0.4.3.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/sqldatamodel-0.5.0.tar.gz]
+[2024-05-10 00:15:18] INFO root fetch - main [MainThread]: End processing [SQLDataModel]: success
+[2024-05-10 00:15:19] INFO root fetch - processPackages [google-sheets-sdk]: Remove: archive file [/home/abi/fetcher/tmp/google_sheets_sdk-0.1.3.tar.gz]
+[2024-05-10 00:15:19] INFO root fetch - processPackages [google-sheets-sdk]: Remove: archive file [/home/abi/fetcher/tmp/google_sheets_sdk-0.1.4.tar.gz]
+[2024-05-10 00:15:19] INFO root fetch - main [MainThread]: End processing [google-sheets-sdk]: success
+[2024-05-10 00:15:19] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.98.zip]
+[2024-05-10 00:15:19] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.99.zip]
+[2024-05-10 00:15:19] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-05-10 00:15:25] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.88.tar.gz]
+[2024-05-10 00:15:25] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-10 00:15:25] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-10 00:15:25] INFO root fetch - main [MainThread]: Store serial: [23138426]
