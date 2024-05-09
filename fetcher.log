@@ -1478,3 +1478,9 @@
 [2024-05-10 01:12:05] INFO root fetch - processPackages [PygameXtras]: Remove: archive file [/home/abi/fetcher/tmp/pygamextras-1.1.4.tar.gz]
 [2024-05-10 01:12:05] INFO root fetch - main [MainThread]: End processing [PygameXtras]: success
 [2024-05-10 01:12:05] INFO root fetch - main [MainThread]: Store serial: [23138824]
+[2024-05-10 01:14:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138824]
+[2024-05-10 01:14:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 01:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amberoidsz
+[2024-05-10 01:14:13] WARNING root fetch - processPackages [amberoidsz]: Skipping, unable to determine old version
+[2024-05-10 01:14:13] INFO root fetch - main [MainThread]: End processing [amberoidsz] error
+[2024-05-10 01:14:13] INFO root fetch - main [MainThread]: Store serial: [23138828]
