@@ -706,3 +706,38 @@
 [2024-05-10 00:31:48] INFO root fetch - processPackages [cutensornet-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu11-2.4.0.post0-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-10 00:31:48] INFO root fetch - main [MainThread]: End processing [cutensornet-cu11]: success
 [2024-05-10 00:31:48] INFO root fetch - main [MainThread]: Store serial: [23138557]
+[2024-05-10 00:33:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138557]
+[2024-05-10 00:34:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 00:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ion-python
+[2024-05-10 00:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yamcs-pymdb
+[2024-05-10 00:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdsfactory
+[2024-05-10 00:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wild-code
+[2024-05-10 00:34:04] INFO root fetch - processPackages [ion-python]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-05-10 00:34:04] INFO root fetch - processPackages [yamcs-pymdb]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-10 00:34:04] INFO root fetch - processPackages [wild-code]: New version: [0.3.0.dev0] Old Version: [0.1.0.dev735]
+[2024-05-10 00:34:04] INFO root fetch - processPackages [gdsfactory]: New version: [7.9.4] Old Version: [7.9.3]
+[2024-05-10 00:34:04] INFO root fetch - processPackages [ion-python]: Downloading https://files.pythonhosted.org/packages/10/72/1eb46df33d157387bbf22fe22db2b99afdc502ade4f09d7c5f1a6f314a97/ion_python-1.8.1-py3-none-win_amd64.whl
+[2024-05-10 00:34:04] INFO root fetch - processPackages [yamcs-pymdb]: Downloading https://files.pythonhosted.org/packages/70/19/bf17012a1bfcbc2bb9c75e606159def3979d6c23a7c201b02111ee8642c4/yamcs_pymdb-1.0.6.tar.gz
+[2024-05-10 00:34:04] INFO root fetch - processPackages [wild-code]: Downloading https://files.pythonhosted.org/packages/72/68/acbe65ab0011f325882ffc28a68de2003857e704275ba348c70534471ca4/wild_code-0.1.0.dev735.tar.gz
+[2024-05-10 00:34:04] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/1c/96/7a29503ca823dbf6601482ccaa06c4ed69751cfe757c588af2d42d0144a1/gdsfactory-7.9.3.tar.gz
+[2024-05-10 00:34:04] WARNING root fetch - processPackages [ion-python]: Skipping package: exceeds size limit 45725490>=10485760
+[2024-05-10 00:34:04] INFO root fetch - main [MainThread]: End processing [ion-python] error
+[2024-05-10 00:34:05] INFO root fetch - processPackages [wild-code]: Downloading https://files.pythonhosted.org/packages/e2/8b/d5f39f234c14ef6402e92d925f7f63b2cbc32796bb7f2e4b551e735205f2/wild_code-0.3.0.dev0.tar.gz
+[2024-05-10 00:34:05] INFO root fetch - processPackages [yamcs-pymdb]: Downloading https://files.pythonhosted.org/packages/e3/15/b356d1a0f3ee971179f3d7309636301b52716bd6cd22fe4c32c3e7219dbd/yamcs_pymdb-1.0.7.tar.gz
+[2024-05-10 00:34:05] INFO root fetch - processPackages [wild-code]: executing diffoscope
+[2024-05-10 00:34:05] INFO root fetch - processPackages [wild-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wild_code-0.1.0.dev735.tar.gz tmp/wild_code-0.3.0.dev0.tar.gz --markdown 20240510/w/wild-code/0.1.0.dev735-0.3.0.dev0/README.md --exclude *.pyd
+[2024-05-10 00:34:05] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/9f/1a/628268e13c9a7b40bfd62de355f5bf3a597a44e601c8a59044e8b419bfe9/gdsfactory-7.9.4.tar.gz
+[2024-05-10 00:34:05] INFO root fetch - processPackages [yamcs-pymdb]: executing diffoscope
+[2024-05-10 00:34:05] INFO root fetch - processPackages [yamcs-pymdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamcs_pymdb-1.0.6.tar.gz tmp/yamcs_pymdb-1.0.7.tar.gz --markdown 20240510/y/yamcs-pymdb/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-10 00:34:05] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2024-05-10 00:34:05] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.9.3.tar.gz tmp/gdsfactory-7.9.4.tar.gz --markdown 20240510/g/gdsfactory/7.9.3-7.9.4/README.md --exclude *.pyd
+[2024-05-10 00:34:05] INFO root fetch - processPackages [yamcs-pymdb]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_pymdb-1.0.6.tar.gz]
+[2024-05-10 00:34:05] INFO root fetch - processPackages [yamcs-pymdb]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_pymdb-1.0.7.tar.gz]
+[2024-05-10 00:34:05] INFO root fetch - main [MainThread]: End processing [yamcs-pymdb]: success
+[2024-05-10 00:34:05] INFO root fetch - processPackages [wild-code]: Remove: archive file [/home/abi/fetcher/tmp/wild_code-0.1.0.dev735.tar.gz]
+[2024-05-10 00:34:05] INFO root fetch - processPackages [wild-code]: Remove: archive file [/home/abi/fetcher/tmp/wild_code-0.3.0.dev0.tar.gz]
+[2024-05-10 00:34:05] INFO root fetch - main [MainThread]: End processing [wild-code]: success
+[2024-05-10 00:34:07] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.3.tar.gz]
+[2024-05-10 00:34:07] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
+[2024-05-10 00:34:07] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2024-05-10 00:34:07] INFO root fetch - main [MainThread]: Store serial: [23138575]
