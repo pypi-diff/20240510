@@ -1505,3 +1505,42 @@
 [2024-05-10 01:16:23] INFO root fetch - processPackages [bellybuttonseg]: Remove: archive file [/home/abi/fetcher/tmp/bellybuttonseg-0.0.9.tar.gz]
 [2024-05-10 01:16:23] INFO root fetch - main [MainThread]: End processing [bellybuttonseg]: success
 [2024-05-10 01:16:23] INFO root fetch - main [MainThread]: Store serial: [23138835]
+[2024-05-10 01:18:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138835]
+[2024-05-10 01:18:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwtm-api
+[2024-05-10 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prerogativityz
+[2024-05-10 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lemmy2fedi
+[2024-05-10 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devicebay
+[2024-05-10 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpleworkspace
+[2024-05-10 01:18:32] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 01:18:32] INFO root fetch - processPackages [devicebay]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 01:18:32] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.197] Old Version: [1.2.196]
+[2024-05-10 01:18:32] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 01:18:32] WARNING root fetch - processPackages [lemmy2fedi]: Skipping, unable to determine old version
+[2024-05-10 01:18:32] INFO root fetch - main [MainThread]: End processing [lemmy2fedi] error
+[2024-05-10 01:18:32] WARNING root fetch - processPackages [gwtm-api]: Skipping, unable to determine old version
+[2024-05-10 01:18:32] INFO root fetch - main [MainThread]: End processing [gwtm-api] error
+[2024-05-10 01:18:32] WARNING root fetch - processPackages [prerogativityz]: Skipping, unable to determine old version
+[2024-05-10 01:18:32] INFO root fetch - main [MainThread]: End processing [prerogativityz] error
+[2024-05-10 01:18:32] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/d2/2b/4d3dd2c814c68fcb8ebf2e5ff8b2e0aa58ca9b4987f026e40a89036eb433/simpleworkspace-1.2.196.tar.gz
+[2024-05-10 01:18:32] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/5d/35/9e41c1d2bd15e88729fdcd5b62b4a7de5dbc1c8a97674c8e26f2bbb51cc2/devicebay-0.1.8.tar.gz
+[2024-05-10 01:18:32] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 01:18:32] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/e5/96/b13c67b11af0747066e9d93a63ece2bb5f80d597ff1909a2e3178ec12a2c/devicebay-0.1.9.tar.gz
+[2024-05-10 01:18:32] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 01:18:32] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 01:18:32] INFO root fetch - processPackages [devicebay]: executing diffoscope
+[2024-05-10 01:18:32] INFO root fetch - processPackages [devicebay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devicebay-0.1.8.tar.gz tmp/devicebay-0.1.9.tar.gz --markdown 20240510/d/devicebay/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 01:18:32] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/b3/6d/536876074f71ea40d23ae668fe7f24e1387db26a6399e3e3a89710ea4562/simpleworkspace-1.2.197.tar.gz
+[2024-05-10 01:18:33] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-10 01:18:33] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.196.tar.gz tmp/simpleworkspace-1.2.197.tar.gz --markdown 20240510/s/simpleworkspace/1.2.196-1.2.197/README.md --exclude *.pyd
+[2024-05-10 01:18:33] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 01:18:33] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 01:18:33] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 01:18:33] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.8.tar.gz]
+[2024-05-10 01:18:33] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.9.tar.gz]
+[2024-05-10 01:18:33] INFO root fetch - main [MainThread]: End processing [devicebay]: success
+[2024-05-10 01:18:33] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.196.tar.gz]
+[2024-05-10 01:18:33] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.197.tar.gz]
+[2024-05-10 01:18:33] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-10 01:18:33] INFO root fetch - main [MainThread]: Store serial: [23138856]
