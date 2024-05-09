@@ -1364,3 +1364,36 @@
 [2024-05-10 01:03:22] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
 [2024-05-10 01:03:22] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-05-10 01:03:22] INFO root fetch - main [MainThread]: Store serial: [23138781]
+[2024-05-10 01:05:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138781]
+[2024-05-10 01:05:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 01:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake.py
+[2024-05-10 01:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasurface
+[2024-05-10 01:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-05-10 01:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdsfactory
+[2024-05-10 01:05:30] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240508] Old Version: [0.7.52b20240507]
+[2024-05-10 01:05:30] INFO root fetch - processPackages [gdsfactory]: New version: [7.9.4] Old Version: [7.9.3]
+[2024-05-10 01:05:31] INFO root fetch - processPackages [fake.py]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-10 01:05:31] ERROR root fetch - processPackages [datasurface]: Unable to get metadata: No such project 'datasurface'
+[2024-05-10 01:05:31] INFO root fetch - main [MainThread]: End processing [datasurface] error
+[2024-05-10 01:05:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/30/3d/0b2e5e5799c8397df74036790f65cef508280c66c859a5c581f29e091823/tmnt-0.7.52b20240507.tar.gz
+[2024-05-10 01:05:31] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/1c/96/7a29503ca823dbf6601482ccaa06c4ed69751cfe757c588af2d42d0144a1/gdsfactory-7.9.3.tar.gz
+[2024-05-10 01:05:31] INFO root fetch - processPackages [fake.py]: Downloading https://files.pythonhosted.org/packages/74/04/618cc3598581813f41b9064f2227294799c1a1bf5fbc9102f02168ff9e41/fake_py-0.6.8.tar.gz
+[2024-05-10 01:05:31] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/9f/1a/628268e13c9a7b40bfd62de355f5bf3a597a44e601c8a59044e8b419bfe9/gdsfactory-7.9.4.tar.gz
+[2024-05-10 01:05:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/36/05/ceda9a5e97d4b744c1c3b6a637e1abbd1cff6cb8db24155ac60a8b4bba8e/tmnt-0.7.52b20240508.tar.gz
+[2024-05-10 01:05:31] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2024-05-10 01:05:31] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.9.3.tar.gz tmp/gdsfactory-7.9.4.tar.gz --markdown 20240510/g/gdsfactory/7.9.3-7.9.4/README.md --exclude *.pyd
+[2024-05-10 01:05:31] INFO root fetch - processPackages [fake.py]: Downloading https://files.pythonhosted.org/packages/dc/64/9869483c337d11f8dbd45f2d57f1634ad273b6a25cf57fad9d447343c4e3/fake_py-0.6.9.tar.gz
+[2024-05-10 01:05:31] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-10 01:05:31] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240507.tar.gz tmp/tmnt-0.7.52b20240508.tar.gz --markdown 20240510/t/tmnt/0.7.52b20240507-0.7.52b20240508/README.md --exclude *.pyd
+[2024-05-10 01:05:31] INFO root fetch - processPackages [fake.py]: executing diffoscope
+[2024-05-10 01:05:31] INFO root fetch - processPackages [fake.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_py-0.6.8.tar.gz tmp/fake_py-0.6.9.tar.gz --markdown 20240510/f/fake.py/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-10 01:05:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240507.tar.gz]
+[2024-05-10 01:05:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240508.tar.gz]
+[2024-05-10 01:05:32] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-10 01:05:32] INFO root fetch - processPackages [fake.py]: Remove: archive file [/home/abi/fetcher/tmp/fake_py-0.6.8.tar.gz]
+[2024-05-10 01:05:32] INFO root fetch - processPackages [fake.py]: Remove: archive file [/home/abi/fetcher/tmp/fake_py-0.6.9.tar.gz]
+[2024-05-10 01:05:32] INFO root fetch - main [MainThread]: End processing [fake.py]: success
+[2024-05-10 01:05:34] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.3.tar.gz]
+[2024-05-10 01:05:34] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
+[2024-05-10 01:05:34] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2024-05-10 01:05:34] INFO root fetch - main [MainThread]: Store serial: [23138793]
