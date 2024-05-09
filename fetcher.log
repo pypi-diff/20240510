@@ -980,3 +980,69 @@
 [2024-05-10 00:45:16] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.8.0.20240509-py3-none-any.whl.zip]
 [2024-05-10 00:45:16] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
 [2024-05-10 00:45:16] INFO root fetch - main [MainThread]: Store serial: [23138660]
+[2024-05-10 00:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138660]
+[2024-05-10 00:47:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 00:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexwatershed
+[2024-05-10 00:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usercloudssdk
+[2024-05-10 00:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2024-05-10 00:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enola
+[2024-05-10 00:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simpeg-drivers
+[2024-05-10 00:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: burr
+[2024-05-10 00:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cae-cli
+[2024-05-10 00:47:25] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-10 00:47:25] INFO root fetch - processPackages [cae-cli]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-10 00:47:25] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.89]
+[2024-05-10 00:47:25] INFO root fetch - processPackages [enola]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-10 00:47:25] INFO root fetch - processPackages [simpeg-drivers]: New version: [0.1.0rc1] Old Version: [0.1.0b4]
+[2024-05-10 00:47:25] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 00:47:25] INFO root fetch - processPackages [usercloudssdk]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-10 00:47:25] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-05-10 00:47:25] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/1d/8c/54a5aca8b928893223253db79fba57fe735cfa8a12e3a6342d89e14b1b24/cae_cli-0.2.6.tar.gz
+[2024-05-10 00:47:25] INFO root fetch - processPackages [enola]: Downloading https://files.pythonhosted.org/packages/68/2b/2fe4e9dfe54c5e128b72fbbc4c1a44ca43f9c1bc800ef5e0fed2174fccce/enola-0.6.0.tar.gz
+[2024-05-10 00:47:25] INFO root fetch - processPackages [simpeg-drivers]: Downloading https://files.pythonhosted.org/packages/03/d8/b6c5435caa4a1cb129775984d1e34404505c7c08412cf2cb4ee1d7c9cb94/simpeg_drivers-0.1.0b4.tar.gz
+[2024-05-10 00:47:25] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/f1/b9/5aff71a9ce224e5338ab5421e777f488be2c7fd8c1a563adc3baf6b474c2/hexwatershed-0.2.8.tar.gz
+[2024-05-10 00:47:25] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/56/88/ee03b1a30f4f02b1eb1b0262f51fc7e5b8072985c92635cc46f1f79e05db/bridgecrew-3.2.89.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [usercloudssdk]: Downloading https://files.pythonhosted.org/packages/62/4c/7b485eb68ffa2fba3777aa68f0b94dc86c401fb250808f408134924d8cc3/usercloudssdk-1.6.0.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [usercloudssdk]: Downloading https://files.pythonhosted.org/packages/4f/60/a34188ec3bdea5e74e18d85e193314e2c9db7a69be451790ef1d4039c8c5/usercloudssdk-1.7.0.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/9e/bd/57007caedda72a9cd3e96756cd60ae069057859d28ea13d7054b60c4face/cae_cli-0.2.7.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/2f/01/3614f3e8d99dce9c3a3bb0bf3d64f02a76124d5a57315e77ca22eface8f9/hexwatershed-0.2.9.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [enola]: Downloading https://files.pythonhosted.org/packages/a4/18/7e4a13e49b35d813db89cd493942446cb5775f81b171b142dec1682d7454/enola-0.7.0.tar.gz
+[2024-05-10 00:47:26] INFO root fetch - processPackages [usercloudssdk]: executing diffoscope
+[2024-05-10 00:47:26] INFO root fetch - processPackages [usercloudssdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usercloudssdk-1.6.0.tar.gz tmp/usercloudssdk-1.7.0.tar.gz --markdown 20240510/u/usercloudssdk/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-10 00:47:26] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-10 00:47:26] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.2.6.tar.gz tmp/cae_cli-0.2.7.tar.gz --markdown 20240510/c/cae-cli/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-10 00:47:26] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-10 00:47:26] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.89.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240510/b/bridgecrew/3.2.89-3.2.9/README.md --exclude *.pyd
+[2024-05-10 00:47:26] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2024-05-10 00:47:26] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.8.tar.gz tmp/hexwatershed-0.2.9.tar.gz --markdown 20240510/h/hexwatershed/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 00:47:26] INFO root fetch - processPackages [enola]: executing diffoscope
+[2024-05-10 00:47:26] INFO root fetch - processPackages [enola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enola-0.6.0.tar.gz tmp/enola-0.7.0.tar.gz --markdown 20240510/e/enola/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-10 00:47:26] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-05-10 00:47:26] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240510/b/burr/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-10 00:47:27] INFO root fetch - processPackages [simpeg-drivers]: Downloading https://files.pythonhosted.org/packages/87/24/389f4a837a4fb19f0e975d4430e68cbab428fcf7b0fa9e2cc9cc688f8c72/simpeg_drivers-0.1.0rc1.tar.gz
+[2024-05-10 00:47:27] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.6.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.7.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-10 00:47:27] INFO root fetch - processPackages [enola]: Remove: archive file [/home/abi/fetcher/tmp/enola-0.6.0.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - processPackages [enola]: Remove: archive file [/home/abi/fetcher/tmp/enola-0.7.0.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - main [MainThread]: End processing [enola]: success
+[2024-05-10 00:47:27] INFO root fetch - processPackages [simpeg-drivers]: executing diffoscope
+[2024-05-10 00:47:27] INFO root fetch - processPackages [simpeg-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpeg_drivers-0.1.0b4.tar.gz tmp/simpeg_drivers-0.1.0rc1.tar.gz --markdown 20240510/s/simpeg-drivers/0.1.0b4-0.1.0rc1/README.md --exclude *.pyd
+[2024-05-10 00:47:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.89.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-10 00:47:27] INFO root fetch - processPackages [hexwatershed]: Remove: archive file [/home/abi/fetcher/tmp/hexwatershed-0.2.8.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - processPackages [hexwatershed]: Remove: archive file [/home/abi/fetcher/tmp/hexwatershed-0.2.9.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2024-05-10 00:47:27] INFO root fetch - processPackages [usercloudssdk]: Remove: archive file [/home/abi/fetcher/tmp/usercloudssdk-1.6.0.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - processPackages [usercloudssdk]: Remove: archive file [/home/abi/fetcher/tmp/usercloudssdk-1.7.0.tar.gz]
+[2024-05-10 00:47:27] INFO root fetch - main [MainThread]: End processing [usercloudssdk]: success
+[2024-05-10 00:47:28] INFO root fetch - processPackages [simpeg-drivers]: Remove: archive file [/home/abi/fetcher/tmp/simpeg_drivers-0.1.0b4.tar.gz]
+[2024-05-10 00:47:28] INFO root fetch - processPackages [simpeg-drivers]: Remove: archive file [/home/abi/fetcher/tmp/simpeg_drivers-0.1.0rc1.tar.gz]
+[2024-05-10 00:47:28] INFO root fetch - main [MainThread]: End processing [simpeg-drivers]: success
+[2024-05-10 00:48:02] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-05-10 00:48:02] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-05-10 00:48:02] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-05-10 00:48:02] INFO root fetch - main [MainThread]: Store serial: [23138679]
