@@ -633,3 +633,76 @@
 [2024-05-10 00:28:58] INFO root fetch - processPackages [cuquantum-python-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_python_cu12-24.3.0.post0-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-10 00:28:58] INFO root fetch - main [MainThread]: End processing [cuquantum-python-cu12]: success
 [2024-05-10 00:28:58] INFO root fetch - main [MainThread]: Store serial: [23138524]
+[2024-05-10 00:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138524]
+[2024-05-10 00:31:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custatevec-cu11
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custatevec-cu12
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cutensornet-cu11
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cutensornet-cu12
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unballastingz
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cuquantum
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cuquantum-python
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KFSconfig
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lastree
+[2024-05-10 00:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protein-design-tools
+[2024-05-10 00:31:24] INFO root fetch - processPackages [custatevec-cu12]: New version: [1.6.0.post0] Old Version: [1.5.0]
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cutensornet-cu11]: New version: [2.4.0.post0] Old Version: [2.3.0]
+[2024-05-10 00:31:24] INFO root fetch - processPackages [custatevec-cu11]: New version: [1.6.0.post0] Old Version: [1.5.0]
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum-python]: New version: [24.3.0.post0] Old Version: [23.6.0]
+[2024-05-10 00:31:24] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum]: New version: [24.3.0.post0] Old Version: [23.6.1]
+[2024-05-10 00:31:24] WARNING root fetch - processPackages [lastree]: Skipping, unable to determine old version
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cutensornet-cu12]: New version: [2.4.0.post0] Old Version: [2.3.0]
+[2024-05-10 00:31:24] INFO root fetch - main [MainThread]: End processing [lastree] error
+[2024-05-10 00:31:24] INFO root fetch - processPackages [KFSconfig]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-10 00:31:24] WARNING root fetch - processPackages [unballastingz]: Skipping, unable to determine old version
+[2024-05-10 00:31:24] INFO root fetch - main [MainThread]: End processing [unballastingz] error
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cutensornet-cu12]: Downloading https://files.pythonhosted.org/packages/01/da/bc3609d47a749bf49bedd2749919a7f8d6d1d77ce3dbe0c3988567973d34/cutensornet_cu12-2.3.0-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 00:31:24] INFO root fetch - processPackages [custatevec-cu12]: Downloading https://files.pythonhosted.org/packages/1c/46/e2d8bb84194e622fe1d5a4011997e0fef192dfe879466e74739c9edd579a/custatevec_cu12-1.5.0-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cutensornet-cu11]: Downloading https://files.pythonhosted.org/packages/73/4c/2d3d2909e03a70ad9b97bad805995ad72a550e2b05c7c855db7f4841bf2b/cutensornet_cu11-2.3.0-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 00:31:24] INFO root fetch - processPackages [custatevec-cu11]: Downloading https://files.pythonhosted.org/packages/38/81/f216a261502120a031b17a2e752b9a7462ea8d1c5f34b2e2062afea6b1f5/custatevec_cu11-1.5.0-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 00:31:24] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum-python]: Downloading https://files.pythonhosted.org/packages/6e/dd/de2ddebd111001f06d1eb072c4a9f4a8c6245e8a4ba51ab3115ddd6e8d65/cuquantum-python-23.6.0.tar.gz
+[2024-05-10 00:31:24] WARNING root fetch - processPackages [custatevec-cu12]: Skipping package: exceeds size limit 38426197>=10485760
+[2024-05-10 00:31:24] INFO root fetch - main [MainThread]: End processing [custatevec-cu12] error
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum]: Downloading https://files.pythonhosted.org/packages/71/10/1992b64f01db4f4fa91cec140e8b9e3febde2d902f5fd903da129af4dc58/cuquantum-23.6.1.tar.gz
+[2024-05-10 00:31:24] WARNING root fetch - processPackages [custatevec-cu11]: Skipping package: exceeds size limit 38918605>=10485760
+[2024-05-10 00:31:24] INFO root fetch - main [MainThread]: End processing [custatevec-cu11] error
+[2024-05-10 00:31:24] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/2f/43/1949c5d1c48d95abd72a76a023838dbd66186fdf108dd640c8a68c81c21a/kfsconfig-2.1.1.tar.gz
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum-python]: Downloading https://files.pythonhosted.org/packages/37/ad/50d75bed19a88c6f543e79c2a5f85c4cc0b7cfa0eebde861491d0ac10ca5/cuquantum_python-24.3.0.post0.tar.gz
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum]: Downloading https://files.pythonhosted.org/packages/a9/4e/d91c4471a38587c26e694c7ae1e580544d236ceb7880180071acc4e89449/cuquantum-24.3.0.post0.tar.gz
+[2024-05-10 00:31:24] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum-python]: executing diffoscope
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuquantum-python-23.6.0.tar.gz tmp/cuquantum_python-24.3.0.post0.tar.gz --markdown 20240510/c/cuquantum-python/23.6.0-24.3.0.post0/README.md --exclude *.pyd
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum]: executing diffoscope
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cuquantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuquantum-23.6.1.tar.gz tmp/cuquantum-24.3.0.post0.tar.gz --markdown 20240510/c/cuquantum/23.6.1-24.3.0.post0/README.md --exclude *.pyd
+[2024-05-10 00:31:24] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/3f/b9/fd8637047d9ff7f05b43a430d1a39bb625fccdace99334850f6131065d1e/kfsconfig-2.1.2.tar.gz
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cutensornet-cu11]: Downloading https://files.pythonhosted.org/packages/62/75/f15a2dfc613015d9cc1705ccc4d84f4edee540c6cb171f2ea6d6432f2c98/cutensornet_cu11-2.4.0.post0-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 00:31:24] INFO root fetch - processPackages [cutensornet-cu12]: Downloading https://files.pythonhosted.org/packages/6a/e5/a5b4a18ccdad01a5e121c942155e2d4e2d7d3872c6277584d2c739936422/cutensornet_cu12-2.4.0.post0-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 00:31:24] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 00:31:24] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 00:31:25] INFO root fetch - processPackages [KFSconfig]: executing diffoscope
+[2024-05-10 00:31:25] INFO root fetch - processPackages [KFSconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsconfig-2.1.1.tar.gz tmp/kfsconfig-2.1.2.tar.gz --markdown 20240510/K/KFSconfig/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cutensornet-cu11]: executing diffoscope
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cutensornet-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutensornet_cu11-2.3.0-py3-none-manylinux2014_x86_64.whl.zip tmp/cutensornet_cu11-2.4.0.post0-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240510/c/cutensornet-cu11/2.3.0-2.4.0.post0/README.md --exclude *.pyd
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cutensornet-cu12]: executing diffoscope
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cutensornet-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutensornet_cu12-2.3.0-py3-none-manylinux2014_x86_64.whl.zip tmp/cutensornet_cu12-2.4.0.post0-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240510/c/cutensornet-cu12/2.3.0-2.4.0.post0/README.md --exclude *.pyd
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cuquantum-python]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum-python-23.6.0.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cuquantum-python]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_python-24.3.0.post0.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - main [MainThread]: End processing [cuquantum-python]: success
+[2024-05-10 00:31:25] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cuquantum]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum-23.6.1.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - processPackages [cuquantum]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum-24.3.0.post0.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - main [MainThread]: End processing [cuquantum]: success
+[2024-05-10 00:31:25] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.1.1.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.1.2.tar.gz]
+[2024-05-10 00:31:25] INFO root fetch - main [MainThread]: End processing [KFSconfig]: success
+[2024-05-10 00:31:48] INFO root fetch - processPackages [cutensornet-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu12-2.3.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-10 00:31:48] INFO root fetch - processPackages [cutensornet-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu12-2.4.0.post0-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-10 00:31:48] INFO root fetch - main [MainThread]: End processing [cutensornet-cu12]: success
+[2024-05-10 00:31:48] INFO root fetch - processPackages [cutensornet-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu11-2.3.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-10 00:31:48] INFO root fetch - processPackages [cutensornet-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu11-2.4.0.post0-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-10 00:31:48] INFO root fetch - main [MainThread]: End processing [cutensornet-cu11]: success
+[2024-05-10 00:31:48] INFO root fetch - main [MainThread]: Store serial: [23138557]
