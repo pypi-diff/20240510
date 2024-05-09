@@ -1827,3 +1827,60 @@
 [2024-05-10 01:40:25] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.6.tar.gz]
 [2024-05-10 01:40:25] INFO root fetch - main [MainThread]: End processing [oaklib]: success
 [2024-05-10 01:40:25] INFO root fetch - main [MainThread]: Store serial: [23139020]
+[2024-05-10 01:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139020]
+[2024-05-10 01:42:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 01:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: risset
+[2024-05-10 01:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sievedata
+[2024-05-10 01:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forust
+[2024-05-10 01:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatterer
+[2024-05-10 01:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peco
+[2024-05-10 01:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deep-lynx
+[2024-05-10 01:42:34] INFO root fetch - processPackages [risset]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-10 01:42:34] INFO root fetch - processPackages [peco]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 01:42:34] INFO root fetch - processPackages [deep-lynx]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-10 01:42:34] INFO root fetch - processPackages [sievedata]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 01:42:34] INFO root fetch - processPackages [forust]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-10 01:42:34] INFO root fetch - processPackages [flatterer]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 01:42:34] INFO root fetch - processPackages [risset]: Downloading https://files.pythonhosted.org/packages/75/e5/5cee8b7c38e8bc4fa416fc143abb6520bf66460494f5e56997d0eaddc111/risset-2.9.1-py3-none-any.whl
+[2024-05-10 01:42:35] INFO root fetch - processPackages [peco]: Downloading https://files.pythonhosted.org/packages/9c/dc/18d4632dc505ae830a9aebb689968864fd43cf6dd83ca598ea1c619bffcd/peco-0.0.8.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [sievedata]: Downloading https://files.pythonhosted.org/packages/77/95/81d873c48eab504969a2f4a4f592d75ea9d000bd3befca5ad2ca00168f0c/sievedata-1.0.8-py3-none-any.whl
+[2024-05-10 01:42:35] INFO root fetch - processPackages [deep-lynx]: Downloading https://files.pythonhosted.org/packages/48/11/30a11417c0d0a74dfa1c14beae74e950074b922fe89625641168215c335c/deep_lynx-0.1.6.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [forust]: Downloading https://files.pythonhosted.org/packages/ec/fe/1f7ed5fd2700a268721e622cdfe8e0df51244d22e0bf701bf8e263d494a8/forust-0.4.7.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [flatterer]: Downloading https://files.pythonhosted.org/packages/d3/2a/d5a4ddf1990ceb94b9a42407195dbc940028327379d5d23ded060acde04f/flatterer-0.8.0.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [sievedata]: Downloading https://files.pythonhosted.org/packages/8a/81/20861347ef8b1783e03c20206a281854cb818fc401a040f544a1fe0b6f35/sievedata-1.0.9-py3-none-any.whl
+[2024-05-10 01:42:35] INFO root fetch - processPackages [risset]: Downloading https://files.pythonhosted.org/packages/6a/7d/71e3ac0a148ed66e3459b6a7f4f101752d43cacd61fd08b453f99a1d89f9/risset-2.9.2.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [peco]: Downloading https://files.pythonhosted.org/packages/4f/48/afaf0bce0c024acc49ed548248fe8b245723460333a53a20581200b09988/peco-0.0.9.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [forust]: Downloading https://files.pythonhosted.org/packages/f4/5c/cc59c7e70c14dfebb5edb211f76bb5636863928e1fd60cfbf1acb817b65b/forust-0.4.8.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [deep-lynx]: Downloading https://files.pythonhosted.org/packages/b2/76/9d00d7c72eb1b6a8d1b3ce9865408a90f3aa0287602fbabbb2426850dc09/deep_lynx-0.1.7.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [sievedata]: executing diffoscope
+[2024-05-10 01:42:35] INFO root fetch - processPackages [sievedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sievedata-1.0.8-py3-none-any.whl.zip tmp/sievedata-1.0.9-py3-none-any.whl.zip --markdown 20240510/s/sievedata/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 01:42:35] INFO root fetch - processPackages [risset]: executing diffoscope
+[2024-05-10 01:42:35] INFO root fetch - processPackages [risset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risset-2.9.1-py3-none-any.whl.zip tmp/risset-2.9.2.tar.gz --markdown 20240510/r/risset/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-10 01:42:35] INFO root fetch - processPackages [peco]: executing diffoscope
+[2024-05-10 01:42:35] INFO root fetch - processPackages [peco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peco-0.0.8.tar.gz tmp/peco-0.0.9.tar.gz --markdown 20240510/p/peco/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 01:42:35] INFO root fetch - processPackages [deep-lynx]: executing diffoscope
+[2024-05-10 01:42:35] INFO root fetch - processPackages [deep-lynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_lynx-0.1.6.tar.gz tmp/deep_lynx-0.1.7.tar.gz --markdown 20240510/d/deep-lynx/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-10 01:42:35] INFO root fetch - processPackages [flatterer]: Downloading https://files.pythonhosted.org/packages/c0/3e/1c9e5f3788d3e191160c97815960f5109318c854cd12cd43e7b8c2badc4f/flatterer-0.9.0.tar.gz
+[2024-05-10 01:42:35] INFO root fetch - processPackages [forust]: executing diffoscope
+[2024-05-10 01:42:35] INFO root fetch - processPackages [forust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forust-0.4.7.tar.gz tmp/forust-0.4.8.tar.gz --markdown 20240510/f/forust/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-10 01:42:35] INFO root fetch - processPackages [flatterer]: executing diffoscope
+[2024-05-10 01:42:35] INFO root fetch - processPackages [flatterer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatterer-0.8.0.tar.gz tmp/flatterer-0.9.0.tar.gz --markdown 20240510/f/flatterer/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 01:42:36] INFO root fetch - processPackages [risset]: Remove: archive file [/home/abi/fetcher/tmp/risset-2.9.1-py3-none-any.whl.zip]
+[2024-05-10 01:42:36] INFO root fetch - processPackages [risset]: Remove: archive file [/home/abi/fetcher/tmp/risset-2.9.2.tar.gz]
+[2024-05-10 01:42:36] INFO root fetch - main [MainThread]: End processing [risset]: success
+[2024-05-10 01:42:36] INFO root fetch - processPackages [peco]: Remove: archive file [/home/abi/fetcher/tmp/peco-0.0.8.tar.gz]
+[2024-05-10 01:42:36] INFO root fetch - processPackages [peco]: Remove: archive file [/home/abi/fetcher/tmp/peco-0.0.9.tar.gz]
+[2024-05-10 01:42:36] INFO root fetch - main [MainThread]: End processing [peco]: success
+[2024-05-10 01:42:36] INFO root fetch - processPackages [sievedata]: Remove: archive file [/home/abi/fetcher/tmp/sievedata-1.0.8-py3-none-any.whl.zip]
+[2024-05-10 01:42:36] INFO root fetch - processPackages [sievedata]: Remove: archive file [/home/abi/fetcher/tmp/sievedata-1.0.9-py3-none-any.whl.zip]
+[2024-05-10 01:42:36] INFO root fetch - main [MainThread]: End processing [sievedata]: success
+[2024-05-10 01:42:36] INFO root fetch - processPackages [flatterer]: Remove: archive file [/home/abi/fetcher/tmp/flatterer-0.8.0.tar.gz]
+[2024-05-10 01:42:36] INFO root fetch - processPackages [flatterer]: Remove: archive file [/home/abi/fetcher/tmp/flatterer-0.9.0.tar.gz]
+[2024-05-10 01:42:36] INFO root fetch - main [MainThread]: End processing [flatterer]: success
+[2024-05-10 01:42:36] INFO root fetch - processPackages [forust]: Remove: archive file [/home/abi/fetcher/tmp/forust-0.4.7.tar.gz]
+[2024-05-10 01:42:36] INFO root fetch - processPackages [forust]: Remove: archive file [/home/abi/fetcher/tmp/forust-0.4.8.tar.gz]
+[2024-05-10 01:42:36] INFO root fetch - main [MainThread]: End processing [forust]: success
+[2024-05-10 01:42:41] INFO root fetch - processPackages [deep-lynx]: Remove: archive file [/home/abi/fetcher/tmp/deep_lynx-0.1.6.tar.gz]
+[2024-05-10 01:42:41] INFO root fetch - processPackages [deep-lynx]: Remove: archive file [/home/abi/fetcher/tmp/deep_lynx-0.1.7.tar.gz]
+[2024-05-10 01:42:41] INFO root fetch - main [MainThread]: End processing [deep-lynx]: success
+[2024-05-10 01:42:41] INFO root fetch - main [MainThread]: Store serial: [23139075]
