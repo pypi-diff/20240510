@@ -2058,3 +2058,36 @@
 [2024-05-10 01:53:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-10 01:53:46] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-10 01:53:46] INFO root fetch - main [MainThread]: Store serial: [23139153]
+[2024-05-10 01:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139153]
+[2024-05-10 01:55:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 01:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcs-sdk-python-grpc-web
+[2024-05-10 01:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcs-sdk-python
+[2024-05-10 01:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: name-that-fucking-film
+[2024-05-10 01:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: canosz
+[2024-05-10 01:55:55] INFO root fetch - processPackages [name-that-fucking-film]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-10 01:55:55] WARNING root fetch - processPackages [canosz]: Skipping, unable to determine old version
+[2024-05-10 01:55:55] INFO root fetch - main [MainThread]: End processing [canosz] error
+[2024-05-10 01:55:55] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: New version: [0.17.9rc0] Old Version: [0.17.8rc0]
+[2024-05-10 01:55:55] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-05-10 01:55:56] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/9f/36/a689201c4f39cfb517dc4a58ff8ca9dcf78ac841e27fbcece80bf151ead9/qcs_sdk_python_grpc_web-0.17.8rc0.tar.gz
+[2024-05-10 01:55:56] INFO root fetch - processPackages [name-that-fucking-film]: Downloading https://files.pythonhosted.org/packages/13/e0/834c394c516b6653a4a6b1e010e2e8a91c330dad0b3f112e8b87b39decf4/name_that_fucking_film-0.1.7.tar.gz
+[2024-05-10 01:55:56] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 01:55:56] INFO root fetch - processPackages [name-that-fucking-film]: Downloading https://files.pythonhosted.org/packages/9d/24/3413d3cc52e42785539fa589d3bb7e00fe22244bbf596a192e81c98934d4/name_that_fucking_film-0.2.0.tar.gz
+[2024-05-10 01:55:56] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/e1/f9/c38c73d73e03936ab2e6e59cb176abd74ced61a55541905ce9577856a7e7/qcs_sdk_python_grpc_web-0.17.9rc0.tar.gz
+[2024-05-10 01:55:56] INFO root fetch - processPackages [name-that-fucking-film]: executing diffoscope
+[2024-05-10 01:55:56] INFO root fetch - processPackages [name-that-fucking-film]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/name_that_fucking_film-0.1.7.tar.gz tmp/name_that_fucking_film-0.2.0.tar.gz --markdown 20240510/n/name-that-fucking-film/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-10 01:55:56] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: executing diffoscope
+[2024-05-10 01:55:56] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python_grpc_web-0.17.8rc0.tar.gz tmp/qcs_sdk_python_grpc_web-0.17.9rc0.tar.gz --markdown 20240510/q/qcs-sdk-python-grpc-web/0.17.8rc0-0.17.9rc0/README.md --exclude *.pyd
+[2024-05-10 01:55:57] INFO root fetch - processPackages [name-that-fucking-film]: Remove: archive file [/home/abi/fetcher/tmp/name_that_fucking_film-0.1.7.tar.gz]
+[2024-05-10 01:55:57] INFO root fetch - processPackages [name-that-fucking-film]: Remove: archive file [/home/abi/fetcher/tmp/name_that_fucking_film-0.2.0.tar.gz]
+[2024-05-10 01:55:57] INFO root fetch - main [MainThread]: End processing [name-that-fucking-film]: success
+[2024-05-10 01:55:57] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.8rc0.tar.gz]
+[2024-05-10 01:55:57] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.9rc0.tar.gz]
+[2024-05-10 01:55:57] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
+[2024-05-10 01:55:58] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 01:56:04] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2024-05-10 01:56:04] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240510/q/qcs-sdk-python/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-05-10 01:58:17] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-10 01:58:17] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-10 01:58:17] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2024-05-10 01:58:17] INFO root fetch - main [MainThread]: Store serial: [23139172]
