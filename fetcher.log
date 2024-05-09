@@ -920,3 +920,63 @@
 [2024-05-10 00:43:05] INFO root fetch - processPackages [offsets-db-data]: Remove: archive file [/home/abi/fetcher/tmp/offsets_db_data-2024.5.1.tar.gz]
 [2024-05-10 00:43:05] INFO root fetch - main [MainThread]: End processing [offsets-db-data]: success
 [2024-05-10 00:43:05] INFO root fetch - main [MainThread]: Store serial: [23138639]
+[2024-05-10 00:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138639]
+[2024-05-10 00:45:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 00:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyflowline
+[2024-05-10 00:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valor-client
+[2024-05-10 00:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparseml-nightly
+[2024-05-10 00:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geoh5py
+[2024-05-10 00:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KFSdropbox
+[2024-05-10 00:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pseudomoralz
+[2024-05-10 00:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bellybuttonseg
+[2024-05-10 00:45:13] INFO root fetch - processPackages [bellybuttonseg]: New version: [0.0.9] Old Version: [0.0.8.8]
+[2024-05-10 00:45:13] INFO root fetch - processPackages [sparseml-nightly]: New version: [1.8.0.20240509] Old Version: [1.8.0.20240508]
+[2024-05-10 00:45:13] INFO root fetch - processPackages [valor-client]: New version: [0.24.0] Old Version: [0.23.2]
+[2024-05-10 00:45:13] INFO root fetch - processPackages [pyflowline]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-10 00:45:13] INFO root fetch - processPackages [KFSdropbox]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 00:45:13] WARNING root fetch - processPackages [pseudomoralz]: Skipping, unable to determine old version
+[2024-05-10 00:45:13] INFO root fetch - main [MainThread]: End processing [pseudomoralz] error
+[2024-05-10 00:45:13] INFO root fetch - processPackages [bellybuttonseg]: Downloading https://files.pythonhosted.org/packages/05/18/b43f1b083d3ca6cace4d36ad186c3272a7be1fc3b750956a1d40ea3d55b7/bellybuttonseg-0.0.8.8.tar.gz
+[2024-05-10 00:45:13] INFO root fetch - processPackages [geoh5py]: New version: [0.9.0rc3] Old Version: [0.9.0rc2]
+[2024-05-10 00:45:13] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/29/5f/8d38f46728f5cb59781d1908614ca8034f230d23aa9a4a7510f3493b3507/sparseml_nightly-1.8.0.20240508-py3-none-any.whl
+[2024-05-10 00:45:14] INFO root fetch - processPackages [valor-client]: Downloading https://files.pythonhosted.org/packages/fd/47/204210c063a1b4e776bc6456052424546f851b1f589277acbea6c6ea8dce/valor_client-0.23.2.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/27/a3/6c41a8fd303e0c21dbc9e105303c7e318271bb123dc916c3b4ecbc64c20e/pyflowline-0.3.8.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [KFSdropbox]: Downloading https://files.pythonhosted.org/packages/ca/64/b13d9802b8329ddbbced05817d2313833625c9fc6dd03ab0438df3b2f779/kfsdropbox-1.0.1.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [geoh5py]: Downloading https://files.pythonhosted.org/packages/90/20/6c991e9e1579e37442b8b283fe3f70677fe526d10cad7d0644c6fa6bf8a1/geoh5py-0.9.0rc2.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [bellybuttonseg]: Downloading https://files.pythonhosted.org/packages/3c/a7/3f2b56de4949767bdfd213f43176e00d30d1e28401700de00e8c78c37620/bellybuttonseg-0.0.9.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [bellybuttonseg]: executing diffoscope
+[2024-05-10 00:45:14] INFO root fetch - processPackages [bellybuttonseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellybuttonseg-0.0.8.8.tar.gz tmp/bellybuttonseg-0.0.9.tar.gz --markdown 20240510/b/bellybuttonseg/0.0.8.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 00:45:14] INFO root fetch - processPackages [KFSdropbox]: Downloading https://files.pythonhosted.org/packages/77/44/0b5fa36667f106ae7bf7cdb465877d29c434dfb59b133f0d23311ed9b422/kfsdropbox-1.0.2.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [valor-client]: Downloading https://files.pythonhosted.org/packages/bf/6c/b2207a93761d3eaf3a9982a5f534a5127c4762c2f980f1399ca78951064b/valor_client-0.24.0.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/4e/5e/545e6d86751171db21f63b3101f6c68110829f43a04a33932adabf92532c/sparseml_nightly-1.8.0.20240509-py3-none-any.whl
+[2024-05-10 00:45:14] INFO root fetch - processPackages [valor-client]: executing diffoscope
+[2024-05-10 00:45:14] INFO root fetch - processPackages [valor-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valor_client-0.23.2.tar.gz tmp/valor_client-0.24.0.tar.gz --markdown 20240510/v/valor-client/0.23.2-0.24.0/README.md --exclude *.pyd
+[2024-05-10 00:45:14] INFO root fetch - processPackages [geoh5py]: Downloading https://files.pythonhosted.org/packages/56/f0/217b9cc5b8f45ee0eb254f44d0e5b062574e9ea47bc592f66fd1e629db89/geoh5py-0.9.0rc3.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [KFSdropbox]: executing diffoscope
+[2024-05-10 00:45:14] INFO root fetch - processPackages [KFSdropbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsdropbox-1.0.1.tar.gz tmp/kfsdropbox-1.0.2.tar.gz --markdown 20240510/K/KFSdropbox/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 00:45:14] INFO root fetch - processPackages [sparseml-nightly]: executing diffoscope
+[2024-05-10 00:45:14] INFO root fetch - processPackages [sparseml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml_nightly-1.8.0.20240508-py3-none-any.whl.zip tmp/sparseml_nightly-1.8.0.20240509-py3-none-any.whl.zip --markdown 20240510/s/sparseml-nightly/1.8.0.20240508-1.8.0.20240509/README.md --exclude *.pyd
+[2024-05-10 00:45:14] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/04/70/f66e86a067a6de8b6524eb8db18b684bee6547beedbf58d2c12a95b76162/pyflowline-0.3.9.tar.gz
+[2024-05-10 00:45:14] INFO root fetch - processPackages [geoh5py]: executing diffoscope
+[2024-05-10 00:45:14] INFO root fetch - processPackages [geoh5py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoh5py-0.9.0rc2.tar.gz tmp/geoh5py-0.9.0rc3.tar.gz --markdown 20240510/g/geoh5py/0.9.0rc2-0.9.0rc3/README.md --exclude *.pyd
+[2024-05-10 00:45:14] INFO root fetch - processPackages [bellybuttonseg]: Remove: archive file [/home/abi/fetcher/tmp/bellybuttonseg-0.0.8.8.tar.gz]
+[2024-05-10 00:45:14] INFO root fetch - processPackages [bellybuttonseg]: Remove: archive file [/home/abi/fetcher/tmp/bellybuttonseg-0.0.9.tar.gz]
+[2024-05-10 00:45:14] INFO root fetch - main [MainThread]: End processing [bellybuttonseg]: success
+[2024-05-10 00:45:15] INFO root fetch - processPackages [pyflowline]: executing diffoscope
+[2024-05-10 00:45:15] INFO root fetch - processPackages [pyflowline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflowline-0.3.8.tar.gz tmp/pyflowline-0.3.9.tar.gz --markdown 20240510/p/pyflowline/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-10 00:45:15] INFO root fetch - processPackages [valor-client]: Remove: archive file [/home/abi/fetcher/tmp/valor_client-0.23.2.tar.gz]
+[2024-05-10 00:45:15] INFO root fetch - processPackages [valor-client]: Remove: archive file [/home/abi/fetcher/tmp/valor_client-0.24.0.tar.gz]
+[2024-05-10 00:45:15] INFO root fetch - main [MainThread]: End processing [valor-client]: success
+[2024-05-10 00:45:15] INFO root fetch - processPackages [KFSdropbox]: Remove: archive file [/home/abi/fetcher/tmp/kfsdropbox-1.0.1.tar.gz]
+[2024-05-10 00:45:15] INFO root fetch - processPackages [KFSdropbox]: Remove: archive file [/home/abi/fetcher/tmp/kfsdropbox-1.0.2.tar.gz]
+[2024-05-10 00:45:15] INFO root fetch - main [MainThread]: End processing [KFSdropbox]: success
+[2024-05-10 00:45:15] INFO root fetch - processPackages [geoh5py]: Remove: archive file [/home/abi/fetcher/tmp/geoh5py-0.9.0rc2.tar.gz]
+[2024-05-10 00:45:15] INFO root fetch - processPackages [geoh5py]: Remove: archive file [/home/abi/fetcher/tmp/geoh5py-0.9.0rc3.tar.gz]
+[2024-05-10 00:45:15] INFO root fetch - main [MainThread]: End processing [geoh5py]: success
+[2024-05-10 00:45:16] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.8.tar.gz]
+[2024-05-10 00:45:16] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.9.tar.gz]
+[2024-05-10 00:45:16] INFO root fetch - main [MainThread]: End processing [pyflowline]: success
+[2024-05-10 00:45:16] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.8.0.20240508-py3-none-any.whl.zip]
+[2024-05-10 00:45:16] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.8.0.20240509-py3-none-any.whl.zip]
+[2024-05-10 00:45:16] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
+[2024-05-10 00:45:16] INFO root fetch - main [MainThread]: Store serial: [23138660]
