@@ -453,3 +453,12 @@
 [2024-05-10 00:17:36] INFO root fetch - processPackages [geoserver-restconfig]: Remove: archive file [/home/abi/fetcher/tmp/geoserver_restconfig-2.0.9-py3-none-any.whl.zip]
 [2024-05-10 00:17:36] INFO root fetch - main [MainThread]: End processing [geoserver-restconfig]: success
 [2024-05-10 00:17:36] INFO root fetch - main [MainThread]: Store serial: [23138438]
+[2024-05-10 00:19:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138438]
+[2024-05-10 00:19:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 00:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lastree
+[2024-05-10 00:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: castingz
+[2024-05-10 00:19:44] WARNING root fetch - processPackages [lastree]: Skipping, unable to determine old version
+[2024-05-10 00:19:44] INFO root fetch - main [MainThread]: End processing [lastree] error
+[2024-05-10 00:19:45] WARNING root fetch - processPackages [castingz]: Skipping, unable to determine old version
+[2024-05-10 00:19:45] INFO root fetch - main [MainThread]: End processing [castingz] error
+[2024-05-10 00:19:45] INFO root fetch - main [MainThread]: Store serial: [23138446]
