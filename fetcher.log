@@ -1214,3 +1214,24 @@
 [2024-05-10 00:56:46] INFO root fetch - processPackages [megham]: Remove: archive file [/home/abi/fetcher/tmp/megham-1.2.0.tar.gz]
 [2024-05-10 00:56:46] INFO root fetch - main [MainThread]: End processing [megham]: success
 [2024-05-10 00:56:46] INFO root fetch - main [MainThread]: Store serial: [23138732]
+[2024-05-10 00:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138732]
+[2024-05-10 00:58:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 00:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langgraph-sdk
+[2024-05-10 00:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langgraph-cli
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/24/9b/5194afd16b9ca312366dabf0de3638f4fb77863e76b2aeba705baeabbccd/langgraph_sdk-0.1.5.tar.gz
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/fc/56/9c893aa50c9bdec2cb8649d7ef7ebf200dc6b66993eaf52ee01fef032cb5/langgraph_cli-0.1.8.tar.gz
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/d7/38/f0d6c3d1ca57c6be1ed1d4c2e4bb97090925ee9464217fd1793a1d4de319/langgraph_sdk-0.1.6.tar.gz
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-sdk]: executing diffoscope
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_sdk-0.1.5.tar.gz tmp/langgraph_sdk-0.1.6.tar.gz --markdown 20240510/l/langgraph-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 00:58:55] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/77/ca/8e1b0b1db8b8eecd87faeb6c20af5e19e5561f1c240cb26d5c92f30a80a2/langgraph_cli-0.1.9.tar.gz
+[2024-05-10 00:58:56] INFO root fetch - processPackages [langgraph-cli]: executing diffoscope
+[2024-05-10 00:58:56] INFO root fetch - processPackages [langgraph-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_cli-0.1.8.tar.gz tmp/langgraph_cli-0.1.9.tar.gz --markdown 20240510/l/langgraph-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 00:58:56] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.5.tar.gz]
+[2024-05-10 00:58:56] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.6.tar.gz]
+[2024-05-10 00:58:56] INFO root fetch - main [MainThread]: End processing [langgraph-sdk]: success
+[2024-05-10 00:58:56] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.8.tar.gz]
+[2024-05-10 00:58:56] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.9.tar.gz]
+[2024-05-10 00:58:56] INFO root fetch - main [MainThread]: End processing [langgraph-cli]: success
+[2024-05-10 00:58:56] INFO root fetch - main [MainThread]: Store serial: [23138738]
