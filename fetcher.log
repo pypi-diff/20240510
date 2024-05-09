@@ -492,3 +492,36 @@
 [2024-05-10 00:21:57] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.9.tar.gz]
 [2024-05-10 00:21:57] INFO root fetch - main [MainThread]: End processing [langchain-community]: success
 [2024-05-10 00:21:57] INFO root fetch - main [MainThread]: Store serial: [23138457]
+[2024-05-10 00:24:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138457]
+[2024-05-10 00:24:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copy-to
+[2024-05-10 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2024-05-10 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: relationalai
+[2024-05-10 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fellatez
+[2024-05-10 00:24:06] INFO root fetch - processPackages [copy-to]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-10 00:24:06] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.88]
+[2024-05-10 00:24:06] WARNING root fetch - processPackages [fellatez]: Skipping, unable to determine old version
+[2024-05-10 00:24:06] INFO root fetch - main [MainThread]: End processing [fellatez] error
+[2024-05-10 00:24:06] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/3f/bd/552ffe4c7bf8dac05eee1ff1cfa399e95179c832a683082191c1bbc84635/copy-to-1.3.8.tar.gz
+[2024-05-10 00:24:06] INFO root fetch - processPackages [relationalai]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-10 00:24:06] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/80/6b/fa8a2ec923f3b805c5a2d758d0020f3bc1076029d96091aa0329a4fbfe1d/bridgecrew-3.2.88.tar.gz
+[2024-05-10 00:24:06] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/d5/9a/e1cf706621904d886141bebf3c24390caf4c9135cae97c5a2df84d95731c/copy-to-1.3.9.tar.gz
+[2024-05-10 00:24:06] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/8c/72/5352fd7661092edf5844757c2bdc7e41b48adcd9e5a16e8f392756029fb0/relationalai-0.2.7.tar.gz
+[2024-05-10 00:24:06] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2024-05-10 00:24:06] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.3.8.tar.gz tmp/copy-to-1.3.9.tar.gz --markdown 20240510/c/copy-to/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-10 00:24:06] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-10 00:24:06] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-10 00:24:06] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.88.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240510/b/bridgecrew/3.2.88-3.2.9/README.md --exclude *.pyd
+[2024-05-10 00:24:07] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/bf/a0/dee6b40f527b33156f986b3dcf6a59a38b47dc607dba8c528087933fcd1c/relationalai-0.2.8.tar.gz
+[2024-05-10 00:24:07] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.8.tar.gz]
+[2024-05-10 00:24:07] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.9.tar.gz]
+[2024-05-10 00:24:07] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2024-05-10 00:24:07] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.88.tar.gz]
+[2024-05-10 00:24:07] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-10 00:24:07] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-10 00:24:07] INFO root fetch - processPackages [relationalai]: executing diffoscope
+[2024-05-10 00:24:07] INFO root fetch - processPackages [relationalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relationalai-0.2.7.tar.gz tmp/relationalai-0.2.8.tar.gz --markdown 20240510/r/relationalai/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-10 00:24:09] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.7.tar.gz]
+[2024-05-10 00:24:09] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.8.tar.gz]
+[2024-05-10 00:24:09] INFO root fetch - main [MainThread]: End processing [relationalai]: success
+[2024-05-10 00:24:09] INFO root fetch - main [MainThread]: Store serial: [23138470]
