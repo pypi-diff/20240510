@@ -1941,3 +1941,12 @@
 [2024-05-10 01:47:03] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.198.tar.gz]
 [2024-05-10 01:47:03] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
 [2024-05-10 01:47:03] INFO root fetch - main [MainThread]: Store serial: [23139105]
+[2024-05-10 01:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139105]
+[2024-05-10 01:49:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 01:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fairchem
+[2024-05-10 01:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwtm-api
+[2024-05-10 01:49:12] WARNING root fetch - processPackages [gwtm-api]: Skipping, unable to determine old version
+[2024-05-10 01:49:12] INFO root fetch - main [MainThread]: End processing [gwtm-api] error
+[2024-05-10 01:49:12] WARNING root fetch - processPackages [fairchem]: Skipping, unable to determine old version
+[2024-05-10 01:49:12] INFO root fetch - main [MainThread]: End processing [fairchem] error
+[2024-05-10 01:49:12] INFO root fetch - main [MainThread]: Store serial: [23139114]
