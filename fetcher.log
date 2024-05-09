@@ -414,3 +414,42 @@
 [2024-05-10 00:15:25] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-05-10 00:15:25] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-10 00:15:25] INFO root fetch - main [MainThread]: Store serial: [23138426]
+[2024-05-10 00:17:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138426]
+[2024-05-10 00:17:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 00:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiboa-cli
+[2024-05-10 00:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geoserver-restconfig
+[2024-05-10 00:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telstra.messaging
+[2024-05-10 00:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama_tools
+[2024-05-10 00:17:34] INFO root fetch - processPackages [telstra.messaging]: New version: [3.3.4] Old Version: [3.1.0]
+[2024-05-10 00:17:34] INFO root fetch - processPackages [llama_tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 00:17:34] INFO root fetch - processPackages [telstra.messaging]: Downloading https://files.pythonhosted.org/packages/88/e2/41fbb94354be20d6067457418f574df8852e46c2ce4351f96d0b0fd90c25/telstra_messaging-3.1.0.tar.gz
+[2024-05-10 00:17:34] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/06/5d/9247f42232fa6a3876595f91813055060c8c9c99998deb41ce3543949a77/llama_tools-0.1.1.tar.gz
+[2024-05-10 00:17:34] INFO root fetch - processPackages [fiboa-cli]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-10 00:17:34] INFO root fetch - processPackages [geoserver-restconfig]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-10 00:17:35] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/bb/2f/6a421f07367cdd992dca1b5e0df304d5b820c748f88483e41e7cd363f1e0/llama_tools-0.1.2.tar.gz
+[2024-05-10 00:17:35] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/2d/a7/5bf5c91094b074aceef5808fe7d8dbd40bb3feeb3ec1d7b0e012299e35d8/fiboa_cli-0.3.9.tar.gz
+[2024-05-10 00:17:35] INFO root fetch - processPackages [telstra.messaging]: Downloading https://files.pythonhosted.org/packages/31/9f/23c1c24f4138b0f3c29d82457b7e0c76ae11bf2cf11dee1b7edd271a0fc1/telstra_messaging-3.3.4.tar.gz
+[2024-05-10 00:17:35] INFO root fetch - processPackages [geoserver-restconfig]: Downloading https://files.pythonhosted.org/packages/6a/2c/51dce161db22fcd5778ae8b832fa7e5afbf4500665443871a91841ae3ab7/geoserver_restconfig-2.0.8-py3-none-any.whl
+[2024-05-10 00:17:35] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-10 00:17:35] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.1.tar.gz tmp/llama_tools-0.1.2.tar.gz --markdown 20240510/l/llama_tools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 00:17:35] INFO root fetch - processPackages [telstra.messaging]: executing diffoscope
+[2024-05-10 00:17:35] INFO root fetch - processPackages [telstra.messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telstra_messaging-3.1.0.tar.gz tmp/telstra_messaging-3.3.4.tar.gz --markdown 20240510/t/telstra.messaging/3.1.0-3.3.4/README.md --exclude *.pyd
+[2024-05-10 00:17:35] INFO root fetch - processPackages [geoserver-restconfig]: Downloading https://files.pythonhosted.org/packages/e8/1e/073ea55347ee701498e11c8f2a2ed65aa2e663ff8992c3afbbefae289c48/geoserver_restconfig-2.0.9-py3-none-any.whl
+[2024-05-10 00:17:35] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/65/7a/c5047aae14b0cb33cfa4a191684c3015f1bcee091321746bca2fba4ca7c7/fiboa_cli-0.4.0.tar.gz
+[2024-05-10 00:17:35] INFO root fetch - processPackages [geoserver-restconfig]: executing diffoscope
+[2024-05-10 00:17:35] INFO root fetch - processPackages [geoserver-restconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoserver_restconfig-2.0.8-py3-none-any.whl.zip tmp/geoserver_restconfig-2.0.9-py3-none-any.whl.zip --markdown 20240510/g/geoserver-restconfig/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-10 00:17:35] INFO root fetch - processPackages [fiboa-cli]: executing diffoscope
+[2024-05-10 00:17:35] INFO root fetch - processPackages [fiboa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiboa_cli-0.3.9.tar.gz tmp/fiboa_cli-0.4.0.tar.gz --markdown 20240510/f/fiboa-cli/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-10 00:17:35] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.1.tar.gz]
+[2024-05-10 00:17:35] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.2.tar.gz]
+[2024-05-10 00:17:35] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-10 00:17:36] INFO root fetch - processPackages [telstra.messaging]: Remove: archive file [/home/abi/fetcher/tmp/telstra_messaging-3.1.0.tar.gz]
+[2024-05-10 00:17:36] INFO root fetch - processPackages [telstra.messaging]: Remove: archive file [/home/abi/fetcher/tmp/telstra_messaging-3.3.4.tar.gz]
+[2024-05-10 00:17:36] INFO root fetch - main [MainThread]: End processing [telstra.messaging]: success
+[2024-05-10 00:17:36] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa_cli-0.3.9.tar.gz]
+[2024-05-10 00:17:36] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa_cli-0.4.0.tar.gz]
+[2024-05-10 00:17:36] INFO root fetch - main [MainThread]: End processing [fiboa-cli]: success
+[2024-05-10 00:17:36] INFO root fetch - processPackages [geoserver-restconfig]: Remove: archive file [/home/abi/fetcher/tmp/geoserver_restconfig-2.0.8-py3-none-any.whl.zip]
+[2024-05-10 00:17:36] INFO root fetch - processPackages [geoserver-restconfig]: Remove: archive file [/home/abi/fetcher/tmp/geoserver_restconfig-2.0.9-py3-none-any.whl.zip]
+[2024-05-10 00:17:36] INFO root fetch - main [MainThread]: End processing [geoserver-restconfig]: success
+[2024-05-10 00:17:36] INFO root fetch - main [MainThread]: Store serial: [23138438]
