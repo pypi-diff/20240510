@@ -525,3 +525,27 @@
 [2024-05-10 00:24:09] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.8.tar.gz]
 [2024-05-10 00:24:09] INFO root fetch - main [MainThread]: End processing [relationalai]: success
 [2024-05-10 00:24:09] INFO root fetch - main [MainThread]: Store serial: [23138470]
+[2024-05-10 00:26:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138470]
+[2024-05-10 00:26:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDSR-UWB
+[2024-05-10 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-05-10 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomeshader
+[2024-05-10 00:26:18] INFO root fetch - processPackages [phidata]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-05-10 00:26:18] WARNING root fetch - processPackages [TDSR-UWB]: Skipping, unable to determine old version
+[2024-05-10 00:26:18] INFO root fetch - main [MainThread]: End processing [TDSR-UWB] error
+[2024-05-10 00:26:18] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/b0/e4/de7a2092f683a801e10c190da8c07a038901730b0b8241a93293c505d70f/phidata-2.4.2.tar.gz
+[2024-05-10 00:26:18] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 00:26:18] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-05-10 00:26:18] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/2c/98/b5d415504fbdec87bd5c0cd10a4e14195e6273ca5ee675b0d290d2bb7313/phidata-2.4.3.tar.gz
+[2024-05-10 00:26:19] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-10 00:26:19] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.2.tar.gz tmp/phidata-2.4.3.tar.gz --markdown 20240510/p/phidata/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-05-10 00:26:19] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-05-10 00:26:19] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-05-10 00:26:19] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240510/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 00:26:19] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-05-10 00:26:19] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-05-10 00:26:19] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-05-10 00:26:20] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.2.tar.gz]
+[2024-05-10 00:26:20] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.3.tar.gz]
+[2024-05-10 00:26:20] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-10 00:26:20] INFO root fetch - main [MainThread]: Store serial: [23138485]
