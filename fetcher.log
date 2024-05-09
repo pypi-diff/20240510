@@ -899,3 +899,24 @@
 [2024-05-10 00:40:54] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
 [2024-05-10 00:40:54] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
 [2024-05-10 00:40:54] INFO root fetch - main [MainThread]: Store serial: [23138633]
+[2024-05-10 00:42:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138633]
+[2024-05-10 00:43:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 00:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KFSsleep
+[2024-05-10 00:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: offsets-db-data
+[2024-05-10 00:43:03] INFO root fetch - processPackages [KFSsleep]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 00:43:03] INFO root fetch - processPackages [offsets-db-data]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-10 00:43:03] INFO root fetch - processPackages [KFSsleep]: Downloading https://files.pythonhosted.org/packages/e2/10/bcb2fe622a4d8f5bfcc444f8d7605d899c9b91a25d64e752268ad33e592e/kfssleep-1.0.1.tar.gz
+[2024-05-10 00:43:03] INFO root fetch - processPackages [offsets-db-data]: Downloading https://files.pythonhosted.org/packages/c1/38/d60a95be1072c30b7adba43d5b203e83a2b70c10a7ff6b42d58b9bd8b6b9/offsets_db_data-2024.5.0.tar.gz
+[2024-05-10 00:43:04] INFO root fetch - processPackages [KFSsleep]: Downloading https://files.pythonhosted.org/packages/7e/af/f327599bef194f0f35baa7d2ffa8c52b886fc0f804f8fb6c6741a5b80860/kfssleep-1.0.2.tar.gz
+[2024-05-10 00:43:04] INFO root fetch - processPackages [KFSsleep]: executing diffoscope
+[2024-05-10 00:43:04] INFO root fetch - processPackages [KFSsleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfssleep-1.0.1.tar.gz tmp/kfssleep-1.0.2.tar.gz --markdown 20240510/K/KFSsleep/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 00:43:04] INFO root fetch - processPackages [offsets-db-data]: Downloading https://files.pythonhosted.org/packages/b7/d2/c036adef6c15f852748c040b1766a36d8fcaa4037cddf7195fa780c97f77/offsets_db_data-2024.5.1.tar.gz
+[2024-05-10 00:43:04] INFO root fetch - processPackages [offsets-db-data]: executing diffoscope
+[2024-05-10 00:43:04] INFO root fetch - processPackages [offsets-db-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offsets_db_data-2024.5.0.tar.gz tmp/offsets_db_data-2024.5.1.tar.gz --markdown 20240510/o/offsets-db-data/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-10 00:43:04] INFO root fetch - processPackages [KFSsleep]: Remove: archive file [/home/abi/fetcher/tmp/kfssleep-1.0.1.tar.gz]
+[2024-05-10 00:43:04] INFO root fetch - processPackages [KFSsleep]: Remove: archive file [/home/abi/fetcher/tmp/kfssleep-1.0.2.tar.gz]
+[2024-05-10 00:43:04] INFO root fetch - main [MainThread]: End processing [KFSsleep]: success
+[2024-05-10 00:43:05] INFO root fetch - processPackages [offsets-db-data]: Remove: archive file [/home/abi/fetcher/tmp/offsets_db_data-2024.5.0.tar.gz]
+[2024-05-10 00:43:05] INFO root fetch - processPackages [offsets-db-data]: Remove: archive file [/home/abi/fetcher/tmp/offsets_db_data-2024.5.1.tar.gz]
+[2024-05-10 00:43:05] INFO root fetch - main [MainThread]: End processing [offsets-db-data]: success
+[2024-05-10 00:43:05] INFO root fetch - main [MainThread]: Store serial: [23138639]
