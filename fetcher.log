@@ -1693,3 +1693,56 @@
 [2024-05-10 01:29:31] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.5.0.tar.gz]
 [2024-05-10 01:29:31] INFO root fetch - main [MainThread]: End processing [pyanno4rt]: success
 [2024-05-10 01:29:31] INFO root fetch - main [MainThread]: Store serial: [23138945]
+[2024-05-10 01:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138945]
+[2024-05-10 01:31:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 01:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 01:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: depot-api
+[2024-05-10 01:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inventree
+[2024-05-10 01:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codedepot-depot
+[2024-05-10 01:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlglot
+[2024-05-10 01:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diploSHIC
+[2024-05-10 01:31:40] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 01:31:40] INFO root fetch - processPackages [depot-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-10 01:31:40] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 01:31:40] INFO root fetch - processPackages [inventree]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-10 01:31:40] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2024-05-10 01:31:40] INFO root fetch - processPackages [diploSHIC]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-10 01:31:40] INFO root fetch - processPackages [depot-api]: Downloading https://files.pythonhosted.org/packages/61/03/5fa8fc7d4d51e315a3ea2bb0e3adb7686cd1f5bd6f365595c40f811b670a/depot_api-1.0.7.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4e/02/82d5dc03168143e31a13edfe21344444d2e7e75b3a7fa5e93a229cbdbd25/codedepot_depot-0.0.8.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [inventree]: Downloading https://files.pythonhosted.org/packages/03/5a/3f9f139724c09a4e3d4eaf1ef35b6e7e54b4e76a144a7fbbfcde6cc9848a/inventree-0.9.1.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [diploSHIC]: Downloading https://files.pythonhosted.org/packages/12/bd/e811845aaf4d50d3e3197cf46dde64cdef271d370a0658f015db8aa52ca3/diploSHIC-1.0.5.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 01:31:40] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 01:31:40] WARNING root fetch - processPackages [diploSHIC]: Skipping package: exceeds size limit 13859510>=10485760
+[2024-05-10 01:31:40] INFO root fetch - main [MainThread]: End processing [diploSHIC] error
+[2024-05-10 01:31:40] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/ba/33/b42289173e6854c4adaaec4366238ee82a8aa6fe61b33aad0d27447bf1bc/codedepot_depot-0.0.9.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [depot-api]: Downloading https://files.pythonhosted.org/packages/bc/e0/6acfe1f2348f2d13e2fd7ca9e3b176263df8a43f8424d0660668d8eeaada/depot_api-1.0.8.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-05-10 01:31:40] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.8.tar.gz tmp/codedepot_depot-0.0.9.tar.gz --markdown 20240510/c/codedepot-depot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 01:31:40] INFO root fetch - processPackages [inventree]: Downloading https://files.pythonhosted.org/packages/ee/f1/c0e92d22715e18422a2ba4b75ff5cd664811669c2e26fc59dfabe9292c9c/inventree-0.9.2.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2024-05-10 01:31:40] INFO root fetch - processPackages [depot-api]: executing diffoscope
+[2024-05-10 01:31:40] INFO root fetch - processPackages [depot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depot_api-1.0.7.tar.gz tmp/depot_api-1.0.8.tar.gz --markdown 20240510/d/depot-api/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-10 01:31:40] INFO root fetch - processPackages [inventree]: executing diffoscope
+[2024-05-10 01:31:40] INFO root fetch - processPackages [inventree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-0.9.1.tar.gz tmp/inventree-0.9.2.tar.gz --markdown 20240510/i/inventree/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-10 01:31:40] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2024-05-10 01:31:40] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20240510/s/sqlglot/9.0.5-9.0.6/README.md --exclude *.pyd
+[2024-05-10 01:31:41] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 01:31:41] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.8.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.9.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-05-10 01:31:41] INFO root fetch - processPackages [inventree]: Remove: archive file [/home/abi/fetcher/tmp/inventree-0.9.1.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - processPackages [inventree]: Remove: archive file [/home/abi/fetcher/tmp/inventree-0.9.2.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - main [MainThread]: End processing [inventree]: success
+[2024-05-10 01:31:41] INFO root fetch - processPackages [depot-api]: Remove: archive file [/home/abi/fetcher/tmp/depot_api-1.0.7.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - processPackages [depot-api]: Remove: archive file [/home/abi/fetcher/tmp/depot_api-1.0.8.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - main [MainThread]: End processing [depot-api]: success
+[2024-05-10 01:31:41] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2024-05-10 01:31:41] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2024-05-10 01:31:42] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2024-05-10 01:31:42] INFO root fetch - main [MainThread]: Store serial: [23138983]
