@@ -1884,3 +1884,40 @@
 [2024-05-10 01:42:41] INFO root fetch - processPackages [deep-lynx]: Remove: archive file [/home/abi/fetcher/tmp/deep_lynx-0.1.7.tar.gz]
 [2024-05-10 01:42:41] INFO root fetch - main [MainThread]: End processing [deep-lynx]: success
 [2024-05-10 01:42:41] INFO root fetch - main [MainThread]: Store serial: [23139075]
+[2024-05-10 01:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139075]
+[2024-05-10 01:44:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 01:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 01:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-05-10 01:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: martian-adapters
+[2024-05-10 01:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protein-design-tools
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 01:44:51] INFO root fetch - processPackages [martian-adapters]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-10 01:44:51] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/29/37/a088a58fc95aff5cf3c54daa9836d5006affda83aea0decc5a38523727f1/martian_adapters-5.0.0.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/c4/75/3b36b2d9327026fb14c65627be7de808503cdcd41f7e5909cfee3c66b7c6/martian_adapters-5.0.1.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 01:44:51] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 01:44:51] INFO root fetch - processPackages [martian-adapters]: executing diffoscope
+[2024-05-10 01:44:51] INFO root fetch - processPackages [martian-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martian_adapters-5.0.0.tar.gz tmp/martian_adapters-5.0.1.tar.gz --markdown 20240510/m/martian-adapters/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-05-10 01:44:51] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-10 01:44:51] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-10 01:44:51] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240510/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-10 01:44:52] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 01:44:52] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 01:44:52] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 01:44:52] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 01:44:52] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.0.0.tar.gz]
+[2024-05-10 01:44:52] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.0.1.tar.gz]
+[2024-05-10 01:44:52] INFO root fetch - main [MainThread]: End processing [martian-adapters]: success
+[2024-05-10 01:44:53] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-10 01:44:53] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-10 01:44:53] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-10 01:44:53] INFO root fetch - main [MainThread]: Store serial: [23139093]
