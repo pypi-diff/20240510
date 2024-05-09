@@ -1397,3 +1397,57 @@
 [2024-05-10 01:05:34] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
 [2024-05-10 01:05:34] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2024-05-10 01:05:34] INFO root fetch - main [MainThread]: Store serial: [23138793]
+[2024-05-10 01:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138793]
+[2024-05-10 01:07:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 01:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flwr-nightly
+[2024-05-10 01:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-weka-wrapper3
+[2024-05-10 01:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alabamaEncoder
+[2024-05-10 01:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-cpln
+[2024-05-10 01:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: familiesz
+[2024-05-10 01:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumiverse-cpln
+[2024-05-10 01:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kilosort
+[2024-05-10 01:07:42] INFO root fetch - processPackages [alabamaEncoder]: New version: [0.3] Old Version: [0.2]
+[2024-05-10 01:07:42] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240508] Old Version: [1.9.0.dev20240507]
+[2024-05-10 01:07:42] INFO root fetch - processPackages [python-weka-wrapper3]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 01:07:42] INFO root fetch - processPackages [kilosort]: New version: [4.0.7] Old Version: [4.0.6]
+[2024-05-10 01:07:42] INFO root fetch - processPackages [pulumiverse-cpln]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 01:07:42] INFO root fetch - processPackages [pulumiverse-cpln]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 01:07:42] WARNING root fetch - processPackages [familiesz]: Skipping, unable to determine old version
+[2024-05-10 01:07:42] INFO root fetch - main [MainThread]: End processing [familiesz] error
+[2024-05-10 01:07:42] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/3b/b2/9b43ac0a34a76f268b924d4a16b11d066e457beeafe7c155272345ddec00/flwr_nightly-1.9.0.dev20240507.tar.gz
+[2024-05-10 01:07:42] INFO root fetch - processPackages [alabamaEncoder]: Downloading https://files.pythonhosted.org/packages/86/ca/06b95348bac51bcdfd1a755b4d8024a97fe33be71140079eda723074e53e/alabamaEncoder-0.2.tar.gz
+[2024-05-10 01:07:42] INFO root fetch - processPackages [python-weka-wrapper3]: Downloading https://files.pythonhosted.org/packages/9d/a6/4694fb0d02a0a62bce80b7b7c8c654408f0899cd40eba22511ce58ed3fe9/python-weka-wrapper3-0.2.8.tar.gz
+[2024-05-10 01:07:42] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/1b/fb/9af76754a5f5181f7b978484c9a0f433b0c9489c89d3f2c2d6709f5ca52d/pulumiverse_cpln-0.0.8.tar.gz
+[2024-05-10 01:07:42] INFO root fetch - processPackages [kilosort]: Downloading https://files.pythonhosted.org/packages/1d/c4/36d2cf72656e27877ed5bc0b3aaef896c67bdd72a7e63bc7556b967426e5/kilosort-4.0.6.tar.gz
+[2024-05-10 01:07:42] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/1b/fb/9af76754a5f5181f7b978484c9a0f433b0c9489c89d3f2c2d6709f5ca52d/pulumiverse_cpln-0.0.8.tar.gz
+[2024-05-10 01:07:42] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/dd/87/ecd88114b851bdcab076f01d8f22c296b3f8f3fb3ee7e9258e616dd7261a/flwr_nightly-1.9.0.dev20240508.tar.gz
+[2024-05-10 01:07:43] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-10 01:07:43] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240507.tar.gz tmp/flwr_nightly-1.9.0.dev20240508.tar.gz --markdown 20240510/f/flwr-nightly/1.9.0.dev20240507-1.9.0.dev20240508/README.md --exclude *.pyd
+[2024-05-10 01:07:43] INFO root fetch - processPackages [alabamaEncoder]: Downloading https://files.pythonhosted.org/packages/22/89/0cd859f92ee6c61b5c57fda52754ed96f92c76464cef6887b7ca3669a291/alabamaEncoder-0.3.tar.gz
+[2024-05-10 01:07:43] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/f1/53/f6afe62a96b0c8443f26009ee143128ed7bc0941b2b1a92c7debc39cb2b3/pulumiverse_cpln-0.0.9.tar.gz
+[2024-05-10 01:07:43] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/f1/53/f6afe62a96b0c8443f26009ee143128ed7bc0941b2b1a92c7debc39cb2b3/pulumiverse_cpln-0.0.9.tar.gz
+[2024-05-10 01:07:43] INFO root fetch - processPackages [alabamaEncoder]: executing diffoscope
+[2024-05-10 01:07:43] INFO root fetch - processPackages [alabamaEncoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alabamaEncoder-0.2.tar.gz tmp/alabamaEncoder-0.3.tar.gz --markdown 20240510/a/alabamaEncoder/0.2-0.3/README.md --exclude *.pyd
+[2024-05-10 01:07:43] INFO root fetch - processPackages [kilosort]: Downloading https://files.pythonhosted.org/packages/22/76/1ebbcc7e5597a694ebd07230149ef4010b327de5bd9ae6215ccfadc6a9a7/kilosort-4.0.7.tar.gz
+[2024-05-10 01:07:43] INFO root fetch - processPackages [pulumiverse-cpln]: executing diffoscope
+[2024-05-10 01:07:43] INFO root fetch - processPackages [pulumiverse-cpln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_cpln-0.0.8.tar.gz tmp/pulumiverse_cpln-0.0.9.tar.gz --markdown 20240510/p/pulumiverse-cpln/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 01:07:43] INFO root fetch - processPackages [pulumiverse-cpln]: executing diffoscope
+[2024-05-10 01:07:43] INFO root fetch - processPackages [pulumiverse-cpln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_cpln-0.0.8.tar.gz tmp/pulumiverse_cpln-0.0.9.tar.gz --markdown 20240510/p/pulumiverse-cpln/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 01:07:43] INFO root fetch - processPackages [kilosort]: executing diffoscope
+[2024-05-10 01:07:43] INFO root fetch - processPackages [kilosort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilosort-4.0.6.tar.gz tmp/kilosort-4.0.7.tar.gz --markdown 20240510/k/kilosort/4.0.6-4.0.7/README.md --exclude *.pyd
+[2024-05-10 01:07:44] INFO root fetch - processPackages [alabamaEncoder]: Remove: archive file [/home/abi/fetcher/tmp/alabamaEncoder-0.2.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - processPackages [alabamaEncoder]: Remove: archive file [/home/abi/fetcher/tmp/alabamaEncoder-0.3.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - main [MainThread]: End processing [alabamaEncoder]: success
+[2024-05-10 01:07:44] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.8.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.9.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - main [MainThread]: End processing [pulumiverse-cpln]: success
+[2024-05-10 01:07:44] INFO root fetch - main [MainThread]: End processing [pulumiverse-cpln]: success
+[2024-05-10 01:07:44] INFO root fetch - processPackages [kilosort]: Remove: archive file [/home/abi/fetcher/tmp/kilosort-4.0.6.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - processPackages [kilosort]: Remove: archive file [/home/abi/fetcher/tmp/kilosort-4.0.7.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - main [MainThread]: End processing [kilosort]: success
+[2024-05-10 01:07:44] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240507.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240508.tar.gz]
+[2024-05-10 01:07:44] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-10 01:07:45] WARNING root fetch - processPackages [python-weka-wrapper3]: Skipping package: exceeds size limit 14377394>=10485760
+[2024-05-10 01:07:45] INFO root fetch - main [MainThread]: End processing [python-weka-wrapper3] error
+[2024-05-10 01:07:45] INFO root fetch - main [MainThread]: Store serial: [23138815]
