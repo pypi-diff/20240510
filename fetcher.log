@@ -795,3 +795,38 @@
 [2024-05-10 00:36:25] INFO root fetch - processPackages [sky130]: Remove: archive file [/home/abi/fetcher/tmp/sky130-0.9.0.tar.gz]
 [2024-05-10 00:36:25] INFO root fetch - main [MainThread]: End processing [sky130]: success
 [2024-05-10 00:36:25] INFO root fetch - main [MainThread]: Store serial: [23138598]
+[2024-05-10 00:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138598]
+[2024-05-10 00:38:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 00:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-05-10 00:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abacusai
+[2024-05-10 00:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-federated
+[2024-05-10 00:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyanno4rt
+[2024-05-10 00:38:33] INFO root fetch - processPackages [pyanno4rt]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 00:38:34] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.89]
+[2024-05-10 00:38:34] INFO root fetch - processPackages [abacusai]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-10 00:38:34] INFO root fetch - processPackages [tensorflow-federated]: New version: [0.9.0] Old Version: [0.78.0]
+[2024-05-10 00:38:34] INFO root fetch - processPackages [pyanno4rt]: Downloading https://files.pythonhosted.org/packages/94/f6/8f1589e4572d65d6ec8f642e29ca04ead2ddaebd8bde57425219d7ec2a17/pyanno4rt-0.0.1.tar.gz
+[2024-05-10 00:38:34] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/97/4d/bf07fd8094db31a46ab5636c33d227cb4a1cd899f92ff9a5534cf2411573/checkov-3.2.89.tar.gz
+[2024-05-10 00:38:34] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/91/35/a3396ab6731735cad0e55763ba0443a1d96025c733fb267bd6a0f8292426/abacusai-1.2.6.tar.gz
+[2024-05-10 00:38:34] INFO root fetch - processPackages [tensorflow-federated]: Downloading https://files.pythonhosted.org/packages/9e/f5/1516ef5618321ff49e597c0a59708e1a9b4f64bc5fd7f1a288798edc4b77/tensorflow_federated-0.78.0-py3-none-manylinux_2_31_x86_64.whl
+[2024-05-10 00:38:34] WARNING root fetch - processPackages [tensorflow-federated]: Skipping package: exceeds size limit 70297161>=10485760
+[2024-05-10 00:38:34] INFO root fetch - main [MainThread]: End processing [tensorflow-federated] error
+[2024-05-10 00:38:34] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-10 00:38:34] INFO root fetch - processPackages [pyanno4rt]: Downloading https://files.pythonhosted.org/packages/13/69/2eeb49b8adaf487efe06a033e86ffcccf26e3a93f9f56e9a1fc271bb439e/pyanno4rt-0.0.2.tar.gz
+[2024-05-10 00:38:34] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-10 00:38:34] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.89.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240510/c/checkov/3.2.89-3.2.9/README.md --exclude *.pyd
+[2024-05-10 00:38:34] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/75/2f/5616259aa324a416fa5652d76615deafdb29f91b0a78e4dd99965ad743d1/abacusai-1.2.7.tar.gz
+[2024-05-10 00:38:34] INFO root fetch - processPackages [pyanno4rt]: executing diffoscope
+[2024-05-10 00:38:34] INFO root fetch - processPackages [pyanno4rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanno4rt-0.0.1.tar.gz tmp/pyanno4rt-0.0.2.tar.gz --markdown 20240510/p/pyanno4rt/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 00:38:35] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2024-05-10 00:38:35] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-1.2.6.tar.gz tmp/abacusai-1.2.7.tar.gz --markdown 20240510/a/abacusai/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-10 00:38:38] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.0.1.tar.gz]
+[2024-05-10 00:38:38] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.0.2.tar.gz]
+[2024-05-10 00:38:38] INFO root fetch - main [MainThread]: End processing [pyanno4rt]: success
+[2024-05-10 00:38:40] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.6.tar.gz]
+[2024-05-10 00:38:40] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.7.tar.gz]
+[2024-05-10 00:38:40] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2024-05-10 00:38:42] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.89.tar.gz]
+[2024-05-10 00:38:42] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-10 00:38:42] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-10 00:38:42] INFO root fetch - main [MainThread]: Store serial: [23138608]
