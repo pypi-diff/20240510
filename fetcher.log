@@ -1589,3 +1589,44 @@
 [2024-05-10 01:22:52] WARNING root fetch - processPackages [trajectory-follow-sim]: Skipping, unable to determine old version
 [2024-05-10 01:22:52] INFO root fetch - main [MainThread]: End processing [trajectory-follow-sim] error
 [2024-05-10 01:22:52] INFO root fetch - main [MainThread]: Store serial: [23138873]
+[2024-05-10 01:24:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138873]
+[2024-05-10 01:25:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 01:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uproot
+[2024-05-10 01:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galaxiasz
+[2024-05-10 01:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax
+[2024-05-10 01:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxlib
+[2024-05-10 01:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trajectory-follow-sim
+[2024-05-10 01:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2024-05-10 01:25:01] WARNING root fetch - processPackages [trajectory-follow-sim]: Skipping, unable to determine old version
+[2024-05-10 01:25:01] INFO root fetch - main [MainThread]: End processing [trajectory-follow-sim] error
+[2024-05-10 01:25:01] WARNING root fetch - processPackages [galaxiasz]: Skipping, unable to determine old version
+[2024-05-10 01:25:01] INFO root fetch - main [MainThread]: End processing [galaxiasz] error
+[2024-05-10 01:25:01] INFO root fetch - processPackages [jaxlib]: New version: [0.4.9] Old Version: [0.4.7]
+[2024-05-10 01:25:01] INFO root fetch - processPackages [jax]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-10 01:25:01] INFO root fetch - processPackages [uproot]: New version: [5.3.7] Old Version: [5.3.6]
+[2024-05-10 01:25:01] INFO root fetch - processPackages [jax]: Downloading https://files.pythonhosted.org/packages/fe/58/1641614c17fcd7293d250c2cad48011baa1ecef4f109ce2ea027aa8e4898/jax-0.4.8.tar.gz
+[2024-05-10 01:25:01] INFO root fetch - processPackages [uproot]: Downloading https://files.pythonhosted.org/packages/6c/19/e463ef51b62eaa9772907bea2f1287d90ac7bf2bfe29e63f6baa2b259a2d/uproot-5.3.6.tar.gz
+[2024-05-10 01:25:01] INFO root fetch - processPackages [jaxlib]: Downloading https://files.pythonhosted.org/packages/a3/ef/479fdd0278bfa7c78c647f3430043b4e9596510f67c1763e0305ea72d64c/jaxlib-0.4.7-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-10 01:25:01] WARNING root fetch - processPackages [jaxlib]: Skipping package: exceeds size limit 66081246>=10485760
+[2024-05-10 01:25:01] INFO root fetch - main [MainThread]: End processing [jaxlib] error
+[2024-05-10 01:25:01] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-10 01:25:01] INFO root fetch - processPackages [uproot]: Downloading https://files.pythonhosted.org/packages/01/c8/357e44ca1b348356d6e3df0d3bc4bd20d02345f8795184af2e206bb16f4f/uproot-5.3.7.tar.gz
+[2024-05-10 01:25:01] INFO root fetch - processPackages [jax]: Downloading https://files.pythonhosted.org/packages/08/fd/9af49f926cbbc686977c41cdee21669288500b5dbf2e8eeb6b50eacfb00e/jax-0.4.9.tar.gz
+[2024-05-10 01:25:01] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-05-10 01:25:02] INFO root fetch - processPackages [uproot]: executing diffoscope
+[2024-05-10 01:25:02] INFO root fetch - processPackages [uproot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot-5.3.6.tar.gz tmp/uproot-5.3.7.tar.gz --markdown 20240510/u/uproot/5.3.6-5.3.7/README.md --exclude *.pyd
+[2024-05-10 01:25:02] INFO root fetch - processPackages [jax]: executing diffoscope
+[2024-05-10 01:25:02] INFO root fetch - processPackages [jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-0.4.8.tar.gz tmp/jax-0.4.9.tar.gz --markdown 20240510/j/jax/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-10 01:25:02] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-05-10 01:25:02] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-05-10 01:25:02] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240510/c/chalkpy/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-10 01:25:03] INFO root fetch - processPackages [uproot]: Remove: archive file [/home/abi/fetcher/tmp/uproot-5.3.6.tar.gz]
+[2024-05-10 01:25:03] INFO root fetch - processPackages [uproot]: Remove: archive file [/home/abi/fetcher/tmp/uproot-5.3.7.tar.gz]
+[2024-05-10 01:25:03] INFO root fetch - main [MainThread]: End processing [uproot]: success
+[2024-05-10 01:25:04] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-05-10 01:25:04] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-05-10 01:25:04] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-05-10 01:25:05] INFO root fetch - processPackages [jax]: Remove: archive file [/home/abi/fetcher/tmp/jax-0.4.8.tar.gz]
+[2024-05-10 01:25:05] INFO root fetch - processPackages [jax]: Remove: archive file [/home/abi/fetcher/tmp/jax-0.4.9.tar.gz]
+[2024-05-10 01:25:05] INFO root fetch - main [MainThread]: End processing [jax]: success
+[2024-05-10 01:25:05] INFO root fetch - main [MainThread]: Store serial: [23138906]
