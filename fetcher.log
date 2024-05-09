@@ -1451,3 +1451,18 @@
 [2024-05-10 01:07:45] WARNING root fetch - processPackages [python-weka-wrapper3]: Skipping package: exceeds size limit 14377394>=10485760
 [2024-05-10 01:07:45] INFO root fetch - main [MainThread]: End processing [python-weka-wrapper3] error
 [2024-05-10 01:07:45] INFO root fetch - main [MainThread]: Store serial: [23138815]
+[2024-05-10 01:09:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138815]
+[2024-05-10 01:09:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 01:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDSR-UWB
+[2024-05-10 01:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semantic-kernel
+[2024-05-10 01:09:53] INFO root fetch - processPackages [semantic-kernel]: New version: [0.9.8b1] Old Version: [0.9.7b1]
+[2024-05-10 01:09:53] WARNING root fetch - processPackages [TDSR-UWB]: Skipping, unable to determine old version
+[2024-05-10 01:09:53] INFO root fetch - main [MainThread]: End processing [TDSR-UWB] error
+[2024-05-10 01:09:53] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/ca/8e/7466689c4cdce769df7f5ae3f8a780956c898246bc1492d539d0f912a9ad/semantic_kernel-0.9.7b1.tar.gz
+[2024-05-10 01:09:54] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/cc/23/191feb569a16895676e4258190d3cd0cad2b98743d47ab972a05204519aa/semantic_kernel-0.9.8b1.tar.gz
+[2024-05-10 01:09:54] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2024-05-10 01:09:54] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.9.7b1.tar.gz tmp/semantic_kernel-0.9.8b1.tar.gz --markdown 20240510/s/semantic-kernel/0.9.7b1-0.9.8b1/README.md --exclude *.pyd
+[2024-05-10 01:09:55] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.7b1.tar.gz]
+[2024-05-10 01:09:55] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.8b1.tar.gz]
+[2024-05-10 01:09:55] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2024-05-10 01:09:55] INFO root fetch - main [MainThread]: Store serial: [23138821]
