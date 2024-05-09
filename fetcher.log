@@ -1675,3 +1675,21 @@
 [2024-05-10 01:27:18] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.5.9.tar.gz]
 [2024-05-10 01:27:18] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2024-05-10 01:27:18] INFO root fetch - main [MainThread]: Store serial: [23138933]
+[2024-05-10 01:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138933]
+[2024-05-10 01:29:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 01:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyanno4rt
+[2024-05-10 01:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memary
+[2024-05-10 01:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decameronicz
+[2024-05-10 01:29:27] INFO root fetch - processPackages [pyanno4rt]: New version: [0.5.0] Old Version: [0.0.2]
+[2024-05-10 01:29:27] INFO root fetch - processPackages [pyanno4rt]: Downloading https://files.pythonhosted.org/packages/13/69/2eeb49b8adaf487efe06a033e86ffcccf26e3a93f9f56e9a1fc271bb439e/pyanno4rt-0.0.2.tar.gz
+[2024-05-10 01:29:27] WARNING root fetch - processPackages [memary]: Skipping, unable to determine old version
+[2024-05-10 01:29:27] INFO root fetch - main [MainThread]: End processing [memary] error
+[2024-05-10 01:29:27] WARNING root fetch - processPackages [decameronicz]: Skipping, unable to determine old version
+[2024-05-10 01:29:27] INFO root fetch - main [MainThread]: End processing [decameronicz] error
+[2024-05-10 01:29:28] INFO root fetch - processPackages [pyanno4rt]: Downloading https://files.pythonhosted.org/packages/a4/2b/acfc656350a10241d09e369da7b294b2d7059ed325abc667ab2a01a38052/pyanno4rt-0.5.0.tar.gz
+[2024-05-10 01:29:28] INFO root fetch - processPackages [pyanno4rt]: executing diffoscope
+[2024-05-10 01:29:28] INFO root fetch - processPackages [pyanno4rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanno4rt-0.0.2.tar.gz tmp/pyanno4rt-0.5.0.tar.gz --markdown 20240510/p/pyanno4rt/0.0.2-0.5.0/README.md --exclude *.pyd
+[2024-05-10 01:29:31] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.0.2.tar.gz]
+[2024-05-10 01:29:31] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.5.0.tar.gz]
+[2024-05-10 01:29:31] INFO root fetch - main [MainThread]: End processing [pyanno4rt]: success
+[2024-05-10 01:29:31] INFO root fetch - main [MainThread]: Store serial: [23138945]
