@@ -1235,3 +1235,36 @@
 [2024-05-10 00:58:56] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.9.tar.gz]
 [2024-05-10 00:58:56] INFO root fetch - main [MainThread]: End processing [langgraph-cli]: success
 [2024-05-10 00:58:56] INFO root fetch - main [MainThread]: Store serial: [23138738]
+[2024-05-10 01:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138738]
+[2024-05-10 01:01:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 01:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metrics_layer
+[2024-05-10 01:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hack-vm-translator-brickman
+[2024-05-10 01:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: augmented-matrix
+[2024-05-10 01:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: name-that-fucking-film
+[2024-05-10 01:01:05] WARNING root fetch - processPackages [hack-vm-translator-brickman]: Skipping, unable to determine old version
+[2024-05-10 01:01:05] INFO root fetch - main [MainThread]: End processing [hack-vm-translator-brickman] error
+[2024-05-10 01:01:05] INFO root fetch - processPackages [name-that-fucking-film]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 01:01:05] INFO root fetch - processPackages [metrics_layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 01:01:05] INFO root fetch - processPackages [name-that-fucking-film]: Downloading https://files.pythonhosted.org/packages/e6/4e/f59f14e4cbbcf57698ef10d9289912582fcf4824f3c50a5348973c4d9b6b/name_that_fucking_film-0.1.5.tar.gz
+[2024-05-10 01:01:05] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2024-05-10 01:01:05] INFO root fetch - processPackages [augmented-matrix]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 01:01:05] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2024-05-10 01:01:05] INFO root fetch - processPackages [augmented-matrix]: Downloading https://files.pythonhosted.org/packages/65/5b/319ea92c1cccdcb6a471cb2a9cfae2e7938ce396a5218dd0d0144ce94fce/augmented_matrix-0.8.tar.gz
+[2024-05-10 01:01:05] INFO root fetch - processPackages [name-that-fucking-film]: Downloading https://files.pythonhosted.org/packages/c3/a6/39d462adba2f21ee03c9b281b34ad77dd2d0985e3ce6a6761aa5aede9544/name_that_fucking_film-0.1.6.tar.gz
+[2024-05-10 01:01:05] INFO root fetch - processPackages [metrics_layer]: executing diffoscope
+[2024-05-10 01:01:05] INFO root fetch - processPackages [metrics_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20240510/m/metrics_layer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 01:01:05] INFO root fetch - processPackages [name-that-fucking-film]: executing diffoscope
+[2024-05-10 01:01:05] INFO root fetch - processPackages [name-that-fucking-film]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/name_that_fucking_film-0.1.5.tar.gz tmp/name_that_fucking_film-0.1.6.tar.gz --markdown 20240510/n/name-that-fucking-film/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 01:01:05] INFO root fetch - processPackages [augmented-matrix]: Downloading https://files.pythonhosted.org/packages/6a/ce/1f6dc95c2b30dd7fd730bde90181b9bebccc387f26463a554a50409885a5/augmented_matrix-0.9.tar.gz
+[2024-05-10 01:01:06] INFO root fetch - processPackages [augmented-matrix]: executing diffoscope
+[2024-05-10 01:01:06] INFO root fetch - processPackages [augmented-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmented_matrix-0.8.tar.gz tmp/augmented_matrix-0.9.tar.gz --markdown 20240510/a/augmented-matrix/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 01:01:06] INFO root fetch - processPackages [name-that-fucking-film]: Remove: archive file [/home/abi/fetcher/tmp/name_that_fucking_film-0.1.5.tar.gz]
+[2024-05-10 01:01:06] INFO root fetch - processPackages [name-that-fucking-film]: Remove: archive file [/home/abi/fetcher/tmp/name_that_fucking_film-0.1.6.tar.gz]
+[2024-05-10 01:01:06] INFO root fetch - main [MainThread]: End processing [name-that-fucking-film]: success
+[2024-05-10 01:01:06] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2024-05-10 01:01:06] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2024-05-10 01:01:06] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
+[2024-05-10 01:01:06] INFO root fetch - processPackages [augmented-matrix]: Remove: archive file [/home/abi/fetcher/tmp/augmented_matrix-0.8.tar.gz]
+[2024-05-10 01:01:06] INFO root fetch - processPackages [augmented-matrix]: Remove: archive file [/home/abi/fetcher/tmp/augmented_matrix-0.9.tar.gz]
+[2024-05-10 01:01:06] INFO root fetch - main [MainThread]: End processing [augmented-matrix]: success
+[2024-05-10 01:01:06] INFO root fetch - main [MainThread]: Store serial: [23138750]
