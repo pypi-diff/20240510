@@ -1794,3 +1794,36 @@
 [2024-05-10 01:38:14] INFO root fetch - processPackages [solvation-analysis]: Remove: archive file [/home/abi/fetcher/tmp/solvation_analysis-0.4.0.tar.gz]
 [2024-05-10 01:38:14] INFO root fetch - main [MainThread]: End processing [solvation-analysis]: success
 [2024-05-10 01:38:14] INFO root fetch - main [MainThread]: Store serial: [23139004]
+[2024-05-10 01:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139004]
+[2024-05-10 01:40:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reacnetgenerator
+[2024-05-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiemakerz
+[2024-05-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protein-design-tools
+[2024-05-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oaklib
+[2024-05-10 01:40:23] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 01:40:23] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 01:40:23] WARNING root fetch - processPackages [tiemakerz]: Skipping, unable to determine old version
+[2024-05-10 01:40:23] INFO root fetch - main [MainThread]: End processing [tiemakerz] error
+[2024-05-10 01:40:23] INFO root fetch - processPackages [oaklib]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-10 01:40:23] INFO root fetch - processPackages [reacnetgenerator]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-05-10 01:40:23] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 01:40:23] INFO root fetch - processPackages [reacnetgenerator]: Downloading https://files.pythonhosted.org/packages/3e/6f/2e9e7ce658059ce4de03be326215d0a68165adeed5db8dad5ebdc095ecac/reacnetgenerator-1.6.7.tar.gz
+[2024-05-10 01:40:23] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/d0/db/5fec9aaa25691c7ecc23c24aa669a490933bfa9e20df207a979762772361/oaklib-0.6.5.tar.gz
+[2024-05-10 01:40:24] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 01:40:24] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 01:40:24] INFO root fetch - processPackages [reacnetgenerator]: Downloading https://files.pythonhosted.org/packages/30/12/97ea807fd0296802063a58d5639e101cc78506549b2366ec956b59db67a8/reacnetgenerator-1.6.8.tar.gz
+[2024-05-10 01:40:24] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/d2/04/ccad06a0ed69ad6285cef0c52dc091c520fc5df409943f50c00a05ed300c/oaklib-0.6.6.tar.gz
+[2024-05-10 01:40:24] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 01:40:24] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 01:40:24] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 01:40:24] INFO root fetch - processPackages [oaklib]: executing diffoscope
+[2024-05-10 01:40:24] INFO root fetch - processPackages [oaklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaklib-0.6.5.tar.gz tmp/oaklib-0.6.6.tar.gz --markdown 20240510/o/oaklib/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-10 01:40:24] INFO root fetch - processPackages [reacnetgenerator]: executing diffoscope
+[2024-05-10 01:40:24] INFO root fetch - processPackages [reacnetgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reacnetgenerator-1.6.7.tar.gz tmp/reacnetgenerator-1.6.8.tar.gz --markdown 20240510/r/reacnetgenerator/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-05-10 01:40:25] INFO root fetch - processPackages [reacnetgenerator]: Remove: archive file [/home/abi/fetcher/tmp/reacnetgenerator-1.6.7.tar.gz]
+[2024-05-10 01:40:25] INFO root fetch - processPackages [reacnetgenerator]: Remove: archive file [/home/abi/fetcher/tmp/reacnetgenerator-1.6.8.tar.gz]
+[2024-05-10 01:40:25] INFO root fetch - main [MainThread]: End processing [reacnetgenerator]: success
+[2024-05-10 01:40:25] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.5.tar.gz]
+[2024-05-10 01:40:25] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.6.tar.gz]
+[2024-05-10 01:40:25] INFO root fetch - main [MainThread]: End processing [oaklib]: success
+[2024-05-10 01:40:25] INFO root fetch - main [MainThread]: Store serial: [23139020]
