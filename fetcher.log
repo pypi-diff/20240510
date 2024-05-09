@@ -1921,3 +1921,23 @@
 [2024-05-10 01:44:53] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-10 01:44:53] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-10 01:44:53] INFO root fetch - main [MainThread]: Store serial: [23139093]
+[2024-05-10 01:46:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139093]
+[2024-05-10 01:47:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 01:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grunchz
+[2024-05-10 01:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpleworkspace
+[2024-05-10 01:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sysidentpy
+[2024-05-10 01:47:02] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.198] Old Version: [1.2.197]
+[2024-05-10 01:47:02] INFO root fetch - processPackages [sysidentpy]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-10 01:47:02] WARNING root fetch - processPackages [grunchz]: Skipping, unable to determine old version
+[2024-05-10 01:47:02] INFO root fetch - main [MainThread]: End processing [grunchz] error
+[2024-05-10 01:47:02] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/b3/6d/536876074f71ea40d23ae668fe7f24e1387db26a6399e3e3a89710ea4562/simpleworkspace-1.2.197.tar.gz
+[2024-05-10 01:47:02] INFO root fetch - processPackages [sysidentpy]: Downloading https://files.pythonhosted.org/packages/0d/4d/82ae5297d1e4460c3c0758679c6e07b78d78a1e4760ff9616db1117c7c33/sysidentpy-0.3.3.tar.gz
+[2024-05-10 01:47:02] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/a6/b2/83b0f70212362cb7121d6d46dd8b1fdb5c6cda280c2a09592975cc89673a/simpleworkspace-1.2.198.tar.gz
+[2024-05-10 01:47:02] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-10 01:47:02] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.197.tar.gz tmp/simpleworkspace-1.2.198.tar.gz --markdown 20240510/s/simpleworkspace/1.2.197-1.2.198/README.md --exclude *.pyd
+[2024-05-10 01:47:02] WARNING root fetch - processPackages [sysidentpy]: Skipping package: exceeds size limit 40766537>=10485760
+[2024-05-10 01:47:02] INFO root fetch - main [MainThread]: End processing [sysidentpy] error
+[2024-05-10 01:47:03] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.197.tar.gz]
+[2024-05-10 01:47:03] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.198.tar.gz]
+[2024-05-10 01:47:03] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-10 01:47:03] INFO root fetch - main [MainThread]: Store serial: [23139105]
