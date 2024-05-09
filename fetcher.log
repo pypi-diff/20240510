@@ -1484,3 +1484,24 @@
 [2024-05-10 01:14:13] WARNING root fetch - processPackages [amberoidsz]: Skipping, unable to determine old version
 [2024-05-10 01:14:13] INFO root fetch - main [MainThread]: End processing [amberoidsz] error
 [2024-05-10 01:14:13] INFO root fetch - main [MainThread]: Store serial: [23138828]
+[2024-05-10 01:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138828]
+[2024-05-10 01:16:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 01:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bellybuttonseg
+[2024-05-10 01:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protein-design-tools
+[2024-05-10 01:16:22] INFO root fetch - processPackages [bellybuttonseg]: New version: [0.0.9] Old Version: [0.0.8.8]
+[2024-05-10 01:16:22] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 01:16:22] INFO root fetch - processPackages [bellybuttonseg]: Downloading https://files.pythonhosted.org/packages/05/18/b43f1b083d3ca6cace4d36ad186c3272a7be1fc3b750956a1d40ea3d55b7/bellybuttonseg-0.0.8.8.tar.gz
+[2024-05-10 01:16:22] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 01:16:22] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 01:16:23] INFO root fetch - processPackages [bellybuttonseg]: Downloading https://files.pythonhosted.org/packages/3c/a7/3f2b56de4949767bdfd213f43176e00d30d1e28401700de00e8c78c37620/bellybuttonseg-0.0.9.tar.gz
+[2024-05-10 01:16:23] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 01:16:23] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 01:16:23] INFO root fetch - processPackages [bellybuttonseg]: executing diffoscope
+[2024-05-10 01:16:23] INFO root fetch - processPackages [bellybuttonseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellybuttonseg-0.0.8.8.tar.gz tmp/bellybuttonseg-0.0.9.tar.gz --markdown 20240510/b/bellybuttonseg/0.0.8.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 01:16:23] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 01:16:23] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 01:16:23] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 01:16:23] INFO root fetch - processPackages [bellybuttonseg]: Remove: archive file [/home/abi/fetcher/tmp/bellybuttonseg-0.0.8.8.tar.gz]
+[2024-05-10 01:16:23] INFO root fetch - processPackages [bellybuttonseg]: Remove: archive file [/home/abi/fetcher/tmp/bellybuttonseg-0.0.9.tar.gz]
+[2024-05-10 01:16:23] INFO root fetch - main [MainThread]: End processing [bellybuttonseg]: success
+[2024-05-10 01:16:23] INFO root fetch - main [MainThread]: Store serial: [23138835]
