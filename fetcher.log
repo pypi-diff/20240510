@@ -218,3 +218,27 @@
 [2024-05-10 00:05:48] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
 [2024-05-10 00:05:48] INFO root fetch - main [MainThread]: End processing [openai]: success
 [2024-05-10 00:05:48] INFO root fetch - main [MainThread]: Store serial: [23138343]
+[2024-05-10 00:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138343]
+[2024-05-10 00:07:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 00:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 00:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dictparser
+[2024-05-10 00:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enola
+[2024-05-10 00:07:56] INFO root fetch - processPackages [enola]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-10 00:07:56] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 00:07:56] WARNING root fetch - processPackages [dictparser]: Skipping, unable to determine old version
+[2024-05-10 00:07:56] INFO root fetch - main [MainThread]: End processing [dictparser] error
+[2024-05-10 00:07:56] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 00:07:56] INFO root fetch - processPackages [enola]: Downloading https://files.pythonhosted.org/packages/93/ef/5fa6232ee139f9c590967d96355fa5f982d049c5043f4aa1e550c0b6ab03/enola-0.4.0.tar.gz
+[2024-05-10 00:07:57] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 00:07:57] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 00:07:57] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 00:07:57] INFO root fetch - processPackages [enola]: Downloading https://files.pythonhosted.org/packages/f7/9c/f8a4c292cae8e1fccdb729f3e98edaf2ee3e4d692d5dea18e44ab8653544/enola-0.5.0.tar.gz
+[2024-05-10 00:07:57] INFO root fetch - processPackages [enola]: executing diffoscope
+[2024-05-10 00:07:57] INFO root fetch - processPackages [enola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enola-0.4.0.tar.gz tmp/enola-0.5.0.tar.gz --markdown 20240510/e/enola/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-10 00:07:57] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 00:07:57] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 00:07:57] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 00:07:58] INFO root fetch - processPackages [enola]: Remove: archive file [/home/abi/fetcher/tmp/enola-0.4.0.tar.gz]
+[2024-05-10 00:07:58] INFO root fetch - processPackages [enola]: Remove: archive file [/home/abi/fetcher/tmp/enola-0.5.0.tar.gz]
+[2024-05-10 00:07:58] INFO root fetch - main [MainThread]: End processing [enola]: success
+[2024-05-10 00:07:58] INFO root fetch - main [MainThread]: Store serial: [23138353]
