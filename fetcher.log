@@ -2001,3 +2001,60 @@
 [2024-05-10 01:51:25] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-05-10 01:51:25] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-05-10 01:51:25] INFO root fetch - main [MainThread]: Store serial: [23139130]
+[2024-05-10 01:53:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139130]
+[2024-05-10 01:53:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wmill
+[2024-05-10 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill-pg
+[2024-05-10 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-custom-sidebar-test
+[2024-05-10 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-oflog-components
+[2024-05-10 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: err-aprs-backend
+[2024-05-10 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vision-agent
+[2024-05-10 01:53:34] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-10 01:53:34] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 01:53:34] INFO root fetch - processPackages [dash-oflog-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 01:53:34] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 01:53:34] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-10 01:53:34] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-10 01:53:34] INFO root fetch - processPackages [err-aprs-backend]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-10 01:53:34] INFO root fetch - processPackages [dash-oflog-components]: Downloading https://files.pythonhosted.org/packages/87/0b/f416b5cdfcc73fcb0e1d8e73d90f0fde8fa4a3042b87eef6a6f78630737b/dash_oflog_components-0.0.8.tar.gz
+[2024-05-10 01:53:34] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-10 01:53:34] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-10 01:53:34] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [err-aprs-backend]: Downloading https://files.pythonhosted.org/packages/79/71/965c5dedd01ecdc5f82669aa92da6a1a093d759254661191f7f9383cc011/err_aprs_backend-0.4.0.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [dash-oflog-components]: Downloading https://files.pythonhosted.org/packages/8b/f4/0b8659ff282e21dd91120e7b693c909d64230d30799a6ecfcf808cad6c44/dash_oflog_components-0.0.9.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240510/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-10 01:53:35] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [dash-oflog-components]: executing diffoscope
+[2024-05-10 01:53:35] INFO root fetch - processPackages [dash-oflog-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_oflog_components-0.0.8.tar.gz tmp/dash_oflog_components-0.0.9.tar.gz --markdown 20240510/d/dash-oflog-components/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 01:53:35] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-10 01:53:35] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240510/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 01:53:35] INFO root fetch - processPackages [err-aprs-backend]: Downloading https://files.pythonhosted.org/packages/ce/45/798059ef339e5640b167c3163d88bfb23dd444315f125fc2fd3b6c011994/err_aprs_backend-0.5.0.tar.gz
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240510/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-10 01:53:35] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-10 01:53:35] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240510/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 01:53:35] INFO root fetch - processPackages [err-aprs-backend]: executing diffoscope
+[2024-05-10 01:53:35] INFO root fetch - processPackages [err-aprs-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/err_aprs_backend-0.4.0.tar.gz tmp/err_aprs_backend-0.5.0.tar.gz --markdown 20240510/e/err-aprs-backend/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-10 01:53:35] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-10 01:53:35] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-10 01:53:36] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-10 01:53:36] INFO root fetch - processPackages [err-aprs-backend]: Remove: archive file [/home/abi/fetcher/tmp/err_aprs_backend-0.4.0.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - processPackages [err-aprs-backend]: Remove: archive file [/home/abi/fetcher/tmp/err_aprs_backend-0.5.0.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - main [MainThread]: End processing [err-aprs-backend]: success
+[2024-05-10 01:53:36] INFO root fetch - processPackages [dash-oflog-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_oflog_components-0.0.8.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - processPackages [dash-oflog-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_oflog_components-0.0.9.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - main [MainThread]: End processing [dash-oflog-components]: success
+[2024-05-10 01:53:36] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-10 01:53:36] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-10 01:53:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-10 01:53:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-10 01:53:46] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-10 01:53:46] INFO root fetch - main [MainThread]: Store serial: [23139153]
