@@ -1544,3 +1544,42 @@
 [2024-05-10 01:18:33] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.197.tar.gz]
 [2024-05-10 01:18:33] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
 [2024-05-10 01:18:33] INFO root fetch - main [MainThread]: Store serial: [23138856]
+[2024-05-10 01:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138856]
+[2024-05-10 01:20:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 01:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpleworkspace
+[2024-05-10 01:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-rsp
+[2024-05-10 01:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamdl
+[2024-05-10 01:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: depthcharge-ms
+[2024-05-10 01:20:42] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.198] Old Version: [1.2.197]
+[2024-05-10 01:20:42] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/b3/6d/536876074f71ea40d23ae668fe7f24e1387db26a6399e3e3a89710ea4562/simpleworkspace-1.2.197.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [depthcharge-ms]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-10 01:20:42] INFO root fetch - processPackages [lsst-rsp]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-10 01:20:42] INFO root fetch - processPackages [gamdl]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-10 01:20:42] INFO root fetch - processPackages [lsst-rsp]: Downloading https://files.pythonhosted.org/packages/a4/34/1918eb44184bcfae9a26d6174a1edf06b17651011195d6f0daafd2fac3ba/lsst_rsp-0.5.2.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/7c/9a/b8537bd572533adbacadefa55492aea996aee756348088d300c9a42d6524/gamdl-2.2.2.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/5d/9a/3a43f87209f30ee5cee78b197b442e53ad859db66837a86bcbd1b953e2d3/depthcharge_ms-0.4.6.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/a6/b2/83b0f70212362cb7121d6d46dd8b1fdb5c6cda280c2a09592975cc89673a/simpleworkspace-1.2.198.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/10/d3/a898d59b49ed86229e8149a722aeb08463a196cb5d5e1f10ce79b35caa53/gamdl-2.2.3.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-10 01:20:42] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.197.tar.gz tmp/simpleworkspace-1.2.198.tar.gz --markdown 20240510/s/simpleworkspace/1.2.197-1.2.198/README.md --exclude *.pyd
+[2024-05-10 01:20:42] INFO root fetch - processPackages [lsst-rsp]: Downloading https://files.pythonhosted.org/packages/32/29/f2e195c0f86e7c327d86a9b43f6a64cfd254a1abb4dbf2d45143161bfbc0/lsst_rsp-0.5.3.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/ba/05/25133a9a3ef08fe3d8568dc5cfb8fc3e3ac74c4efa5a2f46f7a266c7a048/depthcharge_ms-0.4.7.tar.gz
+[2024-05-10 01:20:42] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-05-10 01:20:42] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.2.2.tar.gz tmp/gamdl-2.2.3.tar.gz --markdown 20240510/g/gamdl/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-10 01:20:43] INFO root fetch - processPackages [lsst-rsp]: executing diffoscope
+[2024-05-10 01:20:43] INFO root fetch - processPackages [lsst-rsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_rsp-0.5.2.tar.gz tmp/lsst_rsp-0.5.3.tar.gz --markdown 20240510/l/lsst-rsp/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-10 01:20:43] INFO root fetch - processPackages [depthcharge-ms]: executing diffoscope
+[2024-05-10 01:20:43] INFO root fetch - processPackages [depthcharge-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthcharge_ms-0.4.6.tar.gz tmp/depthcharge_ms-0.4.7.tar.gz --markdown 20240510/d/depthcharge-ms/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-10 01:20:43] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.2.2.tar.gz]
+[2024-05-10 01:20:43] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.2.3.tar.gz]
+[2024-05-10 01:20:43] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-05-10 01:20:43] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.197.tar.gz]
+[2024-05-10 01:20:43] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.198.tar.gz]
+[2024-05-10 01:20:43] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-10 01:20:43] INFO root fetch - processPackages [lsst-rsp]: Remove: archive file [/home/abi/fetcher/tmp/lsst_rsp-0.5.2.tar.gz]
+[2024-05-10 01:20:43] INFO root fetch - processPackages [lsst-rsp]: Remove: archive file [/home/abi/fetcher/tmp/lsst_rsp-0.5.3.tar.gz]
+[2024-05-10 01:20:43] INFO root fetch - main [MainThread]: End processing [lsst-rsp]: success
+[2024-05-10 01:20:44] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.6.tar.gz]
+[2024-05-10 01:20:44] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.7.tar.gz]
+[2024-05-10 01:20:44] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
+[2024-05-10 01:20:44] INFO root fetch - main [MainThread]: Store serial: [23138868]
