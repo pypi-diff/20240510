@@ -1773,3 +1773,24 @@
 [2024-05-10 01:36:01] WARNING root fetch - processPackages [fibroenchondromaz]: Skipping, unable to determine old version
 [2024-05-10 01:36:01] INFO root fetch - main [MainThread]: End processing [fibroenchondromaz] error
 [2024-05-10 01:36:01] INFO root fetch - main [MainThread]: Store serial: [23138996]
+[2024-05-10 01:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138996]
+[2024-05-10 01:38:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 01:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solvation-analysis
+[2024-05-10 01:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quacc
+[2024-05-10 01:38:10] INFO root fetch - processPackages [quacc]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-10 01:38:10] INFO root fetch - processPackages [solvation-analysis]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-05-10 01:38:10] INFO root fetch - processPackages [solvation-analysis]: Downloading https://files.pythonhosted.org/packages/90/3f/f978ac978e3ad3f140718a533ae296f17517c4679babfb65e11f1a5ca420/solvation-analysis-0.3.5.tar.gz
+[2024-05-10 01:38:10] INFO root fetch - processPackages [quacc]: Downloading https://files.pythonhosted.org/packages/90/36/fbdf8a0520c99111de23c8c9c5812eaf3b6ce2649061323939b43db5aaa4/quacc-0.7.7.tar.gz
+[2024-05-10 01:38:10] INFO root fetch - processPackages [quacc]: Downloading https://files.pythonhosted.org/packages/35/e7/7793f5d71db2b09326753b18ee3cb3f4436acf3178bdf300f18c6031a6d7/quacc-0.7.8.tar.gz
+[2024-05-10 01:38:10] INFO root fetch - processPackages [quacc]: executing diffoscope
+[2024-05-10 01:38:10] INFO root fetch - processPackages [quacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quacc-0.7.7.tar.gz tmp/quacc-0.7.8.tar.gz --markdown 20240510/q/quacc/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-10 01:38:11] INFO root fetch - processPackages [quacc]: Remove: archive file [/home/abi/fetcher/tmp/quacc-0.7.7.tar.gz]
+[2024-05-10 01:38:11] INFO root fetch - processPackages [quacc]: Remove: archive file [/home/abi/fetcher/tmp/quacc-0.7.8.tar.gz]
+[2024-05-10 01:38:11] INFO root fetch - main [MainThread]: End processing [quacc]: success
+[2024-05-10 01:38:12] INFO root fetch - processPackages [solvation-analysis]: Downloading https://files.pythonhosted.org/packages/c0/02/2a2f52256343656e1f00fd546fb2cf4a0b57df99895873385d6fb7d4e55b/solvation_analysis-0.4.0.tar.gz
+[2024-05-10 01:38:12] INFO root fetch - processPackages [solvation-analysis]: executing diffoscope
+[2024-05-10 01:38:12] INFO root fetch - processPackages [solvation-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvation-analysis-0.3.5.tar.gz tmp/solvation_analysis-0.4.0.tar.gz --markdown 20240510/s/solvation-analysis/0.3.5-0.4.0/README.md --exclude *.pyd
+[2024-05-10 01:38:14] INFO root fetch - processPackages [solvation-analysis]: Remove: archive file [/home/abi/fetcher/tmp/solvation-analysis-0.3.5.tar.gz]
+[2024-05-10 01:38:14] INFO root fetch - processPackages [solvation-analysis]: Remove: archive file [/home/abi/fetcher/tmp/solvation_analysis-0.4.0.tar.gz]
+[2024-05-10 01:38:14] INFO root fetch - main [MainThread]: End processing [solvation-analysis]: success
+[2024-05-10 01:38:14] INFO root fetch - main [MainThread]: Store serial: [23139004]
