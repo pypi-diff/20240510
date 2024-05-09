@@ -741,3 +741,57 @@
 [2024-05-10 00:34:07] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
 [2024-05-10 00:34:07] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2024-05-10 00:34:07] INFO root fetch - main [MainThread]: Store serial: [23138575]
+[2024-05-10 00:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23138575]
+[2024-05-10 00:36:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annotationz
+[2024-05-10 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perturbopy
+[2024-05-10 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KFSmedia
+[2024-05-10 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dictparser
+[2024-05-10 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sky130
+[2024-05-10 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fritter
+[2024-05-10 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-sheets-sdk
+[2024-05-10 00:36:16] INFO root fetch - processPackages [google-sheets-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 00:36:16] INFO root fetch - processPackages [fritter]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 00:36:16] WARNING root fetch - processPackages [dictparser]: Skipping, unable to determine old version
+[2024-05-10 00:36:16] INFO root fetch - main [MainThread]: End processing [dictparser] error
+[2024-05-10 00:36:16] WARNING root fetch - processPackages [annotationz]: Skipping, unable to determine old version
+[2024-05-10 00:36:16] INFO root fetch - main [MainThread]: End processing [annotationz] error
+[2024-05-10 00:36:16] INFO root fetch - processPackages [perturbopy]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-10 00:36:16] INFO root fetch - processPackages [sky130]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 00:36:16] INFO root fetch - processPackages [google-sheets-sdk]: Downloading https://files.pythonhosted.org/packages/9d/c5/53687ff5d9066f6c9ea2002764575b635e53892cad8b5fe12f08518afd79/google_sheets_sdk-0.1.3.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [KFSmedia]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-05-10 00:36:17] INFO root fetch - processPackages [KFSmedia]: Downloading https://files.pythonhosted.org/packages/10/25/81f39e5bb2a4ab7a8bf989f140d009f189486d67e3ca9a5fee297367692a/kfsmedia-2.5.1.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [google-sheets-sdk]: Downloading https://files.pythonhosted.org/packages/58/e9/d1691b1cc3fe9b3aa5d7830734ecade768707f27d9aa35f34612d3371c30/google_sheets_sdk-0.1.4.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [fritter]: Downloading https://files.pythonhosted.org/packages/bf/f6/364fb3d58be38f030621c7d2232f3f7703cec46f2dd788a0ef71b8f25704/fritter-0.0.8.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [perturbopy]: Downloading https://files.pythonhosted.org/packages/a9/8a/bf900d0bacddb46288fba860430b8ce1b41835f1b863770f3220616a6d5d/perturbopy-0.5.2.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [sky130]: Downloading https://files.pythonhosted.org/packages/ce/80/8f0d6b9d7de1d0e7694ed996946fca95a363e2b91d05711b5f68be35e21a/sky130-0.8.0.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [google-sheets-sdk]: executing diffoscope
+[2024-05-10 00:36:17] INFO root fetch - processPackages [google-sheets-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_sheets_sdk-0.1.3.tar.gz tmp/google_sheets_sdk-0.1.4.tar.gz --markdown 20240510/g/google-sheets-sdk/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 00:36:17] INFO root fetch - processPackages [KFSmedia]: Downloading https://files.pythonhosted.org/packages/c9/f2/b9ffea9cfcf536a1f5459723964b26de9039c379c2dd6c85e45047eb5055/kfsmedia-2.5.2.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [fritter]: Downloading https://files.pythonhosted.org/packages/7f/4f/b985a4f8e77ff43ecef6fb391a011a3d0ac82f7c43586b26a975773f2ff6/fritter-0.0.9.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [perturbopy]: Downloading https://files.pythonhosted.org/packages/06/ee/c4756b6e701144ef4d951707be953503377abd65a33bc2d77919c5feb5e7/perturbopy-0.5.3.tar.gz
+[2024-05-10 00:36:17] INFO root fetch - processPackages [KFSmedia]: executing diffoscope
+[2024-05-10 00:36:17] INFO root fetch - processPackages [KFSmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsmedia-2.5.1.tar.gz tmp/kfsmedia-2.5.2.tar.gz --markdown 20240510/K/KFSmedia/2.5.1-2.5.2/README.md --exclude *.pyd
+[2024-05-10 00:36:17] INFO root fetch - processPackages [perturbopy]: executing diffoscope
+[2024-05-10 00:36:17] INFO root fetch - processPackages [perturbopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perturbopy-0.5.2.tar.gz tmp/perturbopy-0.5.3.tar.gz --markdown 20240510/p/perturbopy/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-10 00:36:17] INFO root fetch - processPackages [fritter]: executing diffoscope
+[2024-05-10 00:36:17] INFO root fetch - processPackages [fritter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fritter-0.0.8.tar.gz tmp/fritter-0.0.9.tar.gz --markdown 20240510/f/fritter/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 00:36:17] INFO root fetch - processPackages [google-sheets-sdk]: Remove: archive file [/home/abi/fetcher/tmp/google_sheets_sdk-0.1.3.tar.gz]
+[2024-05-10 00:36:17] INFO root fetch - processPackages [google-sheets-sdk]: Remove: archive file [/home/abi/fetcher/tmp/google_sheets_sdk-0.1.4.tar.gz]
+[2024-05-10 00:36:17] INFO root fetch - main [MainThread]: End processing [google-sheets-sdk]: success
+[2024-05-10 00:36:18] INFO root fetch - processPackages [KFSmedia]: Remove: archive file [/home/abi/fetcher/tmp/kfsmedia-2.5.1.tar.gz]
+[2024-05-10 00:36:18] INFO root fetch - processPackages [KFSmedia]: Remove: archive file [/home/abi/fetcher/tmp/kfsmedia-2.5.2.tar.gz]
+[2024-05-10 00:36:18] INFO root fetch - main [MainThread]: End processing [KFSmedia]: success
+[2024-05-10 00:36:18] INFO root fetch - processPackages [perturbopy]: Remove: archive file [/home/abi/fetcher/tmp/perturbopy-0.5.2.tar.gz]
+[2024-05-10 00:36:18] INFO root fetch - processPackages [perturbopy]: Remove: archive file [/home/abi/fetcher/tmp/perturbopy-0.5.3.tar.gz]
+[2024-05-10 00:36:18] INFO root fetch - main [MainThread]: End processing [perturbopy]: success
+[2024-05-10 00:36:18] INFO root fetch - processPackages [fritter]: Remove: archive file [/home/abi/fetcher/tmp/fritter-0.0.8.tar.gz]
+[2024-05-10 00:36:18] INFO root fetch - processPackages [fritter]: Remove: archive file [/home/abi/fetcher/tmp/fritter-0.0.9.tar.gz]
+[2024-05-10 00:36:18] INFO root fetch - main [MainThread]: End processing [fritter]: success
+[2024-05-10 00:36:19] INFO root fetch - processPackages [sky130]: Downloading https://files.pythonhosted.org/packages/d2/d1/26363e7f093603e29906bad883173c5e7ffbf92baf0c98d2f9a2088b5906/sky130-0.9.0.tar.gz
+[2024-05-10 00:36:20] INFO root fetch - processPackages [sky130]: executing diffoscope
+[2024-05-10 00:36:20] INFO root fetch - processPackages [sky130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sky130-0.8.0.tar.gz tmp/sky130-0.9.0.tar.gz --markdown 20240510/s/sky130/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 00:36:25] INFO root fetch - processPackages [sky130]: Remove: archive file [/home/abi/fetcher/tmp/sky130-0.8.0.tar.gz]
+[2024-05-10 00:36:25] INFO root fetch - processPackages [sky130]: Remove: archive file [/home/abi/fetcher/tmp/sky130-0.9.0.tar.gz]
+[2024-05-10 00:36:25] INFO root fetch - main [MainThread]: End processing [sky130]: success
+[2024-05-10 00:36:25] INFO root fetch - main [MainThread]: Store serial: [23138598]
