@@ -5088,3 +5088,45 @@
 [2024-05-10 04:56:07] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715304682.tar.gz]
 [2024-05-10 04:56:07] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2024-05-10 04:56:07] INFO root fetch - main [MainThread]: Store serial: [23140637]
+[2024-05-10 04:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140637]
+[2024-05-10 04:58:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servilelyz
+[2024-05-10 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: advanced_navigation
+[2024-05-10 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PFlowC
+[2024-05-10 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snk
+[2024-05-10 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-iterable
+[2024-05-10 04:58:16] INFO root fetch - processPackages [PFlowC]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-10 04:58:16] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.41] Old Version: [0.1.4]
+[2024-05-10 04:58:16] INFO root fetch - processPackages [airbyte-source-iterable]: New version: [0.5.1.dev202405100143] Old Version: [0.5.1.dev202405100053]
+[2024-05-10 04:58:16] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-10 04:58:17] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/81/62/2d29d1176516e3179164e620185f7e7b72a2143aea8f78aa77910cf85bbb/PFlowC-2.0.1.tar.gz
+[2024-05-10 04:58:17] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/3a/41/fa3915ea9a3c4e822b3050e7fe9d6c5d29b709d7210ed1ddd8c0e61d59da/advanced_navigation-0.1.4.tar.gz
+[2024-05-10 04:58:17] WARNING root fetch - processPackages [servilelyz]: Skipping, unable to determine old version
+[2024-05-10 04:58:17] INFO root fetch - main [MainThread]: End processing [servilelyz] error
+[2024-05-10 04:58:17] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/09/3e/af1650ad813124f978c79b0b6c92729131f65c92a0182eb0eb6ef76502a6/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz
+[2024-05-10 04:58:17] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2024-05-10 04:58:17] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2024-05-10 04:58:17] INFO root fetch - processPackages [snk]: executing diffoscope
+[2024-05-10 04:58:17] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20240510/s/snk/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-10 04:58:17] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/ce/e8/d58d922ae2904d5b2c9480af6b636fba7d01db1dd4148ef30696b315ab00/advanced_navigation-0.1.41.tar.gz
+[2024-05-10 04:58:17] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/48/ef/174474148ce687b7c81abe2ca0432c24b4bce9c39afcd14c7b185099ee7c/airbyte_source_iterable-0.5.1.dev202405100143.tar.gz
+[2024-05-10 04:58:17] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-10 04:58:17] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.4.tar.gz tmp/advanced_navigation-0.1.41.tar.gz --markdown 20240510/a/advanced_navigation/0.1.4-0.1.41/README.md --exclude *.pyd
+[2024-05-10 04:58:17] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/c0/be/0a703ecbd50de03c10ef433b22b174002d8bd0050df35dfe9b8f45f25a8e/PFlowC-2.1.0.tar.gz
+[2024-05-10 04:58:17] INFO root fetch - processPackages [airbyte-source-iterable]: executing diffoscope
+[2024-05-10 04:58:17] INFO root fetch - processPackages [airbyte-source-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz tmp/airbyte_source_iterable-0.5.1.dev202405100143.tar.gz --markdown 20240510/a/airbyte-source-iterable/0.5.1.dev202405100053-0.5.1.dev202405100143/README.md --exclude *.pyd
+[2024-05-10 04:58:17] INFO root fetch - processPackages [PFlowC]: executing diffoscope
+[2024-05-10 04:58:17] INFO root fetch - processPackages [PFlowC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PFlowC-2.0.1.tar.gz tmp/PFlowC-2.1.0.tar.gz --markdown 20240510/P/PFlowC/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-10 04:58:18] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2024-05-10 04:58:18] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405100143.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-iterable]: success
+[2024-05-10 04:58:18] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.4.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.41.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-10 04:58:18] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.0.1.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.1.0.tar.gz]
+[2024-05-10 04:58:18] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
+[2024-05-10 04:58:18] INFO root fetch - main [MainThread]: Store serial: [23140652]
