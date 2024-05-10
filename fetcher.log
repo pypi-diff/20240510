@@ -9824,3 +9824,20 @@
 [2024-05-10 09:37:24] INFO root fetch - processPackages [coldp]: Remove: archive file [/home/abi/fetcher/tmp/coldp-2024.5.3.tar.gz]
 [2024-05-10 09:37:24] INFO root fetch - main [MainThread]: End processing [coldp]: success
 [2024-05-10 09:37:24] INFO root fetch - main [MainThread]: Store serial: [23142815]
+[2024-05-10 09:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142815]
+[2024-05-10 09:39:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymitter
+[2024-05-10 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2024-05-10 09:39:33] INFO root fetch - processPackages [pymitter]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-10 09:39:33] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-10 09:39:33] INFO root fetch - processPackages [pymitter]: Downloading https://files.pythonhosted.org/packages/21/64/b8a681e0a73dd493595112157e37d7014ad1b0f4ce67c1405892be51cd69/pymitter-0.5.0.tar.gz
+[2024-05-10 09:39:33] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 09:39:33] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-10 09:39:33] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-10 09:39:33] INFO root fetch - processPackages [pymitter]: Downloading https://files.pythonhosted.org/packages/e2/d1/d66545682f22131fd40886d864c93da1a0bb78b91440fd5217900dd2f944/pymitter-0.5.1.tar.gz
+[2024-05-10 09:39:33] INFO root fetch - processPackages [pymitter]: executing diffoscope
+[2024-05-10 09:39:33] INFO root fetch - processPackages [pymitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymitter-0.5.0.tar.gz tmp/pymitter-0.5.1.tar.gz --markdown 20240510/p/pymitter/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-10 09:39:34] INFO root fetch - processPackages [pymitter]: Remove: archive file [/home/abi/fetcher/tmp/pymitter-0.5.0.tar.gz]
+[2024-05-10 09:39:34] INFO root fetch - processPackages [pymitter]: Remove: archive file [/home/abi/fetcher/tmp/pymitter-0.5.1.tar.gz]
+[2024-05-10 09:39:34] INFO root fetch - main [MainThread]: End processing [pymitter]: success
+[2024-05-10 09:39:34] INFO root fetch - main [MainThread]: Store serial: [23142835]
