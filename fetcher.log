@@ -3221,3 +3221,29 @@
 [2024-05-10 03:14:31] INFO root fetch - processPackages [qbraid-qir]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_qir-0.2.0.dev20240426162625.tar.gz]
 [2024-05-10 03:14:31] INFO root fetch - main [MainThread]: End processing [qbraid-qir]: success
 [2024-05-10 03:14:31] INFO root fetch - main [MainThread]: Store serial: [23139779]
+[2024-05-10 03:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139779]
+[2024-05-10 03:16:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-edge-model-explorer
+[2024-05-10 03:16:40] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ai-edge-model-explorer]: New version: [0.dev202405060029] Old Version: [0.0.93]
+[2024-05-10 03:16:40] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240509.9.44.878306] Old Version: [20240509.20.6.231332]
+[2024-05-10 03:16:40] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/bf/d5/fbc2efb1778208cef17a1446482bff4829238efd6f8fa1a629dbe9b8442d/ai_edge_model_explorer-0.0.93.tar.gz
+[2024-05-10 03:16:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/e2/61/67a84f6eb75c2ef49389caad5d66c1f7e2e46958f2dd2fe1c2a454791319/certora-cli-alpha-master-20240509.20.6.231332.tar.gz
+[2024-05-10 03:16:40] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14505919>=10485760
+[2024-05-10 03:16:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-10 03:16:40] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-10 03:16:40] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-10 03:16:40] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240510/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/48/77/6d6cffc04ea18750fc81b4affe078ef994f60eb0577d37b85cc841cba348/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ai-edge-model-explorer]: executing diffoscope
+[2024-05-10 03:16:40] INFO root fetch - processPackages [ai-edge-model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_model_explorer-0.0.93.tar.gz tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip --markdown 20240510/a/ai-edge-model-explorer/0.0.93-0.dev202405060029/README.md --exclude *.pyd
+[2024-05-10 03:16:41] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-10 03:16:41] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-10 03:16:41] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-10 03:16:41] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.0.93.tar.gz]
+[2024-05-10 03:16:41] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip]
+[2024-05-10 03:16:41] INFO root fetch - main [MainThread]: End processing [ai-edge-model-explorer]: success
+[2024-05-10 03:16:41] INFO root fetch - main [MainThread]: Store serial: [23139786]
