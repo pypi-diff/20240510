@@ -21224,3 +21224,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:21:32] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.2.tar.gz]
 [2024-05-10 16:21:32] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
 [2024-05-10 16:21:32] INFO root fetch - main [MainThread]: Store serial: [23147869]
+[2024-05-10 16:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147869]
+[2024-05-10 16:23:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requests-darwin-lite
+[2024-05-10 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: requests-darwin-lite
+[2024-05-10 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reversalz
+[2024-05-10 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellmaps-sdk
+[2024-05-10 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isparrowrecord
+[2024-05-10 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emkonfig
+[2024-05-10 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: partenaire-qualif
+[2024-05-10 16:23:41] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 16:23:42] INFO root fetch - processPackages [requests-darwin-lite]: New version: [2.28.0] Old Version: [2.27.2]
+[2024-05-10 16:23:42] INFO root fetch - processPackages [requests-darwin-lite]: New version: [2.28.0] Old Version: [2.27.2]
+[2024-05-10 16:23:42] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/82/23/15207f5b2ea2b1e2fef8bd3089a3cabe0659a7817a282ce92e71abc32c59/partenaire-qualif-0.1.0.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [isparrowrecord]: New version: [0.0.8a0] Old Version: [0.0.6a0]
+[2024-05-10 16:23:42] WARNING root fetch - processPackages [reversalz]: Skipping, unable to determine old version
+[2024-05-10 16:23:42] INFO root fetch - main [MainThread]: End processing [reversalz] error
+[2024-05-10 16:23:42] INFO root fetch - processPackages [cellmaps-sdk]: New version: [0.0.2] Old Version: [0.0.17]
+[2024-05-10 16:23:42] INFO root fetch - processPackages [emkonfig]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 16:23:42] INFO root fetch - processPackages [requests-darwin-lite]: Downloading https://files.pythonhosted.org/packages/3a/30/cf13097be73d36bf7ae26517b3f9c44d82dfeb8b6bda6f0b2ddb8c92975b/requests_darwin_lite-2.27.2.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [requests-darwin-lite]: Downloading https://files.pythonhosted.org/packages/3a/30/cf13097be73d36bf7ae26517b3f9c44d82dfeb8b6bda6f0b2ddb8c92975b/requests_darwin_lite-2.27.2.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [cellmaps-sdk]: Downloading https://files.pythonhosted.org/packages/05/d5/bb694e620707abd13c79df2413027acfc91adb0080e9bcc72f2d6c7b83a6/cellmaps_sdk-0.0.17.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/d6/ca/d10f69adc3c59688227c252e41ffdaabd149f35025d457d286ad8141ce26/emkonfig-0.1.4.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [isparrowrecord]: Downloading https://files.pythonhosted.org/packages/ce/87/9e17ce79559e5a5972e6cb4b0fc1bee34775e38f04ab87fcaadde7b7986d/isparrowrecord-0.0.6a0.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/86/73/ac06c975c9814685e2d88e4d5ea39de9c2d60120d404d1460fceafc7edcd/partenaire-qualif-0.1.1.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-10 16:23:42] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.1.0.tar.gz tmp/partenaire-qualif-0.1.1.tar.gz --markdown 20240510/p/partenaire-qualif/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 16:23:42] INFO root fetch - processPackages [cellmaps-sdk]: Downloading https://files.pythonhosted.org/packages/6c/fa/136a7c005d05aef472f4f46ff622cf6a4dd7545127c3d177428ee07ddd07/cellmaps-sdk-0.0.2.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/d6/60/f5fc90769b6cd230fe159d57d547e0449290e1f5ab69e415b35ec6afccb7/emkonfig-0.1.5.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [cellmaps-sdk]: executing diffoscope
+[2024-05-10 16:23:42] INFO root fetch - processPackages [cellmaps-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_sdk-0.0.17.tar.gz tmp/cellmaps-sdk-0.0.2.tar.gz --markdown 20240510/c/cellmaps-sdk/0.0.17-0.0.2/README.md --exclude *.pyd
+[2024-05-10 16:23:42] INFO root fetch - processPackages [isparrowrecord]: Downloading https://files.pythonhosted.org/packages/d2/70/da31a7a1bbd9cbf8a4e436853a06e3d357bc6aeeb8b235e6ac8d7a7c59f5/isparrowrecord-0.0.8a0.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [emkonfig]: executing diffoscope
+[2024-05-10 16:23:42] INFO root fetch - processPackages [emkonfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emkonfig-0.1.4.tar.gz tmp/emkonfig-0.1.5.tar.gz --markdown 20240510/e/emkonfig/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 16:23:42] INFO root fetch - processPackages [requests-darwin-lite]: Downloading https://files.pythonhosted.org/packages/6d/6d/3a6660aeff510b697b170cabe31f7979a7a48db36ceaa0bd5d01a493526c/requests_darwin_lite-2.28.0.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [requests-darwin-lite]: Downloading https://files.pythonhosted.org/packages/6d/6d/3a6660aeff510b697b170cabe31f7979a7a48db36ceaa0bd5d01a493526c/requests_darwin_lite-2.28.0.tar.gz
+[2024-05-10 16:23:42] INFO root fetch - processPackages [isparrowrecord]: executing diffoscope
+[2024-05-10 16:23:42] INFO root fetch - processPackages [isparrowrecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isparrowrecord-0.0.6a0.tar.gz tmp/isparrowrecord-0.0.8a0.tar.gz --markdown 20240510/i/isparrowrecord/0.0.6a0-0.0.8a0/README.md --exclude *.pyd
+[2024-05-10 16:23:43] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.1.0.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.1.1.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-10 16:23:43] INFO root fetch - processPackages [cellmaps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_sdk-0.0.17.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - processPackages [cellmaps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps-sdk-0.0.2.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - main [MainThread]: End processing [cellmaps-sdk]: success
+[2024-05-10 16:23:43] INFO root fetch - processPackages [requests-darwin-lite]: executing diffoscope
+[2024-05-10 16:23:43] INFO root fetch - processPackages [requests-darwin-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_darwin_lite-2.27.2.tar.gz tmp/requests_darwin_lite-2.28.0.tar.gz --markdown 20240510/r/requests-darwin-lite/2.27.2-2.28.0/README.md --exclude *.pyd
+[2024-05-10 16:23:43] INFO root fetch - processPackages [requests-darwin-lite]: executing diffoscope
+[2024-05-10 16:23:43] INFO root fetch - processPackages [requests-darwin-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_darwin_lite-2.27.2.tar.gz tmp/requests_darwin_lite-2.28.0.tar.gz --markdown 20240510/r/requests-darwin-lite/2.27.2-2.28.0/README.md --exclude *.pyd
+[2024-05-10 16:23:43] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.4.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.5.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - main [MainThread]: End processing [emkonfig]: success
+[2024-05-10 16:23:43] INFO root fetch - processPackages [isparrowrecord]: Remove: archive file [/home/abi/fetcher/tmp/isparrowrecord-0.0.6a0.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - processPackages [isparrowrecord]: Remove: archive file [/home/abi/fetcher/tmp/isparrowrecord-0.0.8a0.tar.gz]
+[2024-05-10 16:23:43] INFO root fetch - main [MainThread]: End processing [isparrowrecord]: success
+[2024-05-10 16:23:45] INFO root fetch - processPackages [requests-darwin-lite]: Remove: archive file [/home/abi/fetcher/tmp/requests_darwin_lite-2.27.2.tar.gz]
+[2024-05-10 16:23:45] INFO root fetch - processPackages [requests-darwin-lite]: Remove: archive file [/home/abi/fetcher/tmp/requests_darwin_lite-2.28.0.tar.gz]
+[2024-05-10 16:23:45] INFO root fetch - main [MainThread]: End processing [requests-darwin-lite]: success
+[2024-05-10 16:23:45] INFO root fetch - main [MainThread]: End processing [requests-darwin-lite]: success
+[2024-05-10 16:23:45] INFO root fetch - main [MainThread]: Store serial: [23147903]
