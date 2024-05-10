@@ -20473,3 +20473,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:00:27] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.tar.gz]
 [2024-05-10 16:00:27] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
 [2024-05-10 16:00:27] INFO root fetch - main [MainThread]: Store serial: [23147451]
+[2024-05-10 16:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147451]
+[2024-05-10 16:02:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensr-model
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-nested-routers
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fidejussionaryz
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diffoscope
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ldplayer-tools
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabrictestbed
+[2024-05-10 16:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mke-sculib
+[2024-05-10 16:02:37] INFO root fetch - processPackages [fabrictestbed]: New version: [1.7.0b3] Old Version: [1.7.0b2]
+[2024-05-10 16:02:37] INFO root fetch - processPackages [mke-sculib]: New version: [2.4.8] Old Version: [2.4.7]
+[2024-05-10 16:02:37] INFO root fetch - processPackages [drf-nested-routers]: New version: [0.94.0] Old Version: [0.93.5]
+[2024-05-10 16:02:37] INFO root fetch - processPackages [opensr-model]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 16:02:37] WARNING root fetch - processPackages [fidejussionaryz]: Skipping, unable to determine old version
+[2024-05-10 16:02:37] INFO root fetch - main [MainThread]: End processing [fidejussionaryz] error
+[2024-05-10 16:02:37] WARNING root fetch - processPackages [ldplayer-tools]: Skipping, unable to determine old version
+[2024-05-10 16:02:37] INFO root fetch - main [MainThread]: End processing [ldplayer-tools] error
+[2024-05-10 16:02:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715348911] Old Version: [0.0.21a1715224161]
+[2024-05-10 16:02:37] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/05/e2/6c5de699920da294247f66fa842d0b4786c5281b2443a34c0eaa384da5ca/fabrictestbed-1.7.0b2.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [mke-sculib]: Downloading https://files.pythonhosted.org/packages/9e/bf/248fc3a4d31551cb228b6e43dd06f40ea1decbb1807194df0e15eb71d8ab/mke_sculib-2.4.7.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2024-05-10 16:02:37] INFO root fetch - processPackages [drf-nested-routers]: Downloading https://files.pythonhosted.org/packages/ef/d6/028deaac557c92be1dbd56acb59b976f0ba8020894836e2404d4f79a3db6/drf-nested-routers-0.93.5.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [opensr-model]: Downloading https://files.pythonhosted.org/packages/d2/39/8c99ea65521f36152ad0e5cc01b2b183973c6680e8fef68e216e830e1b88/opensr_model-0.2.8.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/c8/f7/f3301c094146b9c24e0e53874c573ac5f2de4f1844f520727193de6150b7/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/a5/1a/a80c225d3b8645462dcd9cb4993befdfdd102639e7c3ac6922c4c6e1226b/fabrictestbed-1.7.0b3.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [mke-sculib]: Downloading https://files.pythonhosted.org/packages/90/fe/8b97244bba539bf8f7e20510506fdfa210defb9adaf2897ff0a1d04bd539/mke_sculib-2.4.8.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2024-05-10 16:02:37] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.7.0b2.tar.gz tmp/fabrictestbed-1.7.0b3.tar.gz --markdown 20240510/f/fabrictestbed/1.7.0b2-1.7.0b3/README.md --exclude *.pyd
+[2024-05-10 16:02:37] INFO root fetch - processPackages [drf-nested-routers]: Downloading https://files.pythonhosted.org/packages/56/46/6b8b6a6da04032bdaf35a416e6cf60b2a58b14decf409d799d87206960c7/drf-nested-routers-0.94.0.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [opensr-model]: Downloading https://files.pythonhosted.org/packages/76/6b/7b6999a2cd487df4a1cbb716247744618e967f64ffd5c774c6c3354f19e8/opensr_model-0.2.9.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/9c/b1/a669b912677357fe414a9f18ad8449caf07d139d9b4490ded67a5805ebd5/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz
+[2024-05-10 16:02:37] INFO root fetch - processPackages [mke-sculib]: executing diffoscope
+[2024-05-10 16:02:37] INFO root fetch - processPackages [mke-sculib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mke_sculib-2.4.7.tar.gz tmp/mke_sculib-2.4.8.tar.gz --markdown 20240510/m/mke-sculib/2.4.7-2.4.8/README.md --exclude *.pyd
+[2024-05-10 16:02:37] INFO root fetch - processPackages [drf-nested-routers]: executing diffoscope
+[2024-05-10 16:02:37] INFO root fetch - processPackages [drf-nested-routers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-nested-routers-0.93.5.tar.gz tmp/drf-nested-routers-0.94.0.tar.gz --markdown 20240510/d/drf-nested-routers/0.93.5-0.94.0/README.md --exclude *.pyd
+[2024-05-10 16:02:37] INFO root fetch - processPackages [opensr-model]: executing diffoscope
+[2024-05-10 16:02:37] INFO root fetch - processPackages [opensr-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr_model-0.2.8.tar.gz tmp/opensr_model-0.2.9.tar.gz --markdown 20240510/o/opensr-model/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 16:02:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-10 16:02:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz --markdown 20240510/p/pulumi-kubernetes-the-hard-way/0.0.21a1715224161-0.0.21a1715348911/README.md --exclude *.pyd
+[2024-05-10 16:02:38] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.7.0b2.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.7.0b3.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2024-05-10 16:02:38] INFO root fetch - processPackages [drf-nested-routers]: Remove: archive file [/home/abi/fetcher/tmp/drf-nested-routers-0.93.5.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - processPackages [drf-nested-routers]: Remove: archive file [/home/abi/fetcher/tmp/drf-nested-routers-0.94.0.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - main [MainThread]: End processing [drf-nested-routers]: success
+[2024-05-10 16:02:38] INFO root fetch - processPackages [mke-sculib]: Remove: archive file [/home/abi/fetcher/tmp/mke_sculib-2.4.7.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - processPackages [mke-sculib]: Remove: archive file [/home/abi/fetcher/tmp/mke_sculib-2.4.8.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - main [MainThread]: End processing [mke-sculib]: success
+[2024-05-10 16:02:38] INFO root fetch - processPackages [opensr-model]: Remove: archive file [/home/abi/fetcher/tmp/opensr_model-0.2.8.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - processPackages [opensr-model]: Remove: archive file [/home/abi/fetcher/tmp/opensr_model-0.2.9.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - main [MainThread]: End processing [opensr-model]: success
+[2024-05-10 16:02:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz]
+[2024-05-10 16:02:38] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-10 16:02:40] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2024-05-10 16:02:43] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2024-05-10 16:02:43] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20240510/d/diffoscope/98-99/README.md --exclude *.pyd
+[2024-05-10 16:02:45] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-98.tar.gz]
+[2024-05-10 16:02:45] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
+[2024-05-10 16:02:45] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2024-05-10 16:02:45] INFO root fetch - main [MainThread]: Store serial: [23147524]
