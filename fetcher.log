@@ -9641,3 +9641,45 @@
 [2024-05-10 09:28:36] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.9.tar.gz]
 [2024-05-10 09:28:36] INFO root fetch - main [MainThread]: End processing [leprikon]: success
 [2024-05-10 09:28:36] INFO root fetch - main [MainThread]: Store serial: [23142737]
+[2024-05-10 09:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142737]
+[2024-05-10 09:30:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 09:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erthlyz
+[2024-05-10 09:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bellek
+[2024-05-10 09:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radient
+[2024-05-10 09:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-flask
+[2024-05-10 09:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: riddlesolver
+[2024-05-10 09:30:44] INFO root fetch - processPackages [abstract-flask]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-05-10 09:30:45] INFO root fetch - processPackages [riddlesolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:30:45] INFO root fetch - processPackages [bellek]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-10 09:30:45] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/99/b5/84938409a7290ee982a6d60acf5583607985a2dd94b58d0ac8006d3d7d57/abstract_flask-0.0.0.2.tar.gz
+[2024-05-10 09:30:45] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/8b/0b/5d8ba16dc2ea29ecfd27ef083dad139cd6ff7a327a7f22334bb9aa882db7/riddlesolver-0.1.8.tar.gz
+[2024-05-10 09:30:45] WARNING root fetch - processPackages [erthlyz]: Skipping, unable to determine old version
+[2024-05-10 09:30:45] INFO root fetch - main [MainThread]: End processing [erthlyz] error
+[2024-05-10 09:30:45] INFO root fetch - processPackages [radient]: New version: [2024.5.9] Old Version: [2024.5.7]
+[2024-05-10 09:30:45] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/26/4a/fccdc0d1ab493a2f8ff61dc7887c3dfae74cbb14da793a33c1372d57e126/bellek-0.98.0.tar.gz
+[2024-05-10 09:30:45] INFO root fetch - processPackages [radient]: Downloading https://files.pythonhosted.org/packages/e4/14/3cb9f07958872e4b697651a4194dffac36e442ec43437fa67273a80ccfdf/radient-2024.5.7.tar.gz
+[2024-05-10 09:30:45] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/46/68/daef27bbcc176c6be119dbd92ff2be28b6d27558058a394d39d371188751/riddlesolver-0.1.9.tar.gz
+[2024-05-10 09:30:45] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/1a/2c/d10c9a7db975b462d348e242a313e4d15e3c11363d764f5a1f40176b3e42/bellek-0.99.0.tar.gz
+[2024-05-10 09:30:45] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/13/2f/9925b89e36ff851a9ff2a373f21acbe77e05d2f75ed6cf132d06158b1aca/abstract_flask-0.0.0.3.tar.gz
+[2024-05-10 09:30:45] INFO root fetch - processPackages [riddlesolver]: executing diffoscope
+[2024-05-10 09:30:45] INFO root fetch - processPackages [riddlesolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riddlesolver-0.1.8.tar.gz tmp/riddlesolver-0.1.9.tar.gz --markdown 20240510/r/riddlesolver/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:30:45] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-05-10 09:30:45] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.98.0.tar.gz tmp/bellek-0.99.0.tar.gz --markdown 20240510/b/bellek/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-10 09:30:45] INFO root fetch - processPackages [abstract-flask]: executing diffoscope
+[2024-05-10 09:30:45] INFO root fetch - processPackages [abstract-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_flask-0.0.0.2.tar.gz tmp/abstract_flask-0.0.0.3.tar.gz --markdown 20240510/a/abstract-flask/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-05-10 09:30:45] INFO root fetch - processPackages [radient]: Downloading https://files.pythonhosted.org/packages/22/ff/484fafd6cc86bb400dc2382cba3119bbf5ae5b13bc670081884fb91a4a4c/radient-2024.5.9.tar.gz
+[2024-05-10 09:30:45] INFO root fetch - processPackages [radient]: executing diffoscope
+[2024-05-10 09:30:45] INFO root fetch - processPackages [radient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radient-2024.5.7.tar.gz tmp/radient-2024.5.9.tar.gz --markdown 20240510/r/radient/2024.5.7-2024.5.9/README.md --exclude *.pyd
+[2024-05-10 09:30:46] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.2.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.3.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - main [MainThread]: End processing [abstract-flask]: success
+[2024-05-10 09:30:46] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.8.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
+[2024-05-10 09:30:46] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.98.0.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.99.0.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-05-10 09:30:46] INFO root fetch - processPackages [radient]: Remove: archive file [/home/abi/fetcher/tmp/radient-2024.5.7.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - processPackages [radient]: Remove: archive file [/home/abi/fetcher/tmp/radient-2024.5.9.tar.gz]
+[2024-05-10 09:30:46] INFO root fetch - main [MainThread]: End processing [radient]: success
+[2024-05-10 09:30:46] INFO root fetch - main [MainThread]: Store serial: [23142753]
