@@ -12547,3 +12547,29 @@
 [2024-05-10 11:20:06] INFO root fetch - processPackages [iwashi]: Remove: archive file [/home/abi/fetcher/tmp/iwashi-3.0.1.tar.gz]
 [2024-05-10 11:20:06] INFO root fetch - main [MainThread]: End processing [iwashi]: success
 [2024-05-10 11:20:06] INFO root fetch - main [MainThread]: Store serial: [23143975]
+[2024-05-10 11:22:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143975]
+[2024-05-10 11:22:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxtr
+[2024-05-10 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyzr-rag
+[2024-05-10 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amphichromez
+[2024-05-10 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dotgitignore
+[2024-05-10 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-tusd
+[2024-05-10 11:22:18] INFO root fetch - processPackages [fastapi-tusd]: New version: [0.100.1.post0] Old Version: [0.100.1]
+[2024-05-10 11:22:18] WARNING root fetch - processPackages [onnxtr]: Skipping, unable to determine old version
+[2024-05-10 11:22:18] INFO root fetch - main [MainThread]: End processing [onnxtr] error
+[2024-05-10 11:22:18] INFO root fetch - processPackages [lyzr-rag]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 11:22:18] INFO root fetch - processPackages [lyzr-rag]: Downloading https://files.pythonhosted.org/packages/81/56/22919a0c1f08d37a8a0419302a1dabbe9ca671d4000c49459af65cb8aa87/lyzr_rag-0.1.5.tar.gz
+[2024-05-10 11:22:18] INFO root fetch - processPackages [fastapi-tusd]: Downloading https://files.pythonhosted.org/packages/10/57/175ebe5d1f47daa4e5b2da29f8333afea97fcfba74385da3be66560175af/fastapi-tusd-0.100.1.tar.gz
+[2024-05-10 11:22:18] WARNING root fetch - processPackages [dotgitignore]: Skipping, unable to determine old version
+[2024-05-10 11:22:18] INFO root fetch - main [MainThread]: End processing [dotgitignore] error
+[2024-05-10 11:22:18] WARNING root fetch - processPackages [lyzr-rag]: Skipping package: exceeds size limit 15406122>=10485760
+[2024-05-10 11:22:18] INFO root fetch - main [MainThread]: End processing [lyzr-rag] error
+[2024-05-10 11:22:18] WARNING root fetch - processPackages [amphichromez]: Skipping, unable to determine old version
+[2024-05-10 11:22:18] INFO root fetch - main [MainThread]: End processing [amphichromez] error
+[2024-05-10 11:22:18] INFO root fetch - processPackages [fastapi-tusd]: Downloading https://files.pythonhosted.org/packages/50/47/c08349f028f040f42da592728c53dd8185c8423e739d0a5ca91c8c3a1dac/fastapi-tusd-0.100.1.post0.tar.gz
+[2024-05-10 11:22:18] INFO root fetch - processPackages [fastapi-tusd]: executing diffoscope
+[2024-05-10 11:22:18] INFO root fetch - processPackages [fastapi-tusd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-tusd-0.100.1.tar.gz tmp/fastapi-tusd-0.100.1.post0.tar.gz --markdown 20240510/f/fastapi-tusd/0.100.1-0.100.1.post0/README.md --exclude *.pyd
+[2024-05-10 11:22:19] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.100.1.tar.gz]
+[2024-05-10 11:22:19] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.100.1.post0.tar.gz]
+[2024-05-10 11:22:19] INFO root fetch - main [MainThread]: End processing [fastapi-tusd]: success
+[2024-05-10 11:22:19] INFO root fetch - main [MainThread]: Store serial: [23143991]
