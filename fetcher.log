@@ -9608,3 +9608,36 @@
 [2024-05-10 09:26:24] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-10 09:26:24] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-10 09:26:24] INFO root fetch - main [MainThread]: Store serial: [23142720]
+[2024-05-10 09:28:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142720]
+[2024-05-10 09:28:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 09:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-block-local
+[2024-05-10 09:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leprikon
+[2024-05-10 09:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyFairylandFuture
+[2024-05-10 09:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PREN-flawas
+[2024-05-10 09:28:33] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 09:28:33] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 09:28:34] WARNING root fetch - processPackages [PyFairylandFuture]: Skipping, unable to determine old version
+[2024-05-10 09:28:34] INFO root fetch - main [MainThread]: End processing [PyFairylandFuture] error
+[2024-05-10 09:28:34] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 09:28:34] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 09:28:34] INFO root fetch - processPackages [leprikon]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-05-10 09:28:34] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/9a/bf/16e38fcebc2544dc6fd08fdff9c24cd12630fe6ea1f3d08275d0b499eaa6/leprikon-3.9.8.tar.gz
+[2024-05-10 09:28:34] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 09:28:34] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 09:28:34] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:28:34] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 09:28:34] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/fc/bf/8586488436c267dc0a04120d5c3497c1e51ea0c492c84ab51e0402564b30/leprikon-3.9.9.tar.gz
+[2024-05-10 09:28:34] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 09:28:34] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:28:34] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 09:28:34] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 09:28:34] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 09:28:34] INFO root fetch - processPackages [leprikon]: executing diffoscope
+[2024-05-10 09:28:34] INFO root fetch - processPackages [leprikon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leprikon-3.9.8.tar.gz tmp/leprikon-3.9.9.tar.gz --markdown 20240510/l/leprikon/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-05-10 09:28:35] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 09:28:35] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 09:28:35] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 09:28:36] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.8.tar.gz]
+[2024-05-10 09:28:36] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.9.tar.gz]
+[2024-05-10 09:28:36] INFO root fetch - main [MainThread]: End processing [leprikon]: success
+[2024-05-10 09:28:36] INFO root fetch - main [MainThread]: Store serial: [23142737]
