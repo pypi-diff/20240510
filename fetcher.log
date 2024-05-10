@@ -7168,3 +7168,39 @@
 [2024-05-10 07:14:19] INFO root fetch - processPackages [pytvm]: Remove: archive file [/home/abi/fetcher/tmp/pytvm-0.0.9.tar.gz]
 [2024-05-10 07:14:19] INFO root fetch - main [MainThread]: End processing [pytvm]: success
 [2024-05-10 07:14:19] INFO root fetch - main [MainThread]: Store serial: [23141572]
+[2024-05-10 07:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141572]
+[2024-05-10 07:16:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 07:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qlv-client
+[2024-05-10 07:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blockchain-python
+[2024-05-10 07:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noctilucencez
+[2024-05-10 07:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pg-sync-roles
+[2024-05-10 07:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-indie-tools
+[2024-05-10 07:16:28] INFO root fetch - processPackages [qlv-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-10 07:16:28] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 07:16:28] INFO root fetch - processPackages [ml-indie-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 07:16:28] WARNING root fetch - processPackages [noctilucencez]: Skipping, unable to determine old version
+[2024-05-10 07:16:28] INFO root fetch - main [MainThread]: End processing [noctilucencez] error
+[2024-05-10 07:16:28] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/bd/ab/1807e4950c0848230d6cd4b86d18368031adb7e46fce22af91f7658f2c57/qlv-client-0.2.2.tar.gz
+[2024-05-10 07:16:28] WARNING root fetch - processPackages [blockchain-python]: Skipping, unable to determine old version
+[2024-05-10 07:16:28] INFO root fetch - main [MainThread]: End processing [blockchain-python] error
+[2024-05-10 07:16:28] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-10 07:16:28] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/69/1d/c6da639234bf4fc987bcf4c70d7f07f77fa76a44aefc0606a4a01d5a7df1/ml-indie-tools-0.9.8.tar.gz
+[2024-05-10 07:16:28] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/dc/de/d925fee74bb8d13f43b041409d0894d88ac152c18da6ca97c4d9820355c9/ml-indie-tools-0.9.9.tar.gz
+[2024-05-10 07:16:28] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-10 07:16:28] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/89/d4/411d17cac600f72ef11c0737c003fffdefeb49958644537a0a8dd6a28a6d/qlv-client-0.2.3.tar.gz
+[2024-05-10 07:16:28] INFO root fetch - processPackages [ml-indie-tools]: executing diffoscope
+[2024-05-10 07:16:28] INFO root fetch - processPackages [ml-indie-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-indie-tools-0.9.8.tar.gz tmp/ml-indie-tools-0.9.9.tar.gz --markdown 20240510/m/ml-indie-tools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 07:16:28] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-10 07:16:28] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240510/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:16:28] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-10 07:16:28] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.2.2.tar.gz tmp/qlv-client-0.2.3.tar.gz --markdown 20240510/q/qlv-client/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-10 07:16:29] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-10 07:16:29] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-10 07:16:29] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-10 07:16:29] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.8.tar.gz]
+[2024-05-10 07:16:29] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.9.tar.gz]
+[2024-05-10 07:16:29] INFO root fetch - main [MainThread]: End processing [ml-indie-tools]: success
+[2024-05-10 07:16:29] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.2.tar.gz]
+[2024-05-10 07:16:29] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.3.tar.gz]
+[2024-05-10 07:16:29] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-10 07:16:29] INFO root fetch - main [MainThread]: Store serial: [23141597]
