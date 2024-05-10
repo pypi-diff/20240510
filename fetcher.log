@@ -22524,3 +22524,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:05:45] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.7.0.tar.gz]
 [2024-05-10 17:05:45] INFO root fetch - main [MainThread]: End processing [pyanno4rt]: success
 [2024-05-10 17:05:45] INFO root fetch - main [MainThread]: Store serial: [23148534]
+[2024-05-10 17:07:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148534]
+[2024-05-10 17:07:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comwatt
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geoglows
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-spreadsheet-oca
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtealeaves
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-fastly
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skilleter-thingy
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: copolymerizationsz
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: itrm
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: databricks-labs-ucx
+[2024-05-10 17:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: noncompoundz
+[2024-05-10 17:07:54] WARNING root fetch - processPackages [copolymerizationsz]: Skipping, unable to determine old version
+[2024-05-10 17:07:54] INFO root fetch - main [MainThread]: End processing [copolymerizationsz] error
+[2024-05-10 17:07:54] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-05-10 17:07:54] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.7.0a1715351477] Old Version: [8.7.0a1715303918]
+[2024-05-10 17:07:54] INFO root fetch - processPackages [itrm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 17:07:54] INFO root fetch - processPackages [comwatt]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-10 17:07:54] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/6c/94/560e6f0041338f00b33b44fc5f0a37a6b12c01a493658b1583d37e314ff2/skilleter_thingy-0.0.42.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-10 17:07:54] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/80/b1/7ed8fddc76d1ef1e4a38475e38c0aff0ac717700cc39cbac4186560f3eeb/pulumi_fastly-8.7.0a1715303918.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [comwatt]: Downloading https://files.pythonhosted.org/packages/a5/2c/ea377e93029682c8134fa4b2c8180424b4192dcc0116e5dceab5a872831e/comwatt-0.5.0.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.2.3] Old Version: [16.0.1.2.2]
+[2024-05-10 17:07:54] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/84/3f/b5e7fc6009ce0354b4675373a4bc5c42de75d53bfa65722db25d842c05de/itrm-0.1.8.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [geoglows]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-10 17:07:54] WARNING root fetch - processPackages [noncompoundz]: Skipping, unable to determine old version
+[2024-05-10 17:07:54] INFO root fetch - main [MainThread]: End processing [noncompoundz] error
+[2024-05-10 17:07:54] INFO root fetch - processPackages [databricks-labs-ucx]: New version: [0.23.1] Old Version: [0.23.0]
+[2024-05-10 17:07:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/8f/cd/bb143eb6abdeb8bfdee17fb75dd0386c26ca070ce1c4b4f02f848e03b6c6/odoo_addon_spreadsheet_oca-16.0.1.2.2-py3-none-any.whl
+[2024-05-10 17:07:54] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/ee/4f/f8f108e94bcac2de84ed14980a227afd32adfc42b8d12d28a04468455963/qtealeaves-1.1.4.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/b4/d5/dcebff666542a44d84bfa9dc8c6164429a5beb99d4345698c90842bbc884/geoglows-1.5.0.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/35/d9/2923458248fefadc46291ec0e8d452d1a4bb64cfaee00db5b884895e3ecc/itrm-0.1.9.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [comwatt]: Downloading https://files.pythonhosted.org/packages/61/a3/83998f581c044ed43fd563e8484deb41f1dda4e001387a458fb196d18e56/comwatt-0.6.0.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [databricks-labs-ucx]: Downloading https://files.pythonhosted.org/packages/bd/f2/20945b56cc1b1e782317da1a8ac0f086d55e6cabd374d6587e15b0aebcb0/databricks_labs_ucx-0.23.0.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/d4/5d/5a7afab972670588d5f28fc65df12838ac6c0a13d918c561d3b696b216eb/skilleter_thingy-0.0.43.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/8b/d2/1fc73a1ae9879bd1a62594f8d3d530daacfe1519321c3f1d30d0198a1390/pulumi_fastly-8.7.0a1715351477.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [itrm]: executing diffoscope
+[2024-05-10 17:07:54] INFO root fetch - processPackages [itrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itrm-0.1.8.tar.gz tmp/itrm-0.1.9.tar.gz --markdown 20240510/i/itrm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 17:07:54] INFO root fetch - processPackages [comwatt]: executing diffoscope
+[2024-05-10 17:07:54] INFO root fetch - processPackages [comwatt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comwatt-0.5.0.tar.gz tmp/comwatt-0.6.0.tar.gz --markdown 20240510/c/comwatt/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-10 17:07:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/a0/b8/ef501db39867464a3f339765ca2859e4c0b1ff584179dabf0e275e5950e4/odoo_addon_spreadsheet_oca-16.0.1.2.3-py3-none-any.whl
+[2024-05-10 17:07:54] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-10 17:07:54] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.42.tar.gz tmp/skilleter_thingy-0.0.43.tar.gz --markdown 20240510/s/skilleter-thingy/0.0.42-0.0.43/README.md --exclude *.pyd
+[2024-05-10 17:07:54] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/db/10/746b34ac20fc4ba3793861a5cb01199b23cdf1fadb6667b79b46923641d3/qtealeaves-1.1.5.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/a6/39/23cccccf333b5de8f5050db02e17350c4afa81c111c4a9c30149f6aaaa8e/geoglows-1.6.0.tar.gz
+[2024-05-10 17:07:54] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-10 17:07:54] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.7.0a1715303918.tar.gz tmp/pulumi_fastly-8.7.0a1715351477.tar.gz --markdown 20240510/p/pulumi-fastly/8.7.0a1715303918-8.7.0a1715351477/README.md --exclude *.pyd
+[2024-05-10 17:07:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2024-05-10 17:07:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.2.2-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-spreadsheet-oca/16.0.1.2.2-16.0.1.2.3/README.md --exclude *.pyd
+[2024-05-10 17:07:54] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-10 17:07:54] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.4.tar.gz tmp/qtealeaves-1.1.5.tar.gz --markdown 20240510/q/qtealeaves/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-10 17:07:54] INFO root fetch - processPackages [geoglows]: executing diffoscope
+[2024-05-10 17:07:54] INFO root fetch - processPackages [geoglows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoglows-1.5.0.tar.gz tmp/geoglows-1.6.0.tar.gz --markdown 20240510/g/geoglows/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-10 17:07:54] INFO root fetch - processPackages [databricks-labs-ucx]: Downloading https://files.pythonhosted.org/packages/51/af/bda3fcfd2158dc5a68f08375940aeb7172671dfe06fbef0305697dbc1087/databricks_labs_ucx-0.23.1.tar.gz
+[2024-05-10 17:07:55] INFO root fetch - processPackages [comwatt]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-0.5.0.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - processPackages [comwatt]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-0.6.0.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - main [MainThread]: End processing [comwatt]: success
+[2024-05-10 17:07:55] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.8.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.9.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - main [MainThread]: End processing [itrm]: success
+[2024-05-10 17:07:55] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.42.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.43.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-10 17:07:55] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.5.0.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.6.0.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - main [MainThread]: End processing [geoglows]: success
+[2024-05-10 17:07:55] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.2-py3-none-any.whl.zip]
+[2024-05-10 17:07:55] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3-py3-none-any.whl.zip]
+[2024-05-10 17:07:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2024-05-10 17:07:55] INFO root fetch - processPackages [databricks-labs-ucx]: executing diffoscope
+[2024-05-10 17:07:55] INFO root fetch - processPackages [databricks-labs-ucx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_ucx-0.23.0.tar.gz tmp/databricks_labs_ucx-0.23.1.tar.gz --markdown 20240510/d/databricks-labs-ucx/0.23.0-0.23.1/README.md --exclude *.pyd
+[2024-05-10 17:07:55] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.4.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.5.tar.gz]
+[2024-05-10 17:07:55] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-10 17:07:56] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1715303918.tar.gz]
+[2024-05-10 17:07:56] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1715351477.tar.gz]
+[2024-05-10 17:07:56] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-10 17:07:56] INFO root fetch - processPackages [databricks-labs-ucx]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_ucx-0.23.0.tar.gz]
+[2024-05-10 17:07:56] INFO root fetch - processPackages [databricks-labs-ucx]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_ucx-0.23.1.tar.gz]
+[2024-05-10 17:07:56] INFO root fetch - main [MainThread]: End processing [databricks-labs-ucx]: success
+[2024-05-10 17:07:56] INFO root fetch - main [MainThread]: Store serial: [23148555]
