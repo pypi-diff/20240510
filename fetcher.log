@@ -20745,3 +20745,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:07:10] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202405101405.tar.gz]
 [2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [mlops-ods]: success
 [2024-05-10 16:07:10] INFO root fetch - main [MainThread]: Store serial: [23147667]
+[2024-05-10 16:09:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147667]
+[2024-05-10 16:09:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 16:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-prefect
+[2024-05-10 16:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p-template-generator
+[2024-05-10 16:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emkonfig
+[2024-05-10 16:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmuxradio
+[2024-05-10 16:09:20] INFO root fetch - processPackages [tmuxradio]: New version: [0.2.1] Old Version: [0.2]
+[2024-05-10 16:09:20] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-10 16:09:20] INFO root fetch - processPackages [emkonfig]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 16:09:20] INFO root fetch - processPackages [pulumi-prefect]: New version: [0.1.4] Old Version: [0.1.0a1715347486]
+[2024-05-10 16:09:20] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/38/0e/e8297a2158c25e7371760803aaccc10a45443b5300093d723b3087cdb96d/tmuxradio-0.2.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/15/d9/1dbb2569bac564d8bb01db4c00b7e37ee2debda323e08ac2775d488d478b/emkonfig-0.1.2.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [pulumi-prefect]: Downloading https://files.pythonhosted.org/packages/23/46/4a72e269bb9ce1de0ae1946bdc4f25b70f2eacb5f798a0b21d97584ad970/pulumi_prefect-0.1.0a1715347486.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [pulumi-prefect]: Downloading https://files.pythonhosted.org/packages/ed/95/0cb178c7564f437405c96be02a9d987dcfaf8ff2a822028e12e5437479d9/pulumi_prefect-0.1.4.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/93/52/e8b4ea7f073171385470ef66d5dd10be316d0432beb069e99c843f52416b/emkonfig-0.1.3.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/36/27/6cfe1d6430d78a82962af89a2e36533e1b4ede3714b0bcd9ecd4a38ff1e2/tmuxradio-0.2.1.tar.gz
+[2024-05-10 16:09:20] INFO root fetch - processPackages [pulumi-prefect]: executing diffoscope
+[2024-05-10 16:09:20] INFO root fetch - processPackages [pulumi-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_prefect-0.1.0a1715347486.tar.gz tmp/pulumi_prefect-0.1.4.tar.gz --markdown 20240510/p/pulumi-prefect/0.1.0a1715347486-0.1.4/README.md --exclude *.pyd
+[2024-05-10 16:09:20] INFO root fetch - processPackages [emkonfig]: executing diffoscope
+[2024-05-10 16:09:20] INFO root fetch - processPackages [emkonfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emkonfig-0.1.2.tar.gz tmp/emkonfig-0.1.3.tar.gz --markdown 20240510/e/emkonfig/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 16:09:20] INFO root fetch - processPackages [tmuxradio]: executing diffoscope
+[2024-05-10 16:09:20] INFO root fetch - processPackages [tmuxradio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmuxradio-0.2.tar.gz tmp/tmuxradio-0.2.1.tar.gz --markdown 20240510/t/tmuxradio/0.2-0.2.1/README.md --exclude *.pyd
+[2024-05-10 16:09:21] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-05-10 16:09:21] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240510/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-10 16:09:21] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.2.tar.gz]
+[2024-05-10 16:09:21] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.3.tar.gz]
+[2024-05-10 16:09:21] INFO root fetch - main [MainThread]: End processing [emkonfig]: success
+[2024-05-10 16:09:21] INFO root fetch - processPackages [pulumi-prefect]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_prefect-0.1.0a1715347486.tar.gz]
+[2024-05-10 16:09:21] INFO root fetch - processPackages [pulumi-prefect]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_prefect-0.1.4.tar.gz]
+[2024-05-10 16:09:21] INFO root fetch - main [MainThread]: End processing [pulumi-prefect]: success
+[2024-05-10 16:09:22] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-05-10 16:09:22] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-05-10 16:09:22] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-05-10 16:09:26] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.tar.gz]
+[2024-05-10 16:09:26] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.1.tar.gz]
+[2024-05-10 16:09:26] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
+[2024-05-10 16:09:26] INFO root fetch - main [MainThread]: Store serial: [23147681]
