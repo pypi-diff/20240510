@@ -12428,3 +12428,68 @@
 [2024-05-10 11:15:39] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b8.tar.gz]
 [2024-05-10 11:15:39] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
 [2024-05-10 11:15:39] INFO root fetch - main [MainThread]: Store serial: [23143922]
+[2024-05-10 11:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143922]
+[2024-05-10 11:17:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serverless-openai
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-tusd
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambrosianz
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu118
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: g3visu
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vdk-postgres
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdk-trino
+[2024-05-10 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-osubot
+[2024-05-10 11:17:51] WARNING root fetch - processPackages [ambrosianz]: Skipping, unable to determine old version
+[2024-05-10 11:17:51] INFO root fetch - main [MainThread]: End processing [ambrosianz] error
+[2024-05-10 11:17:51] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240509] Old Version: [0.2.3.dev20240508]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [g3visu]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.0.2] Old Version: [6.0.1]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-trino]: New version: [0.4.948436673] Old Version: [0.4.944393829]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-postgres]: New version: [0.0.961031287] Old Version: [0.0.944393829]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/e7/51/8972df1c5c71512fc3d4762de97b0f823d34bc94a4fe6e0d27dd5f5b8d85/g3visu-0.1.2.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b0/22/e3ff8d3a3caa11edccbb7f8d6ba69e4e7387f4ad67867aa6fa197659680f/nvfuser_cu118-0.2.3.dev20240508.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [fastapi-tusd]: New version: [0.100.1.post0] Old Version: [0.100.1]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [serverless-openai]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/b3/27/cace6d61c7a462a1ea13469f16f973fbbfdac531efc49e7d5b3356b237f8/nonebot-plugin-osubot-6.0.1.tar.gz
+[2024-05-10 11:17:52] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29385546>=10485760
+[2024-05-10 11:17:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-10 11:17:52] INFO root fetch - processPackages [serverless-openai]: Downloading https://files.pythonhosted.org/packages/94/2b/1c201a0c5abd7b0014f1ca4481ee69bc4484b6ee5eb09ce281fd7c2f90ad/serverless_openai-1.3.7.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/be/59/e53d76c38a9ba3ab4a38b511d069f3c677a353fbc609b5f946e49d330f9c/g3visu-0.1.3.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/12/01/2e9cc8408690bcc0a36eeb24a92b2930c74ceec422ca88bb114dab7fa440/nvfuser_cu118-0.2.3.dev20240509.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/c1/e2/8f118d923a35360ea129ef943675e16a4c90f5b3693b85b589572e4b33ec/vdk-trino-0.4.944393829.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [fastapi-tusd]: Downloading https://files.pythonhosted.org/packages/10/57/175ebe5d1f47daa4e5b2da29f8333afea97fcfba74385da3be66560175af/fastapi-tusd-0.100.1.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-postgres]: Downloading https://files.pythonhosted.org/packages/b4/6c/c8ec3eb9781d9b9d6fe69b45ed1aa7aa484a222a086305440f54b830078b/vdk-postgres-0.0.944393829.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [g3visu]: executing diffoscope
+[2024-05-10 11:17:52] INFO root fetch - processPackages [g3visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3visu-0.1.2.tar.gz tmp/g3visu-0.1.3.tar.gz --markdown 20240510/g/g3visu/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240508.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240509.tar.gz --markdown 20240510/n/nvfuser-cu118/0.2.3.dev20240508-0.2.3.dev20240509/README.md --exclude *.pyd
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-postgres]: Downloading https://files.pythonhosted.org/packages/d8/5d/de8f365dac62d3d7078a735efc93e3b5f0ea9f05dfb3bc94775f0e5e0faf/vdk-postgres-0.0.961031287.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [serverless-openai]: Downloading https://files.pythonhosted.org/packages/c3/25/25416c5a5e14b067e2e6c7e844bc9bcc4c37d527f8a20a13800c75924d14/serverless_openai-1.3.8.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [fastapi-tusd]: Downloading https://files.pythonhosted.org/packages/50/47/c08349f028f040f42da592728c53dd8185c8423e739d0a5ca91c8c3a1dac/fastapi-tusd-0.100.1.post0.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/ea/7e/14f7593a87f15edb1f40491364c0653db0d59207e2be1a435c88ed1df071/vdk-trino-0.4.948436673.tar.gz
+[2024-05-10 11:17:52] INFO root fetch - processPackages [serverless-openai]: executing diffoscope
+[2024-05-10 11:17:52] INFO root fetch - processPackages [serverless-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless_openai-1.3.7.tar.gz tmp/serverless_openai-1.3.8.tar.gz --markdown 20240510/s/serverless-openai/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-10 11:17:52] INFO root fetch - processPackages [fastapi-tusd]: executing diffoscope
+[2024-05-10 11:17:52] INFO root fetch - processPackages [fastapi-tusd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-tusd-0.100.1.tar.gz tmp/fastapi-tusd-0.100.1.post0.tar.gz --markdown 20240510/f/fastapi-tusd/0.100.1-0.100.1.post0/README.md --exclude *.pyd
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-postgres]: executing diffoscope
+[2024-05-10 11:17:52] INFO root fetch - processPackages [vdk-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-postgres-0.0.944393829.tar.gz tmp/vdk-postgres-0.0.961031287.tar.gz --markdown 20240510/v/vdk-postgres/0.0.944393829-0.0.961031287/README.md --exclude *.pyd
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240508.tar.gz]
+[2024-05-10 11:17:52] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240509.tar.gz]
+[2024-05-10 11:17:52] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-10 11:17:53] INFO root fetch - processPackages [vdk-trino]: executing diffoscope
+[2024-05-10 11:17:53] INFO root fetch - processPackages [vdk-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-trino-0.4.944393829.tar.gz tmp/vdk-trino-0.4.948436673.tar.gz --markdown 20240510/v/vdk-trino/0.4.944393829-0.4.948436673/README.md --exclude *.pyd
+[2024-05-10 11:17:53] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.2.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.3.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - main [MainThread]: End processing [g3visu]: success
+[2024-05-10 11:17:53] INFO root fetch - processPackages [serverless-openai]: Remove: archive file [/home/abi/fetcher/tmp/serverless_openai-1.3.7.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - processPackages [serverless-openai]: Remove: archive file [/home/abi/fetcher/tmp/serverless_openai-1.3.8.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - main [MainThread]: End processing [serverless-openai]: success
+[2024-05-10 11:17:53] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.944393829.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
+[2024-05-10 11:17:53] INFO root fetch - processPackages [vdk-postgres]: Remove: archive file [/home/abi/fetcher/tmp/vdk-postgres-0.0.944393829.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - processPackages [vdk-postgres]: Remove: archive file [/home/abi/fetcher/tmp/vdk-postgres-0.0.961031287.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - main [MainThread]: End processing [vdk-postgres]: success
+[2024-05-10 11:17:53] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.100.1.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.100.1.post0.tar.gz]
+[2024-05-10 11:17:53] INFO root fetch - main [MainThread]: End processing [fastapi-tusd]: success
+[2024-05-10 11:17:53] INFO root fetch - main [MainThread]: Store serial: [23143951]
