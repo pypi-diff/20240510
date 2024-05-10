@@ -10527,3 +10527,92 @@
 [2024-05-10 10:11:23] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.9.tar.gz]
 [2024-05-10 10:11:23] INFO root fetch - main [MainThread]: End processing [pdip]: success
 [2024-05-10 10:11:23] INFO root fetch - main [MainThread]: Store serial: [23143116]
+[2024-05-10 10:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143116]
+[2024-05-10 10:13:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aily-sdk
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcrit
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybangla
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawlipt
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yhxmmdk
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MpNM
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pushsource
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metabotk
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notebook_setup
+[2024-05-10 10:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: example-package-parth
+[2024-05-10 10:13:32] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 10:13:32] INFO root fetch - processPackages [pybangla]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-10 10:13:32] WARNING root fetch - processPackages [MpNM]: Skipping, unable to determine old version
+[2024-05-10 10:13:32] INFO root fetch - processPackages [MpNM]: Start processing: weaviate-client
+[2024-05-10 10:13:32] INFO root fetch - main [MainThread]: End processing [MpNM] error
+[2024-05-10 10:13:32] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [pybangla]: Downloading https://files.pythonhosted.org/packages/a5/96/0c00fc0ca759412c7718b53848b3e4ce04c4a43715e13f0af9ade4409978/pybangla-1.0.7.tar.gz
+[2024-05-10 10:13:32] WARNING root fetch - processPackages [metabotk]: Skipping, unable to determine old version
+[2024-05-10 10:13:32] INFO root fetch - processPackages [metabotk]: Start processing: stylliz
+[2024-05-10 10:13:32] INFO root fetch - main [MainThread]: End processing [metabotk] error
+[2024-05-10 10:13:32] WARNING root fetch - processPackages [example-package-parth]: Skipping, unable to determine old version
+[2024-05-10 10:13:32] INFO root fetch - processPackages [example-package-parth]: Start processing: modelscope-agent
+[2024-05-10 10:13:32] INFO root fetch - main [MainThread]: End processing [example-package-parth] error
+[2024-05-10 10:13:32] WARNING root fetch - processPackages [yhxmmdk]: Skipping, unable to determine old version
+[2024-05-10 10:13:32] INFO root fetch - processPackages [crawlipt]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 10:13:32] WARNING root fetch - processPackages [notebook_setup]: Skipping, unable to determine old version
+[2024-05-10 10:13:32] INFO root fetch - processPackages [mcrit]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-10 10:13:32] INFO root fetch - processPackages [yhxmmdk]: Start processing: tui-dsmt
+[2024-05-10 10:13:32] INFO root fetch - main [MainThread]: End processing [yhxmmdk] error
+[2024-05-10 10:13:32] INFO root fetch - main [MainThread]: End processing [notebook_setup] error
+[2024-05-10 10:13:32] INFO root fetch - processPackages [pushsource]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-10 10:13:32] INFO root fetch - processPackages [weaviate-client]: New version: [4.6.0b3] Old Version: [4.6.0b1]
+[2024-05-10 10:13:32] INFO root fetch - processPackages [modelscope-agent]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-10 10:13:32] WARNING root fetch - processPackages [stylliz]: Skipping, unable to determine old version
+[2024-05-10 10:13:32] INFO root fetch - main [MainThread]: End processing [stylliz] error
+[2024-05-10 10:13:32] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/5e/6e/aed070f7bae9871a7d5ab8d4c0bd361cf816c0745b515c8352ca058a1123/mcrit-1.3.8.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [tui-dsmt]: New version: [202405100734] Old Version: [202405030903]
+[2024-05-10 10:13:32] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/76/90/d9590c68239e129d663926949c3099cf049b84d2ba2526b0949c39c9b521/crawlipt-0.1.2.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/58/de/89de756c0eaaa15a4eb489f78c581a4fdab1206049088d6e82c204c0de2b/pushsource-2.8.0.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/06/ef/6ad7b421cd138d3640a2891d635dfb734cd543239b72b6951be26300fd45/weaviate_client-4.6.0b1.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [modelscope-agent]: Downloading https://files.pythonhosted.org/packages/ff/07/00e74f3779da921c37838a9f6f6ae35992c6b86634114081fdcdbd654b65/modelscope-agent-0.4.1.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [pybangla]: Downloading https://files.pythonhosted.org/packages/48/ad/619011225a634c6820f724d5323f08f914de0a8ea10e97463315528b6bfe/pybangla-1.0.8.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-05-10 10:13:32] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240510/a/aily-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 10:13:32] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/b8/6d/6e048d6ef80363fb3fe5ba19689476ab43c42496fe7e7de11b33a4e7817d/tui_dsmt-202405030903.tar.gz
+[2024-05-10 10:13:32] INFO root fetch - processPackages [pybangla]: executing diffoscope
+[2024-05-10 10:13:32] INFO root fetch - processPackages [pybangla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybangla-1.0.7.tar.gz tmp/pybangla-1.0.8.tar.gz --markdown 20240510/p/pybangla/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-10 10:13:32] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/c1/83/a254951b5974855d81db0b845ffd3d12bd586c84ae056250496b7e3b8723/crawlipt-0.1.3.tar.gz
+[2024-05-10 10:13:33] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/b2/3c/5e5a3f952ff711fb7ae8258cfbbd02ec112b5c51cc8745d6e8fd7b8b8cbb/pushsource-2.9.0.tar.gz
+[2024-05-10 10:13:33] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/34/bd/835ee060fa586615837125c726a2351dd559ec46e661a1e6f9c8556225bf/weaviate_client-4.6.0b3.tar.gz
+[2024-05-10 10:13:33] INFO root fetch - processPackages [crawlipt]: executing diffoscope
+[2024-05-10 10:13:33] INFO root fetch - processPackages [crawlipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlipt-0.1.2.tar.gz tmp/crawlipt-0.1.3.tar.gz --markdown 20240510/c/crawlipt/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 10:13:33] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/18/a0/278e85f972bf775f0f34f0dbf8f56e3bc54d5a25f634932a98a0d73f78ef/tui_dsmt-202405100734.tar.gz
+[2024-05-10 10:13:33] WARNING root fetch - processPackages [modelscope-agent]: Skipping package: exceeds size limit 23351222>=10485760
+[2024-05-10 10:13:33] INFO root fetch - main [MainThread]: End processing [modelscope-agent] error
+[2024-05-10 10:13:33] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2024-05-10 10:13:33] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate_client-4.6.0b1.tar.gz tmp/weaviate_client-4.6.0b3.tar.gz --markdown 20240510/w/weaviate-client/4.6.0b1-4.6.0b3/README.md --exclude *.pyd
+[2024-05-10 10:13:33] INFO root fetch - processPackages [pushsource]: executing diffoscope
+[2024-05-10 10:13:33] INFO root fetch - processPackages [pushsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushsource-2.8.0.tar.gz tmp/pushsource-2.9.0.tar.gz --markdown 20240510/p/pushsource/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-10 10:13:33] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/02/03/20b47104a9e0a23e5d4351194bca51dd9cf8fcd050253c4a5860cd615db7/mcrit-1.3.9.tar.gz
+[2024-05-10 10:13:33] INFO root fetch - processPackages [pybangla]: Remove: archive file [/home/abi/fetcher/tmp/pybangla-1.0.7.tar.gz]
+[2024-05-10 10:13:33] INFO root fetch - processPackages [pybangla]: Remove: archive file [/home/abi/fetcher/tmp/pybangla-1.0.8.tar.gz]
+[2024-05-10 10:13:33] INFO root fetch - main [MainThread]: End processing [pybangla]: success
+[2024-05-10 10:13:33] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2024-05-10 10:13:33] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.3.8.tar.gz tmp/mcrit-1.3.9.tar.gz --markdown 20240510/m/mcrit/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-10 10:13:33] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-05-10 10:13:33] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-05-10 10:13:33] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-05-10 10:13:33] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.1.2.tar.gz]
+[2024-05-10 10:13:33] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.1.3.tar.gz]
+[2024-05-10 10:13:33] INFO root fetch - main [MainThread]: End processing [crawlipt]: success
+[2024-05-10 10:13:34] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.8.0.tar.gz]
+[2024-05-10 10:13:34] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.9.0.tar.gz]
+[2024-05-10 10:13:34] INFO root fetch - main [MainThread]: End processing [pushsource]: success
+[2024-05-10 10:13:34] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-05-10 10:13:34] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202405030903.tar.gz tmp/tui_dsmt-202405100734.tar.gz --markdown 20240510/t/tui-dsmt/202405030903-202405100734/README.md --exclude *.pyd
+[2024-05-10 10:13:34] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.3.8.tar.gz]
+[2024-05-10 10:13:34] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.3.9.tar.gz]
+[2024-05-10 10:13:34] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2024-05-10 10:13:35] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.6.0b1.tar.gz]
+[2024-05-10 10:13:35] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.6.0b3.tar.gz]
+[2024-05-10 10:13:35] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2024-05-10 10:13:35] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405030903.tar.gz]
+[2024-05-10 10:13:35] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405100734.tar.gz]
+[2024-05-10 10:13:35] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-05-10 10:13:35] INFO root fetch - main [MainThread]: Store serial: [23143171]
