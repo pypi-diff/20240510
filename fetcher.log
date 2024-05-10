@@ -2577,3 +2577,24 @@
 [2024-05-10 02:21:19] INFO root fetch - processPackages [chsu_schedule_api]: Remove: archive file [/home/abi/fetcher/tmp/chsu_schedule_api-1.2.2.tar.gz]
 [2024-05-10 02:21:19] INFO root fetch - main [MainThread]: End processing [chsu_schedule_api]: success
 [2024-05-10 02:21:19] INFO root fetch - main [MainThread]: Store serial: [23139387]
+[2024-05-10 02:23:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139387]
+[2024-05-10 02:23:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 02:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parcllabs
+[2024-05-10 02:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2024-05-10 02:23:27] INFO root fetch - processPackages [parcllabs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 02:23:27] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc9] Old Version: [2.8.0rc8]
+[2024-05-10 02:23:28] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/5f/ee/9f99cee94313fd0846bc0b261c0a705f5b9f0b87d20d6934a77d616566e0/rime_sdk-2.8.0rc8.tar.gz
+[2024-05-10 02:23:28] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-05-10 02:23:28] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/54/76/252d5d459b8fefcdb4cd8ba9124168cc37b81f5740ca09ff3e754621335b/parcllabs-0.1.9.tar.gz
+[2024-05-10 02:23:28] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/82/d0/af2bc54a7ae81e59f924b38132b45b3fa131069dcddc38c084be863230b7/rime_sdk-2.8.0rc9.tar.gz
+[2024-05-10 02:23:28] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-05-10 02:23:28] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.8.tar.gz tmp/parcllabs-0.1.9.tar.gz --markdown 20240510/p/parcllabs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 02:23:28] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-10 02:23:28] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc8.tar.gz tmp/rime_sdk-2.8.0rc9.tar.gz --markdown 20240510/r/rime-sdk/2.8.0rc8-2.8.0rc9/README.md --exclude *.pyd
+[2024-05-10 02:23:28] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-05-10 02:23:28] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
+[2024-05-10 02:23:28] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-05-10 02:23:30] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc8.tar.gz]
+[2024-05-10 02:23:30] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
+[2024-05-10 02:23:30] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-10 02:23:30] INFO root fetch - main [MainThread]: Store serial: [23139395]
