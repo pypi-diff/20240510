@@ -16585,3 +16585,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:41:55] INFO root fetch - processPackages [chemcoord]: Remove: archive file [/home/abi/fetcher/tmp/chemcoord-2.1.2.tar.gz]
 [2024-05-10 13:41:55] INFO root fetch - main [MainThread]: End processing [chemcoord]: success
 [2024-05-10 13:41:55] INFO root fetch - main [MainThread]: Store serial: [23145614]
+[2024-05-10 13:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145614]
+[2024-05-10 13:44:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Mopidy-SevenSegmentDisplay
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blockchain-python
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celus-nigiri
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: internet-domain-local
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zjbbintest
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boullez
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: extinctingz
+[2024-05-10 13:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanomotif
+[2024-05-10 13:44:19] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 13:44:19] INFO root fetch - processPackages [zjbbintest]: New version: [2.2] Old Version: [2.1]
+[2024-05-10 13:44:19] INFO root fetch - processPackages [blockchain-python]: New version: [1.0] Old Version: [0.0.1]
+[2024-05-10 13:44:19] WARNING root fetch - processPackages [extinctingz]: Skipping, unable to determine old version
+[2024-05-10 13:44:19] INFO root fetch - main [MainThread]: End processing [extinctingz] error
+[2024-05-10 13:44:19] INFO root fetch - processPackages [boullez]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:44:19] INFO root fetch - processPackages [celus-nigiri]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-10 13:44:20] INFO root fetch - processPackages [Mopidy-SevenSegmentDisplay]: New version: [0.8.0] Old Version: [0.7.9]
+[2024-05-10 13:44:20] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/a1/1f/66489465f5b4c9292ecfa95b32cb667366a1a0b0d8f4cbabd35a8c834ca9/zjbbintest-2.1.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [nanomotif]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-10 13:44:20] ERROR root fetch - processPackages [blockchain-python]: Unable to fetch info: No such project/version 'blockchain-python' 0.0.1
+[2024-05-10 13:44:20] INFO root fetch - main [MainThread]: End processing [blockchain-python] error
+[2024-05-10 13:44:20] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/34/ff/54ecb00ea6c45ef7ce1b3d67a6afa03388acfd99d1998c62dd074e4669bd/celus_nigiri-2.1.0.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [boullez]: Downloading https://files.pythonhosted.org/packages/9d/e3/07058817f838bffd0e9ee8180ff6d7da7237581f797bb6f7a96fda6b02a1/boullez-1.1.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/0a/13/9157d933927f6102efb6e317a28d581feb299cd72238265bc3f41dcad536/nanomotif-0.3.1.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [Mopidy-SevenSegmentDisplay]: Downloading https://files.pythonhosted.org/packages/e8/e6/49cb506c0459f03aa6e5e15099597174c7dd3688550fa52cc4f344a0c9ed/mopidy_sevensegmentdisplay-0.7.9.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/5d/f0/74b5d754411ffb9ff6c8552483f884c5bf7b1daca66465f43bf1db165f36/zjbbintest-2.2.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-10 13:44:20] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240510/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 13:44:20] INFO root fetch - processPackages [zjbbintest]: executing diffoscope
+[2024-05-10 13:44:20] INFO root fetch - processPackages [zjbbintest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zjbbintest-2.1.tar.gz tmp/zjbbintest-2.2.tar.gz --markdown 20240510/z/zjbbintest/2.1-2.2/README.md --exclude *.pyd
+[2024-05-10 13:44:20] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/41/38/c9915ef27e35c2d32d988f3953a0d4ef81001877abd864b18b5b6f4908ea/celus_nigiri-2.2.0.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [boullez]: Downloading https://files.pythonhosted.org/packages/f1/88/5eecf713927e06686406448d9537299812c1c3327a3e9aa97d7ea43f9ff3/boullez-2.1.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [Mopidy-SevenSegmentDisplay]: Downloading https://files.pythonhosted.org/packages/ef/2c/8a1a9dfa9586557cf311b1b01100382733039aa1769062a2e892ef1acfd9/mopidy_sevensegmentdisplay-0.8.0.tar.gz
+[2024-05-10 13:44:20] INFO root fetch - processPackages [celus-nigiri]: executing diffoscope
+[2024-05-10 13:44:20] INFO root fetch - processPackages [celus-nigiri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celus_nigiri-2.1.0.tar.gz tmp/celus_nigiri-2.2.0.tar.gz --markdown 20240510/c/celus-nigiri/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-10 13:44:20] INFO root fetch - processPackages [boullez]: executing diffoscope
+[2024-05-10 13:44:20] INFO root fetch - processPackages [boullez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boullez-1.1.tar.gz tmp/boullez-2.1.tar.gz --markdown 20240510/b/boullez/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:44:20] INFO root fetch - processPackages [Mopidy-SevenSegmentDisplay]: executing diffoscope
+[2024-05-10 13:44:20] INFO root fetch - processPackages [Mopidy-SevenSegmentDisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mopidy_sevensegmentdisplay-0.7.9.tar.gz tmp/mopidy_sevensegmentdisplay-0.8.0.tar.gz --markdown 20240510/M/Mopidy-SevenSegmentDisplay/0.7.9-0.8.0/README.md --exclude *.pyd
+[2024-05-10 13:44:20] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/df/a8/4e182eeea8d3a468cbe06c4d9cfd213408273315ea5fe4b5d45601faf194/nanomotif-0.4.0.tar.gz
+[2024-05-10 13:44:21] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-10 13:44:21] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.1.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.2.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - main [MainThread]: End processing [zjbbintest]: success
+[2024-05-10 13:44:21] INFO root fetch - processPackages [boullez]: Remove: archive file [/home/abi/fetcher/tmp/boullez-1.1.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - processPackages [boullez]: Remove: archive file [/home/abi/fetcher/tmp/boullez-2.1.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - main [MainThread]: End processing [boullez]: success
+[2024-05-10 13:44:21] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.1.0.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.2.0.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - main [MainThread]: End processing [celus-nigiri]: success
+[2024-05-10 13:44:21] INFO root fetch - processPackages [Mopidy-SevenSegmentDisplay]: Remove: archive file [/home/abi/fetcher/tmp/mopidy_sevensegmentdisplay-0.7.9.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - processPackages [Mopidy-SevenSegmentDisplay]: Remove: archive file [/home/abi/fetcher/tmp/mopidy_sevensegmentdisplay-0.8.0.tar.gz]
+[2024-05-10 13:44:21] INFO root fetch - main [MainThread]: End processing [Mopidy-SevenSegmentDisplay]: success
+[2024-05-10 13:44:22] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-05-10 13:44:22] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.3.1.tar.gz tmp/nanomotif-0.4.0.tar.gz --markdown 20240510/n/nanomotif/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-10 13:44:24] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.3.1.tar.gz]
+[2024-05-10 13:44:24] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.0.tar.gz]
+[2024-05-10 13:44:24] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-05-10 13:44:24] INFO root fetch - main [MainThread]: Store serial: [23145641]
