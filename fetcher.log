@@ -18137,3 +18137,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:44:33] INFO root fetch - processPackages [redrover-api]: Remove: archive file [/home/abi/fetcher/tmp/redrover-api-1.9.3.dev0.tar.gz]
 [2024-05-10 14:44:33] INFO root fetch - main [MainThread]: End processing [redrover-api]: success
 [2024-05-10 14:44:33] INFO root fetch - main [MainThread]: Store serial: [23146331]
+[2024-05-10 14:46:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146331]
+[2024-05-10 14:46:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monotonesz
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glpic
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-tools-visualization-interface
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prophecy-libs
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xlineparse
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-bigstitcher
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cachilaz
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: troubadix
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agixt
+[2024-05-10 14:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: argus-api
+[2024-05-10 14:46:42] INFO root fetch - processPackages [xlineparse]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 14:46:42] WARNING root fetch - processPackages [pydantic-bigstitcher]: Skipping, unable to determine old version
+[2024-05-10 14:46:42] INFO root fetch - main [MainThread]: End processing [pydantic-bigstitcher] error
+[2024-05-10 14:46:42] WARNING root fetch - processPackages [monotonesz]: Skipping, unable to determine old version
+[2024-05-10 14:46:42] INFO root fetch - main [MainThread]: End processing [monotonesz] error
+[2024-05-10 14:46:42] INFO root fetch - processPackages [argus-api]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-10 14:46:42] WARNING root fetch - processPackages [ansys-tools-visualization-interface]: Skipping, unable to determine old version
+[2024-05-10 14:46:42] INFO root fetch - main [MainThread]: End processing [ansys-tools-visualization-interface] error
+[2024-05-10 14:46:43] INFO root fetch - processPackages [xlineparse]: Downloading https://files.pythonhosted.org/packages/f9/28/67e798c4c3cc15d0692dcadc1dbfe220d8c87df786790037fd084d66e4a9/xlineparse-0.0.4-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-10 14:46:43] INFO root fetch - processPackages [cachilaz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 14:46:43] INFO root fetch - processPackages [glpic]: New version: [99.0.202405101244] Old Version: [99.0.202405091056]
+[2024-05-10 14:46:43] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-10 14:46:43] INFO root fetch - processPackages [agixt]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-10 14:46:43] INFO root fetch - processPackages [troubadix]: New version: [24.5.1] Old Version: [24.5.0]
+[2024-05-10 14:46:43] INFO root fetch - processPackages [cachilaz]: Downloading https://files.pythonhosted.org/packages/d3/ca/a079eba7c98c832a621debc1dfe20bec5aa7984c63a4eb31552e7e296e07/cachilaz-1.1.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/7c/a9/0de0fe925190dbfbc41478bcfc14f296a31afc53fc179db5e58b7c11ff0c/argus_api-3.8.0.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/92/a1/c8fbe42b380a6fc9570d98d1929734bd4c9cffba0e7a4a5e3d664d3d99ca/glpic-99.0.202405091056.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/06/8b/f4b0981365819afdbeecb1796ebb1d23439132f5063fcb9b4192e4c43a18/agixt-1.5.8-py3-none-any.whl
+[2024-05-10 14:46:43] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/ba/8d/454e1f37c9b0127d5eba07458284b707a31aa4bfdcd20973620b99dbaf40/troubadix-24.5.0.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [xlineparse]: Downloading https://files.pythonhosted.org/packages/80/eb/bb05594bbba33283c749c7ee0750ba8450bc5f636ff98f8bb4db17cc06ce/xlineparse-0.0.5-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-10 14:46:43] INFO root fetch - processPackages [cachilaz]: Downloading https://files.pythonhosted.org/packages/44/61/c451eea9dbb3fe63b846dcc22d649d036ef90a5f6e2c9cd9fa19b1fd0fc4/cachilaz-2.1.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [cachilaz]: executing diffoscope
+[2024-05-10 14:46:43] INFO root fetch - processPackages [cachilaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachilaz-1.1.tar.gz tmp/cachilaz-2.1.tar.gz --markdown 20240510/c/cachilaz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 14:46:43] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/27/ac/ac6414c4cd3ce14080c1c4e4a208d7ffc5f11af20a64611cc969a28b9d42/glpic-99.0.202405101244.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [xlineparse]: executing diffoscope
+[2024-05-10 14:46:43] INFO root fetch - processPackages [xlineparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlineparse-0.0.4-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip tmp/xlineparse-0.0.5-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240510/x/xlineparse/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 14:46:43] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/02/2d/ae2c2292afe623c3bec2e8f9904b64128ccbc6e88e5a6ba41cf58124ea64/troubadix-24.5.1.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/25/a0/f70bdd10c23b4095f2f5ebd25957e2c061b93a50907a0651a729f4b4656c/agixt-1.5.9-py3-none-any.whl
+[2024-05-10 14:46:43] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/48/2f/dc8867bfe5957610794f3fd60f0d1e3aa2212100eb22b8938d8f2c8a29cd/argus_api-3.9.0.tar.gz
+[2024-05-10 14:46:43] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-05-10 14:46:43] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202405091056.tar.gz tmp/glpic-99.0.202405101244.tar.gz --markdown 20240510/g/glpic/99.0.202405091056-99.0.202405101244/README.md --exclude *.pyd
+[2024-05-10 14:46:43] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-10 14:46:43] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240510/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-10 14:46:43] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-10 14:46:43] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.8-py3-none-any.whl.zip tmp/agixt-1.5.9-py3-none-any.whl.zip --markdown 20240510/a/agixt/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-10 14:46:43] INFO root fetch - processPackages [argus-api]: executing diffoscope
+[2024-05-10 14:46:43] INFO root fetch - processPackages [argus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_api-3.8.0.tar.gz tmp/argus_api-3.9.0.tar.gz --markdown 20240510/a/argus-api/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-10 14:46:44] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2024-05-10 14:46:44] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-24.5.0.tar.gz tmp/troubadix-24.5.1.tar.gz --markdown 20240510/t/troubadix/24.5.0-24.5.1/README.md --exclude *.pyd
+[2024-05-10 14:46:44] INFO root fetch - processPackages [cachilaz]: Remove: archive file [/home/abi/fetcher/tmp/cachilaz-1.1.tar.gz]
+[2024-05-10 14:46:44] INFO root fetch - processPackages [cachilaz]: Remove: archive file [/home/abi/fetcher/tmp/cachilaz-2.1.tar.gz]
+[2024-05-10 14:46:44] INFO root fetch - main [MainThread]: End processing [cachilaz]: success
+[2024-05-10 14:46:44] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405091056.tar.gz]
+[2024-05-10 14:46:44] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405101244.tar.gz]
+[2024-05-10 14:46:44] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-05-10 14:46:44] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-05-10 14:46:44] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-10 14:46:44] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-10 14:46:44] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.8-py3-none-any.whl.zip]
+[2024-05-10 14:46:44] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.9-py3-none-any.whl.zip]
+[2024-05-10 14:46:44] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-10 14:46:45] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.5.0.tar.gz]
+[2024-05-10 14:46:45] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.5.1.tar.gz]
+[2024-05-10 14:46:45] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2024-05-10 14:46:47] INFO root fetch - processPackages [argus-api]: Remove: archive file [/home/abi/fetcher/tmp/argus_api-3.8.0.tar.gz]
+[2024-05-10 14:46:47] INFO root fetch - processPackages [argus-api]: Remove: archive file [/home/abi/fetcher/tmp/argus_api-3.9.0.tar.gz]
+[2024-05-10 14:46:47] INFO root fetch - main [MainThread]: End processing [argus-api]: success
+[2024-05-10 14:46:50] INFO root fetch - processPackages [xlineparse]: Remove: archive file [/home/abi/fetcher/tmp/xlineparse-0.0.4-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-10 14:46:50] INFO root fetch - processPackages [xlineparse]: Remove: archive file [/home/abi/fetcher/tmp/xlineparse-0.0.5-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-10 14:46:50] INFO root fetch - main [MainThread]: End processing [xlineparse]: success
+[2024-05-10 14:46:50] INFO root fetch - main [MainThread]: Store serial: [23146373]
