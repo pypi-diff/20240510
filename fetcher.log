@@ -22158,3 +22158,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:54:42] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-10 16:54:42] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-10 16:54:42] INFO root fetch - main [MainThread]: Store serial: [23148376]
+[2024-05-10 16:56:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148376]
+[2024-05-10 16:56:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 16:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entity-recognition-lib
+[2024-05-10 16:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-horizon-sdk
+[2024-05-10 16:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skillsnetwork-jupyter-extension
+[2024-05-10 16:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pathway
+[2024-05-10 16:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blues-lib
+[2024-05-10 16:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pingintel-api
+[2024-05-10 16:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mini3di
+[2024-05-10 16:56:51] INFO root fetch - processPackages [blues-lib]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-10 16:56:51] WARNING root fetch - processPackages [mini3di]: Skipping, unable to determine old version
+[2024-05-10 16:56:51] INFO root fetch - main [MainThread]: End processing [mini3di] error
+[2024-05-10 16:56:51] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 16:56:51] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/5f/59/2db618b1cbfbbd2c31f72ee98650426d113b757d043eeb11d5f7f75992a2/blues_lib-1.0.4.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [pingintel-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-10 16:56:51] INFO root fetch - processPackages [entity-recognition-lib]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-10 16:56:51] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: New version: [2.3.0rc2] Old Version: [2.3.0rc1]
+[2024-05-10 16:56:51] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [pathway]: New version: [0.post1] Old Version: [0.dev0]
+[2024-05-10 16:56:51] INFO root fetch - processPackages [entity-recognition-lib]: Downloading https://files.pythonhosted.org/packages/36/cb/6bced37292890c22ec08517bdae6b6356f25e12ab5fc217894617f6b799e/entity_recognition_lib-0.1.0.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [pingintel-api]: Downloading https://files.pythonhosted.org/packages/63/2a/28a954f1c8f55a2a6e779a13daffcebcec3dbb27628394c47923f6e6ab04/pingintel_api-0.6.0.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/b0/f1/6991a2f1a9b89d066c0e9531a31ddc4bbb4134b432e77898685345bd4d6b/skillsnetwork_jupyter_extension-2.3.0rc1.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/e0/02/fb36638c9f3fe2923cfe9d746323617f43f70019ae52c39cd843706b3cd1/pathway-0.dev0.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/1d/81/233dc9be7a69145f71c8e359afcbe11a1030b997dbb5ab0599342b3e95ac/blues_lib-1.0.5.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-10 16:56:51] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240510/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 16:56:51] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-10 16:56:51] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.0.4.tar.gz tmp/blues_lib-1.0.5.tar.gz --markdown 20240510/b/blues-lib/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-10 16:56:51] INFO root fetch - processPackages [entity-recognition-lib]: Downloading https://files.pythonhosted.org/packages/e7/1e/3141ba15abfe8a5fb3cd95d14a4190046ae11465810900430e5c97f50df8/entity_recognition_lib-0.1.2.tar.gz
+[2024-05-10 16:56:51] INFO root fetch - processPackages [pingintel-api]: Downloading https://files.pythonhosted.org/packages/39/8e/46784825259731d9c74041f4da3897f5db62baae0b027958f08fcbdafcf8/pingintel_api-0.7.0.tar.gz
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/66/84/5b59ac757d5591b5ed60573cf6ff867bb7023232ce007e988302fbdc2275/pathway-0.post1.tar.gz
+[2024-05-10 16:56:52] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/c0/a6/d41cb9d3c34174e300a7c977709a92d75b0ca66333d6b4a8225a9f2c1061/skillsnetwork_jupyter_extension-2.3.0rc2.tar.gz
+[2024-05-10 16:56:52] INFO root fetch - processPackages [entity-recognition-lib]: executing diffoscope
+[2024-05-10 16:56:52] INFO root fetch - processPackages [entity-recognition-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_lib-0.1.0.tar.gz tmp/entity_recognition_lib-0.1.2.tar.gz --markdown 20240510/e/entity-recognition-lib/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pingintel-api]: executing diffoscope
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pingintel-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingintel_api-0.6.0.tar.gz tmp/pingintel_api-0.7.0.tar.gz --markdown 20240510/p/pingintel-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pathway]: executing diffoscope
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathway-0.dev0.tar.gz tmp/pathway-0.post1.tar.gz --markdown 20240510/p/pathway/0.dev0-0.post1/README.md --exclude *.pyd
+[2024-05-10 16:56:52] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: executing diffoscope
+[2024-05-10 16:56:52] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillsnetwork_jupyter_extension-2.3.0rc1.tar.gz tmp/skillsnetwork_jupyter_extension-2.3.0rc2.tar.gz --markdown 20240510/s/skillsnetwork-jupyter-extension/2.3.0rc1-2.3.0rc2/README.md --exclude *.pyd
+[2024-05-10 16:56:52] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.4.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.5.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-10 16:56:52] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/pathway-0.dev0.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/pathway-0.post1.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - main [MainThread]: End processing [pathway]: success
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pingintel-api]: Remove: archive file [/home/abi/fetcher/tmp/pingintel_api-0.6.0.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - processPackages [pingintel-api]: Remove: archive file [/home/abi/fetcher/tmp/pingintel_api-0.7.0.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - main [MainThread]: End processing [pingintel-api]: success
+[2024-05-10 16:56:52] INFO root fetch - processPackages [entity-recognition-lib]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_lib-0.1.0.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - processPackages [entity-recognition-lib]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_lib-0.1.2.tar.gz]
+[2024-05-10 16:56:52] INFO root fetch - main [MainThread]: End processing [entity-recognition-lib]: success
+[2024-05-10 16:56:53] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc1.tar.gz]
+[2024-05-10 16:56:53] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc2.tar.gz]
+[2024-05-10 16:56:53] INFO root fetch - main [MainThread]: End processing [skillsnetwork-jupyter-extension]: success
+[2024-05-10 16:56:53] INFO root fetch - main [MainThread]: Store serial: [23148398]
