@@ -7865,3 +7865,15 @@
 [2024-05-10 07:52:04] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_report_print_send-16.0.20240509.0-py3-none-any.whl.zip]
 [2024-05-10 07:52:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-report-print-send]: success
 [2024-05-10 07:52:04] INFO root fetch - main [MainThread]: Store serial: [23141898]
+[2024-05-10 07:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141898]
+[2024-05-10 07:54:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 07:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phosphomolybdicz
+[2024-05-10 07:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tetanillaz
+[2024-05-10 07:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-flask
+[2024-05-10 07:54:13] WARNING root fetch - processPackages [tetanillaz]: Skipping, unable to determine old version
+[2024-05-10 07:54:13] ERROR root fetch - processPackages [abstract-flask]: Unable to get metadata: No such project 'abstract-flask'
+[2024-05-10 07:54:13] INFO root fetch - main [MainThread]: End processing [tetanillaz] error
+[2024-05-10 07:54:13] INFO root fetch - main [MainThread]: End processing [abstract-flask] error
+[2024-05-10 07:54:13] WARNING root fetch - processPackages [phosphomolybdicz]: Skipping, unable to determine old version
+[2024-05-10 07:54:13] INFO root fetch - main [MainThread]: End processing [phosphomolybdicz] error
+[2024-05-10 07:54:13] INFO root fetch - main [MainThread]: Store serial: [23141911]
