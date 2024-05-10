@@ -22677,3 +22677,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:10:34] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240509-py3-none-win_amd64.whl.zip]
 [2024-05-10 17:10:34] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-10 17:10:34] INFO root fetch - main [MainThread]: Store serial: [23148595]
+[2024-05-10 17:12:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148595]
+[2024-05-10 17:12:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scilpy
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frequenz-api-microgrid
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microperf
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-common
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SQLibEngine
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-s3
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-RanFurryPic
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coronagraphz
+[2024-05-10 17:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adlike
+[2024-05-10 17:12:43] INFO root fetch - processPackages [microperf]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 17:12:44] WARNING root fetch - processPackages [SQLibEngine]: Skipping, unable to determine old version
+[2024-05-10 17:12:44] INFO root fetch - main [MainThread]: End processing [SQLibEngine] error
+[2024-05-10 17:12:44] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.8] Old Version: [1.0.8.7]
+[2024-05-10 17:12:44] INFO root fetch - processPackages [coronagraphz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 17:12:44] INFO root fetch - processPackages [microperf]: Downloading https://files.pythonhosted.org/packages/a9/0b/399cabce2b15736c82f886b9fdb87f0baccae64bcf52cc821455aeecc60e/microperf-0.1.2.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [scilpy]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-10 17:12:44] INFO root fetch - processPackages [frequenz-api-microgrid]: New version: [0.17.0] Old Version: [0.16.1]
+[2024-05-10 17:12:44] INFO root fetch - processPackages [airbyte-source-s3]: New version: [4.5.9.dev202403082230] Old Version: [4.5.9.dev202403072308]
+[2024-05-10 17:12:44] INFO root fetch - processPackages [adlike]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 17:12:44] WARNING root fetch - processPackages [nonebot-plugin-RanFurryPic]: Skipping, unable to determine old version
+[2024-05-10 17:12:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-RanFurryPic] error
+[2024-05-10 17:12:44] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/54/9f/724e3ffa79ea26a881d039aab642d7b0a1ed3632480a16abb2fe3b90e2b8/mns_common-1.0.8.7.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [coronagraphz]: Downloading https://files.pythonhosted.org/packages/eb/3a/225cad2da337421e7e41e129849e8c98cdf93f2da1234cbed604b64f1279/coronagraphz-1.1.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/4d/68/ebc071433e601d33654a197d71aec1cab97eb93cfe56324b335337cbd378/frequenz-api-microgrid-0.16.1.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [airbyte-source-s3]: Downloading https://files.pythonhosted.org/packages/c1/b2/07f3f005110f781adb127fc04a80cc2327787beba4910de71f0ffba521eb/airbyte_source_s3-4.5.9.dev202403072308.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [scilpy]: Downloading https://files.pythonhosted.org/packages/11/f8/3a4d7f964350ba28d8f9f57bbea9509cc9d673323e1692e15cee5ea8f31e/scilpy-2.0.1.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [microperf]: Downloading https://files.pythonhosted.org/packages/75/46/75c1c4768432bbf4cec24805a516c35d8baad386bb8bd34187556d360775/microperf-0.1.3.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [adlike]: Downloading https://files.pythonhosted.org/packages/ae/65/97ca00941c892b938cd86fdb76d479b2e7e79ef74acece93bf86a12c272b/adlike-0.0.3.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [microperf]: executing diffoscope
+[2024-05-10 17:12:44] INFO root fetch - processPackages [microperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microperf-0.1.2.tar.gz tmp/microperf-0.1.3.tar.gz --markdown 20240510/m/microperf/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 17:12:44] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/82/af/c938a92c49d219f9884cbf8c562dc3adb7ee6836f815e394a66ea5d52d70/mns_common-1.0.8.8.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [coronagraphz]: Downloading https://files.pythonhosted.org/packages/4a/bd/c80da9714812a537ab8758fcbc4371bed834e09ac74f761a32808727513e/coronagraphz-2.1.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-10 17:12:44] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.8.7.tar.gz tmp/mns_common-1.0.8.8.tar.gz --markdown 20240510/m/mns-common/1.0.8.7-1.0.8.8/README.md --exclude *.pyd
+[2024-05-10 17:12:44] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/00/47/0dc597734c1419519eb8067e16875bcb8b1f2fb6bd0e4d98300599a91d48/frequenz-api-microgrid-0.17.0.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [airbyte-source-s3]: Downloading https://files.pythonhosted.org/packages/ba/22/b7c1bf46b6e7927831208ea8ff1f253aa72883bb81d349dff7667ab81eba/airbyte_source_s3-4.5.9.dev202403082230.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [scilpy]: Downloading https://files.pythonhosted.org/packages/51/da/9a8d441589d77647203c3864f897d6c97b4a37f20b3de5f96dc8fe7b724d/scilpy-2.0.2.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [adlike]: Downloading https://files.pythonhosted.org/packages/88/1c/e12e9c87efe51841d7b18b7989429dd3c342580bbee30454dd2ff93c4a8f/adlike-0.0.4.tar.gz
+[2024-05-10 17:12:44] INFO root fetch - processPackages [airbyte-source-s3]: executing diffoscope
+[2024-05-10 17:12:44] INFO root fetch - processPackages [airbyte-source-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_s3-4.5.9.dev202403072308.tar.gz tmp/airbyte_source_s3-4.5.9.dev202403082230.tar.gz --markdown 20240510/a/airbyte-source-s3/4.5.9.dev202403072308-4.5.9.dev202403082230/README.md --exclude *.pyd
+[2024-05-10 17:12:44] INFO root fetch - processPackages [coronagraphz]: executing diffoscope
+[2024-05-10 17:12:44] INFO root fetch - processPackages [coronagraphz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coronagraphz-1.1.tar.gz tmp/coronagraphz-2.1.tar.gz --markdown 20240510/c/coronagraphz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 17:12:44] INFO root fetch - processPackages [frequenz-api-microgrid]: executing diffoscope
+[2024-05-10 17:12:44] INFO root fetch - processPackages [frequenz-api-microgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-microgrid-0.16.1.tar.gz tmp/frequenz-api-microgrid-0.17.0.tar.gz --markdown 20240510/f/frequenz-api-microgrid/0.16.1-0.17.0/README.md --exclude *.pyd
+[2024-05-10 17:12:44] INFO root fetch - processPackages [scilpy]: executing diffoscope
+[2024-05-10 17:12:44] INFO root fetch - processPackages [scilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scilpy-2.0.1.tar.gz tmp/scilpy-2.0.2.tar.gz --markdown 20240510/s/scilpy/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-10 17:12:45] INFO root fetch - processPackages [adlike]: executing diffoscope
+[2024-05-10 17:12:45] INFO root fetch - processPackages [adlike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adlike-0.0.3.tar.gz tmp/adlike-0.0.4.tar.gz --markdown 20240510/a/adlike/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 17:12:45] INFO root fetch - processPackages [microperf]: Remove: archive file [/home/abi/fetcher/tmp/microperf-0.1.2.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - processPackages [microperf]: Remove: archive file [/home/abi/fetcher/tmp/microperf-0.1.3.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - main [MainThread]: End processing [microperf]: success
+[2024-05-10 17:12:45] INFO root fetch - processPackages [coronagraphz]: Remove: archive file [/home/abi/fetcher/tmp/coronagraphz-1.1.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - processPackages [coronagraphz]: Remove: archive file [/home/abi/fetcher/tmp/coronagraphz-2.1.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - main [MainThread]: End processing [coronagraphz]: success
+[2024-05-10 17:12:45] INFO root fetch - processPackages [airbyte-source-s3]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_s3-4.5.9.dev202403072308.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - processPackages [airbyte-source-s3]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_s3-4.5.9.dev202403082230.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - main [MainThread]: End processing [airbyte-source-s3]: success
+[2024-05-10 17:12:45] INFO root fetch - processPackages [adlike]: Remove: archive file [/home/abi/fetcher/tmp/adlike-0.0.3.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - processPackages [adlike]: Remove: archive file [/home/abi/fetcher/tmp/adlike-0.0.4.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - main [MainThread]: End processing [adlike]: success
+[2024-05-10 17:12:45] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.7.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.8.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-10 17:12:45] INFO root fetch - processPackages [frequenz-api-microgrid]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-microgrid-0.16.1.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - processPackages [frequenz-api-microgrid]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-microgrid-0.17.0.tar.gz]
+[2024-05-10 17:12:45] INFO root fetch - main [MainThread]: End processing [frequenz-api-microgrid]: success
+[2024-05-10 17:12:47] INFO root fetch - processPackages [scilpy]: Remove: archive file [/home/abi/fetcher/tmp/scilpy-2.0.1.tar.gz]
+[2024-05-10 17:12:47] INFO root fetch - processPackages [scilpy]: Remove: archive file [/home/abi/fetcher/tmp/scilpy-2.0.2.tar.gz]
+[2024-05-10 17:12:47] INFO root fetch - main [MainThread]: End processing [scilpy]: success
+[2024-05-10 17:12:47] INFO root fetch - main [MainThread]: Store serial: [23148627]
