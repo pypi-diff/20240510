@@ -22305,3 +22305,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:59:05] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
 [2024-05-10 16:59:05] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
 [2024-05-10 16:59:05] INFO root fetch - main [MainThread]: Store serial: [23148433]
+[2024-05-10 17:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148433]
+[2024-05-10 17:01:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wipac-keycloak-rest-services
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperfuel
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: giza-actions
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grabberlib
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fcio
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ce-mkc
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk-preview
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scHyper
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zpdatafetch
+[2024-05-10 17:01:14] WARNING root fetch - processPackages [scHyper]: Skipping, unable to determine old version
+[2024-05-10 17:01:14] INFO root fetch - main [MainThread]: End processing [scHyper] error
+[2024-05-10 17:01:14] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-10 17:01:14] INFO root fetch - processPackages [hyperfuel]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 17:01:14] INFO root fetch - processPackages [grabberlib]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ce-mkc]: New version: [0.1.0] Old Version: [0.0.3a0]
+[2024-05-10 17:01:14] WARNING root fetch - processPackages [zpdatafetch]: Skipping, unable to determine old version
+[2024-05-10 17:01:14] INFO root fetch - main [MainThread]: End processing [zpdatafetch] error
+[2024-05-10 17:01:14] INFO root fetch - processPackages [giza-actions]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-10 17:01:14] INFO root fetch - processPackages [fcio]: New version: [0.4.0.dev6] Old Version: [0.4.0.dev5]
+[2024-05-10 17:01:14] INFO root fetch - processPackages [wipac-keycloak-rest-services]: New version: [1.4.9] Old Version: [1.4.89]
+[2024-05-10 17:01:14] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-10 17:01:14] INFO root fetch - processPackages [hyperfuel]: Downloading https://files.pythonhosted.org/packages/42/11/9a4d8fe760e651721a3226b8d34b5a81a86c3d724fdd771a09090e283e8a/hyperfuel-0.1.2.tar.gz
+[2024-05-10 17:01:14] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/8c/9e/c4551c15a8926db84c32a2cfda3a20a300e6ca3af75f407a4a4c167b341d/grabberlib-0.1.4.tar.gz
+[2024-05-10 17:01:14] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/67/4e/4bd8c41b9c8a007545036a3e09036be3d7fb078d2423febf6c636632deef/ce_mkc-0.0.3a0.tar.gz
+[2024-05-10 17:01:14] INFO root fetch - processPackages [giza-actions]: Downloading https://files.pythonhosted.org/packages/6a/1e/0da5bee2467634b370cfc6d9097af3b3a747e54d0a611cd1c0b2ba8e9195/giza_actions-0.3.1.tar.gz
+[2024-05-10 17:01:14] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Downloading https://files.pythonhosted.org/packages/c5/3c/2cf46fe4f2a9f25cefa261f37a89e3be3c11116400d2fdcc873525f6482b/wipac-keycloak-rest-services-1.4.89.tar.gz
+[2024-05-10 17:01:14] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/78/1a/a302c484333cbb61a3b8ac69aa8bda07a6b55eb241a36044424941e9ee0e/fcio-0.4.0.dev5.tar.gz
+[2024-05-10 17:01:14] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-10 17:01:15] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-10 17:01:15] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240510/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-10 17:01:15] INFO root fetch - processPackages [hyperfuel]: Downloading https://files.pythonhosted.org/packages/38/d8/6175a09a4877c4d2eb363646bb2119054a63e6d27ec38cff242bd4688db2/hyperfuel-0.1.3.tar.gz
+[2024-05-10 17:01:15] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/da/09/f2527b51b5bc8b045f67294ce6625999853fd1fbae1829b4341cabaa1498/grabberlib-0.1.5.tar.gz
+[2024-05-10 17:01:15] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/19/fa/90de370fa599f4eb875e8e53ef811bf2c3618ef058c00a8526c7e569d700/fcio-0.4.0.dev6.tar.gz
+[2024-05-10 17:01:15] INFO root fetch - processPackages [giza-actions]: Downloading https://files.pythonhosted.org/packages/19/46/33cd469c700c5caedb01f3344a17213428acc806caef4e35e53b89807c99/giza_actions-0.3.2.tar.gz
+[2024-05-10 17:01:15] INFO root fetch - processPackages [hyperfuel]: executing diffoscope
+[2024-05-10 17:01:15] INFO root fetch - processPackages [hyperfuel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfuel-0.1.2.tar.gz tmp/hyperfuel-0.1.3.tar.gz --markdown 20240510/h/hyperfuel/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 17:01:15] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/11/ab/9fff11613225db011d59bdc3a97169c34b56709bd7b878dfac2f0203b200/ce_mkc-0.1.0.tar.gz
+[2024-05-10 17:01:15] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Downloading https://files.pythonhosted.org/packages/9e/e7/0838151110668383451ef0f17b701dd859914bd1ac0a02f0c73dfee7b06d/wipac-keycloak-rest-services-1.4.9.tar.gz
+[2024-05-10 17:01:15] INFO root fetch - processPackages [grabberlib]: executing diffoscope
+[2024-05-10 17:01:15] INFO root fetch - processPackages [grabberlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grabberlib-0.1.4.tar.gz tmp/grabberlib-0.1.5.tar.gz --markdown 20240510/g/grabberlib/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 17:01:15] INFO root fetch - processPackages [fcio]: executing diffoscope
+[2024-05-10 17:01:15] INFO root fetch - processPackages [fcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcio-0.4.0.dev5.tar.gz tmp/fcio-0.4.0.dev6.tar.gz --markdown 20240510/f/fcio/0.4.0.dev5-0.4.0.dev6/README.md --exclude *.pyd
+[2024-05-10 17:01:15] INFO root fetch - processPackages [ce-mkc]: executing diffoscope
+[2024-05-10 17:01:15] INFO root fetch - processPackages [ce-mkc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ce_mkc-0.0.3a0.tar.gz tmp/ce_mkc-0.1.0.tar.gz --markdown 20240510/c/ce-mkc/0.0.3a0-0.1.0/README.md --exclude *.pyd
+[2024-05-10 17:01:15] INFO root fetch - processPackages [giza-actions]: executing diffoscope
+[2024-05-10 17:01:15] INFO root fetch - processPackages [giza-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_actions-0.3.1.tar.gz tmp/giza_actions-0.3.2.tar.gz --markdown 20240510/g/giza-actions/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-10 17:01:15] INFO root fetch - processPackages [wipac-keycloak-rest-services]: executing diffoscope
+[2024-05-10 17:01:15] INFO root fetch - processPackages [wipac-keycloak-rest-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-keycloak-rest-services-1.4.89.tar.gz tmp/wipac-keycloak-rest-services-1.4.9.tar.gz --markdown 20240510/w/wipac-keycloak-rest-services/1.4.89-1.4.9/README.md --exclude *.pyd
+[2024-05-10 17:01:16] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.4.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.5.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [grabberlib]: success
+[2024-05-10 17:01:16] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.0.3a0.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.1.0.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [ce-mkc]: success
+[2024-05-10 17:01:16] INFO root fetch - processPackages [hyperfuel]: Remove: archive file [/home/abi/fetcher/tmp/hyperfuel-0.1.2.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - processPackages [hyperfuel]: Remove: archive file [/home/abi/fetcher/tmp/hyperfuel-0.1.3.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [hyperfuel]: success
+[2024-05-10 17:01:16] INFO root fetch - processPackages [giza-actions]: Remove: archive file [/home/abi/fetcher/tmp/giza_actions-0.3.1.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - processPackages [giza-actions]: Remove: archive file [/home/abi/fetcher/tmp/giza_actions-0.3.2.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [giza-actions]: success
+[2024-05-10 17:01:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-10 17:01:16] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Remove: archive file [/home/abi/fetcher/tmp/wipac-keycloak-rest-services-1.4.89.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Remove: archive file [/home/abi/fetcher/tmp/wipac-keycloak-rest-services-1.4.9.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [wipac-keycloak-rest-services]: success
+[2024-05-10 17:01:16] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev5.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev6.tar.gz]
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [fcio]: success
+[2024-05-10 17:01:16] INFO root fetch - main [MainThread]: Store serial: [23148475]
