@@ -7366,3 +7366,81 @@
 [2024-05-10 07:27:27] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pausable_contextual_help-0.1.3.tar.gz]
 [2024-05-10 07:27:27] INFO root fetch - main [MainThread]: End processing [jupyterlab-pausable-contextual-help]: success
 [2024-05-10 07:27:27] INFO root fetch - main [MainThread]: Store serial: [23141675]
+[2024-05-10 07:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141675]
+[2024-05-10 07:29:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py4web
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loopctl
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gabfestz
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytoniq
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itllib
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ridgeplot-py
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-auth0
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wagtailvideos
+[2024-05-10 07:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crazy-thursday
+[2024-05-10 07:29:36] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pytoniq]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1715303443] Old Version: [3.4.0a1714161308]
+[2024-05-10 07:29:36] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-10 07:29:36] INFO root fetch - processPackages [loopctl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 07:29:36] INFO root fetch - processPackages [itllib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 07:29:36] INFO root fetch - processPackages [py4web]: New version: [1.20240509.1] Old Version: [1.20240507.1]
+[2024-05-10 07:29:36] INFO root fetch - processPackages [wagtailvideos]: New version: [6.0.0] Old Version: [5.2.1]
+[2024-05-10 07:29:36] WARNING root fetch - processPackages [gabfestz]: Skipping, unable to determine old version
+[2024-05-10 07:29:36] INFO root fetch - main [MainThread]: End processing [gabfestz] error
+[2024-05-10 07:29:36] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/a4/c7/c21675fb6ca6756ce14065372b1c7de31cbe26528c4159935449b0bda46a/ridgeplot_py-0.2.3.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/83/60/0c6ea7f844b87f5904225428fba7d0a193d5a9110c309119939c7e8c89a9/pytoniq-0.1.8.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/c0/d0/157fcd0831bfcad23c209c8ccaf5ea69f728b973cb2d914e2b5801b0271a/pulumi_auth0-3.4.0a1714161308.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [loopctl]: Downloading https://files.pythonhosted.org/packages/c7/8c/f4b23c011ba26ca6d10dec735f336a6b4e59ff0799ffa98adb9f631219ff/loopctl-0.0.8.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/d3/3f/e559eb5586cf142d5cc0d0fb4c8f3b3cc141f492761a4b762d40d5c42918/py4web-1.20240507.1.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [itllib]: Downloading https://files.pythonhosted.org/packages/82/2d/39e41d6d250542eb0df35224f29341b21d4edd191c27c9bb9c8bdf1d0874/itllib-0.0.8.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/30/17/8135e3ce252aa03f874cce258859930c943eb148ef3f4e777e95eeddf2ea/wagtailvideos-5.2.1.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/20/74/45f11c01898d0e103b34fd2306c4004a95c71de6c08264f87c2dec99ae07/ridgeplot_py-0.2.5.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/f1/aa/d07c9b5fd0b65fd4cfab4018408dda8cc12f38665461decca6fd5c41258d/pulumi_auth0-3.4.0a1715303443.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/fc/12/0a8feae4d11e9c3e6d606d74bdb341a15545be7d644d797b3acebd3e1fd9/pytoniq-0.1.9.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2024-05-10 07:29:36] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot_py-0.2.3.tar.gz tmp/ridgeplot_py-0.2.5.tar.gz --markdown 20240510/r/ridgeplot-py/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1714161308.tar.gz tmp/pulumi_auth0-3.4.0a1715303443.tar.gz --markdown 20240510/p/pulumi-auth0/3.4.0a1714161308-3.4.0a1715303443/README.md --exclude *.pyd
+[2024-05-10 07:29:36] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-10 07:29:36] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240510/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pytoniq]: executing diffoscope
+[2024-05-10 07:29:36] INFO root fetch - processPackages [pytoniq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-0.1.8.tar.gz tmp/pytoniq-0.1.9.tar.gz --markdown 20240510/p/pytoniq/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 07:29:36] INFO root fetch - processPackages [loopctl]: Downloading https://files.pythonhosted.org/packages/16/f9/f67155010750d245df7f5ac3ea27d081226f27a2794fcf160455e1891b82/loopctl-0.0.9.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/af/e1/952cea824334c620b9283cf1f130dc705e7a26e076533923d29413b15718/wagtailvideos-6.0.0.tar.gz
+[2024-05-10 07:29:36] INFO root fetch - processPackages [itllib]: Downloading https://files.pythonhosted.org/packages/7d/cc/d13f94a8cb850adc99b504b9b0d9111126356b14bcb71f1703468bbc611d/itllib-0.0.9.tar.gz
+[2024-05-10 07:29:37] INFO root fetch - processPackages [wagtailvideos]: executing diffoscope
+[2024-05-10 07:29:37] INFO root fetch - processPackages [wagtailvideos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailvideos-5.2.1.tar.gz tmp/wagtailvideos-6.0.0.tar.gz --markdown 20240510/w/wagtailvideos/5.2.1-6.0.0/README.md --exclude *.pyd
+[2024-05-10 07:29:37] INFO root fetch - processPackages [loopctl]: executing diffoscope
+[2024-05-10 07:29:37] INFO root fetch - processPackages [loopctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopctl-0.0.8.tar.gz tmp/loopctl-0.0.9.tar.gz --markdown 20240510/l/loopctl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:29:37] INFO root fetch - processPackages [itllib]: executing diffoscope
+[2024-05-10 07:29:37] INFO root fetch - processPackages [itllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itllib-0.0.8.tar.gz tmp/itllib-0.0.9.tar.gz --markdown 20240510/i/itllib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:29:37] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/37/ac/ce82bb9662bc1a3134afec41988a93d6e101081276ab396a6d789d5d851c/py4web-1.20240509.1.tar.gz
+[2024-05-10 07:29:37] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.3.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.5.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2024-05-10 07:29:37] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.1.8.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.1.9.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - main [MainThread]: End processing [pytoniq]: success
+[2024-05-10 07:29:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-10 07:29:37] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1714161308.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715303443.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-10 07:29:37] INFO root fetch - processPackages [itllib]: Remove: archive file [/home/abi/fetcher/tmp/itllib-0.0.8.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - processPackages [itllib]: Remove: archive file [/home/abi/fetcher/tmp/itllib-0.0.9.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - main [MainThread]: End processing [itllib]: success
+[2024-05-10 07:29:37] INFO root fetch - processPackages [loopctl]: Remove: archive file [/home/abi/fetcher/tmp/loopctl-0.0.8.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - processPackages [loopctl]: Remove: archive file [/home/abi/fetcher/tmp/loopctl-0.0.9.tar.gz]
+[2024-05-10 07:29:37] INFO root fetch - main [MainThread]: End processing [loopctl]: success
+[2024-05-10 07:29:38] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-5.2.1.tar.gz]
+[2024-05-10 07:29:38] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-6.0.0.tar.gz]
+[2024-05-10 07:29:38] INFO root fetch - main [MainThread]: End processing [wagtailvideos]: success
+[2024-05-10 07:29:38] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-10 07:29:38] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240507.1.tar.gz tmp/py4web-1.20240509.1.tar.gz --markdown 20240510/p/py4web/1.20240507.1-1.20240509.1/README.md --exclude *.pyd
+[2024-05-10 07:29:40] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240507.1.tar.gz]
+[2024-05-10 07:29:40] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240509.1.tar.gz]
+[2024-05-10 07:29:40] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-10 07:29:40] INFO root fetch - main [MainThread]: Store serial: [23141704]
