@@ -24845,3 +24845,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:20:44] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-10 18:20:44] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-10 18:20:44] INFO root fetch - main [MainThread]: Store serial: [23149600]
+[2024-05-10 18:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149600]
+[2024-05-10 18:22:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: value-nlp
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rag-pychunk
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: em-mmt
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: debyetools
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultralytics
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rg3py
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csa-ai-foundation-model-api-clients
+[2024-05-10 18:22:54] WARNING root fetch - processPackages [value-nlp]: Skipping, unable to determine old version
+[2024-05-10 18:22:54] INFO root fetch - main [MainThread]: End processing [value-nlp] error
+[2024-05-10 18:22:54] WARNING root fetch - processPackages [em-mmt]: Skipping, unable to determine old version
+[2024-05-10 18:22:54] INFO root fetch - main [MainThread]: End processing [em-mmt] error
+[2024-05-10 18:22:54] INFO root fetch - processPackages [rg3py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 18:22:54] INFO root fetch - processPackages [ultralytics]: New version: [8.2.9] Old Version: [8.2.8]
+[2024-05-10 18:22:54] INFO root fetch - processPackages [debyetools]: New version: [2.0.6] Old Version: [2.0.54]
+[2024-05-10 18:22:54] INFO root fetch - processPackages [rg3py]: Downloading https://files.pythonhosted.org/packages/60/17/6f67a9f3c4f3e69b28210b2a6f446eb8702158bcd2d25c82544e8874fca5/rg3py-0.0.8-py3-none-win_amd64.whl
+[2024-05-10 18:22:54] WARNING root fetch - processPackages [rag-pychunk]: Skipping, unable to determine old version
+[2024-05-10 18:22:54] INFO root fetch - main [MainThread]: End processing [rag-pychunk] error
+[2024-05-10 18:22:54] WARNING root fetch - processPackages [csa-ai-foundation-model-api-clients]: Skipping, unable to determine old version
+[2024-05-10 18:22:54] INFO root fetch - main [MainThread]: End processing [csa-ai-foundation-model-api-clients] error
+[2024-05-10 18:22:55] INFO root fetch - processPackages [debyetools]: Downloading https://files.pythonhosted.org/packages/ff/6e/7131762f66d66b266ff93d98ecc54b8186e5eb982d378d463965ea62e463/debyetools-2.0.54.tar.gz
+[2024-05-10 18:22:55] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2d/1f/773ce923d52559a9246fe5b3e4d86c67714d941216658acdb23bf9d46212/ultralytics-8.2.8.tar.gz
+[2024-05-10 18:22:55] INFO root fetch - processPackages [rg3py]: Downloading https://files.pythonhosted.org/packages/d2/66/1be044b5bced6855b29c4523e819ee9add1283ccddad3e763a22e32d599a/rg3py-0.0.9-py3-none-win_amd64.whl
+[2024-05-10 18:22:55] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/17/6e/89a05ffed4bbaae94368f45323ff75db71965c94c1259457ef61dc551645/ultralytics-8.2.9.tar.gz
+[2024-05-10 18:22:55] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-05-10 18:22:55] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.8.tar.gz tmp/ultralytics-8.2.9.tar.gz --markdown 20240510/u/ultralytics/8.2.8-8.2.9/README.md --exclude *.pyd
+[2024-05-10 18:22:55] INFO root fetch - processPackages [rg3py]: executing diffoscope
+[2024-05-10 18:22:55] INFO root fetch - processPackages [rg3py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rg3py-0.0.8-py3-none-win_amd64.whl.zip tmp/rg3py-0.0.9-py3-none-win_amd64.whl.zip --markdown 20240510/r/rg3py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 18:22:56] INFO root fetch - processPackages [rg3py]: Remove: archive file [/home/abi/fetcher/tmp/rg3py-0.0.8-py3-none-win_amd64.whl.zip]
+[2024-05-10 18:22:56] INFO root fetch - processPackages [rg3py]: Remove: archive file [/home/abi/fetcher/tmp/rg3py-0.0.9-py3-none-win_amd64.whl.zip]
+[2024-05-10 18:22:56] INFO root fetch - main [MainThread]: End processing [rg3py]: success
+[2024-05-10 18:22:56] INFO root fetch - processPackages [debyetools]: Downloading https://files.pythonhosted.org/packages/82/20/ef16ef9c4749d13b4eae25611844eea571e8b2c1a3e65ffa59561ff2aff7/debyetools-2.0.6.tar.gz
+[2024-05-10 18:22:56] INFO root fetch - processPackages [debyetools]: executing diffoscope
+[2024-05-10 18:22:56] INFO root fetch - processPackages [debyetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debyetools-2.0.54.tar.gz tmp/debyetools-2.0.6.tar.gz --markdown 20240510/d/debyetools/2.0.54-2.0.6/README.md --exclude *.pyd
+[2024-05-10 18:22:57] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.8.tar.gz]
+[2024-05-10 18:22:57] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
+[2024-05-10 18:22:57] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-05-10 18:23:01] INFO root fetch - processPackages [debyetools]: Remove: archive file [/home/abi/fetcher/tmp/debyetools-2.0.54.tar.gz]
+[2024-05-10 18:23:01] INFO root fetch - processPackages [debyetools]: Remove: archive file [/home/abi/fetcher/tmp/debyetools-2.0.6.tar.gz]
+[2024-05-10 18:23:01] INFO root fetch - main [MainThread]: End processing [debyetools]: success
+[2024-05-10 18:23:01] INFO root fetch - main [MainThread]: Store serial: [23149629]
