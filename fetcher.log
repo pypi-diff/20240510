@@ -8903,3 +8903,55 @@
 [2024-05-10 08:52:55] INFO root fetch - processPackages [apache-sedona]: Remove: archive file [/home/abi/fetcher/tmp/apache_sedona-1.5.2.tar.gz]
 [2024-05-10 08:52:55] INFO root fetch - main [MainThread]: End processing [apache-sedona]: success
 [2024-05-10 08:52:55] INFO root fetch - main [MainThread]: Store serial: [23142434]
+[2024-05-10 08:55:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142434]
+[2024-05-10 08:55:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trust-plutus-namematch
+[2024-05-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlcalc
+[2024-05-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystmd
+[2024-05-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: riddlesolver
+[2024-05-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unimore-math1
+[2024-05-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Phanatic
+[2024-05-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trust-plutus-namematch
+[2024-05-10 08:55:05] WARNING root fetch - processPackages [unimore-math1]: Skipping, unable to determine old version
+[2024-05-10 08:55:05] INFO root fetch - main [MainThread]: End processing [unimore-math1] error
+[2024-05-10 08:55:05] INFO root fetch - processPackages [riddlesolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 08:55:05] INFO root fetch - processPackages [trust-plutus-namematch]: New version: [0.2] Old Version: [0.1.0]
+[2024-05-10 08:55:05] INFO root fetch - processPackages [trust-plutus-namematch]: New version: [0.2] Old Version: [0.1.0]
+[2024-05-10 08:55:05] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/8b/0b/5d8ba16dc2ea29ecfd27ef083dad139cd6ff7a327a7f22334bb9aa882db7/riddlesolver-0.1.8.tar.gz
+[2024-05-10 08:55:05] WARNING root fetch - processPackages [dlcalc]: Skipping, unable to determine old version
+[2024-05-10 08:55:05] INFO root fetch - main [MainThread]: End processing [dlcalc] error
+[2024-05-10 08:55:05] INFO root fetch - processPackages [Phanatic]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-10 08:55:05] INFO root fetch - processPackages [mystmd]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-10 08:55:05] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/2a/f3/9056e14804719b90b5b534295641aee5117c0d81035db34f29f6e63a816f/trust_plutus_namematch-0.1.0.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/2a/f3/9056e14804719b90b5b534295641aee5117c0d81035db34f29f6e63a816f/trust_plutus_namematch-0.1.0.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [Phanatic]: Downloading https://files.pythonhosted.org/packages/f0/24/6bd576b0d561f57e7d6c7bb46ddd43eb3c5264006613efc79aad35bd83f9/Phanatic-2.2.3.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/a8/17/1f6eb7904a0a24d45c99b2fd020c088225504758c12e439045c7a0eb05fc/mystmd-1.2.1.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/46/68/daef27bbcc176c6be119dbd92ff2be28b6d27558058a394d39d371188751/riddlesolver-0.1.9.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [riddlesolver]: executing diffoscope
+[2024-05-10 08:55:05] INFO root fetch - processPackages [riddlesolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riddlesolver-0.1.8.tar.gz tmp/riddlesolver-0.1.9.tar.gz --markdown 20240510/r/riddlesolver/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 08:55:05] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/d7/66/e4bce7789df58594640f34af771702e50bab7bce5a8286a9c09ac79acb66/trust_plutus_namematch-0.2.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/d7/66/e4bce7789df58594640f34af771702e50bab7bce5a8286a9c09ac79acb66/trust_plutus_namematch-0.2.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [Phanatic]: Downloading https://files.pythonhosted.org/packages/64/2d/8edbe35947cd3f0e6dd45b6fe745235d2c4c249cb25455fdc7a4b0e47887/Phanatic-2.2.4.tar.gz
+[2024-05-10 08:55:05] INFO root fetch - processPackages [Phanatic]: executing diffoscope
+[2024-05-10 08:55:05] INFO root fetch - processPackages [Phanatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Phanatic-2.2.3.tar.gz tmp/Phanatic-2.2.4.tar.gz --markdown 20240510/P/Phanatic/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-10 08:55:06] INFO root fetch - processPackages [trust-plutus-namematch]: executing diffoscope
+[2024-05-10 08:55:06] INFO root fetch - processPackages [trust-plutus-namematch]: executing diffoscope
+[2024-05-10 08:55:06] INFO root fetch - processPackages [trust-plutus-namematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trust_plutus_namematch-0.1.0.tar.gz tmp/trust_plutus_namematch-0.2.tar.gz --markdown 20240510/t/trust-plutus-namematch/0.1.0-0.2/README.md --exclude *.pyd
+[2024-05-10 08:55:06] INFO root fetch - processPackages [trust-plutus-namematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trust_plutus_namematch-0.1.0.tar.gz tmp/trust_plutus_namematch-0.2.tar.gz --markdown 20240510/t/trust-plutus-namematch/0.1.0-0.2/README.md --exclude *.pyd
+[2024-05-10 08:55:06] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/d3/65/5d049ae0d7ee8dc3b41a25cc36f5e3ded075fba92676ba2afc15d6ae4238/mystmd-1.2.2.tar.gz
+[2024-05-10 08:55:06] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.8.tar.gz]
+[2024-05-10 08:55:06] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
+[2024-05-10 08:55:06] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
+[2024-05-10 08:55:06] INFO root fetch - processPackages [mystmd]: executing diffoscope
+[2024-05-10 08:55:06] INFO root fetch - processPackages [mystmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystmd-1.2.1.tar.gz tmp/mystmd-1.2.2.tar.gz --markdown 20240510/m/mystmd/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-10 08:55:06] INFO root fetch - processPackages [Phanatic]: Remove: archive file [/home/abi/fetcher/tmp/Phanatic-2.2.3.tar.gz]
+[2024-05-10 08:55:06] INFO root fetch - processPackages [Phanatic]: Remove: archive file [/home/abi/fetcher/tmp/Phanatic-2.2.4.tar.gz]
+[2024-05-10 08:55:06] INFO root fetch - main [MainThread]: End processing [Phanatic]: success
+[2024-05-10 08:55:06] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-0.1.0.tar.gz]
+[2024-05-10 08:55:06] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-0.2.tar.gz]
+[2024-05-10 08:55:06] INFO root fetch - main [MainThread]: End processing [trust-plutus-namematch]: success
+[2024-05-10 08:55:06] INFO root fetch - main [MainThread]: End processing [trust-plutus-namematch]: success
+[2024-05-10 08:55:15] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.1.tar.gz]
+[2024-05-10 08:55:15] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.2.tar.gz]
+[2024-05-10 08:55:15] INFO root fetch - main [MainThread]: End processing [mystmd]: success
+[2024-05-10 08:55:15] INFO root fetch - main [MainThread]: Store serial: [23142459]
