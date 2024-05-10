@@ -14702,3 +14702,63 @@
 [2024-05-10 12:44:38] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial_model-1.0.5-py3-none-any.whl.zip]
 [2024-05-10 12:44:38] INFO root fetch - main [MainThread]: End processing [antibacterial-model]: success
 [2024-05-10 12:44:38] INFO root fetch - main [MainThread]: Store serial: [23144866]
+[2024-05-10 12:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144866]
+[2024-05-10 12:47:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: balantaz
+[2024-05-10 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2024-05-10 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlumedToHTML
+[2024-05-10 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmstudio
+[2024-05-10 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-10 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chiasmodon
+[2024-05-10 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: extraparliamentaryz
+[2024-05-10 12:47:10] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 12:47:10] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 12:47:10] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-10 12:47:10] INFO root fetch - processPackages [chiasmodon]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-10 12:47:10] INFO root fetch - processPackages [llmstudio]: New version: [0.3.4a2] Old Version: [0.3.4a1]
+[2024-05-10 12:47:10] WARNING root fetch - processPackages [extraparliamentaryz]: Skipping, unable to determine old version
+[2024-05-10 12:47:10] INFO root fetch - main [MainThread]: End processing [extraparliamentaryz] error
+[2024-05-10 12:47:10] INFO root fetch - processPackages [balantaz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 12:47:10] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-10 12:47:10] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 12:47:10] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-10 12:47:10] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/8f/12/06b9db1ea32b5261808b845cac0229c503eae5dd45e32132fd2da79fbf7a/chiasmodon-2.0.2.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [llmstudio]: Downloading https://files.pythonhosted.org/packages/ee/e1/fcf09fa8e9869b3c91c718acbd64de5b547dc9a68d520c21d763215c82dc/llmstudio-0.3.4a1.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [balantaz]: Downloading https://files.pythonhosted.org/packages/b4/5a/bdde60203d816f5d28bcff56337b1010bdfe5d7f5be136616e52bbe656cc/balantaz-1.1.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/25/17/b5f908d2026f311130c674046aa56b269636e0cc1dd8c9794eda76390c0f/chiasmodon-2.0.3.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-10 12:47:11] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240510/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 12:47:11] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-05-10 12:47:11] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-2.0.2.tar.gz tmp/chiasmodon-2.0.3.tar.gz --markdown 20240510/c/chiasmodon/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-10 12:47:11] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-10 12:47:11] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240510/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-10 12:47:11] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 12:47:11] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 12:47:11] INFO root fetch - processPackages [balantaz]: Downloading https://files.pythonhosted.org/packages/68/c4/825401a657f2fd642f42479c5af28399d97e69b81d339ce61fbf2a732611/balantaz-2.1.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [llmstudio]: Downloading https://files.pythonhosted.org/packages/04/8d/5db4554095f52d5e62f4946f1cb0936f9c72504da6d66e5ccab5e2e9db8c/llmstudio-0.3.4a2.tar.gz
+[2024-05-10 12:47:11] INFO root fetch - processPackages [balantaz]: executing diffoscope
+[2024-05-10 12:47:11] INFO root fetch - processPackages [balantaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balantaz-1.1.tar.gz tmp/balantaz-2.1.tar.gz --markdown 20240510/b/balantaz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 12:47:11] INFO root fetch - processPackages [llmstudio]: executing diffoscope
+[2024-05-10 12:47:11] INFO root fetch - processPackages [llmstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmstudio-0.3.4a1.tar.gz tmp/llmstudio-0.3.4a2.tar.gz --markdown 20240510/l/llmstudio/0.3.4a1-0.3.4a2/README.md --exclude *.pyd
+[2024-05-10 12:47:11] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-10 12:47:11] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-10 12:47:11] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-10 12:47:12] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.2.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.3.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-05-10 12:47:12] INFO root fetch - processPackages [balantaz]: Remove: archive file [/home/abi/fetcher/tmp/balantaz-1.1.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - processPackages [balantaz]: Remove: archive file [/home/abi/fetcher/tmp/balantaz-2.1.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - main [MainThread]: End processing [balantaz]: success
+[2024-05-10 12:47:12] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 12:47:12] INFO root fetch - processPackages [llmstudio]: Remove: archive file [/home/abi/fetcher/tmp/llmstudio-0.3.4a1.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - processPackages [llmstudio]: Remove: archive file [/home/abi/fetcher/tmp/llmstudio-0.3.4a2.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - main [MainThread]: End processing [llmstudio]: success
+[2024-05-10 12:47:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-10 12:47:12] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-10 12:47:12] INFO root fetch - main [MainThread]: Store serial: [23144886]
