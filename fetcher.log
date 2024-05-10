@@ -13220,3 +13220,81 @@
 [2024-05-10 11:47:00] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715303604.tar.gz]
 [2024-05-10 11:47:00] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
 [2024-05-10 11:47:00] INFO root fetch - main [MainThread]: Store serial: [23144228]
+[2024-05-10 11:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144228]
+[2024-05-10 11:49:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskgen-ai
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudflare
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antebrachiumz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flexible-dict
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opentaskpy
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: r-shepard
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weavel
+[2024-05-10 11:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-sdk-preview
+[2024-05-10 11:49:12] WARNING root fetch - processPackages [antebrachiumz]: Skipping, unable to determine old version
+[2024-05-10 11:49:12] INFO root fetch - main [MainThread]: End processing [antebrachiumz] error
+[2024-05-10 11:49:12] INFO root fetch - processPackages [r-shepard]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [flexible-dict]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/6f/12/41ea9a022923357b21538a742534d3b7e4ba9efa7934265fb65194766a62/r_shepard-0.1.8.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [taskgen-ai]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [cloudflare]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [opentaskpy]: New version: [24.9.0] Old Version: [24.8.0]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [weavel]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-10 11:49:12] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/9d/c9/f97e150ccd7bf443eb2eb683a84179dba4323cef3bafe082e68a1ca5c1d7/flexible_dict-2.0.0.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/fe/a5/90ef93f8b9d4ef69998d23dd09ae53ce197865cb2a1da56de492a07faf1f/weavel-0.4.1.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/bc/10/b7e290462f090c87cf6b59ff9d4f6909fbdbf88e6c0ccd7dda31b9b8e189/r_shepard-0.2.0.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [taskgen-ai]: Downloading https://files.pythonhosted.org/packages/00/3f/76176ccf58232720200995bf7758fffcfda3653f8ab4fc54d58275efcf3f/taskgen_ai-2.0.1.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/c4/d4/78ca509eab1c9022e59d45873bd133bcf7b20614f4adf9a42c811db94ddd/opentaskpy-24.8.0.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/1a/04/755fc8275ff14b215138b2cf234d507cb737e5c74a13661c8d9b0647ff39/cloudflare-3.0.0b8.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-10 11:49:12] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/20/6d/83a1810d429ad9ee649bf9aaeca34bec077f1cdeaee3d3de34c1bf47d6e6/flexible_dict-2.0.1.tar.gz
+[2024-05-10 11:49:13] INFO root fetch - processPackages [r-shepard]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [r-shepard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_shepard-0.1.8.tar.gz tmp/r_shepard-0.2.0.tar.gz --markdown 20240510/r/r-shepard/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-2.0.0.tar.gz tmp/flexible_dict-2.0.1.tar.gz --markdown 20240510/f/flexible-dict/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240510/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/b5/53/98671dd7c408704a1279cea90f454c4ad2dbc7c241910c7b4e637ca50875/weavel-0.4.2.tar.gz
+[2024-05-10 11:49:13] INFO root fetch - processPackages [taskgen-ai]: Downloading https://files.pythonhosted.org/packages/9f/5c/ecd334cc35289cdb5f77b3ffab90163d51984820ab909057ded315f3a866/taskgen_ai-2.1.0.tar.gz
+[2024-05-10 11:49:13] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/fb/2f/bb66b87b40e8c92483e70742bc0dbb7bd8910dc2bc571c48b6dd94e65b23/opentaskpy-24.9.0.tar.gz
+[2024-05-10 11:49:13] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/ac/f8/d006dd76a21fd7b35696e8f34b1efe7a1bf8243cfa3e9e163bdce26b5661/cloudflare-3.0.0b9.tar.gz
+[2024-05-10 11:49:13] INFO root fetch - processPackages [taskgen-ai]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [taskgen-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskgen_ai-2.0.1.tar.gz tmp/taskgen_ai-2.1.0.tar.gz --markdown 20240510/t/taskgen-ai/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-10 11:49:13] INFO root fetch - processPackages [weavel]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [weavel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weavel-0.4.1.tar.gz tmp/weavel-0.4.2.tar.gz --markdown 20240510/w/weavel/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [cloudflare]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-3.0.0b8.tar.gz tmp/cloudflare-3.0.0b9.tar.gz --markdown 20240510/c/cloudflare/3.0.0b8-3.0.0b9/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [opentaskpy]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [opentaskpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentaskpy-24.8.0.tar.gz tmp/opentaskpy-24.9.0.tar.gz --markdown 20240510/o/opentaskpy/24.8.0-24.9.0/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-10 11:49:13] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240510/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-10 11:49:13] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.1.8.tar.gz]
+[2024-05-10 11:49:13] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.2.0.tar.gz]
+[2024-05-10 11:49:13] INFO root fetch - main [MainThread]: End processing [r-shepard]: success
+[2024-05-10 11:49:13] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-2.0.0.tar.gz]
+[2024-05-10 11:49:13] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-2.0.1.tar.gz]
+[2024-05-10 11:49:13] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2024-05-10 11:49:14] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.1.tar.gz]
+[2024-05-10 11:49:14] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.2.tar.gz]
+[2024-05-10 11:49:14] INFO root fetch - main [MainThread]: End processing [weavel]: success
+[2024-05-10 11:49:14] INFO root fetch - processPackages [taskgen-ai]: Remove: archive file [/home/abi/fetcher/tmp/taskgen_ai-2.0.1.tar.gz]
+[2024-05-10 11:49:14] INFO root fetch - processPackages [taskgen-ai]: Remove: archive file [/home/abi/fetcher/tmp/taskgen_ai-2.1.0.tar.gz]
+[2024-05-10 11:49:14] INFO root fetch - main [MainThread]: End processing [taskgen-ai]: success
+[2024-05-10 11:49:14] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-24.8.0.tar.gz]
+[2024-05-10 11:49:14] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-24.9.0.tar.gz]
+[2024-05-10 11:49:14] INFO root fetch - main [MainThread]: End processing [opentaskpy]: success
+[2024-05-10 11:49:17] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-10 11:49:17] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-10 11:49:17] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-10 11:49:26] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b8.tar.gz]
+[2024-05-10 11:49:26] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b9.tar.gz]
+[2024-05-10 11:49:26] INFO root fetch - main [MainThread]: End processing [cloudflare]: success
+[2024-05-10 11:49:27] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-10 11:49:27] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-10 11:49:27] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-10 11:49:27] INFO root fetch - main [MainThread]: Store serial: [23144252]
