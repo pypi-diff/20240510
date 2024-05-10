@@ -13885,3 +13885,63 @@
 [2024-05-10 12:12:14] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.2.1.tar.gz]
 [2024-05-10 12:12:14] INFO root fetch - main [MainThread]: End processing [r-shepard]: success
 [2024-05-10 12:12:14] INFO root fetch - main [MainThread]: Store serial: [23144503]
+[2024-05-10 12:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144503]
+[2024-05-10 12:14:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 12:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docopt-sh
+[2024-05-10 12:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qdtrader
+[2024-05-10 12:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antibacterial-model
+[2024-05-10 12:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shopee-aip-diffusion-tools
+[2024-05-10 12:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zibanu-django
+[2024-05-10 12:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: armhoopz
+[2024-05-10 12:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-archive
+[2024-05-10 12:14:27] INFO root fetch - processPackages [antibacterial-model]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 12:14:27] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1715302941] Old Version: [0.1.0a1715231401]
+[2024-05-10 12:14:27] INFO root fetch - processPackages [docopt-sh]: New version: [2.0.0a1] Old Version: [1.0.0]
+[2024-05-10 12:14:27] INFO root fetch - processPackages [qdtrader]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 12:14:27] INFO root fetch - processPackages [armhoopz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 12:14:27] WARNING root fetch - processPackages [shopee-aip-diffusion-tools]: Skipping, unable to determine old version
+[2024-05-10 12:14:27] INFO root fetch - main [MainThread]: End processing [shopee-aip-diffusion-tools] error
+[2024-05-10 12:14:27] INFO root fetch - processPackages [zibanu-django]: New version: [1.4.0b0] Old Version: [1.4.0]
+[2024-05-10 12:14:27] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/03/ba/2846ffa9bb1f63ef75b20cf0abb0dd732a6b02cc4436bc16e63eaa146d9a/pulumi_archive-0.1.0a1715231401.tar.gz
+[2024-05-10 12:14:27] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/f2/fb/2d94e1faf6cb7be9f35b212655b759c3ab747b5c5406cfe34d54078c4610/antibacterial-model-1.0.0.tar.gz
+[2024-05-10 12:14:27] INFO root fetch - processPackages [qdtrader]: Downloading https://files.pythonhosted.org/packages/3e/0d/2b985ffe484ec8af7fbf27c654d1b1d964280bb65be1ae035673dd10de21/qdtrader-0.0.3.tar.gz
+[2024-05-10 12:14:27] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/57/66/adacacc2d273db1811baed9c9f713f97f827f856bcd76d50ad6310c8049f/zibanu_django-1.4.0.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [armhoopz]: Downloading https://files.pythonhosted.org/packages/53/4e/ca40308fa7a30ffc51a9fcd19ca368761a1a59ada4e79c073a7d16f106a3/armhoopz-1.1.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [docopt-sh]: Downloading https://files.pythonhosted.org/packages/83/61/c8a20402cae251513d3f9304ca7d06f8a2876ddc182cc5faadc35989ba31/docopt-sh-1.0.0.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/2a/3d/cbbdcf7326944204a65137ac4eea2660c8a476336e05eee6e747b6f1463d/antibacterial-model-1.0.1.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/90/38/cd4c87357c942db0e192ee7e5b8bf12cf1cf84c3cf56fc7f410f7af6d069/pulumi_archive-0.1.0a1715302941.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [antibacterial-model]: executing diffoscope
+[2024-05-10 12:14:28] INFO root fetch - processPackages [antibacterial-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antibacterial-model-1.0.0.tar.gz tmp/antibacterial-model-1.0.1.tar.gz --markdown 20240510/a/antibacterial-model/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 12:14:28] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-10 12:14:28] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1715231401.tar.gz tmp/pulumi_archive-0.1.0a1715302941.tar.gz --markdown 20240510/p/pulumi-archive/0.1.0a1715231401-0.1.0a1715302941/README.md --exclude *.pyd
+[2024-05-10 12:14:28] INFO root fetch - processPackages [armhoopz]: Downloading https://files.pythonhosted.org/packages/03/96/2da3b77a06f8082569f087a3bed5e44a76ec7b232b62bda1c2913063b6da/armhoopz-2.1.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [qdtrader]: Downloading https://files.pythonhosted.org/packages/93/f5/8d865cbca2f592fddd5a48ac8f3442cd848456c233bc91cb9be38dc30b5e/qdtrader-0.0.4.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [armhoopz]: executing diffoscope
+[2024-05-10 12:14:28] INFO root fetch - processPackages [armhoopz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armhoopz-1.1.tar.gz tmp/armhoopz-2.1.tar.gz --markdown 20240510/a/armhoopz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 12:14:28] INFO root fetch - processPackages [docopt-sh]: Downloading https://files.pythonhosted.org/packages/15/08/a909e0996d691e3550b9b28dd6e80d56f3d9d7b2a169af74d3d386dfbf32/docopt_sh-2.0.0a1.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/9b/15/5b0d1a98998d977976a1c470ca70391d655ed45a240871c28af20fba168a/zibanu_django-1.4.0b0.tar.gz
+[2024-05-10 12:14:28] INFO root fetch - processPackages [qdtrader]: executing diffoscope
+[2024-05-10 12:14:28] INFO root fetch - processPackages [qdtrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdtrader-0.0.3.tar.gz tmp/qdtrader-0.0.4.tar.gz --markdown 20240510/q/qdtrader/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 12:14:28] INFO root fetch - processPackages [docopt-sh]: executing diffoscope
+[2024-05-10 12:14:28] INFO root fetch - processPackages [docopt-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docopt-sh-1.0.0.tar.gz tmp/docopt_sh-2.0.0a1.tar.gz --markdown 20240510/d/docopt-sh/1.0.0-2.0.0a1/README.md --exclude *.pyd
+[2024-05-10 12:14:28] INFO root fetch - processPackages [zibanu-django]: executing diffoscope
+[2024-05-10 12:14:28] INFO root fetch - processPackages [zibanu-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu_django-1.4.0.tar.gz tmp/zibanu_django-1.4.0b0.tar.gz --markdown 20240510/z/zibanu-django/1.4.0-1.4.0b0/README.md --exclude *.pyd
+[2024-05-10 12:14:28] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial-model-1.0.0.tar.gz]
+[2024-05-10 12:14:28] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial-model-1.0.1.tar.gz]
+[2024-05-10 12:14:28] INFO root fetch - main [MainThread]: End processing [antibacterial-model]: success
+[2024-05-10 12:14:28] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715231401.tar.gz]
+[2024-05-10 12:14:28] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715302941.tar.gz]
+[2024-05-10 12:14:28] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-10 12:14:29] INFO root fetch - processPackages [armhoopz]: Remove: archive file [/home/abi/fetcher/tmp/armhoopz-1.1.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - processPackages [armhoopz]: Remove: archive file [/home/abi/fetcher/tmp/armhoopz-2.1.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - main [MainThread]: End processing [armhoopz]: success
+[2024-05-10 12:14:29] INFO root fetch - processPackages [docopt-sh]: Remove: archive file [/home/abi/fetcher/tmp/docopt-sh-1.0.0.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - processPackages [docopt-sh]: Remove: archive file [/home/abi/fetcher/tmp/docopt_sh-2.0.0a1.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - main [MainThread]: End processing [docopt-sh]: success
+[2024-05-10 12:14:29] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu_django-1.4.0.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu_django-1.4.0b0.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - main [MainThread]: End processing [zibanu-django]: success
+[2024-05-10 12:14:29] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.3.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.4.tar.gz]
+[2024-05-10 12:14:29] INFO root fetch - main [MainThread]: End processing [qdtrader]: success
+[2024-05-10 12:14:29] INFO root fetch - main [MainThread]: Store serial: [23144525]
