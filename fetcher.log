@@ -22377,3 +22377,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:01:16] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev6.tar.gz]
 [2024-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [fcio]: success
 [2024-05-10 17:01:16] INFO root fetch - main [MainThread]: Store serial: [23148475]
+[2024-05-10 17:03:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148475]
+[2024-05-10 17:03:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: subdomain-summarizer
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skilleter-thingy
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npyx
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unitsnet-py
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coonhoundsz
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radical.repex
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cornerbackz
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aeroterra-ds
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luminesce-sdk
+[2024-05-10 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: copyparty
+[2024-05-10 17:03:26] WARNING root fetch - processPackages [coonhoundsz]: Skipping, unable to determine old version
+[2024-05-10 17:03:26] INFO root fetch - processPackages [coonhoundsz]: Start processing: redis-hashring
+[2024-05-10 17:03:26] INFO root fetch - main [MainThread]: End processing [coonhoundsz] error
+[2024-05-10 17:03:26] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 17:03:26] ERROR root fetch - processPackages [subdomain-summarizer]: Unable to get metadata: No such project 'subdomain-summarizer'
+[2024-05-10 17:03:26] INFO root fetch - processPackages [subdomain-summarizer]: Start processing: mns-common
+[2024-05-10 17:03:26] INFO root fetch - main [MainThread]: End processing [subdomain-summarizer] error
+[2024-05-10 17:03:26] INFO root fetch - processPackages [aeroterra-ds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 17:03:26] INFO root fetch - processPackages [npyx]: New version: [4.0.6] Old Version: [4.0.5]
+[2024-05-10 17:03:26] INFO root fetch - processPackages [radical.repex]: New version: [1.60.0] Old Version: [1.52.0]
+[2024-05-10 17:03:26] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.7] Old Version: [1.0.8.6]
+[2024-05-10 17:03:26] WARNING root fetch - processPackages [cornerbackz]: Skipping, unable to determine old version
+[2024-05-10 17:03:26] INFO root fetch - main [MainThread]: End processing [cornerbackz] error
+[2024-05-10 17:03:26] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-05-10 17:03:27] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-10 17:03:27] INFO root fetch - processPackages [redis-hashring]: New version: [0.4.0] Old Version: [0.3.4]
+[2024-05-10 17:03:27] INFO root fetch - processPackages [copyparty]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-10 17:03:27] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/a2/3a/db027b122d868c9114b1dc8034035828a38d69308332ed633bc6dbb81ed6/mns_common-1.0.8.6.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/ba/b1/3a99297ffcf64498604031fbfe5f7bd77eb9e82535bcc04134866b539665/aeroterra_ds-1.0.8.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/e5/4d/02f769081fee5d79400ffc8b485a1ea124bb348160e26578fc8ccea5c4a4/radical_repex-1.52.0.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/6c/94/560e6f0041338f00b33b44fc5f0a37a6b12c01a493658b1583d37e314ff2/skilleter_thingy-0.0.42.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [npyx]: Downloading https://files.pythonhosted.org/packages/19/c5/04a4e6ed1d8555e7619b4d2d4b666a1ee3733b216348ee9f4416a616f046/npyx-4.0.5.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/ee/0a/34f188b24df159a2a32de4e4e2d5cc7607e93ab8b313c3699c47195f41ca/unitsnet-py-0.1.98.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [redis-hashring]: Downloading https://files.pythonhosted.org/packages/b4/4f/1a98f36c9c45df6d67ba75dd8473c4f7da55cacd51d93eba987391a1f559/redis-hashring-0.3.4.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/aa/91/e640302f729af122c993bc72216142859cf0d38009436473c9de51f2918f/copyparty-1.9.8.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/54/9f/724e3ffa79ea26a881d039aab642d7b0a1ed3632480a16abb2fe3b90e2b8/mns_common-1.0.8.7.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240510/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 17:03:27] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.8.6.tar.gz tmp/mns_common-1.0.8.7.tar.gz --markdown 20240510/m/mns-common/1.0.8.6-1.0.8.7/README.md --exclude *.pyd
+[2024-05-10 17:03:27] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/5b/68/aaa8e502a3d00d0cf6ffc68cdd9599605601abff8e12de5fd50b45beac5c/aeroterra_ds-1.0.9.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/d4/5d/5a7afab972670588d5f28fc65df12838ac6c0a13d918c561d3b696b216eb/skilleter_thingy-0.0.43.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/6f/c3/56091fa169b05a85897f9a3ff84c663f9105df9df5d552c62229c909ba28/unitsnet-py-0.1.99.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/25/ad/a1a856cbc74c7d0da540b55aca5146321586f122dcb5c06372f0a76b9c57/radical_repex-1.60.0.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [npyx]: Downloading https://files.pythonhosted.org/packages/e4/d7/8c82be9ebc786f146d16f4ce3b2cdf478097bdc3e5a2bb4198f5f750ac72/npyx-4.0.6.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [redis-hashring]: Downloading https://files.pythonhosted.org/packages/71/bd/53f0cec9f923a5dff6ddc36c31ceb049e244a1c830e1dcaaca34485f658e/redis_hashring-0.4.0.tar.gz
+[2024-05-10 17:03:27] INFO root fetch - processPackages [aeroterra-ds]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [aeroterra-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeroterra_ds-1.0.8.tar.gz tmp/aeroterra_ds-1.0.9.tar.gz --markdown 20240510/a/aeroterra-ds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 17:03:27] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.42.tar.gz tmp/skilleter_thingy-0.0.43.tar.gz --markdown 20240510/s/skilleter-thingy/0.0.42-0.0.43/README.md --exclude *.pyd
+[2024-05-10 17:03:27] INFO root fetch - processPackages [radical.repex]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [radical.repex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_repex-1.52.0.tar.gz tmp/radical_repex-1.60.0.tar.gz --markdown 20240510/r/radical.repex/1.52.0-1.60.0/README.md --exclude *.pyd
+[2024-05-10 17:03:27] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.98.tar.gz tmp/unitsnet-py-0.1.99.tar.gz --markdown 20240510/u/unitsnet-py/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-10 17:03:27] INFO root fetch - processPackages [npyx]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [npyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npyx-4.0.5.tar.gz tmp/npyx-4.0.6.tar.gz --markdown 20240510/n/npyx/4.0.5-4.0.6/README.md --exclude *.pyd
+[2024-05-10 17:03:27] INFO root fetch - processPackages [redis-hashring]: executing diffoscope
+[2024-05-10 17:03:27] INFO root fetch - processPackages [redis-hashring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-hashring-0.3.4.tar.gz tmp/redis_hashring-0.4.0.tar.gz --markdown 20240510/r/redis-hashring/0.3.4-0.4.0/README.md --exclude *.pyd
+[2024-05-10 17:03:28] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/fb/5b/a1bc07b4a139d33dbbb0b5355223c94f0621cab166e1b656113ab7ccb921/copyparty-1.9.9.tar.gz
+[2024-05-10 17:03:28] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2024-05-10 17:03:28] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.9.8.tar.gz tmp/copyparty-1.9.9.tar.gz --markdown 20240510/c/copyparty/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-10 17:03:28] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.6.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.7.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-10 17:03:28] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical_repex-1.52.0.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical_repex-1.60.0.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - main [MainThread]: End processing [radical.repex]: success
+[2024-05-10 17:03:28] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-10 17:03:28] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.8.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.9.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - main [MainThread]: End processing [aeroterra-ds]: success
+[2024-05-10 17:03:28] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.42.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.43.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-10 17:03:28] INFO root fetch - processPackages [redis-hashring]: Remove: archive file [/home/abi/fetcher/tmp/redis-hashring-0.3.4.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - processPackages [redis-hashring]: Remove: archive file [/home/abi/fetcher/tmp/redis_hashring-0.4.0.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - main [MainThread]: End processing [redis-hashring]: success
+[2024-05-10 17:03:28] INFO root fetch - processPackages [npyx]: Remove: archive file [/home/abi/fetcher/tmp/npyx-4.0.5.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - processPackages [npyx]: Remove: archive file [/home/abi/fetcher/tmp/npyx-4.0.6.tar.gz]
+[2024-05-10 17:03:28] INFO root fetch - main [MainThread]: End processing [npyx]: success
+[2024-05-10 17:03:29] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.9.8.tar.gz]
+[2024-05-10 17:03:29] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.9.9.tar.gz]
+[2024-05-10 17:03:29] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2024-05-10 17:03:30] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.98.tar.gz]
+[2024-05-10 17:03:30] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.99.tar.gz]
+[2024-05-10 17:03:30] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2024-05-10 17:03:30] INFO root fetch - main [MainThread]: Store serial: [23148511]
