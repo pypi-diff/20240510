@@ -17355,3 +17355,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:14:06] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.3.3.tar.gz]
 [2024-05-10 14:14:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
 [2024-05-10 14:14:06] INFO root fetch - main [MainThread]: Store serial: [23145930]
+[2024-05-10 14:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145930]
+[2024-05-10 14:16:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-grafana
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openagents-node-sdk
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: breakz
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ModernQt
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remotion-lambda
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nmk-github
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taskwarrior_flow
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-29
+[2024-05-10 14:16:30] WARNING root fetch - processPackages [breakz]: Skipping, unable to determine old version
+[2024-05-10 14:16:30] INFO root fetch - main [MainThread]: End processing [breakz] error
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ModernQt]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-10 14:16:30] INFO root fetch - processPackages [openagents-node-sdk]: New version: [0.2] Old Version: [0.1.5]
+[2024-05-10 14:16:30] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-10 14:16:30] INFO root fetch - processPackages [cdk8s-plus-29]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-05-10 14:16:30] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/b2/39/5009f7886bac99a0d72e6e69c8abaff4c8a0ae406d44ac00a6764de3644b/openagents_node_sdk-0.1.5.tar.gz
+[2024-05-10 14:16:30] INFO root fetch - processPackages [ModernQt]: Downloading https://files.pythonhosted.org/packages/3b/96/9684042c01c3c680be486eaac2a37c5cd4596ef56e6220fee84aefc57389/modernqt-1.0.3.tar.gz
+[2024-05-10 14:16:30] INFO root fetch - processPackages [taskwarrior_flow]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-10 14:16:30] INFO root fetch - processPackages [nmk-github]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 14:16:30] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/4e/5d/d448205dc5495199c8b61c3dc3dcda0e7ba60405eb68f960dd66224a1b75/cdk8s-plus-29-2.3.2.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/b4/ea/07b8f4bce35f8c714b31faa43d62b0d7ef360fdf058e76085b0ff66afae1/openagents_node_sdk-0.2.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [taskwarrior_flow]: Downloading https://files.pythonhosted.org/packages/33/cb/bf62d2154c244c681f538d55b4534aafbbe2b3d650d6add84e96832df5a8/taskwarrior_flow-0.3.2.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/ee/b3/a53eb29e7c738160c9e69db0ec726c41c7ed3b9d5e71c393d7cbc531367a/nmk-github-0.8.0.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [ModernQt]: Downloading https://files.pythonhosted.org/packages/9e/9a/fe9cab401001cbb67a2df1dcb35d2d7dcc4e8dea393bee1cd7404a91190d/modernqt-1.0.4.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [openagents-node-sdk]: executing diffoscope
+[2024-05-10 14:16:31] INFO root fetch - processPackages [openagents-node-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_node_sdk-0.1.5.tar.gz tmp/openagents_node_sdk-0.2.tar.gz --markdown 20240510/o/openagents-node-sdk/0.1.5-0.2/README.md --exclude *.pyd
+[2024-05-10 14:16:31] INFO root fetch - processPackages [ModernQt]: executing diffoscope
+[2024-05-10 14:16:31] INFO root fetch - processPackages [ModernQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modernqt-1.0.3.tar.gz tmp/modernqt-1.0.4.tar.gz --markdown 20240510/M/ModernQt/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-10 14:16:31] INFO root fetch - processPackages [taskwarrior_flow]: Downloading https://files.pythonhosted.org/packages/c4/6b/3a0871dc7297d1a3fba8b448773e111f9a1a2b5983f5c2d7929ab89998fc/taskwarrior_flow-0.4.0.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/16/54/bd96819d1ef5883c98af8bd9dfdb4b188afe5290e161c3357fde1fda81c0/nmk-github-0.9.0.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [taskwarrior_flow]: executing diffoscope
+[2024-05-10 14:16:31] INFO root fetch - processPackages [taskwarrior_flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskwarrior_flow-0.3.2.tar.gz tmp/taskwarrior_flow-0.4.0.tar.gz --markdown 20240510/t/taskwarrior_flow/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-10 14:16:31] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-05-10 14:16:31] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240510/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/5f/ab/b93d3dc1af9728ec9ad0ea2714900cdc237de37b80ceeecef56c1d5a2126/cdk8s-plus-29-2.3.3.tar.gz
+[2024-05-10 14:16:31] INFO root fetch - processPackages [nmk-github]: executing diffoscope
+[2024-05-10 14:16:31] INFO root fetch - processPackages [nmk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-github-0.8.0.tar.gz tmp/nmk-github-0.9.0.tar.gz --markdown 20240510/n/nmk-github/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20240510/c/cdk8s-grafana/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-plus-29]: executing diffoscope
+[2024-05-10 14:16:31] INFO root fetch - processPackages [cdk8s-plus-29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-29-2.3.2.tar.gz tmp/cdk8s-plus-29-2.3.3.tar.gz --markdown 20240510/c/cdk8s-plus-29/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-05-10 14:16:32] INFO root fetch - processPackages [ModernQt]: Remove: archive file [/home/abi/fetcher/tmp/modernqt-1.0.3.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - processPackages [ModernQt]: Remove: archive file [/home/abi/fetcher/tmp/modernqt-1.0.4.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: End processing [ModernQt]: success
+[2024-05-10 14:16:32] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.1.5.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.2.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: End processing [openagents-node-sdk]: success
+[2024-05-10 14:16:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-05-10 14:16:32] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2024-05-10 14:16:32] INFO root fetch - processPackages [taskwarrior_flow]: Remove: archive file [/home/abi/fetcher/tmp/taskwarrior_flow-0.3.2.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - processPackages [taskwarrior_flow]: Remove: archive file [/home/abi/fetcher/tmp/taskwarrior_flow-0.4.0.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: End processing [taskwarrior_flow]: success
+[2024-05-10 14:16:32] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.8.0.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.9.0.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: End processing [nmk-github]: success
+[2024-05-10 14:16:32] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.2.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.3.tar.gz]
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
+[2024-05-10 14:16:32] INFO root fetch - main [MainThread]: Store serial: [23145951]
