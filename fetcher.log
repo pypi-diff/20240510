@@ -9356,3 +9356,32 @@
 [2024-05-10 09:10:52] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.4-py3-none-any.whl.zip]
 [2024-05-10 09:10:52] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-05-10 09:10:52] INFO root fetch - main [MainThread]: Store serial: [23142593]
+[2024-05-10 09:12:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142593]
+[2024-05-10 09:13:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-department-code
+[2024-05-10 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trophodiscz
+[2024-05-10 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getstream
+[2024-05-10 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-core
+[2024-05-10 09:13:01] INFO root fetch - processPackages [odoo-addon-hr-department-code]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.9]
+[2024-05-10 09:13:01] INFO root fetch - processPackages [getstream]: New version: [1.0.0] Old Version: [0.4.0]
+[2024-05-10 09:13:01] WARNING root fetch - processPackages [trophodiscz]: Skipping, unable to determine old version
+[2024-05-10 09:13:01] INFO root fetch - main [MainThread]: End processing [trophodiscz] error
+[2024-05-10 09:13:01] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.19.4rc1]
+[2024-05-10 09:13:01] INFO root fetch - processPackages [odoo-addon-hr-department-code]: Downloading https://files.pythonhosted.org/packages/ea/88/e563e76b5491994cf7924cd05deabc45db305d1919346056b2b930e006de/odoo_addon_hr_department_code-15.0.1.0.0.9-py3-none-any.whl
+[2024-05-10 09:13:01] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/71/1f/cbb913914b0095d6eb274766225eb57975f1134a23cab010169c38a7d28e/getstream-0.4.0.tar.gz
+[2024-05-10 09:13:01] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/03/a2/9aa2febea97547a6797b4229231aa53a73fd3185464e2ac13bf97b295db6/OpenGeode_core-14.19.4rc1-cp38-cp38-manylinux2014_x86_64.whl
+[2024-05-10 09:13:01] INFO root fetch - processPackages [odoo-addon-hr-department-code]: Downloading https://files.pythonhosted.org/packages/98/95/94de0423da3b97158748d4de9e82a385b309b2b17d6f4eaed67e0b3e2d28/odoo_addon_hr_department_code-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-10 09:13:01] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/8a/e5/962c3b1e55f924651b5ad248491634f4cf2f752ab39c2ddedc73806f16b5/getstream-1.0.0.tar.gz
+[2024-05-10 09:13:02] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 13609320>=10485760
+[2024-05-10 09:13:02] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-10 09:13:02] INFO root fetch - processPackages [odoo-addon-hr-department-code]: executing diffoscope
+[2024-05-10 09:13:02] INFO root fetch - processPackages [odoo-addon-hr-department-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_department_code-15.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_hr_department_code-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-hr-department-code/15.0.1.0.0.9-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-10 09:13:02] INFO root fetch - processPackages [getstream]: executing diffoscope
+[2024-05-10 09:13:02] INFO root fetch - processPackages [getstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getstream-0.4.0.tar.gz tmp/getstream-1.0.0.tar.gz --markdown 20240510/g/getstream/0.4.0-1.0.0/README.md --exclude *.pyd
+[2024-05-10 09:13:02] INFO root fetch - processPackages [odoo-addon-hr-department-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_department_code-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-10 09:13:02] INFO root fetch - processPackages [odoo-addon-hr-department-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_department_code-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-10 09:13:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-department-code]: success
+[2024-05-10 09:13:02] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-0.4.0.tar.gz]
+[2024-05-10 09:13:02] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-1.0.0.tar.gz]
+[2024-05-10 09:13:02] INFO root fetch - main [MainThread]: End processing [getstream]: success
+[2024-05-10 09:13:02] INFO root fetch - main [MainThread]: Store serial: [23142606]
