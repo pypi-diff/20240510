@@ -3539,3 +3539,45 @@
 [2024-05-10 03:38:43] INFO root fetch - processPackages [pixell]: Remove: archive file [/home/abi/fetcher/tmp/pixell-0.9.6.tar.gz]
 [2024-05-10 03:38:43] INFO root fetch - main [MainThread]: End processing [pixell]: success
 [2024-05-10 03:38:43] INFO root fetch - main [MainThread]: Store serial: [23140001]
+[2024-05-10 03:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140001]
+[2024-05-10 03:41:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 03:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: constellate
+[2024-05-10 03:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jzchatbot
+[2024-05-10 03:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchinstaller
+[2024-05-10 03:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-test-common
+[2024-05-10 03:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TorchKAN
+[2024-05-10 03:41:06] INFO root fetch - processPackages [jzchatbot]: New version: [59.83.90] Old Version: [59.83.89]
+[2024-05-10 03:41:06] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/bd/43/fa09e4b10cd89648d9ef180aa0427e323c03b7936e9d7015422ce4ae62f5/jzchatbot-59.83.89.tar.gz
+[2024-05-10 03:41:06] INFO root fetch - processPackages [torchinstaller]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-10 03:41:06] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-10 03:41:06] WARNING root fetch - processPackages [TorchKAN]: Skipping, unable to determine old version
+[2024-05-10 03:41:06] INFO root fetch - main [MainThread]: End processing [TorchKAN] error
+[2024-05-10 03:41:06] INFO root fetch - processPackages [constellate]: New version: [0.8.7] Old Version: [0.8.5]
+[2024-05-10 03:41:06] INFO root fetch - processPackages [torchinstaller]: Downloading https://files.pythonhosted.org/packages/90/39/0c8920ba57d6fa3e68e2bdedf92d0b8bf99359d78e8ced07ef4fbcb8a7a9/torchinstaller-0.8.5.tar.gz
+[2024-05-10 03:41:06] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/2c/05/28ba518532df3987777a585b67c468edc6255c1e9ba5f815625aa3c957fe/auto-test-common-2.0.4.tar.gz
+[2024-05-10 03:41:06] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/47/38/02178437fe1e6e06ef00ffd2ca43c18b91481fa51f662d3d33622aeb57ce/constellate-0.8.5.tar.gz
+[2024-05-10 03:41:06] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/40/5a/51116e75c36afb94def24c76a4f6badd8fcf41975ce8f5d9645b0f92e00d/jzchatbot-59.83.90.tar.gz
+[2024-05-10 03:41:06] INFO root fetch - processPackages [jzchatbot]: executing diffoscope
+[2024-05-10 03:41:06] INFO root fetch - processPackages [jzchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzchatbot-59.83.89.tar.gz tmp/jzchatbot-59.83.90.tar.gz --markdown 20240510/j/jzchatbot/59.83.89-59.83.90/README.md --exclude *.pyd
+[2024-05-10 03:41:06] INFO root fetch - processPackages [torchinstaller]: Downloading https://files.pythonhosted.org/packages/44/cf/ca26f017e0e010bd0641edccb025d644b55300d136b30331afc87de27a3a/torchinstaller-0.8.6.tar.gz
+[2024-05-10 03:41:06] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/53/81/55b1e1c80283289fe12d661a4db8f4fa02d468df5f5fc5f9e362ea0cf7d4/auto-test-common-2.0.5.tar.gz
+[2024-05-10 03:41:07] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/fc/88/13187c5ef786f84a0f05a8d60073a8a55c229734433b132f2277292e0992/constellate-0.8.7.tar.gz
+[2024-05-10 03:41:07] INFO root fetch - processPackages [torchinstaller]: executing diffoscope
+[2024-05-10 03:41:07] INFO root fetch - processPackages [torchinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchinstaller-0.8.5.tar.gz tmp/torchinstaller-0.8.6.tar.gz --markdown 20240510/t/torchinstaller/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-10 03:41:07] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-05-10 03:41:07] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.4.tar.gz tmp/auto-test-common-2.0.5.tar.gz --markdown 20240510/a/auto-test-common/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-10 03:41:07] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2024-05-10 03:41:07] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.8.5.tar.gz tmp/constellate-0.8.7.tar.gz --markdown 20240510/c/constellate/0.8.5-0.8.7/README.md --exclude *.pyd
+[2024-05-10 03:41:07] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.89.tar.gz]
+[2024-05-10 03:41:07] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.90.tar.gz]
+[2024-05-10 03:41:07] INFO root fetch - main [MainThread]: End processing [jzchatbot]: success
+[2024-05-10 03:41:07] INFO root fetch - processPackages [torchinstaller]: Remove: archive file [/home/abi/fetcher/tmp/torchinstaller-0.8.5.tar.gz]
+[2024-05-10 03:41:07] INFO root fetch - processPackages [torchinstaller]: Remove: archive file [/home/abi/fetcher/tmp/torchinstaller-0.8.6.tar.gz]
+[2024-05-10 03:41:07] INFO root fetch - main [MainThread]: End processing [torchinstaller]: success
+[2024-05-10 03:41:07] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.4.tar.gz]
+[2024-05-10 03:41:07] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.5.tar.gz]
+[2024-05-10 03:41:07] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-05-10 03:41:08] INFO root fetch - processPackages [constellate]: Remove: archive file [/home/abi/fetcher/tmp/constellate-0.8.5.tar.gz]
+[2024-05-10 03:41:08] INFO root fetch - processPackages [constellate]: Remove: archive file [/home/abi/fetcher/tmp/constellate-0.8.7.tar.gz]
+[2024-05-10 03:41:08] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2024-05-10 03:41:08] INFO root fetch - main [MainThread]: Store serial: [23140023]
