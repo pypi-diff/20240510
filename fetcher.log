@@ -3803,3 +3803,69 @@
 [2024-05-10 03:54:21] INFO root fetch - processPackages [viztracer]: Remove: archive file [/home/abi/fetcher/tmp/viztracer-0.9.5.tar.gz]
 [2024-05-10 03:54:21] INFO root fetch - main [MainThread]: End processing [viztracer]: success
 [2024-05-10 03:54:21] INFO root fetch - main [MainThread]: Store serial: [23140117]
+[2024-05-10 03:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140117]
+[2024-05-10 03:56:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 03:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-minio
+[2024-05-10 03:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-dev-cli
+[2024-05-10 03:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-http
+[2024-05-10 03:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-rigetti
+[2024-05-10 03:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-google
+[2024-05-10 03:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-core
+[2024-05-10 03:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-external
+[2024-05-10 03:56:30] INFO root fetch - processPackages [pulumi-external]: New version: [0.1.0a1715232958] Old Version: [0.1.0a1715059969]
+[2024-05-10 03:56:30] INFO root fetch - processPackages [pulumi-http]: New version: [0.1.0a1715233527] Old Version: [0.1.0a1715060611]
+[2024-05-10 03:56:30] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:56:30] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:56:30] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:56:30] INFO root fetch - processPackages [fast-dev-cli]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-10 03:56:30] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-10 03:56:30] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/ac/f3/099588e5a87ff1c05aed1c9513fc105130158061da89922daaa202605edf/pulumi_external-0.1.0a1715059969.tar.gz
+[2024-05-10 03:56:30] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/4b/73/dfbc72ee491b2285361fef66e817fdbd07cba58b53d8857288d4b0599545/pulumi_http-0.1.0a1715060611.tar.gz
+[2024-05-10 03:56:30] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/f5/0b/a148cde9fa027df9c8d55e61969adf7f017e894ee1e236d62338aac68d7e/cirq_rigetti-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:56:30] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/ef/39/2c75c36f92d9388c8611ba53648845202dc57432229cabf2d0bb2213c005/cirq_google-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:56:30] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/e0/b6/4c7d6520e6f253e9f4c81d14da4937873809deab3b370363e355d7d9a246/cirq_core-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:56:30] INFO root fetch - processPackages [fast-dev-cli]: Downloading https://files.pythonhosted.org/packages/3a/8f/8d6843a010c060557916aeff6cd816c4bdd23dba4febcf014bf065c428a3/fast_dev_cli-0.7.1.tar.gz
+[2024-05-10 03:56:30] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-10 03:56:30] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/20/23/c66f9eeca38e52ba1c699040a13d0d30638f79f6611017e5882794eeb87b/pulumi_http-0.1.0a1715233527.tar.gz
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/fb/66/cb8e80bfb4689ca8e6beff62c9d2b88370950172ccc446a34f629d2536fe/pulumi_external-0.1.0a1715232958.tar.gz
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.1.0a1715060611.tar.gz tmp/pulumi_http-0.1.0a1715233527.tar.gz --markdown 20240510/p/pulumi-http/0.1.0a1715060611-0.1.0a1715233527/README.md --exclude *.pyd
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.1.0a1715059969.tar.gz tmp/pulumi_external-0.1.0a1715232958.tar.gz --markdown 20240510/p/pulumi-external/0.1.0a1715059969-0.1.0a1715232958/README.md --exclude *.pyd
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/0f/d3/ab169f9a6b2243bccd9e7071ba44c3d6faa52c818eff54a96d440a2f2463/cirq_rigetti-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:56:31] INFO root fetch - processPackages [fast-dev-cli]: Downloading https://files.pythonhosted.org/packages/24/d6/46e77817126403947155165c1e632979b8d94db3c49fedcc533319a7e19d/fast_dev_cli-0.7.2.tar.gz
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/be/11/484469fd7b05d2b733b700e3483cfeb85cc9f5068ae83444f750a7a7f22a/cirq_google-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-10 03:56:31] INFO root fetch - processPackages [fast-dev-cli]: executing diffoscope
+[2024-05-10 03:56:31] INFO root fetch - processPackages [fast-dev-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_dev_cli-0.7.1.tar.gz tmp/fast_dev_cli-0.7.2.tar.gz --markdown 20240510/f/fast-dev-cli/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240510/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq-rigetti/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/26/34/5ef5ef19d65946af9e5acd1c0df51c171c9e5c4e13c30310aef7682792a2/cirq_core-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq-google/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715060611.tar.gz]
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715233527.tar.gz]
+[2024-05-10 03:56:31] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-05-10 03:56:31] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq-core/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715059969.tar.gz]
+[2024-05-10 03:56:31] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715232958.tar.gz]
+[2024-05-10 03:56:31] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-05-10 03:56:32] INFO root fetch - processPackages [fast-dev-cli]: Remove: archive file [/home/abi/fetcher/tmp/fast_dev_cli-0.7.1.tar.gz]
+[2024-05-10 03:56:32] INFO root fetch - processPackages [fast-dev-cli]: Remove: archive file [/home/abi/fetcher/tmp/fast_dev_cli-0.7.2.tar.gz]
+[2024-05-10 03:56:32] INFO root fetch - main [MainThread]: End processing [fast-dev-cli]: success
+[2024-05-10 03:56:32] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-10 03:56:32] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-10 03:56:32] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-10 03:56:32] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:56:32] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:56:32] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-05-10 03:56:32] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:56:32] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:56:32] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-05-10 03:56:35] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:56:35] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:56:35] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-05-10 03:56:35] INFO root fetch - main [MainThread]: Store serial: [23140144]
