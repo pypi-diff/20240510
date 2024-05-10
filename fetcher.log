@@ -4396,3 +4396,49 @@
 [2024-05-10 04:16:22] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-10 04:16:22] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-10 04:16:22] INFO root fetch - main [MainThread]: Store serial: [23140356]
+[2024-05-10 04:18:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140356]
+[2024-05-10 04:18:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 04:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydboat
+[2024-05-10 04:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-openstack
+[2024-05-10 04:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iscasmodel
+[2024-05-10 04:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iscasmodel
+[2024-05-10 04:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfa
+[2024-05-10 04:18:32] INFO root fetch - processPackages [pydboat]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 04:18:32] INFO root fetch - processPackages [iscasmodel]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 04:18:32] INFO root fetch - processPackages [iscasmodel]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 04:18:32] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/19/fd/3bfdc33ea889d21a70b23adc7871343826a97f90ea9627c694769bf91799/iscasmodel-0.8.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/19/fd/3bfdc33ea889d21a70b23adc7871343826a97f90ea9627c694769bf91799/iscasmodel-0.8.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [dfa]: New version: [4.7.1] Old Version: [4.7.0]
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pydboat]: Downloading https://files.pythonhosted.org/packages/9b/37/605bda18135686255a5ebd51be6a368f156c016d462a143a2c99074cca94/pydboat-1.0.1.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/13/12/355a54f73402f501d8505f078621de0c6e6222dab6f24765d2acfd74f701/iscasmodel-0.9.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/13/12/355a54f73402f501d8505f078621de0c6e6222dab6f24765d2acfd74f701/iscasmodel-0.9.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [dfa]: Downloading https://files.pythonhosted.org/packages/2d/b6/2f246824e319bc9e75f915c50829a00697dfb4be17996139467f865dccde/dfa-4.7.0.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: executing diffoscope
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscasmodel-0.8.tar.gz tmp/iscasmodel-0.9.tar.gz --markdown 20240510/i/iscasmodel/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: executing diffoscope
+[2024-05-10 04:18:33] INFO root fetch - processPackages [iscasmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscasmodel-0.8.tar.gz tmp/iscasmodel-0.9.tar.gz --markdown 20240510/i/iscasmodel/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240510/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-05-10 04:18:33] INFO root fetch - processPackages [dfa]: Downloading https://files.pythonhosted.org/packages/91/f1/10fc7dab8e3f97ecf5dec345f61e13d74c2289587cd8da8efb460048727a/dfa-4.7.1.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pydboat]: Downloading https://files.pythonhosted.org/packages/7b/80/21132426c521a556ebf9361979e9004a09e959994852cd786b2574bbc602/pydboat-1.0.2.tar.gz
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pydboat]: executing diffoscope
+[2024-05-10 04:18:33] INFO root fetch - processPackages [pydboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydboat-1.0.1.tar.gz tmp/pydboat-1.0.2.tar.gz --markdown 20240510/p/pydboat/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 04:18:33] INFO root fetch - processPackages [dfa]: executing diffoscope
+[2024-05-10 04:18:33] INFO root fetch - processPackages [dfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfa-4.7.0.tar.gz tmp/dfa-4.7.1.tar.gz --markdown 20240510/d/dfa/4.7.0-4.7.1/README.md --exclude *.pyd
+[2024-05-10 04:18:34] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.8.tar.gz]
+[2024-05-10 04:18:34] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.9.tar.gz]
+[2024-05-10 04:18:34] INFO root fetch - main [MainThread]: End processing [iscasmodel]: success
+[2024-05-10 04:18:34] INFO root fetch - main [MainThread]: End processing [iscasmodel]: success
+[2024-05-10 04:18:34] INFO root fetch - processPackages [pydboat]: Remove: archive file [/home/abi/fetcher/tmp/pydboat-1.0.1.tar.gz]
+[2024-05-10 04:18:34] INFO root fetch - processPackages [pydboat]: Remove: archive file [/home/abi/fetcher/tmp/pydboat-1.0.2.tar.gz]
+[2024-05-10 04:18:34] INFO root fetch - main [MainThread]: End processing [pydboat]: success
+[2024-05-10 04:18:34] INFO root fetch - processPackages [dfa]: Remove: archive file [/home/abi/fetcher/tmp/dfa-4.7.0.tar.gz]
+[2024-05-10 04:18:34] INFO root fetch - processPackages [dfa]: Remove: archive file [/home/abi/fetcher/tmp/dfa-4.7.1.tar.gz]
+[2024-05-10 04:18:34] INFO root fetch - main [MainThread]: End processing [dfa]: success
+[2024-05-10 04:18:36] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-05-10 04:18:36] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-10 04:18:36] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-10 04:18:36] INFO root fetch - main [MainThread]: Store serial: [23140372]
