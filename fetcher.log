@@ -16936,3 +16936,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:57:02] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240508.tar.gz]
 [2024-05-10 13:57:02] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-10 13:57:02] INFO root fetch - main [MainThread]: Store serial: [23145744]
+[2024-05-10 13:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145744]
+[2024-05-10 13:59:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 13:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tyro
+[2024-05-10 13:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embykeeper
+[2024-05-10 13:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isobuilder
+[2024-05-10 13:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: braisedz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pantachromaticz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keelson
+[2024-05-10 13:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doupand
+[2024-05-10 13:59:26] INFO root fetch - processPackages [isobuilder]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-10 13:59:26] WARNING root fetch - processPackages [pantachromaticz]: Skipping, unable to determine old version
+[2024-05-10 13:59:26] INFO root fetch - main [MainThread]: End processing [pantachromaticz] error
+[2024-05-10 13:59:26] INFO root fetch - processPackages [doupand]: New version: [1.0.9] Old Version: [1.0.3]
+[2024-05-10 13:59:26] INFO root fetch - processPackages [braisedz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:59:26] INFO root fetch - processPackages [keelson]: New version: [0.3.2] Old Version: [0.3.1rc9]
+[2024-05-10 13:59:26] INFO root fetch - processPackages [tyro]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-10 13:59:26] INFO root fetch - processPackages [embykeeper]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-10 13:59:26] INFO root fetch - processPackages [isobuilder]: Downloading https://files.pythonhosted.org/packages/87/64/f67bd142808ded35db9857e5a98e91dbb95a1b839dc415abcc4213a3c18f/isobuilder-0.4.9.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/63/73/b49c9420412689c064b373d42bf10aa648a40593fd9240c7c5c25edb84c6/doupand-1.0.3.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [braisedz]: Downloading https://files.pythonhosted.org/packages/cb/24/49a94f02e3ed869ad1c2f1a77c5ab02e659601b4c6e657f16be31ea481e9/braisedz-1.1.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [tyro]: Downloading https://files.pythonhosted.org/packages/16/73/b1d81353d7d104d13da8d8d657f436ae5141a9fe253983bac7883c573e59/tyro-0.8.3.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/d0/e6/4bb1ee3290f4aba08e9d6751566f039db27dba7d51553fc0681095c6a015/embykeeper-3.2.8.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-05-10 13:59:26] WARNING root fetch - processPackages [isobuilder]: Skipping package: exceeds size limit 24136310>=10485760
+[2024-05-10 13:59:26] INFO root fetch - main [MainThread]: End processing [isobuilder] error
+[2024-05-10 13:59:26] INFO root fetch - processPackages [braisedz]: Downloading https://files.pythonhosted.org/packages/0b/76/6ac5bab7c3cd9aec08be9786744a2d3a65c6eeb32890f85d32db2d592143/braisedz-2.1.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [tyro]: Downloading https://files.pythonhosted.org/packages/96/04/7962b62574c4098600efd5a2524bc74537abceee08b656c0bc0c8da95c8d/tyro-0.8.4.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/02/85/cffd52bc872be074110305f46303d258fa7478eab3eae08d86465d0653a8/embykeeper-3.2.9.tar.gz
+[2024-05-10 13:59:26] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/e4/c7/69f0ef1ce7133e4ee591b6961fbf86a58805f268e1f9b5f97ea9f24b0af2/doupand-1.0.9.tar.gz
+[2024-05-10 13:59:27] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/8c/0b/86273094e86080a0e6c88a9076d6677235bde6f1f0449bfd9cf542b958c5/keelson-0.3.2-py3-none-any.whl
+[2024-05-10 13:59:27] INFO root fetch - processPackages [braisedz]: executing diffoscope
+[2024-05-10 13:59:27] INFO root fetch - processPackages [braisedz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braisedz-1.1.tar.gz tmp/braisedz-2.1.tar.gz --markdown 20240510/b/braisedz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:59:27] INFO root fetch - processPackages [tyro]: executing diffoscope
+[2024-05-10 13:59:27] INFO root fetch - processPackages [tyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyro-0.8.3.tar.gz tmp/tyro-0.8.4.tar.gz --markdown 20240510/t/tyro/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-10 13:59:27] INFO root fetch - processPackages [doupand]: executing diffoscope
+[2024-05-10 13:59:27] INFO root fetch - processPackages [doupand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doupand-1.0.3.tar.gz tmp/doupand-1.0.9.tar.gz --markdown 20240510/d/doupand/1.0.3-1.0.9/README.md --exclude *.pyd
+[2024-05-10 13:59:27] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-10 13:59:27] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc9-py3-none-any.whl.zip tmp/keelson-0.3.2-py3-none-any.whl.zip --markdown 20240510/k/keelson/0.3.1rc9-0.3.2/README.md --exclude *.pyd
+[2024-05-10 13:59:27] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2024-05-10 13:59:27] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-3.2.8.tar.gz tmp/embykeeper-3.2.9.tar.gz --markdown 20240510/e/embykeeper/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-10 13:59:27] INFO root fetch - processPackages [braisedz]: Remove: archive file [/home/abi/fetcher/tmp/braisedz-1.1.tar.gz]
+[2024-05-10 13:59:27] INFO root fetch - processPackages [braisedz]: Remove: archive file [/home/abi/fetcher/tmp/braisedz-2.1.tar.gz]
+[2024-05-10 13:59:27] INFO root fetch - main [MainThread]: End processing [braisedz]: success
+[2024-05-10 13:59:27] INFO root fetch - processPackages [doupand]: Remove: archive file [/home/abi/fetcher/tmp/doupand-1.0.3.tar.gz]
+[2024-05-10 13:59:27] INFO root fetch - processPackages [doupand]: Remove: archive file [/home/abi/fetcher/tmp/doupand-1.0.9.tar.gz]
+[2024-05-10 13:59:27] INFO root fetch - main [MainThread]: End processing [doupand]: success
+[2024-05-10 13:59:27] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-05-10 13:59:27] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.2-py3-none-any.whl.zip]
+[2024-05-10 13:59:27] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-10 13:59:28] INFO root fetch - processPackages [tyro]: Remove: archive file [/home/abi/fetcher/tmp/tyro-0.8.3.tar.gz]
+[2024-05-10 13:59:28] INFO root fetch - processPackages [tyro]: Remove: archive file [/home/abi/fetcher/tmp/tyro-0.8.4.tar.gz]
+[2024-05-10 13:59:28] INFO root fetch - main [MainThread]: End processing [tyro]: success
+[2024-05-10 13:59:28] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.8.tar.gz]
+[2024-05-10 13:59:28] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
+[2024-05-10 13:59:28] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2024-05-10 13:59:28] INFO root fetch - main [MainThread]: Store serial: [23145764]
