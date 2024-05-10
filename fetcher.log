@@ -17883,3 +17883,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:33:37] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.8.0.tar.gz]
 [2024-05-10 14:33:37] INFO root fetch - main [MainThread]: End processing [maya-umbrella]: success
 [2024-05-10 14:33:37] INFO root fetch - main [MainThread]: Store serial: [23146222]
+[2024-05-10 14:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146222]
+[2024-05-10 14:35:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 14:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slittyz
+[2024-05-10 14:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indent-concluder
+[2024-05-10 14:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rHDPE-Data-Analysis
+[2024-05-10 14:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bywardz
+[2024-05-10 14:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hnt-sap-gui-library
+[2024-05-10 14:35:46] INFO root fetch - processPackages [hnt-sap-gui-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 14:35:46] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/f1/96/ea209b94dc1936505f80eb77ad4daf5d4e3c0c324256748a20b13d657b82/hnt_sap_gui_library-0.0.8.tar.gz
+[2024-05-10 14:35:46] INFO root fetch - processPackages [indent-concluder]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-10 14:35:46] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 14:35:46] WARNING root fetch - processPackages [slittyz]: Skipping, unable to determine old version
+[2024-05-10 14:35:46] INFO root fetch - processPackages [bywardz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 14:35:46] INFO root fetch - main [MainThread]: End processing [slittyz] error
+[2024-05-10 14:35:47] INFO root fetch - processPackages [indent-concluder]: Downloading https://files.pythonhosted.org/packages/a4/21/8a4a86b20c3842a8661a4e010b9118a7e2d38869ff1aa732bcd9517565af/indent-concluder-1.1.tar.gz
+[2024-05-10 14:35:47] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/64/2f/e4ca007e5b9053d0c58a5668b4f6e8aca77929093696eeda71392758bac8/rHDPE_Data_Analysis-1.0.8.tar.gz
+[2024-05-10 14:35:47] INFO root fetch - processPackages [bywardz]: Downloading https://files.pythonhosted.org/packages/ac/22/05c9011caf9c8f962bfce0e5d5f8f88cd3f2a9d79d2ed2ac93067b904cb9/bywardz-1.1.tar.gz
+[2024-05-10 14:35:47] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/b4/09/37ee44f483f91eb969849cc3a42a1d99a151bac148504be6d453b8fddb4f/hnt_sap_gui_library-0.0.9.tar.gz
+[2024-05-10 14:35:47] INFO root fetch - processPackages [hnt-sap-gui-library]: executing diffoscope
+[2024-05-10 14:35:47] INFO root fetch - processPackages [hnt-sap-gui-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_sap_gui_library-0.0.8.tar.gz tmp/hnt_sap_gui_library-0.0.9.tar.gz --markdown 20240510/h/hnt-sap-gui-library/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 14:35:47] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/6b/55/8ca49f99f4d5d68cb92bdb8f75216a49db6840e9e848dbbd20ab2e86edfd/rHDPE_Data_Analysis-1.0.9.tar.gz
+[2024-05-10 14:35:47] INFO root fetch - processPackages [bywardz]: Downloading https://files.pythonhosted.org/packages/4f/88/f364ec36c9742a4d9bb285602b8d520633ffdbb4d6add9dec5d70f557b84/bywardz-2.1.tar.gz
+[2024-05-10 14:35:47] INFO root fetch - processPackages [indent-concluder]: Downloading https://files.pythonhosted.org/packages/8e/3e/e5e47fb1013428ba3f3846c130fbf39b87c6b56f015c9d444753895db9a3/indent-concluder-1.1.1.tar.gz
+[2024-05-10 14:35:47] INFO root fetch - processPackages [bywardz]: executing diffoscope
+[2024-05-10 14:35:47] INFO root fetch - processPackages [bywardz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bywardz-1.1.tar.gz tmp/bywardz-2.1.tar.gz --markdown 20240510/b/bywardz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 14:35:47] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-05-10 14:35:47] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.8.tar.gz tmp/rHDPE_Data_Analysis-1.0.9.tar.gz --markdown 20240510/r/rHDPE-Data-Analysis/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 14:35:47] INFO root fetch - processPackages [indent-concluder]: executing diffoscope
+[2024-05-10 14:35:47] INFO root fetch - processPackages [indent-concluder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indent-concluder-1.1.tar.gz tmp/indent-concluder-1.1.1.tar.gz --markdown 20240510/i/indent-concluder/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-10 14:35:47] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.8.tar.gz]
+[2024-05-10 14:35:47] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.9.tar.gz]
+[2024-05-10 14:35:47] INFO root fetch - main [MainThread]: End processing [hnt-sap-gui-library]: success
+[2024-05-10 14:35:48] INFO root fetch - processPackages [bywardz]: Remove: archive file [/home/abi/fetcher/tmp/bywardz-1.1.tar.gz]
+[2024-05-10 14:35:48] INFO root fetch - processPackages [bywardz]: Remove: archive file [/home/abi/fetcher/tmp/bywardz-2.1.tar.gz]
+[2024-05-10 14:35:48] INFO root fetch - main [MainThread]: End processing [bywardz]: success
+[2024-05-10 14:35:48] INFO root fetch - processPackages [indent-concluder]: Remove: archive file [/home/abi/fetcher/tmp/indent-concluder-1.1.tar.gz]
+[2024-05-10 14:35:48] INFO root fetch - processPackages [indent-concluder]: Remove: archive file [/home/abi/fetcher/tmp/indent-concluder-1.1.1.tar.gz]
+[2024-05-10 14:35:48] INFO root fetch - main [MainThread]: End processing [indent-concluder]: success
+[2024-05-10 14:35:48] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.8.tar.gz]
+[2024-05-10 14:35:48] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.9.tar.gz]
+[2024-05-10 14:35:48] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-05-10 14:35:48] INFO root fetch - main [MainThread]: Store serial: [23146236]
