@@ -20536,3 +20536,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:02:45] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
 [2024-05-10 16:02:45] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
 [2024-05-10 16:02:45] INFO root fetch - main [MainThread]: Store serial: [23147524]
+[2024-05-10 16:04:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147524]
+[2024-05-10 16:04:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smurtls
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upsonic-legacy
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gtests
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gtests
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gtests
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gtests
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gtests
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datadog-checks-dev
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-configuration-sdk-preview
+[2024-05-10 16:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhlyr
+[2024-05-10 16:04:54] INFO root fetch - processPackages [smurtls]: New version: [0.1a9] Old Version: [0.1a8]
+[2024-05-10 16:04:54] INFO root fetch - processPackages [zhlyr]: New version: [2.5] Old Version: [2.0]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [upsonic-legacy]: New version: [0.23.6] Old Version: [0.23.5]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [smurtls]: Downloading https://files.pythonhosted.org/packages/92/6a/5d656d796717333a20ec76b09b4f1f95b554b40ef94b336273387b4311d9/smurtls-0.1a8-py3-none-any.whl
+[2024-05-10 16:04:55] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.529] Old Version: [0.1.528]
+[2024-05-10 16:04:55] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/df/c5/089c4c1db6a1f0bb2563a505df955b10c62793059dd18779e25cd9816c2d/zhlyr-2.0.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c8/ef/5374a7043a66888154a43c11cc8a58926330c5f66ece9ba859bf9c417fa5/gtests-0.0.4.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c8/ef/5374a7043a66888154a43c11cc8a58926330c5f66ece9ba859bf9c417fa5/gtests-0.0.4.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c8/ef/5374a7043a66888154a43c11cc8a58926330c5f66ece9ba859bf9c417fa5/gtests-0.0.4.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c8/ef/5374a7043a66888154a43c11cc8a58926330c5f66ece9ba859bf9c417fa5/gtests-0.0.4.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c8/ef/5374a7043a66888154a43c11cc8a58926330c5f66ece9ba859bf9c417fa5/gtests-0.0.4.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [upsonic-legacy]: Downloading https://files.pythonhosted.org/packages/14/e9/62d10029a32fcb71106cd68cfd320062285d49cad0fb544b3439b662f838/upsonic_legacy-0.23.5.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2024-05-10 16:04:55] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/2d/16/6978aa4d8358d03cef06eb61d88a4873065b0fbd0042fa4561c818bff2b9/lusid-configuration-sdk-preview-0.1.528.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [smurtls]: Downloading https://files.pythonhosted.org/packages/63/f0/aa2100f7aac566542457167a1882c0094e3587a1cd97a4c564a13164edec/smurtls-0.1a9-py3-none-any.whl
+[2024-05-10 16:04:55] INFO root fetch - processPackages [smurtls]: executing diffoscope
+[2024-05-10 16:04:55] INFO root fetch - processPackages [smurtls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smurtls-0.1a8-py3-none-any.whl.zip tmp/smurtls-0.1a9-py3-none-any.whl.zip --markdown 20240510/s/smurtls/0.1a8-0.1a9/README.md --exclude *.pyd
+[2024-05-10 16:04:55] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/a2/d2/413b2291460fa8c6e2af5f80bd83ebc57f97f3dfe6ca62cd6c04573a611b/zhlyr-2.5.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2024-05-10 16:04:55] INFO root fetch - processPackages [upsonic-legacy]: Downloading https://files.pythonhosted.org/packages/a8/c2/e50e8dbb4b2309213c566e362fc0ddc3dbcb4e0512a148712a0f9bf16a73/upsonic_legacy-0.23.6.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/5a/74/63100b82c8ae01a45512975998fc5917cc2437ad082bc55dffcf61d0f423/gtests-0.0.5.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/5a/74/63100b82c8ae01a45512975998fc5917cc2437ad082bc55dffcf61d0f423/gtests-0.0.5.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/5a/74/63100b82c8ae01a45512975998fc5917cc2437ad082bc55dffcf61d0f423/gtests-0.0.5.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [zhlyr]: executing diffoscope
+[2024-05-10 16:04:55] INFO root fetch - processPackages [zhlyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhlyr-2.0.tar.gz tmp/zhlyr-2.5.tar.gz --markdown 20240510/z/zhlyr/2.0-2.5/README.md --exclude *.pyd
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/5a/74/63100b82c8ae01a45512975998fc5917cc2437ad082bc55dffcf61d0f423/gtests-0.0.5.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b3/5d/fce707c6a14fa87f1988e2caab9894be7a00eee3df19f53b7054e42dbb8b/lusid-configuration-sdk-preview-0.1.529.tar.gz
+[2024-05-10 16:04:55] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/5a/74/63100b82c8ae01a45512975998fc5917cc2437ad082bc55dffcf61d0f423/gtests-0.0.5.tar.gz
+[2024-05-10 16:04:56] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20240510/d/datadog-checks-dev/9.4.0-9.4.1/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.4.tar.gz tmp/gtests-0.0.5.tar.gz --markdown 20240510/g/gtests/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.4.tar.gz tmp/gtests-0.0.5.tar.gz --markdown 20240510/g/gtests/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.4.tar.gz tmp/gtests-0.0.5.tar.gz --markdown 20240510/g/gtests/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [upsonic-legacy]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [upsonic-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic_legacy-0.23.5.tar.gz tmp/upsonic_legacy-0.23.6.tar.gz --markdown 20240510/u/upsonic-legacy/0.23.5-0.23.6/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.4.tar.gz tmp/gtests-0.0.5.tar.gz --markdown 20240510/g/gtests/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.4.tar.gz tmp/gtests-0.0.5.tar.gz --markdown 20240510/g/gtests/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2024-05-10 16:04:56] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.528.tar.gz tmp/lusid-configuration-sdk-preview-0.1.529.tar.gz --markdown 20240510/l/lusid-configuration-sdk-preview/0.1.528-0.1.529/README.md --exclude *.pyd
+[2024-05-10 16:04:56] INFO root fetch - processPackages [smurtls]: Remove: archive file [/home/abi/fetcher/tmp/smurtls-0.1a8-py3-none-any.whl.zip]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [smurtls]: Remove: archive file [/home/abi/fetcher/tmp/smurtls-0.1a9-py3-none-any.whl.zip]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [smurtls]: Start processing: streamlit-card
+[2024-05-10 16:04:56] INFO root fetch - main [MainThread]: End processing [smurtls]: success
+[2024-05-10 16:04:56] INFO root fetch - processPackages [streamlit-card]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-2.0.tar.gz]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-2.5.tar.gz]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [zhlyr]: Start processing: sapiopycommons
+[2024-05-10 16:04:56] INFO root fetch - main [MainThread]: End processing [zhlyr]: success
+[2024-05-10 16:04:56] INFO root fetch - processPackages [streamlit-card]: Downloading https://files.pythonhosted.org/packages/c9/6b/1b330935e10e0734b7da180f5a83931f589edded6ca1111260a7a3fcabb5/streamlit-card-1.0.0.tar.gz
+[2024-05-10 16:04:56] INFO root fetch - processPackages [sapiopycommons]: New version: [31.3.0.23.12.3] Old Version: [31.2.0.23.12.3]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [upsonic-legacy]: Remove: archive file [/home/abi/fetcher/tmp/upsonic_legacy-0.23.5.tar.gz]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [upsonic-legacy]: Remove: archive file [/home/abi/fetcher/tmp/upsonic_legacy-0.23.6.tar.gz]
+[2024-05-10 16:04:56] INFO root fetch - processPackages [upsonic-legacy]: Start processing: affixapi
+[2024-05-10 16:04:56] INFO root fetch - main [MainThread]: End processing [upsonic-legacy]: success
+[2024-05-10 16:04:57] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.4.tar.gz]
+[2024-05-10 16:04:57] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.5.tar.gz]
+[2024-05-10 16:04:57] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:04:57] INFO root fetch - processPackages [affixapi]: New version: [1.1.75] Old Version: [1.1.74]
+[2024-05-10 16:04:57] INFO root fetch - processPackages [sapiopycommons]: Downloading https://files.pythonhosted.org/packages/bb/8e/ffbfcdcdcdef085f3c02a0c0361d5f2b5c73f377a58d5055485920fd480d/sapiopycommons-31.2.0.23.12.3.tar.gz
+[2024-05-10 16:04:57] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/5a/b0/faae68a5be640fd785ff8d618a33268299cf0c79c61d5ced76a2c084aec7/affixapi-1.1.74.tar.gz
+[2024-05-10 16:04:57] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:04:57] INFO root fetch - processPackages [streamlit-card]: Downloading https://files.pythonhosted.org/packages/67/39/765f93dc09cabb8d4762714bf3a0d25892671450eda2c48e4dbdb2292d6b/streamlit_card-1.0.2.tar.gz
+[2024-05-10 16:04:57] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:04:57] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:04:57] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:04:57] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.528.tar.gz]
+[2024-05-10 16:04:57] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.529.tar.gz]
+[2024-05-10 16:04:57] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2024-05-10 16:04:57] INFO root fetch - processPackages [streamlit-card]: executing diffoscope
+[2024-05-10 16:04:57] INFO root fetch - processPackages [streamlit-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-card-1.0.0.tar.gz tmp/streamlit_card-1.0.2.tar.gz --markdown 20240510/s/streamlit-card/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-10 16:04:57] INFO root fetch - processPackages [sapiopycommons]: Downloading https://files.pythonhosted.org/packages/65/85/c26462638385d6921c9e6e2dd91d7bb1d0ce38c3a35ccf5becf78fea900d/sapiopycommons-31.3.0.23.12.3.tar.gz
+[2024-05-10 16:04:57] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/e0/46/4dce10d55f0f0338c1046ee531655998f049a2ab397d5842cd57e5d6b85f/affixapi-1.1.75.tar.gz
+[2024-05-10 16:04:57] INFO root fetch - processPackages [sapiopycommons]: executing diffoscope
+[2024-05-10 16:04:57] INFO root fetch - processPackages [sapiopycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopycommons-31.2.0.23.12.3.tar.gz tmp/sapiopycommons-31.3.0.23.12.3.tar.gz --markdown 20240510/s/sapiopycommons/31.2.0.23.12.3-31.3.0.23.12.3/README.md --exclude *.pyd
+[2024-05-10 16:04:57] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-05-10 16:04:57] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.74.tar.gz tmp/affixapi-1.1.75.tar.gz --markdown 20240510/a/affixapi/1.1.74-1.1.75/README.md --exclude *.pyd
+[2024-05-10 16:04:57] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip]
+[2024-05-10 16:04:57] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip]
+[2024-05-10 16:04:57] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2024-05-10 16:04:58] INFO root fetch - processPackages [sapiopycommons]: Remove: archive file [/home/abi/fetcher/tmp/sapiopycommons-31.2.0.23.12.3.tar.gz]
+[2024-05-10 16:04:58] INFO root fetch - processPackages [sapiopycommons]: Remove: archive file [/home/abi/fetcher/tmp/sapiopycommons-31.3.0.23.12.3.tar.gz]
+[2024-05-10 16:04:58] INFO root fetch - main [MainThread]: End processing [sapiopycommons]: success
+[2024-05-10 16:04:58] INFO root fetch - processPackages [streamlit-card]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-card-1.0.0.tar.gz]
+[2024-05-10 16:04:58] INFO root fetch - processPackages [streamlit-card]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_card-1.0.2.tar.gz]
+[2024-05-10 16:04:58] INFO root fetch - main [MainThread]: End processing [streamlit-card]: success
+[2024-05-10 16:04:59] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.74.tar.gz]
+[2024-05-10 16:04:59] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.75.tar.gz]
+[2024-05-10 16:04:59] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-05-10 16:04:59] INFO root fetch - main [MainThread]: Store serial: [23147629]
