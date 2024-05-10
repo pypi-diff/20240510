@@ -21551,3 +21551,131 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:32:37] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.3.tar.gz]
 [2024-05-10 16:32:37] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
 [2024-05-10 16:32:37] INFO root fetch - main [MainThread]: Store serial: [23148058]
+[2024-05-10 16:34:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148058]
+[2024-05-10 16:34:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: work
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vizkit
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: language_toolkit
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stips
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nicegui-tabulator
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: borneo-python-client
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iTransformer
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iaklogger
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: control-op-scnu
+[2024-05-10 16:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MiaoSQL
+[2024-05-10 16:34:46] INFO root fetch - processPackages [work]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [language_toolkit]: New version: [0.7.0] Old Version: [0.5.0]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [control-op-scnu]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/a8/79/c9585621628cbec5e4c234c56a04795abaf7032c17f4a3a15b00765e3def/work-1.1.0b1.tar.gz
+[2024-05-10 16:34:46] WARNING root fetch - processPackages [vizkit]: Skipping, unable to determine old version
+[2024-05-10 16:34:46] INFO root fetch - processPackages [vizkit]: Start processing: api-management-local
+[2024-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [vizkit] error
+[2024-05-10 16:34:46] INFO root fetch - processPackages [language_toolkit]: Downloading https://files.pythonhosted.org/packages/b7/dd/fc5ba7b1c7c2f70badcb41ddd1b220c2b96b9e882a59a875b66460ee74ec/language_toolkit-0.5.0.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [iTransformer]: New version: [0.6.0] Old Version: [0.5.5]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [iaklogger]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [nicegui-tabulator]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [stips]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [borneo-python-client]: New version: [3.10.1] Old Version: [3.10.0]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [MiaoSQL]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 16:34:46] WARNING root fetch - processPackages [language_toolkit]: Skipping package: exceeds size limit 12735146>=10485760
+[2024-05-10 16:34:46] INFO root fetch - processPackages [language_toolkit]: Start processing: gen-wrappers
+[2024-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [language_toolkit] error
+[2024-05-10 16:34:46] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [control-op-scnu]: Downloading https://files.pythonhosted.org/packages/f4/10/ba9ca2ff323bf1df68b72bbc39eaa9210ae5cbc59cdd09b725a0e6b89284/control-op-scnu-0.1.2.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [iTransformer]: Downloading https://files.pythonhosted.org/packages/92/7f/09b93edc29cd446f1569e9cf76e24a5b9b29f1fbea4fa14e6b3b25498b8f/iTransformer-0.5.5.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [iaklogger]: Downloading https://files.pythonhosted.org/packages/6f/13/5816b3323d3bbe66ab9ac4e0fb611d412ba7e66c95665db8e597160442fb/iaklogger-1.0.6.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [borneo-python-client]: Downloading https://files.pythonhosted.org/packages/fa/68/4dd3b66bd97b7a169dee621addd2192ef5e665c7868360499bedfea640a3/borneo_python_client-3.10.0.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [stips]: Downloading https://files.pythonhosted.org/packages/ea/56/fba33a0732355a50f61325c7cff344e36ae5537ea89aa20ef52541476ecf/stips-2.1.0.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [nicegui-tabulator]: Downloading https://files.pythonhosted.org/packages/88/8e/497118b6800bae761679e266dbde6077bfeb3db986acd787e7368bf450f7/nicegui_tabulator-0.1.0.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [gen-wrappers]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-10 16:34:46] INFO root fetch - processPackages [MiaoSQL]: Downloading https://files.pythonhosted.org/packages/ed/11/b8abee913ece6276affcd9b8cd417461c4c75de0e59c3e73d67899a8c42c/MiaoSQL-0.0.3.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/f0/8d/fff9a77628cb12b4c86d60afc178f1ee4bb726e1f4d1c8a45207727356f3/work-1.1.0b2.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/35/37/9c07a26ef0c89bfc315f076e4f703b3f943460bef361a00c54e0a8677ce9/gen_wrappers-0.2.3.tar.gz
+[2024-05-10 16:34:46] INFO root fetch - processPackages [control-op-scnu]: Downloading https://files.pythonhosted.org/packages/f0/a7/f61fb485a51503f8ea4f5214dd7b72011ada1a319a6f547bfac1c28e3bad/control-op-scnu-0.1.3.tar.gz
+[2024-05-10 16:34:47] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240510/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [iaklogger]: Downloading https://files.pythonhosted.org/packages/9e/6f/ca37c464fca5ab06b89d5f4dd932ff46f1d3c2fc4209ea097f393ae747ed/iaklogger-1.0.7.tar.gz
+[2024-05-10 16:34:47] INFO root fetch - processPackages [iTransformer]: Downloading https://files.pythonhosted.org/packages/c6/83/0fd5d01498c0165755b9b4cebdfbcb8ce555bc25bc1238bd378a633155de/itransformer-0.6.0.tar.gz
+[2024-05-10 16:34:47] INFO root fetch - processPackages [work]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-1.1.0b1.tar.gz tmp/work-1.1.0b2.tar.gz --markdown 20240510/w/work/1.1.0b1-1.1.0b2/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [borneo-python-client]: Downloading https://files.pythonhosted.org/packages/09/34/b0c4f13f101ab885fd4fdc411dc275547db1dbf0b8183a35ec3f45951578/borneo_python_client-3.10.1.tar.gz
+[2024-05-10 16:34:47] INFO root fetch - processPackages [nicegui-tabulator]: Downloading https://files.pythonhosted.org/packages/20/7d/d73c4d4c0ef83a8443123143c07d136297f824cdde7f55d84147a4429b66/nicegui_tabulator-0.1.1.tar.gz
+[2024-05-10 16:34:47] INFO root fetch - processPackages [MiaoSQL]: Downloading https://files.pythonhosted.org/packages/84/8c/3703e34d35c30069bfc1a2fa39dd41939620cbd8c5eebbefc8ec305b3dfe/MiaoSQL-0.0.4.tar.gz
+[2024-05-10 16:34:47] INFO root fetch - processPackages [control-op-scnu]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [control-op-scnu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-op-scnu-0.1.2.tar.gz tmp/control-op-scnu-0.1.3.tar.gz --markdown 20240510/c/control-op-scnu/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [iTransformer]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [iTransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iTransformer-0.5.5.tar.gz tmp/itransformer-0.6.0.tar.gz --markdown 20240510/i/iTransformer/0.5.5-0.6.0/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [iaklogger]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [iaklogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iaklogger-1.0.6.tar.gz tmp/iaklogger-1.0.7.tar.gz --markdown 20240510/i/iaklogger/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [borneo-python-client]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [borneo-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borneo_python_client-3.10.0.tar.gz tmp/borneo_python_client-3.10.1.tar.gz --markdown 20240510/b/borneo-python-client/3.10.0-3.10.1/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [nicegui-tabulator]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [nicegui-tabulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicegui_tabulator-0.1.0.tar.gz tmp/nicegui_tabulator-0.1.1.tar.gz --markdown 20240510/n/nicegui-tabulator/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [MiaoSQL]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [MiaoSQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MiaoSQL-0.0.3.tar.gz tmp/MiaoSQL-0.0.4.tar.gz --markdown 20240510/M/MiaoSQL/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/73/16/31c7273a5319a7c1b855a078efa7a649eb5050bd60ef5e27768a3325dc43/gen_wrappers-0.2.4.tar.gz
+[2024-05-10 16:34:47] INFO root fetch - processPackages [gen-wrappers]: executing diffoscope
+[2024-05-10 16:34:47] INFO root fetch - processPackages [gen-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_wrappers-0.2.3.tar.gz tmp/gen_wrappers-0.2.4.tar.gz --markdown 20240510/g/gen-wrappers/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-10 16:34:47] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-10 16:34:47] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-10 16:34:47] INFO root fetch - processPackages [api-management-local]: Start processing: cellmaps-sdk
+[2024-05-10 16:34:47] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-10 16:34:47] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0b1.tar.gz]
+[2024-05-10 16:34:47] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0b2.tar.gz]
+[2024-05-10 16:34:47] INFO root fetch - processPackages [work]: Start processing: adeft
+[2024-05-10 16:34:47] INFO root fetch - main [MainThread]: End processing [work]: success
+[2024-05-10 16:34:47] INFO root fetch - processPackages [cellmaps-sdk]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-05-10 16:34:47] INFO root fetch - processPackages [adeft]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [adeft]: Downloading https://files.pythonhosted.org/packages/0e/a9/5812106c5b20c84f4126ea687af8a09853d9846962f824333ea6a47fd521/adeft-0.8.0.tar.gz
+[2024-05-10 16:34:48] INFO root fetch - processPackages [control-op-scnu]: Remove: archive file [/home/abi/fetcher/tmp/control-op-scnu-0.1.2.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [control-op-scnu]: Remove: archive file [/home/abi/fetcher/tmp/control-op-scnu-0.1.3.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [control-op-scnu]: Start processing: pwrpy
+[2024-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [control-op-scnu]: success
+[2024-05-10 16:34:48] INFO root fetch - processPackages [iTransformer]: Remove: archive file [/home/abi/fetcher/tmp/iTransformer-0.5.5.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [iTransformer]: Remove: archive file [/home/abi/fetcher/tmp/itransformer-0.6.0.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [iTransformer]: success
+[2024-05-10 16:34:48] INFO root fetch - processPackages [MiaoSQL]: Remove: archive file [/home/abi/fetcher/tmp/MiaoSQL-0.0.3.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [MiaoSQL]: Remove: archive file [/home/abi/fetcher/tmp/MiaoSQL-0.0.4.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [MiaoSQL]: success
+[2024-05-10 16:34:48] INFO root fetch - processPackages [iaklogger]: Remove: archive file [/home/abi/fetcher/tmp/iaklogger-1.0.6.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [iaklogger]: Remove: archive file [/home/abi/fetcher/tmp/iaklogger-1.0.7.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [iaklogger]: success
+[2024-05-10 16:34:48] INFO root fetch - processPackages [pwrpy]: New version: [5.0.6] Old Version: [1.1.4]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [cellmaps-sdk]: Downloading https://files.pythonhosted.org/packages/05/d5/bb694e620707abd13c79df2413027acfc91adb0080e9bcc72f2d6c7b83a6/cellmaps_sdk-0.0.17.tar.gz
+[2024-05-10 16:34:48] INFO root fetch - processPackages [nicegui-tabulator]: Remove: archive file [/home/abi/fetcher/tmp/nicegui_tabulator-0.1.0.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [nicegui-tabulator]: Remove: archive file [/home/abi/fetcher/tmp/nicegui_tabulator-0.1.1.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [nicegui-tabulator]: success
+[2024-05-10 16:34:48] INFO root fetch - processPackages [adeft]: Downloading https://files.pythonhosted.org/packages/41/65/ec03ce902b78e4dc34776fe52a8c8deed553ccac74c6f8d09d93c54fd6a9/adeft-0.9.0.tar.gz
+[2024-05-10 16:34:48] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.2.3.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.2.4.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [gen-wrappers]: success
+[2024-05-10 16:34:48] INFO root fetch - processPackages [borneo-python-client]: Remove: archive file [/home/abi/fetcher/tmp/borneo_python_client-3.10.0.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - processPackages [borneo-python-client]: Remove: archive file [/home/abi/fetcher/tmp/borneo_python_client-3.10.1.tar.gz]
+[2024-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [borneo-python-client]: success
+[2024-05-10 16:34:48] INFO root fetch - processPackages [pwrpy]: Downloading https://files.pythonhosted.org/packages/06/b1/b3323371c4c1b2811c10223bd31abf5e73975df210c9d2b3abd636968426/pwrpy-1.1.4.tar.gz
+[2024-05-10 16:34:48] INFO root fetch - processPackages [adeft]: executing diffoscope
+[2024-05-10 16:34:48] INFO root fetch - processPackages [adeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adeft-0.8.0.tar.gz tmp/adeft-0.9.0.tar.gz --markdown 20240510/a/adeft/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 16:34:48] INFO root fetch - processPackages [cellmaps-sdk]: Downloading https://files.pythonhosted.org/packages/d2/d1/a42a83d196683047d69e1f11bc42500a480f8b4af663c34fa99710d607eb/cellmaps_sdk-0.0.18.tar.gz
+[2024-05-10 16:34:48] INFO root fetch - processPackages [cellmaps-sdk]: executing diffoscope
+[2024-05-10 16:34:48] INFO root fetch - processPackages [cellmaps-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_sdk-0.0.17.tar.gz tmp/cellmaps_sdk-0.0.18.tar.gz --markdown 20240510/c/cellmaps-sdk/0.0.17-0.0.18/README.md --exclude *.pyd
+[2024-05-10 16:34:48] INFO root fetch - processPackages [pwrpy]: Downloading https://files.pythonhosted.org/packages/31/07/e2a3f9440ac004a8be9994ef1152aa41d071c93f2fb0aa84ed805399f18a/pwrpy-5.0.6.tar.gz
+[2024-05-10 16:34:49] INFO root fetch - processPackages [pwrpy]: executing diffoscope
+[2024-05-10 16:34:49] INFO root fetch - processPackages [pwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwrpy-1.1.4.tar.gz tmp/pwrpy-5.0.6.tar.gz --markdown 20240510/p/pwrpy/1.1.4-5.0.6/README.md --exclude *.pyd
+[2024-05-10 16:34:49] INFO root fetch - processPackages [adeft]: Remove: archive file [/home/abi/fetcher/tmp/adeft-0.8.0.tar.gz]
+[2024-05-10 16:34:49] INFO root fetch - processPackages [adeft]: Remove: archive file [/home/abi/fetcher/tmp/adeft-0.9.0.tar.gz]
+[2024-05-10 16:34:49] INFO root fetch - main [MainThread]: End processing [adeft]: success
+[2024-05-10 16:34:49] INFO root fetch - processPackages [stips]: Downloading https://files.pythonhosted.org/packages/89/c1/c836b8a75111a4ee1ed50fb389ce48e6f3034576d3b3bde07281fdbd0b52/stips-2.2.0.tar.gz
+[2024-05-10 16:34:49] INFO root fetch - processPackages [cellmaps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_sdk-0.0.17.tar.gz]
+[2024-05-10 16:34:49] INFO root fetch - processPackages [cellmaps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_sdk-0.0.18.tar.gz]
+[2024-05-10 16:34:49] INFO root fetch - main [MainThread]: End processing [cellmaps-sdk]: success
+[2024-05-10 16:34:49] INFO root fetch - processPackages [pwrpy]: Remove: archive file [/home/abi/fetcher/tmp/pwrpy-1.1.4.tar.gz]
+[2024-05-10 16:34:49] INFO root fetch - processPackages [pwrpy]: Remove: archive file [/home/abi/fetcher/tmp/pwrpy-5.0.6.tar.gz]
+[2024-05-10 16:34:49] INFO root fetch - main [MainThread]: End processing [pwrpy]: success
+[2024-05-10 16:34:50] INFO root fetch - processPackages [stips]: executing diffoscope
+[2024-05-10 16:34:50] INFO root fetch - processPackages [stips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stips-2.1.0.tar.gz tmp/stips-2.2.0.tar.gz --markdown 20240510/s/stips/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-10 16:34:51] INFO root fetch - processPackages [stips]: Remove: archive file [/home/abi/fetcher/tmp/stips-2.1.0.tar.gz]
+[2024-05-10 16:34:51] INFO root fetch - processPackages [stips]: Remove: archive file [/home/abi/fetcher/tmp/stips-2.2.0.tar.gz]
+[2024-05-10 16:34:51] INFO root fetch - main [MainThread]: End processing [stips]: success
+[2024-05-10 16:34:51] INFO root fetch - main [MainThread]: Store serial: [23148119]
