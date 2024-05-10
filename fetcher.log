@@ -20784,3 +20784,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:09:26] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.1.tar.gz]
 [2024-05-10 16:09:26] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
 [2024-05-10 16:09:26] INFO root fetch - main [MainThread]: Store serial: [23147681]
+[2024-05-10 16:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147681]
+[2024-05-10 16:11:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CUCMLib
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calendariofinanceiro
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cycode
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyranges
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: objectbox
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromotherapistz
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: itwingsdatacollector
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otp-generate
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hcube
+[2024-05-10 16:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: staccatoz
+[2024-05-10 16:11:37] WARNING root fetch - processPackages [chromotherapistz]: Skipping, unable to determine old version
+[2024-05-10 16:11:37] INFO root fetch - main [MainThread]: End processing [chromotherapistz] error
+[2024-05-10 16:11:37] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 16:11:37] INFO root fetch - processPackages [otp-generate]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 16:11:37] INFO root fetch - processPackages [pyranges]: New version: [0.1.0] Old Version: [0.0.99]
+[2024-05-10 16:11:37] INFO root fetch - processPackages [cycode]: New version: [1.9.5.dev1] Old Version: [1.9.4.dev3]
+[2024-05-10 16:11:37] INFO root fetch - processPackages [calendariofinanceiro]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-05-10 16:11:37] INFO root fetch - processPackages [objectbox]: New version: [0.7.0a9] Old Version: [0.7.0a8]
+[2024-05-10 16:11:37] WARNING root fetch - processPackages [itwingsdatacollector]: Skipping, unable to determine old version
+[2024-05-10 16:11:37] INFO root fetch - main [MainThread]: End processing [itwingsdatacollector] error
+[2024-05-10 16:11:37] INFO root fetch - processPackages [CUCMLib]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 16:11:37] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/9f/d9/3a304418e74fa0f244e48603366dee92195124a13d511eebc976fae288ba/otp_generate-0.0.3.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/4b/72/075fd9696e4c448209d751656d7184b1b3a7738ab256428ba4bef0fbbc25/pyranges-0.0.99.tar.gz
+[2024-05-10 16:11:37] WARNING root fetch - processPackages [staccatoz]: Skipping, unable to determine old version
+[2024-05-10 16:11:37] INFO root fetch - main [MainThread]: End processing [staccatoz] error
+[2024-05-10 16:11:37] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e6/a1/ec6134a1bf7ee6d2d5aa76a63dc5a3d4ba25e9f67df1d3ad57cf737612ac/cycode-1.9.4.dev3.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [CUCMLib]: Downloading https://files.pythonhosted.org/packages/ef/2f/14a4f85e2a7394c9744f5c86b7ee401e676f3329617a0634b60f3a9fef12/CUCMLib-0.1.7-py3-none-any.whl
+[2024-05-10 16:11:37] INFO root fetch - processPackages [calendariofinanceiro]: Downloading https://files.pythonhosted.org/packages/ea/8b/cd386e64f8ee81380a49a7f029cb31a8056d272ead3bbd994341a0365b07/calendariofinanceiro-0.1.6.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/cc/ba/44e8ce980ec0a88c80e70492fdf005fe438e7ad5d861fa6a1b4a6875fd8a/objectbox-0.7.0a8-py3-none-any.whl
+[2024-05-10 16:11:37] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/f6/2b/46291db0d406f6fd2899de2895bc2108de86e8a6aef760d46b2bc07c2a8d/otp_generate-0.0.4.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/30/7f/20dd10aaf08d0de881820307cef70a6eeee3d9d14603ff4e0e1e9fb2eedb/cycode-1.9.5.dev1.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/55/cb/94f961598841a1b09aaf6f69b2a3fd74b0f707cc6b382b6e27f5e3f764a9/pyranges-0.1.0.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [otp-generate]: executing diffoscope
+[2024-05-10 16:11:37] INFO root fetch - processPackages [otp-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otp_generate-0.0.3.tar.gz tmp/otp_generate-0.0.4.tar.gz --markdown 20240510/o/otp-generate/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 16:11:37] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-05-10 16:11:37] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240510/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 16:11:37] INFO root fetch - processPackages [calendariofinanceiro]: Downloading https://files.pythonhosted.org/packages/ed/79/764a1a150d19b0e1e6d953748f3df877962bfd8f9928c222f124ecd19e8a/calendariofinanceiro-0.2.0.tar.gz
+[2024-05-10 16:11:37] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-10 16:11:37] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.4.dev3.tar.gz tmp/cycode-1.9.5.dev1.tar.gz --markdown 20240510/c/cycode/1.9.4.dev3-1.9.5.dev1/README.md --exclude *.pyd
+[2024-05-10 16:11:37] INFO root fetch - processPackages [CUCMLib]: Downloading https://files.pythonhosted.org/packages/ac/57/26021cfa1a47a144c1e9699fd09eb00ef15b6b30ca1e7545270164798ec3/CUCMLib-0.1.8-py3-none-any.whl
+[2024-05-10 16:11:37] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2024-05-10 16:11:37] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.99.tar.gz tmp/pyranges-0.1.0.tar.gz --markdown 20240510/p/pyranges/0.0.99-0.1.0/README.md --exclude *.pyd
+[2024-05-10 16:11:38] INFO root fetch - processPackages [calendariofinanceiro]: executing diffoscope
+[2024-05-10 16:11:38] INFO root fetch - processPackages [calendariofinanceiro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calendariofinanceiro-0.1.6.tar.gz tmp/calendariofinanceiro-0.2.0.tar.gz --markdown 20240510/c/calendariofinanceiro/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-05-10 16:11:38] INFO root fetch - processPackages [CUCMLib]: executing diffoscope
+[2024-05-10 16:11:38] INFO root fetch - processPackages [CUCMLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUCMLib-0.1.7-py3-none-any.whl.zip tmp/CUCMLib-0.1.8-py3-none-any.whl.zip --markdown 20240510/C/CUCMLib/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 16:11:38] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/c3/61/0aa9d0116287743c7d3ed3dcd0cecddd576b2c27bc58cd72ac9e9513a8be/objectbox-0.7.0a9-py3-none-any.whl
+[2024-05-10 16:11:38] INFO root fetch - processPackages [otp-generate]: Remove: archive file [/home/abi/fetcher/tmp/otp_generate-0.0.3.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - processPackages [otp-generate]: Remove: archive file [/home/abi/fetcher/tmp/otp_generate-0.0.4.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - main [MainThread]: End processing [otp-generate]: success
+[2024-05-10 16:11:38] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-05-10 16:11:38] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-0.7.0a8-py3-none-any.whl.zip tmp/objectbox-0.7.0a9-py3-none-any.whl.zip --markdown 20240510/o/objectbox/0.7.0a8-0.7.0a9/README.md --exclude *.pyd
+[2024-05-10 16:11:38] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-05-10 16:11:38] INFO root fetch - processPackages [calendariofinanceiro]: Remove: archive file [/home/abi/fetcher/tmp/calendariofinanceiro-0.1.6.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - processPackages [calendariofinanceiro]: Remove: archive file [/home/abi/fetcher/tmp/calendariofinanceiro-0.2.0.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - main [MainThread]: End processing [calendariofinanceiro]: success
+[2024-05-10 16:11:38] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.4.dev3.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev1.tar.gz]
+[2024-05-10 16:11:38] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-10 16:11:39] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.0.99.tar.gz]
+[2024-05-10 16:11:39] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.1.0.tar.gz]
+[2024-05-10 16:11:39] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2024-05-10 16:11:41] INFO root fetch - processPackages [CUCMLib]: Remove: archive file [/home/abi/fetcher/tmp/CUCMLib-0.1.7-py3-none-any.whl.zip]
+[2024-05-10 16:11:41] INFO root fetch - processPackages [CUCMLib]: Remove: archive file [/home/abi/fetcher/tmp/CUCMLib-0.1.8-py3-none-any.whl.zip]
+[2024-05-10 16:11:41] INFO root fetch - main [MainThread]: End processing [CUCMLib]: success
+[2024-05-10 16:12:21] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a8-py3-none-any.whl.zip]
+[2024-05-10 16:12:21] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a9-py3-none-any.whl.zip]
+[2024-05-10 16:12:21] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-05-10 16:12:21] INFO root fetch - main [MainThread]: Store serial: [23147708]
