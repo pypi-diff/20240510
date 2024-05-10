@@ -23014,3 +23014,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:21:48] INFO root fetch - processPackages [original-sdk]: Remove: archive file [/home/abi/fetcher/tmp/original_sdk-1.3.1.tar.gz]
 [2024-05-10 17:21:48] INFO root fetch - main [MainThread]: End processing [original-sdk]: success
 [2024-05-10 17:21:48] INFO root fetch - main [MainThread]: Store serial: [23148756]
+[2024-05-10 17:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148756]
+[2024-05-10 17:23:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcam-fmj
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kozmoserver-lightgbm
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fab-react-toolkit
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lprocess
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cremornez
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medspacy
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inpaymentz
+[2024-05-10 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FairFRU
+[2024-05-10 17:23:57] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-10 17:23:57] INFO root fetch - processPackages [FairFRU]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-10 17:23:57] INFO root fetch - processPackages [arcam-fmj]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-10 17:23:58] WARNING root fetch - processPackages [inpaymentz]: Skipping, unable to determine old version
+[2024-05-10 17:23:58] INFO root fetch - main [MainThread]: End processing [inpaymentz] error
+[2024-05-10 17:23:58] WARNING root fetch - processPackages [kozmoserver-lightgbm]: Skipping, unable to determine old version
+[2024-05-10 17:23:58] INFO root fetch - processPackages [medspacy]: New version: [1.1.6a0] Old Version: [1.1.6]
+[2024-05-10 17:23:58] INFO root fetch - main [MainThread]: End processing [kozmoserver-lightgbm] error
+[2024-05-10 17:23:58] INFO root fetch - processPackages [cremornez]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 17:23:58] WARNING root fetch - processPackages [lprocess]: Skipping, unable to determine old version
+[2024-05-10 17:23:58] INFO root fetch - main [MainThread]: End processing [lprocess] error
+[2024-05-10 17:23:58] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/54/07/c88ec973e73b111ab3e472f6961b270fd7fe33267970ef27b0249b771c0e/fab_react_toolkit-0.4.6.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [FairFRU]: Downloading https://files.pythonhosted.org/packages/5f/09/05eba027ec1b4f6feca1ace2882b2857c83bc5a0a1bad710599186766894/FairFRU-0.2.6.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/d0/b7/38952d12df031f6a2d5890ca93689bc50fb7d8a4321108014c4616377ad7/medspacy-1.1.6.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/10/7f/a9509474ddbafa1a803d7af626f9094424a4f288ec63d0f71f2faca1a3eb/arcam_fmj-1.5.0.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [cremornez]: Downloading https://files.pythonhosted.org/packages/e3/81/50fbfdb90bd0fd9ef49b2e760e240cd3d7aaa5a3ec109c09c8f59cb57128/cremornez-1.1.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [FairFRU]: Downloading https://files.pythonhosted.org/packages/72/f6/0f1b0d3d308d6e6dfd5213f112ce48d7abdbdfa955c56a924f8d42d7aafa/FairFRU-0.2.7.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/78/13/a7441c79379f7ceacfe6ccf20c00521084612b547f79de2e7a5bc75d03b6/fab_react_toolkit-0.4.7.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [FairFRU]: executing diffoscope
+[2024-05-10 17:23:58] INFO root fetch - processPackages [FairFRU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FairFRU-0.2.6.tar.gz tmp/FairFRU-0.2.7.tar.gz --markdown 20240510/F/FairFRU/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-10 17:23:58] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-05-10 17:23:58] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab_react_toolkit-0.4.6.tar.gz tmp/fab_react_toolkit-0.4.7.tar.gz --markdown 20240510/f/fab-react-toolkit/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-10 17:23:58] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/c0/d8/4f5f9199ece6f99462976b03482f920b921f906332e5b0cd635493d2af9c/medspacy-1.1.6a0.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/b6/ce/00df9cc987ceeef18582ac6309a5cbc2643d0da5287429bff0d93d2e5442/arcam_fmj-1.5.1.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [cremornez]: Downloading https://files.pythonhosted.org/packages/82/b1/2f695e69bcea6b7caf07936b94074d4e39ead47868f6e0c51a750542f7d4/cremornez-2.1.tar.gz
+[2024-05-10 17:23:58] INFO root fetch - processPackages [arcam-fmj]: executing diffoscope
+[2024-05-10 17:23:58] INFO root fetch - processPackages [arcam-fmj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcam_fmj-1.5.0.tar.gz tmp/arcam_fmj-1.5.1.tar.gz --markdown 20240510/a/arcam-fmj/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-10 17:23:58] INFO root fetch - processPackages [cremornez]: executing diffoscope
+[2024-05-10 17:23:58] INFO root fetch - processPackages [cremornez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cremornez-1.1.tar.gz tmp/cremornez-2.1.tar.gz --markdown 20240510/c/cremornez/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 17:23:58] INFO root fetch - processPackages [medspacy]: executing diffoscope
+[2024-05-10 17:23:58] INFO root fetch - processPackages [medspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medspacy-1.1.6.tar.gz tmp/medspacy-1.1.6a0.tar.gz --markdown 20240510/m/medspacy/1.1.6-1.1.6a0/README.md --exclude *.pyd
+[2024-05-10 17:23:59] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.6.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.7.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-05-10 17:23:59] INFO root fetch - processPackages [FairFRU]: Remove: archive file [/home/abi/fetcher/tmp/FairFRU-0.2.6.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - processPackages [FairFRU]: Remove: archive file [/home/abi/fetcher/tmp/FairFRU-0.2.7.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - main [MainThread]: End processing [FairFRU]: success
+[2024-05-10 17:23:59] INFO root fetch - processPackages [cremornez]: Remove: archive file [/home/abi/fetcher/tmp/cremornez-1.1.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - processPackages [cremornez]: Remove: archive file [/home/abi/fetcher/tmp/cremornez-2.1.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - main [MainThread]: End processing [cremornez]: success
+[2024-05-10 17:23:59] INFO root fetch - processPackages [arcam-fmj]: Remove: archive file [/home/abi/fetcher/tmp/arcam_fmj-1.5.0.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - processPackages [arcam-fmj]: Remove: archive file [/home/abi/fetcher/tmp/arcam_fmj-1.5.1.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - main [MainThread]: End processing [arcam-fmj]: success
+[2024-05-10 17:23:59] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.1.6.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.1.6a0.tar.gz]
+[2024-05-10 17:23:59] INFO root fetch - main [MainThread]: End processing [medspacy]: success
+[2024-05-10 17:23:59] INFO root fetch - main [MainThread]: Store serial: [23148785]
