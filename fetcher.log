@@ -19745,3 +19745,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:36:36] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-10 15:36:36] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-10 15:36:36] INFO root fetch - main [MainThread]: Store serial: [23147091]
+[2024-05-10 15:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147091]
+[2024-05-10 15:39:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glpic
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-pkhan-12345
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supervisely
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhlyr
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NsgOrcFx
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heimdall-tools
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: castingz
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwb4fp
+[2024-05-10 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cycode
+[2024-05-10 15:39:01] INFO root fetch - processPackages [glpic]: New version: [99.0.202405101249] Old Version: [99.0.202405101247]
+[2024-05-10 15:39:01] WARNING root fetch - processPackages [test-pkhan-12345]: Skipping, unable to determine old version
+[2024-05-10 15:39:01] INFO root fetch - main [MainThread]: End processing [test-pkhan-12345] error
+[2024-05-10 15:39:01] WARNING root fetch - processPackages [castingz]: Skipping, unable to determine old version
+[2024-05-10 15:39:01] INFO root fetch - main [MainThread]: End processing [castingz] error
+[2024-05-10 15:39:01] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/f2/0c/6b181c7a66404b4980a6da196dbd3523cd991b4c87c45e871a3cfc6854e8/glpic-99.0.202405101247.tar.gz
+[2024-05-10 15:39:01] WARNING root fetch - processPackages [zhlyr]: Skipping, unable to determine old version
+[2024-05-10 15:39:01] INFO root fetch - main [MainThread]: End processing [zhlyr] error
+[2024-05-10 15:39:01] INFO root fetch - processPackages [heimdall-tools]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-10 15:39:01] WARNING root fetch - processPackages [NsgOrcFx]: Skipping, unable to determine old version
+[2024-05-10 15:39:01] INFO root fetch - main [MainThread]: End processing [NsgOrcFx] error
+[2024-05-10 15:39:01] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.2.3] Old Version: [0.6.2.2]
+[2024-05-10 15:39:01] INFO root fetch - processPackages [cycode]: New version: [1.9.5.dev1] Old Version: [1.9.4.dev3]
+[2024-05-10 15:39:01] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-10 15:39:02] INFO root fetch - processPackages [heimdall-tools]: Downloading https://files.pythonhosted.org/packages/ab/16/ce456d8ccf2f3ffa41d5ea2a481747f6659ff6b13a71ddbbadb0489da135/heimdall_tools-0.1.2.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/36/b1/9ca524f3f4d04917263dc965af227ce234ed34bd1a2c883f4ae02e55271c/glpic-99.0.202405101249.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/71/a8/be2c73fad82d828b36c2773a6ccf176fc09c86dfa1aa647ac02d64fe463a/nwb4fp-0.6.2.2-py3-none-any.whl
+[2024-05-10 15:39:02] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e6/a1/ec6134a1bf7ee6d2d5aa76a63dc5a3d4ba25e9f67df1d3ad57cf737612ac/cycode-1.9.4.dev3.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-05-10 15:39:02] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202405101247.tar.gz tmp/glpic-99.0.202405101249.tar.gz --markdown 20240510/g/glpic/99.0.202405101247-99.0.202405101249/README.md --exclude *.pyd
+[2024-05-10 15:39:02] INFO root fetch - processPackages [heimdall-tools]: Downloading https://files.pythonhosted.org/packages/a9/60/9b4fcefe06a663213d73791571013ff4931219cf63c4ff710ed79a3f4fe2/heimdall_tools-0.2.0.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/30/7f/20dd10aaf08d0de881820307cef70a6eeee3d9d14603ff4e0e1e9fb2eedb/cycode-1.9.5.dev1.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/e9/00/753ca4f5b1bdedca6b382ea4c65a4d4c350929c6a75c2dce2cc80fc214ec/nwb4fp-0.6.2.3.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-05-10 15:39:02] INFO root fetch - processPackages [heimdall-tools]: executing diffoscope
+[2024-05-10 15:39:02] INFO root fetch - processPackages [heimdall-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heimdall_tools-0.1.2.tar.gz tmp/heimdall_tools-0.2.0.tar.gz --markdown 20240510/h/heimdall-tools/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-10 15:39:02] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-10 15:39:02] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.4.dev3.tar.gz tmp/cycode-1.9.5.dev1.tar.gz --markdown 20240510/c/cycode/1.9.4.dev3-1.9.5.dev1/README.md --exclude *.pyd
+[2024-05-10 15:39:02] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-10 15:39:02] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.2.2-py3-none-any.whl.zip tmp/nwb4fp-0.6.2.3.tar.gz --markdown 20240510/n/nwb4fp/0.6.2.2-0.6.2.3/README.md --exclude *.pyd
+[2024-05-10 15:39:02] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-05-10 15:39:02] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240510/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-10 15:39:02] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405101247.tar.gz]
+[2024-05-10 15:39:02] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405101249.tar.gz]
+[2024-05-10 15:39:02] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-05-10 15:39:03] INFO root fetch - processPackages [heimdall-tools]: Remove: archive file [/home/abi/fetcher/tmp/heimdall_tools-0.1.2.tar.gz]
+[2024-05-10 15:39:03] INFO root fetch - processPackages [heimdall-tools]: Remove: archive file [/home/abi/fetcher/tmp/heimdall_tools-0.2.0.tar.gz]
+[2024-05-10 15:39:03] INFO root fetch - main [MainThread]: End processing [heimdall-tools]: success
+[2024-05-10 15:39:03] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.2-py3-none-any.whl.zip]
+[2024-05-10 15:39:03] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.3.tar.gz]
+[2024-05-10 15:39:03] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-10 15:39:03] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.4.dev3.tar.gz]
+[2024-05-10 15:39:03] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev1.tar.gz]
+[2024-05-10 15:39:03] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-10 15:39:03] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-05-10 15:39:03] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-05-10 15:39:03] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-05-10 15:39:03] INFO root fetch - main [MainThread]: Store serial: [23147129]
