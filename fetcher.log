@@ -9266,3 +9266,45 @@
 [2024-05-10 09:06:27] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.3.13.tar.gz]
 [2024-05-10 09:06:27] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
 [2024-05-10 09:06:27] INFO root fetch - main [MainThread]: Store serial: [23142565]
+[2024-05-10 09:08:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142565]
+[2024-05-10 09:08:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 09:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdremotifier
+[2024-05-10 09:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2024-05-10 09:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-th-account-tax
+[2024-05-10 09:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbimagetotext
+[2024-05-10 09:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hypertypicz
+[2024-05-10 09:08:37] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:08:37] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-10 09:08:37] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-10 09:08:37] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2024-05-10 09:08:37] INFO root fetch - processPackages [mdremotifier]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-10 09:08:37] WARNING root fetch - processPackages [hypertypicz]: Skipping, unable to determine old version
+[2024-05-10 09:08:37] INFO root fetch - main [MainThread]: End processing [hypertypicz] error
+[2024-05-10 09:08:37] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-10 09:08:37] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-10 09:08:37] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/db/b9/e4738a97246ab00d2a786a1a72f904475b7ae5e32da5d975222e5e337c01/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl
+[2024-05-10 09:08:37] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-10 09:08:37] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-10 09:08:37] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240510/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:08:37] INFO root fetch - processPackages [mdremotifier]: Downloading https://files.pythonhosted.org/packages/e0/1a/805b3d1a115367f1e0189bda45ec7d2ac6bc061a7c83f9191f7d1b2fd2bb/mdremotifier-0.3.1.tar.gz
+[2024-05-10 09:08:37] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-10 09:08:37] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240510/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-10 09:08:37] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/f4/d9/72ac18328a801411889168e3a25b107d5b91d920982417f53bb5af346cc5/odoo_addon_l10n_th_account_tax-16.0.1.1.1-py3-none-any.whl
+[2024-05-10 09:08:38] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: executing diffoscope
+[2024-05-10 09:08:38] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-l10n-th-account-tax/16.0.1.1.0-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-10 09:08:38] INFO root fetch - processPackages [mdremotifier]: Downloading https://files.pythonhosted.org/packages/a7/db/d8b737bcf82db0692dd49555507dfa8638cad43e8dfce08f18572b6c1ba2/mdremotifier-0.3.2.tar.gz
+[2024-05-10 09:08:38] INFO root fetch - processPackages [mdremotifier]: executing diffoscope
+[2024-05-10 09:08:38] INFO root fetch - processPackages [mdremotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdremotifier-0.3.1.tar.gz tmp/mdremotifier-0.3.2.tar.gz --markdown 20240510/m/mdremotifier/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-10 09:08:38] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-10 09:08:38] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-10 09:08:38] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-10 09:08:38] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-10 09:08:38] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-10 09:08:38] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-10 09:08:38] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-10 09:08:38] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-10 09:08:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax]: success
+[2024-05-10 09:08:38] INFO root fetch - processPackages [mdremotifier]: Remove: archive file [/home/abi/fetcher/tmp/mdremotifier-0.3.1.tar.gz]
+[2024-05-10 09:08:38] INFO root fetch - processPackages [mdremotifier]: Remove: archive file [/home/abi/fetcher/tmp/mdremotifier-0.3.2.tar.gz]
+[2024-05-10 09:08:38] INFO root fetch - main [MainThread]: End processing [mdremotifier]: success
+[2024-05-10 09:08:38] INFO root fetch - main [MainThread]: Store serial: [23142579]
