@@ -3623,3 +3623,33 @@
 [2024-05-10 03:43:20] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-10 03:43:20] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-10 03:43:20] INFO root fetch - main [MainThread]: Store serial: [23140060]
+[2024-05-10 03:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140060]
+[2024-05-10 03:45:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 03:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzchatbot
+[2024-05-10 03:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-iterable
+[2024-05-10 03:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt-custom-adapter
+[2024-05-10 03:45:30] INFO root fetch - processPackages [airbyte-source-iterable]: New version: [0.5.1.dev202405100053] Old Version: [0.5.1]
+[2024-05-10 03:45:30] INFO root fetch - processPackages [jzchatbot]: New version: [59.83.91] Old Version: [59.83.90]
+[2024-05-10 03:45:30] INFO root fetch - processPackages [ccxt-custom-adapter]: New version: [4.3.22] Old Version: [4.3.21]
+[2024-05-10 03:45:30] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/40/5a/51116e75c36afb94def24c76a4f6badd8fcf41975ce8f5d9645b0f92e00d/jzchatbot-59.83.90.tar.gz
+[2024-05-10 03:45:30] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/b9/f0/6e65f1e68408c7cce61c3bfdbffcffa20fa7acdbfee8b6491cda53e3820d/ccxt-custom-adapter-4.3.21.tar.gz
+[2024-05-10 03:45:30] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/38/b6/0c31fd22473a85e3f7492aae0c0ddcfd53be396ffc85623e3e5b3540967c/airbyte_source_iterable-0.5.1.tar.gz
+[2024-05-10 03:45:30] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/09/3e/af1650ad813124f978c79b0b6c92729131f65c92a0182eb0eb6ef76502a6/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz
+[2024-05-10 03:45:30] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/ee/8e/d9543da6723edae1609fe413b50b64d6be6c2d4e9892116dc94cad74274b/jzchatbot-59.83.91.tar.gz
+[2024-05-10 03:45:30] INFO root fetch - processPackages [airbyte-source-iterable]: executing diffoscope
+[2024-05-10 03:45:30] INFO root fetch - processPackages [airbyte-source-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_iterable-0.5.1.tar.gz tmp/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz --markdown 20240510/a/airbyte-source-iterable/0.5.1-0.5.1.dev202405100053/README.md --exclude *.pyd
+[2024-05-10 03:45:30] INFO root fetch - processPackages [jzchatbot]: executing diffoscope
+[2024-05-10 03:45:30] INFO root fetch - processPackages [jzchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzchatbot-59.83.90.tar.gz tmp/jzchatbot-59.83.91.tar.gz --markdown 20240510/j/jzchatbot/59.83.90-59.83.91/README.md --exclude *.pyd
+[2024-05-10 03:45:31] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/49/62/c4113d25b4a3384345a0898a88c75884f0763631f5a64f67fd4c13a47e92/ccxt-custom-adapter-4.3.22.tar.gz
+[2024-05-10 03:45:31] INFO root fetch - processPackages [ccxt-custom-adapter]: executing diffoscope
+[2024-05-10 03:45:31] INFO root fetch - processPackages [ccxt-custom-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-custom-adapter-4.3.21.tar.gz tmp/ccxt-custom-adapter-4.3.22.tar.gz --markdown 20240510/c/ccxt-custom-adapter/4.3.21-4.3.22/README.md --exclude *.pyd
+[2024-05-10 03:45:31] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.90.tar.gz]
+[2024-05-10 03:45:31] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.91.tar.gz]
+[2024-05-10 03:45:31] INFO root fetch - main [MainThread]: End processing [jzchatbot]: success
+[2024-05-10 03:45:31] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.tar.gz]
+[2024-05-10 03:45:31] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz]
+[2024-05-10 03:45:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-iterable]: success
+[2024-05-10 03:45:34] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.21.tar.gz]
+[2024-05-10 03:45:34] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.22.tar.gz]
+[2024-05-10 03:45:34] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter]: success
+[2024-05-10 03:45:34] INFO root fetch - main [MainThread]: Store serial: [23140069]
