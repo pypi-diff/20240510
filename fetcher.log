@@ -20036,3 +20036,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:46:33] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.5.0a2.tar.gz]
 [2024-05-10 15:46:33] INFO root fetch - main [MainThread]: End processing [toui]: success
 [2024-05-10 15:46:33] INFO root fetch - main [MainThread]: Store serial: [23147252]
+[2024-05-10 15:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147252]
+[2024-05-10 15:48:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tasks-scheduler
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magnum-tempest-plugin
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: addemongo
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-guard
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fintekkers-ledger-models
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: starknet-py
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swibots
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nesiac
+[2024-05-10 15:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iog-randomizer
+[2024-05-10 15:48:59] INFO root fetch - processPackages [llm-guard]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [nesiac]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [magnum-tempest-plugin]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [addemongo]: New version: [0.0.7] Old Version: [0.0.4]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [django-tasks-scheduler]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.85] Old Version: [0.1.84]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [swibots]: New version: [1.4.9b0] Old Version: [1.4.9]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [iog-randomizer]: New version: [5.0.0] Old Version: [4.7.2.2]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [starknet-py]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2024-05-10 15:48:59] INFO root fetch - processPackages [llm-guard]: Downloading https://files.pythonhosted.org/packages/1a/fc/fc3f7fa771b1b7ce81ab2915f72bd99a77269d8369c47afa3364d11001e2/llm-guard-0.3.7.tar.gz
+[2024-05-10 15:48:59] INFO root fetch - processPackages [magnum-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/64/ad/27ff75fd2fd3cf6e04084f5843e3f4fb5616f59ec6d7184430de98510c6d/magnum_tempest_plugin-2.3.0.tar.gz
+[2024-05-10 15:48:59] INFO root fetch - processPackages [nesiac]: Downloading https://files.pythonhosted.org/packages/f6/82/0d54dfe055f03270072b16d5bfb17650f0ac314305f62e05fdab56c183e2/nesiac-0.4.2.tar.gz
+[2024-05-10 15:48:59] INFO root fetch - processPackages [django-tasks-scheduler]: Downloading https://files.pythonhosted.org/packages/e7/22/03fed6f9357f4fb4870d94f8371fe16700a610efebafd68c070734c7d507/django_tasks_scheduler-1.3.2.tar.gz
+[2024-05-10 15:48:59] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/82/20/40c01e4dcb64aa8e73cd9d432874cb1f6e69ae3b523edb98f79f92db686c/fintekkers-ledger-models-0.1.84.tar.gz
+[2024-05-10 15:48:59] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ab/ad/e9fb4e6104646710bdb7ad640c25bec37453f90d223979930a44f7c8f72e/swibots-1.4.9-py3-none-any.whl
+[2024-05-10 15:48:59] INFO root fetch - processPackages [addemongo]: Downloading https://files.pythonhosted.org/packages/ed/c6/5ed8eaf4d8a6c33a9bd17ca78e9282f73a9d167624eae1932696ee144018/addemongo-0.0.4.tar.gz
+[2024-05-10 15:48:59] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/df/05/e0d6957562bbfbaa99e85c746a7dbeb6677e95fa82ce3050158233a3c8f0/starknet_py-0.8.0a0.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [iog-randomizer]: Downloading https://files.pythonhosted.org/packages/e2/e3/557f2d7100e358303d8692a8317f3a841efcc952423896201a82222cd1a0/iog-randomizer-4.7.2.2.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [magnum-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/52/2b/bc2fbc68587e8fcf484322238fd424fdcd2314ee9e81438a04891c136f7d/magnum_tempest_plugin-2.4.0.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [llm-guard]: Downloading https://files.pythonhosted.org/packages/79/24/9a8e3a60b109310eba3b2ac0ede16831cf1a510a2be69cd807483422817d/llm-guard-0.3.9.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [django-tasks-scheduler]: Downloading https://files.pythonhosted.org/packages/8a/01/5554dd1c13d7e558b7a62d154e4bc843277d04bc372ca53eaaa4452d62ed/django_tasks_scheduler-1.3.3.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [addemongo]: Downloading https://files.pythonhosted.org/packages/66/c1/3ade713195d2d1515589054feb95ac941084c7a9b7179d9895b63cfc1922/addemongo-0.0.7.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/89/3b/22edfe89993ba5b5e9578663092e5cb8c06795bc14f5aaa886af7fb4a11a/fintekkers-ledger-models-0.1.85.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [nesiac]: Downloading https://files.pythonhosted.org/packages/40/d8/0ed956a950a1632463cd8ea1197815e09fe7d4e03525f5123925a7be42c4/nesiac-0.4.3.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/1a/29/9d4e43dad7e195938372caf1ec2d82ce234bb157328ce98870071d36f923/swibots-1.4.9b0-py3-none-any.whl
+[2024-05-10 15:49:00] INFO root fetch - processPackages [magnum-tempest-plugin]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [magnum-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_tempest_plugin-2.3.0.tar.gz tmp/magnum_tempest_plugin-2.4.0.tar.gz --markdown 20240510/m/magnum-tempest-plugin/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/39/85/cb9d711715372b05df51856aded3536333f1465c7c78e81db5c569fa46ff/starknet_py-0.9.0a0.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [addemongo]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [addemongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addemongo-0.0.4.tar.gz tmp/addemongo-0.0.7.tar.gz --markdown 20240510/a/addemongo/0.0.4-0.0.7/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [llm-guard]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [llm-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-guard-0.3.7.tar.gz tmp/llm-guard-0.3.9.tar.gz --markdown 20240510/l/llm-guard/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [django-tasks-scheduler]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [django-tasks-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tasks_scheduler-1.3.2.tar.gz tmp/django_tasks_scheduler-1.3.3.tar.gz --markdown 20240510/d/django-tasks-scheduler/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.84.tar.gz tmp/fintekkers-ledger-models-0.1.85.tar.gz --markdown 20240510/f/fintekkers-ledger-models/0.1.84-0.1.85/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [iog-randomizer]: Downloading https://files.pythonhosted.org/packages/c0/d5/72d2e1956f768071bcad371ff41785d23549f04d9ae2cc33645ebbae3fa1/iog_randomizer-5.0.0.tar.gz
+[2024-05-10 15:49:00] INFO root fetch - processPackages [nesiac]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [nesiac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nesiac-0.4.2.tar.gz tmp/nesiac-0.4.3.tar.gz --markdown 20240510/n/nesiac/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [starknet-py]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [starknet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starknet_py-0.8.0a0.tar.gz tmp/starknet_py-0.9.0a0.tar.gz --markdown 20240510/s/starknet-py/0.8.0a0-0.9.0a0/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.4.9-py3-none-any.whl.zip tmp/swibots-1.4.9b0-py3-none-any.whl.zip --markdown 20240510/s/swibots/1.4.9-1.4.9b0/README.md --exclude *.pyd
+[2024-05-10 15:49:00] INFO root fetch - processPackages [iog-randomizer]: executing diffoscope
+[2024-05-10 15:49:00] INFO root fetch - processPackages [iog-randomizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iog-randomizer-4.7.2.2.tar.gz tmp/iog_randomizer-5.0.0.tar.gz --markdown 20240510/i/iog-randomizer/4.7.2.2-5.0.0/README.md --exclude *.pyd
+[2024-05-10 15:49:01] INFO root fetch - processPackages [addemongo]: Remove: archive file [/home/abi/fetcher/tmp/addemongo-0.0.4.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - processPackages [addemongo]: Remove: archive file [/home/abi/fetcher/tmp/addemongo-0.0.7.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - main [MainThread]: End processing [addemongo]: success
+[2024-05-10 15:49:01] INFO root fetch - processPackages [nesiac]: Remove: archive file [/home/abi/fetcher/tmp/nesiac-0.4.2.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - processPackages [nesiac]: Remove: archive file [/home/abi/fetcher/tmp/nesiac-0.4.3.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - main [MainThread]: End processing [nesiac]: success
+[2024-05-10 15:49:01] INFO root fetch - processPackages [magnum-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/magnum_tempest_plugin-2.3.0.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - processPackages [magnum-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/magnum_tempest_plugin-2.4.0.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - main [MainThread]: End processing [magnum-tempest-plugin]: success
+[2024-05-10 15:49:01] INFO root fetch - processPackages [django-tasks-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/django_tasks_scheduler-1.3.2.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - processPackages [django-tasks-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/django_tasks_scheduler-1.3.3.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - main [MainThread]: End processing [django-tasks-scheduler]: success
+[2024-05-10 15:49:01] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.84.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.85.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2024-05-10 15:49:01] INFO root fetch - processPackages [llm-guard]: Remove: archive file [/home/abi/fetcher/tmp/llm-guard-0.3.7.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - processPackages [llm-guard]: Remove: archive file [/home/abi/fetcher/tmp/llm-guard-0.3.9.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - main [MainThread]: End processing [llm-guard]: success
+[2024-05-10 15:49:01] INFO root fetch - processPackages [starknet-py]: Remove: archive file [/home/abi/fetcher/tmp/starknet_py-0.8.0a0.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - processPackages [starknet-py]: Remove: archive file [/home/abi/fetcher/tmp/starknet_py-0.9.0a0.tar.gz]
+[2024-05-10 15:49:01] INFO root fetch - main [MainThread]: End processing [starknet-py]: success
+[2024-05-10 15:49:02] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9-py3-none-any.whl.zip]
+[2024-05-10 15:49:02] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9b0-py3-none-any.whl.zip]
+[2024-05-10 15:49:02] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2024-05-10 15:49:02] INFO root fetch - processPackages [iog-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/iog-randomizer-4.7.2.2.tar.gz]
+[2024-05-10 15:49:02] INFO root fetch - processPackages [iog-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/iog_randomizer-5.0.0.tar.gz]
+[2024-05-10 15:49:02] INFO root fetch - main [MainThread]: End processing [iog-randomizer]: success
+[2024-05-10 15:49:02] INFO root fetch - main [MainThread]: Store serial: [23147285]
