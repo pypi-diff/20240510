@@ -4920,3 +4920,39 @@
 [2024-05-10 04:45:06] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.4.tar.gz]
 [2024-05-10 04:45:06] INFO root fetch - main [MainThread]: End processing [webscout]: success
 [2024-05-10 04:45:06] INFO root fetch - main [MainThread]: Store serial: [23140569]
+[2024-05-10 04:47:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140569]
+[2024-05-10 04:47:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 04:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: incircletz
+[2024-05-10 04:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protein-design-tools
+[2024-05-10 04:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awscli
+[2024-05-10 04:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tiny-progress-bar
+[2024-05-10 04:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uiautodev
+[2024-05-10 04:47:15] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 04:47:15] WARNING root fetch - processPackages [tiny-progress-bar]: Skipping, unable to determine old version
+[2024-05-10 04:47:15] INFO root fetch - processPackages [uiautodev]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-10 04:47:15] INFO root fetch - main [MainThread]: End processing [tiny-progress-bar] error
+[2024-05-10 04:47:15] WARNING root fetch - processPackages [incircletz]: Skipping, unable to determine old version
+[2024-05-10 04:47:15] INFO root fetch - main [MainThread]: End processing [incircletz] error
+[2024-05-10 04:47:15] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/bf/e0/9095d0e6565a7475534479bcc6e4c2d5501d4e58316a5da9a5f73ea135ae/uiautodev-0.3.4.tar.gz
+[2024-05-10 04:47:15] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-10 04:47:15] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 04:47:15] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 04:47:15] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/80/b1/55d15bb17cfcd52329f2c4d80e425d8c4a7b55494d9a45a0a97626b9a118/uiautodev-0.3.5.tar.gz
+[2024-05-10 04:47:15] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 04:47:15] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 04:47:15] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2024-05-10 04:47:16] INFO root fetch - processPackages [uiautodev]: executing diffoscope
+[2024-05-10 04:47:16] INFO root fetch - processPackages [uiautodev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautodev-0.3.4.tar.gz tmp/uiautodev-0.3.5.tar.gz --markdown 20240510/u/uiautodev/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-10 04:47:16] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2024-05-10 04:47:16] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 04:47:16] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 04:47:16] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 04:47:16] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2024-05-10 04:47:16] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20240510/a/awscli/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-10 04:47:17] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.3.4.tar.gz]
+[2024-05-10 04:47:17] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.3.5.tar.gz]
+[2024-05-10 04:47:17] INFO root fetch - main [MainThread]: End processing [uiautodev]: success
+[2024-05-10 04:47:19] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.8.tar.gz]
+[2024-05-10 04:47:19] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.9.tar.gz]
+[2024-05-10 04:47:19] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2024-05-10 04:47:19] INFO root fetch - main [MainThread]: Store serial: [23140583]
