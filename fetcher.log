@@ -24040,3 +24040,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:51:36] INFO root fetch - processPackages [redshift_client]: Remove: archive file [/home/abi/fetcher/tmp/redshift_client-5.1.1.tar.gz]
 [2024-05-10 17:51:36] INFO root fetch - main [MainThread]: End processing [redshift_client]: success
 [2024-05-10 17:51:36] INFO root fetch - main [MainThread]: Store serial: [23149278]
+[2024-05-10 17:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149278]
+[2024-05-10 17:53:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 17:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safe-mol
+[2024-05-10 17:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kbputils
+[2024-05-10 17:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: partenaire-qualif
+[2024-05-10 17:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: copy-to
+[2024-05-10 17:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dumbo-asp
+[2024-05-10 17:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invrs-opt
+[2024-05-10 17:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kbp2video
+[2024-05-10 17:53:45] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 17:53:45] INFO root fetch - processPackages [copy-to]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-10 17:53:45] INFO root fetch - processPackages [safe-mol]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-10 17:53:45] INFO root fetch - processPackages [kbputils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 17:53:45] INFO root fetch - processPackages [invrs-opt]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-10 17:53:46] INFO root fetch - processPackages [dumbo-asp]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbp2video]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 17:53:46] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/3f/bd/552ffe4c7bf8dac05eee1ff1cfa399e95179c832a683082191c1bbc84635/copy-to-1.3.8.tar.gz
+[2024-05-10 17:53:46] ERROR root fetch - processPackages [partenaire-qualif]: Unable to fetch info: No such project/version 'partenaire-qualif' 0.1.4
+[2024-05-10 17:53:46] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbputils]: Downloading https://files.pythonhosted.org/packages/44/71/4c2842ed8ddc74e5ee058ee4d4ee599e4114bb166aabae1e4c49d5527922/kbputils-0.0.5.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [safe-mol]: Downloading https://files.pythonhosted.org/packages/13/d8/efa29b9953f77007d287d7267ccaf8025bdba5b39dcb12db6909ec8b7014/safe-mol-0.1.6.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/bb/2c/699c250c27a42ff5d3601785e34047ba6fb7897d246850bddc3cafdee50f/dumbo_asp-0.3.6.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [invrs-opt]: Downloading https://files.pythonhosted.org/packages/3b/84/c3db06fbf437d28b0da5438f7b6f59c7145401d4de63d952ad97a89d3a51/invrs_opt-0.5.1.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/d5/9a/e1cf706621904d886141bebf3c24390caf4c9135cae97c5a2df84d95731c/copy-to-1.3.9.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbp2video]: Downloading https://files.pythonhosted.org/packages/8c/6b/caf88cfa804bf46f94b4bd1de70eaf0a1ac0c522486cd0ff801db962bbf5/kbp2video-0.1.2.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2024-05-10 17:53:46] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.3.8.tar.gz tmp/copy-to-1.3.9.tar.gz --markdown 20240510/c/copy-to/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-10 17:53:46] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/64/27/122eece490c80c194fcacf9343ace08f870f2b912a8b46d2f5b117beb997/dumbo_asp-0.3.7.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbputils]: Downloading https://files.pythonhosted.org/packages/4e/01/58888f4648868bae79e247f637d8e290a7275275d2684804757c0a59357c/kbputils-0.0.6.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [safe-mol]: Downloading https://files.pythonhosted.org/packages/78/12/ce4beb33d5b36adc43e6216ada1846a06a21a755535bb9dc361a3f2166a7/safe_mol-0.1.7.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbp2video]: Downloading https://files.pythonhosted.org/packages/ec/7d/21da53ad2a24383582ca9cceb0ebcc47ee7de817afdcf0e8974f34889586/kbp2video-0.1.3.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [invrs-opt]: Downloading https://files.pythonhosted.org/packages/32/7c/9f18d843aeda2a6dee225be1179101104ffcb87341e37dd874347fe2280f/invrs_opt-0.5.2.tar.gz
+[2024-05-10 17:53:46] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2024-05-10 17:53:46] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.3.6.tar.gz tmp/dumbo_asp-0.3.7.tar.gz --markdown 20240510/d/dumbo-asp/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbputils]: executing diffoscope
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbputils-0.0.5.tar.gz tmp/kbputils-0.0.6.tar.gz --markdown 20240510/k/kbputils/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 17:53:46] INFO root fetch - processPackages [safe-mol]: executing diffoscope
+[2024-05-10 17:53:46] INFO root fetch - processPackages [safe-mol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-mol-0.1.6.tar.gz tmp/safe_mol-0.1.7.tar.gz --markdown 20240510/s/safe-mol/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-10 17:53:46] INFO root fetch - processPackages [invrs-opt]: executing diffoscope
+[2024-05-10 17:53:46] INFO root fetch - processPackages [invrs-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invrs_opt-0.5.1.tar.gz tmp/invrs_opt-0.5.2.tar.gz --markdown 20240510/i/invrs-opt/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbp2video]: executing diffoscope
+[2024-05-10 17:53:46] INFO root fetch - processPackages [kbp2video]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbp2video-0.1.2.tar.gz tmp/kbp2video-0.1.3.tar.gz --markdown 20240510/k/kbp2video/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 17:53:47] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.8.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.9.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2024-05-10 17:53:47] INFO root fetch - processPackages [dumbo-asp]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_asp-0.3.6.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - processPackages [dumbo-asp]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_asp-0.3.7.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2024-05-10 17:53:47] INFO root fetch - processPackages [invrs-opt]: Remove: archive file [/home/abi/fetcher/tmp/invrs_opt-0.5.1.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - processPackages [invrs-opt]: Remove: archive file [/home/abi/fetcher/tmp/invrs_opt-0.5.2.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - main [MainThread]: End processing [invrs-opt]: success
+[2024-05-10 17:53:47] INFO root fetch - processPackages [kbputils]: Remove: archive file [/home/abi/fetcher/tmp/kbputils-0.0.5.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - processPackages [kbputils]: Remove: archive file [/home/abi/fetcher/tmp/kbputils-0.0.6.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - main [MainThread]: End processing [kbputils]: success
+[2024-05-10 17:53:47] INFO root fetch - processPackages [kbp2video]: Remove: archive file [/home/abi/fetcher/tmp/kbp2video-0.1.2.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - processPackages [kbp2video]: Remove: archive file [/home/abi/fetcher/tmp/kbp2video-0.1.3.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - main [MainThread]: End processing [kbp2video]: success
+[2024-05-10 17:53:47] INFO root fetch - processPackages [safe-mol]: Remove: archive file [/home/abi/fetcher/tmp/safe-mol-0.1.6.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - processPackages [safe-mol]: Remove: archive file [/home/abi/fetcher/tmp/safe_mol-0.1.7.tar.gz]
+[2024-05-10 17:53:47] INFO root fetch - main [MainThread]: End processing [safe-mol]: success
+[2024-05-10 17:53:47] INFO root fetch - main [MainThread]: Store serial: [23149303]
