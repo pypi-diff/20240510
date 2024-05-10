@@ -2947,3 +2947,90 @@
 [2024-05-10 02:54:47] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-10 02:54:47] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2024-05-10 02:54:47] INFO root fetch - main [MainThread]: Store serial: [23139563]
+[2024-05-10 02:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139563]
+[2024-05-10 02:57:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adi-notebook
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcs-sdk-python-grpc-web
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-iterable
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geocif
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyAlStruct
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyAlStruct
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyAlStruct
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stable-fast
+[2024-05-10 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elucidoc
+[2024-05-10 02:57:08] INFO root fetch - processPackages [geocif]: New version: [0.1.2] Old Version: [0.0.1]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [adi-notebook]: New version: [1.0.0a1] Old Version: [0.3.1a0]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [elucidoc]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: Downloading https://files.pythonhosted.org/packages/c6/25/07cb02ac2c664a2b5efc26591e6f887436d2f5edb6b74b2f493fbbd76c9b/PyAlStruct-0.8.0.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: New version: [0.17.9rc0] Old Version: [0.17.9]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [airbyte-source-iterable]: New version: [0.5.1.dev202405100053] Old Version: [0.5.1]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [stable-fast]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: Downloading https://files.pythonhosted.org/packages/c6/25/07cb02ac2c664a2b5efc26591e6f887436d2f5edb6b74b2f493fbbd76c9b/PyAlStruct-0.8.0.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [elucidoc]: Downloading https://files.pythonhosted.org/packages/9c/34/97359035912431a17195f9250817225a2f6483acc3dea37d3420b424ede4/elucidoc-2024.5.8.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/a6/8f/f63f37f57e10860125d711c1895d8baa5eeb6737da3b03ae61f01d0b0eec/geocif-0.0.1.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/00/77/f5cc2bf279007686e281bdc583b8b010fb7501af37f69aefbba0fe181fb3/adi_notebook-0.3.1a0-py3-none-manylinux1_x86_64.whl
+[2024-05-10 02:57:08] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/26/1a/e17810303b98471b9207b61ca511021c7f42cbdc353565b5dfbccecd8a65/qcs_sdk_python_grpc_web-0.17.9.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/38/b6/0c31fd22473a85e3f7492aae0c0ddcfd53be396ffc85623e3e5b3540967c/airbyte_source_iterable-0.5.1.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: Downloading https://files.pythonhosted.org/packages/44/fb/d75b4fd6f3bed145acc6f6eb66114da5e644b219a7c0abbc1d50d55b951e/pyalstruct-0.9.0.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: Downloading https://files.pythonhosted.org/packages/44/fb/d75b4fd6f3bed145acc6f6eb66114da5e644b219a7c0abbc1d50d55b951e/pyalstruct-0.9.0.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: Downloading https://files.pythonhosted.org/packages/44/fb/d75b4fd6f3bed145acc6f6eb66114da5e644b219a7c0abbc1d50d55b951e/pyalstruct-0.9.0.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [stable-fast]: Downloading https://files.pythonhosted.org/packages/8a/f9/1aecbeae0c8d61256eb68f71e93dab810856cd720dc3f56a2c97a015f710/stable-fast-1.0.4.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/0a/22/b82eabacf7efd3f1c87950011f856f8ca521e769e296d1a40c860cfd2792/geocif-0.1.2.tar.gz
+[2024-05-10 02:57:08] WARNING root fetch - processPackages [stable-fast]: Skipping package: exceeds size limit 20999284>=10485760
+[2024-05-10 02:57:08] INFO root fetch - processPackages [stable-fast]: Start processing: advanced_navigation
+[2024-05-10 02:57:08] INFO root fetch - main [MainThread]: End processing [stable-fast] error
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: executing diffoscope
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlStruct-0.8.0.tar.gz tmp/pyalstruct-0.9.0.tar.gz --markdown 20240510/P/PyAlStruct/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: executing diffoscope
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlStruct-0.8.0.tar.gz tmp/pyalstruct-0.9.0.tar.gz --markdown 20240510/P/PyAlStruct/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: executing diffoscope
+[2024-05-10 02:57:08] INFO root fetch - processPackages [PyAlStruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlStruct-0.8.0.tar.gz tmp/pyalstruct-0.9.0.tar.gz --markdown 20240510/P/PyAlStruct/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 02:57:08] WARNING root fetch - processPackages [advanced_navigation]: Skipping, unable to determine old version
+[2024-05-10 02:57:08] INFO root fetch - main [MainThread]: End processing [advanced_navigation] error
+[2024-05-10 02:57:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [elucidoc]: Downloading https://files.pythonhosted.org/packages/65/e3/b490474a79c991a8fe6c1e760f564690a8b668b1e8dadc44143c60257c87/elucidoc-2024.5.9.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/d3/4e/c2c00e6a8c656b9a8cd3a5164c276502812a8a2d8a93c466cc68bc632611/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl
+[2024-05-10 02:57:08] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-10 02:57:08] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.0.1.tar.gz tmp/geocif-0.1.2.tar.gz --markdown 20240510/g/geocif/0.0.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 02:57:08] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/09/3e/af1650ad813124f978c79b0b6c92729131f65c92a0182eb0eb6ef76502a6/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/e1/f9/c38c73d73e03936ab2e6e59cb176abd74ced61a55541905ce9577856a7e7/qcs_sdk_python_grpc_web-0.17.9rc0.tar.gz
+[2024-05-10 02:57:08] INFO root fetch - processPackages [elucidoc]: executing diffoscope
+[2024-05-10 02:57:08] INFO root fetch - processPackages [elucidoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elucidoc-2024.5.8.tar.gz tmp/elucidoc-2024.5.9.tar.gz --markdown 20240510/e/elucidoc/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-10 02:57:08] INFO root fetch - processPackages [adi-notebook]: executing diffoscope
+[2024-05-10 02:57:08] INFO root fetch - processPackages [adi-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adi_notebook-0.3.1a0-py3-none-manylinux1_x86_64.whl.zip tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip --markdown 20240510/a/adi-notebook/0.3.1a0-1.0.0a1/README.md --exclude *.pyd
+[2024-05-10 02:57:09] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: executing diffoscope
+[2024-05-10 02:57:09] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python_grpc_web-0.17.9.tar.gz tmp/qcs_sdk_python_grpc_web-0.17.9rc0.tar.gz --markdown 20240510/q/qcs-sdk-python-grpc-web/0.17.9-0.17.9rc0/README.md --exclude *.pyd
+[2024-05-10 02:57:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-10 02:57:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240510/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-10 02:57:09] INFO root fetch - processPackages [airbyte-source-iterable]: executing diffoscope
+[2024-05-10 02:57:09] INFO root fetch - processPackages [airbyte-source-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_iterable-0.5.1.tar.gz tmp/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz --markdown 20240510/a/airbyte-source-iterable/0.5.1-0.5.1.dev202405100053/README.md --exclude *.pyd
+[2024-05-10 02:57:09] INFO root fetch - processPackages [PyAlStruct]: Remove: archive file [/home/abi/fetcher/tmp/PyAlStruct-0.8.0.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - processPackages [PyAlStruct]: Remove: archive file [/home/abi/fetcher/tmp/pyalstruct-0.9.0.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - main [MainThread]: End processing [PyAlStruct]: success
+[2024-05-10 02:57:09] INFO root fetch - main [MainThread]: End processing [PyAlStruct]: success
+[2024-05-10 02:57:09] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-0.3.1a0-py3-none-manylinux1_x86_64.whl.zip]
+[2024-05-10 02:57:09] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip]
+[2024-05-10 02:57:09] INFO root fetch - main [MainThread]: End processing [adi-notebook]: success
+[2024-05-10 02:57:09] INFO root fetch - main [MainThread]: End processing [PyAlStruct]: success
+[2024-05-10 02:57:09] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.0.1.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.2.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-10 02:57:09] INFO root fetch - processPackages [elucidoc]: Remove: archive file [/home/abi/fetcher/tmp/elucidoc-2024.5.8.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - processPackages [elucidoc]: Remove: archive file [/home/abi/fetcher/tmp/elucidoc-2024.5.9.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - main [MainThread]: End processing [elucidoc]: success
+[2024-05-10 02:57:09] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405100053.tar.gz]
+[2024-05-10 02:57:09] INFO root fetch - main [MainThread]: End processing [airbyte-source-iterable]: success
+[2024-05-10 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-10 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-10 02:57:10] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-10 02:57:10] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.9.tar.gz]
+[2024-05-10 02:57:10] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.9rc0.tar.gz]
+[2024-05-10 02:57:10] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
+[2024-05-10 02:57:10] INFO root fetch - main [MainThread]: Store serial: [23139613]
