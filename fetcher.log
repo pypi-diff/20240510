@@ -22788,3 +22788,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:14:58] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
 [2024-05-10 17:14:58] INFO root fetch - main [MainThread]: End processing [alamos]: success
 [2024-05-10 17:14:58] INFO root fetch - main [MainThread]: Store serial: [23148654]
+[2024-05-10 17:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148654]
+[2024-05-10 17:17:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: partenaire-qualif
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synnax
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pozo
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bh1745
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-management-local
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypomes-db
+[2024-05-10 17:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AEPi
+[2024-05-10 17:17:07] WARNING root fetch - processPackages [partenaire-qualif]: Skipping, unable to determine old version
+[2024-05-10 17:17:07] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-10 17:17:07] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 17:17:07] INFO root fetch - processPackages [pozo]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 17:17:07] INFO root fetch - processPackages [pypomes-db]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-10 17:17:07] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.9] Old Version: [1.0.8.8]
+[2024-05-10 17:17:07] INFO root fetch - processPackages [AEPi]: New version: [0.8.3.2] Old Version: [0.8.3.1]
+[2024-05-10 17:17:07] INFO root fetch - processPackages [bh1745]: New version: [1.0.0] Old Version: [0.0.4]
+[2024-05-10 17:17:07] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-10 17:17:07] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 17:17:07] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/08/4b/67eda473fed501e37b9a312c88df396407e5778a36eb833ed20ab25c6b2f/pypomes_db-0.6.4.tar.gz
+[2024-05-10 17:17:07] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/82/af/c938a92c49d219f9884cbf8c562dc3adb7ee6836f815e394a66ea5d52d70/mns_common-1.0.8.8.tar.gz
+[2024-05-10 17:17:07] INFO root fetch - processPackages [pozo]: Downloading https://files.pythonhosted.org/packages/ef/7a/70cc41989b58836004e0f48f2cf2ddd932e5e9295ab1f0a82aad851d8e36/pozo-0.9.8.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [bh1745]: Downloading https://files.pythonhosted.org/packages/e9/8a/d59c0c2fbc06b5bfceb350b3563ba282bb3c54c86a09288b22f6e6f91429/bh1745-0.0.4.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [AEPi]: Downloading https://files.pythonhosted.org/packages/4b/7d/f6ac32f8e4212eb53d015f99b9e57f7c3e2bb8645ce7b4594c2422790a1b/aepi-0.8.3.1.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [pozo]: Downloading https://files.pythonhosted.org/packages/de/4f/e91520a992cf86e73ddd640ef44b953c363e67f272e67d99d4f2f8549bd4/pozo-0.9.9.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/52/9b/a76ca41329f9d86743c468f585476c1a01c3aeba2a48a91a6a7751731b63/mns_common-1.0.8.9.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-10 17:17:08] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240510/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 17:17:08] INFO root fetch - processPackages [pozo]: executing diffoscope
+[2024-05-10 17:17:08] INFO root fetch - processPackages [pozo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozo-0.9.8.tar.gz tmp/pozo-0.9.9.tar.gz --markdown 20240510/p/pozo/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 17:17:08] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-10 17:17:08] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.8.8.tar.gz tmp/mns_common-1.0.8.9.tar.gz --markdown 20240510/m/mns-common/1.0.8.8-1.0.8.9/README.md --exclude *.pyd
+[2024-05-10 17:17:08] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/83/5c/72cbdec0e4d849dafde506f8b40a25a59694f86c499bbb5790018ebe67a9/pypomes_db-0.6.5.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [AEPi]: Downloading https://files.pythonhosted.org/packages/81/d2/4bf58e48d82888d20f99277c3efe81815141013425e778ff2f214b62b5d7/aepi-0.8.3.2.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [bh1745]: Downloading https://files.pythonhosted.org/packages/11/41/3a3c6d7b976586dfd8c01f284aad842a1625ff73f5b2105c52bbf424e0eb/bh1745-1.0.0.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-10 17:17:08] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-10 17:17:08] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.6.4.tar.gz tmp/pypomes_db-0.6.5.tar.gz --markdown 20240510/p/pypomes-db/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-10 17:17:08] INFO root fetch - processPackages [bh1745]: executing diffoscope
+[2024-05-10 17:17:08] INFO root fetch - processPackages [bh1745]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bh1745-0.0.4.tar.gz tmp/bh1745-1.0.0.tar.gz --markdown 20240510/b/bh1745/0.0.4-1.0.0/README.md --exclude *.pyd
+[2024-05-10 17:17:08] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-10 17:17:08] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240510/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 17:17:08] INFO root fetch - processPackages [AEPi]: executing diffoscope
+[2024-05-10 17:17:08] INFO root fetch - processPackages [AEPi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aepi-0.8.3.1.tar.gz tmp/aepi-0.8.3.2.tar.gz --markdown 20240510/A/AEPi/0.8.3.1-0.8.3.2/README.md --exclude *.pyd
+[2024-05-10 17:17:09] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-10 17:17:09] INFO root fetch - processPackages [pozo]: Remove: archive file [/home/abi/fetcher/tmp/pozo-0.9.8.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - processPackages [pozo]: Remove: archive file [/home/abi/fetcher/tmp/pozo-0.9.9.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [pozo]: success
+[2024-05-10 17:17:09] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.8.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.9.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-10 17:17:09] INFO root fetch - processPackages [bh1745]: Remove: archive file [/home/abi/fetcher/tmp/bh1745-0.0.4.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - processPackages [bh1745]: Remove: archive file [/home/abi/fetcher/tmp/bh1745-1.0.0.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [bh1745]: success
+[2024-05-10 17:17:09] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-10 17:17:09] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.6.4.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.6.5.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-10 17:17:09] INFO root fetch - processPackages [AEPi]: Remove: archive file [/home/abi/fetcher/tmp/aepi-0.8.3.1.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - processPackages [AEPi]: Remove: archive file [/home/abi/fetcher/tmp/aepi-0.8.3.2.tar.gz]
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [AEPi]: success
+[2024-05-10 17:17:09] INFO root fetch - main [MainThread]: Store serial: [23148684]
