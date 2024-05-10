@@ -7620,3 +7620,40 @@
 [2024-05-10 07:36:16] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715303352.tar.gz]
 [2024-05-10 07:36:16] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
 [2024-05-10 07:36:16] INFO root fetch - main [MainThread]: Store serial: [23141763]
+[2024-05-10 07:38:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141763]
+[2024-05-10 07:38:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 07:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topologic-core
+[2024-05-10 07:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingosdk
+[2024-05-10 07:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ullm
+[2024-05-10 07:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: verbigeratez
+[2024-05-10 07:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sulfureousz
+[2024-05-10 07:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tuneapi
+[2024-05-10 07:38:25] INFO root fetch - processPackages [ullm]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 07:38:25] INFO root fetch - processPackages [tuneapi]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-10 07:38:25] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc3] Old Version: [0.1rc2]
+[2024-05-10 07:38:25] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/8e/f5/2099dd870e14c6df5f4dc6ac3b632548f2c8bcbb5e428f6db4e1bdf56b92/ullm-0.1.1.tar.gz
+[2024-05-10 07:38:25] INFO root fetch - processPackages [topologic-core]: New version: [8.0.0] Old Version: [7.0.1]
+[2024-05-10 07:38:25] WARNING root fetch - processPackages [verbigeratez]: Skipping, unable to determine old version
+[2024-05-10 07:38:25] INFO root fetch - main [MainThread]: End processing [verbigeratez] error
+[2024-05-10 07:38:25] WARNING root fetch - processPackages [sulfureousz]: Skipping, unable to determine old version
+[2024-05-10 07:38:25] INFO root fetch - main [MainThread]: End processing [sulfureousz] error
+[2024-05-10 07:38:25] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/26/5d/ff6711cf78c58c820003114853a897f08a82c1032a2b554c1cc60087d53c/tuneapi-0.3.1.tar.gz
+[2024-05-10 07:38:25] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/6f/6a/3df66311241c2011773b287f3f2bad056286454f314e95dd4b0891b1e7f3/dingosdk-0.1rc2.tar.gz
+[2024-05-10 07:38:25] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 67160419>=10485760
+[2024-05-10 07:38:25] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-10 07:38:25] INFO root fetch - processPackages [topologic-core]: Downloading https://files.pythonhosted.org/packages/4c/df/bdce230a46b25ef27693dbe9cd5283b610207015a90a4faf706df42d2817/topologic_core-7.0.1-cp39-cp39-win_amd64.whl
+[2024-05-10 07:38:25] WARNING root fetch - processPackages [topologic-core]: Skipping package: exceeds size limit 13141024>=10485760
+[2024-05-10 07:38:25] INFO root fetch - main [MainThread]: End processing [topologic-core] error
+[2024-05-10 07:38:25] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/03/13/6df6159b21b4d9ac607a5821f7d6d69e46d84c47a6cdf0de0cc85ea60856/tuneapi-0.3.2.tar.gz
+[2024-05-10 07:38:25] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/0b/b0/c5dffb0ca5bb7c7c6aca0b386a7512b90bd0af3cb5ffaab5506278354ed0/ullm-0.1.2.tar.gz
+[2024-05-10 07:38:25] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-05-10 07:38:25] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.3.1.tar.gz tmp/tuneapi-0.3.2.tar.gz --markdown 20240510/t/tuneapi/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-10 07:38:25] INFO root fetch - processPackages [ullm]: executing diffoscope
+[2024-05-10 07:38:25] INFO root fetch - processPackages [ullm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ullm-0.1.1.tar.gz tmp/ullm-0.1.2.tar.gz --markdown 20240510/u/ullm/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 07:38:26] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.1.tar.gz]
+[2024-05-10 07:38:26] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.2.tar.gz]
+[2024-05-10 07:38:26] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-05-10 07:38:26] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.1.1.tar.gz]
+[2024-05-10 07:38:26] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.1.2.tar.gz]
+[2024-05-10 07:38:26] INFO root fetch - main [MainThread]: End processing [ullm]: success
+[2024-05-10 07:38:26] INFO root fetch - main [MainThread]: Store serial: [23141803]
