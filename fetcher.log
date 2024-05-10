@@ -12573,3 +12573,60 @@
 [2024-05-10 11:22:19] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.100.1.post0.tar.gz]
 [2024-05-10 11:22:19] INFO root fetch - main [MainThread]: End processing [fastapi-tusd]: success
 [2024-05-10 11:22:19] INFO root fetch - main [MainThread]: Store serial: [23143991]
+[2024-05-10 11:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143991]
+[2024-05-10 11:24:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annofabcli
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ghga-event-schemas
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: narwhals
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enhanceezqq
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: r-shepard
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabric-orchestrator-client
+[2024-05-10 11:24:30] INFO root fetch - processPackages [enhanceezqq]: New version: [1.0.2.2] Old Version: [1.0.2]
+[2024-05-10 11:24:30] INFO root fetch - processPackages [narwhals]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-05-10 11:24:30] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.7.0b3] Old Version: [1.7.0b2]
+[2024-05-10 11:24:30] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/70/08/f83ca707dd9918fc865cffd3fbd794188814759680f71286b0952d8031fe/enhanceezqq-1.0.2.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [r-shepard]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ghga-event-schemas]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-10 11:24:30] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/a0/d7/7bf5b00ecdecc4dc7541bb5e3771cdd8876173dae416f5e30aebd53c3736/narwhals-0.8.7.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/58/85/d6d19db3d3fde78d755320461831deb64e9cf07444bc8b5820ee468e1398/fabric-orchestrator-client-1.7.0b2.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-10 11:24:30] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/5b/82/224b06b42105984ce755418d04b605483416b9353644b798aeeaffa5b4a2/fabric-orchestrator-client-1.7.0b3.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/77/26/a0d51ae3cf9b121642bb8ed0a46528e3dee28f7e6d5a9cef4b1cfd78b0f0/enhanceezqq-1.0.2.2.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/6f/12/41ea9a022923357b21538a742534d3b7e4ba9efa7934265fb65194766a62/r_shepard-0.1.8.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/d4/7e/64cc99bf2cd0d84da4c4353b79a893ac7b6da709346151f80cc6203325fd/ghga_event_schemas-3.2.0.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2024-05-10 11:24:30] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2024-05-10 11:24:30] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.7.0b2.tar.gz tmp/fabric-orchestrator-client-1.7.0b3.tar.gz --markdown 20240510/f/fabric-orchestrator-client/1.7.0b2-1.7.0b3/README.md --exclude *.pyd
+[2024-05-10 11:24:30] INFO root fetch - processPackages [enhanceezqq]: executing diffoscope
+[2024-05-10 11:24:30] INFO root fetch - processPackages [enhanceezqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhanceezqq-1.0.2.tar.gz tmp/enhanceezqq-1.0.2.2.tar.gz --markdown 20240510/e/enhanceezqq/1.0.2-1.0.2.2/README.md --exclude *.pyd
+[2024-05-10 11:24:30] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/99/36/0f3088813b6d212058ea6dd92fc930c913ec6d5c01f08a24de71755552f5/narwhals-0.8.8.tar.gz
+[2024-05-10 11:24:31] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/c5/d2/32cf6ec0a1a1d7beec2da0e54c3d73e8058e106712b0a7160bda6623b771/ghga_event_schemas-3.3.0.tar.gz
+[2024-05-10 11:24:31] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/bc/10/b7e290462f090c87cf6b59ff9d4f6909fbdbf88e6c0ccd7dda31b9b8e189/r_shepard-0.2.0.tar.gz
+[2024-05-10 11:24:31] INFO root fetch - processPackages [narwhals]: executing diffoscope
+[2024-05-10 11:24:31] INFO root fetch - processPackages [narwhals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/narwhals-0.8.7.tar.gz tmp/narwhals-0.8.8.tar.gz --markdown 20240510/n/narwhals/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-05-10 11:24:31] INFO root fetch - processPackages [ghga-event-schemas]: executing diffoscope
+[2024-05-10 11:24:31] INFO root fetch - processPackages [ghga-event-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_event_schemas-3.2.0.tar.gz tmp/ghga_event_schemas-3.3.0.tar.gz --markdown 20240510/g/ghga-event-schemas/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-10 11:24:31] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2024-05-10 11:24:31] INFO root fetch - processPackages [r-shepard]: executing diffoscope
+[2024-05-10 11:24:31] INFO root fetch - processPackages [r-shepard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_shepard-0.1.8.tar.gz tmp/r_shepard-0.2.0.tar.gz --markdown 20240510/r/r-shepard/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-05-10 11:24:31] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2024-05-10 11:24:31] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20240510/a/annofabcli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-10 11:24:31] INFO root fetch - processPackages [enhanceezqq]: Remove: archive file [/home/abi/fetcher/tmp/enhanceezqq-1.0.2.tar.gz]
+[2024-05-10 11:24:31] INFO root fetch - processPackages [enhanceezqq]: Remove: archive file [/home/abi/fetcher/tmp/enhanceezqq-1.0.2.2.tar.gz]
+[2024-05-10 11:24:31] INFO root fetch - main [MainThread]: End processing [enhanceezqq]: success
+[2024-05-10 11:24:31] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.7.0b2.tar.gz]
+[2024-05-10 11:24:31] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.7.0b3.tar.gz]
+[2024-05-10 11:24:31] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2024-05-10 11:24:31] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-3.2.0.tar.gz]
+[2024-05-10 11:24:31] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-3.3.0.tar.gz]
+[2024-05-10 11:24:31] INFO root fetch - main [MainThread]: End processing [ghga-event-schemas]: success
+[2024-05-10 11:24:32] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.1.8.tar.gz]
+[2024-05-10 11:24:32] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.2.0.tar.gz]
+[2024-05-10 11:24:32] INFO root fetch - main [MainThread]: End processing [r-shepard]: success
+[2024-05-10 11:24:32] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.0.tar.gz]
+[2024-05-10 11:24:32] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.1.tar.gz]
+[2024-05-10 11:24:32] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2024-05-10 11:24:32] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.7.tar.gz]
+[2024-05-10 11:24:32] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.8.tar.gz]
+[2024-05-10 11:24:32] INFO root fetch - main [MainThread]: End processing [narwhals]: success
+[2024-05-10 11:24:32] INFO root fetch - main [MainThread]: Store serial: [23144012]
