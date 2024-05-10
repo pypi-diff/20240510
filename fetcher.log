@@ -18880,3 +18880,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:08:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715338646.tar.gz]
 [2024-05-10 15:08:58] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2024-05-10 15:08:58] INFO root fetch - main [MainThread]: Store serial: [23146715]
+[2024-05-10 15:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146715]
+[2024-05-10 15:11:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mbapy
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjls
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deropy
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enfacesz
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2024-05-10 15:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2024-05-10 15:11:06] INFO root fetch - processPackages [deropy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post492] Old Version: [3.0.3.post491]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post492] Old Version: [3.0.3.post491]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [pyjls]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [mbapy]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post492] Old Version: [3.0.3.post491]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post492] Old Version: [3.0.3.post491]
+[2024-05-10 15:11:06] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post492] Old Version: [3.0.3.post491]
+[2024-05-10 15:11:06] WARNING root fetch - processPackages [enfacesz]: Skipping, unable to determine old version
+[2024-05-10 15:11:06] INFO root fetch - processPackages [enfacesz]: Start processing: tkmatrix
+[2024-05-10 15:11:06] INFO root fetch - main [MainThread]: End processing [enfacesz] error
+[2024-05-10 15:11:07] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/75/3b/6eb8e33f29d70263e02b96583bfaec7e5e53030e40b6a39e79a7051ee891/deropy-0.2.1.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/e4/70/ec8aa7d566346e6474ad95bc187da9a832be6b0cd69bb6c4f6e1980e46f8/nucliadb_models-3.0.3.post491-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/1f/53/193558b3941334dc8e7a90e58370b29014ecc8f657148ef798307f056146/nucliadb_sdk-3.0.3.post491-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b7/aa/ca157544d3e1ae8b4c0ab61b3c8beab96c50a5504398d666b9ce66558e9b/nucliadb-3.0.3.post491-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b8/32/54e0ed4876bf7e15e8630984321a8236c590d737721ed419c69351d928b7/nucliadb_protos-3.0.3.post491-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [pyjls]: Downloading https://files.pythonhosted.org/packages/50/1f/53eadb25cd35f9f5913f054bb6ead1c0d7aa4dbab3404fa87c2cce3c7960/pyjls-0.9.2.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [tkmatrix]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/ca/13/cdb198bd58efefd28a7ac1e4fa6182d02c2378952107233202fcc0c2649b/nucliadb_dataset-3.0.3.post491-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/a7/99/fa1d0aa0a42c202aa2c96b3e017eb81225fc9c9e07029259fb6673449643/mbapy-0.7.3.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/6f/d6/274429c64426bb7d12fea56ebef8f3045282e385d492bad2687b3c41e54d/deropy-0.2.2.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/ff/87/af67c2e4e41b23fbc56b08d6776374008ba7b761c8c7c8848f34b449197b/tkmatrix-0.9.0.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/10/cc/0d5448810e23b69682563e3176b9b4113255e588036df887a8e6e1ea4774/nucliadb_sdk-3.1.0.post492-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/f3/66/5c041147efef888ce473c012b94e45dad53d57c4dfba02e21662837d22e6/nucliadb_models-3.1.0.post492-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/75/64/1f91e54f0db49258df5a895a604d967243c0f4216646f1e6e9435b737b07/nucliadb-3.1.0.post492-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/a1/d8/8237f2d91fa98e807357ca6fd69679a3ce70f8e7e67d6ef2576025843840/nucliadb_protos-3.1.0.post492-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [deropy]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [deropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deropy-0.2.1.tar.gz tmp/deropy-0.2.2.tar.gz --markdown 20240510/d/deropy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/4b/28/b9dd9fe87823bca77dbceefb4bf925b922e3920a3f5d3a420b8f27269df1/nucliadb_dataset-3.1.0.post492-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/4e/ae/2eb09dfd0b4d8d7d218f32c1f89e1c1f620f93bc8560af68f27a8aee3d7d/mbapy-0.7.4.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [pyjls]: Downloading https://files.pythonhosted.org/packages/9a/a3/012ecb5845b90413797fb247c75384b3af2caf0febeb73ed09569c39d893/pyjls-0.9.3.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post491-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post492-py3-none-any.whl.zip --markdown 20240510/n/nucliadb-sdk/3.0.3.post491-3.1.0.post492/README.md --exclude *.pyd
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post491-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post492-py3-none-any.whl.zip --markdown 20240510/n/nucliadb-models/3.0.3.post491-3.1.0.post492/README.md --exclude *.pyd
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.3.post491-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post492-py3-none-any.whl.zip --markdown 20240510/n/nucliadb-dataset/3.0.3.post491-3.1.0.post492/README.md --exclude *.pyd
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post491-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post492-py3-none-any.whl.zip --markdown 20240510/n/nucliadb-protos/3.0.3.post491-3.1.0.post492/README.md --exclude *.pyd
+[2024-05-10 15:11:07] INFO root fetch - processPackages [mbapy]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [mbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbapy-0.7.3.tar.gz tmp/mbapy-0.7.4.tar.gz --markdown 20240510/m/mbapy/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.3.post491-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post492-py3-none-any.whl.zip --markdown 20240510/n/nucliadb/3.0.3.post491-3.1.0.post492/README.md --exclude *.pyd
+[2024-05-10 15:11:07] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/fc/e0/1884361a6c1afe47ce710e96e8dc2a6009096523af78b97ee0f70383dc2c/tkmatrix-0.9.1.tar.gz
+[2024-05-10 15:11:07] INFO root fetch - processPackages [pyjls]: executing diffoscope
+[2024-05-10 15:11:07] INFO root fetch - processPackages [pyjls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjls-0.9.2.tar.gz tmp/pyjls-0.9.3.tar.gz --markdown 20240510/p/pyjls/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-10 15:11:08] INFO root fetch - processPackages [tkmatrix]: executing diffoscope
+[2024-05-10 15:11:08] INFO root fetch - processPackages [tkmatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkmatrix-0.9.0.tar.gz tmp/tkmatrix-0.9.1.tar.gz --markdown 20240510/t/tkmatrix/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 15:11:08] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-10 15:11:08] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240510/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post491-py3-none-any.whl.zip]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post492-py3-none-any.whl.zip]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-telemetry
+[2024-05-10 15:11:08] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post491-py3-none-any.whl.zip]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post492-py3-none-any.whl.zip]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: nucliadb-utils
+[2024-05-10 15:11:08] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post492] Old Version: [3.0.3.post491]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post491-py3-none-any.whl.zip]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post492-py3-none-any.whl.zip]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-models]: Start processing: ecuapassdocs
+[2024-05-10 15:11:08] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post492] Old Version: [3.0.3.post491]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.2.1.tar.gz]
+[2024-05-10 15:11:08] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.2.2.tar.gz]
+[2024-05-10 15:11:08] INFO root fetch - main [MainThread]: End processing [deropy]: success
+[2024-05-10 15:11:08] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/65/de/aae2363a4d7c5b4b0ca0b8b45a13a6985d9e3ea7d33be20edad1d7ebd2ff/nucliadb_utils-3.0.3.post491-py3-none-any.whl
+[2024-05-10 15:11:08] INFO root fetch - processPackages [ecuapassdocs]: New version: [0.75] Old Version: [0.74]
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3e/9a/127c0300424552338087d5ef4050bc56c22bf3c236b89a9f0cb672eba558/nucliadb_telemetry-3.0.3.post491-py3-none-any.whl
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post491-py3-none-any.whl.zip]
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post492-py3-none-any.whl.zip]
+[2024-05-10 15:11:09] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-10 15:11:09] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.9.0.tar.gz]
+[2024-05-10 15:11:09] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.9.1.tar.gz]
+[2024-05-10 15:11:09] INFO root fetch - main [MainThread]: End processing [tkmatrix]: success
+[2024-05-10 15:11:09] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/2f/b6/e0e1232b8e48c875e58a425f8e1c7aa9ea7cb4ccbd093d4f1bc2e7f50a45/ecuapassdocs-0.74.tar.gz
+[2024-05-10 15:11:09] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.7.3.tar.gz]
+[2024-05-10 15:11:09] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.7.4.tar.gz]
+[2024-05-10 15:11:09] INFO root fetch - main [MainThread]: End processing [mbapy]: success
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/77/06/38270e44ac05dac37640395a6116807764749b491e0ef65c01ad3337bb78/nucliadb_utils-3.1.0.post492-py3-none-any.whl
+[2024-05-10 15:11:09] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-10 15:11:09] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-10 15:11:09] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/cd/ba/7f00c978095dc617bc87724fbb910242a030d63618cef356e46f3e1767c5/nucliadb_telemetry-3.1.0.post492-py3-none-any.whl
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post491-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post492-py3-none-any.whl.zip --markdown 20240510/n/nucliadb-utils/3.0.3.post491-3.1.0.post492/README.md --exclude *.pyd
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-10 15:11:09] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post491-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post492-py3-none-any.whl.zip --markdown 20240510/n/nucliadb-telemetry/3.0.3.post491-3.1.0.post492/README.md --exclude *.pyd
+[2024-05-10 15:11:09] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/3d/ed/b4d47efc472e28826efda166e0586ff61b99f67c3a5559ea039da6a5c463/ecuapassdocs-0.75.tar.gz
+[2024-05-10 15:11:09] INFO root fetch - processPackages [pyjls]: Remove: archive file [/home/abi/fetcher/tmp/pyjls-0.9.2.tar.gz]
+[2024-05-10 15:11:09] INFO root fetch - processPackages [pyjls]: Remove: archive file [/home/abi/fetcher/tmp/pyjls-0.9.3.tar.gz]
+[2024-05-10 15:11:09] INFO root fetch - main [MainThread]: End processing [pyjls]: success
+[2024-05-10 15:11:10] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post491-py3-none-any.whl.zip]
+[2024-05-10 15:11:10] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post492-py3-none-any.whl.zip]
+[2024-05-10 15:11:10] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-10 15:11:10] INFO root fetch - processPackages [ecuapassdocs]: executing diffoscope
+[2024-05-10 15:11:10] INFO root fetch - processPackages [ecuapassdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecuapassdocs-0.74.tar.gz tmp/ecuapassdocs-0.75.tar.gz --markdown 20240510/e/ecuapassdocs/0.74-0.75/README.md --exclude *.pyd
+[2024-05-10 15:11:10] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post491-py3-none-any.whl.zip]
+[2024-05-10 15:11:10] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post492-py3-none-any.whl.zip]
+[2024-05-10 15:11:10] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-10 15:11:10] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post491-py3-none-any.whl.zip]
+[2024-05-10 15:11:10] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post492-py3-none-any.whl.zip]
+[2024-05-10 15:11:10] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-10 15:11:11] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.74.tar.gz]
+[2024-05-10 15:11:11] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.75.tar.gz]
+[2024-05-10 15:11:11] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
+[2024-05-10 15:11:11] INFO root fetch - main [MainThread]: Store serial: [23146761]
