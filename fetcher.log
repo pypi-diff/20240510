@@ -8212,3 +8212,105 @@
 [2024-05-10 08:16:39] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.2-py3-none-any.whl.zip]
 [2024-05-10 08:16:39] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-05-10 08:16:39] INFO root fetch - main [MainThread]: Store serial: [23142076]
+[2024-05-10 08:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142076]
+[2024-05-10 08:18:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mesop
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pbx-admin
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-sls20201230
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shibuya
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaea-operator
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: overfaithz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: overfaithz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fake-bpy-module-latest
+[2024-05-10 08:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fake-bpy-module
+[2024-05-10 08:18:55] INFO root fetch - processPackages [mesop]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-10 08:18:55] WARNING root fetch - processPackages [overfaithz]: Skipping, unable to determine old version
+[2024-05-10 08:18:55] INFO root fetch - processPackages [overfaithz]: Start processing: sqlman
+[2024-05-10 08:18:55] INFO root fetch - main [MainThread]: End processing [overfaithz] error
+[2024-05-10 08:18:55] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-10 08:18:55] WARNING root fetch - processPackages [overfaithz]: Skipping, unable to determine old version
+[2024-05-10 08:18:55] INFO root fetch - processPackages [overfaithz]: Start processing: pyg-nightly
+[2024-05-10 08:18:55] INFO root fetch - main [MainThread]: End processing [overfaithz] error
+[2024-05-10 08:18:55] INFO root fetch - processPackages [alibabacloud-sls20201230]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240509] Old Version: [20240508]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240509] Old Version: [20240508]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [shibuya]: New version: [2024.5.10] Old Version: [2024.4.8]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [sqlman]: New version: [0.3] Old Version: [0.2]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.2.dev5] Old Version: [4.1.2.dev4]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240509] Old Version: [2.6.0.dev20240508]
+[2024-05-10 08:18:55] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/8b/6c/7dfea9c14c25ed9e498d73748dd8644d28c0f81c403e59b95f0b5109b04a/mesop-0.5.2-py3-none-any.whl
+[2024-05-10 08:18:55] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2024-05-10 08:18:55] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/09/8d/ef1de21703227c0e2bfaca43598adfcda228e06dc96c7de9af50f48b8a2f/fake_bpy_module-20240508.tar.gz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-10 08:18:55] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/71/d0/e9f78bde07d7a70ad62f3182350354283d731106392d155e4ae9bd7cc196/fake_bpy_module_latest-20240508.tar.gz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [sqlman]: Downloading https://files.pythonhosted.org/packages/4c/d1/7323aa1e315f840c93a35b72e9e0215ed6061ae6e22444fd2003f268f385/sqlman-0.2.tar.gz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [alibabacloud-sls20201230]: Downloading https://files.pythonhosted.org/packages/4f/fa/71c87d7d9b1e6ebef46bd967d10ac574df63b214fce1b3186aad29446644/alibabacloud_sls20201230-5.0.0.tar.gz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/90/dd/7e603d8c260808390078f0a22e5074bf11fda8c60fba0b9c95be33b36833/pyg_nightly-2.6.0.dev20240508.tar.gz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/60/19/1778e5768a479550bbe7795c20bc5ec3e34ff3a62c71cb25491b48ba2009/shibuya-2024.4.8.tar.gz
+[2024-05-10 08:18:55] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/87/a0/d18372b75c03af82257483f61334f45d6bd315769d4efccf33d90fa119cd/gaea_operator-4.1.2.dev4-py3-none-any.whl
+[2024-05-10 08:18:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-10 08:18:56] INFO root fetch - processPackages [sqlman]: Downloading https://files.pythonhosted.org/packages/90/b7/d9ccef5bcc6a4696b0a1ceb2d79b44541dae0dfc1a2c858f9ad2974d3913/sqlman-0.3.tar.gz
+[2024-05-10 08:18:56] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d3/97/78a5cf8cd6c38e6041197b0cb34147805c6ee6a2ce4abc708fe3e5224faa/pyg_nightly-2.6.0.dev20240509.tar.gz
+[2024-05-10 08:18:56] INFO root fetch - processPackages [alibabacloud-sls20201230]: Downloading https://files.pythonhosted.org/packages/10/84/0d4dc06c400b3e53ae07d02c6de454e7f66f8a4e9759abf73b400d8a5010/alibabacloud_sls20201230-5.1.0.tar.gz
+[2024-05-10 08:18:56] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/13/21/a8e21c045f69a6eed84f616a41fc34be92bfdf7a11613d3f8a9a6bd9c720/fake_bpy_module-20240509.tar.gz
+[2024-05-10 08:18:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/39/b3/5d1c2358f74accbcd4f62b448e529f8435dd0ab230dffedf27d4d84941ac/fake_bpy_module_latest-20240509.tar.gz
+[2024-05-10 08:18:56] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/0a/0b/9cb864046e3ef6c10fde2c66bb32636075ec45b0dc0e2a05b5e3c3145638/gaea_operator-4.1.2.dev5-py3-none-any.whl
+[2024-05-10 08:18:56] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/6b/32/94bc43309c95a540157e92d4578526f0e397c10de882558472d79a058dd4/shibuya-2024.5.10.tar.gz
+[2024-05-10 08:18:56] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/0d/42/d79c5b22a3dade2d26235e9df579f5c337649ac2041e4d35a77cae13dbdd/mesop-0.5.3-py3-none-any.whl
+[2024-05-10 08:18:56] INFO root fetch - processPackages [sqlman]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [sqlman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlman-0.2.tar.gz tmp/sqlman-0.3.tar.gz --markdown 20240510/s/sqlman/0.2-0.3/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2024-05-10 08:18:56] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240510/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [alibabacloud-sls20201230]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [alibabacloud-sls20201230]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sls20201230-5.0.0.tar.gz tmp/alibabacloud_sls20201230-5.1.0.tar.gz --markdown 20240510/a/alibabacloud-sls20201230/5.0.0-5.1.0/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240508.tar.gz tmp/pyg_nightly-2.6.0.dev20240509.tar.gz --markdown 20240510/p/pyg-nightly/2.6.0.dev20240508-2.6.0.dev20240509/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2024.4.8.tar.gz tmp/shibuya-2024.5.10.tar.gz --markdown 20240510/s/shibuya/2024.4.8-2024.5.10/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.2.dev4-py3-none-any.whl.zip tmp/gaea_operator-4.1.2.dev5-py3-none-any.whl.zip --markdown 20240510/g/gaea-operator/4.1.2.dev4-4.1.2.dev5/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240508.tar.gz tmp/fake_bpy_module_latest-20240509.tar.gz --markdown 20240510/f/fake-bpy-module-latest/20240508-20240509/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [mesop]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [mesop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesop-0.5.2-py3-none-any.whl.zip tmp/mesop-0.5.3-py3-none-any.whl.zip --markdown 20240510/m/mesop/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240508.tar.gz tmp/fake_bpy_module-20240509.tar.gz --markdown 20240510/f/fake-bpy-module/20240508-20240509/README.md --exclude *.pyd
+[2024-05-10 08:18:56] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2024-05-10 08:18:56] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20240510/d/django-pbx-admin/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-10 08:18:57] INFO root fetch - processPackages [sqlman]: Remove: archive file [/home/abi/fetcher/tmp/sqlman-0.2.tar.gz]
+[2024-05-10 08:18:57] INFO root fetch - processPackages [sqlman]: Remove: archive file [/home/abi/fetcher/tmp/sqlman-0.3.tar.gz]
+[2024-05-10 08:18:57] INFO root fetch - processPackages [sqlman]: Start processing: reutterancez
+[2024-05-10 08:18:57] INFO root fetch - main [MainThread]: End processing [sqlman]: success
+[2024-05-10 08:18:57] WARNING root fetch - processPackages [reutterancez]: Skipping, unable to determine old version
+[2024-05-10 08:18:57] INFO root fetch - main [MainThread]: End processing [reutterancez] error
+[2024-05-10 08:18:57] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.0.0.tar.gz]
+[2024-05-10 08:18:57] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.1.0.tar.gz]
+[2024-05-10 08:18:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230]: success
+[2024-05-10 08:18:57] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2024.4.8.tar.gz]
+[2024-05-10 08:18:57] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2024.5.10.tar.gz]
+[2024-05-10 08:18:57] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2024-05-10 08:18:58] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev4-py3-none-any.whl.zip]
+[2024-05-10 08:18:58] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev5-py3-none-any.whl.zip]
+[2024-05-10 08:18:58] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-10 08:18:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-10 08:18:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-10 08:18:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-10 08:18:59] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2024-05-10 08:18:59] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2024-05-10 08:18:59] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2024-05-10 08:18:59] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240508.tar.gz]
+[2024-05-10 08:18:59] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240509.tar.gz]
+[2024-05-10 08:18:59] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-10 08:19:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240508.tar.gz]
+[2024-05-10 08:19:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240509.tar.gz]
+[2024-05-10 08:19:05] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-10 08:19:05] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240508.tar.gz]
+[2024-05-10 08:19:05] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240509.tar.gz]
+[2024-05-10 08:19:05] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-10 08:21:34] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.2-py3-none-any.whl.zip]
+[2024-05-10 08:21:34] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.3-py3-none-any.whl.zip]
+[2024-05-10 08:21:34] INFO root fetch - main [MainThread]: End processing [mesop]: success
+[2024-05-10 08:21:34] INFO root fetch - main [MainThread]: Store serial: [23142113]
