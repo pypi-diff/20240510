@@ -17472,3 +17472,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:18:58] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-05-10 14:18:58] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-05-10 14:18:58] INFO root fetch - main [MainThread]: Store serial: [23145971]
+[2024-05-10 14:21:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145971]
+[2024-05-10 14:21:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mitanniz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agda
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: justatestwithcpp
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brittenz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SquirroClient
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bin2dec
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: api-management-local
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: espwifiarduino
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blues-lib
+[2024-05-10 14:21:22] INFO root fetch - processPackages [blues-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 14:21:22] WARNING root fetch - processPackages [mitanniz]: Skipping, unable to determine old version
+[2024-05-10 14:21:22] INFO root fetch - main [MainThread]: End processing [mitanniz] error
+[2024-05-10 14:21:22] INFO root fetch - processPackages [justatestwithcpp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 14:21:22] WARNING root fetch - processPackages [brittenz]: Skipping, unable to determine old version
+[2024-05-10 14:21:22] INFO root fetch - main [MainThread]: End processing [brittenz] error
+[2024-05-10 14:21:22] INFO root fetch - processPackages [bin2dec]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 14:21:22] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 14:21:22] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/dd/2c/7515817a0f7f917dad64c969f86928ee84cb8d94b6ba9506aa5382a1de9a/blues_lib-1.0.0.tar.gz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [SquirroClient]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-05-10 14:21:22] INFO root fetch - processPackages [agda]: New version: [2.6.4.3] Old Version: [2.6.4.1]
+[2024-05-10 14:21:22] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ccxt]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-05-10 14:21:22] INFO root fetch - processPackages [espwifiarduino]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 14:21:22] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/5d/90/0ac9c2ee1d12f6a37e264bdf1ce7297c8917274bd8b2e0b925a0be03b73f/justatestwithcpp-0.1.0.tar.gz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [SquirroClient]: Downloading https://files.pythonhosted.org/packages/bc/78/f83783f74095808925870f65f44deaee20afa18eb6b12d05e62abd07a52d/SquirroClient-3.9.6.tar.gz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [bin2dec]: Downloading https://files.pythonhosted.org/packages/91/6d/facbcacce99123ed32de3e84f3d6d55ffda1721ff9128180b47042e3c4a3/bin2dec-0.1.0-py3-none-any.whl
+[2024-05-10 14:21:22] INFO root fetch - processPackages [agda]: Downloading https://files.pythonhosted.org/packages/05/6e/0bbbf9c4c652ee2b237fdc4627f55116466cb5147b9c19de08f45f62b486/agda-2.6.4.1-cp39-cp39-win_amd64.whl
+[2024-05-10 14:21:22] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/51/e1/616fca55320be6b2824b9d0d210bf0a2c388681f007dd07476c641b57316/blues_lib-1.0.1.tar.gz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [espwifiarduino]: Downloading https://files.pythonhosted.org/packages/d4/ca/f4e5b36f9291c54d68722b08cf24e3cff7ddce420cbfea96a6ff89c1e686/espwifiarduino-0.0.2.tar.gz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/1c/a1/3a1a3f9672e43a2620d2ab195c398183c3594751d3a306bd022e7ceccbb7/ccxt-4.3.8.tar.gz
+[2024-05-10 14:21:22] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-10 14:21:22] WARNING root fetch - processPackages [agda]: Skipping package: exceeds size limit 22839309>=10485760
+[2024-05-10 14:21:22] INFO root fetch - main [MainThread]: End processing [agda] error
+[2024-05-10 14:21:22] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-10 14:21:22] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.0.0.tar.gz tmp/blues_lib-1.0.1.tar.gz --markdown 20240510/b/blues-lib/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 14:21:23] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-10 14:21:23] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240510/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 14:21:23] INFO root fetch - processPackages [bin2dec]: Downloading https://files.pythonhosted.org/packages/d2/00/3ddbdb77c45179fcfc598e9b5fbc429231cf6412e783486a611db22988da/bin2dec-0.1.1.tar.gz
+[2024-05-10 14:21:23] INFO root fetch - processPackages [SquirroClient]: Downloading https://files.pythonhosted.org/packages/cd/6c/08dfb42fabb70106c66a27bfb90a87f20587bea0b66434ee3dc1b4d82f55/SquirroClient-3.9.7.tar.gz
+[2024-05-10 14:21:23] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/01/df/f4fd76172ee4cefe0e90320539da938d8061e6ab1851142e0561e2207c28/justatestwithcpp-0.1.1.tar.gz
+[2024-05-10 14:21:23] INFO root fetch - processPackages [espwifiarduino]: Downloading https://files.pythonhosted.org/packages/de/68/696c72e1a36b58a745a28b7278fdf2227102e1b9be143d2318e3058ab2a4/espwifiarduino-0.0.3-py3-none-any.whl
+[2024-05-10 14:21:23] INFO root fetch - processPackages [bin2dec]: executing diffoscope
+[2024-05-10 14:21:23] INFO root fetch - processPackages [bin2dec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bin2dec-0.1.0-py3-none-any.whl.zip tmp/bin2dec-0.1.1.tar.gz --markdown 20240510/b/bin2dec/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 14:21:23] INFO root fetch - processPackages [SquirroClient]: executing diffoscope
+[2024-05-10 14:21:23] INFO root fetch - processPackages [SquirroClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SquirroClient-3.9.6.tar.gz tmp/SquirroClient-3.9.7.tar.gz --markdown 20240510/S/SquirroClient/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-05-10 14:21:23] INFO root fetch - processPackages [justatestwithcpp]: executing diffoscope
+[2024-05-10 14:21:23] INFO root fetch - processPackages [justatestwithcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justatestwithcpp-0.1.0.tar.gz tmp/justatestwithcpp-0.1.1.tar.gz --markdown 20240510/j/justatestwithcpp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 14:21:23] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/f0/34/c7c38c5c0bec0a22183d7eed68184bef3efe315a8570460824012267cbac/ccxt-4.3.9.tar.gz
+[2024-05-10 14:21:23] INFO root fetch - processPackages [espwifiarduino]: executing diffoscope
+[2024-05-10 14:21:23] INFO root fetch - processPackages [espwifiarduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espwifiarduino-0.0.2.tar.gz tmp/espwifiarduino-0.0.3-py3-none-any.whl.zip --markdown 20240510/e/espwifiarduino/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 14:21:23] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.0.tar.gz]
+[2024-05-10 14:21:23] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.1.tar.gz]
+[2024-05-10 14:21:23] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-10 14:21:23] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-10 14:21:23] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-10 14:21:23] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-10 14:21:23] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-05-10 14:21:23] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.3.8.tar.gz tmp/ccxt-4.3.9.tar.gz --markdown 20240510/c/ccxt/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-05-10 14:21:23] INFO root fetch - processPackages [bin2dec]: Remove: archive file [/home/abi/fetcher/tmp/bin2dec-0.1.0-py3-none-any.whl.zip]
+[2024-05-10 14:21:23] INFO root fetch - processPackages [bin2dec]: Remove: archive file [/home/abi/fetcher/tmp/bin2dec-0.1.1.tar.gz]
+[2024-05-10 14:21:23] INFO root fetch - main [MainThread]: End processing [bin2dec]: success
+[2024-05-10 14:21:24] INFO root fetch - processPackages [SquirroClient]: Remove: archive file [/home/abi/fetcher/tmp/SquirroClient-3.9.6.tar.gz]
+[2024-05-10 14:21:24] INFO root fetch - processPackages [SquirroClient]: Remove: archive file [/home/abi/fetcher/tmp/SquirroClient-3.9.7.tar.gz]
+[2024-05-10 14:21:24] INFO root fetch - main [MainThread]: End processing [SquirroClient]: success
+[2024-05-10 14:21:24] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.0.tar.gz]
+[2024-05-10 14:21:24] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.1.tar.gz]
+[2024-05-10 14:21:24] INFO root fetch - main [MainThread]: End processing [justatestwithcpp]: success
+[2024-05-10 14:21:24] INFO root fetch - processPackages [espwifiarduino]: Remove: archive file [/home/abi/fetcher/tmp/espwifiarduino-0.0.2.tar.gz]
+[2024-05-10 14:21:24] INFO root fetch - processPackages [espwifiarduino]: Remove: archive file [/home/abi/fetcher/tmp/espwifiarduino-0.0.3-py3-none-any.whl.zip]
+[2024-05-10 14:21:24] INFO root fetch - main [MainThread]: End processing [espwifiarduino]: success
+[2024-05-10 14:21:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.8.tar.gz]
+[2024-05-10 14:21:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
+[2024-05-10 14:21:28] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-05-10 14:21:28] INFO root fetch - main [MainThread]: Store serial: [23146026]
