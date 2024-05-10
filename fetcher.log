@@ -19805,3 +19805,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:39:03] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
 [2024-05-10 15:39:03] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2024-05-10 15:39:03] INFO root fetch - main [MainThread]: Store serial: [23147129]
+[2024-05-10 15:41:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147129]
+[2024-05-10 15:41:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owega
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ise
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carmen-cloud-client
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jcvi
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anvil-app-server
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ryght-platform-sdk
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stsci.image
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blazar-tempest-plugin
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fbgemm-gpu-nightly
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: convertz
+[2024-05-10 15:41:29] INFO root fetch - processPackages [owega]: New version: [5.6.4] Old Version: [5.6.3]
+[2024-05-10 15:41:29] INFO root fetch - processPackages [anvil-app-server]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 15:41:29] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715347506] Old Version: [0.2.0a1715232907]
+[2024-05-10 15:41:29] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/f9/57/ccc2b013af5f9eb70fae9f3bbe4c5574d11fc319937e63f9997f2f67fe0b/owega-5.6.3.tar.gz
+[2024-05-10 15:41:29] INFO root fetch - processPackages [blazar-tempest-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 15:41:29] INFO root fetch - processPackages [stsci.image]: New version: [2.3.7] Old Version: [2.3.5]
+[2024-05-10 15:41:29] WARNING root fetch - processPackages [convertz]: Skipping, unable to determine old version
+[2024-05-10 15:41:29] INFO root fetch - processPackages [convertz]: Start processing: neutron-tempest-plugin
+[2024-05-10 15:41:29] INFO root fetch - main [MainThread]: End processing [convertz] error
+[2024-05-10 15:41:29] INFO root fetch - processPackages [ryght-platform-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-10 15:41:29] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2024.5.9] Old Version: [2024.5.10]
+[2024-05-10 15:41:29] INFO root fetch - processPackages [carmen-cloud-client]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-10 15:41:29] INFO root fetch - processPackages [jcvi]: New version: [1.4.9] Old Version: [1.4.5]
+[2024-05-10 15:41:30] INFO root fetch - processPackages [anvil-app-server]: Downloading https://files.pythonhosted.org/packages/97/08/4f9013a516a0f496842670251f183b128ed1e3ced96873cd96b27c1d03a6/anvil-app-server-1.8.0.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/1b/5d/f63b60fc8125c816095da6764b68305298c9aa8d4e57933e202a5629b049/pulumi_ise-0.2.0a1715232907.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [neutron-tempest-plugin]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-05-10 15:41:30] INFO root fetch - processPackages [stsci.image]: Downloading https://files.pythonhosted.org/packages/7e/aa/de5885e5743c2e400830051bfc1b03e7299c09d45344b2b6baf18b7fc4b9/stsci.image-2.3.5.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [blazar-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/d6/e1/a463a5fa2da7c517dd2fc6b306627a100668cbf2519fe8d74799c4ee754e/blazar_tempest_plugin-0.8.0.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/94/1b/2c055e458f5d06a619095b34574f11f4dcb4c57ed432a1d057648e3964bc/fbgemm_gpu_nightly-2024.5.10-cp310-cp310-manylinux2014_x86_64.whl
+[2024-05-10 15:41:30] INFO root fetch - processPackages [carmen-cloud-client]: Downloading https://files.pythonhosted.org/packages/c5/13/29cb0e256deea79297353ea57a328a509f4ccaf30a40756e531ac13db1b7/carmen_cloud_client-1.0.3.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [ryght-platform-sdk]: Downloading https://files.pythonhosted.org/packages/2b/66/1affb9a6f153378b4a6d5945e02328fb080815a58791b686c26fa196eb3d/ryght_platform_sdk-0.3.8.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/3b/c7/8f87e09c1bc53218c88e3cbd40b736a113062e49e0ba98afc3c204ac19b0/jcvi-1.4.5.tar.gz
+[2024-05-10 15:41:30] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 222329513>=10485760
+[2024-05-10 15:41:30] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2024-05-10 15:41:30] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/24/ab/d976771037a31a19dab2c7297a5ed871d95c938f05830ce9d2f69e459346/owega-5.6.4.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-10 15:41:30] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.6.3.tar.gz tmp/owega-5.6.4.tar.gz --markdown 20240510/o/owega/5.6.3-5.6.4/README.md --exclude *.pyd
+[2024-05-10 15:41:30] INFO root fetch - processPackages [anvil-app-server]: Downloading https://files.pythonhosted.org/packages/89/e3/2ec8e821dd87b527319b1f5f235f4eba67027c14fd6ea59b1263e93ae11b/anvil-app-server-1.9.0.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [neutron-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/13/1d/530d9442ff60c64e763b755c1756c255112a0882ef2858eb8e2fcea98ed2/neutron-tempest-plugin-2.7.0.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/dc/be/a1780ddc9edfe3ba1bc7f4239192a4b5f576a08fdf7e3956664f5bc57b32/pulumi_ise-0.2.0a1715347506.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [stsci.image]: Downloading https://files.pythonhosted.org/packages/d2/a2/8a9f38338f18fb96c1b8719aa8fe04cff4d2a42434d6d371bf3902a60495/stsci_image-2.3.7.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [ryght-platform-sdk]: Downloading https://files.pythonhosted.org/packages/34/43/6feec924f7903a6cac196b8652681a41b540008288a7647e8420b4554257/ryght_platform_sdk-0.3.9.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [anvil-app-server]: executing diffoscope
+[2024-05-10 15:41:30] INFO root fetch - processPackages [anvil-app-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anvil-app-server-1.8.0.tar.gz tmp/anvil-app-server-1.9.0.tar.gz --markdown 20240510/a/anvil-app-server/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 15:41:30] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-10 15:41:30] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715232907.tar.gz tmp/pulumi_ise-0.2.0a1715347506.tar.gz --markdown 20240510/p/pulumi-ise/0.2.0a1715232907-0.2.0a1715347506/README.md --exclude *.pyd
+[2024-05-10 15:41:30] INFO root fetch - processPackages [blazar-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/cf/b5/2b6adabbd73d61ed77f8c45993523a04c7014c2cce35d0158f8a2fd39aa7/blazar_tempest_plugin-0.9.0.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [stsci.image]: executing diffoscope
+[2024-05-10 15:41:30] INFO root fetch - processPackages [stsci.image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsci.image-2.3.5.tar.gz tmp/stsci_image-2.3.7.tar.gz --markdown 20240510/s/stsci.image/2.3.5-2.3.7/README.md --exclude *.pyd
+[2024-05-10 15:41:30] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/5d/24/5036675f79005ad20ca239e90bec15f8b40ead5317b7ed2daa5bf2021117/jcvi-1.4.9.tar.gz
+[2024-05-10 15:41:30] INFO root fetch - processPackages [ryght-platform-sdk]: executing diffoscope
+[2024-05-10 15:41:30] INFO root fetch - processPackages [ryght-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryght_platform_sdk-0.3.8.tar.gz tmp/ryght_platform_sdk-0.3.9.tar.gz --markdown 20240510/r/ryght-platform-sdk/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-10 15:41:30] INFO root fetch - processPackages [blazar-tempest-plugin]: executing diffoscope
+[2024-05-10 15:41:30] INFO root fetch - processPackages [blazar-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blazar_tempest_plugin-0.8.0.tar.gz tmp/blazar_tempest_plugin-0.9.0.tar.gz --markdown 20240510/b/blazar-tempest-plugin/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 15:41:30] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2024-05-10 15:41:30] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.4.5.tar.gz tmp/jcvi-1.4.9.tar.gz --markdown 20240510/j/jcvi/1.4.5-1.4.9/README.md --exclude *.pyd
+[2024-05-10 15:41:30] INFO root fetch - processPackages [neutron-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/20/6d/a01b597e20aaa023c82447a80a36336e93f06543d07802dcd657e644579b/neutron-tempest-plugin-2.8.0.tar.gz
+[2024-05-10 15:41:31] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.6.3.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.6.4.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-10 15:41:31] INFO root fetch - processPackages [neutron-tempest-plugin]: executing diffoscope
+[2024-05-10 15:41:31] INFO root fetch - processPackages [neutron-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutron-tempest-plugin-2.7.0.tar.gz tmp/neutron-tempest-plugin-2.8.0.tar.gz --markdown 20240510/n/neutron-tempest-plugin/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-05-10 15:41:31] INFO root fetch - processPackages [anvil-app-server]: Remove: archive file [/home/abi/fetcher/tmp/anvil-app-server-1.8.0.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - processPackages [anvil-app-server]: Remove: archive file [/home/abi/fetcher/tmp/anvil-app-server-1.9.0.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - main [MainThread]: End processing [anvil-app-server]: success
+[2024-05-10 15:41:31] INFO root fetch - processPackages [stsci.image]: Remove: archive file [/home/abi/fetcher/tmp/stsci.image-2.3.5.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - processPackages [stsci.image]: Remove: archive file [/home/abi/fetcher/tmp/stsci_image-2.3.7.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - main [MainThread]: End processing [stsci.image]: success
+[2024-05-10 15:41:31] INFO root fetch - processPackages [ryght-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ryght_platform_sdk-0.3.8.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - processPackages [ryght-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ryght_platform_sdk-0.3.9.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - main [MainThread]: End processing [ryght-platform-sdk]: success
+[2024-05-10 15:41:31] INFO root fetch - processPackages [blazar-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blazar_tempest_plugin-0.8.0.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - processPackages [blazar-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blazar_tempest_plugin-0.9.0.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - main [MainThread]: End processing [blazar-tempest-plugin]: success
+[2024-05-10 15:41:31] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715232907.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715347506.tar.gz]
+[2024-05-10 15:41:31] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-10 15:41:31] INFO root fetch - processPackages [carmen-cloud-client]: Downloading https://files.pythonhosted.org/packages/97/c2/b0384eac823452f10156cda0cf9ad696a5e440bf926cadd9a512d704ba30/carmen_cloud_client-1.1.0.tar.gz
+[2024-05-10 15:41:32] INFO root fetch - processPackages [carmen-cloud-client]: executing diffoscope
+[2024-05-10 15:41:32] INFO root fetch - processPackages [carmen-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carmen_cloud_client-1.0.3.tar.gz tmp/carmen_cloud_client-1.1.0.tar.gz --markdown 20240510/c/carmen-cloud-client/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-10 15:41:32] INFO root fetch - processPackages [neutron-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/neutron-tempest-plugin-2.7.0.tar.gz]
+[2024-05-10 15:41:32] INFO root fetch - processPackages [neutron-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/neutron-tempest-plugin-2.8.0.tar.gz]
+[2024-05-10 15:41:32] INFO root fetch - main [MainThread]: End processing [neutron-tempest-plugin]: success
+[2024-05-10 15:41:33] INFO root fetch - processPackages [carmen-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/carmen_cloud_client-1.0.3.tar.gz]
+[2024-05-10 15:41:33] INFO root fetch - processPackages [carmen-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/carmen_cloud_client-1.1.0.tar.gz]
+[2024-05-10 15:41:33] INFO root fetch - main [MainThread]: End processing [carmen-cloud-client]: success
+[2024-05-10 15:41:33] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.5.tar.gz]
+[2024-05-10 15:41:33] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.9.tar.gz]
+[2024-05-10 15:41:33] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2024-05-10 15:41:33] INFO root fetch - main [MainThread]: Store serial: [23147179]
