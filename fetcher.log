@@ -24743,3 +24743,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:16:20] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-05-10 18:16:20] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-05-10 18:16:20] INFO root fetch - main [MainThread]: Store serial: [23149546]
+[2024-05-10 18:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149546]
+[2024-05-10 18:18:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 18:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-ise
+[2024-05-10 18:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odlabel
+[2024-05-10 18:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morebuiltins
+[2024-05-10 18:18:30] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715349279] Old Version: [0.2.0a1715347506]
+[2024-05-10 18:18:30] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/dc/be/a1780ddc9edfe3ba1bc7f4239192a4b5f576a08fdf7e3956664f5bc57b32/pulumi_ise-0.2.0a1715347506.tar.gz
+[2024-05-10 18:18:30] INFO root fetch - processPackages [morebuiltins]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 18:18:30] INFO root fetch - processPackages [odlabel]: New version: [0.7.26.2] Old Version: [0.7.26.1]
+[2024-05-10 18:18:30] INFO root fetch - processPackages [odlabel]: Downloading https://files.pythonhosted.org/packages/2b/86/71be90d4391e61caa1d9574c9a921d1edb32c9a348b90e6847a76c7a3df6/odlabel-0.7.26.1.tar.gz
+[2024-05-10 18:18:30] INFO root fetch - processPackages [morebuiltins]: Downloading https://files.pythonhosted.org/packages/2c/2b/646826fa51d5c7d7c01242b8e84fc6ed4c471d282b928e93ab240a70bee1/morebuiltins-0.0.3.tar.gz
+[2024-05-10 18:18:30] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/88/cb/9912f66a432769fc58e97a813f9f095f4c20a8e89faa3692b9a7c2f8b592/pulumi_ise-0.2.0a1715349279.tar.gz
+[2024-05-10 18:18:30] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-10 18:18:30] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715347506.tar.gz tmp/pulumi_ise-0.2.0a1715349279.tar.gz --markdown 20240510/p/pulumi-ise/0.2.0a1715347506-0.2.0a1715349279/README.md --exclude *.pyd
+[2024-05-10 18:18:30] INFO root fetch - processPackages [odlabel]: Downloading https://files.pythonhosted.org/packages/77/8f/2df2d783f1713cbf82e0c949fc2059e04ab7f586f7754badddf3c5372011/odlabel-0.7.26.2.tar.gz
+[2024-05-10 18:18:30] INFO root fetch - processPackages [morebuiltins]: Downloading https://files.pythonhosted.org/packages/31/7a/5a4709fd63a54bb0f0010100df6ac9d57fd2ff1135ed1e389d8077522cb4/morebuiltins-0.0.4.tar.gz
+[2024-05-10 18:18:30] INFO root fetch - processPackages [odlabel]: executing diffoscope
+[2024-05-10 18:18:30] INFO root fetch - processPackages [odlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odlabel-0.7.26.1.tar.gz tmp/odlabel-0.7.26.2.tar.gz --markdown 20240510/o/odlabel/0.7.26.1-0.7.26.2/README.md --exclude *.pyd
+[2024-05-10 18:18:30] INFO root fetch - processPackages [morebuiltins]: executing diffoscope
+[2024-05-10 18:18:30] INFO root fetch - processPackages [morebuiltins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morebuiltins-0.0.3.tar.gz tmp/morebuiltins-0.0.4.tar.gz --markdown 20240510/m/morebuiltins/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 18:18:31] INFO root fetch - processPackages [morebuiltins]: Remove: archive file [/home/abi/fetcher/tmp/morebuiltins-0.0.3.tar.gz]
+[2024-05-10 18:18:31] INFO root fetch - processPackages [morebuiltins]: Remove: archive file [/home/abi/fetcher/tmp/morebuiltins-0.0.4.tar.gz]
+[2024-05-10 18:18:31] INFO root fetch - main [MainThread]: End processing [morebuiltins]: success
+[2024-05-10 18:18:31] INFO root fetch - processPackages [odlabel]: Remove: archive file [/home/abi/fetcher/tmp/odlabel-0.7.26.1.tar.gz]
+[2024-05-10 18:18:31] INFO root fetch - processPackages [odlabel]: Remove: archive file [/home/abi/fetcher/tmp/odlabel-0.7.26.2.tar.gz]
+[2024-05-10 18:18:31] INFO root fetch - main [MainThread]: End processing [odlabel]: success
+[2024-05-10 18:18:31] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715347506.tar.gz]
+[2024-05-10 18:18:31] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715349279.tar.gz]
+[2024-05-10 18:18:31] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-10 18:18:31] INFO root fetch - main [MainThread]: Store serial: [23149556]
