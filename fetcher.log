@@ -21401,3 +21401,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:28:07] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0b1.tar.gz]
 [2024-05-10 16:28:07] INFO root fetch - main [MainThread]: End processing [work]: success
 [2024-05-10 16:28:07] INFO root fetch - main [MainThread]: Store serial: [23147996]
+[2024-05-10 16:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147996]
+[2024-05-10 16:30:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 16:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mbonig.secret
+[2024-05-10 16:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: requests-darwin-lite
+[2024-05-10 16:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carmen-cloud-client
+[2024-05-10 16:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emkonfig
+[2024-05-10 16:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yamcs-client
+[2024-05-10 16:30:17] INFO root fetch - processPackages [emkonfig]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 16:30:17] INFO root fetch - processPackages [carmen-cloud-client]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-10 16:30:17] INFO root fetch - processPackages [requests-darwin-lite]: New version: [2.28.0] Old Version: [2.27.2]
+[2024-05-10 16:30:17] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/d6/60/f5fc90769b6cd230fe159d57d547e0449290e1f5ab69e415b35ec6afccb7/emkonfig-0.1.5.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [carmen-cloud-client]: Downloading https://files.pythonhosted.org/packages/c5/13/29cb0e256deea79297353ea57a328a509f4ccaf30a40756e531ac13db1b7/carmen_cloud_client-1.0.3.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [requests-darwin-lite]: Downloading https://files.pythonhosted.org/packages/3a/30/cf13097be73d36bf7ae26517b3f9c44d82dfeb8b6bda6f0b2ddb8c92975b/requests_darwin_lite-2.27.2.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [yamcs-client]: New version: [1.9.7] Old Version: [1.9.6]
+[2024-05-10 16:30:17] INFO root fetch - processPackages [mbonig.secret]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 16:30:17] INFO root fetch - processPackages [mbonig.secret]: Downloading https://files.pythonhosted.org/packages/27/40/b37c1b3aa5ca1a301d098ef68ad1c15a5b638cc13beec9b8ad8af74ca3b1/mbonig.secret-0.0.3.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [yamcs-client]: Downloading https://files.pythonhosted.org/packages/bf/bb/f5fab97065f5f9099479a35e294c1571a0ce4e84c21eb9d85a55de77ce75/yamcs_client-1.9.6.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/d7/21/9c31829d04986fb210eff0ea8b9947c3bae398bea9cfd1f22dc295da667b/emkonfig-0.1.6.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [emkonfig]: executing diffoscope
+[2024-05-10 16:30:17] INFO root fetch - processPackages [emkonfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emkonfig-0.1.5.tar.gz tmp/emkonfig-0.1.6.tar.gz --markdown 20240510/e/emkonfig/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 16:30:17] INFO root fetch - processPackages [requests-darwin-lite]: Downloading https://files.pythonhosted.org/packages/6d/6d/3a6660aeff510b697b170cabe31f7979a7a48db36ceaa0bd5d01a493526c/requests_darwin_lite-2.28.0.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [carmen-cloud-client]: Downloading https://files.pythonhosted.org/packages/97/c2/b0384eac823452f10156cda0cf9ad696a5e440bf926cadd9a512d704ba30/carmen_cloud_client-1.1.0.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [yamcs-client]: Downloading https://files.pythonhosted.org/packages/21/e8/86e7ac34e71686c1a8b2aa71a1bf008ae2e2f8133df42c97c96f69859e5f/yamcs_client-1.9.7.tar.gz
+[2024-05-10 16:30:17] INFO root fetch - processPackages [mbonig.secret]: Downloading https://files.pythonhosted.org/packages/9f/54/bb9c73696cc7a9d9ffd33f08c7dab539d21698e7a0584c4e3fe8ee74aef5/mbonig.secret-0.0.4.tar.gz
+[2024-05-10 16:30:18] INFO root fetch - processPackages [yamcs-client]: executing diffoscope
+[2024-05-10 16:30:18] INFO root fetch - processPackages [yamcs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamcs_client-1.9.6.tar.gz tmp/yamcs_client-1.9.7.tar.gz --markdown 20240510/y/yamcs-client/1.9.6-1.9.7/README.md --exclude *.pyd
+[2024-05-10 16:30:18] INFO root fetch - processPackages [requests-darwin-lite]: executing diffoscope
+[2024-05-10 16:30:18] INFO root fetch - processPackages [requests-darwin-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_darwin_lite-2.27.2.tar.gz tmp/requests_darwin_lite-2.28.0.tar.gz --markdown 20240510/r/requests-darwin-lite/2.27.2-2.28.0/README.md --exclude *.pyd
+[2024-05-10 16:30:18] INFO root fetch - processPackages [carmen-cloud-client]: executing diffoscope
+[2024-05-10 16:30:18] INFO root fetch - processPackages [carmen-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carmen_cloud_client-1.0.3.tar.gz tmp/carmen_cloud_client-1.1.0.tar.gz --markdown 20240510/c/carmen-cloud-client/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-10 16:30:18] INFO root fetch - processPackages [mbonig.secret]: executing diffoscope
+[2024-05-10 16:30:18] INFO root fetch - processPackages [mbonig.secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbonig.secret-0.0.3.tar.gz tmp/mbonig.secret-0.0.4.tar.gz --markdown 20240510/m/mbonig.secret/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 16:30:18] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.5.tar.gz]
+[2024-05-10 16:30:18] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.6.tar.gz]
+[2024-05-10 16:30:18] INFO root fetch - main [MainThread]: End processing [emkonfig]: success
+[2024-05-10 16:30:18] INFO root fetch - processPackages [mbonig.secret]: Remove: archive file [/home/abi/fetcher/tmp/mbonig.secret-0.0.3.tar.gz]
+[2024-05-10 16:30:18] INFO root fetch - processPackages [mbonig.secret]: Remove: archive file [/home/abi/fetcher/tmp/mbonig.secret-0.0.4.tar.gz]
+[2024-05-10 16:30:18] INFO root fetch - main [MainThread]: End processing [mbonig.secret]: success
+[2024-05-10 16:30:19] INFO root fetch - processPackages [yamcs-client]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_client-1.9.6.tar.gz]
+[2024-05-10 16:30:19] INFO root fetch - processPackages [yamcs-client]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_client-1.9.7.tar.gz]
+[2024-05-10 16:30:19] INFO root fetch - main [MainThread]: End processing [yamcs-client]: success
+[2024-05-10 16:30:19] INFO root fetch - processPackages [carmen-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/carmen_cloud_client-1.0.3.tar.gz]
+[2024-05-10 16:30:19] INFO root fetch - processPackages [carmen-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/carmen_cloud_client-1.1.0.tar.gz]
+[2024-05-10 16:30:19] INFO root fetch - main [MainThread]: End processing [carmen-cloud-client]: success
+[2024-05-10 16:30:19] INFO root fetch - processPackages [requests-darwin-lite]: Remove: archive file [/home/abi/fetcher/tmp/requests_darwin_lite-2.27.2.tar.gz]
+[2024-05-10 16:30:19] INFO root fetch - processPackages [requests-darwin-lite]: Remove: archive file [/home/abi/fetcher/tmp/requests_darwin_lite-2.28.0.tar.gz]
+[2024-05-10 16:30:19] INFO root fetch - main [MainThread]: End processing [requests-darwin-lite]: success
+[2024-05-10 16:30:19] INFO root fetch - main [MainThread]: Store serial: [23148023]
