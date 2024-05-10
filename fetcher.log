@@ -2805,3 +2805,36 @@
 [2024-05-10 02:38:39] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-5.1.1.tar.gz]
 [2024-05-10 02:38:39] INFO root fetch - main [MainThread]: End processing [libsrg]: success
 [2024-05-10 02:38:39] INFO root fetch - main [MainThread]: Store serial: [23139489]
+[2024-05-10 02:40:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139489]
+[2024-05-10 02:40:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 02:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: POKE-DONPOLLO
+[2024-05-10 02:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outkillz
+[2024-05-10 02:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pixell
+[2024-05-10 02:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-usefathom
+[2024-05-10 02:40:48] INFO root fetch - processPackages [django-usefathom]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-10 02:40:48] INFO root fetch - processPackages [django-usefathom]: Downloading https://files.pythonhosted.org/packages/d4/6a/8f0dd4a2bfec7dc857e0af12baae08893588701ae035f1c9b68f60370e10/django_usefathom-2.0.1.tar.gz
+[2024-05-10 02:40:48] WARNING root fetch - processPackages [outkillz]: Skipping, unable to determine old version
+[2024-05-10 02:40:48] INFO root fetch - main [MainThread]: End processing [outkillz] error
+[2024-05-10 02:40:48] INFO root fetch - processPackages [POKE-DONPOLLO]: New version: [2.0.5] Old Version: [2.0.1]
+[2024-05-10 02:40:48] INFO root fetch - processPackages [pixell]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-10 02:40:48] INFO root fetch - processPackages [POKE-DONPOLLO]: Downloading https://files.pythonhosted.org/packages/29/b7/f0d376ab028b3a1fec59bbbb347fc1a034b31bd0c1d7a17dd4445f1fad14/poke_donpollo-2.0.1.tar.gz
+[2024-05-10 02:40:48] INFO root fetch - processPackages [django-usefathom]: Downloading https://files.pythonhosted.org/packages/56/97/08f5a2517aa06a5b9da47c7159f2d7b7ad29953900c996978a2138a57c86/django_usefathom-2.0.2.tar.gz
+[2024-05-10 02:40:48] INFO root fetch - processPackages [pixell]: Downloading https://files.pythonhosted.org/packages/cd/21/600b31eb7ee7eb1cd007ce6b4bd3ebc34c24dc2482534c31f108dfac7df3/pixell-0.9.5-cp38-cp38-manylinux2010_x86_64.whl
+[2024-05-10 02:40:48] INFO root fetch - processPackages [django-usefathom]: executing diffoscope
+[2024-05-10 02:40:48] INFO root fetch - processPackages [django-usefathom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_usefathom-2.0.1.tar.gz tmp/django_usefathom-2.0.2.tar.gz --markdown 20240510/d/django-usefathom/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-10 02:40:48] INFO root fetch - processPackages [POKE-DONPOLLO]: Downloading https://files.pythonhosted.org/packages/27/e3/2a11848675f5f7aad577f0073dd7900943c7921afbce3ffa9f61f7a3c043/poke_donpollo-2.0.5.tar.gz
+[2024-05-10 02:40:48] INFO root fetch - processPackages [POKE-DONPOLLO]: executing diffoscope
+[2024-05-10 02:40:48] INFO root fetch - processPackages [POKE-DONPOLLO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poke_donpollo-2.0.1.tar.gz tmp/poke_donpollo-2.0.5.tar.gz --markdown 20240510/P/POKE-DONPOLLO/2.0.1-2.0.5/README.md --exclude *.pyd
+[2024-05-10 02:40:49] INFO root fetch - processPackages [django-usefathom]: Remove: archive file [/home/abi/fetcher/tmp/django_usefathom-2.0.1.tar.gz]
+[2024-05-10 02:40:49] INFO root fetch - processPackages [django-usefathom]: Remove: archive file [/home/abi/fetcher/tmp/django_usefathom-2.0.2.tar.gz]
+[2024-05-10 02:40:49] INFO root fetch - main [MainThread]: End processing [django-usefathom]: success
+[2024-05-10 02:40:49] INFO root fetch - processPackages [POKE-DONPOLLO]: Remove: archive file [/home/abi/fetcher/tmp/poke_donpollo-2.0.1.tar.gz]
+[2024-05-10 02:40:49] INFO root fetch - processPackages [POKE-DONPOLLO]: Remove: archive file [/home/abi/fetcher/tmp/poke_donpollo-2.0.5.tar.gz]
+[2024-05-10 02:40:49] INFO root fetch - main [MainThread]: End processing [POKE-DONPOLLO]: success
+[2024-05-10 02:40:52] INFO root fetch - processPackages [pixell]: Downloading https://files.pythonhosted.org/packages/99/51/d79a5767de2d6607a8c1d08392635a65479285d7c7a071158bc441a76a0c/pixell-0.9.6.tar.gz
+[2024-05-10 02:40:54] INFO root fetch - processPackages [pixell]: executing diffoscope
+[2024-05-10 02:40:54] INFO root fetch - processPackages [pixell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixell-0.9.5-cp38-cp38-manylinux2010_x86_64.whl.zip tmp/pixell-0.9.6.tar.gz --markdown 20240510/p/pixell/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-10 02:41:03] INFO root fetch - processPackages [pixell]: Remove: archive file [/home/abi/fetcher/tmp/pixell-0.9.5-cp38-cp38-manylinux2010_x86_64.whl.zip]
+[2024-05-10 02:41:03] INFO root fetch - processPackages [pixell]: Remove: archive file [/home/abi/fetcher/tmp/pixell-0.9.6.tar.gz]
+[2024-05-10 02:41:03] INFO root fetch - main [MainThread]: End processing [pixell]: success
+[2024-05-10 02:41:03] INFO root fetch - main [MainThread]: Store serial: [23139506]
