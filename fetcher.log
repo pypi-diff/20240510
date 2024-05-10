@@ -3349,3 +3349,15 @@
 [2024-05-10 03:23:25] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-05-10 03:23:25] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-05-10 03:23:25] INFO root fetch - main [MainThread]: Store serial: [23139906]
+[2024-05-10 03:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139906]
+[2024-05-10 03:25:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 03:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced_navigation
+[2024-05-10 03:25:34] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 03:25:34] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/ef/cf/81f9eee7d36651d3cbe90c344375885743b9843b1c96749cff7bad30cc8e/advanced_navigation-0.1.1.tar.gz
+[2024-05-10 03:25:34] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/7e/a1/0dec6f8fdada7446898ae9ab6d3a0d1eabb749cdb188c1011e5b010e38f5/advanced_navigation-0.1.2.tar.gz
+[2024-05-10 03:25:34] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-10 03:25:34] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.1.tar.gz tmp/advanced_navigation-0.1.2.tar.gz --markdown 20240510/a/advanced_navigation/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 03:25:35] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.1.tar.gz]
+[2024-05-10 03:25:35] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.2.tar.gz]
+[2024-05-10 03:25:35] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-10 03:25:35] INFO root fetch - main [MainThread]: Store serial: [23139910]
