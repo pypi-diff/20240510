@@ -5966,3 +5966,56 @@
 [2024-05-10 05:55:37] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.24.tar.gz]
 [2024-05-10 05:55:37] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter]: success
 [2024-05-10 05:55:37] INFO root fetch - main [MainThread]: Store serial: [23140982]
+[2024-05-10 05:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140982]
+[2024-05-10 05:57:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bushwhackz
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eenhoorntje-llm-lib
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: addemongo
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-aws
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ParentLOL
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fetch-sitemap
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dupedomz
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OZI
+[2024-05-10 05:57:46] WARNING root fetch - processPackages [addemongo]: Skipping, unable to determine old version
+[2024-05-10 05:57:46] INFO root fetch - main [MainThread]: End processing [addemongo] error
+[2024-05-10 05:57:46] WARNING root fetch - processPackages [bushwhackz]: Skipping, unable to determine old version
+[2024-05-10 05:57:46] INFO root fetch - main [MainThread]: End processing [bushwhackz] error
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ParentLOL]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 05:57:46] INFO root fetch - processPackages [OZI]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-05-10 05:57:46] INFO root fetch - processPackages [eenhoorntje-llm-lib]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 05:57:46] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-05-10 05:57:46] WARNING root fetch - processPackages [dupedomz]: Skipping, unable to determine old version
+[2024-05-10 05:57:46] INFO root fetch - main [MainThread]: End processing [dupedomz] error
+[2024-05-10 05:57:46] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-10 05:57:46] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/26/92/e46e547bf3079fcc66ef2b7ce2c85e97c5a652d5d7b3a10da5ef45ea3ee2/OZI-1.4.3.tar.gz
+[2024-05-10 05:57:46] INFO root fetch - processPackages [ParentLOL]: Downloading https://files.pythonhosted.org/packages/5e/71/f2bde9255a05c270133d786521cde6cf0573138072a76dcf5e80d422c7bb/parentlol-0.0.1.tar.gz
+[2024-05-10 05:57:46] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/58/53/c1bd6020de71ee2c61bd61f6c2d4ad72551fc6b613896bfdf423f9900b0a/eenhoorntje_llm_lib-0.8.tar.gz
+[2024-05-10 05:57:46] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-05-10 05:57:46] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2024-05-10 05:57:47] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/dd/43/861f01cf41815f76f4490851e3915e2c2971abf9305f652a63ce1b96ee8c/OZI-1.5.0.tar.gz
+[2024-05-10 05:57:47] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2024-05-10 05:57:47] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2024-05-10 05:57:47] INFO root fetch - processPackages [ParentLOL]: Downloading https://files.pythonhosted.org/packages/21/10/049f11390bc2dfa200e6ce00322516d21b210b450cc8e3f3611c99d45703/parentlol-0.0.2.tar.gz
+[2024-05-10 05:57:47] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-10 05:57:47] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.4.3.tar.gz tmp/OZI-1.5.0.tar.gz --markdown 20240510/O/OZI/1.4.3-1.5.0/README.md --exclude *.pyd
+[2024-05-10 05:57:47] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/6b/11/c58a3da50ee0ab313c0bb6c3b32dfcc29ee0022b5157d9e22cbdc4e456be/eenhoorntje_llm_lib-0.9.tar.gz
+[2024-05-10 05:57:47] INFO root fetch - processPackages [ParentLOL]: executing diffoscope
+[2024-05-10 05:57:47] INFO root fetch - processPackages [ParentLOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parentlol-0.0.1.tar.gz tmp/parentlol-0.0.2.tar.gz --markdown 20240510/P/ParentLOL/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 05:57:47] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-05-10 05:57:47] INFO root fetch - processPackages [eenhoorntje-llm-lib]: executing diffoscope
+[2024-05-10 05:57:47] INFO root fetch - processPackages [eenhoorntje-llm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eenhoorntje_llm_lib-0.8.tar.gz tmp/eenhoorntje_llm_lib-0.9.tar.gz --markdown 20240510/e/eenhoorntje-llm-lib/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 05:57:47] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-05-10 05:57:47] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240510/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-05-10 05:57:47] INFO root fetch - processPackages [ParentLOL]: Remove: archive file [/home/abi/fetcher/tmp/parentlol-0.0.1.tar.gz]
+[2024-05-10 05:57:47] INFO root fetch - processPackages [ParentLOL]: Remove: archive file [/home/abi/fetcher/tmp/parentlol-0.0.2.tar.gz]
+[2024-05-10 05:57:47] INFO root fetch - main [MainThread]: End processing [ParentLOL]: success
+[2024-05-10 05:57:47] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.8.tar.gz]
+[2024-05-10 05:57:47] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.9.tar.gz]
+[2024-05-10 05:57:47] INFO root fetch - main [MainThread]: End processing [eenhoorntje-llm-lib]: success
+[2024-05-10 05:57:48] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-05-10 05:57:48] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-05-10 05:57:48] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-05-10 05:57:48] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.4.3.tar.gz]
+[2024-05-10 05:57:48] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.5.0.tar.gz]
+[2024-05-10 05:57:48] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-10 05:57:48] INFO root fetch - main [MainThread]: Store serial: [23141009]
