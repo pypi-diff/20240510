@@ -9385,3 +9385,66 @@
 [2024-05-10 09:13:02] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-1.0.0.tar.gz]
 [2024-05-10 09:13:02] INFO root fetch - main [MainThread]: End processing [getstream]: success
 [2024-05-10 09:13:02] INFO root fetch - main [MainThread]: Store serial: [23142606]
+[2024-05-10 09:15:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142606]
+[2024-05-10 09:15:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autofracture
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbimagetotext
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localcosmos-app-kit-taxonomy
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: random-real-address
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zazzywebatt
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pastperfect
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: riddlesolver
+[2024-05-10 09:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openagents-grpc-proto
+[2024-05-10 09:15:11] INFO root fetch - processPackages [riddlesolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:15:11] INFO root fetch - processPackages [openagents-grpc-proto]: New version: [0.8] Old Version: [0.7.9]
+[2024-05-10 09:15:11] INFO root fetch - processPackages [autofracture]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 09:15:11] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:15:11] WARNING root fetch - processPackages [zazzywebatt]: Skipping, unable to determine old version
+[2024-05-10 09:15:11] INFO root fetch - main [MainThread]: End processing [zazzywebatt] error
+[2024-05-10 09:15:11] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/c8/07/57c53e60ea04fd797642bb8f833c304f525c8d347f0f28d9618d50e01895/openagents_grpc_proto-0.7.9.tar.gz
+[2024-05-10 09:15:11] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 09:15:11] INFO root fetch - processPackages [pastperfect]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 09:15:11] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/8b/0b/5d8ba16dc2ea29ecfd27ef083dad139cd6ff7a327a7f22334bb9aa882db7/riddlesolver-0.1.8.tar.gz
+[2024-05-10 09:15:11] WARNING root fetch - processPackages [random-real-address]: Skipping, unable to determine old version
+[2024-05-10 09:15:11] INFO root fetch - main [MainThread]: End processing [random-real-address] error
+[2024-05-10 09:15:11] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/bd/46/da5c6c23529adc83ae3c7b22df65d9c15572d11dc4bdc685a9b1797c2787/autofracture-0.0.4.tar.gz
+[2024-05-10 09:15:11] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Downloading https://files.pythonhosted.org/packages/45/08/373303f63345e57ee87d9e25ca51ca171ca08c535e2ae7ef59b883291c8a/localcosmos_app_kit_taxonomy-0.1.2.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [pastperfect]: Downloading https://files.pythonhosted.org/packages/26/4b/07e7c4592b8f54a2a2ebb6b8907ea3454294417c8a017822619aadaad800/pastperfect-0.1.0.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/ea/40/4c9267d8b9c8b0c9b92410591fc741d677f6e230eaa07ed5ef3db4e6c584/openagents_grpc_proto-0.8.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/46/68/daef27bbcc176c6be119dbd92ff2be28b6d27558058a394d39d371188751/riddlesolver-0.1.9.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/f4/53/cbb96146ed606fe709651b6795ab5f137e293e328cf2c39091f590bd5914/autofracture-0.0.5.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [openagents-grpc-proto]: executing diffoscope
+[2024-05-10 09:15:12] INFO root fetch - processPackages [openagents-grpc-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_grpc_proto-0.7.9.tar.gz tmp/openagents_grpc_proto-0.8.tar.gz --markdown 20240510/o/openagents-grpc-proto/0.7.9-0.8/README.md --exclude *.pyd
+[2024-05-10 09:15:12] INFO root fetch - processPackages [riddlesolver]: executing diffoscope
+[2024-05-10 09:15:12] INFO root fetch - processPackages [riddlesolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riddlesolver-0.1.8.tar.gz tmp/riddlesolver-0.1.9.tar.gz --markdown 20240510/r/riddlesolver/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:15:12] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-10 09:15:12] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240510/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:15:12] INFO root fetch - processPackages [autofracture]: executing diffoscope
+[2024-05-10 09:15:12] INFO root fetch - processPackages [autofracture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofracture-0.0.4.tar.gz tmp/autofracture-0.0.5.tar.gz --markdown 20240510/a/autofracture/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 09:15:12] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Downloading https://files.pythonhosted.org/packages/ed/d0/86bee12ad0d487cf8be3ae550728ae18583e064dcb808cc24fe4af23052e/localcosmos_app_kit_taxonomy-0.1.3.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [pastperfect]: Downloading https://files.pythonhosted.org/packages/e8/2d/ae4a39c5ed3280524aef07d86bd14ad3f38242cac83cf6b9564a90559358/pastperfect-0.1.1.tar.gz
+[2024-05-10 09:15:12] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: executing diffoscope
+[2024-05-10 09:15:12] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_app_kit_taxonomy-0.1.2.tar.gz tmp/localcosmos_app_kit_taxonomy-0.1.3.tar.gz --markdown 20240510/l/localcosmos-app-kit-taxonomy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 09:15:12] INFO root fetch - processPackages [pastperfect]: executing diffoscope
+[2024-05-10 09:15:12] INFO root fetch - processPackages [pastperfect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastperfect-0.1.0.tar.gz tmp/pastperfect-0.1.1.tar.gz --markdown 20240510/p/pastperfect/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 09:15:13] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.4.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.5.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.7.9.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - main [MainThread]: End processing [autofracture]: success
+[2024-05-10 09:15:13] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.8.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - main [MainThread]: End processing [openagents-grpc-proto]: success
+[2024-05-10 09:15:13] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.8.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
+[2024-05-10 09:15:13] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-10 09:15:13] INFO root fetch - processPackages [pastperfect]: Remove: archive file [/home/abi/fetcher/tmp/pastperfect-0.1.0.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - processPackages [pastperfect]: Remove: archive file [/home/abi/fetcher/tmp/pastperfect-0.1.1.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - main [MainThread]: End processing [pastperfect]: success
+[2024-05-10 09:15:13] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit_taxonomy-0.1.2.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit_taxonomy-0.1.3.tar.gz]
+[2024-05-10 09:15:13] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit-taxonomy]: success
+[2024-05-10 09:15:13] INFO root fetch - main [MainThread]: Store serial: [23142634]
