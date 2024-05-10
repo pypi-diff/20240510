@@ -18656,3 +18656,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:00:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.992.tar.gz]
 [2024-05-10 15:00:13] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
 [2024-05-10 15:00:13] INFO root fetch - main [MainThread]: Store serial: [23146633]
+[2024-05-10 15:02:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146633]
+[2024-05-10 15:02:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panel
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: camphoryz
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rest-solace
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molcompview
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ChatGPTWeb
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-fedit
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-workflow-sdk
+[2024-05-10 15:02:22] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.5rc6] Old Version: [1.5.5rc5]
+[2024-05-10 15:02:22] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 15:02:22] INFO root fetch - processPackages [panel]: New version: [1.5.0a1] Old Version: [1.4.3a2]
+[2024-05-10 15:02:22] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/6a/ba/6e490d47ceca89172b695bcd6af6a234e5b6db2cd909a3db5fadf778cc84/wagtail_fedit-1.5.5rc5.tar.gz
+[2024-05-10 15:02:22] WARNING root fetch - processPackages [molcompview]: Skipping, unable to determine old version
+[2024-05-10 15:02:22] INFO root fetch - main [MainThread]: End processing [molcompview] error
+[2024-05-10 15:02:22] INFO root fetch - processPackages [rest-solace]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-10 15:02:22] INFO root fetch - processPackages [camphoryz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ChatGPTWeb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 15:02:22] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-10 15:02:22] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/90/8d/274101298194cabb4321c680190d91b013e78329371d536ca82b4c9c9c95/panel-1.4.3a2.tar.gz
+[2024-05-10 15:02:22] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 38421845>=10485760
+[2024-05-10 15:02:22] INFO root fetch - main [MainThread]: End processing [panel] error
+[2024-05-10 15:02:22] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/f3/7a/e6b4b4827dc19af2fc433fd3a05df8a7a301bbd742144073bf2018df5ed5/rest_solace-0.0.0.tar.gz
+[2024-05-10 15:02:22] INFO root fetch - processPackages [camphoryz]: Downloading https://files.pythonhosted.org/packages/3a/54/90ad85f7f0d1e25189e7e48fc58d7002e015648970fd10b69d9eb163f77d/camphoryz-1.1.tar.gz
+[2024-05-10 15:02:22] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/64/ae/2f986cd475122ec53ebb9d54422dc11917b07177be12faa370990601c8b5/wagtail_fedit-1.5.5rc6.tar.gz
+[2024-05-10 15:02:22] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-10 15:02:22] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/82/0b/2f40072238e539ff3dafbd19d986e0824e96f181027997b032d565a7250f/ChatGPTWeb-0.2.8.tar.gz
+[2024-05-10 15:02:23] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-10 15:02:23] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.5rc5.tar.gz tmp/wagtail_fedit-1.5.5rc6.tar.gz --markdown 20240510/w/wagtail-fedit/1.5.5rc5-1.5.5rc6/README.md --exclude *.pyd
+[2024-05-10 15:02:23] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-10 15:02:23] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240510/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 15:02:23] INFO root fetch - processPackages [camphoryz]: Downloading https://files.pythonhosted.org/packages/68/99/c705934fe835f6e7de6d5ae1f8590d8177f35e015e752393cd3c28ba0b43/camphoryz-2.1.tar.gz
+[2024-05-10 15:02:23] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/39/3c/8567845a17f16ea8d02ec0364e399c4392828cca8d978b7c6902666aeb37/rest_solace-0.0.1.tar.gz
+[2024-05-10 15:02:23] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/c2/07/48a39963a051837ad1394281b0a7803bd8e57f7bd348e48ace95874fc0bb/ChatGPTWeb-0.2.9.tar.gz
+[2024-05-10 15:02:23] INFO root fetch - processPackages [camphoryz]: executing diffoscope
+[2024-05-10 15:02:23] INFO root fetch - processPackages [camphoryz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camphoryz-1.1.tar.gz tmp/camphoryz-2.1.tar.gz --markdown 20240510/c/camphoryz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 15:02:23] INFO root fetch - processPackages [rest-solace]: executing diffoscope
+[2024-05-10 15:02:23] INFO root fetch - processPackages [rest-solace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_solace-0.0.0.tar.gz tmp/rest_solace-0.0.1.tar.gz --markdown 20240510/r/rest-solace/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-10 15:02:23] INFO root fetch - processPackages [ChatGPTWeb]: executing diffoscope
+[2024-05-10 15:02:23] INFO root fetch - processPackages [ChatGPTWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTWeb-0.2.8.tar.gz tmp/ChatGPTWeb-0.2.9.tar.gz --markdown 20240510/C/ChatGPTWeb/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 15:02:23] INFO root fetch - processPackages [camphoryz]: Remove: archive file [/home/abi/fetcher/tmp/camphoryz-1.1.tar.gz]
+[2024-05-10 15:02:23] INFO root fetch - processPackages [camphoryz]: Remove: archive file [/home/abi/fetcher/tmp/camphoryz-2.1.tar.gz]
+[2024-05-10 15:02:23] INFO root fetch - main [MainThread]: End processing [camphoryz]: success
+[2024-05-10 15:02:23] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.0.0.tar.gz]
+[2024-05-10 15:02:23] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.0.1.tar.gz]
+[2024-05-10 15:02:23] INFO root fetch - main [MainThread]: End processing [rest-solace]: success
+[2024-05-10 15:02:24] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc5.tar.gz]
+[2024-05-10 15:02:24] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc6.tar.gz]
+[2024-05-10 15:02:24] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-10 15:02:24] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.8.tar.gz]
+[2024-05-10 15:02:24] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.9.tar.gz]
+[2024-05-10 15:02:24] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
+[2024-05-10 15:02:24] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-10 15:02:24] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-10 15:02:24] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-10 15:02:24] INFO root fetch - main [MainThread]: Store serial: [23146657]
