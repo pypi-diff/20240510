@@ -10182,3 +10182,75 @@
 [2024-05-10 09:58:17] INFO root fetch - processPackages [ingenialink]: Remove: archive file [/home/abi/fetcher/tmp/ingenialink-7.3.1.tar.gz]
 [2024-05-10 09:58:17] INFO root fetch - main [MainThread]: End processing [ingenialink]: success
 [2024-05-10 09:58:17] INFO root fetch - main [MainThread]: Store serial: [23142990]
+[2024-05-10 10:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142990]
+[2024-05-10 10:00:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abampz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telq
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: depmanager
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generate-od
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yhx-world
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yunzhanghu-sdk
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ahk
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pg-sync-roles
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notdiamond
+[2024-05-10 10:00:26] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 10:00:26] WARNING root fetch - processPackages [yhx-world]: Skipping, unable to determine old version
+[2024-05-10 10:00:26] INFO root fetch - main [MainThread]: End processing [yhx-world] error
+[2024-05-10 10:00:26] INFO root fetch - processPackages [yunzhanghu-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 10:00:26] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-10 10:00:26] WARNING root fetch - processPackages [generate-od]: Skipping, unable to determine old version
+[2024-05-10 10:00:26] INFO root fetch - processPackages [abampz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 10:00:26] INFO root fetch - main [MainThread]: End processing [generate-od] error
+[2024-05-10 10:00:26] INFO root fetch - processPackages [telq]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-10 10:00:26] INFO root fetch - processPackages [notdiamond]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2024-05-10 10:00:26] INFO root fetch - processPackages [depmanager]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ahk]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-10 10:00:26] INFO root fetch - processPackages [telq]: Downloading https://files.pythonhosted.org/packages/c2/3f/a511872d81abd47efe5b0d34a79ade61a73ff31c30e7cc0ca9b5ee17d655/telq-1.3.1.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [abampz]: Downloading https://files.pythonhosted.org/packages/a4/fc/1967065de5d219906982c3485d68421ffeec7358cd3b8186764339b95b1b/abampz-1.1.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [yunzhanghu-sdk]: Downloading https://files.pythonhosted.org/packages/46/c8/8df8a3e3936061a3dad1582700aab2eddce15e0d937d7c5115e33bcf56c3/yunzhanghu_sdk-1.0.8.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [depmanager]: Downloading https://files.pythonhosted.org/packages/6d/9b/d7ecb5729fa40305ee9ead35b8f1d7b74c5595dfe66fae095895e787630f/depmanager-0.3.3.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/6d/de/cb1c423f06ea5f830dc7054c3eb00d3d206eb6ae388c551a05a0ad13371e/notdiamond-0.1.8b0.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/06/43/a1480ed92b976272f84bf4ac91a3649247eb51b19a5615873a092770b9a7/ahk-1.7.1.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-10 10:00:26] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240510/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 10:00:26] INFO root fetch - processPackages [telq]: Downloading https://files.pythonhosted.org/packages/13/cf/25b2ba3a15ac4e0a09996e6a658f696fca6ec04c4fe71160744774f9c599/telq-1.3.2.tar.gz
+[2024-05-10 10:00:26] INFO root fetch - processPackages [abampz]: Downloading https://files.pythonhosted.org/packages/5b/80/51bf5d88f0496dca52871394e79e8dd542c7a22ad59e637cba61af586508/abampz-2.1.tar.gz
+[2024-05-10 10:00:27] INFO root fetch - processPackages [telq]: executing diffoscope
+[2024-05-10 10:00:27] INFO root fetch - processPackages [telq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telq-1.3.1.tar.gz tmp/telq-1.3.2.tar.gz --markdown 20240510/t/telq/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-10 10:00:27] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/51/50/0c0b853e03c99a737a4dbdaf1df8d75e85710bee6595135d244e21db096d/ahk-1.7.2.tar.gz
+[2024-05-10 10:00:27] INFO root fetch - processPackages [abampz]: executing diffoscope
+[2024-05-10 10:00:27] INFO root fetch - processPackages [abampz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abampz-1.1.tar.gz tmp/abampz-2.1.tar.gz --markdown 20240510/a/abampz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 10:00:27] INFO root fetch - processPackages [depmanager]: Downloading https://files.pythonhosted.org/packages/b5/55/b78035d4b2f521e0fa13774d2ddd33dafd80a93810d41f206604774f2214/depmanager-0.3.4.tar.gz
+[2024-05-10 10:00:27] INFO root fetch - processPackages [yunzhanghu-sdk]: Downloading https://files.pythonhosted.org/packages/d1/3f/418d9e2c48c16314b5416bd22053ade69d31e926120ae266083e7e4b233d/yunzhanghu_sdk-1.0.9.tar.gz
+[2024-05-10 10:00:27] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/ca/a2/0af46e6cc03ef4f28da6e149a8e8f12458a7285f90b855a006e0726be24d/notdiamond-0.1.9b0.tar.gz
+[2024-05-10 10:00:27] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2024-05-10 10:00:27] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.7.1.tar.gz tmp/ahk-1.7.2.tar.gz --markdown 20240510/a/ahk/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-10 10:00:27] INFO root fetch - processPackages [depmanager]: executing diffoscope
+[2024-05-10 10:00:27] INFO root fetch - processPackages [depmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depmanager-0.3.3.tar.gz tmp/depmanager-0.3.4.tar.gz --markdown 20240510/d/depmanager/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-10 10:00:27] INFO root fetch - processPackages [notdiamond]: executing diffoscope
+[2024-05-10 10:00:27] INFO root fetch - processPackages [notdiamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond-0.1.8b0.tar.gz tmp/notdiamond-0.1.9b0.tar.gz --markdown 20240510/n/notdiamond/0.1.8b0-0.1.9b0/README.md --exclude *.pyd
+[2024-05-10 10:00:27] INFO root fetch - processPackages [yunzhanghu-sdk]: executing diffoscope
+[2024-05-10 10:00:27] INFO root fetch - processPackages [yunzhanghu-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunzhanghu_sdk-1.0.8.tar.gz tmp/yunzhanghu_sdk-1.0.9.tar.gz --markdown 20240510/y/yunzhanghu-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 10:00:27] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-10 10:00:27] INFO root fetch - processPackages [abampz]: Remove: archive file [/home/abi/fetcher/tmp/abampz-1.1.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - processPackages [abampz]: Remove: archive file [/home/abi/fetcher/tmp/abampz-2.1.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - main [MainThread]: End processing [abampz]: success
+[2024-05-10 10:00:27] INFO root fetch - processPackages [telq]: Remove: archive file [/home/abi/fetcher/tmp/telq-1.3.1.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - processPackages [telq]: Remove: archive file [/home/abi/fetcher/tmp/telq-1.3.2.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - main [MainThread]: End processing [telq]: success
+[2024-05-10 10:00:27] INFO root fetch - processPackages [depmanager]: Remove: archive file [/home/abi/fetcher/tmp/depmanager-0.3.3.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - processPackages [depmanager]: Remove: archive file [/home/abi/fetcher/tmp/depmanager-0.3.4.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - main [MainThread]: End processing [depmanager]: success
+[2024-05-10 10:00:27] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.8b0.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.9b0.tar.gz]
+[2024-05-10 10:00:27] INFO root fetch - main [MainThread]: End processing [notdiamond]: success
+[2024-05-10 10:00:28] INFO root fetch - processPackages [yunzhanghu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yunzhanghu_sdk-1.0.8.tar.gz]
+[2024-05-10 10:00:28] INFO root fetch - processPackages [yunzhanghu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yunzhanghu_sdk-1.0.9.tar.gz]
+[2024-05-10 10:00:28] INFO root fetch - main [MainThread]: End processing [yunzhanghu-sdk]: success
+[2024-05-10 10:00:28] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.7.1.tar.gz]
+[2024-05-10 10:00:28] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.7.2.tar.gz]
+[2024-05-10 10:00:28] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2024-05-10 10:00:28] INFO root fetch - main [MainThread]: Store serial: [23143018]
