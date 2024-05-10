@@ -19444,3 +19444,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:24:15] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
 [2024-05-10 15:24:15] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
 [2024-05-10 15:24:15] INFO root fetch - main [MainThread]: Store serial: [23146954]
+[2024-05-10 15:26:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146954]
+[2024-05-10 15:26:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 15:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windowpops
+[2024-05-10 15:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blues-lib
+[2024-05-10 15:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlexecx
+[2024-05-10 15:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: premisoryz
+[2024-05-10 15:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecosystem-notebooks
+[2024-05-10 15:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Furious-GUI
+[2024-05-10 15:26:27] INFO root fetch - processPackages [blues-lib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-10 15:26:27] INFO root fetch - processPackages [sqlexecx]: New version: [0.3.0] Old Version: [0.1.0]
+[2024-05-10 15:26:28] WARNING root fetch - processPackages [windowpops]: Skipping, unable to determine old version
+[2024-05-10 15:26:28] INFO root fetch - main [MainThread]: End processing [windowpops] error
+[2024-05-10 15:26:28] INFO root fetch - processPackages [sqlexecx]: Downloading https://files.pythonhosted.org/packages/42/5f/28de7c677d8eed923e4aee4cef807a2f3edda751de0818314d2876f81d5e/sqlexecx-0.1.0.tar.gz
+[2024-05-10 15:26:28] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/07/10/8831a8d44758e84c9edb7a2e8ee1c88844a973b26806d9f5a56c217ca72b/blues_lib-1.0.2.tar.gz
+[2024-05-10 15:26:28] WARNING root fetch - processPackages [premisoryz]: Skipping, unable to determine old version
+[2024-05-10 15:26:28] INFO root fetch - main [MainThread]: End processing [premisoryz] error
+[2024-05-10 15:26:28] INFO root fetch - processPackages [ecosystem-notebooks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 15:26:28] INFO root fetch - processPackages [Furious-GUI]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-10 15:26:28] INFO root fetch - processPackages [sqlexecx]: Downloading https://files.pythonhosted.org/packages/42/d0/ffcd4a64e9dccc5dc5b607a9985320945567590734754723dc7197474bb2/sqlexecx-0.3.0.tar.gz
+[2024-05-10 15:26:28] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/dc/f4/15d40f4fab809fb02ae42b41428bef990398469edbd0eb4e113ff9d32c3d/ecosystem-notebooks-0.1.8.tar.gz
+[2024-05-10 15:26:28] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/d2/a0/5abde10715924ddab948d3c48591e446bbf3464e1c95dcb8f206924d5919/Furious-GUI-0.4.0.tar.gz
+[2024-05-10 15:26:28] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/fb/49/6889dccd4bc5646f5fdaf8a97d98d0098c122ab4f6ad1695e5a1bea92d68/blues_lib-1.0.3.tar.gz
+[2024-05-10 15:26:28] INFO root fetch - processPackages [sqlexecx]: executing diffoscope
+[2024-05-10 15:26:28] INFO root fetch - processPackages [sqlexecx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlexecx-0.1.0.tar.gz tmp/sqlexecx-0.3.0.tar.gz --markdown 20240510/s/sqlexecx/0.1.0-0.3.0/README.md --exclude *.pyd
+[2024-05-10 15:26:28] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-10 15:26:28] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.0.2.tar.gz tmp/blues_lib-1.0.3.tar.gz --markdown 20240510/b/blues-lib/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-10 15:26:28] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/65/4e/cea87ee654a715c444b56f178f9c2f0b4d037ff06d0c84c8ab056ef2c4d0/ecosystem-notebooks-0.1.9.tar.gz
+[2024-05-10 15:26:28] INFO root fetch - processPackages [ecosystem-notebooks]: executing diffoscope
+[2024-05-10 15:26:28] INFO root fetch - processPackages [ecosystem-notebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecosystem-notebooks-0.1.8.tar.gz tmp/ecosystem-notebooks-0.1.9.tar.gz --markdown 20240510/e/ecosystem-notebooks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 15:26:29] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.2.tar.gz]
+[2024-05-10 15:26:29] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.3.tar.gz]
+[2024-05-10 15:26:29] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-10 15:26:29] INFO root fetch - processPackages [sqlexecx]: Remove: archive file [/home/abi/fetcher/tmp/sqlexecx-0.1.0.tar.gz]
+[2024-05-10 15:26:29] INFO root fetch - processPackages [sqlexecx]: Remove: archive file [/home/abi/fetcher/tmp/sqlexecx-0.3.0.tar.gz]
+[2024-05-10 15:26:29] INFO root fetch - main [MainThread]: End processing [sqlexecx]: success
+[2024-05-10 15:26:29] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/fc/45/085a1588c0730a537d6f4263d155ed9764f0350961bbadb255736e7cb452/Furious-GUI-0.4.1.tar.gz
+[2024-05-10 15:26:29] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.8.tar.gz]
+[2024-05-10 15:26:29] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.9.tar.gz]
+[2024-05-10 15:26:29] INFO root fetch - main [MainThread]: End processing [ecosystem-notebooks]: success
+[2024-05-10 15:26:31] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2024-05-10 15:26:31] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.4.0.tar.gz tmp/Furious-GUI-0.4.1.tar.gz --markdown 20240510/F/Furious-GUI/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-10 15:26:43] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.0.tar.gz]
+[2024-05-10 15:26:43] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.1.tar.gz]
+[2024-05-10 15:26:43] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2024-05-10 15:26:43] INFO root fetch - main [MainThread]: Store serial: [23146974]
