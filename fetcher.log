@@ -5049,3 +5049,24 @@
 [2024-05-10 04:51:46] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_cohere_rerank-0.1.5.tar.gz]
 [2024-05-10 04:51:46] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-cohere-rerank]: success
 [2024-05-10 04:51:46] INFO root fetch - main [MainThread]: Store serial: [23140616]
+[2024-05-10 04:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140616]
+[2024-05-10 04:53:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 04:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qlv-client
+[2024-05-10 04:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: launchflow
+[2024-05-10 04:53:55] INFO root fetch - processPackages [qlv-client]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-10 04:53:55] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-05-10 04:53:55] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/aa/89/782d67f57fe348cbdae61fac0938b832964ef85688ea64e48fb6e2e3e780/qlv-client-0.1.9.tar.gz
+[2024-05-10 04:53:55] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-05-10 04:53:55] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/a6/4d/af1cef774d9228d0127c07dfd4ef052c8b957d3eecb139119ba8bbb6b61b/qlv-client-0.2.0.tar.gz
+[2024-05-10 04:53:55] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-05-10 04:53:55] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-10 04:53:55] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.1.9.tar.gz tmp/qlv-client-0.2.0.tar.gz --markdown 20240510/q/qlv-client/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-10 04:53:55] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-05-10 04:53:55] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240510/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-05-10 04:53:56] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.9.tar.gz]
+[2024-05-10 04:53:56] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.0.tar.gz]
+[2024-05-10 04:53:56] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-10 04:53:56] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-05-10 04:53:56] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-05-10 04:53:56] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-05-10 04:53:56] INFO root fetch - main [MainThread]: Store serial: [23140627]
