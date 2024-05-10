@@ -4249,3 +4249,51 @@
 [2024-05-10 04:09:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-05-10 04:09:46] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-05-10 04:09:46] INFO root fetch - main [MainThread]: Store serial: [23140303]
+[2024-05-10 04:11:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140303]
+[2024-05-10 04:11:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 04:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2024-05-10 04:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-linode
+[2024-05-10 04:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-search
+[2024-05-10 04:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-random
+[2024-05-10 04:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-datadog
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1715231397] Old Version: [7.2.0a1715227892]
+[2024-05-10 04:11:56] INFO root fetch - processPackages [python-search]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-10 04:11:56] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/5c/46/5152438411129151eefae4dd7ffecfd9ad345704e39603a73d650f2dad83/pulumi_akamai-7.2.0a1715227892.tar.gz
+[2024-05-10 04:11:57] INFO root fetch - processPackages [python-search]: Downloading https://files.pythonhosted.org/packages/db/4b/b4287e91d0259a2fc3e1748db1767aefef5986584287c828e612a3cf4041/python_search-0.9.8.tar.gz
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240510/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240510/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240510/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-10 04:11:57] INFO root fetch - processPackages [python-search]: Downloading https://files.pythonhosted.org/packages/fa/fd/c4e39b116bed9289129bb33d93116ff452c1fe46ea696b4caa2d8ddb73a5/python_search-0.9.9.tar.gz
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/8c/ad/d90759085d82eda7f048f25475500e14ed857fcbaed35a9fd503b13c69fd/pulumi_akamai-7.2.0a1715231397.tar.gz
+[2024-05-10 04:11:57] INFO root fetch - processPackages [python-search]: executing diffoscope
+[2024-05-10 04:11:57] INFO root fetch - processPackages [python-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_search-0.9.8.tar.gz tmp/python_search-0.9.9.tar.gz --markdown 20240510/p/python-search/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1715227892.tar.gz tmp/pulumi_akamai-7.2.0a1715231397.tar.gz --markdown 20240510/p/pulumi-akamai/7.2.0a1715227892-7.2.0a1715231397/README.md --exclude *.pyd
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-10 04:11:57] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-10 04:11:57] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-10 04:11:58] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-10 04:11:58] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-10 04:11:58] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-10 04:11:58] INFO root fetch - processPackages [python-search]: Remove: archive file [/home/abi/fetcher/tmp/python_search-0.9.8.tar.gz]
+[2024-05-10 04:11:58] INFO root fetch - processPackages [python-search]: Remove: archive file [/home/abi/fetcher/tmp/python_search-0.9.9.tar.gz]
+[2024-05-10 04:11:58] INFO root fetch - main [MainThread]: End processing [python-search]: success
+[2024-05-10 04:11:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-10 04:11:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-10 04:11:59] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-10 04:12:00] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715227892.tar.gz]
+[2024-05-10 04:12:00] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715231397.tar.gz]
+[2024-05-10 04:12:00] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-10 04:12:00] INFO root fetch - main [MainThread]: Store serial: [23140318]
