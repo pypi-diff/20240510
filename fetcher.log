@@ -15648,3 +15648,170 @@
 [2024-05-10 13:11:48] INFO root fetch - processPackages [mwrpy]: Remove: archive file [/home/abi/fetcher/tmp/mwrpy-0.9.0.tar.gz]
 [2024-05-10 13:11:48] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
 [2024-05-10 13:11:48] INFO root fetch - main [MainThread]: Store serial: [23145273]
+[2024-05-10 13:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145273]
+[2024-05-10 13:14:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antibacterial-model
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstract-adapters
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bedralz
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: middleware-help-python
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-nightly
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vbimagetotext
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-onelogin
+[2024-05-10 13:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yeref
+[2024-05-10 13:14:12] INFO root fetch - processPackages [antibacterial-model]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-10 13:14:12] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 13:14:12] INFO root fetch - processPackages [middleware-help-python]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-10 13:14:12] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 13:14:12] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-10 13:14:12] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 13:14:12] WARNING root fetch - processPackages [bedralz]: Skipping, unable to determine old version
+[2024-05-10 13:14:12] INFO root fetch - main [MainThread]: End processing [bedralz] error
+[2024-05-10 13:14:12] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240510] Old Version: [2.5.0b20240509]
+[2024-05-10 13:14:12] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1715338486] Old Version: [0.7.0a1715234935]
+[2024-05-10 13:14:12] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/4a/ec/7ad761b972765e118d5729003a46ce5a6575af8d1f8cf0711991b414f5d1/middleware-help-python-0.0.9.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/4a/4d/b883059c2807ea4b931b02d59f4ee17d1575ee1c4cbd88d1f832eba5d0f7/antibacterial-model-1.0.4.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-10 13:14:12] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/c0/f3/d2f8476a78ecb96b405160a6e30c7d5fa0e39b59400ce3a44306a133dbf1/bigdl_core_xe_esimd_21-2.5.0b20240509-cp39-cp39-win_amd64.whl
+[2024-05-10 13:14:12] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/4b/a4/ddbe8f92a68da197e7e04ec3100f7e820629be4015566375e83f445b70a4/pulumi_onelogin-0.7.0a1715234935.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/9c/84/81f1df591133d3e8791cccd1853e5a9a1068c07b28ff58ae7822cdeeb716/middleware-help-python-0.1.0.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-10 13:14:12] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240510/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 13:14:12] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-05-10 13:14:12] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.9.tar.gz tmp/middleware-help-python-0.1.0.tar.gz --markdown 20240510/m/middleware-help-python/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-10 13:14:12] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/4b/2b/8fd4a48ef59fb3e6c7ae721401512d155e5cbe79c43b2e9564e576bda83c/antibacterial-model-1.0.5.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 13:14:12] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 13:14:12] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/e7/ed/44d312fe4025cfb1554c795e78daef51ba16c28123e094e949ec8bd36f3c/pulumi_onelogin-0.7.0a1715338486.tar.gz
+[2024-05-10 13:14:12] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-05-10 13:14:12] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240510/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 13:14:12] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-10 13:14:13] INFO root fetch - processPackages [antibacterial-model]: executing diffoscope
+[2024-05-10 13:14:13] INFO root fetch - processPackages [antibacterial-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antibacterial-model-1.0.4.tar.gz tmp/antibacterial-model-1.0.5.tar.gz --markdown 20240510/a/antibacterial-model/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-10 13:14:13] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-10 13:14:13] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-10 13:14:13] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240510/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-10 13:14:13] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-10 13:14:13] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1715234935.tar.gz tmp/pulumi_onelogin-0.7.0a1715338486.tar.gz --markdown 20240510/p/pulumi-onelogin/0.7.0a1715234935-0.7.0a1715338486/README.md --exclude *.pyd
+[2024-05-10 13:14:13] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.9.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.1.0.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-05-10 13:14:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/07/ae/3969dc74dbd1c2f8b688b5ddec6d851f07f05ee9a1cddf8140bb43185b13/bigdl_core_xe_esimd_21-2.5.0b20240510-cp310-cp310-win_amd64.whl
+[2024-05-10 13:14:13] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 13:14:13] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-05-10 13:14:13] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-05-10 13:14:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-10 13:14:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240509-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240510-cp310-cp310-win_amd64.whl.zip --markdown 20240510/b/bigdl-core-xe-esimd-21/2.5.0b20240509-2.5.0b20240510/README.md --exclude *.pyd
+[2024-05-10 13:14:14] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715234935.tar.gz]
+[2024-05-10 13:14:14] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715338486.tar.gz]
+[2024-05-10 13:14:14] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-10 13:14:14] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-10T13:14:13+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140409460235776)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140409326017936)
+
+[2024-05-10 13:14:14] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-10 13:14:14] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial-model-1.0.4.tar.gz]
+[2024-05-10 13:14:14] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial-model-1.0.5.tar.gz]
+[2024-05-10 13:14:14] INFO root fetch - main [MainThread]: End processing [antibacterial-model]: success
+[2024-05-10 13:14:14] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-10 13:14:14] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-10 13:14:14] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-10 13:14:14] INFO root fetch - main [MainThread]: Store serial: [23145298]
