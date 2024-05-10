@@ -17925,3 +17925,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:35:48] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.9.tar.gz]
 [2024-05-10 14:35:48] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
 [2024-05-10 14:35:48] INFO root fetch - main [MainThread]: Store serial: [23146236]
+[2024-05-10 14:37:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146236]
+[2024-05-10 14:37:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-score
+[2024-05-10 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anotify
+[2024-05-10 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-10 14:37:56] INFO root fetch - processPackages [anotify]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 14:37:56] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 14:37:56] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/a5/31/a01955b6a25f0a3a8ecbb717fe7a7199a40950fdcfa9875f2f81ab515bdb/anotify-0.0.7.tar.gz
+[2024-05-10 14:37:56] INFO root fetch - processPackages [dbt-score]: New version: [0.1.0b1] Old Version: [0.1.0a0]
+[2024-05-10 14:37:56] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 14:37:57] INFO root fetch - processPackages [dbt-score]: Downloading https://files.pythonhosted.org/packages/ea/0c/8a871894f6d4facdbb3fac683665539ff134ca2ab730e41c6cf2b10ebba8/dbt_score-0.1.0a0.tar.gz
+[2024-05-10 14:37:57] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 14:37:57] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/00/a9/6bbdcee197a330f7fc3f1d5074665c55076f93c30596c20b55987a303090/anotify-0.0.8.tar.gz
+[2024-05-10 14:37:57] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 14:37:57] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 14:37:57] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-10 14:37:57] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.0.7.tar.gz tmp/anotify-0.0.8.tar.gz --markdown 20240510/a/anotify/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 14:37:57] INFO root fetch - processPackages [dbt-score]: Downloading https://files.pythonhosted.org/packages/f1/ac/7fc3bd21b54b4725a83b6664389a7a18a6faff3f95c00e133ca4cebe7480/dbt_score-0.1.0b1.tar.gz
+[2024-05-10 14:37:57] INFO root fetch - processPackages [dbt-score]: executing diffoscope
+[2024-05-10 14:37:57] INFO root fetch - processPackages [dbt-score]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_score-0.1.0a0.tar.gz tmp/dbt_score-0.1.0b1.tar.gz --markdown 20240510/d/dbt-score/0.1.0a0-0.1.0b1/README.md --exclude *.pyd
+[2024-05-10 14:37:57] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.7.tar.gz]
+[2024-05-10 14:37:57] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.8.tar.gz]
+[2024-05-10 14:37:57] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-10 14:37:58] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 14:37:58] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 14:37:58] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 14:37:58] INFO root fetch - processPackages [dbt-score]: Remove: archive file [/home/abi/fetcher/tmp/dbt_score-0.1.0a0.tar.gz]
+[2024-05-10 14:37:58] INFO root fetch - processPackages [dbt-score]: Remove: archive file [/home/abi/fetcher/tmp/dbt_score-0.1.0b1.tar.gz]
+[2024-05-10 14:37:58] INFO root fetch - main [MainThread]: End processing [dbt-score]: success
+[2024-05-10 14:37:58] INFO root fetch - main [MainThread]: Store serial: [23146249]
