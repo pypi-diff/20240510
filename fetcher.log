@@ -12493,3 +12493,57 @@
 [2024-05-10 11:17:53] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.100.1.post0.tar.gz]
 [2024-05-10 11:17:53] INFO root fetch - main [MainThread]: End processing [fastapi-tusd]: success
 [2024-05-10 11:17:53] INFO root fetch - main [MainThread]: Store serial: [23143951]
+[2024-05-10 11:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143951]
+[2024-05-10 11:20:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-lucas
+[2024-05-10 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsms-sdk
+[2024-05-10 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PREN-flawas
+[2024-05-10 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redistensor
+[2024-05-10 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idac-sdk
+[2024-05-10 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diurnalsz
+[2024-05-10 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iwashi
+[2024-05-10 11:20:04] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 11:20:04] INFO root fetch - processPackages [idac-sdk]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-10 11:20:04] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 11:20:04] WARNING root fetch - processPackages [redistensor]: Skipping, unable to determine old version
+[2024-05-10 11:20:04] INFO root fetch - main [MainThread]: End processing [redistensor] error
+[2024-05-10 11:20:04] WARNING root fetch - processPackages [diurnalsz]: Skipping, unable to determine old version
+[2024-05-10 11:20:04] INFO root fetch - main [MainThread]: End processing [diurnalsz] error
+[2024-05-10 11:20:04] INFO root fetch - processPackages [iwashi]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-10 11:20:04] INFO root fetch - processPackages [st-lucas]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-10 11:20:04] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2024-05-10 11:20:05] INFO root fetch - processPackages [idac-sdk]: Downloading https://files.pythonhosted.org/packages/ac/27/4f0fce91b738fc154b5d5ffb7f3383e91ca3148e1806ff6c1db460168aba/idac_sdk-0.7.2.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [iwashi]: Downloading https://files.pythonhosted.org/packages/a0/af/457c47d0018d634ca553669a4b9ca9dd6b92cb6ddeb9273fd545c2cc0f26/iwashi-3.0.0.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [st-lucas]: Downloading https://files.pythonhosted.org/packages/25/82/ee5e4e8c38b65d120af88277603adf26ed75c1eef4370fa67045a58ba3b6/st_lucas-1.1.1.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/99/f2/574cc897b36eaa90d9d659e0e3ca096c1c734ad8e9381a87579cff03e716/dsms_sdk-1.4.0rc8.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [st-lucas]: Downloading https://files.pythonhosted.org/packages/d1/a1/be628a36c157929e125f868bb0f385278668f751cd3a2b6486abd966b260/st_lucas-1.1.2-py3-none-any.whl
+[2024-05-10 11:20:05] INFO root fetch - processPackages [idac-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/1d981fa0d395c4c3e16e79964c273850d12253e2fc80ead97a33e3a579da/idac_sdk-0.7.3.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/d6/80/4a34169d48bf3fd90ed612c6344540560cc43ee54e6e17e4cb161b988cdf/dsms_sdk-1.4.0rc9.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [iwashi]: Downloading https://files.pythonhosted.org/packages/7a/06/7bd3353b0053756f7f2e25c1f448807cb24eeea56720b184401a99ff0a13/iwashi-3.0.1.tar.gz
+[2024-05-10 11:20:05] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 11:20:05] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 11:20:05] INFO root fetch - processPackages [st-lucas]: executing diffoscope
+[2024-05-10 11:20:05] INFO root fetch - processPackages [st-lucas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_lucas-1.1.1.tar.gz tmp/st_lucas-1.1.2-py3-none-any.whl.zip --markdown 20240510/s/st-lucas/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-10 11:20:05] INFO root fetch - processPackages [idac-sdk]: executing diffoscope
+[2024-05-10 11:20:05] INFO root fetch - processPackages [idac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idac_sdk-0.7.2.tar.gz tmp/idac_sdk-0.7.3.tar.gz --markdown 20240510/i/idac-sdk/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-10 11:20:05] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-05-10 11:20:05] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc8.tar.gz tmp/dsms_sdk-1.4.0rc9.tar.gz --markdown 20240510/d/dsms-sdk/1.4.0rc8-1.4.0rc9/README.md --exclude *.pyd
+[2024-05-10 11:20:05] INFO root fetch - processPackages [iwashi]: executing diffoscope
+[2024-05-10 11:20:05] INFO root fetch - processPackages [iwashi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwashi-3.0.0.tar.gz tmp/iwashi-3.0.1.tar.gz --markdown 20240510/i/iwashi/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-10 11:20:06] INFO root fetch - processPackages [st-lucas]: Remove: archive file [/home/abi/fetcher/tmp/st_lucas-1.1.1.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - processPackages [st-lucas]: Remove: archive file [/home/abi/fetcher/tmp/st_lucas-1.1.2-py3-none-any.whl.zip]
+[2024-05-10 11:20:06] INFO root fetch - main [MainThread]: End processing [st-lucas]: success
+[2024-05-10 11:20:06] INFO root fetch - processPackages [idac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/idac_sdk-0.7.2.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - processPackages [idac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/idac_sdk-0.7.3.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - main [MainThread]: End processing [idac-sdk]: success
+[2024-05-10 11:20:06] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc8.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc9.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-05-10 11:20:06] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 11:20:06] INFO root fetch - processPackages [iwashi]: Remove: archive file [/home/abi/fetcher/tmp/iwashi-3.0.0.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - processPackages [iwashi]: Remove: archive file [/home/abi/fetcher/tmp/iwashi-3.0.1.tar.gz]
+[2024-05-10 11:20:06] INFO root fetch - main [MainThread]: End processing [iwashi]: success
+[2024-05-10 11:20:06] INFO root fetch - main [MainThread]: Store serial: [23143975]
