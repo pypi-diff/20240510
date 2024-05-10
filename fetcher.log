@@ -19297,3 +19297,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:19:44] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.0-py3-none-any.whl.zip]
 [2024-05-10 15:19:44] INFO root fetch - main [MainThread]: End processing [dara-components]: success
 [2024-05-10 15:19:44] INFO root fetch - main [MainThread]: Store serial: [23146876]
+[2024-05-10 15:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146876]
+[2024-05-10 15:21:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-adr
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fictometer
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xhlog
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celus-nigiri
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dialog-workflow-local
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radical.entk
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seamlessnessz
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ape-alchemy
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rag-pychunk
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: movva_tools
+[2024-05-10 15:21:57] INFO root fetch - processPackages [celus-nigiri]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-10 15:21:57] INFO root fetch - processPackages [movva_tools]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ape-alchemy]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-10 15:21:57] WARNING root fetch - processPackages [sbcli-adr]: Skipping, unable to determine old version
+[2024-05-10 15:21:57] INFO root fetch - processPackages [sbcli-adr]: Start processing: supervisely
+[2024-05-10 15:21:57] INFO root fetch - main [MainThread]: End processing [sbcli-adr] error
+[2024-05-10 15:21:57] WARNING root fetch - processPackages [rag-pychunk]: Skipping, unable to determine old version
+[2024-05-10 15:21:57] INFO root fetch - processPackages [rag-pychunk]: Start processing: malduck
+[2024-05-10 15:21:57] INFO root fetch - main [MainThread]: End processing [rag-pychunk] error
+[2024-05-10 15:21:57] WARNING root fetch - processPackages [xhlog]: Skipping, unable to determine old version
+[2024-05-10 15:21:57] INFO root fetch - processPackages [xhlog]: Start processing: AIauxiliar
+[2024-05-10 15:21:57] INFO root fetch - main [MainThread]: End processing [xhlog] error
+[2024-05-10 15:21:57] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 15:21:57] WARNING root fetch - processPackages [Fictometer]: Skipping, unable to determine old version
+[2024-05-10 15:21:57] INFO root fetch - main [MainThread]: End processing [Fictometer] error
+[2024-05-10 15:21:57] INFO root fetch - processPackages [radical.entk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 15:21:57] WARNING root fetch - processPackages [seamlessnessz]: Skipping, unable to determine old version
+[2024-05-10 15:21:57] INFO root fetch - main [MainThread]: End processing [seamlessnessz] error
+[2024-05-10 15:21:57] INFO root fetch - processPackages [movva_tools]: Downloading https://files.pythonhosted.org/packages/ae/94/184b2e2e57252b2eb6a86b0788590e4b6c1f22651d9456ff89292bbacd2f/movva_tools-2.0.0.tar.gz
+[2024-05-10 15:21:57] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/34/ff/54ecb00ea6c45ef7ce1b3d67a6afa03388acfd99d1998c62dd074e4669bd/celus_nigiri-2.1.0.tar.gz
+[2024-05-10 15:21:57] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-10 15:21:57] INFO root fetch - processPackages [ape-alchemy]: Downloading https://files.pythonhosted.org/packages/e7/da/3239acf4f5be55f39128370f0696096e914d9d5fb6227e8d276943225b7d/ape-alchemy-0.7.1.tar.gz
+[2024-05-10 15:21:57] WARNING root fetch - processPackages [AIauxiliar]: Skipping, unable to determine old version
+[2024-05-10 15:21:57] INFO root fetch - main [MainThread]: End processing [AIauxiliar] error
+[2024-05-10 15:21:57] INFO root fetch - processPackages [malduck]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-05-10 15:21:57] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/d7/1b/685106e77cf65c8cf8b6d89352922054ce5d7b8980732c303e96ea9deb86/dialog_workflow_local-0.0.98.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/f0/b7/2f841b0cf71c08e32f44c0bfe2d3ccaa9afc6aae30c7ea71a13f5d2ea88e/radical.entk-1.8.0.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [movva_tools]: Downloading https://files.pythonhosted.org/packages/33/cf/1c822c64089c21376e5a92542623d43ddc33a45d6438cfcfe6cf3687f4cf/movva_tools-2.1.0.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/41/38/c9915ef27e35c2d32d988f3953a0d4ef81001877abd864b18b5b6f4908ea/celus_nigiri-2.2.0.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [malduck]: Downloading https://files.pythonhosted.org/packages/fb/0c/e656e4053472234f82cb7b9b2abcdad9c1d1d07b6b858ec976cc6123a3ee/malduck-4.4.0-py3-none-any.whl
+[2024-05-10 15:21:58] INFO root fetch - processPackages [movva_tools]: executing diffoscope
+[2024-05-10 15:21:58] INFO root fetch - processPackages [celus-nigiri]: executing diffoscope
+[2024-05-10 15:21:58] INFO root fetch - processPackages [movva_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movva_tools-2.0.0.tar.gz tmp/movva_tools-2.1.0.tar.gz --markdown 20240510/m/movva_tools/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-10 15:21:58] INFO root fetch - processPackages [celus-nigiri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celus_nigiri-2.1.0.tar.gz tmp/celus_nigiri-2.2.0.tar.gz --markdown 20240510/c/celus-nigiri/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-10 15:21:58] INFO root fetch - processPackages [ape-alchemy]: Downloading https://files.pythonhosted.org/packages/d6/82/9cf25501914214035c27371b88cd80e087d61aead1842b0d1f289e43296d/ape-alchemy-0.7.2.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [ape-alchemy]: executing diffoscope
+[2024-05-10 15:21:58] INFO root fetch - processPackages [ape-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-alchemy-0.7.1.tar.gz tmp/ape-alchemy-0.7.2.tar.gz --markdown 20240510/a/ape-alchemy/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-10 15:21:58] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/05/c3/6c26db02b10e70c46d216b7b8ce442c6d7069761960f4589837162999b2a/dialog_workflow_local-0.0.99.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/d4/3b/7bac551fce4718ea1bf65083bb8a42bf6743a370057fd5dffa604a8c2364/radical.entk-1.9.0.tar.gz
+[2024-05-10 15:21:58] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-05-10 15:21:58] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240510/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-10 15:21:58] INFO root fetch - processPackages [malduck]: Downloading https://files.pythonhosted.org/packages/69/09/2d2e2c0586204450a0e9ef9d3a7278fcd2d580d24c565cf241ac16ffd1e6/malduck-4.4.1-py3-none-any.whl
+[2024-05-10 15:21:58] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-05-10 15:21:58] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog_workflow_local-0.0.98.tar.gz tmp/dialog_workflow_local-0.0.99.tar.gz --markdown 20240510/d/dialog-workflow-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 15:21:58] INFO root fetch - processPackages [radical.entk]: executing diffoscope
+[2024-05-10 15:21:58] INFO root fetch - processPackages [radical.entk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.entk-1.8.0.tar.gz tmp/radical.entk-1.9.0.tar.gz --markdown 20240510/r/radical.entk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 15:21:58] INFO root fetch - processPackages [malduck]: executing diffoscope
+[2024-05-10 15:21:58] INFO root fetch - processPackages [malduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malduck-4.4.0-py3-none-any.whl.zip tmp/malduck-4.4.1-py3-none-any.whl.zip --markdown 20240510/m/malduck/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-05-10 15:21:59] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.1.0.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.2.0.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - main [MainThread]: End processing [celus-nigiri]: success
+[2024-05-10 15:21:59] INFO root fetch - processPackages [movva_tools]: Remove: archive file [/home/abi/fetcher/tmp/movva_tools-2.0.0.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - processPackages [movva_tools]: Remove: archive file [/home/abi/fetcher/tmp/movva_tools-2.1.0.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - main [MainThread]: End processing [movva_tools]: success
+[2024-05-10 15:21:59] INFO root fetch - processPackages [ape-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/ape-alchemy-0.7.1.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - processPackages [ape-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/ape-alchemy-0.7.2.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - main [MainThread]: End processing [ape-alchemy]: success
+[2024-05-10 15:21:59] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.98.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.99.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-05-10 15:21:59] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.8.0.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.9.0.tar.gz]
+[2024-05-10 15:21:59] INFO root fetch - main [MainThread]: End processing [radical.entk]: success
+[2024-05-10 15:21:59] INFO root fetch - processPackages [malduck]: Remove: archive file [/home/abi/fetcher/tmp/malduck-4.4.0-py3-none-any.whl.zip]
+[2024-05-10 15:21:59] INFO root fetch - processPackages [malduck]: Remove: archive file [/home/abi/fetcher/tmp/malduck-4.4.1-py3-none-any.whl.zip]
+[2024-05-10 15:21:59] INFO root fetch - main [MainThread]: End processing [malduck]: success
+[2024-05-10 15:22:00] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-05-10 15:22:00] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-05-10 15:22:00] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-05-10 15:22:00] INFO root fetch - main [MainThread]: Store serial: [23146927]
