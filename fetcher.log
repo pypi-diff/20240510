@@ -11414,3 +11414,97 @@
 [2024-05-10 10:44:16] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev2.tar.gz]
 [2024-05-10 10:44:16] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-10 10:44:16] INFO root fetch - main [MainThread]: Store serial: [23143477]
+[2024-05-10 10:46:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143477]
+[2024-05-10 10:46:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezlogtools
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxtr
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fs-attachment
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySimultanUI
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agluconz
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-math-unimore-cicd
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metabotk
+[2024-05-10 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zsx-ring-plot
+[2024-05-10 10:46:26] WARNING root fetch - processPackages [agluconz]: Skipping, unable to determine old version
+[2024-05-10 10:46:26] INFO root fetch - processPackages [agluconz]: Start processing: rate-control
+[2024-05-10 10:46:26] INFO root fetch - main [MainThread]: End processing [agluconz] error
+[2024-05-10 10:46:26] INFO root fetch - processPackages [PySimultanUI]: New version: [0.2] Old Version: [0.1]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [metabotk]: New version: [0.1.3] Old Version: [0.1.2b0]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240510] Old Version: [2.17.0.dev20240509]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [PySimultanUI]: Downloading https://files.pythonhosted.org/packages/42/08/8bdac94c84ba76f1c95942d5129da54e23616c47b16c91cb353e19eb34c9/pysimultanui-0.1.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [my-math-unimore-cicd]: New version: [0.3] Old Version: [0.2]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [odoo-addon-fs-attachment]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-10 10:46:26] WARNING root fetch - processPackages [ezlogtools]: Skipping, unable to determine old version
+[2024-05-10 10:46:26] WARNING root fetch - processPackages [zsx-ring-plot]: Skipping, unable to determine old version
+[2024-05-10 10:46:26] INFO root fetch - processPackages [ezlogtools]: Start processing: PREN-flawas
+[2024-05-10 10:46:26] INFO root fetch - processPackages [zsx-ring-plot]: Start processing: my-math-unimore-cicd
+[2024-05-10 10:46:26] INFO root fetch - main [MainThread]: End processing [ezlogtools] error
+[2024-05-10 10:46:26] INFO root fetch - main [MainThread]: End processing [zsx-ring-plot] error
+[2024-05-10 10:46:26] WARNING root fetch - processPackages [onnxtr]: Skipping, unable to determine old version
+[2024-05-10 10:46:26] INFO root fetch - main [MainThread]: End processing [onnxtr] error
+[2024-05-10 10:46:26] INFO root fetch - processPackages [rate-control]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/1c/3e/eba8e3abeec43a58b159f3c5179f99b7208b810c363fbe4080de0d3a89c1/metabotk-0.1.2b0.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [my-math-unimore-cicd]: New version: [0.3] Old Version: [0.2]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 10:46:26] INFO root fetch - processPackages [my-math-unimore-cicd]: Downloading https://files.pythonhosted.org/packages/28/2f/fc564e75d63d9a78c12e38bf1398ce111b77fa7d8fa6d5effe3500752caa/my_math_unimore_cicd-0.2.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [my-math-unimore-cicd]: Downloading https://files.pythonhosted.org/packages/28/2f/fc564e75d63d9a78c12e38bf1398ce111b77fa7d8fa6d5effe3500752caa/my_math_unimore_cicd-0.2.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/16/28/973beef03feca651a3f3b225000fd4478f025fb3abfcd85d5f25f83f3e9a/tf_nightly_cpu-2.17.0.dev20240509-cp39-cp39-win_amd64.whl
+[2024-05-10 10:46:26] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-10 10:46:26] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/43/1e/a11fbb650059a67abef2514682cd8521b646a871f3a1eeaf97ab34340de4/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl
+[2024-05-10 10:46:26] INFO root fetch - processPackages [PySimultanUI]: Downloading https://files.pythonhosted.org/packages/99/8d/7635fcbd4febe97f854ed197bf5123c5f5d2effc9ea73b105641a48d1d42/pysimultanui-0.2.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [rate-control]: Downloading https://files.pythonhosted.org/packages/76/ea/1db09e5651c3b8bf79d1ed546f3682c8c4e7e495054d8068e265802eeef6/rate_control-4.1.0.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [PySimultanUI]: executing diffoscope
+[2024-05-10 10:46:26] INFO root fetch - processPackages [PySimultanUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysimultanui-0.1.tar.gz tmp/pysimultanui-0.2.tar.gz --markdown 20240510/P/PySimultanUI/0.1-0.2/README.md --exclude *.pyd
+[2024-05-10 10:46:26] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/90/3e/2ca5ac76d0641847c198de2d7b0fce27bbb8ebd7b17a1166c2d03d318883/metabotk-0.1.3.tar.gz
+[2024-05-10 10:46:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/d0/f8/604bb1aeb6799959e643a61f78c948a54fd890c6d0464eb8ebd826a0da0e/tf_nightly_cpu-2.17.0.dev20240510-cp39-cp39-win_amd64.whl
+[2024-05-10 10:46:26] INFO root fetch - processPackages [rate-control]: Downloading https://files.pythonhosted.org/packages/7e/1d/f2bd8800b472140f75559e675a4135d431aec9b9230f893f0dd1f981c9a0/rate_control-4.1.1.tar.gz
+[2024-05-10 10:46:27] INFO root fetch - processPackages [metabotk]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [metabotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabotk-0.1.2b0.tar.gz tmp/metabotk-0.1.3.tar.gz --markdown 20240510/m/metabotk/0.1.2b0-0.1.3/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: Downloading https://files.pythonhosted.org/packages/c2/a6/b7f3f033dac4b800a1594e00a22685406ecb49bba609813d79d209aa6d85/my_math_unimore_cicd-0.3.tar.gz
+[2024-05-10 10:46:27] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: Downloading https://files.pythonhosted.org/packages/c2/a6/b7f3f033dac4b800a1594e00a22685406ecb49bba609813d79d209aa6d85/my_math_unimore_cicd-0.3.tar.gz
+[2024-05-10 10:46:27] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/fd/da/455ccc86b40aabbc3a0deb4dfc5dad4348d45262b0c95e6c04caef8ffc7b/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-10 10:46:27] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240510-cp39-cp39-win_amd64.whl.zip --markdown 20240510/t/tf-nightly-cpu/2.17.0.dev20240509-2.17.0.dev20240510/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [odoo-addon-fs-attachment]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [odoo-addon-fs-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-fs-attachment/17.0.1.0.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [rate-control]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [rate-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rate_control-4.1.0.tar.gz tmp/rate_control-4.1.1.tar.gz --markdown 20240510/r/rate-control/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_math_unimore_cicd-0.2.tar.gz tmp/my_math_unimore_cicd-0.3.tar.gz --markdown 20240510/m/my-math-unimore-cicd/0.2-0.3/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_math_unimore_cicd-0.2.tar.gz tmp/my_math_unimore_cicd-0.3.tar.gz --markdown 20240510/m/my-math-unimore-cicd/0.2-0.3/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [PySimultanUI]: Remove: archive file [/home/abi/fetcher/tmp/pysimultanui-0.1.tar.gz]
+[2024-05-10 10:46:27] INFO root fetch - processPackages [PySimultanUI]: Remove: archive file [/home/abi/fetcher/tmp/pysimultanui-0.2.tar.gz]
+[2024-05-10 10:46:27] INFO root fetch - main [MainThread]: End processing [PySimultanUI]: success
+[2024-05-10 10:46:27] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.2b0.tar.gz]
+[2024-05-10 10:46:27] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.3.tar.gz]
+[2024-05-10 10:46:27] INFO root fetch - main [MainThread]: End processing [metabotk]: success
+[2024-05-10 10:46:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip]
+[2024-05-10 10:46:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240510-cp39-cp39-win_amd64.whl.zip]
+[2024-05-10 10:46:27] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-10 10:46:27] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-10 10:46:27] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240510/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: Remove: archive file [/home/abi/fetcher/tmp/my_math_unimore_cicd-0.2.tar.gz]
+[2024-05-10 10:46:27] INFO root fetch - processPackages [my-math-unimore-cicd]: Remove: archive file [/home/abi/fetcher/tmp/my_math_unimore_cicd-0.3.tar.gz]
+[2024-05-10 10:46:27] INFO root fetch - main [MainThread]: End processing [my-math-unimore-cicd]: success
+[2024-05-10 10:46:28] INFO root fetch - main [MainThread]: End processing [my-math-unimore-cicd]: success
+[2024-05-10 10:46:28] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-10 10:46:28] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-10 10:46:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-attachment]: success
+[2024-05-10 10:46:28] INFO root fetch - processPackages [rate-control]: Remove: archive file [/home/abi/fetcher/tmp/rate_control-4.1.0.tar.gz]
+[2024-05-10 10:46:28] INFO root fetch - processPackages [rate-control]: Remove: archive file [/home/abi/fetcher/tmp/rate_control-4.1.1.tar.gz]
+[2024-05-10 10:46:28] INFO root fetch - main [MainThread]: End processing [rate-control]: success
+[2024-05-10 10:46:28] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 10:46:28] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 10:46:28] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 10:46:30] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-10 10:46:30] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-10 10:46:30] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-10 10:46:30] INFO root fetch - main [MainThread]: Store serial: [23143548]
