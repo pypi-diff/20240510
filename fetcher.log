@@ -6724,3 +6724,61 @@
 [2024-05-10 06:41:37] INFO root fetch - main [MainThread]: End processing [lovemakingz] error
 [2024-05-10 06:41:37] INFO root fetch - main [MainThread]: End processing [moschitta-serialization] error
 [2024-05-10 06:41:37] INFO root fetch - main [MainThread]: Store serial: [23141338]
+[2024-05-10 06:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141338]
+[2024-05-10 06:43:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mazedz
+[2024-05-10 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-config
+[2024-05-10 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-tradier-client
+[2024-05-10 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nima
+[2024-05-10 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-config
+[2024-05-10 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typesense
+[2024-05-10 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webscout
+[2024-05-10 06:43:45] INFO root fetch - processPackages [fast-tradier-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 06:43:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [17.0.1.3.0] Old Version: [17.0.1.2.1]
+[2024-05-10 06:43:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [17.0.1.3.0] Old Version: [17.0.1.2.1]
+[2024-05-10 06:43:45] INFO root fetch - processPackages [webscout]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-10 06:43:45] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/f5/df/cd72507b5f2c8d3c6db7e08fd7d2f702eb7a444233095a6382eeec127563/fast_tradier_client-1.0.1.tar.gz
+[2024-05-10 06:43:45] INFO root fetch - processPackages [nima]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 06:43:45] WARNING root fetch - processPackages [mazedz]: Skipping, unable to determine old version
+[2024-05-10 06:43:45] INFO root fetch - main [MainThread]: End processing [mazedz] error
+[2024-05-10 06:43:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/d8/af/08a1af6afbb206832753921089f8ae717baa420b58664f7ff14e9116ff8c/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl
+[2024-05-10 06:43:45] INFO root fetch - processPackages [typesense]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 06:43:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/d8/af/08a1af6afbb206832753921089f8ae717baa420b58664f7ff14e9116ff8c/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl
+[2024-05-10 06:43:45] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/e6/79/cdf9caee54fe16140eeecd7329893cb088e4c0e6a657fe158608c4dc2f42/webscout-1.4.3.tar.gz
+[2024-05-10 06:43:46] INFO root fetch - processPackages [nima]: Downloading https://files.pythonhosted.org/packages/19/87/c11cc2b5043d84b80c45b3c87a111b778b9e17160c4d1ce7eab8d7e2e7a9/nima-0.9.0.tar.gz
+[2024-05-10 06:43:46] INFO root fetch - processPackages [typesense]: Downloading https://files.pythonhosted.org/packages/68/46/ec7ebb153898007891d35e523f65f10285ec791c6b7d0a57c278008efa60/typesense-0.8.0-py2.py3-none-any.whl
+[2024-05-10 06:43:46] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/4a/38/1171b5ac5a83f2a0d1667971d9a1a3cbb9f739a54b0e1b0a5213b20b3387/fast_tradier_client-1.0.2.tar.gz
+[2024-05-10 06:43:46] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/45/98/6d4fb7a5c600a500da5103d03614edf69beb9564d9997e73d1a38776061c/webscout-1.4.4.tar.gz
+[2024-05-10 06:43:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/e3/45/bd1b39aa3c8553423045bcf9cded94443678750ef843a9131e55b88d8f7e/odoo_addon_l10n_ro_config-17.0.1.3.0-py3-none-any.whl
+[2024-05-10 06:43:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/e3/45/bd1b39aa3c8553423045bcf9cded94443678750ef843a9131e55b88d8f7e/odoo_addon_l10n_ro_config-17.0.1.3.0-py3-none-any.whl
+[2024-05-10 06:43:46] INFO root fetch - processPackages [fast-tradier-client]: executing diffoscope
+[2024-05-10 06:43:46] INFO root fetch - processPackages [fast-tradier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tradier_client-1.0.1.tar.gz tmp/fast_tradier_client-1.0.2.tar.gz --markdown 20240510/f/fast-tradier-client/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 06:43:46] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-10 06:43:46] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.4.3.tar.gz tmp/webscout-1.4.4.tar.gz --markdown 20240510/w/webscout/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-10 06:43:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2024-05-10 06:43:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-17.0.1.3.0-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-l10n-ro-config/17.0.1.2.1-17.0.1.3.0/README.md --exclude *.pyd
+[2024-05-10 06:43:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2024-05-10 06:43:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-17.0.1.3.0-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-l10n-ro-config/17.0.1.2.1-17.0.1.3.0/README.md --exclude *.pyd
+[2024-05-10 06:43:46] INFO root fetch - processPackages [typesense]: Downloading https://files.pythonhosted.org/packages/39/e4/a2bc549c92ebecfeff1d77d01f6840812be4cbd370925853283acc646695/typesense-0.9.0-py2.py3-none-any.whl
+[2024-05-10 06:43:47] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-1.0.1.tar.gz]
+[2024-05-10 06:43:47] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-1.0.2.tar.gz]
+[2024-05-10 06:43:47] INFO root fetch - main [MainThread]: End processing [fast-tradier-client]: success
+[2024-05-10 06:43:47] INFO root fetch - processPackages [typesense]: executing diffoscope
+[2024-05-10 06:43:47] INFO root fetch - processPackages [typesense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typesense-0.8.0-py2.py3-none-any.whl.zip tmp/typesense-0.9.0-py2.py3-none-any.whl.zip --markdown 20240510/t/typesense/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 06:43:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-10 06:43:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-10 06:43:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2024-05-10 06:43:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2024-05-10 06:43:47] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.3.tar.gz]
+[2024-05-10 06:43:47] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.4.tar.gz]
+[2024-05-10 06:43:47] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-10 06:43:47] INFO root fetch - processPackages [typesense]: Remove: archive file [/home/abi/fetcher/tmp/typesense-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-10 06:43:47] INFO root fetch - processPackages [typesense]: Remove: archive file [/home/abi/fetcher/tmp/typesense-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-10 06:43:47] INFO root fetch - main [MainThread]: End processing [typesense]: success
+[2024-05-10 06:43:48] INFO root fetch - processPackages [nima]: Downloading https://files.pythonhosted.org/packages/cc/80/690c7f8bf780dec08d6f7481a3a0a885f4d7950246be099e3f68a45372c0/nima-0.9.1.tar.gz
+[2024-05-10 06:43:48] INFO root fetch - processPackages [nima]: executing diffoscope
+[2024-05-10 06:43:48] INFO root fetch - processPackages [nima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nima-0.9.0.tar.gz tmp/nima-0.9.1.tar.gz --markdown 20240510/n/nima/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 06:43:50] INFO root fetch - processPackages [nima]: Remove: archive file [/home/abi/fetcher/tmp/nima-0.9.0.tar.gz]
+[2024-05-10 06:43:50] INFO root fetch - processPackages [nima]: Remove: archive file [/home/abi/fetcher/tmp/nima-0.9.1.tar.gz]
+[2024-05-10 06:43:50] INFO root fetch - main [MainThread]: End processing [nima]: success
+[2024-05-10 06:43:50] INFO root fetch - main [MainThread]: Store serial: [23141354]
