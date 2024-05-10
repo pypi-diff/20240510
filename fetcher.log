@@ -5789,3 +5789,33 @@
 [2024-05-10 05:42:30] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
 [2024-05-10 05:42:30] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
 [2024-05-10 05:42:30] INFO root fetch - main [MainThread]: Store serial: [23140926]
+[2024-05-10 05:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140926]
+[2024-05-10 05:44:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 05:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CVE-2019-9670
+[2024-05-10 05:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RocketSim
+[2024-05-10 05:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaas-cli
+[2024-05-10 05:44:39] INFO root fetch - processPackages [kaas-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 05:44:39] INFO root fetch - processPackages [RocketSim]: New version: [2.1.0a6] Old Version: [2.1.0a5]
+[2024-05-10 05:44:39] INFO root fetch - processPackages [CVE-2019-9670]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 05:44:39] INFO root fetch - processPackages [kaas-cli]: Downloading https://files.pythonhosted.org/packages/54/5c/3c2b1b4fe0a8e02dea973a45ccb2ab290a586c239c918fb851798cef2f88/kaas_cli-0.1.1.tar.gz
+[2024-05-10 05:44:39] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/9d/b4/091a7debdd58c767a6c89fd7035ffca3e541c5c2f9bbeb757a55a15fb844/RocketSim-2.1.0a5.tar.gz
+[2024-05-10 05:44:39] INFO root fetch - processPackages [CVE-2019-9670]: Downloading https://files.pythonhosted.org/packages/a9/6e/091fa9fcf5f6c37c08465a0bd35b13119da6495c12e78afe06f2538d24f5/CVE-2019-9670-0.0.5.tar.gz
+[2024-05-10 05:44:39] INFO root fetch - processPackages [kaas-cli]: Downloading https://files.pythonhosted.org/packages/cf/e0/62104c1b40ce3030b7879b87a02cddfe9985df78c2e2782153ca9f7cdc34/kaas_cli-0.1.2.tar.gz
+[2024-05-10 05:44:40] INFO root fetch - processPackages [CVE-2019-9670]: Downloading https://files.pythonhosted.org/packages/d0/24/bded418e89a057c52158da642569b8eca2a5474dd091f073747161610fae/CVE-2019-9670-0.0.6.tar.gz
+[2024-05-10 05:44:40] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/f7/5d/59ee5358928e8873373f1f3c0234c6ecf08e0fc59496b495aa12096b00aa/RocketSim-2.1.0a6.tar.gz
+[2024-05-10 05:44:40] INFO root fetch - processPackages [kaas-cli]: executing diffoscope
+[2024-05-10 05:44:40] INFO root fetch - processPackages [kaas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaas_cli-0.1.1.tar.gz tmp/kaas_cli-0.1.2.tar.gz --markdown 20240510/k/kaas-cli/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 05:44:40] INFO root fetch - processPackages [CVE-2019-9670]: executing diffoscope
+[2024-05-10 05:44:40] INFO root fetch - processPackages [CVE-2019-9670]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVE-2019-9670-0.0.5.tar.gz tmp/CVE-2019-9670-0.0.6.tar.gz --markdown 20240510/C/CVE-2019-9670/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 05:44:40] INFO root fetch - processPackages [RocketSim]: executing diffoscope
+[2024-05-10 05:44:40] INFO root fetch - processPackages [RocketSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RocketSim-2.1.0a5.tar.gz tmp/RocketSim-2.1.0a6.tar.gz --markdown 20240510/R/RocketSim/2.1.0a5-2.1.0a6/README.md --exclude *.pyd
+[2024-05-10 05:44:40] INFO root fetch - processPackages [kaas-cli]: Remove: archive file [/home/abi/fetcher/tmp/kaas_cli-0.1.1.tar.gz]
+[2024-05-10 05:44:40] INFO root fetch - processPackages [kaas-cli]: Remove: archive file [/home/abi/fetcher/tmp/kaas_cli-0.1.2.tar.gz]
+[2024-05-10 05:44:40] INFO root fetch - main [MainThread]: End processing [kaas-cli]: success
+[2024-05-10 05:44:40] INFO root fetch - processPackages [CVE-2019-9670]: Remove: archive file [/home/abi/fetcher/tmp/CVE-2019-9670-0.0.5.tar.gz]
+[2024-05-10 05:44:40] INFO root fetch - processPackages [CVE-2019-9670]: Remove: archive file [/home/abi/fetcher/tmp/CVE-2019-9670-0.0.6.tar.gz]
+[2024-05-10 05:44:40] INFO root fetch - main [MainThread]: End processing [CVE-2019-9670]: success
+[2024-05-10 05:44:41] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a5.tar.gz]
+[2024-05-10 05:44:41] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a6.tar.gz]
+[2024-05-10 05:44:41] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
+[2024-05-10 05:44:41] INFO root fetch - main [MainThread]: Store serial: [23140933]
