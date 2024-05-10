@@ -25028,3 +25028,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:31:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-05-10 18:31:49] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-05-10 18:31:49] INFO root fetch - main [MainThread]: Store serial: [23149702]
+[2024-05-10 18:33:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149702]
+[2024-05-10 18:33:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 18:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddir
+[2024-05-10 18:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-django-query-optimizer
+[2024-05-10 18:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-newrelic
+[2024-05-10 18:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talklib
+[2024-05-10 18:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rag4p
+[2024-05-10 18:33:58] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-10 18:33:58] INFO root fetch - processPackages [ddir]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-05-10 18:33:58] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-10 18:33:58] INFO root fetch - processPackages [rag4p]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-10 18:33:58] INFO root fetch - processPackages [talklib]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-10 18:33:58] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-10 18:33:58] INFO root fetch - processPackages [ddir]: Downloading https://files.pythonhosted.org/packages/75/14/c731f417744909584929c5d5354412ef7333223b0000eb0eda2887a6acd9/ddir-3.0.1-py3-none-any.whl
+[2024-05-10 18:33:58] INFO root fetch - processPackages [talklib]: Downloading https://files.pythonhosted.org/packages/38/81/e3b6abdff4ffd4c71944ea262ae41fe418fc7a83ae41568c99b1aa8d8032/talklib-1.2.2.tar.gz
+[2024-05-10 18:33:58] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/a0/81/06eb6a35afd20b22409d5ac180e722c54e59ed352bf074d365c209b67923/graphene_django_query_optimizer-0.5.2.tar.gz
+[2024-05-10 18:33:58] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-10 18:33:58] INFO root fetch - processPackages [rag4p]: Downloading https://files.pythonhosted.org/packages/75/48/91e9f24d1f6411984ecdf0d65eb94e1fe47e0e5c990897ddb175113cbd21/rag4p-0.1.3.tar.gz
+[2024-05-10 18:33:59] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-10 18:33:59] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240510/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-10 18:33:59] INFO root fetch - processPackages [ddir]: Downloading https://files.pythonhosted.org/packages/d1/44/683cf9f425deb44145bbdeaba297e55b28538a44b20e9860987a26d04967/ddir-3.1.0-py3-none-any.whl
+[2024-05-10 18:33:59] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/05/c4/91470debd8c3bc8779217bc1e1cf0a4c777d4cc55ff3b9a1b2fb54d1d0b0/graphene_django_query_optimizer-0.5.3.tar.gz
+[2024-05-10 18:33:59] INFO root fetch - processPackages [talklib]: Downloading https://files.pythonhosted.org/packages/0c/0b/b47303c114af9962d5802cdf98fb41d325d3b780b9ec3929cd72727fbb6e/talklib-1.2.3.tar.gz
+[2024-05-10 18:33:59] INFO root fetch - processPackages [ddir]: executing diffoscope
+[2024-05-10 18:33:59] INFO root fetch - processPackages [ddir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddir-3.0.1-py3-none-any.whl.zip tmp/ddir-3.1.0-py3-none-any.whl.zip --markdown 20240510/d/ddir/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-05-10 18:33:59] INFO root fetch - processPackages [rag4p]: Downloading https://files.pythonhosted.org/packages/78/71/bd68695fa53a700d8aeb19d17addbdfd36ca2b05e07b8f9811d778fff6b4/rag4p-0.2.0.tar.gz
+[2024-05-10 18:33:59] INFO root fetch - processPackages [talklib]: executing diffoscope
+[2024-05-10 18:33:59] INFO root fetch - processPackages [talklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talklib-1.2.2.tar.gz tmp/talklib-1.2.3.tar.gz --markdown 20240510/t/talklib/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-10 18:33:59] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-05-10 18:33:59] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.5.2.tar.gz tmp/graphene_django_query_optimizer-0.5.3.tar.gz --markdown 20240510/g/graphene-django-query-optimizer/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-10 18:33:59] INFO root fetch - processPackages [rag4p]: executing diffoscope
+[2024-05-10 18:33:59] INFO root fetch - processPackages [rag4p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag4p-0.1.3.tar.gz tmp/rag4p-0.2.0.tar.gz --markdown 20240510/r/rag4p/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-10 18:34:00] INFO root fetch - processPackages [talklib]: Remove: archive file [/home/abi/fetcher/tmp/talklib-1.2.2.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - processPackages [talklib]: Remove: archive file [/home/abi/fetcher/tmp/talklib-1.2.3.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - main [MainThread]: End processing [talklib]: success
+[2024-05-10 18:34:00] INFO root fetch - processPackages [ddir]: Remove: archive file [/home/abi/fetcher/tmp/ddir-3.0.1-py3-none-any.whl.zip]
+[2024-05-10 18:34:00] INFO root fetch - processPackages [ddir]: Remove: archive file [/home/abi/fetcher/tmp/ddir-3.1.0-py3-none-any.whl.zip]
+[2024-05-10 18:34:00] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.5.2.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.5.3.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - main [MainThread]: End processing [ddir]: success
+[2024-05-10 18:34:00] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-05-10 18:34:00] INFO root fetch - processPackages [rag4p]: Remove: archive file [/home/abi/fetcher/tmp/rag4p-0.1.3.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - processPackages [rag4p]: Remove: archive file [/home/abi/fetcher/tmp/rag4p-0.2.0.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - main [MainThread]: End processing [rag4p]: success
+[2024-05-10 18:34:00] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-10 18:34:00] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-10 18:34:00] INFO root fetch - main [MainThread]: Store serial: [23149723]
