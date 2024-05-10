@@ -9683,3 +9683,42 @@
 [2024-05-10 09:30:46] INFO root fetch - processPackages [radient]: Remove: archive file [/home/abi/fetcher/tmp/radient-2024.5.9.tar.gz]
 [2024-05-10 09:30:46] INFO root fetch - main [MainThread]: End processing [radient]: success
 [2024-05-10 09:30:46] INFO root fetch - main [MainThread]: Store serial: [23142753]
+[2024-05-10 09:32:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142753]
+[2024-05-10 09:32:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 09:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: a-sample-classification-model
+[2024-05-10 09:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rg3py
+[2024-05-10 09:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: experimaestro
+[2024-05-10 09:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chroma-haystack
+[2024-05-10 09:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anlab-paddleocr
+[2024-05-10 09:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ideophobiaz
+[2024-05-10 09:32:55] INFO root fetch - processPackages [rg3py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 09:32:55] WARNING root fetch - processPackages [a-sample-classification-model]: Skipping, unable to determine old version
+[2024-05-10 09:32:55] INFO root fetch - main [MainThread]: End processing [a-sample-classification-model] error
+[2024-05-10 09:32:55] INFO root fetch - processPackages [rg3py]: Downloading https://files.pythonhosted.org/packages/60/17/6f67a9f3c4f3e69b28210b2a6f446eb8702158bcd2d25c82544e8874fca5/rg3py-0.0.8-py3-none-win_amd64.whl
+[2024-05-10 09:32:55] INFO root fetch - processPackages [chroma-haystack]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-10 09:32:55] WARNING root fetch - processPackages [anlab-paddleocr]: Skipping, unable to determine old version
+[2024-05-10 09:32:55] INFO root fetch - main [MainThread]: End processing [anlab-paddleocr] error
+[2024-05-10 09:32:55] INFO root fetch - processPackages [experimaestro]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-10 09:32:55] WARNING root fetch - processPackages [ideophobiaz]: Skipping, unable to determine old version
+[2024-05-10 09:32:55] INFO root fetch - main [MainThread]: End processing [ideophobiaz] error
+[2024-05-10 09:32:55] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/92/82/e5dc83d1ac5581482d5b41272c05bdc8b3f2370d9e841e79e5e3e38fd3dd/experimaestro-1.5.4.tar.gz
+[2024-05-10 09:32:55] INFO root fetch - processPackages [chroma-haystack]: Downloading https://files.pythonhosted.org/packages/77/ba/9af06a85bbf93ca071fb250df5785ef270e9eb1700d91020ae88e6e2468e/chroma_haystack-0.8.1.tar.gz
+[2024-05-10 09:32:55] INFO root fetch - processPackages [rg3py]: Downloading https://files.pythonhosted.org/packages/d2/66/1be044b5bced6855b29c4523e819ee9add1283ccddad3e763a22e32d599a/rg3py-0.0.9-py3-none-win_amd64.whl
+[2024-05-10 09:32:56] INFO root fetch - processPackages [chroma-haystack]: Downloading https://files.pythonhosted.org/packages/dc/17/6ce5a1e9947dbeabc684ccce0a753a1720972e1997c614591a4b41862fcc/chroma_haystack-0.9.0.tar.gz
+[2024-05-10 09:32:56] INFO root fetch - processPackages [rg3py]: executing diffoscope
+[2024-05-10 09:32:56] INFO root fetch - processPackages [rg3py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rg3py-0.0.8-py3-none-win_amd64.whl.zip tmp/rg3py-0.0.9-py3-none-win_amd64.whl.zip --markdown 20240510/r/rg3py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:32:56] INFO root fetch - processPackages [chroma-haystack]: executing diffoscope
+[2024-05-10 09:32:56] INFO root fetch - processPackages [chroma-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroma_haystack-0.8.1.tar.gz tmp/chroma_haystack-0.9.0.tar.gz --markdown 20240510/c/chroma-haystack/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-10 09:32:56] INFO root fetch - processPackages [rg3py]: Remove: archive file [/home/abi/fetcher/tmp/rg3py-0.0.8-py3-none-win_amd64.whl.zip]
+[2024-05-10 09:32:56] INFO root fetch - processPackages [rg3py]: Remove: archive file [/home/abi/fetcher/tmp/rg3py-0.0.9-py3-none-win_amd64.whl.zip]
+[2024-05-10 09:32:56] INFO root fetch - main [MainThread]: End processing [rg3py]: success
+[2024-05-10 09:32:56] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/bf/b6/08300b71dbc41c74f811308f0516624515e0374547584cfe95f9a9911c61/experimaestro-1.5.5.tar.gz
+[2024-05-10 09:32:56] INFO root fetch - processPackages [chroma-haystack]: Remove: archive file [/home/abi/fetcher/tmp/chroma_haystack-0.8.1.tar.gz]
+[2024-05-10 09:32:56] INFO root fetch - processPackages [chroma-haystack]: Remove: archive file [/home/abi/fetcher/tmp/chroma_haystack-0.9.0.tar.gz]
+[2024-05-10 09:32:56] INFO root fetch - main [MainThread]: End processing [chroma-haystack]: success
+[2024-05-10 09:32:57] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2024-05-10 09:32:57] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-1.5.4.tar.gz tmp/experimaestro-1.5.5.tar.gz --markdown 20240510/e/experimaestro/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-10 09:32:58] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.4.tar.gz]
+[2024-05-10 09:32:58] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.5.tar.gz]
+[2024-05-10 09:32:58] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2024-05-10 09:32:58] INFO root fetch - main [MainThread]: Store serial: [23142776]
