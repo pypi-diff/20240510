@@ -15403,3 +15403,96 @@
 [2024-05-10 13:04:32] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.0rc2.tar.gz]
 [2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
 [2024-05-10 13:04:32] INFO root fetch - main [MainThread]: Store serial: [23145194]
+[2024-05-10 13:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145194]
+[2024-05-10 13:06:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-minio
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: causalimpactreturnsummary
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icsystemutils
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ds20kdb-avt
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redlite
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: betanglementz
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-ns1
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-libvirt
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mybody-api-client
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anticaptchaofficial
+[2024-05-10 13:06:55] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1715303876] Old Version: [3.3.0a1715234502]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [betanglementz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-10 13:06:55] INFO root fetch - processPackages [icsystemutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [causalimpactreturnsummary]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [anticaptchaofficial]: New version: [1.0.60] Old Version: [1.0.59]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [mybody-api-client]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [redlite]: New version: [0.1.4rc3] Old Version: [0.1.4rc1]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [ds20kdb-avt]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1715337488] Old Version: [0.5.0a1715303779]
+[2024-05-10 13:06:55] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/2e/85/b0fbf43eba931f3b0fd4ff9561d76817d43a2b5b409469ccc3c32a6e49d6/pulumi_ns1-3.3.0a1715234502.tar.gz
+[2024-05-10 13:06:55] INFO root fetch - processPackages [betanglementz]: Downloading https://files.pythonhosted.org/packages/46/21/e3bcb9d1ceadd50edffc29f6eafeae84c85155b3fbfaf5b93643430c59e5/betanglementz-1.1.tar.gz
+[2024-05-10 13:06:55] INFO root fetch - processPackages [icsystemutils]: Downloading https://files.pythonhosted.org/packages/ce/f6/f422ff1e16cf6eec80642b4224697109427770178fd93e243dfe4426b19f/icsystemutils-0.0.1.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [causalimpactreturnsummary]: Downloading https://files.pythonhosted.org/packages/1a/8e/ab7c72346ec421c1b53402a85cad580298b89c95428b108d61db99e10e18/causalimpactreturnsummary-0.0.0.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/54/fc/d6eb13c3159fe18627b8d7e0c76dfc177e657a384ee411738c5950b0ff8f/ds20kdb_avt-1.0.8.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [mybody-api-client]: Downloading https://files.pythonhosted.org/packages/89/b9/6c343a6744accfb243f9f6d10b35d9404b7e7c784d542bdafb1384eec63f/mybody_api_client-0.5.8.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [anticaptchaofficial]: Downloading https://files.pythonhosted.org/packages/ac/28/286302e7f8d55ecdcc969a7720751bfb60f8716914cf8030553b7a9becfb/anticaptchaofficial-1.0.59-py3-none-any.whl
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/b3/6f/7239d97025903fc08ba9a6ebd98ce2d2b2eb79d20c9fff577f38b8212ce6/pulumi_libvirt-0.5.0a1715303779.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [redlite]: Downloading https://files.pythonhosted.org/packages/14/66/742c254f9ad9fe2b70105324e95e427803900cd92f226d949453a47ce40d/redlite-0.1.4rc1-py3-none-any.whl
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/0d/d0/47c4e79ddf6d310da1ae654c4f213618a5a9ead43e05daacacc0d31f1adb/pulumi_ns1-3.3.0a1715303876.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240510/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [betanglementz]: Downloading https://files.pythonhosted.org/packages/ec/ab/a76f186545bcc32b22b3eadef1a9c3f461934b4dee49849b8f85524f634e/betanglementz-2.1.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [icsystemutils]: Downloading https://files.pythonhosted.org/packages/a0/33/ed4ca471bd5d1996c125a9411865388761a5fb6096a160d5323d132083e8/icsystemutils-0.0.2.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1715234502.tar.gz tmp/pulumi_ns1-3.3.0a1715303876.tar.gz --markdown 20240510/p/pulumi-ns1/3.3.0a1715234502-3.3.0a1715303876/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [causalimpactreturnsummary]: Downloading https://files.pythonhosted.org/packages/37/4e/8dec4a352e25a16eba86c4b5d2dd819efce798fa8e1bb334c8bc77b039a3/causalimpactreturnsummary-1.0.0.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/83/28/16e823ee489c38fd36674be8fd026fb3db3cfcad54433558f118ad2bfbdc/ds20kdb_avt-1.0.9.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [anticaptchaofficial]: Downloading https://files.pythonhosted.org/packages/37/8d/1a841205e5604892b41eb74dd83646420e78cefb0720b9cffe30f64f8549/anticaptchaofficial-1.0.60-py3-none-any.whl
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/c6/b9/791a9ee799fc1f618d0c662634cbd480cc1e03e574cf42055aaf6a24b34a/pulumi_libvirt-0.5.0a1715337488.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [icsystemutils]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [icsystemutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icsystemutils-0.0.1.tar.gz tmp/icsystemutils-0.0.2.tar.gz --markdown 20240510/i/icsystemutils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [mybody-api-client]: Downloading https://files.pythonhosted.org/packages/05/e6/a86994fd0636a33563e55a821541927c603bc85c308649457629e3ad588c/mybody_api_client-0.5.9.tar.gz
+[2024-05-10 13:06:56] INFO root fetch - processPackages [betanglementz]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [betanglementz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betanglementz-1.1.tar.gz tmp/betanglementz-2.1.tar.gz --markdown 20240510/b/betanglementz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [causalimpactreturnsummary]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [causalimpactreturnsummary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalimpactreturnsummary-0.0.0.tar.gz tmp/causalimpactreturnsummary-1.0.0.tar.gz --markdown 20240510/c/causalimpactreturnsummary/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [ds20kdb-avt]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [ds20kdb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds20kdb_avt-1.0.8.tar.gz tmp/ds20kdb_avt-1.0.9.tar.gz --markdown 20240510/d/ds20kdb-avt/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [redlite]: Downloading https://files.pythonhosted.org/packages/9c/cc/8cd1779e716868aeb149f66bfe7185aa166971d49fa92816fccff283b72e/redlite-0.1.4rc3-py3-none-any.whl
+[2024-05-10 13:06:56] INFO root fetch - processPackages [anticaptchaofficial]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [anticaptchaofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anticaptchaofficial-1.0.59-py3-none-any.whl.zip tmp/anticaptchaofficial-1.0.60-py3-none-any.whl.zip --markdown 20240510/a/anticaptchaofficial/1.0.59-1.0.60/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1715303779.tar.gz tmp/pulumi_libvirt-0.5.0a1715337488.tar.gz --markdown 20240510/p/pulumi-libvirt/0.5.0a1715303779-0.5.0a1715337488/README.md --exclude *.pyd
+[2024-05-10 13:06:56] INFO root fetch - processPackages [mybody-api-client]: executing diffoscope
+[2024-05-10 13:06:56] INFO root fetch - processPackages [mybody-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybody_api_client-0.5.8.tar.gz tmp/mybody_api_client-0.5.9.tar.gz --markdown 20240510/m/mybody-api-client/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-10 13:06:57] INFO root fetch - processPackages [redlite]: executing diffoscope
+[2024-05-10 13:06:57] INFO root fetch - processPackages [redlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redlite-0.1.4rc1-py3-none-any.whl.zip tmp/redlite-0.1.4rc3-py3-none-any.whl.zip --markdown 20240510/r/redlite/0.1.4rc1-0.1.4rc3/README.md --exclude *.pyd
+[2024-05-10 13:06:57] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [betanglementz]: Remove: archive file [/home/abi/fetcher/tmp/betanglementz-1.1.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [betanglementz]: Remove: archive file [/home/abi/fetcher/tmp/betanglementz-2.1.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [betanglementz]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715234502.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715303876.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [icsystemutils]: Remove: archive file [/home/abi/fetcher/tmp/icsystemutils-0.0.1.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [icsystemutils]: Remove: archive file [/home/abi/fetcher/tmp/icsystemutils-0.0.2.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [icsystemutils]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [causalimpactreturnsummary]: Remove: archive file [/home/abi/fetcher/tmp/causalimpactreturnsummary-0.0.0.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [causalimpactreturnsummary]: Remove: archive file [/home/abi/fetcher/tmp/causalimpactreturnsummary-1.0.0.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [causalimpactreturnsummary]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715303779.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715337488.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [anticaptchaofficial]: Remove: archive file [/home/abi/fetcher/tmp/anticaptchaofficial-1.0.59-py3-none-any.whl.zip]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [anticaptchaofficial]: Remove: archive file [/home/abi/fetcher/tmp/anticaptchaofficial-1.0.60-py3-none-any.whl.zip]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [anticaptchaofficial]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.8.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.9.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
+[2024-05-10 13:06:57] INFO root fetch - processPackages [mybody-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mybody_api_client-0.5.8.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - processPackages [mybody-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mybody_api_client-0.5.9.tar.gz]
+[2024-05-10 13:06:57] INFO root fetch - main [MainThread]: End processing [mybody-api-client]: success
+[2024-05-10 13:06:58] INFO root fetch - processPackages [redlite]: Remove: archive file [/home/abi/fetcher/tmp/redlite-0.1.4rc1-py3-none-any.whl.zip]
+[2024-05-10 13:06:58] INFO root fetch - processPackages [redlite]: Remove: archive file [/home/abi/fetcher/tmp/redlite-0.1.4rc3-py3-none-any.whl.zip]
+[2024-05-10 13:06:58] INFO root fetch - main [MainThread]: End processing [redlite]: success
+[2024-05-10 13:06:58] INFO root fetch - main [MainThread]: Store serial: [23145220]
