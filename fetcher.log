@@ -5696,3 +5696,42 @@
 [2024-05-10 05:33:50] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.22-py3-none-any.whl.zip]
 [2024-05-10 05:33:50] INFO root fetch - main [MainThread]: End processing [msanic]: success
 [2024-05-10 05:33:50] INFO root fetch - main [MainThread]: Store serial: [23140883]
+[2024-05-10 05:35:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140883]
+[2024-05-10 05:35:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PubChem-Prospector
+[2024-05-10 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowmancer
+[2024-05-10 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uniblez
+[2024-05-10 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lk-logger
+[2024-05-10 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memoriterz
+[2024-05-10 05:35:59] WARNING root fetch - processPackages [PubChem-Prospector]: Skipping, unable to determine old version
+[2024-05-10 05:35:59] INFO root fetch - main [MainThread]: End processing [PubChem-Prospector] error
+[2024-05-10 05:35:59] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 05:35:59] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 05:35:59] WARNING root fetch - processPackages [uniblez]: Skipping, unable to determine old version
+[2024-05-10 05:35:59] INFO root fetch - main [MainThread]: End processing [uniblez] error
+[2024-05-10 05:35:59] INFO root fetch - processPackages [lk-logger]: New version: [5.6.5] Old Version: [5.6.4]
+[2024-05-10 05:35:59] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-10 05:35:59] WARNING root fetch - processPackages [memoriterz]: Skipping, unable to determine old version
+[2024-05-10 05:35:59] INFO root fetch - main [MainThread]: End processing [memoriterz] error
+[2024-05-10 05:35:59] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-05-10 05:35:59] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 05:35:59] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/b2/4e/931688bd80e6b8d2bc751b743b6c2c2fd124f20e17705483002b9d9c268b/lk_logger-5.6.4-py3-none-any.whl
+[2024-05-10 05:35:59] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 05:35:59] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 05:35:59] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-05-10 05:35:59] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/ba/95/b3d8edcb808280ca819b1074f50c17faadea40a445621ba95c9e9e6de4fa/lk_logger-5.6.5-py3-none-any.whl
+[2024-05-10 05:35:59] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-05-10 05:35:59] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240510/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-10 05:35:59] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2024-05-10 05:35:59] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.6.4-py3-none-any.whl.zip tmp/lk_logger-5.6.5-py3-none-any.whl.zip --markdown 20240510/l/lk-logger/5.6.4-5.6.5/README.md --exclude *.pyd
+[2024-05-10 05:36:00] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 05:36:00] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 05:36:00] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 05:36:00] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-05-10 05:36:00] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-05-10 05:36:00] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-05-10 05:36:00] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.6.4-py3-none-any.whl.zip]
+[2024-05-10 05:36:00] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.6.5-py3-none-any.whl.zip]
+[2024-05-10 05:36:00] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2024-05-10 05:36:00] INFO root fetch - main [MainThread]: Store serial: [23140902]
