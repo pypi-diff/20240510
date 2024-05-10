@@ -5160,3 +5160,36 @@
 [2024-05-10 05:02:37] INFO root fetch - processPackages [adeft]: Remove: archive file [/home/abi/fetcher/tmp/adeft-0.9.0.tar.gz]
 [2024-05-10 05:02:37] INFO root fetch - main [MainThread]: End processing [adeft]: success
 [2024-05-10 05:02:37] INFO root fetch - main [MainThread]: Store serial: [23140666]
+[2024-05-10 05:04:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140666]
+[2024-05-10 05:04:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plectridiumz
+[2024-05-10 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-custom-sidebar-test
+[2024-05-10 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erpbrasil.edoc
+[2024-05-10 05:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ParentLOL
+[2024-05-10 05:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myfaasmctl
+[2024-05-10 05:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numericz
+[2024-05-10 05:04:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 05:04:46] WARNING root fetch - processPackages [ParentLOL]: Skipping, unable to determine old version
+[2024-05-10 05:04:46] INFO root fetch - main [MainThread]: End processing [ParentLOL] error
+[2024-05-10 05:04:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-10 05:04:46] WARNING root fetch - processPackages [plectridiumz]: Skipping, unable to determine old version
+[2024-05-10 05:04:46] INFO root fetch - main [MainThread]: End processing [plectridiumz] error
+[2024-05-10 05:04:46] WARNING root fetch - processPackages [myfaasmctl]: Skipping, unable to determine old version
+[2024-05-10 05:04:46] INFO root fetch - main [MainThread]: End processing [myfaasmctl] error
+[2024-05-10 05:04:46] WARNING root fetch - processPackages [numericz]: Skipping, unable to determine old version
+[2024-05-10 05:04:46] INFO root fetch - main [MainThread]: End processing [numericz] error
+[2024-05-10 05:04:46] INFO root fetch - processPackages [erpbrasil.edoc]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-05-10 05:04:46] INFO root fetch - processPackages [erpbrasil.edoc]: Downloading https://files.pythonhosted.org/packages/f0/3f/77b094213fd8615cf21459ae54a2de5dd35a46cfbf3bccf77f29cf956cb8/erpbrasil.edoc-2.7.1.tar.gz
+[2024-05-10 05:04:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-10 05:04:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-10 05:04:46] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240510/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 05:04:46] INFO root fetch - processPackages [erpbrasil.edoc]: Downloading https://files.pythonhosted.org/packages/6d/b4/a90d668ee731109d9b3123c49d5117a62e1d735a994755af76a0f9c3be06/erpbrasil.edoc-2.8.0.tar.gz
+[2024-05-10 05:04:46] INFO root fetch - processPackages [erpbrasil.edoc]: executing diffoscope
+[2024-05-10 05:04:46] INFO root fetch - processPackages [erpbrasil.edoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erpbrasil.edoc-2.7.1.tar.gz tmp/erpbrasil.edoc-2.8.0.tar.gz --markdown 20240510/e/erpbrasil.edoc/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-05-10 05:04:47] INFO root fetch - processPackages [erpbrasil.edoc]: Remove: archive file [/home/abi/fetcher/tmp/erpbrasil.edoc-2.7.1.tar.gz]
+[2024-05-10 05:04:47] INFO root fetch - processPackages [erpbrasil.edoc]: Remove: archive file [/home/abi/fetcher/tmp/erpbrasil.edoc-2.8.0.tar.gz]
+[2024-05-10 05:04:47] INFO root fetch - main [MainThread]: End processing [erpbrasil.edoc]: success
+[2024-05-10 05:04:57] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-10 05:04:57] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-10 05:04:57] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-10 05:04:57] INFO root fetch - main [MainThread]: Store serial: [23140687]
