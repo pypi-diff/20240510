@@ -14095,3 +14095,60 @@
 [2024-05-10 12:23:33] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot_client-7.2.0.tar.gz]
 [2024-05-10 12:23:33] INFO root fetch - main [MainThread]: End processing [deebot-client]: success
 [2024-05-10 12:23:33] INFO root fetch - main [MainThread]: Store serial: [23144588]
+[2024-05-10 12:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144588]
+[2024-05-10 12:25:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: create-flask-package
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcffont
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ascianz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ColNet
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dearwatson
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-aiven
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: convert-us-to-uk
+[2024-05-10 12:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poselab
+[2024-05-10 12:25:48] INFO root fetch - processPackages [create-flask-package]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 12:25:48] WARNING root fetch - processPackages [ascianz]: Skipping, unable to determine old version
+[2024-05-10 12:25:48] INFO root fetch - main [MainThread]: End processing [ascianz] error
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-10 12:25:48] WARNING root fetch - processPackages [ColNet]: Skipping, unable to determine old version
+[2024-05-10 12:25:48] INFO root fetch - main [MainThread]: End processing [ColNet] error
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pcffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 12:25:48] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/a8/82/b917872fee6228af25618d87ad82ffcba579b471e2da321177c63512ad8f/create_flask_package-0.1.4.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [dearwatson]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-10 12:25:48] WARNING root fetch - processPackages [poselab]: Skipping, unable to determine old version
+[2024-05-10 12:25:48] INFO root fetch - main [MainThread]: End processing [poselab] error
+[2024-05-10 12:25:48] INFO root fetch - processPackages [convert-us-to-uk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/92/35/03862ad6dd7b59fd56a2b6550361d86db7575145d828ac85b1bfa29d722d/pcffont-0.0.8.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/0f/ba/b35bd970c84ce962034af18fa9204693d404680e78cdfb8927d1c8166e80/dearwatson-0.9.7.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/28/c0/4ab6b95c41f410132a90c836c08780fe35c8baa135dedf017f3d472ca80e/convert-us-to-uk-0.1.7.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/1f/bb/75b70f7b15c2ada001021b6593e3dec650a21ecdd0e185d5dd49382babb0/create_flask_package-0.1.5.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [create-flask-package]: executing diffoscope
+[2024-05-10 12:25:48] INFO root fetch - processPackages [create-flask-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_flask_package-0.1.4.tar.gz tmp/create_flask_package-0.1.5.tar.gz --markdown 20240510/c/create-flask-package/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240510/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-10 12:25:48] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/08/90/f677a97a0181cfbd1bb052e4335dcf5b6ff3c0fab5241bccdbb2ddb6b339/pcffont-0.0.9.tar.gz
+[2024-05-10 12:25:48] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/61/94/7c950481bae084b3f86a477e146ef4150fb4905bdc4566ab73121ec9829a/convert-us-to-uk-0.1.8.tar.gz
+[2024-05-10 12:25:49] INFO root fetch - processPackages [convert-us-to-uk]: executing diffoscope
+[2024-05-10 12:25:49] INFO root fetch - processPackages [convert-us-to-uk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convert-us-to-uk-0.1.7.tar.gz tmp/convert-us-to-uk-0.1.8.tar.gz --markdown 20240510/c/convert-us-to-uk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 12:25:49] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/51/ef/a9231ae823323fefdd6b2c48396a26841d854f32c634d25ea73af29197dc/dearwatson-0.9.9.tar.gz
+[2024-05-10 12:25:49] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.4.tar.gz]
+[2024-05-10 12:25:49] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.5.tar.gz]
+[2024-05-10 12:25:49] INFO root fetch - main [MainThread]: End processing [create-flask-package]: success
+[2024-05-10 12:25:49] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-05-10 12:25:49] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.8.tar.gz tmp/pcffont-0.0.9.tar.gz --markdown 20240510/p/pcffont/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 12:25:49] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2024-05-10 12:25:49] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.9.7.tar.gz tmp/dearwatson-0.9.9.tar.gz --markdown 20240510/d/dearwatson/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-10 12:25:49] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.7.tar.gz]
+[2024-05-10 12:25:49] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.8.tar.gz]
+[2024-05-10 12:25:49] INFO root fetch - main [MainThread]: End processing [convert-us-to-uk]: success
+[2024-05-10 12:25:50] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-10 12:25:50] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-10 12:25:50] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-10 12:25:50] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.7.tar.gz]
+[2024-05-10 12:25:50] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.9.tar.gz]
+[2024-05-10 12:25:50] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2024-05-10 12:25:50] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.8.tar.gz]
+[2024-05-10 12:25:50] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.9.tar.gz]
+[2024-05-10 12:25:50] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-05-10 12:25:50] INFO root fetch - main [MainThread]: Store serial: [23144615]
