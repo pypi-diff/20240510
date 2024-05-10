@@ -16992,3 +16992,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:59:28] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
 [2024-05-10 13:59:28] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
 [2024-05-10 13:59:28] INFO root fetch - main [MainThread]: Store serial: [23145764]
+[2024-05-10 14:01:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145764]
+[2024-05-10 14:01:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 14:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh
+[2024-05-10 14:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scHyper
+[2024-05-10 14:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celus-nibbler
+[2024-05-10 14:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PKNSETools
+[2024-05-10 14:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: message-local
+[2024-05-10 14:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docmesh-agent
+[2024-05-10 14:01:51] INFO root fetch - processPackages [docmesh]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 14:01:51] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 14:01:51] INFO root fetch - processPackages [docmesh]: Downloading https://files.pythonhosted.org/packages/39/7b/91d1b33122bfffb8985192f5b1b25b33eef2dc60e6f7d389d624ffe4eb37/docmesh-0.0.2.tar.gz
+[2024-05-10 14:01:51] WARNING root fetch - processPackages [scHyper]: Skipping, unable to determine old version
+[2024-05-10 14:01:51] INFO root fetch - main [MainThread]: End processing [scHyper] error
+[2024-05-10 14:01:51] INFO root fetch - processPackages [celus-nibbler]: New version: [11.1.1] Old Version: [11.1.0]
+[2024-05-10 14:01:51] INFO root fetch - processPackages [PKNSETools]: New version: [0.1.20240510.102] Old Version: [0.1.20240509.101]
+[2024-05-10 14:01:51] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-10 14:01:51] WARNING root fetch - processPackages [docmesh-agent]: Skipping, unable to determine old version
+[2024-05-10 14:01:51] INFO root fetch - main [MainThread]: End processing [docmesh-agent] error
+[2024-05-10 14:01:52] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-10 14:01:52] INFO root fetch - processPackages [celus-nibbler]: Downloading https://files.pythonhosted.org/packages/41/31/527c5d62fac837432f1bf5781c3429081d1c9e91948af6650cc1334e3a1d/celus_nibbler-11.1.0.tar.gz
+[2024-05-10 14:01:52] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/7b/a1/131951fc4f1a3c67697396390df515d2d1fce3dfd454732e2d53b5755c55/PKNSETools-0.1.20240509.101.tar.gz
+[2024-05-10 14:01:52] INFO root fetch - processPackages [docmesh]: Downloading https://files.pythonhosted.org/packages/38/6b/5b19fc92036e991b58ec72ca8595dc730b2e4c2d990af0baff0331ce0b7e/docmesh-0.0.3.tar.gz
+[2024-05-10 14:01:52] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-10 14:01:52] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240510/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 14:01:52] INFO root fetch - processPackages [docmesh]: executing diffoscope
+[2024-05-10 14:01:52] INFO root fetch - processPackages [docmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh-0.0.2.tar.gz tmp/docmesh-0.0.3.tar.gz --markdown 20240510/d/docmesh/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 14:01:52] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/28/75/a5552a60903ae55bb89acfdb5e21b7513bc4d62092b433349032f3285e37/PKNSETools-0.1.20240510.102.tar.gz
+[2024-05-10 14:01:52] INFO root fetch - processPackages [celus-nibbler]: Downloading https://files.pythonhosted.org/packages/96/0d/52ec03902b46a17de8e1f24ba7d179cd1aa022b7888144e67154d9b4fe94/celus_nibbler-11.1.1.tar.gz
+[2024-05-10 14:01:52] INFO root fetch - processPackages [PKNSETools]: executing diffoscope
+[2024-05-10 14:01:52] INFO root fetch - processPackages [PKNSETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKNSETools-0.1.20240509.101.tar.gz tmp/PKNSETools-0.1.20240510.102.tar.gz --markdown 20240510/P/PKNSETools/0.1.20240509.101-0.1.20240510.102/README.md --exclude *.pyd
+[2024-05-10 14:01:52] INFO root fetch - processPackages [celus-nibbler]: executing diffoscope
+[2024-05-10 14:01:52] INFO root fetch - processPackages [celus-nibbler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celus_nibbler-11.1.0.tar.gz tmp/celus_nibbler-11.1.1.tar.gz --markdown 20240510/c/celus-nibbler/11.1.0-11.1.1/README.md --exclude *.pyd
+[2024-05-10 14:01:52] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-10 14:01:52] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-10 14:01:52] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-10 14:01:53] INFO root fetch - processPackages [docmesh]: Remove: archive file [/home/abi/fetcher/tmp/docmesh-0.0.2.tar.gz]
+[2024-05-10 14:01:53] INFO root fetch - processPackages [docmesh]: Remove: archive file [/home/abi/fetcher/tmp/docmesh-0.0.3.tar.gz]
+[2024-05-10 14:01:53] INFO root fetch - main [MainThread]: End processing [docmesh]: success
+[2024-05-10 14:01:53] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240509.101.tar.gz]
+[2024-05-10 14:01:53] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240510.102.tar.gz]
+[2024-05-10 14:01:53] INFO root fetch - main [MainThread]: End processing [PKNSETools]: success
+[2024-05-10 14:01:53] INFO root fetch - processPackages [celus-nibbler]: Remove: archive file [/home/abi/fetcher/tmp/celus_nibbler-11.1.0.tar.gz]
+[2024-05-10 14:01:53] INFO root fetch - processPackages [celus-nibbler]: Remove: archive file [/home/abi/fetcher/tmp/celus_nibbler-11.1.1.tar.gz]
+[2024-05-10 14:01:53] INFO root fetch - main [MainThread]: End processing [celus-nibbler]: success
+[2024-05-10 14:01:53] INFO root fetch - main [MainThread]: Store serial: [23145792]
