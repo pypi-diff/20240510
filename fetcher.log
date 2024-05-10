@@ -2310,3 +2310,97 @@
 [2024-05-10 02:11:56] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405090009.tar.gz]
 [2024-05-10 02:11:56] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-10 02:11:56] INFO root fetch - main [MainThread]: Store serial: [23139287]
+[2024-05-10 02:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139287]
+[2024-05-10 02:14:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abacusai
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emannotationschemas
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matroid
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nondiaphanousnessz
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parcllabs
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mesop
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-nag
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-gitlab-runner
+[2024-05-10 02:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-events-notify
+[2024-05-10 02:14:04] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-10 02:14:04] INFO root fetch - processPackages [abacusai]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-10 02:14:04] INFO root fetch - processPackages [emannotationschemas]: New version: [5.8.0] Old Version: [5.7.1]
+[2024-05-10 02:14:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 02:14:04] INFO root fetch - processPackages [matroid]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-10 02:14:04] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-10 02:14:04] WARNING root fetch - processPackages [nondiaphanousnessz]: Skipping, unable to determine old version
+[2024-05-10 02:14:04] INFO root fetch - processPackages [mesop]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-10 02:14:04] INFO root fetch - processPackages [nondiaphanousnessz]: Start processing: cdk-skylight
+[2024-05-10 02:14:04] INFO root fetch - main [MainThread]: End processing [nondiaphanousnessz] error
+[2024-05-10 02:14:05] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/91/35/a3396ab6731735cad0e55763ba0443a1d96025c733fb267bd6a0f8292426/abacusai-1.2.6.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [emannotationschemas]: Downloading https://files.pythonhosted.org/packages/2c/bb/4f2092162dcb91628fbbfdafaad48dcf6fb4f437a8b9896dcad8601617f4/emannotationschemas-5.7.1.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-10 02:14:05] INFO root fetch - processPackages [matroid]: Downloading https://files.pythonhosted.org/packages/b1/b4/ee70698a2057bf5322bb96efaf5d33449577a4d1dff8dd62326edaddd641/matroid-1.4.0.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/a0/8f/5b7e094252fe6cdad10804b81926a153bdeccacca6374506c6ad36834a3c/mesop-0.5.1-py3-none-any.whl
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [parcllabs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 02:14:05] INFO root fetch - processPackages [emannotationschemas]: Downloading https://files.pythonhosted.org/packages/c1/b5/26636e146ee0f0a52fd9ca1deab0434b15c919f2c887fdc17d1dee971c72/emannotationschemas-5.8.0.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [emannotationschemas]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [emannotationschemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emannotationschemas-5.7.1.tar.gz tmp/emannotationschemas-5.8.0.tar.gz --markdown 20240510/e/emannotationschemas/5.7.1-5.8.0/README.md --exclude *.pyd
+[2024-05-10 02:14:05] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [matroid]: Downloading https://files.pythonhosted.org/packages/d0/77/6d3f1f1a9ee389445c3b33c0dbda2c29a6c49210815febcd83204a954d87/matroid-1.4.1.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/75/2f/5616259aa324a416fa5652d76615deafdb29f91b0a78e4dd99965ad743d1/abacusai-1.2.7.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240510/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240510/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 02:14:05] INFO root fetch - processPackages [matroid]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [matroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matroid-1.4.0.tar.gz tmp/matroid-1.4.1.tar.gz --markdown 20240510/m/matroid/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240510/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/54/76/252d5d459b8fefcdb4cd8ba9124168cc37b81f5740ca09ff3e754621335b/parcllabs-0.1.9.tar.gz
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240510/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240510/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-10 02:14:05] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-05-10 02:14:05] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.8.tar.gz tmp/parcllabs-0.1.9.tar.gz --markdown 20240510/p/parcllabs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 02:14:06] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2024-05-10 02:14:06] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-1.2.6.tar.gz tmp/abacusai-1.2.7.tar.gz --markdown 20240510/a/abacusai/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-10 02:14:06] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/8b/6c/7dfea9c14c25ed9e498d73748dd8644d28c0f81c403e59b95f0b5109b04a/mesop-0.5.2-py3-none-any.whl
+[2024-05-10 02:14:06] INFO root fetch - processPackages [emannotationschemas]: Remove: archive file [/home/abi/fetcher/tmp/emannotationschemas-5.7.1.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - processPackages [emannotationschemas]: Remove: archive file [/home/abi/fetcher/tmp/emannotationschemas-5.8.0.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [emannotationschemas]: success
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-10 02:14:06] INFO root fetch - processPackages [matroid]: Remove: archive file [/home/abi/fetcher/tmp/matroid-1.4.0.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - processPackages [matroid]: Remove: archive file [/home/abi/fetcher/tmp/matroid-1.4.1.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [matroid]: success
+[2024-05-10 02:14:06] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
+[2024-05-10 02:14:06] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-05-10 02:14:07] INFO root fetch - processPackages [mesop]: executing diffoscope
+[2024-05-10 02:14:07] INFO root fetch - processPackages [mesop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesop-0.5.1-py3-none-any.whl.zip tmp/mesop-0.5.2-py3-none-any.whl.zip --markdown 20240510/m/mesop/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-10 02:14:11] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.6.tar.gz]
+[2024-05-10 02:14:11] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.7.tar.gz]
+[2024-05-10 02:14:11] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2024-05-10 02:16:48] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.1-py3-none-any.whl.zip]
+[2024-05-10 02:16:48] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.2-py3-none-any.whl.zip]
+[2024-05-10 02:16:48] INFO root fetch - main [MainThread]: End processing [mesop]: success
+[2024-05-10 02:16:48] INFO root fetch - main [MainThread]: Store serial: [23139319]
