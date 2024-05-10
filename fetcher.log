@@ -11608,3 +11608,78 @@
 [2024-05-10 10:50:57] INFO root fetch - processPackages [mlable]: Remove: archive file [/home/abi/fetcher/tmp/mlable-0.1.3.tar.gz]
 [2024-05-10 10:50:57] INFO root fetch - main [MainThread]: End processing [mlable]: success
 [2024-05-10 10:50:57] INFO root fetch - main [MainThread]: Store serial: [23143587]
+[2024-05-10 10:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143587]
+[2024-05-10 10:53:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fs-attachment
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ketacli
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zsx-Hic-plot
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openCV-movement-detection
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MultiGather
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: projen
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyminflux
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PREN-flawas
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AI-classifier
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stonefish-code-shield
+[2024-05-10 10:53:08] INFO root fetch - processPackages [odoo-addon-fs-attachment]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1]
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ketacli]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 10:53:08] INFO root fetch - processPackages [MultiGather]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 10:53:08] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 10:53:08] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/44/0b/513c53d27eae74187fcfa6bb63aae151a637fac9f85c8aa8e53c32089ec8/multigather-0.0.5.tar.gz
+[2024-05-10 10:53:08] WARNING root fetch - processPackages [openCV-movement-detection]: Skipping, unable to determine old version
+[2024-05-10 10:53:08] INFO root fetch - main [MainThread]: End processing [openCV-movement-detection] error
+[2024-05-10 10:53:08] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/43/1e/a11fbb650059a67abef2514682cd8521b646a871f3a1eeaf97ab34340de4/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl
+[2024-05-10 10:53:08] WARNING root fetch - processPackages [zsx-Hic-plot]: Skipping, unable to determine old version
+[2024-05-10 10:53:08] INFO root fetch - main [MainThread]: End processing [zsx-Hic-plot] error
+[2024-05-10 10:53:08] WARNING root fetch - processPackages [AI-classifier]: Skipping, unable to determine old version
+[2024-05-10 10:53:08] INFO root fetch - main [MainThread]: End processing [AI-classifier] error
+[2024-05-10 10:53:08] INFO root fetch - processPackages [pyminflux]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/26/21/56d65bb9c164a4fda18b7374277a8c8235463d0e639ec6f3b77630516473/ketacli-0.8.tar.gz
+[2024-05-10 10:53:08] INFO root fetch - processPackages [stonefish-code-shield]: New version: [0.3.46] Old Version: [0.3.45]
+[2024-05-10 10:53:08] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 10:53:08] INFO root fetch - processPackages [projen]: New version: [0.81.9] Old Version: [0.81.8]
+[2024-05-10 10:53:08] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/64/0b/74ac58d7769b58d45bb14b7716c762b052050cf87f65366f006e8df6e588/multigather-0.0.6.tar.gz
+[2024-05-10 10:53:08] INFO root fetch - processPackages [pyminflux]: Downloading https://files.pythonhosted.org/packages/56/58/4e7a3ebbdbf216ebeabfc96252dcc88cb4ee318bc353e520646a31b148ec/pyminflux-0.4.0.tar.gz
+[2024-05-10 10:53:08] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/a9/f4/d17557b1ae241bb7d49f310e2d6dca5c0bc3fae2f46dd05d76b0ac740d16/ketacli-0.9.tar.gz
+[2024-05-10 10:53:08] INFO root fetch - processPackages [stonefish-code-shield]: Downloading https://files.pythonhosted.org/packages/3d/83/f938b9bc51c0dfd4bb0120168f4bc173a80c24ce32faaafedb76e065d1c9/stonefish_code_shield-0.3.45-py3-none-any.whl
+[2024-05-10 10:53:08] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/fd/da/455ccc86b40aabbc3a0deb4dfc5dad4348d45262b0c95e6c04caef8ffc7b/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-10 10:53:09] INFO root fetch - processPackages [MultiGather]: executing diffoscope
+[2024-05-10 10:53:09] INFO root fetch - processPackages [MultiGather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multigather-0.0.5.tar.gz tmp/multigather-0.0.6.tar.gz --markdown 20240510/M/MultiGather/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 10:53:09] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/1e/71c5fe5e0fe91b950d1c1b54ec57fee6ad64f50810fed74f469dfdd21a79/projen-0.81.8.tar.gz
+[2024-05-10 10:53:09] INFO root fetch - processPackages [ketacli]: executing diffoscope
+[2024-05-10 10:53:09] INFO root fetch - processPackages [ketacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ketacli-0.8.tar.gz tmp/ketacli-0.9.tar.gz --markdown 20240510/k/ketacli/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 10:53:09] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 10:53:09] INFO root fetch - processPackages [odoo-addon-fs-attachment]: executing diffoscope
+[2024-05-10 10:53:09] INFO root fetch - processPackages [odoo-addon-fs-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-fs-attachment/17.0.1.0.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-10 10:53:09] INFO root fetch - processPackages [stonefish-code-shield]: Downloading https://files.pythonhosted.org/packages/bc/60/20847d9af4340fcafeeaab0cbb2e0b93bec49ee6103b5c55cc3fe0d45b94/stonefish_code_shield-0.3.46-py3-none-any.whl
+[2024-05-10 10:53:09] INFO root fetch - processPackages [pyminflux]: Downloading https://files.pythonhosted.org/packages/73/6a/bf658362aaa91d13951a56511fe270b3ef39b70e68451e3daa4370a6e963/pyminflux-0.4.1.tar.gz
+[2024-05-10 10:53:09] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 10:53:09] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 10:53:09] INFO root fetch - processPackages [stonefish-code-shield]: executing diffoscope
+[2024-05-10 10:53:09] INFO root fetch - processPackages [stonefish-code-shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish_code_shield-0.3.45-py3-none-any.whl.zip tmp/stonefish_code_shield-0.3.46-py3-none-any.whl.zip --markdown 20240510/s/stonefish-code-shield/0.3.45-0.3.46/README.md --exclude *.pyd
+[2024-05-10 10:53:09] INFO root fetch - processPackages [pyminflux]: executing diffoscope
+[2024-05-10 10:53:09] INFO root fetch - processPackages [pyminflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminflux-0.4.0.tar.gz tmp/pyminflux-0.4.1.tar.gz --markdown 20240510/p/pyminflux/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-10 10:53:09] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/bd/42ccbdcec141a68fd1ef11c16c2ec702d07f65b9a004736eba33473e8cdd/projen-0.81.9.tar.gz
+[2024-05-10 10:53:09] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.5.tar.gz]
+[2024-05-10 10:53:09] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.6.tar.gz]
+[2024-05-10 10:53:09] INFO root fetch - main [MainThread]: End processing [MultiGather]: success
+[2024-05-10 10:53:09] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.8.tar.gz]
+[2024-05-10 10:53:09] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.9.tar.gz]
+[2024-05-10 10:53:09] INFO root fetch - main [MainThread]: End processing [ketacli]: success
+[2024-05-10 10:53:09] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-10 10:53:09] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-10 10:53:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-attachment]: success
+[2024-05-10 10:53:09] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-10 10:53:09] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.8.tar.gz tmp/projen-0.81.9.tar.gz --markdown 20240510/p/projen/0.81.8-0.81.9/README.md --exclude *.pyd
+[2024-05-10 10:53:10] INFO root fetch - processPackages [stonefish-code-shield]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_code_shield-0.3.45-py3-none-any.whl.zip]
+[2024-05-10 10:53:10] INFO root fetch - processPackages [stonefish-code-shield]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_code_shield-0.3.46-py3-none-any.whl.zip]
+[2024-05-10 10:53:10] INFO root fetch - main [MainThread]: End processing [stonefish-code-shield]: success
+[2024-05-10 10:53:10] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 10:53:10] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 10:53:10] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 10:53:10] INFO root fetch - processPackages [pyminflux]: Remove: archive file [/home/abi/fetcher/tmp/pyminflux-0.4.0.tar.gz]
+[2024-05-10 10:53:10] INFO root fetch - processPackages [pyminflux]: Remove: archive file [/home/abi/fetcher/tmp/pyminflux-0.4.1.tar.gz]
+[2024-05-10 10:53:10] INFO root fetch - main [MainThread]: End processing [pyminflux]: success
+[2024-05-10 10:53:11] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.8.tar.gz]
+[2024-05-10 10:53:11] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.9.tar.gz]
+[2024-05-10 10:53:11] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-10 10:53:11] INFO root fetch - main [MainThread]: Store serial: [23143619]
