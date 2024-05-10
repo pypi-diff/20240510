@@ -20204,3 +20204,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:51:32] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
 [2024-05-10 15:51:32] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2024-05-10 15:51:32] INFO root fetch - main [MainThread]: Store serial: [23147323]
+[2024-05-10 15:53:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147323]
+[2024-05-10 15:53:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex-antd
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: affixapi
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isparrowrecord
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxtr
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmat-tools
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandex-query-client
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manila-tempest-plugin
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kudaf_datasource_tools
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwb4fp
+[2024-05-10 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: commonroad-reach
+[2024-05-10 15:53:43] INFO root fetch - processPackages [onnxtr]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 15:53:43] INFO root fetch - processPackages [affixapi]: New version: [1.1.74] Old Version: [1.1.72]
+[2024-05-10 15:53:43] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.2.3] Old Version: [0.6.2.2]
+[2024-05-10 15:53:43] INFO root fetch - processPackages [reflex-antd]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 15:53:43] WARNING root fetch - processPackages [kmat-tools]: Skipping, unable to determine old version
+[2024-05-10 15:53:43] INFO root fetch - main [MainThread]: End processing [kmat-tools] error
+[2024-05-10 15:53:43] INFO root fetch - processPackages [manila-tempest-plugin]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-10 15:53:43] INFO root fetch - processPackages [yandex-query-client]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 15:53:43] INFO root fetch - processPackages [kudaf_datasource_tools]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-10 15:53:43] WARNING root fetch - processPackages [isparrowrecord]: Skipping, unable to determine old version
+[2024-05-10 15:53:43] INFO root fetch - main [MainThread]: End processing [isparrowrecord] error
+[2024-05-10 15:53:43] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/39/34/3808f5dc3940cc6a0f0054a14da5fc9d55a2f9545787d7924f5b056daf97/affixapi-1.1.72.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [commonroad-reach]: New version: [2024.1.2] Old Version: [2024.1.1]
+[2024-05-10 15:53:43] INFO root fetch - processPackages [onnxtr]: Downloading https://files.pythonhosted.org/packages/95/55/5f619e59b1979e644839d06e3e18e704b6ad24dd1199ece399cea932f629/onnxtr-0.1.0.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/80/8f/5bc73dc1580c11ab50694772a86b54f78eec72810a21041ef3622a65abff/reflex_antd-0.0.6.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/71/a8/be2c73fad82d828b36c2773a6ccf176fc09c86dfa1aa647ac02d64fe463a/nwb4fp-0.6.2.2-py3-none-any.whl
+[2024-05-10 15:53:43] INFO root fetch - processPackages [yandex-query-client]: Downloading https://files.pythonhosted.org/packages/02/ff/967db092788d2b5bbc53538c29bc801a12a2fa69390728cabe02de2d53c3/yandex_query_client-0.1.3.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [manila-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/fe/ef/8651799dd61b16f3fb5894b5da36daa0979f7023f766f389954499ef9998/manila-tempest-plugin-2.2.0.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [kudaf_datasource_tools]: Downloading https://files.pythonhosted.org/packages/49/e1/e0bd0fcd111f60f05b75bc6ba2d16b229998ea6782728c0c96a6626201fa/kudaf_datasource_tools-0.4.2.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [commonroad-reach]: Downloading https://files.pythonhosted.org/packages/27/58/33032ffbc722a08eaecee1aa613953a651f387cffd5b0085ba6661583e9e/commonroad_reach-2024.1.1.tar.gz
+[2024-05-10 15:53:43] WARNING root fetch - processPackages [commonroad-reach]: Skipping package: exceeds size limit 11113213>=10485760
+[2024-05-10 15:53:43] INFO root fetch - main [MainThread]: End processing [commonroad-reach] error
+[2024-05-10 15:53:43] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/5a/b0/faae68a5be640fd785ff8d618a33268299cf0c79c61d5ced76a2c084aec7/affixapi-1.1.74.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [onnxtr]: Downloading https://files.pythonhosted.org/packages/e6/b7/57f209964dd82044ee4f2304b6cb9361cf2c361f087d8a0b5d8e1fa514f6/onnxtr-0.1.1.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/e9/00/753ca4f5b1bdedca6b382ea4c65a4d4c350929c6a75c2dce2cc80fc214ec/nwb4fp-0.6.2.3.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-05-10 15:53:43] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.72.tar.gz tmp/affixapi-1.1.74.tar.gz --markdown 20240510/a/affixapi/1.1.72-1.1.74/README.md --exclude *.pyd
+[2024-05-10 15:53:43] INFO root fetch - processPackages [yandex-query-client]: Downloading https://files.pythonhosted.org/packages/f3/9a/9b237d191901fe9580dccf23fa278ff6728a973661b507f2847f22f511b0/yandex_query_client-0.1.4.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/31/c0/c3e86f3e5f25d76625c837d8f4920c236270bb1787e6a906f55ef3977a7a/reflex_antd-0.0.7.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-10 15:53:43] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.2.2-py3-none-any.whl.zip tmp/nwb4fp-0.6.2.3.tar.gz --markdown 20240510/n/nwb4fp/0.6.2.2-0.6.2.3/README.md --exclude *.pyd
+[2024-05-10 15:53:43] INFO root fetch - processPackages [onnxtr]: executing diffoscope
+[2024-05-10 15:53:43] INFO root fetch - processPackages [onnxtr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxtr-0.1.0.tar.gz tmp/onnxtr-0.1.1.tar.gz --markdown 20240510/o/onnxtr/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 15:53:43] INFO root fetch - processPackages [manila-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/f4/41/0658f91fee557c5801c72541c18cc14ee8f0d78b5f845fe87401fba5b853/manila-tempest-plugin-2.3.0.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [kudaf_datasource_tools]: Downloading https://files.pythonhosted.org/packages/4e/7a/93b4744268f670e76f91c56ba9876967dc05e091471f32002b4d5ed74918/kudaf_datasource_tools-0.4.3.tar.gz
+[2024-05-10 15:53:43] INFO root fetch - processPackages [yandex-query-client]: executing diffoscope
+[2024-05-10 15:53:43] INFO root fetch - processPackages [yandex-query-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex_query_client-0.1.3.tar.gz tmp/yandex_query_client-0.1.4.tar.gz --markdown 20240510/y/yandex-query-client/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 15:53:43] INFO root fetch - processPackages [reflex-antd]: executing diffoscope
+[2024-05-10 15:53:43] INFO root fetch - processPackages [reflex-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_antd-0.0.6.tar.gz tmp/reflex_antd-0.0.7.tar.gz --markdown 20240510/r/reflex-antd/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 15:53:43] INFO root fetch - processPackages [kudaf_datasource_tools]: executing diffoscope
+[2024-05-10 15:53:43] INFO root fetch - processPackages [kudaf_datasource_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kudaf_datasource_tools-0.4.2.tar.gz tmp/kudaf_datasource_tools-0.4.3.tar.gz --markdown 20240510/k/kudaf_datasource_tools/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-10 15:53:43] INFO root fetch - processPackages [manila-tempest-plugin]: executing diffoscope
+[2024-05-10 15:53:43] INFO root fetch - processPackages [manila-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manila-tempest-plugin-2.2.0.tar.gz tmp/manila-tempest-plugin-2.3.0.tar.gz --markdown 20240510/m/manila-tempest-plugin/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-10 15:53:44] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.2-py3-none-any.whl.zip]
+[2024-05-10 15:53:44] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.3.tar.gz]
+[2024-05-10 15:53:44] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-10 15:53:44] INFO root fetch - processPackages [yandex-query-client]: Remove: archive file [/home/abi/fetcher/tmp/yandex_query_client-0.1.3.tar.gz]
+[2024-05-10 15:53:44] INFO root fetch - processPackages [yandex-query-client]: Remove: archive file [/home/abi/fetcher/tmp/yandex_query_client-0.1.4.tar.gz]
+[2024-05-10 15:53:44] INFO root fetch - main [MainThread]: End processing [yandex-query-client]: success
+[2024-05-10 15:53:44] INFO root fetch - processPackages [onnxtr]: Remove: archive file [/home/abi/fetcher/tmp/onnxtr-0.1.0.tar.gz]
+[2024-05-10 15:53:44] INFO root fetch - processPackages [onnxtr]: Remove: archive file [/home/abi/fetcher/tmp/onnxtr-0.1.1.tar.gz]
+[2024-05-10 15:53:44] INFO root fetch - main [MainThread]: End processing [onnxtr]: success
+[2024-05-10 15:53:44] INFO root fetch - processPackages [kudaf_datasource_tools]: Remove: archive file [/home/abi/fetcher/tmp/kudaf_datasource_tools-0.4.2.tar.gz]
+[2024-05-10 15:53:44] INFO root fetch - processPackages [kudaf_datasource_tools]: Remove: archive file [/home/abi/fetcher/tmp/kudaf_datasource_tools-0.4.3.tar.gz]
+[2024-05-10 15:53:44] INFO root fetch - main [MainThread]: End processing [kudaf_datasource_tools]: success
+[2024-05-10 15:53:45] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.72.tar.gz]
+[2024-05-10 15:53:45] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.74.tar.gz]
+[2024-05-10 15:53:45] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-05-10 15:53:45] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.6.tar.gz]
+[2024-05-10 15:53:45] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.7.tar.gz]
+[2024-05-10 15:53:45] INFO root fetch - main [MainThread]: End processing [reflex-antd]: success
+[2024-05-10 15:53:45] INFO root fetch - processPackages [manila-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/manila-tempest-plugin-2.2.0.tar.gz]
+[2024-05-10 15:53:45] INFO root fetch - processPackages [manila-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/manila-tempest-plugin-2.3.0.tar.gz]
+[2024-05-10 15:53:45] INFO root fetch - main [MainThread]: End processing [manila-tempest-plugin]: success
+[2024-05-10 15:53:45] INFO root fetch - main [MainThread]: Store serial: [23147356]
