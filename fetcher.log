@@ -6601,3 +6601,51 @@
 [2024-05-10 06:30:44] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.6.1.tar.gz]
 [2024-05-10 06:30:44] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
 [2024-05-10 06:30:44] INFO root fetch - main [MainThread]: Store serial: [23141258]
+[2024-05-10 06:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141258]
+[2024-05-10 06:32:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 06:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agluconz
+[2024-05-10 06:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samaritansz
+[2024-05-10 06:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saraApi
+[2024-05-10 06:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erdantic
+[2024-05-10 06:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohtam1-hello
+[2024-05-10 06:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-trino
+[2024-05-10 06:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mns-common
+[2024-05-10 06:32:53] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.4] Old Version: [1.0.8.3]
+[2024-05-10 06:32:53] WARNING root fetch - processPackages [agluconz]: Skipping, unable to determine old version
+[2024-05-10 06:32:53] INFO root fetch - main [MainThread]: End processing [agluconz] error
+[2024-05-10 06:32:53] WARNING root fetch - processPackages [samaritansz]: Skipping, unable to determine old version
+[2024-05-10 06:32:53] INFO root fetch - main [MainThread]: End processing [samaritansz] error
+[2024-05-10 06:32:53] WARNING root fetch - processPackages [ohtam1-hello]: Skipping, unable to determine old version
+[2024-05-10 06:32:53] INFO root fetch - main [MainThread]: End processing [ohtam1-hello] error
+[2024-05-10 06:32:53] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2024-05-10 06:32:53] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/29/eb/1b023e51faa5929aa84953586df8a24294eab849308f43f31029d2e5b44c/mns_common-1.0.8.3.tar.gz
+[2024-05-10 06:32:53] INFO root fetch - processPackages [erdantic]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-10 06:32:53] INFO root fetch - processPackages [dbt-trino]: New version: [1.8.0b3] Old Version: [1.8.0b2]
+[2024-05-10 06:32:53] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/cf/82/c63ffc2d844a84f2b9625de2105eec3b42f16c6b7ea74654a2a0752b17be/saraapi-0.0.0.6.tar.gz
+[2024-05-10 06:32:53] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/45/5e/b93b7d34be056a0699e65a13659b98491edc6a76a25aea06da9be3049840/erdantic-1.0.2.tar.gz
+[2024-05-10 06:32:53] INFO root fetch - processPackages [dbt-trino]: Downloading https://files.pythonhosted.org/packages/6a/2c/8087f8d9dd1be75acaf1e1a3d980020464842be499acc53d8c720493e238/dbt-trino-1.8.0b2.tar.gz
+[2024-05-10 06:32:54] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/d5/c0/066995a82fed6b0edd0fd814ba77d9e62198833e1d9e37f95a40b39f5d44/mns_common-1.0.8.4.tar.gz
+[2024-05-10 06:32:54] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/04/b2/25c601b79316080b097feb61d66e0481b6a0cdb1feef67a85afdf2172916/saraapi-0.0.0.7.tar.gz
+[2024-05-10 06:32:54] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-10 06:32:54] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.8.3.tar.gz tmp/mns_common-1.0.8.4.tar.gz --markdown 20240510/m/mns-common/1.0.8.3-1.0.8.4/README.md --exclude *.pyd
+[2024-05-10 06:32:54] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/f9/4c/3fd25c4b961170fb6eeb6a17ee097ea0066025cf05922accd1390d00987c/erdantic-1.0.3.tar.gz
+[2024-05-10 06:32:54] INFO root fetch - processPackages [dbt-trino]: Downloading https://files.pythonhosted.org/packages/45/c4/dc9604e9cbe9f3529fe56dd850cf75aeb655f768efc17097194a3b4d3bc7/dbt-trino-1.8.0b3.tar.gz
+[2024-05-10 06:32:54] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-10 06:32:54] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.6.tar.gz tmp/saraapi-0.0.0.7.tar.gz --markdown 20240510/s/saraApi/0.0.0.6-0.0.0.7/README.md --exclude *.pyd
+[2024-05-10 06:32:54] INFO root fetch - processPackages [dbt-trino]: executing diffoscope
+[2024-05-10 06:32:54] INFO root fetch - processPackages [dbt-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-trino-1.8.0b2.tar.gz tmp/dbt-trino-1.8.0b3.tar.gz --markdown 20240510/d/dbt-trino/1.8.0b2-1.8.0b3/README.md --exclude *.pyd
+[2024-05-10 06:32:54] INFO root fetch - processPackages [erdantic]: executing diffoscope
+[2024-05-10 06:32:54] INFO root fetch - processPackages [erdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdantic-1.0.2.tar.gz tmp/erdantic-1.0.3.tar.gz --markdown 20240510/e/erdantic/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-10 06:32:54] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.3.tar.gz]
+[2024-05-10 06:32:54] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.4.tar.gz]
+[2024-05-10 06:32:54] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-10 06:32:55] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.6.tar.gz]
+[2024-05-10 06:32:55] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.7.tar.gz]
+[2024-05-10 06:32:55] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-10 06:32:55] INFO root fetch - processPackages [dbt-trino]: Remove: archive file [/home/abi/fetcher/tmp/dbt-trino-1.8.0b2.tar.gz]
+[2024-05-10 06:32:55] INFO root fetch - processPackages [dbt-trino]: Remove: archive file [/home/abi/fetcher/tmp/dbt-trino-1.8.0b3.tar.gz]
+[2024-05-10 06:32:55] INFO root fetch - main [MainThread]: End processing [dbt-trino]: success
+[2024-05-10 06:32:55] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-1.0.2.tar.gz]
+[2024-05-10 06:32:55] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-1.0.3.tar.gz]
+[2024-05-10 06:32:55] INFO root fetch - main [MainThread]: End processing [erdantic]: success
+[2024-05-10 06:32:55] INFO root fetch - main [MainThread]: Store serial: [23141287]
