@@ -6103,3 +6103,32 @@
 [2024-05-10 06:02:15] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
 [2024-05-10 06:02:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
 [2024-05-10 06:02:15] INFO root fetch - main [MainThread]: Store serial: [23141043]
+[2024-05-10 06:04:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141043]
+[2024-05-10 06:04:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 06:04:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparklestock
+[2024-05-10 06:04:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zygadenusz
+[2024-05-10 06:04:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: android-prober
+[2024-05-10 06:04:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Spire.Pdf
+[2024-05-10 06:04:24] INFO root fetch - processPackages [sparklestock]: New version: [0.0.1.0] Old Version: [0.0.0.9]
+[2024-05-10 06:04:24] INFO root fetch - processPackages [android-prober]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 06:04:24] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/90/f5/76541a4c1c9b7c9f43f6a51f75d798054eccbf9d6e638f5ec8f629723680/sparklestock-0.0.0.9.tar.gz
+[2024-05-10 06:04:24] INFO root fetch - processPackages [android-prober]: Downloading https://files.pythonhosted.org/packages/e6/52/525235ecd9cb89523d1a3c0f1c8ec867fc2332528691654cae6a4ef48977/android_prober-0.1.4.tar.gz
+[2024-05-10 06:04:24] INFO root fetch - processPackages [Spire.Pdf]: New version: [9.9.0] Old Version: [9.8.1]
+[2024-05-10 06:04:24] WARNING root fetch - processPackages [zygadenusz]: Skipping, unable to determine old version
+[2024-05-10 06:04:24] INFO root fetch - main [MainThread]: End processing [zygadenusz] error
+[2024-05-10 06:04:24] INFO root fetch - processPackages [Spire.Pdf]: Downloading https://files.pythonhosted.org/packages/0e/f7/23fdc013be9e1643a5535dc5bc7984c979401941fbf0c8cf1e21f0391079/Spire.Pdf-9.8.1-py3-none-win_amd64.whl
+[2024-05-10 06:04:25] WARNING root fetch - processPackages [Spire.Pdf]: Skipping package: exceeds size limit 26072400>=10485760
+[2024-05-10 06:04:25] INFO root fetch - main [MainThread]: End processing [Spire.Pdf] error
+[2024-05-10 06:04:25] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/e6/4a/752d37ada0ec1901f29bb1f38536ae7597bbcd816c3583d6e6ee0296f3b4/sparklestock-0.0.1.0.tar.gz
+[2024-05-10 06:04:25] INFO root fetch - processPackages [android-prober]: Downloading https://files.pythonhosted.org/packages/31/d8/66f9561683f85b1c172d317e695b3edc33327ff93714d8fd7e9800910001/android_prober-0.1.5.tar.gz
+[2024-05-10 06:04:25] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-10 06:04:25] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.9.tar.gz tmp/sparklestock-0.0.1.0.tar.gz --markdown 20240510/s/sparklestock/0.0.0.9-0.0.1.0/README.md --exclude *.pyd
+[2024-05-10 06:04:25] INFO root fetch - processPackages [android-prober]: executing diffoscope
+[2024-05-10 06:04:25] INFO root fetch - processPackages [android-prober]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android_prober-0.1.4.tar.gz tmp/android_prober-0.1.5.tar.gz --markdown 20240510/a/android-prober/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 06:04:25] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.9.tar.gz]
+[2024-05-10 06:04:25] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.1.0.tar.gz]
+[2024-05-10 06:04:25] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-10 06:04:25] INFO root fetch - processPackages [android-prober]: Remove: archive file [/home/abi/fetcher/tmp/android_prober-0.1.4.tar.gz]
+[2024-05-10 06:04:25] INFO root fetch - processPackages [android-prober]: Remove: archive file [/home/abi/fetcher/tmp/android_prober-0.1.5.tar.gz]
+[2024-05-10 06:04:25] INFO root fetch - main [MainThread]: End processing [android-prober]: success
+[2024-05-10 06:04:25] INFO root fetch - main [MainThread]: Store serial: [23141055]
