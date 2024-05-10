@@ -7204,3 +7204,54 @@
 [2024-05-10 07:16:29] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.3.tar.gz]
 [2024-05-10 07:16:29] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
 [2024-05-10 07:16:29] INFO root fetch - main [MainThread]: Store serial: [23141597]
+[2024-05-10 07:18:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141597]
+[2024-05-10 07:18:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 07:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tulona
+[2024-05-10 07:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supertokens-python
+[2024-05-10 07:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evacuativez
+[2024-05-10 07:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-template-generator
+[2024-05-10 07:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2024-05-10 07:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastcrud
+[2024-05-10 07:18:38] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-10 07:18:39] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [tulona]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-10 07:18:39] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-10 07:18:39] WARNING root fetch - processPackages [evacuativez]: Skipping, unable to determine old version
+[2024-05-10 07:18:39] INFO root fetch - main [MainThread]: End processing [evacuativez] error
+[2024-05-10 07:18:39] INFO root fetch - processPackages [fastcrud]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 07:18:39] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 07:18:39] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/93/22/7aac1ba0aa9d1db53733fd78907035690cc362a6dcec02b3ede6f1fa03d1/tulona-0.7.5.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [fastcrud]: Downloading https://files.pythonhosted.org/packages/65/03/d3b58e3d09797960d244fdabca85b359227ca6d0d05233e56f8dbbfe3da9/fastcrud-0.9.0.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-10 07:18:39] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240510/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-10 07:18:39] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/90/55/cc085253f0fd9ac36b91a470ef0c6ae1199ab2b7a53ccdf5f7d1bc593a50/tulona-0.7.6.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-05-10 07:18:39] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.7.5.tar.gz tmp/tulona-0.7.6.tar.gz --markdown 20240510/t/tulona/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-10 07:18:39] INFO root fetch - processPackages [fastcrud]: Downloading https://files.pythonhosted.org/packages/80/99/b99c854973c7d58e5e1d5cd75f589a743aba43155a64950e3f4812a61db8/fastcrud-0.9.1.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2024-05-10 07:18:39] INFO root fetch - processPackages [fastcrud]: executing diffoscope
+[2024-05-10 07:18:39] INFO root fetch - processPackages [fastcrud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcrud-0.9.0.tar.gz tmp/fastcrud-0.9.1.tar.gz --markdown 20240510/f/fastcrud/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 07:18:39] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2024-05-10 07:18:39] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20240510/s/supertokens-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 07:18:40] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-05-10 07:18:40] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-10 07:18:40] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-10 07:18:40] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-10 07:18:40] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.7.5.tar.gz]
+[2024-05-10 07:18:40] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.7.6.tar.gz]
+[2024-05-10 07:18:40] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-05-10 07:18:40] INFO root fetch - processPackages [fastcrud]: Remove: archive file [/home/abi/fetcher/tmp/fastcrud-0.9.0.tar.gz]
+[2024-05-10 07:18:40] INFO root fetch - processPackages [fastcrud]: Remove: archive file [/home/abi/fetcher/tmp/fastcrud-0.9.1.tar.gz]
+[2024-05-10 07:18:40] INFO root fetch - main [MainThread]: End processing [fastcrud]: success
+[2024-05-10 07:18:41] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2024-05-10 07:18:41] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2024-05-10 07:18:41] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2024-05-10 07:18:42] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-05-10 07:18:42] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240510/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-10 07:18:44] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-05-10 07:18:44] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-05-10 07:18:44] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-05-10 07:18:44] INFO root fetch - main [MainThread]: Store serial: [23141616]
