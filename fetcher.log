@@ -7918,3 +7918,48 @@
 [2024-05-10 07:56:23] INFO root fetch - processPackages [saf-datasets]: Remove: archive file [/home/abi/fetcher/tmp/saf_datasets-0.6.2.tar.gz]
 [2024-05-10 07:56:23] INFO root fetch - main [MainThread]: End processing [saf-datasets]: success
 [2024-05-10 07:56:23] INFO root fetch - main [MainThread]: Store serial: [23141945]
+[2024-05-10 07:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141945]
+[2024-05-10 07:58:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 07:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newToolsNew00
+[2024-05-10 07:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azure
+[2024-05-10 07:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphlit-client
+[2024-05-10 07:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: desensitizingz
+[2024-05-10 07:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e6data-python-connector
+[2024-05-10 07:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-flask
+[2024-05-10 07:58:33] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240509001] Old Version: [1.0.20240505002]
+[2024-05-10 07:58:33] WARNING root fetch - processPackages [newToolsNew00]: Skipping, unable to determine old version
+[2024-05-10 07:58:33] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/b5/8c/f175ec0efc78d2905c0a7be9b16619f2c25a7b02c065d43ed5a61eace808/graphlit_client-1.0.20240505002.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - main [MainThread]: End processing [newToolsNew00] error
+[2024-05-10 07:58:33] WARNING root fetch - processPackages [desensitizingz]: Skipping, unable to determine old version
+[2024-05-10 07:58:33] INFO root fetch - main [MainThread]: End processing [desensitizingz] error
+[2024-05-10 07:58:33] INFO root fetch - processPackages [abstract-flask]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2024-05-10 07:58:33] INFO root fetch - processPackages [e6data-python-connector]: New version: [2.1.9.dev0] Old Version: [2.1.9]
+[2024-05-10 07:58:33] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-10 07:58:33] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/a5/a9/9231c936df17c0ed372494d5643b7d822a3ef58e2847ef40ae01610cfad6/abstract_flask-0.0.0.1.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/95/2f/e74b7049ba3c7b649d18b3b6b124bc0e0f6e516f2c7fc4f02d4ab8e9b660/graphlit_client-1.0.20240509001.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/3b/f2/73cc111099ae8f8930a9fa380bcf03f07d762a19907bb84bc1e7fb7f5fa0/e6data-python-connector-2.1.9.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-05-10 07:58:33] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-1.0.20240505002.tar.gz tmp/graphlit_client-1.0.20240509001.tar.gz --markdown 20240510/g/graphlit-client/1.0.20240505002-1.0.20240509001/README.md --exclude *.pyd
+[2024-05-10 07:58:33] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/99/b5/84938409a7290ee982a6d60acf5583607985a2dd94b58d0ac8006d3d7d57/abstract_flask-0.0.0.2.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d5/3e/179dd9991168c94caa30f75b1bb444c7031b437254db41117b698d316f7f/e6data-python-connector-2.1.9.dev0.tar.gz
+[2024-05-10 07:58:33] INFO root fetch - processPackages [abstract-flask]: executing diffoscope
+[2024-05-10 07:58:33] INFO root fetch - processPackages [abstract-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_flask-0.0.0.1.tar.gz tmp/abstract_flask-0.0.0.2.tar.gz --markdown 20240510/a/abstract-flask/0.0.0.1-0.0.0.2/README.md --exclude *.pyd
+[2024-05-10 07:58:34] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-10 07:58:34] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240510/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-10 07:58:34] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2024-05-10 07:58:34] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-2.1.9.tar.gz tmp/e6data-python-connector-2.1.9.dev0.tar.gz --markdown 20240510/e/e6data-python-connector/2.1.9-2.1.9.dev0/README.md --exclude *.pyd
+[2024-05-10 07:58:34] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.1.tar.gz]
+[2024-05-10 07:58:34] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.2.tar.gz]
+[2024-05-10 07:58:34] INFO root fetch - main [MainThread]: End processing [abstract-flask]: success
+[2024-05-10 07:58:34] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240505002.tar.gz]
+[2024-05-10 07:58:34] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240509001.tar.gz]
+[2024-05-10 07:58:34] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-05-10 07:58:34] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.tar.gz]
+[2024-05-10 07:58:34] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
+[2024-05-10 07:58:34] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2024-05-10 07:58:43] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-10 07:58:43] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-10 07:58:43] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-10 07:58:43] INFO root fetch - main [MainThread]: Store serial: [23141969]
