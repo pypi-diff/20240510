@@ -4654,3 +4654,27 @@
 [2024-05-10 04:32:02] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc9.tar.gz]
 [2024-05-10 04:32:02] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
 [2024-05-10 04:32:02] INFO root fetch - main [MainThread]: Store serial: [23140453]
+[2024-05-10 04:34:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140453]
+[2024-05-10 04:34:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 04:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tailscale
+[2024-05-10 04:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-sumologic
+[2024-05-10 04:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reviewingz
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-10 04:34:11] WARNING root fetch - processPackages [reviewingz]: Skipping, unable to determine old version
+[2024-05-10 04:34:11] INFO root fetch - main [MainThread]: End processing [reviewingz] error
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240510/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-10 04:34:11] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240510/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-10 04:34:12] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-10 04:34:12] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-10 04:34:12] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-10 04:34:12] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-10 04:34:12] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-10 04:34:12] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-10 04:34:12] INFO root fetch - main [MainThread]: Store serial: [23140463]
