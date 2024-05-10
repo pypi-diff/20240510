@@ -13385,3 +13385,156 @@
 [2024-05-10 11:53:56] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-10 11:53:56] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-10 11:53:56] INFO root fetch - main [MainThread]: Store serial: [23144285]
+[2024-05-10 11:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144285]
+[2024-05-10 11:56:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecsdep
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiZero
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omu
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omuchat
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omuchatprovider
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omuplugin-chat
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omuplugin-emoji
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omuplugin-nyanya
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omuplugin-obssync
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omuplugin-onecomme
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ecsdep]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [omuchat]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [omuplugin-emoji]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [aiZero]: New version: [0.0.2a0] Old Version: [0.0.1a4]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [ecsdep]: Downloading https://files.pythonhosted.org/packages/82/91/62eeef5eb3396e20855cbc934503b86196d7cc601594ea433a10e79dd15a/ecsdep-0.2.8-py3-none-any.whl
+[2024-05-10 11:56:09] INFO root fetch - processPackages [omuplugin-onecomme]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [omu]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [omuplugin-nyanya]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [omuchatprovider]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:09] INFO root fetch - processPackages [omuplugin-obssync]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/e5/5c/39201fc2717f8d66c943581f5a76a06d5df17d6896be2a36142e55c0fa9e/omuchat-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-chat]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:10] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/81/51/832358ba3754b201add50da4c7d53fd4e214436971c3c60917d30c55d92c/aiZero-0.0.1a4.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/06/23/d98dfb323ed3cf894496a87c80605734d84ceba0219991b05551a8e23f94/omuplugin_emoji-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/ca/7b/d3a334a9c1af258f753e3ad7f2569168f20e56cf5e33cd0ccba4c5b18e06/omuplugin_onecomme-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/b6/cf/8fc772032b06571196bd13b2b8cd95625a82ca54b1fff217bb31887cb8e1/omuchatprovider-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/26/36/f7d7e426835b921cf65ef430d2e18caab2f485cc8ea691fa62c380fcdd96/omuplugin_nyanya-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-obssync]: Downloading https://files.pythonhosted.org/packages/e4/ca/791241cea01ffe15589a92b12d24876fa199f55a5dcc8356720d0664b6cf/omuplugin_obssync-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/82/6c/7ba56024e9094aedb77da1b9e96938e77bd7ca868df4522e8da83674fef3/omu-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [ecsdep]: Downloading https://files.pythonhosted.org/packages/5a/51/0e024b6fc497e9d24141215f198be88d189564984982a9b28bbe0d7a8619/ecsdep-0.2.9-py3-none-any.whl
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/2c/b5/822f9e24b125be9d6fb60dcbe6e88ca4f6b746074aebf8a9cc31846558ce/omuplugin_chat-0.2.5.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [ecsdep]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [ecsdep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecsdep-0.2.8-py3-none-any.whl.zip tmp/ecsdep-0.2.9-py3-none-any.whl.zip --markdown 20240510/e/ecsdep/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/e4/27/825d5a65a61e514f1f4b1f6f536e4faf0688408a2896c6aee361b70a33c9/omuchat-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/9b/f4/a6a5959415e26340f53ca41a1fc3d5cb2c8c11bf7f1c5f93c3fcfebb7ef9/omuplugin_emoji-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/e4/5d/7316cf24c45d9f8ab3a9060816e0ac83465bd2387c9eca76f5b657036b7b/omuplugin_onecomme-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/36/f2/21d1b756949717b108ae7b12ac2e8037ad4dc6f5e525e87d491b4838943c/aiZero-0.0.2a0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/29/07/5e6db93c8e2b722e66ebf44b1d52372bf04342b429a6119f85c8d0eeb200/omu-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/55/ac/95dc4b24e74f09e7b6fc9de5fcdb9fe7aaa4e702a8bf50adb2117b8c0e71/omuchatprovider-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchat]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchat-0.2.5.tar.gz tmp/omuchat-0.3.0.tar.gz --markdown 20240510/o/omuchat/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-obssync]: Downloading https://files.pythonhosted.org/packages/a4/45/c83524bbffe21254aab058e2eb6c62323af82586aa421db404ef800b3d9c/omuplugin_obssync-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-emoji]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_emoji-0.2.5.tar.gz tmp/omuplugin_emoji-0.3.0.tar.gz --markdown 20240510/o/omuplugin-emoji/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/04/d4/52605831920525b627e96d1163a621e96063ccc3f356b79a927ae77be600/omuplugin_nyanya-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/54/00/798ed8d654509d67f0fc6a7d8d73dd4b0f2bca3106c0099f527e45c3184b/omuplugin_chat-0.3.0.tar.gz
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-onecomme]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-onecomme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_onecomme-0.2.5.tar.gz tmp/omuplugin_onecomme-0.3.0.tar.gz --markdown 20240510/o/omuplugin-onecomme/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [aiZero]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [aiZero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiZero-0.0.1a4.tar.gz tmp/aiZero-0.0.2a0.tar.gz --markdown 20240510/a/aiZero/0.0.1a4-0.0.2a0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchatprovider]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuchatprovider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchatprovider-0.2.5.tar.gz tmp/omuchatprovider-0.3.0.tar.gz --markdown 20240510/o/omuchatprovider/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omu]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omu-0.2.5.tar.gz tmp/omu-0.3.0.tar.gz --markdown 20240510/o/omu/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-obssync]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-obssync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_obssync-0.2.5.tar.gz tmp/omuplugin_obssync-0.3.0.tar.gz --markdown 20240510/o/omuplugin-obssync/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-nyanya]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-nyanya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_nyanya-0.2.5.tar.gz tmp/omuplugin_nyanya-0.3.0.tar.gz --markdown 20240510/o/omuplugin-nyanya/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-chat]: executing diffoscope
+[2024-05-10 11:56:10] INFO root fetch - processPackages [omuplugin-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_chat-0.2.5.tar.gz tmp/omuplugin_chat-0.3.0.tar.gz --markdown 20240510/o/omuplugin-chat/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:11] INFO root fetch - processPackages [ecsdep]: Remove: archive file [/home/abi/fetcher/tmp/ecsdep-0.2.8-py3-none-any.whl.zip]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [ecsdep]: Remove: archive file [/home/abi/fetcher/tmp/ecsdep-0.2.9-py3-none-any.whl.zip]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [ecsdep]: Start processing: omuplugin-translator
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [ecsdep]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-emoji]: Start processing: omuserver
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omuplugin-emoji]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-translator]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuchat]: Start processing: elucidoc
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omuchat]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-onecomme]: Start processing: fastapi-odm-helper
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omuplugin-onecomme]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuserver]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-obssync]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_obssync-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-obssync]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_obssync-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-obssync]: Start processing: hertzesz
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omuplugin-obssync]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a4.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.2a0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [aiZero]: Start processing: PySurvMC
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [aiZero]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/41/f6/3a9ab3e6913b92d0ef6dc7daf6cef9b112efcacad08100c9ee241ebae440/omuplugin_translator-0.2.5.tar.gz
+[2024-05-10 11:56:11] INFO root fetch - processPackages [elucidoc]: New version: [2024.5.9.post1] Old Version: [2024.5.9]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-nyanya]: Start processing: antibacterial-model
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omuplugin-nyanya]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omu]: Start processing: STCAT
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omu]: success
+[2024-05-10 11:56:11] WARNING root fetch - processPackages [hertzesz]: Skipping, unable to determine old version
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [hertzesz] error
+[2024-05-10 11:56:11] WARNING root fetch - processPackages [antibacterial-model]: Skipping, unable to determine old version
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [antibacterial-model] error
+[2024-05-10 11:56:11] INFO root fetch - processPackages [PySurvMC]: New version: [0.2] Old Version: [0.1]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [fastapi-odm-helper]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omuchatprovider]: success
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/cd/00/3b0954c3cf04fd2cc6c217fa036cd9a6f907ff35b9278b1b74e115472e1c/omuserver-0.2.5.tar.gz
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.2.5.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.3.0.tar.gz]
+[2024-05-10 11:56:11] INFO root fetch - main [MainThread]: End processing [omuplugin-chat]: success
+[2024-05-10 11:56:12] INFO root fetch - processPackages [elucidoc]: Downloading https://files.pythonhosted.org/packages/65/e3/b490474a79c991a8fe6c1e760f564690a8b668b1e8dadc44143c60257c87/elucidoc-2024.5.9.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [STCAT]: New version: [0.6] Old Version: [0.5]
+[2024-05-10 11:56:12] INFO root fetch - processPackages [fastapi-odm-helper]: Downloading https://files.pythonhosted.org/packages/9f/e4/d10643df3ca3ed24c4829a9ca163651888b684dda581743d737c5b4f0a2a/fastapi_odm_helper-0.0.6.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [PySurvMC]: Downloading https://files.pythonhosted.org/packages/11/a1/bac91cce1f7e88c43a133e6d392b05c983a3b710dcfb5414a078023999b7/pysurvmc-0.1.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/6e/aa/88febc73049c06061d1df1e0a37118215c95e00fb80f563631d1b5a4dc90/omuplugin_translator-0.3.0.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [STCAT]: Downloading https://files.pythonhosted.org/packages/63/4b/4c69ba9d101bddf6c744e6b95d7dd1baf70bfdca8f35d5d3d699286c9818/STCAT-0.5.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuplugin-translator]: executing diffoscope
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuplugin-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_translator-0.2.5.tar.gz tmp/omuplugin_translator-0.3.0.tar.gz --markdown 20240510/o/omuplugin-translator/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:12] INFO root fetch - processPackages [elucidoc]: Downloading https://files.pythonhosted.org/packages/be/8b/d6107f3517e1be550fb9b10aa2e516045466042abb16944308d07289a421/elucidoc-2024.5.9.post1.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/51/1e/5ea9bb95c3491376de8cc7dbc0824732392ac6acf89aa5413e6d90d58969/omuserver-0.3.0.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [fastapi-odm-helper]: Downloading https://files.pythonhosted.org/packages/28/b4/400ad1dc13d3f4106f367c61970711443a58b673d6bd373223f4fcd4c05c/fastapi_odm_helper-0.0.7.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [PySurvMC]: Downloading https://files.pythonhosted.org/packages/3e/bb/d9164f9e8a4600f84c2ef24f860167eeb7cc45b6d34a64dec8a6dc4b0256/pysurvmc-0.2.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [elucidoc]: executing diffoscope
+[2024-05-10 11:56:12] INFO root fetch - processPackages [elucidoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elucidoc-2024.5.9.tar.gz tmp/elucidoc-2024.5.9.post1.tar.gz --markdown 20240510/e/elucidoc/2024.5.9-2024.5.9.post1/README.md --exclude *.pyd
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuserver]: executing diffoscope
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuserver-0.2.5.tar.gz tmp/omuserver-0.3.0.tar.gz --markdown 20240510/o/omuserver/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 11:56:12] INFO root fetch - processPackages [fastapi-odm-helper]: executing diffoscope
+[2024-05-10 11:56:12] INFO root fetch - processPackages [fastapi-odm-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_odm_helper-0.0.6.tar.gz tmp/fastapi_odm_helper-0.0.7.tar.gz --markdown 20240510/f/fastapi-odm-helper/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 11:56:12] INFO root fetch - processPackages [PySurvMC]: executing diffoscope
+[2024-05-10 11:56:12] INFO root fetch - processPackages [PySurvMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysurvmc-0.1.tar.gz tmp/pysurvmc-0.2.tar.gz --markdown 20240510/P/PySurvMC/0.1-0.2/README.md --exclude *.pyd
+[2024-05-10 11:56:12] INFO root fetch - processPackages [STCAT]: Downloading https://files.pythonhosted.org/packages/7d/7b/87a75714b463c728a46c3327292c2d1d015c9d5bf420211e3ecffd2181fd/STCAT-0.6.tar.gz
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.2.5.tar.gz]
+[2024-05-10 11:56:12] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.3.0.tar.gz]
+[2024-05-10 11:56:12] INFO root fetch - main [MainThread]: End processing [omuplugin-translator]: success
+[2024-05-10 11:56:13] INFO root fetch - processPackages [STCAT]: executing diffoscope
+[2024-05-10 11:56:13] INFO root fetch - processPackages [STCAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STCAT-0.5.tar.gz tmp/STCAT-0.6.tar.gz --markdown 20240510/S/STCAT/0.5-0.6/README.md --exclude *.pyd
+[2024-05-10 11:56:13] INFO root fetch - processPackages [PySurvMC]: Remove: archive file [/home/abi/fetcher/tmp/pysurvmc-0.1.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - processPackages [PySurvMC]: Remove: archive file [/home/abi/fetcher/tmp/pysurvmc-0.2.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - main [MainThread]: End processing [PySurvMC]: success
+[2024-05-10 11:56:13] INFO root fetch - processPackages [fastapi-odm-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_odm_helper-0.0.6.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - processPackages [fastapi-odm-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_odm_helper-0.0.7.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - main [MainThread]: End processing [fastapi-odm-helper]: success
+[2024-05-10 11:56:13] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.2.5.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.3.0.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - main [MainThread]: End processing [omuserver]: success
+[2024-05-10 11:56:13] INFO root fetch - processPackages [elucidoc]: Remove: archive file [/home/abi/fetcher/tmp/elucidoc-2024.5.9.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - processPackages [elucidoc]: Remove: archive file [/home/abi/fetcher/tmp/elucidoc-2024.5.9.post1.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - main [MainThread]: End processing [elucidoc]: success
+[2024-05-10 11:56:13] INFO root fetch - processPackages [STCAT]: Remove: archive file [/home/abi/fetcher/tmp/STCAT-0.5.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - processPackages [STCAT]: Remove: archive file [/home/abi/fetcher/tmp/STCAT-0.6.tar.gz]
+[2024-05-10 11:56:13] INFO root fetch - main [MainThread]: End processing [STCAT]: success
+[2024-05-10 11:56:13] INFO root fetch - main [MainThread]: Store serial: [23144339]
