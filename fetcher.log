@@ -8427,3 +8427,42 @@
 [2024-05-10 08:24:17] INFO root fetch - main [MainThread]: End processing [openmm-cuda]: success
 [2024-05-10 08:24:17] INFO root fetch - main [MainThread]: End processing [openmm-cuda]: success
 [2024-05-10 08:24:17] INFO root fetch - main [MainThread]: Store serial: [23142158]
+[2024-05-10 08:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142158]
+[2024-05-10 08:26:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 08:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrable
+[2024-05-10 08:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedmongo
+[2024-05-10 08:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: studioai
+[2024-05-10 08:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anaplan-api
+[2024-05-10 08:26:26] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 08:26:26] INFO root fetch - processPackages [studioai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 08:26:26] INFO root fetch - processPackages [studioai]: Downloading https://files.pythonhosted.org/packages/6c/f1/4640d8e5ba5bd3a2a3a7cf3bc24961b3b0dff9898ad35d19dcb85da2ab9d/studioai-0.2.8.tar.gz
+[2024-05-10 08:26:26] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-10 08:26:26] INFO root fetch - processPackages [typedmongo]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-10 08:26:26] INFO root fetch - processPackages [anaplan-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 08:26:26] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/19/58/d84f16439676f7866564cbd227240a8164237d2a0e4357af41ee9069c71d/anaplan-api-0.2.8.tar.gz
+[2024-05-10 08:26:26] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-10 08:26:26] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/2a/96/f81ce27a8457a04550f16863200e57a99573c95a48ad7f81b9293aa5a4f5/typedmongo-1.5.1.tar.gz
+[2024-05-10 08:26:26] INFO root fetch - processPackages [studioai]: Downloading https://files.pythonhosted.org/packages/58/a1/98ab29ab0eb42a717c18dafe8d91270ead3cc54738b1d64db327046f4e73/studioai-0.2.9.tar.gz
+[2024-05-10 08:26:26] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-10 08:26:26] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240510/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 08:26:27] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/b4/3b/0067aa8078b2d2c05b693897074d598c362f2d38f667fd155935a8107105/typedmongo-1.6.0.tar.gz
+[2024-05-10 08:26:27] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/47/4f/86453686ead3ecec8521548b11ce56440208ffaa95e4220d8d7f295ffde3/anaplan-api-0.2.9.tar.gz
+[2024-05-10 08:26:27] INFO root fetch - processPackages [studioai]: executing diffoscope
+[2024-05-10 08:26:27] INFO root fetch - processPackages [studioai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/studioai-0.2.8.tar.gz tmp/studioai-0.2.9.tar.gz --markdown 20240510/s/studioai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 08:26:27] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-05-10 08:26:27] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.5.1.tar.gz tmp/typedmongo-1.6.0.tar.gz --markdown 20240510/t/typedmongo/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-10 08:26:27] INFO root fetch - processPackages [anaplan-api]: executing diffoscope
+[2024-05-10 08:26:27] INFO root fetch - processPackages [anaplan-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaplan-api-0.2.8.tar.gz tmp/anaplan-api-0.2.9.tar.gz --markdown 20240510/a/anaplan-api/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 08:26:27] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-10 08:26:27] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-10 08:26:27] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-10 08:26:27] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.5.1.tar.gz]
+[2024-05-10 08:26:27] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.6.0.tar.gz]
+[2024-05-10 08:26:27] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-05-10 08:26:28] INFO root fetch - processPackages [studioai]: Remove: archive file [/home/abi/fetcher/tmp/studioai-0.2.8.tar.gz]
+[2024-05-10 08:26:28] INFO root fetch - processPackages [studioai]: Remove: archive file [/home/abi/fetcher/tmp/studioai-0.2.9.tar.gz]
+[2024-05-10 08:26:28] INFO root fetch - main [MainThread]: End processing [studioai]: success
+[2024-05-10 08:26:28] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.8.tar.gz]
+[2024-05-10 08:26:28] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.9.tar.gz]
+[2024-05-10 08:26:28] INFO root fetch - main [MainThread]: End processing [anaplan-api]: success
+[2024-05-10 08:26:28] INFO root fetch - main [MainThread]: Store serial: [23142171]
