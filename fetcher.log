@@ -21054,3 +21054,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:17:04] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.6.3.tar.gz]
 [2024-05-10 16:17:04] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
 [2024-05-10 16:17:04] INFO root fetch - main [MainThread]: Store serial: [23147789]
+[2024-05-10 16:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147789]
+[2024-05-10 16:19:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omopsurvey
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: steamroller
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcesage
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JayttleProcess
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snipinator
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-intel
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: partenaire-qualif
+[2024-05-10 16:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: control-op-scnu
+[2024-05-10 16:19:14] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-10 16:19:14] WARNING root fetch - processPackages [control-op-scnu]: Skipping, unable to determine old version
+[2024-05-10 16:19:14] INFO root fetch - main [MainThread]: End processing [control-op-scnu] error
+[2024-05-10 16:19:14] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240509] Old Version: [2.17.0.dev20240508]
+[2024-05-10 16:19:15] INFO root fetch - processPackages [JayttleProcess]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-10 16:19:15] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/5a/fd/b6a7f19862441fe0a67c811840dcf042f578bfc5eb0c9f96fffa764c3313/partenaire-qualif-0.0.9.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [sourcesage]: New version: [4.1.6] Old Version: [4.1.5]
+[2024-05-10 16:19:15] INFO root fetch - processPackages [omopsurvey]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 16:19:15] INFO root fetch - processPackages [steamroller]: New version: [3.0.0] Old Version: [2.0.2]
+[2024-05-10 16:19:15] INFO root fetch - processPackages [snipinator]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-10 16:19:15] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/98/12/c4a99830a0dc63d255bed0d009f2a679796241ea60576ec40f62df073381/tf_nightly_intel-2.17.0.dev20240508-cp39-cp39-win_amd64.whl
+[2024-05-10 16:19:15] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213091829>=10485760
+[2024-05-10 16:19:15] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-10 16:19:15] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/5d/65/43d28dc1db7c11a8a18f2ef2e7cae7a890e07b1533e554607e5400dfedc2/JayttleProcess-0.3.0-py3-none-any.whl
+[2024-05-10 16:19:15] INFO root fetch - processPackages [steamroller]: Downloading https://files.pythonhosted.org/packages/05/e9/9e85f91daf0a60b5d5edc9398d19ba743150cdb95cbf13420ab23a5d9a16/SteamRoller-2.0.2.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [omopsurvey]: Downloading https://files.pythonhosted.org/packages/f1/5e/fa2d981e45df956f753c959560490ef56b3093115a73c916981a8dff13fa/omopsurvey-0.0.2.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/82/23/15207f5b2ea2b1e2fef8bd3089a3cabe0659a7817a282ce92e71abc32c59/partenaire-qualif-0.1.0.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [sourcesage]: Downloading https://files.pythonhosted.org/packages/62/a0/de7fa33259d8eaf598af58ee9988b3a34402d8c9d4cde879cf62faac6024/sourcesage-4.1.5.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [snipinator]: Downloading https://files.pythonhosted.org/packages/8d/a0/4af7584eff6ffa51eb7efd24e2c55ac2c84fac316a72e3f65881f6fb2c5d/snipinator-1.4.0.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-10 16:19:15] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.0.9.tar.gz tmp/partenaire-qualif-0.1.0.tar.gz --markdown 20240510/p/partenaire-qualif/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-10 16:19:15] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/c0/28/7450db804464a278a1728c0ee812185fb678ba345f753f706385a6b33c2e/JayttleProcess-0.3.1-py3-none-any.whl
+[2024-05-10 16:19:15] INFO root fetch - processPackages [steamroller]: Downloading https://files.pythonhosted.org/packages/8c/2f/3073fde3733830ae5f33fe38f5cae878fe03f4788a4556fa509cee1e0632/steamroller-3.0.0.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [sourcesage]: Downloading https://files.pythonhosted.org/packages/d1/cb/873f9c7203643a503fbbc37d7e3abfeb9597fd0412f90c2faf8bd2d698c6/sourcesage-4.1.6.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [omopsurvey]: Downloading https://files.pythonhosted.org/packages/f4/91/75701464d97cf287746725e3b96196c647511dac88206ec91f621554fd60/omopsurvey-0.0.3.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [steamroller]: executing diffoscope
+[2024-05-10 16:19:15] INFO root fetch - processPackages [steamroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SteamRoller-2.0.2.tar.gz tmp/steamroller-3.0.0.tar.gz --markdown 20240510/s/steamroller/2.0.2-3.0.0/README.md --exclude *.pyd
+[2024-05-10 16:19:15] INFO root fetch - processPackages [sourcesage]: executing diffoscope
+[2024-05-10 16:19:15] INFO root fetch - processPackages [sourcesage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcesage-4.1.5.tar.gz tmp/sourcesage-4.1.6.tar.gz --markdown 20240510/s/sourcesage/4.1.5-4.1.6/README.md --exclude *.pyd
+[2024-05-10 16:19:15] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-05-10 16:19:15] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.3.0-py3-none-any.whl.zip tmp/JayttleProcess-0.3.1-py3-none-any.whl.zip --markdown 20240510/J/JayttleProcess/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-10 16:19:15] INFO root fetch - processPackages [omopsurvey]: executing diffoscope
+[2024-05-10 16:19:15] INFO root fetch - processPackages [omopsurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omopsurvey-0.0.2.tar.gz tmp/omopsurvey-0.0.3.tar.gz --markdown 20240510/o/omopsurvey/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 16:19:15] INFO root fetch - processPackages [snipinator]: Downloading https://files.pythonhosted.org/packages/f3/c4/70279f865a1591c07874ffcd9caa896823f7d59db2e1e45b4500862f5021/snipinator-1.4.1.tar.gz
+[2024-05-10 16:19:15] INFO root fetch - processPackages [snipinator]: executing diffoscope
+[2024-05-10 16:19:15] INFO root fetch - processPackages [snipinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snipinator-1.4.0.tar.gz tmp/snipinator-1.4.1.tar.gz --markdown 20240510/s/snipinator/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-10 16:19:16] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.9.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.1.0.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-10 16:19:16] INFO root fetch - processPackages [steamroller]: Remove: archive file [/home/abi/fetcher/tmp/SteamRoller-2.0.2.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - processPackages [steamroller]: Remove: archive file [/home/abi/fetcher/tmp/steamroller-3.0.0.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - main [MainThread]: End processing [steamroller]: success
+[2024-05-10 16:19:16] INFO root fetch - processPackages [omopsurvey]: Remove: archive file [/home/abi/fetcher/tmp/omopsurvey-0.0.2.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - processPackages [omopsurvey]: Remove: archive file [/home/abi/fetcher/tmp/omopsurvey-0.0.3.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - main [MainThread]: End processing [omopsurvey]: success
+[2024-05-10 16:19:16] INFO root fetch - processPackages [sourcesage]: Remove: archive file [/home/abi/fetcher/tmp/sourcesage-4.1.5.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - processPackages [sourcesage]: Remove: archive file [/home/abi/fetcher/tmp/sourcesage-4.1.6.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - main [MainThread]: End processing [sourcesage]: success
+[2024-05-10 16:19:16] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.3.0-py3-none-any.whl.zip]
+[2024-05-10 16:19:16] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.3.1-py3-none-any.whl.zip]
+[2024-05-10 16:19:16] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-05-10 16:19:16] INFO root fetch - processPackages [snipinator]: Remove: archive file [/home/abi/fetcher/tmp/snipinator-1.4.0.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - processPackages [snipinator]: Remove: archive file [/home/abi/fetcher/tmp/snipinator-1.4.1.tar.gz]
+[2024-05-10 16:19:16] INFO root fetch - main [MainThread]: End processing [snipinator]: success
+[2024-05-10 16:19:16] INFO root fetch - main [MainThread]: Store serial: [23147819]
