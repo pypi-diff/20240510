@@ -13331,3 +13331,57 @@
 [2024-05-10 11:51:42] INFO root fetch - processPackages [lcbuilder]: Remove: archive file [/home/abi/fetcher/tmp/lcbuilder-0.9.9.tar.gz]
 [2024-05-10 11:51:42] INFO root fetch - main [MainThread]: End processing [lcbuilder]: success
 [2024-05-10 11:51:42] INFO root fetch - main [MainThread]: Store serial: [23144269]
+[2024-05-10 11:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144269]
+[2024-05-10 11:53:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openCV-movement-detection
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-harlequin
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anthropotoxinz
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imsciences
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mycall-parth
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ecsdep
+[2024-05-10 11:53:54] WARNING root fetch - processPackages [anthropotoxinz]: Skipping, unable to determine old version
+[2024-05-10 11:53:54] INFO root fetch - main [MainThread]: End processing [anthropotoxinz] error
+[2024-05-10 11:53:54] INFO root fetch - processPackages [openCV-movement-detection]: New version: [1.3] Old Version: [1.2]
+[2024-05-10 11:53:54] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.1] Old Version: [0.5.5.0]
+[2024-05-10 11:53:54] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-10 11:53:54] INFO root fetch - processPackages [openCV-movement-detection]: Downloading https://files.pythonhosted.org/packages/f0/8e/224739336ff666ba42f4c2194dc9c98eb4d3923f3103fbe3fa3d1c5cddf6/openCV_movement_detection-1.2.tar.gz
+[2024-05-10 11:53:54] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/bb/3b/c3413b52e24116cecdb5be1943f48353cbe1f9971ce292d53943884261c8/imsciences-0.5.5.0.tar.gz
+[2024-05-10 11:53:54] INFO root fetch - processPackages [django-harlequin]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-10 11:53:54] WARNING root fetch - processPackages [mycall-parth]: Skipping, unable to determine old version
+[2024-05-10 11:53:54] INFO root fetch - main [MainThread]: End processing [mycall-parth] error
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ecsdep]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 11:53:54] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-10 11:53:54] INFO root fetch - processPackages [django-harlequin]: Downloading https://files.pythonhosted.org/packages/09/19/de7c09240e3a8c48f86f058cc5c8821725f6a3adf10c9ce0c333d345dc38/django_harlequin-1.1.1.tar.gz
+[2024-05-10 11:53:54] INFO root fetch - processPackages [ecsdep]: Downloading https://files.pythonhosted.org/packages/82/91/62eeef5eb3396e20855cbc934503b86196d7cc601594ea433a10e79dd15a/ecsdep-0.2.8-py3-none-any.whl
+[2024-05-10 11:53:54] INFO root fetch - processPackages [openCV-movement-detection]: Downloading https://files.pythonhosted.org/packages/e0/88/6c94513936797eca9e70edd87ed14d5146ff841104a10d101b8d4d7406a9/openCV_movement_detection-1.3.tar.gz
+[2024-05-10 11:53:54] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-10 11:53:54] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e9/1c/5da9fcf4487a8cabe58613797f8696e29f26f984716d448c49edca44a25d/imsciences-0.5.5.1.tar.gz
+[2024-05-10 11:53:54] INFO root fetch - processPackages [openCV-movement-detection]: executing diffoscope
+[2024-05-10 11:53:54] INFO root fetch - processPackages [openCV-movement-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openCV_movement_detection-1.2.tar.gz tmp/openCV_movement_detection-1.3.tar.gz --markdown 20240510/o/openCV-movement-detection/1.2-1.3/README.md --exclude *.pyd
+[2024-05-10 11:53:54] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-10 11:53:54] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.5.0.tar.gz tmp/imsciences-0.5.5.1.tar.gz --markdown 20240510/i/imsciences/0.5.5.0-0.5.5.1/README.md --exclude *.pyd
+[2024-05-10 11:53:54] INFO root fetch - processPackages [django-harlequin]: Downloading https://files.pythonhosted.org/packages/a6/87/9006ab2ab0133aaab2f043fa1fc49d6ace0dcf198dbad3304b9287a35706/django_harlequin-1.1.2.tar.gz
+[2024-05-10 11:53:54] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-10 11:53:54] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240510/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-10 11:53:55] INFO root fetch - processPackages [django-harlequin]: executing diffoscope
+[2024-05-10 11:53:55] INFO root fetch - processPackages [django-harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_harlequin-1.1.1.tar.gz tmp/django_harlequin-1.1.2.tar.gz --markdown 20240510/d/django-harlequin/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-10 11:53:55] INFO root fetch - processPackages [ecsdep]: Downloading https://files.pythonhosted.org/packages/5a/51/0e024b6fc497e9d24141215f198be88d189564984982a9b28bbe0d7a8619/ecsdep-0.2.9-py3-none-any.whl
+[2024-05-10 11:53:55] INFO root fetch - processPackages [ecsdep]: executing diffoscope
+[2024-05-10 11:53:55] INFO root fetch - processPackages [ecsdep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecsdep-0.2.8-py3-none-any.whl.zip tmp/ecsdep-0.2.9-py3-none-any.whl.zip --markdown 20240510/e/ecsdep/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 11:53:55] INFO root fetch - processPackages [django-harlequin]: Remove: archive file [/home/abi/fetcher/tmp/django_harlequin-1.1.1.tar.gz]
+[2024-05-10 11:53:55] INFO root fetch - processPackages [django-harlequin]: Remove: archive file [/home/abi/fetcher/tmp/django_harlequin-1.1.2.tar.gz]
+[2024-05-10 11:53:55] INFO root fetch - main [MainThread]: End processing [django-harlequin]: success
+[2024-05-10 11:53:55] INFO root fetch - processPackages [openCV-movement-detection]: Remove: archive file [/home/abi/fetcher/tmp/openCV_movement_detection-1.2.tar.gz]
+[2024-05-10 11:53:55] INFO root fetch - processPackages [openCV-movement-detection]: Remove: archive file [/home/abi/fetcher/tmp/openCV_movement_detection-1.3.tar.gz]
+[2024-05-10 11:53:55] INFO root fetch - main [MainThread]: End processing [openCV-movement-detection]: success
+[2024-05-10 11:53:55] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.0.tar.gz]
+[2024-05-10 11:53:55] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.1.tar.gz]
+[2024-05-10 11:53:55] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-10 11:53:55] INFO root fetch - processPackages [ecsdep]: Remove: archive file [/home/abi/fetcher/tmp/ecsdep-0.2.8-py3-none-any.whl.zip]
+[2024-05-10 11:53:55] INFO root fetch - processPackages [ecsdep]: Remove: archive file [/home/abi/fetcher/tmp/ecsdep-0.2.9-py3-none-any.whl.zip]
+[2024-05-10 11:53:55] INFO root fetch - main [MainThread]: End processing [ecsdep]: success
+[2024-05-10 11:53:56] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-10 11:53:56] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-10 11:53:56] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-10 11:53:56] INFO root fetch - main [MainThread]: Store serial: [23144285]
