@@ -16453,3 +16453,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2024-05-10 13:34:38] INFO root fetch - main [MainThread]: Store serial: [23145558]
+[2024-05-10 13:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145558]
+[2024-05-10 13:37:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 13:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CorePlatPy
+[2024-05-10 13:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-random
+[2024-05-10 13:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLLPStreamingClient
+[2024-05-10 13:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chic-lib
+[2024-05-10 13:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-vault
+[2024-05-10 13:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: profitpulse
+[2024-05-10 13:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-diagnosis
+[2024-05-10 13:37:02] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-10 13:37:02] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1715307330] Old Version: [6.2.0a1715237402]
+[2024-05-10 13:37:02] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-10 13:37:02] INFO root fetch - processPackages [MLLPStreamingClient]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 13:37:02] INFO root fetch - processPackages [profitpulse]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-05-10 13:37:02] WARNING root fetch - processPackages [ai-diagnosis]: Skipping, unable to determine old version
+[2024-05-10 13:37:02] INFO root fetch - main [MainThread]: End processing [ai-diagnosis] error
+[2024-05-10 13:37:02] WARNING root fetch - processPackages [CorePlatPy]: Skipping, unable to determine old version
+[2024-05-10 13:37:02] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/28/ee/6a5434e84980f71c158af86ee844150d3ed2f280c8fc38da8884595f2265/pulumi_vault-6.2.0a1715237402.tar.gz
+[2024-05-10 13:37:02] INFO root fetch - main [MainThread]: End processing [CorePlatPy] error
+[2024-05-10 13:37:02] INFO root fetch - processPackages [chic-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 13:37:02] INFO root fetch - processPackages [MLLPStreamingClient]: Downloading https://files.pythonhosted.org/packages/b6/31/c186eeeb35d1802e4d1398bd1e8fed6a297252b4ca5c038056f0f484179e/MLLPStreamingClient-1.0.0.tar.gz
+[2024-05-10 13:37:02] INFO root fetch - processPackages [chic-lib]: Downloading https://files.pythonhosted.org/packages/58/4d/834ecf2f368724e24e2cc4e8383c4313b8af911107ae57e804ba390ae60d/chic-lib-0.1.8.tar.gz
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-10 13:37:03] INFO root fetch - processPackages [profitpulse]: Downloading https://files.pythonhosted.org/packages/86/3d/9a68e5437900766290a6463b7105a33f171fe43d27d64adf0f1daf6fa606/profitpulse-1.6.0.tar.gz
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240510/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ab/ea/8b9a3409dc9a26f2fa3dfeee80efb97c7a9320f73ea0d883e00794c274d9/pulumi_vault-6.2.0a1715307330.tar.gz
+[2024-05-10 13:37:03] INFO root fetch - processPackages [MLLPStreamingClient]: Downloading https://files.pythonhosted.org/packages/c8/64/098dd140cb78f9f39cd8734a04da5dce11f59980a7d8ecdc74c01d863785/mllpstreamingclient-1.0.1.tar.gz
+[2024-05-10 13:37:03] INFO root fetch - processPackages [profitpulse]: Downloading https://files.pythonhosted.org/packages/6c/ac/009def4d43b335bdfdbeecab74d0e85eb84b1911c2610b78f7d089e2ccf5/profitpulse-2.0.0.tar.gz
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1715237402.tar.gz tmp/pulumi_vault-6.2.0a1715307330.tar.gz --markdown 20240510/p/pulumi-vault/6.2.0a1715237402-6.2.0a1715307330/README.md --exclude *.pyd
+[2024-05-10 13:37:03] INFO root fetch - processPackages [chic-lib]: Downloading https://files.pythonhosted.org/packages/0e/e3/84f6bd3e2d7a5c2734c14361db63b80edc555bb65436b6e3506aab7864da/chic-lib-0.1.9.tar.gz
+[2024-05-10 13:37:03] INFO root fetch - processPackages [profitpulse]: executing diffoscope
+[2024-05-10 13:37:03] INFO root fetch - processPackages [profitpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profitpulse-1.6.0.tar.gz tmp/profitpulse-2.0.0.tar.gz --markdown 20240510/p/profitpulse/1.6.0-2.0.0/README.md --exclude *.pyd
+[2024-05-10 13:37:03] INFO root fetch - processPackages [MLLPStreamingClient]: executing diffoscope
+[2024-05-10 13:37:03] INFO root fetch - processPackages [MLLPStreamingClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLLPStreamingClient-1.0.0.tar.gz tmp/mllpstreamingclient-1.0.1.tar.gz --markdown 20240510/M/MLLPStreamingClient/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 13:37:03] INFO root fetch - processPackages [chic-lib]: executing diffoscope
+[2024-05-10 13:37:03] INFO root fetch - processPackages [chic-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chic-lib-0.1.8.tar.gz tmp/chic-lib-0.1.9.tar.gz --markdown 20240510/c/chic-lib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-10 13:37:03] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-10 13:37:03] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-10 13:37:04] INFO root fetch - processPackages [MLLPStreamingClient]: Remove: archive file [/home/abi/fetcher/tmp/MLLPStreamingClient-1.0.0.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - processPackages [MLLPStreamingClient]: Remove: archive file [/home/abi/fetcher/tmp/mllpstreamingclient-1.0.1.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - main [MainThread]: End processing [MLLPStreamingClient]: success
+[2024-05-10 13:37:04] INFO root fetch - processPackages [profitpulse]: Remove: archive file [/home/abi/fetcher/tmp/profitpulse-1.6.0.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - processPackages [profitpulse]: Remove: archive file [/home/abi/fetcher/tmp/profitpulse-2.0.0.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - main [MainThread]: End processing [profitpulse]: success
+[2024-05-10 13:37:04] INFO root fetch - processPackages [chic-lib]: Remove: archive file [/home/abi/fetcher/tmp/chic-lib-0.1.8.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - processPackages [chic-lib]: Remove: archive file [/home/abi/fetcher/tmp/chic-lib-0.1.9.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - main [MainThread]: End processing [chic-lib]: success
+[2024-05-10 13:37:04] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715237402.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715307330.tar.gz]
+[2024-05-10 13:37:04] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-10 13:37:04] INFO root fetch - main [MainThread]: Store serial: [23145585]
