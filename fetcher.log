@@ -11929,3 +11929,68 @@
 [2024-05-10 11:02:05] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
 [2024-05-10 11:02:05] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-10 11:02:05] INFO root fetch - main [MainThread]: Store serial: [23143717]
+[2024-05-10 11:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143717]
+[2024-05-10 11:04:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hangul
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychopy-catppuccin
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-verified-permissions
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g3visu
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kozmoml
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metabolights-utils
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lyzr-rag
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mwtoolbox
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emperessz
+[2024-05-10 11:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-fs-attachment
+[2024-05-10 11:04:15] WARNING root fetch - processPackages [psychopy-catppuccin]: Skipping, unable to determine old version
+[2024-05-10 11:04:15] INFO root fetch - main [MainThread]: End processing [psychopy-catppuccin] error
+[2024-05-10 11:04:15] WARNING root fetch - processPackages [hangul]: Skipping, unable to determine old version
+[2024-05-10 11:04:15] INFO root fetch - main [MainThread]: End processing [hangul] error
+[2024-05-10 11:04:15] INFO root fetch - processPackages [metabolights-utils]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 11:04:15] INFO root fetch - processPackages [odoo-addon-fs-attachment]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1]
+[2024-05-10 11:04:15] WARNING root fetch - processPackages [kozmoml]: Skipping, unable to determine old version
+[2024-05-10 11:04:15] INFO root fetch - main [MainThread]: End processing [kozmoml] error
+[2024-05-10 11:04:15] INFO root fetch - processPackages [g3visu]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 11:04:15] WARNING root fetch - processPackages [emperessz]: Skipping, unable to determine old version
+[2024-05-10 11:04:15] INFO root fetch - main [MainThread]: End processing [emperessz] error
+[2024-05-10 11:04:15] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-10 11:04:15] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/bd/8e/b47b096b774dd9884b891bede5c49ce79167a93bab19fe93e5d40ff73d61/metabolights_utils-0.9.8.tar.gz
+[2024-05-10 11:04:15] INFO root fetch - processPackages [mwtoolbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 11:04:15] INFO root fetch - processPackages [lyzr-rag]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 11:04:15] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/43/1e/a11fbb650059a67abef2514682cd8521b646a871f3a1eeaf97ab34340de4/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl
+[2024-05-10 11:04:16] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/e7/51/8972df1c5c71512fc3d4762de97b0f823d34bc94a4fe6e0d27dd5f5b8d85/g3visu-0.1.2.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Downloading https://files.pythonhosted.org/packages/a0/31/5dbd20d12a28df571c3655f94d8a86b65cfc12fc372f4206eb0653b586ca/cdklabs.cdk-verified-permissions-0.0.1a7.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/87/47/6c0324333142cb1da7e62fca84a9198992ffb8901c7f9642e1f58cd5ed2f/metabolights_utils-0.9.9.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/fd/da/455ccc86b40aabbc3a0deb4dfc5dad4348d45262b0c95e6c04caef8ffc7b/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-10 11:04:16] INFO root fetch - processPackages [mwtoolbox]: Downloading https://files.pythonhosted.org/packages/48/c2/56e367436d71e2a7740c30e153c924a7f3d007e8b9abe2dae783a47caf36/mwtoolbox-0.0.7.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [lyzr-rag]: Downloading https://files.pythonhosted.org/packages/81/56/22919a0c1f08d37a8a0419302a1dabbe9ca671d4000c49459af65cb8aa87/lyzr_rag-0.1.5.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [metabolights-utils]: executing diffoscope
+[2024-05-10 11:04:16] INFO root fetch - processPackages [metabolights-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolights_utils-0.9.8.tar.gz tmp/metabolights_utils-0.9.9.tar.gz --markdown 20240510/m/metabolights-utils/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 11:04:16] INFO root fetch - processPackages [odoo-addon-fs-attachment]: executing diffoscope
+[2024-05-10 11:04:16] INFO root fetch - processPackages [odoo-addon-fs-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-fs-attachment/17.0.1.0.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-10 11:04:16] WARNING root fetch - processPackages [lyzr-rag]: Skipping package: exceeds size limit 15406122>=10485760
+[2024-05-10 11:04:16] INFO root fetch - main [MainThread]: End processing [lyzr-rag] error
+[2024-05-10 11:04:16] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/be/59/e53d76c38a9ba3ab4a38b511d069f3c677a353fbc609b5f946e49d330f9c/g3visu-0.1.3.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Downloading https://files.pythonhosted.org/packages/d2/6b/43424356ad1d3daf37073109bf837a7d2ece1c5ed21690f3b3fbc26726fb/cdklabs.cdk-verified-permissions-0.0.1a8.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [g3visu]: executing diffoscope
+[2024-05-10 11:04:16] INFO root fetch - processPackages [g3visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3visu-0.1.2.tar.gz tmp/g3visu-0.1.3.tar.gz --markdown 20240510/g/g3visu/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 11:04:16] INFO root fetch - processPackages [mwtoolbox]: Downloading https://files.pythonhosted.org/packages/f3/e7/f3d152b6f3e576bcc4b263fb1d9c18362644266dfac7291c434bfed6970b/mwtoolbox-0.0.8.tar.gz
+[2024-05-10 11:04:16] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: executing diffoscope
+[2024-05-10 11:04:16] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-verified-permissions-0.0.1a7.tar.gz tmp/cdklabs.cdk-verified-permissions-0.0.1a8.tar.gz --markdown 20240510/c/cdklabs.cdk-verified-permissions/0.0.1a7-0.0.1a8/README.md --exclude *.pyd
+[2024-05-10 11:04:16] INFO root fetch - processPackages [mwtoolbox]: executing diffoscope
+[2024-05-10 11:04:16] INFO root fetch - processPackages [mwtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwtoolbox-0.0.7.tar.gz tmp/mwtoolbox-0.0.8.tar.gz --markdown 20240510/m/mwtoolbox/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 11:04:17] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-10 11:04:17] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-10 11:04:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-attachment]: success
+[2024-05-10 11:04:17] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.2.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.3.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - main [MainThread]: End processing [g3visu]: success
+[2024-05-10 11:04:17] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.8.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.9.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - main [MainThread]: End processing [metabolights-utils]: success
+[2024-05-10 11:04:17] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-verified-permissions-0.0.1a7.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-verified-permissions-0.0.1a8.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-verified-permissions]: success
+[2024-05-10 11:04:17] INFO root fetch - processPackages [mwtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mwtoolbox-0.0.7.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - processPackages [mwtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mwtoolbox-0.0.8.tar.gz]
+[2024-05-10 11:04:17] INFO root fetch - main [MainThread]: End processing [mwtoolbox]: success
+[2024-05-10 11:04:17] INFO root fetch - main [MainThread]: Store serial: [23143750]
