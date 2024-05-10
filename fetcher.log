@@ -3083,3 +3083,33 @@
 [2024-05-10 03:03:41] INFO root fetch - processPackages [honeybee-grasshopper-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-core-1.9.1.tar.gz]
 [2024-05-10 03:03:41] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-core]: success
 [2024-05-10 03:03:41] INFO root fetch - main [MainThread]: Store serial: [23139676]
+[2024-05-10 03:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139676]
+[2024-05-10 03:05:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medicafe
+[2024-05-10 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VisioNomicon
+[2024-05-10 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geocif
+[2024-05-10 03:05:49] INFO root fetch - processPackages [geocif]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-05-10 03:05:49] INFO root fetch - processPackages [VisioNomicon]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 03:05:49] INFO root fetch - processPackages [medicafe]: New version: [0.240509.1] Old Version: [0.240508.4]
+[2024-05-10 03:05:49] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/46/b6/86fd8e602146250be446849fe9006618464514deb781fbe10c36fdb4d7bf/geocif-0.1.21.tar.gz
+[2024-05-10 03:05:49] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/31/64/48b11cba94c3101987cb049653301f63492511a35b1e3aa695965c9424ad/medicafe-0.240508.4.tar.gz
+[2024-05-10 03:05:49] INFO root fetch - processPackages [VisioNomicon]: Downloading https://files.pythonhosted.org/packages/e1/e8/ddf220796da8194075666715ddac63dbe6e48623c973f522fcfb045822a1/VisioNomicon-0.1.1.tar.gz
+[2024-05-10 03:05:50] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/14/91/2cbc214c92d8876f82af3393700d7e94e859b4dadf68d2c1398264079437/medicafe-0.240509.1.tar.gz
+[2024-05-10 03:05:50] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/c8/45/08ba1208bbd084bb9e23a91b415dc1f7b7784768e0ec33ec2fab3917e80c/geocif-0.1.22.tar.gz
+[2024-05-10 03:05:50] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-10 03:05:50] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240508.4.tar.gz tmp/medicafe-0.240509.1.tar.gz --markdown 20240510/m/medicafe/0.240508.4-0.240509.1/README.md --exclude *.pyd
+[2024-05-10 03:05:50] INFO root fetch - processPackages [VisioNomicon]: Downloading https://files.pythonhosted.org/packages/f2/a7/b0da97571b8dcae065fa6bf10a3430464fe42176a75497028fcbb274ab7b/VisioNomicon-0.1.2.tar.gz
+[2024-05-10 03:05:50] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-10 03:05:50] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.1.21.tar.gz tmp/geocif-0.1.22.tar.gz --markdown 20240510/g/geocif/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-05-10 03:05:50] INFO root fetch - processPackages [VisioNomicon]: executing diffoscope
+[2024-05-10 03:05:50] INFO root fetch - processPackages [VisioNomicon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisioNomicon-0.1.1.tar.gz tmp/VisioNomicon-0.1.2.tar.gz --markdown 20240510/V/VisioNomicon/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 03:05:50] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.4.tar.gz]
+[2024-05-10 03:05:50] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.1.tar.gz]
+[2024-05-10 03:05:50] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-10 03:05:50] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.21.tar.gz]
+[2024-05-10 03:05:50] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.22.tar.gz]
+[2024-05-10 03:05:50] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-10 03:05:51] INFO root fetch - processPackages [VisioNomicon]: Remove: archive file [/home/abi/fetcher/tmp/VisioNomicon-0.1.1.tar.gz]
+[2024-05-10 03:05:51] INFO root fetch - processPackages [VisioNomicon]: Remove: archive file [/home/abi/fetcher/tmp/VisioNomicon-0.1.2.tar.gz]
+[2024-05-10 03:05:51] INFO root fetch - main [MainThread]: End processing [VisioNomicon]: success
+[2024-05-10 03:05:51] INFO root fetch - main [MainThread]: Store serial: [23139688]
