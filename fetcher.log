@@ -23446,3 +23446,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:33:01] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.9.tar.gz]
 [2024-05-10 17:33:01] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server-dev]: success
 [2024-05-10 17:33:01] INFO root fetch - main [MainThread]: Store serial: [23148986]
+[2024-05-10 17:35:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148986]
+[2024-05-10 17:35:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: criticasterismz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycfutils
+[2024-05-10 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threadinessz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udp
+[2024-05-10 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cyberdrop-dl
+[2024-05-10 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkm
+[2024-05-10 17:35:11] WARNING root fetch - processPackages [criticasterismz]: Skipping, unable to determine old version
+[2024-05-10 17:35:11] INFO root fetch - main [MainThread]: End processing [criticasterismz] error
+[2024-05-10 17:35:11] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-05-10 17:35:11] INFO root fetch - processPackages [pycfutils]: New version: [2024.5.8.post1] Old Version: [2024.5.8]
+[2024-05-10 17:35:11] WARNING root fetch - processPackages [threadinessz]: Skipping, unable to determine old version
+[2024-05-10 17:35:11] INFO root fetch - main [MainThread]: End processing [threadinessz] error
+[2024-05-10 17:35:11] INFO root fetch - processPackages [udp]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-05-10 17:35:11] INFO root fetch - processPackages [mkm]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-10 17:35:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/d0/4d/1bcce6fd4b01edc3088927c67c6a1f036da4325e2d64f9023ffc785bf41f/cyberdrop_dl-5.2.8.tar.gz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [pycfutils]: Downloading https://files.pythonhosted.org/packages/fe/db/6fc1bf62d6b3a364cb89f3d16d8b1a9ef9171599fc7d48e100b7a4f13774/pycfutils-2024.5.8.tar.gz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [mkm]: Downloading https://files.pythonhosted.org/packages/c6/32/8a191810933bfaec2d8da616f73ef6c285971adc181cd21c8d33b1c25e5c/mkm-1.0.2.tar.gz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/a7/7a/092028b397178a9db79ef8faa65d75bf211ee19118810447fad4b661a628/cyberdrop_dl-5.2.9.tar.gz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [udp]: Downloading https://files.pythonhosted.org/packages/9e/3a/66cb639aa8d8de7814cc67bae703123defe39489217afb87e7514d4559cc/udp-1.2.0.tar.gz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-05-10 17:35:11] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.2.8.tar.gz tmp/cyberdrop_dl-5.2.9.tar.gz --markdown 20240510/c/cyberdrop-dl/5.2.8-5.2.9/README.md --exclude *.pyd
+[2024-05-10 17:35:11] INFO root fetch - processPackages [pycfutils]: Downloading https://files.pythonhosted.org/packages/ac/7e/62c33bc463ec3e7a737d82c7e012e5498d4439bdbff6bd460b85989a9c51/pycfutils-2024.5.8.post1.tar.gz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [mkm]: Downloading https://files.pythonhosted.org/packages/3f/b2/a9b866b9c9d65be1a594ed4d0278b919945aaf20203c542a908d618d9ad5/mkm-2.0.0.tar.gz
+[2024-05-10 17:35:11] INFO root fetch - processPackages [pycfutils]: executing diffoscope
+[2024-05-10 17:35:11] INFO root fetch - processPackages [pycfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycfutils-2024.5.8.tar.gz tmp/pycfutils-2024.5.8.post1.tar.gz --markdown 20240510/p/pycfutils/2024.5.8-2024.5.8.post1/README.md --exclude *.pyd
+[2024-05-10 17:35:11] INFO root fetch - processPackages [mkm]: executing diffoscope
+[2024-05-10 17:35:11] INFO root fetch - processPackages [mkm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkm-1.0.2.tar.gz tmp/mkm-2.0.0.tar.gz --markdown 20240510/m/mkm/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-10 17:35:11] INFO root fetch - processPackages [udp]: Downloading https://files.pythonhosted.org/packages/02/ad/c707c415fce900e7f9c22644faceb9e8989ac9d2c2a213c1910554f17714/udp-2.0.0.tar.gz
+[2024-05-10 17:35:12] INFO root fetch - processPackages [udp]: executing diffoscope
+[2024-05-10 17:35:12] INFO root fetch - processPackages [udp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udp-1.2.0.tar.gz tmp/udp-2.0.0.tar.gz --markdown 20240510/u/udp/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-05-10 17:35:12] INFO root fetch - processPackages [pycfutils]: Remove: archive file [/home/abi/fetcher/tmp/pycfutils-2024.5.8.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - processPackages [pycfutils]: Remove: archive file [/home/abi/fetcher/tmp/pycfutils-2024.5.8.post1.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - main [MainThread]: End processing [pycfutils]: success
+[2024-05-10 17:35:12] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.8.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-05-10 17:35:12] INFO root fetch - processPackages [udp]: Remove: archive file [/home/abi/fetcher/tmp/udp-1.2.0.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - processPackages [udp]: Remove: archive file [/home/abi/fetcher/tmp/udp-2.0.0.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - main [MainThread]: End processing [udp]: success
+[2024-05-10 17:35:12] INFO root fetch - processPackages [mkm]: Remove: archive file [/home/abi/fetcher/tmp/mkm-1.0.2.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - processPackages [mkm]: Remove: archive file [/home/abi/fetcher/tmp/mkm-2.0.0.tar.gz]
+[2024-05-10 17:35:12] INFO root fetch - main [MainThread]: End processing [mkm]: success
+[2024-05-10 17:35:12] INFO root fetch - main [MainThread]: Store serial: [23149037]
