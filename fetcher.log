@@ -11182,3 +11182,74 @@
 [2024-05-10 10:37:35] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.6.tar.gz]
 [2024-05-10 10:37:35] INFO root fetch - main [MainThread]: End processing [scatcluster]: success
 [2024-05-10 10:37:35] INFO root fetch - main [MainThread]: Store serial: [23143386]
+[2024-05-10 10:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143386]
+[2024-05-10 10:39:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crud-repository
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finter
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pastperfect
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vital
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luminesce-sdk-preview
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipymolstar
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junkboardz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlglot-doris
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unimore-cicd
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyharsh
+[2024-05-10 10:39:44] INFO root fetch - processPackages [pastperfect]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 10:39:44] WARNING root fetch - processPackages [unimore-cicd]: Skipping, unable to determine old version
+[2024-05-10 10:39:44] INFO root fetch - main [MainThread]: End processing [unimore-cicd] error
+[2024-05-10 10:39:44] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 10:39:44] INFO root fetch - processPackages [pastperfect]: Downloading https://files.pythonhosted.org/packages/26/4b/07e7c4592b8f54a2a2ebb6b8907ea3454294417c8a017822619aadaad800/pastperfect-0.1.0.tar.gz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [vital]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-05-10 10:39:44] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ipymolstar]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 10:39:44] INFO root fetch - processPackages [crud-repository]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 10:39:44] WARNING root fetch - processPackages [junkboardz]: Skipping, unable to determine old version
+[2024-05-10 10:39:44] INFO root fetch - main [MainThread]: End processing [junkboardz] error
+[2024-05-10 10:39:44] WARNING root fetch - processPackages [pyharsh]: Skipping, unable to determine old version
+[2024-05-10 10:39:44] INFO root fetch - main [MainThread]: End processing [pyharsh] error
+[2024-05-10 10:39:44] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.1.9] Old Version: [1.1.8.3]
+[2024-05-10 10:39:44] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-10 10:39:44] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/df/11/e85936e11967174747d2736a109b8eb14dec11c12f6b45622cce13e1d0d8/vital-2.1.7.tar.gz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [ipymolstar]: Downloading https://files.pythonhosted.org/packages/42/e1/c2db5ead1aee587c4877e7725b3028bda90afeef319a240c643f741f4f7a/ipymolstar-0.0.4.tar.gz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [pastperfect]: Downloading https://files.pythonhosted.org/packages/e8/2d/ae4a39c5ed3280524aef07d86bd14ad3f38242cac83cf6b9564a90559358/pastperfect-0.1.1.tar.gz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/98/79/395fec07d8db54c2232059fe989ef78ecd48a6c58689a57b48b8bbdb3eaf/crud_repository-0.2.1.tar.gz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/de/71/c192e2fcdb3fab9979b996d2220926ee19492c7b66a071795d7ea7762117/sqlglot-doris-1.1.8.3.tar.gz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-10 10:39:44] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-10 10:39:44] INFO root fetch - processPackages [pastperfect]: executing diffoscope
+[2024-05-10 10:39:44] INFO root fetch - processPackages [pastperfect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastperfect-0.1.0.tar.gz tmp/pastperfect-0.1.1.tar.gz --markdown 20240510/p/pastperfect/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 10:39:45] WARNING root fetch - processPackages [sqlglot-doris]: Skipping package: exceeds size limit 13526316>=10485760
+[2024-05-10 10:39:45] INFO root fetch - main [MainThread]: End processing [sqlglot-doris] error
+[2024-05-10 10:39:45] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-10 10:39:45] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240510/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 10:39:45] INFO root fetch - processPackages [ipymolstar]: Downloading https://files.pythonhosted.org/packages/6d/b5/23cb42a5566d5e26dfaacde4882c96210d51b491c135551aca38826da842/ipymolstar-0.0.5.tar.gz
+[2024-05-10 10:39:45] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/15/3c/c1472137701d9a83851c3de02da9397ed048f7200a91ea1e565512ec0047/crud_repository-0.2.2.tar.gz
+[2024-05-10 10:39:45] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-10 10:39:45] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/47/2f/ae769da2f499bc8d85817885b79a3fc4adab12ecff998782f0ab9ea7cdbd/vital-2.1.8.tar.gz
+[2024-05-10 10:39:45] INFO root fetch - processPackages [crud-repository]: executing diffoscope
+[2024-05-10 10:39:45] INFO root fetch - processPackages [crud-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crud_repository-0.2.1.tar.gz tmp/crud_repository-0.2.2.tar.gz --markdown 20240510/c/crud-repository/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 10:39:45] INFO root fetch - processPackages [ipymolstar]: executing diffoscope
+[2024-05-10 10:39:45] INFO root fetch - processPackages [ipymolstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymolstar-0.0.4.tar.gz tmp/ipymolstar-0.0.5.tar.gz --markdown 20240510/i/ipymolstar/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 10:39:45] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-10 10:39:45] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240510/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-10 10:39:45] INFO root fetch - processPackages [vital]: executing diffoscope
+[2024-05-10 10:39:45] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-2.1.7.tar.gz tmp/vital-2.1.8.tar.gz --markdown 20240510/v/vital/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-05-10 10:39:45] INFO root fetch - processPackages [pastperfect]: Remove: archive file [/home/abi/fetcher/tmp/pastperfect-0.1.0.tar.gz]
+[2024-05-10 10:39:45] INFO root fetch - processPackages [pastperfect]: Remove: archive file [/home/abi/fetcher/tmp/pastperfect-0.1.1.tar.gz]
+[2024-05-10 10:39:45] INFO root fetch - main [MainThread]: End processing [pastperfect]: success
+[2024-05-10 10:39:46] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.2.1.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.2.2.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - main [MainThread]: End processing [crud-repository]: success
+[2024-05-10 10:39:46] INFO root fetch - processPackages [ipymolstar]: Remove: archive file [/home/abi/fetcher/tmp/ipymolstar-0.0.4.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - processPackages [ipymolstar]: Remove: archive file [/home/abi/fetcher/tmp/ipymolstar-0.0.5.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - main [MainThread]: End processing [ipymolstar]: success
+[2024-05-10 10:39:46] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-10 10:39:46] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-10 10:39:46] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-10 10:39:46] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-10 10:39:46] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.7.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.8.tar.gz]
+[2024-05-10 10:39:46] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2024-05-10 10:39:46] INFO root fetch - main [MainThread]: Store serial: [23143417]
