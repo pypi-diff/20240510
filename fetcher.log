@@ -12708,3 +12708,116 @@
 [2024-05-10 11:28:58] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.3a1.tar.gz]
 [2024-05-10 11:28:58] INFO root fetch - main [MainThread]: End processing [kuksa-client]: success
 [2024-05-10 11:28:58] INFO root fetch - main [MainThread]: Store serial: [23144044]
+[2024-05-10 11:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144044]
+[2024-05-10 11:31:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openCV-movement-detection
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oceanum
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NatanStanek
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bookmarks-converter
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psychopy-plugin-template
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pmw3901
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: byzerllm
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyjava
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optimistz
+[2024-05-10 11:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redistensor
+[2024-05-10 11:31:11] WARNING root fetch - processPackages [redistensor]: Skipping, unable to determine old version
+[2024-05-10 11:31:11] INFO root fetch - processPackages [openCV-movement-detection]: New version: [1.1] Old Version: [1.0]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [redistensor]: Start processing: hisparc-sapphire
+[2024-05-10 11:31:11] INFO root fetch - main [MainThread]: End processing [redistensor] error
+[2024-05-10 11:31:11] INFO root fetch - processPackages [psychopy-plugin-template]: New version: [0.0.5] Old Version: [0.0.2]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [NatanStanek]: New version: [0.13] Old Version: [0.12]
+[2024-05-10 11:31:11] WARNING root fetch - processPackages [optimistz]: Skipping, unable to determine old version
+[2024-05-10 11:31:11] INFO root fetch - processPackages [optimistz]: Start processing: g3visu
+[2024-05-10 11:31:11] INFO root fetch - main [MainThread]: End processing [optimistz] error
+[2024-05-10 11:31:11] INFO root fetch - processPackages [pmw3901]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [bookmarks-converter]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [pyjava]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.82]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [hisparc-sapphire]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [g3visu]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 11:31:11] INFO root fetch - processPackages [openCV-movement-detection]: Downloading https://files.pythonhosted.org/packages/18/01/74caf6fa3c496881376f3c6a8dd6a6a3cae7785d25665291ea181034923e/openCV_movement_detection-1.0.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/b6/87/7dcb5d50a7e4ba9c33a1547ec1b2a6039e2dae52a887184a2ca3d6e0de09/natanstanek-0.12.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/be/59/e53d76c38a9ba3ab4a38b511d069f3c677a353fbc609b5f946e49d330f9c/g3visu-0.1.3.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [psychopy-plugin-template]: Downloading https://files.pythonhosted.org/packages/67/ff/1344887a65c8748b19279163b25b1b13bfa89256bb10b7db41141b736806/psychopy_plugin_template-0.0.2.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [pmw3901]: Downloading https://files.pythonhosted.org/packages/2f/e4/d7726afa7a2cee45b45c5ca83102491a32783e984e369ee0dd87d4bd1ff3/pmw3901-0.1.0.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [bookmarks-converter]: Downloading https://files.pythonhosted.org/packages/24/ff/6c609bdcb56e01db6e74c3d4cc3da22c6673dd1406603ba5b86b0f40fde2/bookmarks_converter-0.3.4.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/db/f4/84800ee59b99a2f182f319c88483dd386290d3e29a9896a1a653d77f8e80/pyjava-0.6.8.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/b5/68/9068266cee155c02a0d8fdbb3e722d110268e98b3fde7a3972baa37c618e/byzerllm-0.1.82.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [hisparc-sapphire]: Downloading https://files.pythonhosted.org/packages/6e/f0/aba3ca98a689aafbc1bae913df01e37119fafad56636aa78c29d2ed5cb53/hisparc-sapphire-2.0.0.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [openCV-movement-detection]: Downloading https://files.pythonhosted.org/packages/0e/28/52ff24b7c291e405a641670566bfd7e97fc5161e0f8672e3464c27308cf0/openCV_movement_detection-1.1.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/05/fa/8efee88fc52a016c8504f7f30bee553014f5c7c4b5852fdd5c5af16c0cd0/natanstanek-0.13.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [pmw3901]: Downloading https://files.pythonhosted.org/packages/cf/5a/eb973e0022347ec35b486d82437c5d931f2085e89abc07b63f4044a6fa2d/pmw3901-1.0.0.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/1c/71/9b249be56354cd16466bfedb6d0dad9711c68dad0d0246b5e20c65f19c6b/g3visu-0.1.4.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [psychopy-plugin-template]: Downloading https://files.pythonhosted.org/packages/4f/96/7670d7c7e2ba6afc06c3160a49ffb00c74d706d37fc5fe0a57203471ed1b/psychopy_plugin_template-0.0.5.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [bookmarks-converter]: Downloading https://files.pythonhosted.org/packages/d2/b3/8ed971980e1908a3cfaa798569c53648182d8471991632f592d327ad031b/bookmarks_converter-0.3.5.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [openCV-movement-detection]: executing diffoscope
+[2024-05-10 11:31:11] INFO root fetch - processPackages [openCV-movement-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openCV_movement_detection-1.0.tar.gz tmp/openCV_movement_detection-1.1.tar.gz --markdown 20240510/o/openCV-movement-detection/1.0-1.1/README.md --exclude *.pyd
+[2024-05-10 11:31:11] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/8a/2a/01924792581ff9c7840a2d5d31ffe9a19c29a8c6eef20ab17884e3697d29/pyjava-0.6.9.tar.gz
+[2024-05-10 11:31:11] INFO root fetch - processPackages [g3visu]: executing diffoscope
+[2024-05-10 11:31:11] INFO root fetch - processPackages [g3visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3visu-0.1.3.tar.gz tmp/g3visu-0.1.4.tar.gz --markdown 20240510/g/g3visu/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.6.8.tar.gz tmp/pyjava-0.6.9.tar.gz --markdown 20240510/p/pyjava/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pmw3901]: executing diffoscope
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pmw3901]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmw3901-0.1.0.tar.gz tmp/pmw3901-1.0.0.tar.gz --markdown 20240510/p/pmw3901/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [NatanStanek]: executing diffoscope
+[2024-05-10 11:31:12] INFO root fetch - processPackages [NatanStanek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natanstanek-0.12.tar.gz tmp/natanstanek-0.13.tar.gz --markdown 20240510/N/NatanStanek/0.12-0.13/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-05-10 11:31:12] INFO root fetch - processPackages [psychopy-plugin-template]: executing diffoscope
+[2024-05-10 11:31:12] INFO root fetch - processPackages [psychopy-plugin-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy_plugin_template-0.0.2.tar.gz tmp/psychopy_plugin_template-0.0.5.tar.gz --markdown 20240510/p/psychopy-plugin-template/0.0.2-0.0.5/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [bookmarks-converter]: executing diffoscope
+[2024-05-10 11:31:12] INFO root fetch - processPackages [bookmarks-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookmarks_converter-0.3.4.tar.gz tmp/bookmarks_converter-0.3.5.tar.gz --markdown 20240510/b/bookmarks-converter/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-05-10 11:31:12] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-05-10 11:31:12] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240510/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [openCV-movement-detection]: Remove: archive file [/home/abi/fetcher/tmp/openCV_movement_detection-1.0.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [openCV-movement-detection]: Remove: archive file [/home/abi/fetcher/tmp/openCV_movement_detection-1.1.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [openCV-movement-detection]: Start processing: lyzr-rag
+[2024-05-10 11:31:12] INFO root fetch - main [MainThread]: End processing [openCV-movement-detection]: success
+[2024-05-10 11:31:12] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-05-10 11:31:12] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.82.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240510/b/byzerllm/0.1.82-0.1.9/README.md --exclude *.pyd
+[2024-05-10 11:31:12] INFO root fetch - processPackages [lyzr-rag]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [hisparc-sapphire]: Downloading https://files.pythonhosted.org/packages/37/6a/38599861e6eaaad2c450fdf2456f10e3bd654b01adebb9cabbb87d1deb4f/hisparc_sapphire-3.0.0.tar.gz
+[2024-05-10 11:31:12] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.3.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.4.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [g3visu]: Start processing: PREN-flawas
+[2024-05-10 11:31:12] INFO root fetch - main [MainThread]: End processing [g3visu]: success
+[2024-05-10 11:31:12] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.12.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.13.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - main [MainThread]: End processing [NatanStanek]: success
+[2024-05-10 11:31:12] INFO root fetch - processPackages [lyzr-rag]: Downloading https://files.pythonhosted.org/packages/42/35/11a5d7b337a200913b07a7f343a97de837cc2ecec457d4c8e4a6195d0a91/lyzr_rag-0.1.6.tar.gz
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pmw3901]: Remove: archive file [/home/abi/fetcher/tmp/pmw3901-0.1.0.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pmw3901]: Remove: archive file [/home/abi/fetcher/tmp/pmw3901-1.0.0.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - main [MainThread]: End processing [pmw3901]: success
+[2024-05-10 11:31:12] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 11:31:12] WARNING root fetch - processPackages [lyzr-rag]: Skipping package: exceeds size limit 15406439>=10485760
+[2024-05-10 11:31:12] INFO root fetch - main [MainThread]: End processing [lyzr-rag] error
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.8.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.9.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2024-05-10 11:31:12] INFO root fetch - processPackages [psychopy-plugin-template]: Remove: archive file [/home/abi/fetcher/tmp/psychopy_plugin_template-0.0.2.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - processPackages [psychopy-plugin-template]: Remove: archive file [/home/abi/fetcher/tmp/psychopy_plugin_template-0.0.5.tar.gz]
+[2024-05-10 11:31:12] INFO root fetch - main [MainThread]: End processing [psychopy-plugin-template]: success
+[2024-05-10 11:31:13] INFO root fetch - processPackages [bookmarks-converter]: Remove: archive file [/home/abi/fetcher/tmp/bookmarks_converter-0.3.4.tar.gz]
+[2024-05-10 11:31:13] INFO root fetch - processPackages [bookmarks-converter]: Remove: archive file [/home/abi/fetcher/tmp/bookmarks_converter-0.3.5.tar.gz]
+[2024-05-10 11:31:13] INFO root fetch - main [MainThread]: End processing [bookmarks-converter]: success
+[2024-05-10 11:31:13] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-05-10 11:31:13] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-05-10 11:31:13] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-05-10 11:31:13] INFO root fetch - processPackages [hisparc-sapphire]: executing diffoscope
+[2024-05-10 11:31:13] INFO root fetch - processPackages [hisparc-sapphire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hisparc-sapphire-2.0.0.tar.gz tmp/hisparc_sapphire-3.0.0.tar.gz --markdown 20240510/h/hisparc-sapphire/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-10 11:31:13] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 11:31:13] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 11:31:13] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 11:31:14] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 11:31:14] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 11:31:14] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 11:31:14] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.82.tar.gz]
+[2024-05-10 11:31:14] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-05-10 11:31:14] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-05-10 11:31:18] INFO root fetch - processPackages [hisparc-sapphire]: Remove: archive file [/home/abi/fetcher/tmp/hisparc-sapphire-2.0.0.tar.gz]
+[2024-05-10 11:31:18] INFO root fetch - processPackages [hisparc-sapphire]: Remove: archive file [/home/abi/fetcher/tmp/hisparc_sapphire-3.0.0.tar.gz]
+[2024-05-10 11:31:18] INFO root fetch - main [MainThread]: End processing [hisparc-sapphire]: success
+[2024-05-10 11:31:18] INFO root fetch - main [MainThread]: Store serial: [23144087]
