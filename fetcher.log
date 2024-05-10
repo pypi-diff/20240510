@@ -3034,3 +3034,24 @@
 [2024-05-10 02:57:10] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.9rc0.tar.gz]
 [2024-05-10 02:57:10] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
 [2024-05-10 02:57:10] INFO root fetch - main [MainThread]: Store serial: [23139613]
+[2024-05-10 02:59:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139613]
+[2024-05-10 02:59:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 02:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onychoschiziaz
+[2024-05-10 02:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycde
+[2024-05-10 02:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geocif
+[2024-05-10 02:59:18] INFO root fetch - processPackages [geocif]: New version: [0.1.21] Old Version: [0.1.2]
+[2024-05-10 02:59:18] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/0a/22/b82eabacf7efd3f1c87950011f856f8ca521e769e296d1a40c860cfd2792/geocif-0.1.2.tar.gz
+[2024-05-10 02:59:18] WARNING root fetch - processPackages [onychoschiziaz]: Skipping, unable to determine old version
+[2024-05-10 02:59:18] INFO root fetch - main [MainThread]: End processing [onychoschiziaz] error
+[2024-05-10 02:59:18] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev977] Old Version: [0.3.1.dev966]
+[2024-05-10 02:59:19] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/69/68/c1a5f8c22232a3d13915df89ae882b930dab6b86387ab2959baebe0be7a2/pycde-0.3.1.dev966-cp39-cp39-win_amd64.whl
+[2024-05-10 02:59:19] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/46/b6/86fd8e602146250be446849fe9006618464514deb781fbe10c36fdb4d7bf/geocif-0.1.21.tar.gz
+[2024-05-10 02:59:19] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-10 02:59:19] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.1.2.tar.gz tmp/geocif-0.1.21.tar.gz --markdown 20240510/g/geocif/0.1.2-0.1.21/README.md --exclude *.pyd
+[2024-05-10 02:59:20] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.2.tar.gz]
+[2024-05-10 02:59:20] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.21.tar.gz]
+[2024-05-10 02:59:20] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-10 02:59:21] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/9e/0f/535a86e70f2a51cdc808d94b3764135de30bb2c4aa87dd173f0bea0bf55e/pycde-0.3.1.dev977-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 02:59:21] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21616150>=10485760
+[2024-05-10 02:59:21] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-05-10 02:59:21] INFO root fetch - main [MainThread]: Store serial: [23139635]
