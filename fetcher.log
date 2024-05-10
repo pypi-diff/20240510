@@ -5470,3 +5470,53 @@
 [2024-05-10 05:18:27] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-10 05:18:27] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-10 05:18:27] INFO root fetch - main [MainThread]: Store serial: [23140786]
+[2024-05-10 05:20:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140786]
+[2024-05-10 05:20:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-azuread
+[2024-05-10 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trowelingz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2024-05-10 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-newrelic
+[2024-05-10 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dextrogyratoryz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tedana
+[2024-05-10 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-cv-nightly
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-05-10 05:20:36] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/d0/4d/1bcce6fd4b01edc3088927c67c6a1f036da4325e2d64f9023ffc785bf41f/cyberdrop_dl-5.2.8.tar.gz
+[2024-05-10 05:20:36] WARNING root fetch - processPackages [dextrogyratoryz]: Skipping, unable to determine old version
+[2024-05-10 05:20:36] INFO root fetch - main [MainThread]: End processing [dextrogyratoryz] error
+[2024-05-10 05:20:36] WARNING root fetch - processPackages [trowelingz]: Skipping, unable to determine old version
+[2024-05-10 05:20:36] INFO root fetch - main [MainThread]: End processing [trowelingz] error
+[2024-05-10 05:20:36] INFO root fetch - processPackages [tedana]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-10 05:20:36] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/55/6c/13147eb9dc112527bf0b1655b4fe6d422b316473a9b1bba53a578fefe783/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/a7/7a/092028b397178a9db79ef8faa65d75bf211ee19118810447fad4b661a628/cyberdrop_dl-5.2.9.tar.gz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [tedana]: Downloading https://files.pythonhosted.org/packages/80/a2/fbc719ec11262077e853adf1e4a2877a91ab1c2f2a9319260897235d61a3/tedana-24.0.0.tar.gz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/88/be/02d6ea320d798503db50a8f378e071a0eec764c5f82f4542e0a22c80c814/cdktf-cdktf-provider-azuread-9.0.0.tar.gz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-05-10 05:20:36] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.2.8.tar.gz tmp/cyberdrop_dl-5.2.9.tar.gz --markdown 20240510/c/cyberdrop-dl/5.2.8-5.2.9/README.md --exclude *.pyd
+[2024-05-10 05:20:36] WARNING root fetch - processPackages [tedana]: Skipping package: exceeds size limit 23011730>=10485760
+[2024-05-10 05:20:36] INFO root fetch - main [MainThread]: End processing [tedana] error
+[2024-05-10 05:20:36] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-10 05:20:36] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240510/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-10 05:20:37] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/88/f8/83dfce55259c0d4cd856368434e57e65d27ab17a9f11f751221db52666a7/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz
+[2024-05-10 05:20:37] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2024-05-10 05:20:37] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz --markdown 20240510/c/cdktf-cdktf-provider-newrelic/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-10 05:20:37] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.8.tar.gz]
+[2024-05-10 05:20:37] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
+[2024-05-10 05:20:37] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-05-10 05:20:37] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/e3/24/95b50eb2ef4a4cf51ed286e2f1e7a27be76fb4b0023f8876242860f65ef2/cdktf-cdktf-provider-azuread-9.0.1.tar.gz
+[2024-05-10 05:20:38] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: executing diffoscope
+[2024-05-10 05:20:38] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-azuread-9.0.0.tar.gz tmp/cdktf-cdktf-provider-azuread-9.0.1.tar.gz --markdown 20240510/c/cdktf-cdktf-provider-azuread/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-05-10 05:20:38] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-10 05:20:38] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-10 05:20:38] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-10 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-azuread-9.0.0.tar.gz]
+[2024-05-10 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-azuread-9.0.1.tar.gz]
+[2024-05-10 05:20:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
+[2024-05-10 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz]
+[2024-05-10 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
+[2024-05-10 05:20:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2024-05-10 05:20:40] INFO root fetch - main [MainThread]: Store serial: [23140810]
