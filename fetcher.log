@@ -21751,3 +21751,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:37:03] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.8rc0.tar.gz]
 [2024-05-10 16:37:03] INFO root fetch - main [MainThread]: End processing [featureform-enterprise]: success
 [2024-05-10 16:37:03] INFO root fetch - main [MainThread]: Store serial: [23148160]
+[2024-05-10 16:39:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148160]
+[2024-05-10 16:39:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 16:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bincrafters-conan-remote
+[2024-05-10 16:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stethographz
+[2024-05-10 16:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ldplayer-tools
+[2024-05-10 16:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcnodes
+[2024-05-10 16:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: work
+[2024-05-10 16:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: preset-cli
+[2024-05-10 16:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: a2y-ats
+[2024-05-10 16:39:13] INFO root fetch - processPackages [work]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2024-05-10 16:39:13] WARNING root fetch - processPackages [ldplayer-tools]: Skipping, unable to determine old version
+[2024-05-10 16:39:13] INFO root fetch - main [MainThread]: End processing [ldplayer-tools] error
+[2024-05-10 16:39:13] WARNING root fetch - processPackages [bincrafters-conan-remote]: Skipping, unable to determine old version
+[2024-05-10 16:39:13] INFO root fetch - main [MainThread]: End processing [bincrafters-conan-remote] error
+[2024-05-10 16:39:13] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/a8/79/c9585621628cbec5e4c234c56a04795abaf7032c17f4a3a15b00765e3def/work-1.1.0b1.tar.gz
+[2024-05-10 16:39:13] WARNING root fetch - processPackages [stethographz]: Skipping, unable to determine old version
+[2024-05-10 16:39:13] INFO root fetch - main [MainThread]: End processing [stethographz] error
+[2024-05-10 16:39:13] INFO root fetch - processPackages [preset-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 16:39:13] INFO root fetch - processPackages [a2y-ats]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-10 16:39:13] INFO root fetch - processPackages [funcnodes]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-10 16:39:13] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/45/8a/3a949afe3296baa250b196fc80873dc66cef655cccfb3f62c687d507a8b7/funcnodes-0.2.3.tar.gz
+[2024-05-10 16:39:13] INFO root fetch - processPackages [a2y-ats]: Downloading https://files.pythonhosted.org/packages/b9/4c/39685a98d5e825246dc012883d7fd88bd956367fd32da5ee1a42c6ed77dd/a2y_ats-1.2.1-cp38-cp38-win_amd64.whl
+[2024-05-10 16:39:13] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/f0/8d/fff9a77628cb12b4c86d60afc178f1ee4bb726e1f4d1c8a45207727356f3/work-1.1.0b2.tar.gz
+[2024-05-10 16:39:13] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/50/af/964df4a203c2514758ceb1bdaeac9a9c22ded224174b5682501523753fa0/preset-cli-0.2.8.tar.gz
+[2024-05-10 16:39:13] INFO root fetch - processPackages [work]: executing diffoscope
+[2024-05-10 16:39:13] INFO root fetch - processPackages [work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-1.1.0b1.tar.gz tmp/work-1.1.0b2.tar.gz --markdown 20240510/w/work/1.1.0b1-1.1.0b2/README.md --exclude *.pyd
+[2024-05-10 16:39:13] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/7c/ab/4efd8289388d6b96666bcc4b81557fff13d2e8b8949373d429dc5bd63156/funcnodes-0.2.5.tar.gz
+[2024-05-10 16:39:13] INFO root fetch - processPackages [a2y-ats]: Downloading https://files.pythonhosted.org/packages/44/bb/711baee75bcacc6fbe2054e03cd69a67c6efa3dd7032bf6f8d9b5b020e5d/a2y_ats-1.2.2-cp38-cp38-win_amd64.whl
+[2024-05-10 16:39:13] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/ca/ec/f785ba69f93c481be4b3b7e0f769380f94bb59d815e9db0f9dfcc5ccd8c8/preset-cli-0.2.9.tar.gz
+[2024-05-10 16:39:13] INFO root fetch - processPackages [a2y-ats]: executing diffoscope
+[2024-05-10 16:39:13] INFO root fetch - processPackages [a2y-ats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_ats-1.2.1-cp38-cp38-win_amd64.whl.zip tmp/a2y_ats-1.2.2-cp38-cp38-win_amd64.whl.zip --markdown 20240510/a/a2y-ats/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-10 16:39:13] INFO root fetch - processPackages [preset-cli]: executing diffoscope
+[2024-05-10 16:39:13] INFO root fetch - processPackages [preset-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preset-cli-0.2.8.tar.gz tmp/preset-cli-0.2.9.tar.gz --markdown 20240510/p/preset-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 16:39:14] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-10 16:39:14] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.3.tar.gz tmp/funcnodes-0.2.5.tar.gz --markdown 20240510/f/funcnodes/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-10 16:39:14] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0b1.tar.gz]
+[2024-05-10 16:39:14] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0b2.tar.gz]
+[2024-05-10 16:39:14] INFO root fetch - main [MainThread]: End processing [work]: success
+[2024-05-10 16:39:14] INFO root fetch - processPackages [a2y-ats]: Remove: archive file [/home/abi/fetcher/tmp/a2y_ats-1.2.1-cp38-cp38-win_amd64.whl.zip]
+[2024-05-10 16:39:14] INFO root fetch - processPackages [a2y-ats]: Remove: archive file [/home/abi/fetcher/tmp/a2y_ats-1.2.2-cp38-cp38-win_amd64.whl.zip]
+[2024-05-10 16:39:14] INFO root fetch - main [MainThread]: End processing [a2y-ats]: success
+[2024-05-10 16:39:14] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.8.tar.gz]
+[2024-05-10 16:39:14] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.9.tar.gz]
+[2024-05-10 16:39:14] INFO root fetch - main [MainThread]: End processing [preset-cli]: success
+[2024-05-10 16:39:15] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.3.tar.gz]
+[2024-05-10 16:39:15] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.5.tar.gz]
+[2024-05-10 16:39:15] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-10 16:39:15] INFO root fetch - main [MainThread]: Store serial: [23148189]
