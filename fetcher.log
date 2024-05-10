@@ -5819,3 +5819,36 @@
 [2024-05-10 05:44:41] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a6.tar.gz]
 [2024-05-10 05:44:41] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
 [2024-05-10 05:44:41] INFO root fetch - main [MainThread]: Store serial: [23140933]
+[2024-05-10 05:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140933]
+[2024-05-10 05:46:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 05:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaas-cli
+[2024-05-10 05:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qlv-client
+[2024-05-10 05:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protelytropterousz
+[2024-05-10 05:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PFlowC
+[2024-05-10 05:46:51] INFO root fetch - processPackages [kaas-cli]: New version: [0.1.5] Old Version: [0.1.2]
+[2024-05-10 05:46:51] INFO root fetch - processPackages [qlv-client]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-10 05:46:51] INFO root fetch - processPackages [PFlowC]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-10 05:46:51] WARNING root fetch - processPackages [protelytropterousz]: Skipping, unable to determine old version
+[2024-05-10 05:46:51] INFO root fetch - main [MainThread]: End processing [protelytropterousz] error
+[2024-05-10 05:46:51] INFO root fetch - processPackages [kaas-cli]: Downloading https://files.pythonhosted.org/packages/cf/e0/62104c1b40ce3030b7879b87a02cddfe9985df78c2e2782153ca9f7cdc34/kaas_cli-0.1.2.tar.gz
+[2024-05-10 05:46:51] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/aa/89/782d67f57fe348cbdae61fac0938b832964ef85688ea64e48fb6e2e3e780/qlv-client-0.1.9.tar.gz
+[2024-05-10 05:46:51] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/c0/be/0a703ecbd50de03c10ef433b22b174002d8bd0050df35dfe9b8f45f25a8e/PFlowC-2.1.0.tar.gz
+[2024-05-10 05:46:51] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/a6/4d/af1cef774d9228d0127c07dfd4ef052c8b957d3eecb139119ba8bbb6b61b/qlv-client-0.2.0.tar.gz
+[2024-05-10 05:46:51] INFO root fetch - processPackages [kaas-cli]: Downloading https://files.pythonhosted.org/packages/73/c3/94c0c5047ecbe1e6abf9a5f4c7ae82cb107b0301034b2972fa73b33f80d2/kaas_cli-0.1.5.tar.gz
+[2024-05-10 05:46:51] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-10 05:46:51] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.1.9.tar.gz tmp/qlv-client-0.2.0.tar.gz --markdown 20240510/q/qlv-client/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-10 05:46:51] INFO root fetch - processPackages [kaas-cli]: executing diffoscope
+[2024-05-10 05:46:51] INFO root fetch - processPackages [kaas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaas_cli-0.1.2.tar.gz tmp/kaas_cli-0.1.5.tar.gz --markdown 20240510/k/kaas-cli/0.1.2-0.1.5/README.md --exclude *.pyd
+[2024-05-10 05:46:52] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/fd/91/0fb275517b8d96ee5a99a2cc78f44b3faf267286d07bc7965a3c6651d3e9/PFlowC-2.1.1.tar.gz
+[2024-05-10 05:46:52] INFO root fetch - processPackages [PFlowC]: executing diffoscope
+[2024-05-10 05:46:52] INFO root fetch - processPackages [PFlowC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PFlowC-2.1.0.tar.gz tmp/PFlowC-2.1.1.tar.gz --markdown 20240510/P/PFlowC/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-10 05:46:52] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.9.tar.gz]
+[2024-05-10 05:46:52] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.0.tar.gz]
+[2024-05-10 05:46:52] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-10 05:46:52] INFO root fetch - processPackages [kaas-cli]: Remove: archive file [/home/abi/fetcher/tmp/kaas_cli-0.1.2.tar.gz]
+[2024-05-10 05:46:52] INFO root fetch - processPackages [kaas-cli]: Remove: archive file [/home/abi/fetcher/tmp/kaas_cli-0.1.5.tar.gz]
+[2024-05-10 05:46:52] INFO root fetch - main [MainThread]: End processing [kaas-cli]: success
+[2024-05-10 05:46:53] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.1.0.tar.gz]
+[2024-05-10 05:46:53] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.1.1.tar.gz]
+[2024-05-10 05:46:53] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
+[2024-05-10 05:46:53] INFO root fetch - main [MainThread]: Store serial: [23140944]
