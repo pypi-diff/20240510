@@ -18811,3 +18811,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:06:46] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.6.tar.gz]
 [2024-05-10 15:06:46] INFO root fetch - main [MainThread]: End processing [peewee]: success
 [2024-05-10 15:06:46] INFO root fetch - main [MainThread]: Store serial: [23146693]
+[2024-05-10 15:08:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146693]
+[2024-05-10 15:08:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: canonicalizingz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-dbdiff
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odd-models
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: github-projectv2
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-okta
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenTAKServer
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-gpt
+[2024-05-10 15:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PythonProjectBootstrapper
+[2024-05-10 15:08:56] INFO root fetch - processPackages [OpenTAKServer]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-10 15:08:56] WARNING root fetch - processPackages [canonicalizingz]: Skipping, unable to determine old version
+[2024-05-10 15:08:56] INFO root fetch - main [MainThread]: End processing [canonicalizingz] error
+[2024-05-10 15:08:56] INFO root fetch - processPackages [github-projectv2]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-10 15:08:56] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1715338646] Old Version: [4.9.0a1715234992]
+[2024-05-10 15:08:56] INFO root fetch - processPackages [odd-models]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-10 15:08:56] INFO root fetch - processPackages [OpenTAKServer]: Downloading https://files.pythonhosted.org/packages/02/1e/afa248da93c39f3b789b87364ae1e590b874b4a8c2bf3de3f815cba4739c/opentakserver-1.1.6.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [django-dbdiff]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-10 15:08:56] INFO root fetch - processPackages [PythonProjectBootstrapper]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-10 15:08:56] INFO root fetch - processPackages [nonebot-plugin-gpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 15:08:56] INFO root fetch - processPackages [github-projectv2]: Downloading https://files.pythonhosted.org/packages/29/b6/a3861f4a81cf0704a9912730267b48ba7b2e4182bb1758acf2d8af94ff8a/github_projectv2-0.5.0.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/30/47/de533deead30d79cde864b912d3399563a7e06e1d0e095c37f3472f5d465/pulumi_okta-4.9.0a1715234992.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [odd-models]: Downloading https://files.pythonhosted.org/packages/c6/a9/ea844b2380e839191844f968e2cd60c397259d1bf1a77e20ea65ee20a643/odd-models-2.0.8.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [django-dbdiff]: Downloading https://files.pythonhosted.org/packages/8b/4b/4aef4c8cc72e1f9a2dc971d6b8ddca221f95e14d93292bf9385e9c7619f2/django-dbdiff-0.9.5.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [PythonProjectBootstrapper]: Downloading https://files.pythonhosted.org/packages/4b/2a/c7215e68479846710cef279d6e33e229ea9429c22f4bbbbc8f1a268c632b/PythonProjectBootstrapper-0.2.3-py3-none-any.whl
+[2024-05-10 15:08:56] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/d3/b8/e98732cabdc5211650e901088c2fde40acd5a0131b175d00468129132813/nonebot-plugin-gpt-0.0.8.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [OpenTAKServer]: Downloading https://files.pythonhosted.org/packages/41/d9/8f0192a23e81761e02e71ac16317710ca82abfc9a28e2e099637b85cf4d0/opentakserver-1.1.7.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f9/1c/1f51c296b5da171a437873707a9a54ce72b43ae7307a33b0ad20e413b077/pulumi_okta-4.9.0a1715338646.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [github-projectv2]: Downloading https://files.pythonhosted.org/packages/35/bd/8e17f80fccb27339cafdb1e71ec01f5ab6f411c7ec0de84d8d8d9d4dc49d/github_projectv2-0.5.1.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [OpenTAKServer]: executing diffoscope
+[2024-05-10 15:08:56] INFO root fetch - processPackages [OpenTAKServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentakserver-1.1.6.tar.gz tmp/opentakserver-1.1.7.tar.gz --markdown 20240510/O/OpenTAKServer/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-10 15:08:56] INFO root fetch - processPackages [github-projectv2]: executing diffoscope
+[2024-05-10 15:08:56] INFO root fetch - processPackages [github-projectv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_projectv2-0.5.0.tar.gz tmp/github_projectv2-0.5.1.tar.gz --markdown 20240510/g/github-projectv2/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-10 15:08:56] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-10 15:08:56] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1715234992.tar.gz tmp/pulumi_okta-4.9.0a1715338646.tar.gz --markdown 20240510/p/pulumi-okta/4.9.0a1715234992-4.9.0a1715338646/README.md --exclude *.pyd
+[2024-05-10 15:08:56] INFO root fetch - processPackages [PythonProjectBootstrapper]: Downloading https://files.pythonhosted.org/packages/da/76/aa84862e4442522d6d4961f0f61f18f8f0b84fceeb1497fb86419734853c/PythonProjectBootstrapper-0.2.5-py3-none-any.whl
+[2024-05-10 15:08:56] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/3d/9f/81d150090fcea62c65939c289c40f03dc27e061ec4bc33f5dafeb79fc785/nonebot-plugin-gpt-0.0.9.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [odd-models]: Downloading https://files.pythonhosted.org/packages/f2/c3/f537f567b455ac50cfc1496bce73f6fa04b8533fd53509157d65d6867ef1/odd-models-2.0.9.tar.gz
+[2024-05-10 15:08:56] INFO root fetch - processPackages [django-dbdiff]: Downloading https://files.pythonhosted.org/packages/19/38/6780e7e157861d00af386804d8d08091c8984426f37e376dc19ded721501/django-dbdiff-0.9.6.tar.gz
+[2024-05-10 15:08:57] INFO root fetch - processPackages [PythonProjectBootstrapper]: executing diffoscope
+[2024-05-10 15:08:57] INFO root fetch - processPackages [PythonProjectBootstrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonProjectBootstrapper-0.2.3-py3-none-any.whl.zip tmp/PythonProjectBootstrapper-0.2.5-py3-none-any.whl.zip --markdown 20240510/P/PythonProjectBootstrapper/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-10 15:08:57] INFO root fetch - processPackages [odd-models]: executing diffoscope
+[2024-05-10 15:08:57] INFO root fetch - processPackages [odd-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-models-2.0.8.tar.gz tmp/odd-models-2.0.9.tar.gz --markdown 20240510/o/odd-models/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-10 15:08:57] INFO root fetch - processPackages [django-dbdiff]: executing diffoscope
+[2024-05-10 15:08:57] INFO root fetch - processPackages [django-dbdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dbdiff-0.9.5.tar.gz tmp/django-dbdiff-0.9.6.tar.gz --markdown 20240510/d/django-dbdiff/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-10 15:08:57] INFO root fetch - processPackages [nonebot-plugin-gpt]: executing diffoscope
+[2024-05-10 15:08:57] INFO root fetch - processPackages [nonebot-plugin-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-gpt-0.0.8.tar.gz tmp/nonebot-plugin-gpt-0.0.9.tar.gz --markdown 20240510/n/nonebot-plugin-gpt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 15:08:57] INFO root fetch - processPackages [OpenTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/opentakserver-1.1.6.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - processPackages [OpenTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/opentakserver-1.1.7.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - main [MainThread]: End processing [OpenTAKServer]: success
+[2024-05-10 15:08:57] INFO root fetch - processPackages [github-projectv2]: Remove: archive file [/home/abi/fetcher/tmp/github_projectv2-0.5.0.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - processPackages [github-projectv2]: Remove: archive file [/home/abi/fetcher/tmp/github_projectv2-0.5.1.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - main [MainThread]: End processing [github-projectv2]: success
+[2024-05-10 15:08:57] INFO root fetch - processPackages [odd-models]: Remove: archive file [/home/abi/fetcher/tmp/odd-models-2.0.8.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - processPackages [odd-models]: Remove: archive file [/home/abi/fetcher/tmp/odd-models-2.0.9.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - main [MainThread]: End processing [odd-models]: success
+[2024-05-10 15:08:57] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.8.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.9.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gpt]: success
+[2024-05-10 15:08:57] INFO root fetch - processPackages [django-dbdiff]: Remove: archive file [/home/abi/fetcher/tmp/django-dbdiff-0.9.5.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - processPackages [django-dbdiff]: Remove: archive file [/home/abi/fetcher/tmp/django-dbdiff-0.9.6.tar.gz]
+[2024-05-10 15:08:57] INFO root fetch - main [MainThread]: End processing [django-dbdiff]: success
+[2024-05-10 15:08:57] INFO root fetch - processPackages [PythonProjectBootstrapper]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapper-0.2.3-py3-none-any.whl.zip]
+[2024-05-10 15:08:57] INFO root fetch - processPackages [PythonProjectBootstrapper]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapper-0.2.5-py3-none-any.whl.zip]
+[2024-05-10 15:08:57] INFO root fetch - main [MainThread]: End processing [PythonProjectBootstrapper]: success
+[2024-05-10 15:08:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715234992.tar.gz]
+[2024-05-10 15:08:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715338646.tar.gz]
+[2024-05-10 15:08:58] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-10 15:08:58] INFO root fetch - main [MainThread]: Store serial: [23146715]
