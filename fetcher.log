@@ -11119,3 +11119,54 @@
 [2024-05-10 10:33:12] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-05-10 10:33:12] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-05-10 10:33:12] INFO root fetch - main [MainThread]: Store serial: [23143365]
+[2024-05-10 10:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143365]
+[2024-05-10 10:35:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awestruckz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-vat-statement-communication
+[2024-05-10 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qase-python-commons
+[2024-05-10 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: txdpy
+[2024-05-10 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simpleworkspace
+[2024-05-10 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aerogenesisz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [qase-python-commons]: New version: [3.0.2b5] Old Version: [3.0.2b4]
+[2024-05-10 10:35:23] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.199] Old Version: [1.2.198]
+[2024-05-10 10:35:23] WARNING root fetch - processPackages [awestruckz]: Skipping, unable to determine old version
+[2024-05-10 10:35:23] INFO root fetch - main [MainThread]: End processing [awestruckz] error
+[2024-05-10 10:35:23] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-10 10:35:23] INFO root fetch - processPackages [aerogenesisz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 10:35:23] INFO root fetch - processPackages [txdpy]: New version: [7.7.1] Old Version: [7.7.0]
+[2024-05-10 10:35:23] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/23/73/7459ec2affabd078cca0e9dbe7ae5a188a62e71366afe26db5de5a7a855b/qase_python_commons-3.0.2b4.tar.gz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/a6/b2/83b0f70212362cb7121d6d46dd8b1fdb5c6cda280c2a09592975cc89673a/simpleworkspace-1.2.198.tar.gz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: Downloading https://files.pythonhosted.org/packages/32/00/a253574647f494e6b0f0591f4d421f1e09ed01f6154663e4fc94062c3029/odoo_addon_l10n_it_vat_statement_communication-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-10 10:35:23] INFO root fetch - processPackages [aerogenesisz]: Downloading https://files.pythonhosted.org/packages/af/40/d9403df1d6672fe819e8d570dc82de223c101ffd190e98ad5c2faf342f43/aerogenesisz-1.1.tar.gz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/37/6f/6525a03d4837f03ff00a8ec9beab50f924bdd4a5e92fafa7049fa6194a1a/qase_python_commons-3.0.2b5.tar.gz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/45/98/636a73eb481fc0de62d6a2129a5181eb7001a748209a0e93e4ce76cffd32/txdpy-7.7.0.tar.gz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2024-05-10 10:35:23] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_python_commons-3.0.2b4.tar.gz tmp/qase_python_commons-3.0.2b5.tar.gz --markdown 20240510/q/qase-python-commons/3.0.2b4-3.0.2b5/README.md --exclude *.pyd
+[2024-05-10 10:35:23] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/a4/68/305c65cc6e3d596f18b9e54ec4e768b220d0dc8fdd40d57fd59ae1a553c0/simpleworkspace-1.2.199.tar.gz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [aerogenesisz]: Downloading https://files.pythonhosted.org/packages/73/6e/5a7d9573b7b2e97bacc969ea080771786392aa39ce9a164343f4c5b493f8/aerogenesisz-2.1.tar.gz
+[2024-05-10 10:35:23] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/37/b4/5bb88cef844820f5abe93ff09dd2ed73939487b18988d3ff56a87d59e891/txdpy-7.7.1.tar.gz
+[2024-05-10 10:35:24] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: Downloading https://files.pythonhosted.org/packages/d6/b1/dff325271eb3a2dd6a6da6e60fdcddb0b04ab118c26ec4586130f4733a5c/odoo_addon_l10n_it_vat_statement_communication-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-10 10:35:24] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-10 10:35:24] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.198.tar.gz tmp/simpleworkspace-1.2.199.tar.gz --markdown 20240510/s/simpleworkspace/1.2.198-1.2.199/README.md --exclude *.pyd
+[2024-05-10 10:35:24] INFO root fetch - processPackages [txdpy]: executing diffoscope
+[2024-05-10 10:35:24] INFO root fetch - processPackages [txdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txdpy-7.7.0.tar.gz tmp/txdpy-7.7.1.tar.gz --markdown 20240510/t/txdpy/7.7.0-7.7.1/README.md --exclude *.pyd
+[2024-05-10 10:35:24] INFO root fetch - processPackages [aerogenesisz]: executing diffoscope
+[2024-05-10 10:35:24] INFO root fetch - processPackages [aerogenesisz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerogenesisz-1.1.tar.gz tmp/aerogenesisz-2.1.tar.gz --markdown 20240510/a/aerogenesisz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 10:35:24] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: executing diffoscope
+[2024-05-10 10:35:24] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_vat_statement_communication-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_vat_statement_communication-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-l10n-it-vat-statement-communication/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-10 10:35:24] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b4.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b5.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2024-05-10 10:35:24] INFO root fetch - processPackages [aerogenesisz]: Remove: archive file [/home/abi/fetcher/tmp/aerogenesisz-1.1.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - processPackages [aerogenesisz]: Remove: archive file [/home/abi/fetcher/tmp/aerogenesisz-2.1.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - main [MainThread]: End processing [aerogenesisz]: success
+[2024-05-10 10:35:24] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.7.0.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.7.1.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - main [MainThread]: End processing [txdpy]: success
+[2024-05-10 10:35:24] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.198.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.199.tar.gz]
+[2024-05-10 10:35:24] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-10 10:35:25] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_statement_communication-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-10 10:35:25] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_statement_communication-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-10 10:35:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-statement-communication]: success
+[2024-05-10 10:35:25] INFO root fetch - main [MainThread]: Store serial: [23143383]
