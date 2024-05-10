@@ -17103,3 +17103,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:04:18] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
 [2024-05-10 14:04:18] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-05-10 14:04:18] INFO root fetch - main [MainThread]: Store serial: [23145823]
+[2024-05-10 14:06:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145823]
+[2024-05-10 14:06:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meowcat
+[2024-05-10 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cwrap
+[2024-05-10 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-jenkins
+[2024-05-10 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edcpy
+[2024-05-10 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vios
+[2024-05-10 14:06:41] INFO root fetch - processPackages [meowcat]: New version: [0.1.1rc1] Old Version: [0.1.1]
+[2024-05-10 14:06:41] INFO root fetch - processPackages [vios]: New version: [2.4.0] Old Version: [2.3.6]
+[2024-05-10 14:06:41] INFO root fetch - processPackages [cwrap]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-05-10 14:06:41] INFO root fetch - processPackages [edcpy]: New version: [0.3.0a0] Old Version: [0.2.0a0]
+[2024-05-10 14:06:41] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/8c/58/64b508f9a99beacf521b9f028fa067eccc6b2fdc5c14db6f8c7c6d7a14ac/vios-2.3.6-py3-none-any.whl
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 14:06:42] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/ab/95/266e8f3f69aaf22b67f01135d8949aac2d1863ac894c4380c1066b6e2c6b/meowcat-0.1.1.tar.gz
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cwrap]: Downloading https://files.pythonhosted.org/packages/28/31/c7e2208341060b9714474338a00dd81a90441ff4cbe1f7db1c4858880dfc/cwrap-1.6.6-py3-none-any.whl
+[2024-05-10 14:06:42] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/8d/ad/d33316176690ffc9e2761e8224c6d814cd97b5c4e3c7049110ab17a8f8b3/edcpy-0.2.0a0.tar.gz
+[2024-05-10 14:06:42] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/14/18/a3d88ce21e5e8cc13f0c800e4ad047ea2db368c3130ca3a935089c875adc/vios-2.4.0-py3-none-any.whl
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2024-05-10 14:06:42] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/73/e2/0d9f1649daa294a1d7c06c88b9e160bb0011fdc066ac989c46908407271c/meowcat-0.1.1rc1.tar.gz
+[2024-05-10 14:06:42] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-05-10 14:06:42] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.3.6-py3-none-any.whl.zip tmp/vios-2.4.0-py3-none-any.whl.zip --markdown 20240510/v/vios/2.3.6-2.4.0/README.md --exclude *.pyd
+[2024-05-10 14:06:42] INFO root fetch - processPackages [meowcat]: executing diffoscope
+[2024-05-10 14:06:42] INFO root fetch - processPackages [meowcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowcat-0.1.1.tar.gz tmp/meowcat-0.1.1rc1.tar.gz --markdown 20240510/m/meowcat/0.1.1-0.1.1rc1/README.md --exclude *.pyd
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cwrap]: Downloading https://files.pythonhosted.org/packages/69/05/b39923d03bb8c12a089881f99aecb19fb2824845024403f870c8f2feb301/cwrap-1.6.7-py3-none-any.whl
+[2024-05-10 14:06:42] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/20/1a/19ed5958c2268cdd1f0700354c94f37d5d7db239929c0794e4ab7ca88f49/edcpy-0.3.0a0.tar.gz
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cwrap]: executing diffoscope
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwrap-1.6.6-py3-none-any.whl.zip tmp/cwrap-1.6.7-py3-none-any.whl.zip --markdown 20240510/c/cwrap/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-05-10 14:06:42] INFO root fetch - processPackages [edcpy]: executing diffoscope
+[2024-05-10 14:06:42] INFO root fetch - processPackages [edcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edcpy-0.2.0a0.tar.gz tmp/edcpy-0.3.0a0.tar.gz --markdown 20240510/e/edcpy/0.2.0a0-0.3.0a0/README.md --exclude *.pyd
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2024-05-10 14:06:42] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20240510/c/cdk8s-jenkins/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 14:06:42] INFO root fetch - processPackages [meowcat]: Remove: archive file [/home/abi/fetcher/tmp/meowcat-0.1.1.tar.gz]
+[2024-05-10 14:06:42] INFO root fetch - processPackages [meowcat]: Remove: archive file [/home/abi/fetcher/tmp/meowcat-0.1.1rc1.tar.gz]
+[2024-05-10 14:06:42] INFO root fetch - main [MainThread]: End processing [meowcat]: success
+[2024-05-10 14:06:43] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.3.6-py3-none-any.whl.zip]
+[2024-05-10 14:06:43] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.4.0-py3-none-any.whl.zip]
+[2024-05-10 14:06:43] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-05-10 14:06:43] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.2.0a0.tar.gz]
+[2024-05-10 14:06:43] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.3.0a0.tar.gz]
+[2024-05-10 14:06:43] INFO root fetch - main [MainThread]: End processing [edcpy]: success
+[2024-05-10 14:06:43] INFO root fetch - processPackages [cwrap]: Remove: archive file [/home/abi/fetcher/tmp/cwrap-1.6.6-py3-none-any.whl.zip]
+[2024-05-10 14:06:43] INFO root fetch - processPackages [cwrap]: Remove: archive file [/home/abi/fetcher/tmp/cwrap-1.6.7-py3-none-any.whl.zip]
+[2024-05-10 14:06:43] INFO root fetch - main [MainThread]: End processing [cwrap]: success
+[2024-05-10 14:06:43] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2024-05-10 14:06:43] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2024-05-10 14:06:43] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2024-05-10 14:06:43] INFO root fetch - main [MainThread]: Store serial: [23145836]
