@@ -3361,3 +3361,41 @@
 [2024-05-10 03:25:35] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.2.tar.gz]
 [2024-05-10 03:25:35] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
 [2024-05-10 03:25:35] INFO root fetch - main [MainThread]: Store serial: [23139910]
+[2024-05-10 03:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139910]
+[2024-05-10 03:27:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caranxz
+[2024-05-10 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydid
+[2024-05-10 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-osubot
+[2024-05-10 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncdb
+[2024-05-10 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediff
+[2024-05-10 03:27:44] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405090127] Old Version: [1.0.0.dev202405080117]
+[2024-05-10 03:27:44] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.0.0] Old Version: [5.8.5]
+[2024-05-10 03:27:44] WARNING root fetch - processPackages [caranxz]: Skipping, unable to determine old version
+[2024-05-10 03:27:44] INFO root fetch - main [MainThread]: End processing [caranxz] error
+[2024-05-10 03:27:44] INFO root fetch - processPackages [pydid]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-10 03:27:44] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/9c/3a/4bcffe33e6ec3c3f880674292c0d5be5fa02bdf0f19f27a120794dcd3132/onediff-1.0.0.dev202405080117.tar.gz
+[2024-05-10 03:27:44] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/df/70/52d4925e3f49332b03fecda1fae705d1eaee8cac7a4dd9edfd9f3170eac1/nonebot-plugin-osubot-5.8.5.tar.gz
+[2024-05-10 03:27:44] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29382947>=10485760
+[2024-05-10 03:27:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-10 03:27:44] INFO root fetch - processPackages [asyncdb]: New version: [2.7.0] Old Version: [2.6.9]
+[2024-05-10 03:27:44] INFO root fetch - processPackages [pydid]: Downloading https://files.pythonhosted.org/packages/08/10/045632b1f55cb89ba2277e2705401510230801d7ffef0b6d24c8bfeb2aa9/pydid-0.4.3.tar.gz
+[2024-05-10 03:27:44] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/24/da/8de6ab07869ed3a8a4f024ba0b497766563b1fb72e5d6360102387d6a020/onediff-1.0.0.dev202405090127.tar.gz
+[2024-05-10 03:27:44] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/71/67/70a00c57485524b5e3e2a407ade18f969a11cfd6d2f4b51ece2f1a1da6a0/asyncdb-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 03:27:44] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-10 03:27:44] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405080117.tar.gz tmp/onediff-1.0.0.dev202405090127.tar.gz --markdown 20240510/o/onediff/1.0.0.dev202405080117-1.0.0.dev202405090127/README.md --exclude *.pyd
+[2024-05-10 03:27:44] INFO root fetch - processPackages [pydid]: Downloading https://files.pythonhosted.org/packages/19/6a/52096a62a857828412f354e07d37937f1f9eec3d4f09b417ed39b01d1933/pydid-0.5.0.tar.gz
+[2024-05-10 03:27:44] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/eb/1b/420c34af4f63476178b043599ae6171ab72d1f4c275008afb3e9b3d192cc/asyncdb-2.7.0-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-10 03:27:44] INFO root fetch - processPackages [pydid]: executing diffoscope
+[2024-05-10 03:27:44] INFO root fetch - processPackages [pydid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydid-0.4.3.tar.gz tmp/pydid-0.5.0.tar.gz --markdown 20240510/p/pydid/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-10 03:27:44] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2024-05-10 03:27:44] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/asyncdb-2.7.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240510/a/asyncdb/2.6.9-2.7.0/README.md --exclude *.pyd
+[2024-05-10 03:27:45] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405080117.tar.gz]
+[2024-05-10 03:27:45] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405090127.tar.gz]
+[2024-05-10 03:27:45] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-10 03:27:45] INFO root fetch - processPackages [pydid]: Remove: archive file [/home/abi/fetcher/tmp/pydid-0.4.3.tar.gz]
+[2024-05-10 03:27:45] INFO root fetch - processPackages [pydid]: Remove: archive file [/home/abi/fetcher/tmp/pydid-0.5.0.tar.gz]
+[2024-05-10 03:27:45] INFO root fetch - main [MainThread]: End processing [pydid]: success
+[2024-05-10 03:27:46] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-10 03:27:46] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.7.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-10 03:27:46] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2024-05-10 03:27:46] INFO root fetch - main [MainThread]: Store serial: [23139935]
