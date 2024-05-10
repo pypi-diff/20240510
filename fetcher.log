@@ -12821,3 +12821,69 @@
 [2024-05-10 11:31:18] INFO root fetch - processPackages [hisparc-sapphire]: Remove: archive file [/home/abi/fetcher/tmp/hisparc_sapphire-3.0.0.tar.gz]
 [2024-05-10 11:31:18] INFO root fetch - main [MainThread]: End processing [hisparc-sapphire]: success
 [2024-05-10 11:31:18] INFO root fetch - main [MainThread]: Store serial: [23144087]
+[2024-05-10 11:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144087]
+[2024-05-10 11:33:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tardis-em
+[2024-05-10 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AkitaCode
+[2024-05-10 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-coder
+[2024-05-10 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: migration-db
+[2024-05-10 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: create-flask-package
+[2024-05-10 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NatanStanek
+[2024-05-10 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anankasticz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [tardis-em]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-10 11:33:30] INFO root fetch - processPackages [NatanStanek]: New version: [0.13] Old Version: [0.12]
+[2024-05-10 11:33:30] INFO root fetch - processPackages [migration-db]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 11:33:30] INFO root fetch - processPackages [create-flask-package]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 11:33:30] INFO root fetch - processPackages [AkitaCode]: New version: [2.1] Old Version: [2.0.8]
+[2024-05-10 11:33:30] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/9f/da/368fb6ac54fd4ca22b38b34e36786104f31e5ca642c94c5c1c75626f0d1d/create_flask_package-0.1.3.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [anankasticz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 11:33:30] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 11:33:30] INFO root fetch - processPackages [tardis-em]: Downloading https://files.pythonhosted.org/packages/5d/77/004a35c53d8613d00b46345fafffef20de88649cf2561748c2e8572f922d/tardis_em-0.2.2-py3-none-any.whl
+[2024-05-10 11:33:30] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/b6/87/7dcb5d50a7e4ba9c33a1547ec1b2a6039e2dae52a887184a2ca3d6e0de09/natanstanek-0.12.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/7f/ed/1d35592a8041b6e70f3af7408af064fcea50ebc84c2e08def0f09107c7ce/migration_db-1.0.8.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/a6/e1/5b5f1fcd8c365e869dcd71544494596ea64e37c15319f1a775895626f3a6/AkitaCode-2.0.8.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [anankasticz]: Downloading https://files.pythonhosted.org/packages/80/87/ad3478121346cd027ecaa4317424a407adbbe299e0c66a2b238993db0c0a/anankasticz-1.1.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [tardis-em]: Downloading https://files.pythonhosted.org/packages/5b/71/a2551c1c2145b5b275fa1bddd4f6f9e351a8a78df11c88e3e44a5c86495e/tardis_em-0.2.3.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/05/fa/8efee88fc52a016c8504f7f30bee553014f5c7c4b5852fdd5c5af16c0cd0/natanstanek-0.13.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/21/4d/a05ab9a9bb48f79223952469dbca6b72d5dd7b36d9ecafec42abe2033706/migration_db-1.0.9.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/a8/82/b917872fee6228af25618d87ad82ffcba579b471e2da321177c63512ad8f/create_flask_package-0.1.4.tar.gz
+[2024-05-10 11:33:30] INFO root fetch - processPackages [NatanStanek]: executing diffoscope
+[2024-05-10 11:33:30] INFO root fetch - processPackages [NatanStanek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natanstanek-0.12.tar.gz tmp/natanstanek-0.13.tar.gz --markdown 20240510/N/NatanStanek/0.12-0.13/README.md --exclude *.pyd
+[2024-05-10 11:33:30] INFO root fetch - processPackages [tardis-em]: executing diffoscope
+[2024-05-10 11:33:30] INFO root fetch - processPackages [tardis-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tardis_em-0.2.2-py3-none-any.whl.zip tmp/tardis_em-0.2.3.tar.gz --markdown 20240510/t/tardis-em/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-10 11:33:30] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-10 11:33:30] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.8.tar.gz tmp/migration_db-1.0.9.tar.gz --markdown 20240510/m/migration-db/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 11:33:30] INFO root fetch - processPackages [create-flask-package]: executing diffoscope
+[2024-05-10 11:33:30] INFO root fetch - processPackages [create-flask-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_flask_package-0.1.3.tar.gz tmp/create_flask_package-0.1.4.tar.gz --markdown 20240510/c/create-flask-package/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 11:33:31] INFO root fetch - processPackages [anankasticz]: Downloading https://files.pythonhosted.org/packages/31/3b/ae234967e64c553105f66df23cd3909e402ec903d356d685981dbc0445a2/anankasticz-2.1.tar.gz
+[2024-05-10 11:33:31] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/29/18/163d6a988e80a15bd40158514237b4191556dc712b8a56dce221055218ed/AkitaCode-2.1-py3-none-any.whl
+[2024-05-10 11:33:31] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-10 11:33:31] INFO root fetch - processPackages [anankasticz]: executing diffoscope
+[2024-05-10 11:33:31] INFO root fetch - processPackages [anankasticz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anankasticz-1.1.tar.gz tmp/anankasticz-2.1.tar.gz --markdown 20240510/a/anankasticz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 11:33:31] INFO root fetch - processPackages [AkitaCode]: executing diffoscope
+[2024-05-10 11:33:31] INFO root fetch - processPackages [AkitaCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkitaCode-2.0.8.tar.gz tmp/AkitaCode-2.1-py3-none-any.whl.zip --markdown 20240510/A/AkitaCode/2.0.8-2.1/README.md --exclude *.pyd
+[2024-05-10 11:33:31] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-10 11:33:31] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240510/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 11:33:31] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.12.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.13.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - main [MainThread]: End processing [NatanStanek]: success
+[2024-05-10 11:33:31] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.3.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.4.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - main [MainThread]: End processing [create-flask-package]: success
+[2024-05-10 11:33:31] INFO root fetch - processPackages [anankasticz]: Remove: archive file [/home/abi/fetcher/tmp/anankasticz-1.1.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - processPackages [anankasticz]: Remove: archive file [/home/abi/fetcher/tmp/anankasticz-2.1.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - main [MainThread]: End processing [anankasticz]: success
+[2024-05-10 11:33:31] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.8.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.9.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-10 11:33:31] INFO root fetch - processPackages [tardis-em]: Remove: archive file [/home/abi/fetcher/tmp/tardis_em-0.2.2-py3-none-any.whl.zip]
+[2024-05-10 11:33:31] INFO root fetch - processPackages [tardis-em]: Remove: archive file [/home/abi/fetcher/tmp/tardis_em-0.2.3.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - main [MainThread]: End processing [tardis-em]: success
+[2024-05-10 11:33:31] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.0.8.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.1-py3-none-any.whl.zip]
+[2024-05-10 11:33:31] INFO root fetch - main [MainThread]: End processing [AkitaCode]: success
+[2024-05-10 11:33:31] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-10 11:33:31] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-10 11:33:32] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-10 11:33:32] INFO root fetch - main [MainThread]: Store serial: [23144107]
