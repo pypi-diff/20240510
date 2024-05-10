@@ -7587,3 +7587,36 @@
 [2024-05-10 07:34:06] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post491-py3-none-any.whl.zip]
 [2024-05-10 07:34:06] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-10 07:34:06] INFO root fetch - main [MainThread]: Store serial: [23141750]
+[2024-05-10 07:36:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141750]
+[2024-05-10 07:36:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 07:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remindmail
+[2024-05-10 07:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-civo
+[2024-05-10 07:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-db
+[2024-05-10 07:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polyclash
+[2024-05-10 07:36:15] WARNING root fetch - processPackages [polyclash]: Skipping, unable to determine old version
+[2024-05-10 07:36:15] INFO root fetch - main [MainThread]: End processing [polyclash] error
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pypomes-db]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715303352] Old Version: [2.4.0a1715259886]
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/ce/45/0c45141676d16e19de292227aff686b1a479ecb78ca2700924960adbce68/pypomes_db-0.6.2.tar.gz
+[2024-05-10 07:36:15] INFO root fetch - processPackages [remindmail]: New version: [2024.5.9.1] Old Version: [2024.4.29.2]
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/16/ef/ce873452934870877bd52dde2c51e81bb78494f1d0f0b906969d5ba28263/pulumi_civo-2.4.0a1715259886.tar.gz
+[2024-05-10 07:36:15] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/66/86/c55321839808289e93764066dfb424deaece4cb40f7b6b55688a85e8b0ca/remindmail-2024.4.29.2.tar.gz
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/32/51/e5dc67ad4fd04d66053e79f34286b342d975a3a436788eae4a37ac8c3378/pypomes_db-0.6.3.tar.gz
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/f4/d0/e604e40385edd88d7a7fe3d7d7b1990ea10c3af418f0065ee3db557254ae/pulumi_civo-2.4.0a1715303352.tar.gz
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.6.2.tar.gz tmp/pypomes_db-0.6.3.tar.gz --markdown 20240510/p/pypomes-db/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-10 07:36:15] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/60/89/9daad49ec1d669a2b72ca2bf85d8b57d37292f36e51a9c46f479dcb8dc03/remindmail-2024.5.9.1.tar.gz
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-10 07:36:15] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715259886.tar.gz tmp/pulumi_civo-2.4.0a1715303352.tar.gz --markdown 20240510/p/pulumi-civo/2.4.0a1715259886-2.4.0a1715303352/README.md --exclude *.pyd
+[2024-05-10 07:36:15] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2024-05-10 07:36:15] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2024.4.29.2.tar.gz tmp/remindmail-2024.5.9.1.tar.gz --markdown 20240510/r/remindmail/2024.4.29.2-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-10 07:36:16] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.6.2.tar.gz]
+[2024-05-10 07:36:16] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.6.3.tar.gz]
+[2024-05-10 07:36:16] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-10 07:36:16] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.29.2.tar.gz]
+[2024-05-10 07:36:16] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.5.9.1.tar.gz]
+[2024-05-10 07:36:16] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2024-05-10 07:36:16] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715259886.tar.gz]
+[2024-05-10 07:36:16] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715303352.tar.gz]
+[2024-05-10 07:36:16] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-10 07:36:16] INFO root fetch - main [MainThread]: Store serial: [23141763]
