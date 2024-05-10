@@ -24430,3 +24430,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:05:24] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.32.1rc0-py3-none-any.whl.zip]
 [2024-05-10 18:05:24] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2024-05-10 18:05:24] INFO root fetch - main [MainThread]: Store serial: [23149431]
+[2024-05-10 18:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149431]
+[2024-05-10 18:07:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-energiepartagee
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dumbo-utils
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causadb
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-processors
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rats-pipelines
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rats-apps
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdo-sdk-python
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visualtest-python
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: partenaire-qualif
+[2024-05-10 18:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uproot
+[2024-05-10 18:07:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [uproot]: New version: [5.3.7] Old Version: [5.3.6]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-10 18:07:33] ERROR root fetch - processPackages [partenaire-qualif]: Unable to get metadata: No such project 'partenaire-qualif'
+[2024-05-10 18:07:33] INFO root fetch - processPackages [partenaire-qualif]: Start processing: dumbo-asp
+[2024-05-10 18:07:33] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-10 18:07:33] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [causadb]: New version: [1.9.0] Old Version: [1.8.8]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [dumbo-utils]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [visualtest-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-10 18:07:33] INFO root fetch - processPackages [dumbo-asp]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-10 18:07:33] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/bb/2c/699c250c27a42ff5d3601785e34047ba6fb7897d246850bddc3cafdee50f/dumbo_asp-0.3.6.tar.gz
+[2024-05-10 18:07:33] INFO root fetch - processPackages [uproot]: Downloading https://files.pythonhosted.org/packages/6c/19/e463ef51b62eaa9772907bea2f1287d90ac7bf2bfe29e63f6baa2b259a2d/uproot-5.3.6.tar.gz
+[2024-05-10 18:07:33] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-10 18:07:33] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-05-10 18:07:33] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/0d/04/18b6a6103c974a2ace6d365e3671bcc2dee83efb8a1d468b5a1be70bcf12/causadb-1.8.8.tar.gz
+[2024-05-10 18:07:33] INFO root fetch - processPackages [visualtest-python]: Downloading https://files.pythonhosted.org/packages/b7/76/30569a93d328cbbe0af39abfc4724683cef52b3b6d0124f9ba560130f238/visualtest_python-1.8.0-py3-none-any.whl
+[2024-05-10 18:07:33] INFO root fetch - processPackages [dumbo-utils]: Downloading https://files.pythonhosted.org/packages/db/3c/e6e67631c7ca3e5414b0b099306e267066a417fb4af052f980cef8b65d44/dumbo_utils-0.3.2.tar.gz
+[2024-05-10 18:07:33] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-05-10 18:07:33] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-05-10 18:07:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-10 18:07:33] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-10 18:07:33] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240510/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-10 18:07:33] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/64/27/122eece490c80c194fcacf9343ace08f870f2b912a8b46d2f5b117beb997/dumbo_asp-0.3.7.tar.gz
+[2024-05-10 18:07:34] INFO root fetch - processPackages [uproot]: Downloading https://files.pythonhosted.org/packages/01/c8/357e44ca1b348356d6e3df0d3bc4bd20d02345f8795184af2e206bb16f4f/uproot-5.3.7.tar.gz
+[2024-05-10 18:07:34] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.3.6.tar.gz tmp/dumbo_asp-0.3.7.tar.gz --markdown 20240510/d/dumbo-asp/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240510/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-05-10 18:07:34] INFO root fetch - processPackages [dumbo-utils]: Downloading https://files.pythonhosted.org/packages/68/91/c15a75a2e50a66646742f2b2bdc6c5ffda20ddb44e58491a02313dcacd0d/dumbo_utils-0.3.3.tar.gz
+[2024-05-10 18:07:34] INFO root fetch - processPackages [visualtest-python]: Downloading https://files.pythonhosted.org/packages/3b/0f/af641699ffce96c353cb5e4a3d88e34fd18fcb16df23925ee6594c12e9d7/visualtest_python-1.9.0-py3-none-any.whl
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-05-10 18:07:34] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/b4/79/d885149b3962edeb0954a0bc0892b79fbeba673ea007f10d2a2bee904a4e/causadb-1.9.0.tar.gz
+[2024-05-10 18:07:34] INFO root fetch - processPackages [uproot]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [uproot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot-5.3.6.tar.gz tmp/uproot-5.3.7.tar.gz --markdown 20240510/u/uproot/5.3.6-5.3.7/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240510/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [dumbo-utils]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [dumbo-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_utils-0.3.2.tar.gz tmp/dumbo_utils-0.3.3.tar.gz --markdown 20240510/d/dumbo-utils/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-05-10 18:07:34] INFO root fetch - processPackages [visualtest-python]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [visualtest-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualtest_python-1.8.0-py3-none-any.whl.zip tmp/visualtest_python-1.9.0-py3-none-any.whl.zip --markdown 20240510/v/visualtest-python/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [causadb]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [causadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causadb-1.8.8.tar.gz tmp/causadb-1.9.0.tar.gz --markdown 20240510/c/causadb/1.8.8-1.9.0/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240510/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-05-10 18:07:34] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240510/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-10 18:07:35] INFO root fetch - processPackages [dumbo-asp]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_asp-0.3.6.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [dumbo-asp]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_asp-0.3.7.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [dumbo-asp]: Start processing: airbyte-source-lever-hiring
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [dumbo-utils]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_utils-0.3.2.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [dumbo-utils]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_utils-0.3.3.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [dumbo-utils]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [airbyte-source-lever-hiring]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.8.8.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.9.0.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [causadb]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [airbyte-source-lever-hiring]: Downloading https://files.pythonhosted.org/packages/2f/a6/6c7674534ae18c1245198cd1105d68d67f482d34f52a13434037988bc148/airbyte-source-lever-hiring-0.2.0.tar.gz
+[2024-05-10 18:07:35] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [visualtest-python]: Remove: archive file [/home/abi/fetcher/tmp/visualtest_python-1.8.0-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [visualtest-python]: Remove: archive file [/home/abi/fetcher/tmp/visualtest_python-1.9.0-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [visualtest-python]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-10 18:07:35] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-05-10 18:07:35] ERROR root fetch - processPackages [airbyte-source-lever-hiring]: Unable to fetch info: No such project/version 'airbyte-source-lever-hiring' 0.3.0
+[2024-05-10 18:07:35] INFO root fetch - main [MainThread]: End processing [airbyte-source-lever-hiring] error
+[2024-05-10 18:07:36] INFO root fetch - processPackages [uproot]: Remove: archive file [/home/abi/fetcher/tmp/uproot-5.3.6.tar.gz]
+[2024-05-10 18:07:36] INFO root fetch - processPackages [uproot]: Remove: archive file [/home/abi/fetcher/tmp/uproot-5.3.7.tar.gz]
+[2024-05-10 18:07:36] INFO root fetch - main [MainThread]: End processing [uproot]: success
+[2024-05-10 18:07:36] INFO root fetch - main [MainThread]: Store serial: [23149464]
