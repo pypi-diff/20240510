@@ -11008,3 +11008,114 @@
 [2024-05-10 10:31:00] INFO root fetch - processPackages [pix2text]: Remove: archive file [/home/abi/fetcher/tmp/pix2text-1.1.0.2.tar.gz]
 [2024-05-10 10:31:00] INFO root fetch - main [MainThread]: End processing [pix2text]: success
 [2024-05-10 10:31:00] INFO root fetch - main [MainThread]: Store serial: [23143330]
+[2024-05-10 10:33:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143330]
+[2024-05-10 10:33:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anything-world
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: create-flask-package
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm-types
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chellow
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scatcluster
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synfras
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seven-cloudapp-frame
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openagents-grpc-proto
+[2024-05-10 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tala
+[2024-05-10 10:33:09] INFO root fetch - processPackages [create-flask-package]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [anything-world]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [openagents-grpc-proto]: New version: [0.8.1] Old Version: [0.8]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [litellm-types]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [scatcluster]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/99/38/1c1927ee993b52fdb0c2a25f7b40d86e090dcc1e7ccda4f9c2a3ca9b76bd/create_flask_package-0.1.2.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [synfras]: New version: [0.5.0] Old Version: [0.3.0]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-10 10:33:09] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/ea/40/4c9267d8b9c8b0c9b92410591fc741d677f6e230eaa07ed5ef3db4e6c584/openagents_grpc_proto-0.8.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [anything-world]: Downloading https://files.pythonhosted.org/packages/ce/d0/ad433a59cd5c0bfe25c654b6074039fcc8a9ca97075c8945e572b5e67d08/anything_world-0.1.5.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [litellm-types]: Downloading https://files.pythonhosted.org/packages/7e/72/525baa71136ffcd43fad9a10ccafc967fd96455aa1dc42dfc9bb3f67f56d/litellm_types-0.0.2.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/fe/97/9e404d69d95cb21715a754c0b79a1aae9701f0de14f70e5b7701089bc9ad/scatcluster-0.0.5.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [synfras]: Downloading https://files.pythonhosted.org/packages/0a/17/cf8af4922b9cc0ea2d537ebeec44965402b5145dd1af4c106eead05186ff/synfras-0.3.0.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/7e/f9/4b94d1b356b377e8e1011db136793b76e02d6511cab1d4f7e16d63b5f308/tala-8.0.0-py3-none-any.whl
+[2024-05-10 10:33:09] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/9f/da/368fb6ac54fd4ca22b38b34e36786104f31e5ca642c94c5c1c75626f0d1d/create_flask_package-0.1.3.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [anything-world]: Downloading https://files.pythonhosted.org/packages/63/33/c96d0464156d3d7f15254ceb073d130a2d215997581aed654f8c3124af6f/anything_world-0.1.6.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/29/6c/db9568ead218e3e6dfa7ce7a0cbf20e9eefd65f59e42d44798f97e677f5b/openagents_grpc_proto-0.8.1.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [litellm-types]: Downloading https://files.pythonhosted.org/packages/be/3c/9b4af8be84ab45603749f2f89f68e738c7343a20ea1c473764ddf56a14b9/litellm_types-0.0.3.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [create-flask-package]: executing diffoscope
+[2024-05-10 10:33:09] INFO root fetch - processPackages [create-flask-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_flask_package-0.1.2.tar.gz tmp/create_flask_package-0.1.3.tar.gz --markdown 20240510/c/create-flask-package/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 10:33:09] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/89/d2/8181212d3d1c9dfe1c607d2588fac3f65cba29dad6f22e098165bbf2ed48/scatcluster-0.0.6.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [anything-world]: executing diffoscope
+[2024-05-10 10:33:09] INFO root fetch - processPackages [anything-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anything_world-0.1.5.tar.gz tmp/anything_world-0.1.6.tar.gz --markdown 20240510/a/anything-world/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 10:33:09] INFO root fetch - processPackages [synfras]: Downloading https://files.pythonhosted.org/packages/1e/37/17d3ec0cbd4874ad0d71fdfc20da3d5cc93013d9e4b80a9a4e11b6526bf3/synfras-0.5.0.tar.gz
+[2024-05-10 10:33:09] INFO root fetch - processPackages [openagents-grpc-proto]: executing diffoscope
+[2024-05-10 10:33:09] INFO root fetch - processPackages [openagents-grpc-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_grpc_proto-0.8.tar.gz tmp/openagents_grpc_proto-0.8.1.tar.gz --markdown 20240510/o/openagents-grpc-proto/0.8-0.8.1/README.md --exclude *.pyd
+[2024-05-10 10:33:09] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-10 10:33:09] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240510/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-10 10:33:09] INFO root fetch - processPackages [litellm-types]: executing diffoscope
+[2024-05-10 10:33:09] INFO root fetch - processPackages [litellm-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm_types-0.0.2.tar.gz tmp/litellm_types-0.0.3.tar.gz --markdown 20240510/l/litellm-types/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 10:33:10] INFO root fetch - processPackages [scatcluster]: executing diffoscope
+[2024-05-10 10:33:10] INFO root fetch - processPackages [scatcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatcluster-0.0.5.tar.gz tmp/scatcluster-0.0.6.tar.gz --markdown 20240510/s/scatcluster/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 10:33:10] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/8e/72/986c5075d29f6cff970b43955b8d4d42316a124d22c2e01c2877aab4480c/tala-9.0.0-py3-none-any.whl
+[2024-05-10 10:33:10] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-10 10:33:10] INFO root fetch - processPackages [synfras]: executing diffoscope
+[2024-05-10 10:33:10] INFO root fetch - processPackages [synfras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synfras-0.3.0.tar.gz tmp/synfras-0.5.0.tar.gz --markdown 20240510/s/synfras/0.3.0-0.5.0/README.md --exclude *.pyd
+[2024-05-10 10:33:10] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-10 10:33:10] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-10 10:33:10] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240510/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-10 10:33:10] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-10 10:33:10] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240510/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-10 10:33:10] INFO root fetch - processPackages [tala]: executing diffoscope
+[2024-05-10 10:33:10] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20240510/t/tala/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-10 10:33:10] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.2.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.3.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [create-flask-package]: Start processing: lytils
+[2024-05-10 10:33:10] INFO root fetch - main [MainThread]: End processing [create-flask-package]: success
+[2024-05-10 10:33:10] INFO root fetch - processPackages [litellm-types]: Remove: archive file [/home/abi/fetcher/tmp/litellm_types-0.0.2.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [litellm-types]: Remove: archive file [/home/abi/fetcher/tmp/litellm_types-0.0.3.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [litellm-types]: Start processing: turkish-lm-tuner
+[2024-05-10 10:33:10] INFO root fetch - main [MainThread]: End processing [litellm-types]: success
+[2024-05-10 10:33:10] INFO root fetch - processPackages [lytils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.5.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.6.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - main [MainThread]: End processing [scatcluster]: success
+[2024-05-10 10:33:10] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.8.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.8.1.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - main [MainThread]: End processing [openagents-grpc-proto]: success
+[2024-05-10 10:33:10] INFO root fetch - processPackages [turkish-lm-tuner]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [synfras]: Remove: archive file [/home/abi/fetcher/tmp/synfras-0.3.0.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [synfras]: Remove: archive file [/home/abi/fetcher/tmp/synfras-0.5.0.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - main [MainThread]: End processing [synfras]: success
+[2024-05-10 10:33:10] INFO root fetch - processPackages [anything-world]: Remove: archive file [/home/abi/fetcher/tmp/anything_world-0.1.5.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - processPackages [anything-world]: Remove: archive file [/home/abi/fetcher/tmp/anything_world-0.1.6.tar.gz]
+[2024-05-10 10:33:10] INFO root fetch - main [MainThread]: End processing [anything-world]: success
+[2024-05-10 10:33:11] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/e5/63/947a765769a040af108780166ef416734281e055d3577ce6f8ecd6dcff7b/lytils-0.1.8.tar.gz
+[2024-05-10 10:33:11] INFO root fetch - processPackages [turkish-lm-tuner]: Downloading https://files.pythonhosted.org/packages/24/db/bbb6b64b3bfb432291ea452dd90d55638827782ebb753f480fafdf1bed23/turkish-lm-tuner-0.1.1.tar.gz
+[2024-05-10 10:33:11] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/47/f2/15accaaf8b3ff3e0f0f877cb445d79db9dcd4614b25c36859a4bfd9c5c75/lytils-0.1.9.tar.gz
+[2024-05-10 10:33:11] INFO root fetch - processPackages [turkish-lm-tuner]: Downloading https://files.pythonhosted.org/packages/cd/cb/ec41cad1963fead23fc077f6548a1b259182468a83db095051be37f7da64/turkish_lm_tuner-0.1.2.tar.gz
+[2024-05-10 10:33:11] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-05-10 10:33:11] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.8.tar.gz tmp/lytils-0.1.9.tar.gz --markdown 20240510/l/lytils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 10:33:11] INFO root fetch - processPackages [turkish-lm-tuner]: executing diffoscope
+[2024-05-10 10:33:11] INFO root fetch - processPackages [turkish-lm-tuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turkish-lm-tuner-0.1.1.tar.gz tmp/turkish_lm_tuner-0.1.2.tar.gz --markdown 20240510/t/turkish-lm-tuner/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 10:33:11] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-10 10:33:11] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-10 10:33:11] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-10 10:33:11] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-8.0.0-py3-none-any.whl.zip]
+[2024-05-10 10:33:11] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-9.0.0-py3-none-any.whl.zip]
+[2024-05-10 10:33:11] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2024-05-10 10:33:12] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-10 10:33:12] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.8.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.9.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-05-10 10:33:12] INFO root fetch - processPackages [turkish-lm-tuner]: Remove: archive file [/home/abi/fetcher/tmp/turkish-lm-tuner-0.1.1.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - processPackages [turkish-lm-tuner]: Remove: archive file [/home/abi/fetcher/tmp/turkish_lm_tuner-0.1.2.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - main [MainThread]: End processing [turkish-lm-tuner]: success
+[2024-05-10 10:33:12] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-10 10:33:12] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-10 10:33:12] INFO root fetch - main [MainThread]: Store serial: [23143365]
