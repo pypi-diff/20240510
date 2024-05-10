@@ -13978,3 +13978,54 @@
 [2024-05-10 12:16:44] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715317931.tar.gz]
 [2024-05-10 12:16:44] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
 [2024-05-10 12:16:44] INFO root fetch - main [MainThread]: Store serial: [23144538]
+[2024-05-10 12:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144538]
+[2024-05-10 12:18:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 12:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelmerge
+[2024-05-10 12:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docopt-sh
+[2024-05-10 12:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: profile-local
+[2024-05-10 12:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runner-v1
+[2024-05-10 12:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiZero
+[2024-05-10 12:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openterrace
+[2024-05-10 12:18:57] INFO root fetch - processPackages [modelmerge]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-10 12:18:57] INFO root fetch - processPackages [aiZero]: New version: [0.0.2a0] Old Version: [0.0.1a4]
+[2024-05-10 12:18:57] INFO root fetch - processPackages [docopt-sh]: New version: [2.0.0a1] Old Version: [1.0.0]
+[2024-05-10 12:18:57] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 12:18:57] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/5d/63/1a15c955e5419d5811c36cea3b63cebd66a4d99ae815cf13897cccb81553/modelmerge-0.2.9.tar.gz
+[2024-05-10 12:18:57] WARNING root fetch - processPackages [runner-v1]: Skipping, unable to determine old version
+[2024-05-10 12:18:57] INFO root fetch - processPackages [openterrace]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 12:18:57] INFO root fetch - main [MainThread]: End processing [runner-v1] error
+[2024-05-10 12:18:57] INFO root fetch - processPackages [docopt-sh]: Downloading https://files.pythonhosted.org/packages/83/61/c8a20402cae251513d3f9304ca7d06f8a2876ddc182cc5faadc35989ba31/docopt-sh-1.0.0.tar.gz
+[2024-05-10 12:18:57] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-10 12:18:57] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/81/51/832358ba3754b201add50da4c7d53fd4e214436971c3c60917d30c55d92c/aiZero-0.0.1a4.tar.gz
+[2024-05-10 12:18:57] INFO root fetch - processPackages [openterrace]: Downloading https://files.pythonhosted.org/packages/0f/b3/6384f486c3f567bbfc809dae3c15a868a166276b865a019d1e85ccea8823/openterrace-0.1.2.tar.gz
+[2024-05-10 12:18:58] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/11/0e/4d9ed9c63613a22797b46062c87d79ea67ed053e5a2f2043186393f390e6/modelmerge-0.3.0.tar.gz
+[2024-05-10 12:18:58] INFO root fetch - processPackages [docopt-sh]: Downloading https://files.pythonhosted.org/packages/15/08/a909e0996d691e3550b9b28dd6e80d56f3d9d7b2a169af74d3d386dfbf32/docopt_sh-2.0.0a1.tar.gz
+[2024-05-10 12:18:58] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-10 12:18:58] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/36/f2/21d1b756949717b108ae7b12ac2e8037ad4dc6f5e525e87d491b4838943c/aiZero-0.0.2a0.tar.gz
+[2024-05-10 12:18:58] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-10 12:18:58] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240510/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 12:18:58] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-10 12:18:58] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.2.9.tar.gz tmp/modelmerge-0.3.0.tar.gz --markdown 20240510/m/modelmerge/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-10 12:18:58] INFO root fetch - processPackages [docopt-sh]: executing diffoscope
+[2024-05-10 12:18:58] INFO root fetch - processPackages [docopt-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docopt-sh-1.0.0.tar.gz tmp/docopt_sh-2.0.0a1.tar.gz --markdown 20240510/d/docopt-sh/1.0.0-2.0.0a1/README.md --exclude *.pyd
+[2024-05-10 12:18:58] INFO root fetch - processPackages [aiZero]: executing diffoscope
+[2024-05-10 12:18:58] INFO root fetch - processPackages [aiZero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiZero-0.0.1a4.tar.gz tmp/aiZero-0.0.2a0.tar.gz --markdown 20240510/a/aiZero/0.0.1a4-0.0.2a0/README.md --exclude *.pyd
+[2024-05-10 12:18:58] INFO root fetch - processPackages [openterrace]: Downloading https://files.pythonhosted.org/packages/5e/24/d8477d18ce62dea1583bb5194bdc14fb61a7ff05925a21fdeedc164fe1ed/openterrace-0.1.3.tar.gz
+[2024-05-10 12:18:58] INFO root fetch - processPackages [openterrace]: executing diffoscope
+[2024-05-10 12:18:58] INFO root fetch - processPackages [openterrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openterrace-0.1.2.tar.gz tmp/openterrace-0.1.3.tar.gz --markdown 20240510/o/openterrace/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 12:18:58] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-10 12:18:58] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-10 12:18:58] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-10 12:18:58] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.2.9.tar.gz]
+[2024-05-10 12:18:58] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.0.tar.gz]
+[2024-05-10 12:18:58] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-10 12:18:59] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a4.tar.gz]
+[2024-05-10 12:18:59] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.2a0.tar.gz]
+[2024-05-10 12:18:59] INFO root fetch - main [MainThread]: End processing [aiZero]: success
+[2024-05-10 12:18:59] INFO root fetch - processPackages [docopt-sh]: Remove: archive file [/home/abi/fetcher/tmp/docopt-sh-1.0.0.tar.gz]
+[2024-05-10 12:18:59] INFO root fetch - processPackages [docopt-sh]: Remove: archive file [/home/abi/fetcher/tmp/docopt_sh-2.0.0a1.tar.gz]
+[2024-05-10 12:18:59] INFO root fetch - main [MainThread]: End processing [docopt-sh]: success
+[2024-05-10 12:18:59] INFO root fetch - processPackages [openterrace]: Remove: archive file [/home/abi/fetcher/tmp/openterrace-0.1.2.tar.gz]
+[2024-05-10 12:18:59] INFO root fetch - processPackages [openterrace]: Remove: archive file [/home/abi/fetcher/tmp/openterrace-0.1.3.tar.gz]
+[2024-05-10 12:18:59] INFO root fetch - main [MainThread]: End processing [openterrace]: success
+[2024-05-10 12:18:59] INFO root fetch - main [MainThread]: Store serial: [23144560]
