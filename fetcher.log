@@ -22104,3 +22104,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:52:21] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-1.0.0.tar.gz]
 [2024-05-10 16:52:21] INFO root fetch - main [MainThread]: End processing [fal]: success
 [2024-05-10 16:52:21] INFO root fetch - main [MainThread]: Store serial: [23148348]
+[2024-05-10 16:54:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148348]
+[2024-05-10 16:54:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 16:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure
+[2024-05-10 16:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitterbumpz
+[2024-05-10 16:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mentabotix
+[2024-05-10 16:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deloreanby
+[2024-05-10 16:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gtests
+[2024-05-10 16:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyExploitDb
+[2024-05-10 16:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jeedomdaemon
+[2024-05-10 16:54:31] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-10 16:54:31] INFO root fetch - processPackages [gtests]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 16:54:31] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.8.0] Old Version: [0.7.5]
+[2024-05-10 16:54:31] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-10 16:54:31] WARNING root fetch - processPackages [bitterbumpz]: Skipping, unable to determine old version
+[2024-05-10 16:54:31] INFO root fetch - main [MainThread]: End processing [bitterbumpz] error
+[2024-05-10 16:54:31] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c3/b8/b2ef41ceb41a255afddf705a1f827b9a0328ac6875029397e1ca6888bd99/gtests-0.0.6.tar.gz
+[2024-05-10 16:54:31] INFO root fetch - processPackages [pyExploitDb]: New version: [0.2.9] Old Version: [0.2.6]
+[2024-05-10 16:54:31] WARNING root fetch - processPackages [deloreanby]: Skipping, unable to determine old version
+[2024-05-10 16:54:31] INFO root fetch - main [MainThread]: End processing [deloreanby] error
+[2024-05-10 16:54:31] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/46/41/afb2d08a2fecfadbec6704997465e3bab279b0a3f6e5ebeeeeb52fcfed83/jeedomdaemon-0.7.5.tar.gz
+[2024-05-10 16:54:31] INFO root fetch - processPackages [mentabotix]: New version: [0.1.3a1] Old Version: [0.1.2]
+[2024-05-10 16:54:32] INFO root fetch - processPackages [pyExploitDb]: Downloading https://files.pythonhosted.org/packages/db/f7/0a8a973ebf516134ee9f275887bb4bb1e53a0c4bfe9d08ef50c8a91f5685/pyExploitDb-0.2.6.tar.gz
+[2024-05-10 16:54:32] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/9d/25/74239c8b9565b52d740c3f1b388daff500945aae77d908d5eff096c8697e/mentabotix-0.1.2.tar.gz
+[2024-05-10 16:54:32] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/ab/73/d34485df8f55737332d8bf01ff16322bd0cd43cb92f3d370d7301726054c/jeedomdaemon-0.8.0.tar.gz
+[2024-05-10 16:54:32] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/ee/5f/2194d37ea2c82a755a39f515516d317f81f5659ad6ae30bef758fd9b879c/gtests-0.0.7.tar.gz
+[2024-05-10 16:54:32] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-05-10 16:54:32] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.7.5.tar.gz tmp/jeedomdaemon-0.8.0.tar.gz --markdown 20240510/j/jeedomdaemon/0.7.5-0.8.0/README.md --exclude *.pyd
+[2024-05-10 16:54:32] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-10 16:54:32] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:54:32] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.6.tar.gz tmp/gtests-0.0.7.tar.gz --markdown 20240510/g/gtests/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 16:54:32] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/e7/f5/b1e0bf49f74f8840add444a56d2b99acc9765489505eeca8d98026d23968/mentabotix-0.1.3a1.tar.gz
+[2024-05-10 16:54:32] INFO root fetch - processPackages [pyExploitDb]: Downloading https://files.pythonhosted.org/packages/9c/eb/b8dfdf3b6b5313c0c99c1d10134a1ec6bf2af38cc490c82550e859fba37f/pyExploitDb-0.2.9.tar.gz
+[2024-05-10 16:54:32] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-10 16:54:32] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.2.tar.gz tmp/mentabotix-0.1.3a1.tar.gz --markdown 20240510/m/mentabotix/0.1.2-0.1.3a1/README.md --exclude *.pyd
+[2024-05-10 16:54:32] INFO root fetch - processPackages [pyExploitDb]: executing diffoscope
+[2024-05-10 16:54:32] INFO root fetch - processPackages [pyExploitDb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyExploitDb-0.2.6.tar.gz tmp/pyExploitDb-0.2.9.tar.gz --markdown 20240510/p/pyExploitDb/0.2.6-0.2.9/README.md --exclude *.pyd
+[2024-05-10 16:54:32] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-10 16:54:32] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240510/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-10 16:54:33] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.7.5.tar.gz]
+[2024-05-10 16:54:33] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.0.tar.gz]
+[2024-05-10 16:54:33] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-05-10 16:54:33] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.6.tar.gz]
+[2024-05-10 16:54:33] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.7.tar.gz]
+[2024-05-10 16:54:33] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:54:33] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.2.tar.gz]
+[2024-05-10 16:54:33] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.3a1.tar.gz]
+[2024-05-10 16:54:33] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-10 16:54:34] INFO root fetch - processPackages [pyExploitDb]: Remove: archive file [/home/abi/fetcher/tmp/pyExploitDb-0.2.6.tar.gz]
+[2024-05-10 16:54:34] INFO root fetch - processPackages [pyExploitDb]: Remove: archive file [/home/abi/fetcher/tmp/pyExploitDb-0.2.9.tar.gz]
+[2024-05-10 16:54:34] INFO root fetch - main [MainThread]: End processing [pyExploitDb]: success
+[2024-05-10 16:54:42] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-10 16:54:42] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-10 16:54:42] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-10 16:54:42] INFO root fetch - main [MainThread]: Store serial: [23148376]
