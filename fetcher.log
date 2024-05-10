@@ -11170,3 +11170,15 @@
 [2024-05-10 10:35:25] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-statement-communication]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_statement_communication-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-05-10 10:35:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-statement-communication]: success
 [2024-05-10 10:35:25] INFO root fetch - main [MainThread]: Store serial: [23143383]
+[2024-05-10 10:37:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143383]
+[2024-05-10 10:37:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 10:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scatcluster
+[2024-05-10 10:37:34] INFO root fetch - processPackages [scatcluster]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 10:37:34] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/fe/97/9e404d69d95cb21715a754c0b79a1aae9701f0de14f70e5b7701089bc9ad/scatcluster-0.0.5.tar.gz
+[2024-05-10 10:37:34] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/89/d2/8181212d3d1c9dfe1c607d2588fac3f65cba29dad6f22e098165bbf2ed48/scatcluster-0.0.6.tar.gz
+[2024-05-10 10:37:34] INFO root fetch - processPackages [scatcluster]: executing diffoscope
+[2024-05-10 10:37:34] INFO root fetch - processPackages [scatcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatcluster-0.0.5.tar.gz tmp/scatcluster-0.0.6.tar.gz --markdown 20240510/s/scatcluster/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 10:37:35] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.5.tar.gz]
+[2024-05-10 10:37:35] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.6.tar.gz]
+[2024-05-10 10:37:35] INFO root fetch - main [MainThread]: End processing [scatcluster]: success
+[2024-05-10 10:37:35] INFO root fetch - main [MainThread]: Store serial: [23143386]
