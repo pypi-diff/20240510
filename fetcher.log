@@ -24209,3 +24209,123 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:58:43] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.770.0.tar.gz]
 [2024-05-10 17:58:43] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-10 17:58:43] INFO root fetch - main [MainThread]: Store serial: [23149336]
+[2024-05-10 18:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149336]
+[2024-05-10 18:00:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pozo
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parliamentarian
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dimples
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ModernQQt
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kernel-quantile-regression
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: renouncementsz
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cylindromaz
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Hydro-Quebec-API-Wrapper
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdata-client
+[2024-05-10 18:00:52] INFO root fetch - processPackages [kernel-quantile-regression]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ModernQQt]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [pozo]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [kernel-quantile-regression]: Downloading https://files.pythonhosted.org/packages/35/53/6352628a6762cfeff73aa1ae041a84857a32b6221b5450c8c6da6a463f91/kernel_quantile_regression-0.0.8.tar.gz
+[2024-05-10 18:00:52] INFO root fetch - processPackages [cylindromaz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 18:00:52] WARNING root fetch - processPackages [renouncementsz]: Skipping, unable to determine old version
+[2024-05-10 18:00:52] WARNING root fetch - processPackages [parliamentarian]: Skipping, unable to determine old version
+[2024-05-10 18:00:52] INFO root fetch - processPackages [renouncementsz]: Start processing: arelle-release
+[2024-05-10 18:00:52] INFO root fetch - processPackages [parliamentarian]: Start processing: lastmile-eval
+[2024-05-10 18:00:52] INFO root fetch - main [MainThread]: End processing [renouncementsz] error
+[2024-05-10 18:00:52] INFO root fetch - main [MainThread]: End processing [parliamentarian] error
+[2024-05-10 18:00:52] INFO root fetch - processPackages [dimples]: New version: [1.0.0] Old Version: [0.5.8]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [bigdata-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: New version: [3.2.0] Old Version: [3.1.3]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-10 18:00:52] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 18:00:52] INFO root fetch - processPackages [ModernQQt]: Downloading https://files.pythonhosted.org/packages/b6/4a/cdb9bbe4fb73d269360d65fe3affaaf2bac4bba9d3a56c7c57b5fbcb32ac/modernqqt-0.1.0.tar.gz
+[2024-05-10 18:00:52] INFO root fetch - processPackages [pozo]: Downloading https://files.pythonhosted.org/packages/ef/7a/70cc41989b58836004e0f48f2cf2ddd932e5e9295ab1f0a82aad851d8e36/pozo-0.9.8.tar.gz
+[2024-05-10 18:00:52] INFO root fetch - processPackages [cylindromaz]: Downloading https://files.pythonhosted.org/packages/ee/9c/ef041f3493717c0b5ee1ffbe766052a02255104a49af73b2d13681e48995/cylindromaz-1.1.tar.gz
+[2024-05-10 18:00:52] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/01/ba/da82ea15f20f42669a7cbbfefdd21002b2afaa0c0fee20dfbbbee680a7c7/dimples-0.5.8.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [bigdata-client]: Downloading https://files.pythonhosted.org/packages/1f/5d/4c773c7bc013a162bbac0f28ed137ebae4b1f9c92b2c7ac7ac23ef4ada38/bigdata_client-0.2.0.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: Downloading https://files.pythonhosted.org/packages/3b/6c/711ff62ca0e23ac7d13feedb9d16c44116fa6e0c67ec2d8e2d8e68f36918/Hydro-Quebec-API-Wrapper-3.1.3.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [kernel-quantile-regression]: Downloading https://files.pythonhosted.org/packages/dc/e2/874d9d723a6de04019271195e22a7cea79c5177442591c2e127a72b9391c/kernel_quantile_regression-0.0.9.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [kernel-quantile-regression]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [kernel-quantile-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kernel_quantile_regression-0.0.8.tar.gz tmp/kernel_quantile_regression-0.0.9.tar.gz --markdown 20240510/k/kernel-quantile-regression/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [ModernQQt]: Downloading https://files.pythonhosted.org/packages/4c/19/dc8c2b7f4567270be5c30f5c333233b1ab9acddfc114a7e20acaf5525c56/modernqqt-0.1.1.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [pozo]: Downloading https://files.pythonhosted.org/packages/de/4f/e91520a992cf86e73ddd640ef44b953c363e67f272e67d99d4f2f8549bd4/pozo-0.9.9.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [cylindromaz]: Downloading https://files.pythonhosted.org/packages/99/a2/6d9148c3fd8b3c9c4dca1fe88f3ef40ceab994da7987f84946ae459016e5/cylindromaz-2.1.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-10 18:00:53] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/10/4a/d4b7d371ef6474cc0c48b966284d3dc142f3044caad1c8fa52d43faa6d15/dimples-1.0.0.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [ModernQQt]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [ModernQQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modernqqt-0.1.0.tar.gz tmp/modernqqt-0.1.1.tar.gz --markdown 20240510/M/ModernQQt/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240510/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [pozo]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [pozo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozo-0.9.8.tar.gz tmp/pozo-0.9.9.tar.gz --markdown 20240510/p/pozo/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: Downloading https://files.pythonhosted.org/packages/11/68/427918ea0f35138e16d318019071d7003a5149030e5c1541430ce6de41f7/hydro_quebec_api_wrapper-3.2.0.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [bigdata-client]: Downloading https://files.pythonhosted.org/packages/76/f4/bab9b7a0289f9781d6048c9760aa11f0dd4c5a4f136cdacf1f336a03ed39/bigdata_client-0.3.0.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [cylindromaz]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [cylindromaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylindromaz-1.1.tar.gz tmp/cylindromaz-2.1.tar.gz --markdown 20240510/c/cylindromaz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [bigdata-client]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [bigdata-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdata_client-0.2.0.tar.gz tmp/bigdata_client-0.3.0.tar.gz --markdown 20240510/b/bigdata-client/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [dimples]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [dimples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimples-0.5.8.tar.gz tmp/dimples-1.0.0.tar.gz --markdown 20240510/d/dimples/0.5.8-1.0.0/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hydro-Quebec-API-Wrapper-3.1.3.tar.gz tmp/hydro_quebec_api_wrapper-3.2.0.tar.gz --markdown 20240510/H/Hydro-Quebec-API-Wrapper/3.1.3-3.2.0/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-10 18:00:53] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240510/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-10 18:00:53] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2024-05-10 18:00:53] INFO root fetch - processPackages [kernel-quantile-regression]: Remove: archive file [/home/abi/fetcher/tmp/kernel_quantile_regression-0.0.8.tar.gz]
+[2024-05-10 18:00:53] INFO root fetch - processPackages [kernel-quantile-regression]: Remove: archive file [/home/abi/fetcher/tmp/kernel_quantile_regression-0.0.9.tar.gz]
+[2024-05-10 18:00:53] INFO root fetch - processPackages [kernel-quantile-regression]: Start processing: isolate
+[2024-05-10 18:00:53] INFO root fetch - main [MainThread]: End processing [kernel-quantile-regression]: success
+[2024-05-10 18:00:54] INFO root fetch - processPackages [isolate]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [ModernQQt]: Remove: archive file [/home/abi/fetcher/tmp/modernqqt-0.1.0.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [ModernQQt]: Remove: archive file [/home/abi/fetcher/tmp/modernqqt-0.1.1.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [ModernQQt]: Start processing: calculator-api
+[2024-05-10 18:00:54] INFO root fetch - main [MainThread]: End processing [ModernQQt]: success
+[2024-05-10 18:00:54] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2024-05-10 18:00:54] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20240510/a/arelle-release/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-10 18:00:54] INFO root fetch - processPackages [cylindromaz]: Remove: archive file [/home/abi/fetcher/tmp/cylindromaz-1.1.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [cylindromaz]: Remove: archive file [/home/abi/fetcher/tmp/cylindromaz-2.1.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [cylindromaz]: Start processing: ccs-digitalmarketplace-content-loader
+[2024-05-10 18:00:54] INFO root fetch - main [MainThread]: End processing [cylindromaz]: success
+[2024-05-10 18:00:54] INFO root fetch - processPackages [isolate]: Downloading https://files.pythonhosted.org/packages/64/32/211fe725a3bf7449d63f5b9210aed9bebdc93f360ec91a4e8804c891e5dd/isolate-0.9.2.tar.gz
+[2024-05-10 18:00:54] WARNING root fetch - processPackages [calculator-api]: Skipping, unable to determine old version
+[2024-05-10 18:00:54] INFO root fetch - main [MainThread]: End processing [calculator-api] error
+[2024-05-10 18:00:54] INFO root fetch - processPackages [pozo]: Remove: archive file [/home/abi/fetcher/tmp/pozo-0.9.8.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [pozo]: Remove: archive file [/home/abi/fetcher/tmp/pozo-0.9.9.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - main [MainThread]: End processing [pozo]: success
+[2024-05-10 18:00:54] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-05-10 18:00:54] INFO root fetch - processPackages [bigdata-client]: Remove: archive file [/home/abi/fetcher/tmp/bigdata_client-0.2.0.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [bigdata-client]: Remove: archive file [/home/abi/fetcher/tmp/bigdata_client-0.3.0.tar.gz]
+[2024-05-10 18:00:54] INFO root fetch - main [MainThread]: End processing [bigdata-client]: success
+[2024-05-10 18:00:54] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/84/8d/9fed599fe3a0606b5df05b6af1e395d3670e6f67d16cba227de262405d1f/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz
+[2024-05-10 18:00:54] INFO root fetch - processPackages [isolate]: Downloading https://files.pythonhosted.org/packages/93/d5/1ab6e68b9f2f196a9982c5cab3879975f19e872887debadb439227f3e01b/isolate-0.9.3.tar.gz
+[2024-05-10 18:00:54] INFO root fetch - processPackages [isolate]: executing diffoscope
+[2024-05-10 18:00:54] INFO root fetch - processPackages [isolate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isolate-0.9.2.tar.gz tmp/isolate-0.9.3.tar.gz --markdown 20240510/i/isolate/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-10 18:00:54] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-10 18:00:54] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-10 18:00:55] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-10 18:00:55] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/f6/58/9dcf721bc4e4a65d106025b423e30e6082e93c943edeaa0eff78b77f988b/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz
+[2024-05-10 18:00:55] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: Remove: archive file [/home/abi/fetcher/tmp/Hydro-Quebec-API-Wrapper-3.1.3.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - processPackages [Hydro-Quebec-API-Wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hydro_quebec_api_wrapper-3.2.0.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - main [MainThread]: End processing [Hydro-Quebec-API-Wrapper]: success
+[2024-05-10 18:00:55] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: executing diffoscope
+[2024-05-10 18:00:55] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz --markdown 20240510/c/ccs-digitalmarketplace-content-loader/9.4.0-9.5.0/README.md --exclude *.pyd
+[2024-05-10 18:00:55] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.8.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-1.0.0.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - main [MainThread]: End processing [dimples]: success
+[2024-05-10 18:00:55] INFO root fetch - processPackages [isolate]: Remove: archive file [/home/abi/fetcher/tmp/isolate-0.9.2.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - processPackages [isolate]: Remove: archive file [/home/abi/fetcher/tmp/isolate-0.9.3.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - main [MainThread]: End processing [isolate]: success
+[2024-05-10 18:00:55] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz]
+[2024-05-10 18:00:55] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-content-loader]: success
+[2024-05-10 18:01:00] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.8.1.tar.gz]
+[2024-05-10 18:01:00] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
+[2024-05-10 18:01:00] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2024-05-10 18:01:00] INFO root fetch - main [MainThread]: Store serial: [23149389]
