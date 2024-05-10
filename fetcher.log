@@ -10828,3 +10828,90 @@
 [2024-05-10 10:26:37] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.0.9.tar.gz]
 [2024-05-10 10:26:37] INFO root fetch - main [MainThread]: End processing [eprllib]: success
 [2024-05-10 10:26:37] INFO root fetch - main [MainThread]: Store serial: [23143255]
+[2024-05-10 10:28:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143255]
+[2024-05-10 10:28:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bakerstreet
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itwingstestsprojectnn
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docrawl
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MultiGather
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: InternEvo
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shimoku-browser
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shimoku
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iac-init
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snapheadz
+[2024-05-10 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: desktop-env
+[2024-05-10 10:28:46] INFO root fetch - processPackages [bakerstreet]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [InternEvo]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [itwingstestsprojectnn]: New version: [0.6] Old Version: [0.5]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [bakerstreet]: Downloading https://files.pythonhosted.org/packages/e3/68/682c5d88fd6092173948602a97192dfdb91cc8201a5406161bee8ed16d5f/bakerstreet-1.0.0.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [desktop-env]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [MultiGather]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/dd/c7/ba32450c2f8500fa6b23a308af9074e7eb0bd99237922e4cb976f6ebedd8/InternEvo-0.4.8.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [docrawl]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [shimoku-browser]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/d4/a5/d5695212a56a1b3e208d14a6dfed3c7e482d294a1467192f457a129442a9/itwingstestsprojectnn-0.5.tar.gz
+[2024-05-10 10:28:46] WARNING root fetch - processPackages [snapheadz]: Skipping, unable to determine old version
+[2024-05-10 10:28:46] INFO root fetch - main [MainThread]: End processing [snapheadz] error
+[2024-05-10 10:28:46] INFO root fetch - processPackages [shimoku]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [iac-init]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-10 10:28:46] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/4b/57/49cdf8f85ac9206dec5417444f22fe3e1cb5e5325fb9c2bfc153662fd412/docrawl-1.3.0.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/1e/8a/d854ff2cdcdc74c1f54f309989b947d3531b6724e79d9fd4f8cd2a039fcd/shimoku-2.3.1.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [shimoku-browser]: Downloading https://files.pythonhosted.org/packages/6c/13/c3fe445dd679071dfa26fe7081447030b03930d33cb918bec855d8c04828/shimoku-browser-2.3.1.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [desktop-env]: Downloading https://files.pythonhosted.org/packages/d7/a8/b13e440985f8a468a09203b42d6b8e20be3f1603eca282b288ee32c307fc/desktop_env-0.1.7.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [bakerstreet]: Downloading https://files.pythonhosted.org/packages/67/59/795fbe6d76c8b1a2d86335b3ef3179f8898ca3f01a3d07b0712cfe403339/bakerstreet-1.1.0-py3-none-any.whl
+[2024-05-10 10:28:46] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1e/6a/c89bb6d6e1ecc6e4cb85b7987ffc63086ef43e5f0f705a5b2810f4ac6ad4/iac_init-0.6.0.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/21/d3/3b3f75b950737e9fa75c9d6a8b82825170d3611e76f812414ab58265a73e/itwingstestsprojectnn-0.6.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/bc/44/a4441d30ce8e8c05d1d5941a4dbdf3a1f12802584bb9435288f2ceaf0b6e/InternEvo-0.4.9.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [bakerstreet]: executing diffoscope
+[2024-05-10 10:28:46] INFO root fetch - processPackages [bakerstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bakerstreet-1.0.0.tar.gz tmp/bakerstreet-1.1.0-py3-none-any.whl.zip --markdown 20240510/b/bakerstreet/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-10 10:28:46] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/44/0b/513c53d27eae74187fcfa6bb63aae151a637fac9f85c8aa8e53c32089ec8/multigather-0.0.5.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [itwingstestsprojectnn]: executing diffoscope
+[2024-05-10 10:28:46] INFO root fetch - processPackages [itwingstestsprojectnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itwingstestsprojectnn-0.5.tar.gz tmp/itwingstestsprojectnn-0.6.tar.gz --markdown 20240510/i/itwingstestsprojectnn/0.5-0.6/README.md --exclude *.pyd
+[2024-05-10 10:28:46] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/00/ac/b23d891a480a9e12c696821068db4157c71ddc4579187038bb8abd2ea12e/docrawl-1.3.1.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-10 10:28:46] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.8.tar.gz tmp/InternEvo-0.4.9.tar.gz --markdown 20240510/I/InternEvo/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-10 10:28:46] INFO root fetch - processPackages [desktop-env]: Downloading https://files.pythonhosted.org/packages/56/31/7b6552d8199fbe4871c70de1fd81920b3869270b706439d1c214499d6b22/desktop_env-0.1.8.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/7f/a8/6827269b6513e86e6245ccc4da0efbb9dbbaa88786b32d0a017edec7eea1/iac_init-0.6.1.tar.gz
+[2024-05-10 10:28:46] INFO root fetch - processPackages [docrawl]: executing diffoscope
+[2024-05-10 10:28:46] INFO root fetch - processPackages [docrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrawl-1.3.0.tar.gz tmp/docrawl-1.3.1.tar.gz --markdown 20240510/d/docrawl/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-10 10:28:46] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/0e/c1/03b27bb1f43fb58ad4d030cee049a8db3e7bf704cbb35988ce38b133074d/shimoku-2.4.0.tar.gz
+[2024-05-10 10:28:47] INFO root fetch - processPackages [shimoku-browser]: Downloading https://files.pythonhosted.org/packages/bc/9f/a1fa8e7842e62e68259de46e746385bf3946c955ac8eb6e8cd0d86adbd23/shimoku_browser-2.4.0.tar.gz
+[2024-05-10 10:28:47] INFO root fetch - processPackages [desktop-env]: executing diffoscope
+[2024-05-10 10:28:47] INFO root fetch - processPackages [desktop-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desktop_env-0.1.7.tar.gz tmp/desktop_env-0.1.8.tar.gz --markdown 20240510/d/desktop-env/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 10:28:47] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-10 10:28:47] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.6.0.tar.gz tmp/iac_init-0.6.1.tar.gz --markdown 20240510/i/iac-init/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-10 10:28:47] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/64/0b/74ac58d7769b58d45bb14b7716c762b052050cf87f65366f006e8df6e588/multigather-0.0.6.tar.gz
+[2024-05-10 10:28:47] INFO root fetch - processPackages [MultiGather]: executing diffoscope
+[2024-05-10 10:28:47] INFO root fetch - processPackages [MultiGather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multigather-0.0.5.tar.gz tmp/multigather-0.0.6.tar.gz --markdown 20240510/M/MultiGather/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 10:28:47] INFO root fetch - processPackages [shimoku]: executing diffoscope
+[2024-05-10 10:28:47] INFO root fetch - processPackages [shimoku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-2.3.1.tar.gz tmp/shimoku-2.4.0.tar.gz --markdown 20240510/s/shimoku/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-05-10 10:28:47] INFO root fetch - processPackages [shimoku-browser]: executing diffoscope
+[2024-05-10 10:28:47] INFO root fetch - processPackages [shimoku-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-browser-2.3.1.tar.gz tmp/shimoku_browser-2.4.0.tar.gz --markdown 20240510/s/shimoku-browser/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-05-10 10:28:47] INFO root fetch - processPackages [bakerstreet]: Remove: archive file [/home/abi/fetcher/tmp/bakerstreet-1.0.0.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - processPackages [bakerstreet]: Remove: archive file [/home/abi/fetcher/tmp/bakerstreet-1.1.0-py3-none-any.whl.zip]
+[2024-05-10 10:28:47] INFO root fetch - main [MainThread]: End processing [bakerstreet]: success
+[2024-05-10 10:28:47] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.5.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.6.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - main [MainThread]: End processing [itwingstestsprojectnn]: success
+[2024-05-10 10:28:47] INFO root fetch - processPackages [docrawl]: Remove: archive file [/home/abi/fetcher/tmp/docrawl-1.3.0.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - processPackages [docrawl]: Remove: archive file [/home/abi/fetcher/tmp/docrawl-1.3.1.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - main [MainThread]: End processing [docrawl]: success
+[2024-05-10 10:28:47] INFO root fetch - processPackages [desktop-env]: Remove: archive file [/home/abi/fetcher/tmp/desktop_env-0.1.7.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - processPackages [desktop-env]: Remove: archive file [/home/abi/fetcher/tmp/desktop_env-0.1.8.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - main [MainThread]: End processing [desktop-env]: success
+[2024-05-10 10:28:47] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.5.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.6.tar.gz]
+[2024-05-10 10:28:47] INFO root fetch - main [MainThread]: End processing [MultiGather]: success
+[2024-05-10 10:28:48] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.8.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.9.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-10 10:28:48] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.0.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.1.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-10 10:28:48] INFO root fetch - processPackages [shimoku-browser]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-browser-2.3.1.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - processPackages [shimoku-browser]: Remove: archive file [/home/abi/fetcher/tmp/shimoku_browser-2.4.0.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - main [MainThread]: End processing [shimoku-browser]: success
+[2024-05-10 10:28:48] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.3.1.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.4.0.tar.gz]
+[2024-05-10 10:28:48] INFO root fetch - main [MainThread]: End processing [shimoku]: success
+[2024-05-10 10:28:48] INFO root fetch - main [MainThread]: Store serial: [23143287]
