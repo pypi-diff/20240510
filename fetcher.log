@@ -21844,3 +21844,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:41:26] INFO root fetch - processPackages [getmyancestors]: Remove: archive file [/home/abi/fetcher/tmp/getmyancestors-1.0.6.tar.gz]
 [2024-05-10 16:41:26] INFO root fetch - main [MainThread]: End processing [getmyancestors]: success
 [2024-05-10 16:41:26] INFO root fetch - main [MainThread]: Store serial: [23148213]
+[2024-05-10 16:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148213]
+[2024-05-10 16:43:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 16:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: communalismz
+[2024-05-10 16:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runner-v1
+[2024-05-10 16:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unifyai
+[2024-05-10 16:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonimplementz
+[2024-05-10 16:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geojson-pydantic
+[2024-05-10 16:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owega
+[2024-05-10 16:43:36] WARNING root fetch - processPackages [runner-v1]: Skipping, unable to determine old version
+[2024-05-10 16:43:36] INFO root fetch - main [MainThread]: End processing [runner-v1] error
+[2024-05-10 16:43:36] INFO root fetch - processPackages [owega]: New version: [5.7.0] Old Version: [5.6.4]
+[2024-05-10 16:43:36] WARNING root fetch - processPackages [nonimplementz]: Skipping, unable to determine old version
+[2024-05-10 16:43:36] INFO root fetch - main [MainThread]: End processing [nonimplementz] error
+[2024-05-10 16:43:36] INFO root fetch - processPackages [unifyai]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-10 16:43:36] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/24/ab/d976771037a31a19dab2c7297a5ed871d95c938f05830ce9d2f69e459346/owega-5.6.4.tar.gz
+[2024-05-10 16:43:36] INFO root fetch - processPackages [geojson-pydantic]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-10 16:43:36] INFO root fetch - processPackages [communalismz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:43:37] INFO root fetch - processPackages [communalismz]: Downloading https://files.pythonhosted.org/packages/07/00/4aac2f1d9491224746d11278e5919480dbc643c44fa4cf959959ed340fb1/communalismz-1.1.tar.gz
+[2024-05-10 16:43:37] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/84/84/bd2cebe8910153dc44f162fee1e10201ca51c0675093eaadd56dbf9127a8/unifyai-0.8.2.tar.gz
+[2024-05-10 16:43:37] INFO root fetch - processPackages [geojson-pydantic]: Downloading https://files.pythonhosted.org/packages/ee/a5/e1cbfaef7cef4c8fb95b9ba46faedc6dca3b115f44bb95ef4e89c4683756/geojson_pydantic-1.0.2.tar.gz
+[2024-05-10 16:43:37] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/14/7e/016d4cfeff0b519ea7e2b5a6f540c95dc2d65b6f4863004a924c6b77c03f/owega-5.7.0.tar.gz
+[2024-05-10 16:43:37] INFO root fetch - processPackages [communalismz]: Downloading https://files.pythonhosted.org/packages/40/68/6981234c76c9465dc721781517c5f6daa4f9a66c3174d1ad57a0f2da0662/communalismz-2.1.tar.gz
+[2024-05-10 16:43:37] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-10 16:43:37] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.6.4.tar.gz tmp/owega-5.7.0.tar.gz --markdown 20240510/o/owega/5.6.4-5.7.0/README.md --exclude *.pyd
+[2024-05-10 16:43:37] INFO root fetch - processPackages [geojson-pydantic]: Downloading https://files.pythonhosted.org/packages/b1/28/3606a62de5066c13fb7e9156c2dc371c1b082f2f7e83f510525ba7a17da2/geojson_pydantic-1.1.0.tar.gz
+[2024-05-10 16:43:37] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/88/2f/51f3548ff23524d1c2c97059e235a80c68ad39ce8b9ae3c4e8427e19ae8b/unifyai-0.8.3.tar.gz
+[2024-05-10 16:43:37] INFO root fetch - processPackages [communalismz]: executing diffoscope
+[2024-05-10 16:43:37] INFO root fetch - processPackages [communalismz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communalismz-1.1.tar.gz tmp/communalismz-2.1.tar.gz --markdown 20240510/c/communalismz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:43:37] INFO root fetch - processPackages [geojson-pydantic]: executing diffoscope
+[2024-05-10 16:43:37] INFO root fetch - processPackages [geojson-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geojson_pydantic-1.0.2.tar.gz tmp/geojson_pydantic-1.1.0.tar.gz --markdown 20240510/g/geojson-pydantic/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-10 16:43:37] INFO root fetch - processPackages [unifyai]: executing diffoscope
+[2024-05-10 16:43:37] INFO root fetch - processPackages [unifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifyai-0.8.2.tar.gz tmp/unifyai-0.8.3.tar.gz --markdown 20240510/u/unifyai/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-10 16:43:38] INFO root fetch - processPackages [communalismz]: Remove: archive file [/home/abi/fetcher/tmp/communalismz-1.1.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - processPackages [communalismz]: Remove: archive file [/home/abi/fetcher/tmp/communalismz-2.1.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - main [MainThread]: End processing [communalismz]: success
+[2024-05-10 16:43:38] INFO root fetch - processPackages [geojson-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/geojson_pydantic-1.0.2.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - processPackages [geojson-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/geojson_pydantic-1.1.0.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - main [MainThread]: End processing [geojson-pydantic]: success
+[2024-05-10 16:43:38] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.6.4.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.0.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-10 16:43:38] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.8.2.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.8.3.tar.gz]
+[2024-05-10 16:43:38] INFO root fetch - main [MainThread]: End processing [unifyai]: success
+[2024-05-10 16:43:38] INFO root fetch - main [MainThread]: Store serial: [23148236]
