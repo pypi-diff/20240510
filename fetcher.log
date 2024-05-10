@@ -24603,3 +24603,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:09:46] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
 [2024-05-10 18:09:46] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-05-10 18:09:46] INFO root fetch - main [MainThread]: Store serial: [23149494]
+[2024-05-10 18:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149494]
+[2024-05-10 18:11:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 18:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: partial-json-parser
+[2024-05-10 18:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datolitez
+[2024-05-10 18:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dwclib
+[2024-05-10 18:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mail-optional-autofollow
+[2024-05-10 18:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: souschef
+[2024-05-10 18:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: so-vits-svc-fork
+[2024-05-10 18:11:55] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [4.2.2] Old Version: [4.2.1]
+[2024-05-10 18:11:55] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: New version: [17.0.1.0.0.1] Old Version: [16.0.1.0.0.7]
+[2024-05-10 18:11:55] INFO root fetch - processPackages [souschef]: New version: [1.4.6] Old Version: [1.4.4]
+[2024-05-10 18:11:55] INFO root fetch - processPackages [datolitez]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 18:11:55] INFO root fetch - processPackages [partial-json-parser]: New version: [0.2.0.1] Old Version: [0.2.0]
+[2024-05-10 18:11:55] INFO root fetch - processPackages [dwclib]: New version: [2024.5.10] Old Version: [2024.4.4]
+[2024-05-10 18:11:55] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/b1/47/b2ed4c9d3f94e0e86c31a57557b11a6b67814cbc7ec094a9c22994075be2/so_vits_svc_fork-4.2.1.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Downloading https://files.pythonhosted.org/packages/af/0b/31e8aea800004a46f0ace19777c8db34cb64271238b06cf59e8c66e0db49/odoo_addon_mail_optional_autofollow-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-10 18:11:56] INFO root fetch - processPackages [partial-json-parser]: Downloading https://files.pythonhosted.org/packages/e6/ae/9bfaa043b4543f808686e8ef36e84495bbbd3d46e92d8cd7b170422c9649/partial_json_parser-0.2.0.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [datolitez]: Downloading https://files.pythonhosted.org/packages/c1/70/ac938912926d9d98c1c9027f137bd9fa8a6f5078e7597c2e02e684693fb2/datolitez-1.1.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [dwclib]: Downloading https://files.pythonhosted.org/packages/16/dc/ce236156bd02c7a37a19bdc366465320a20e3d36d11dfdcb70abe99b5de4/dwclib-2024.4.4.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [souschef]: Downloading https://files.pythonhosted.org/packages/58/cc/87fe1949b79173289a959fdf0fc06a5590578894775f116d72e32d5116ed/souschef-1.4.4.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/f4/ba/ff3be9fc408bb4f2da7b1eb7f7fa7b9dc490a01538c53c9c8490fca81443/so_vits_svc_fork-4.2.2.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [partial-json-parser]: Downloading https://files.pythonhosted.org/packages/53/a8/a4098ed2d730a70bafaaba27d3b91da25f09c45ff9e8f9d3ab4f445ab7cb/partial_json_parser-0.2.0.1.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [datolitez]: Downloading https://files.pythonhosted.org/packages/4a/7e/43388cf9f876b3e0cc893f45929685794d680bb975d4784e220b0f9a2440/datolitez-2.1.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2024-05-10 18:11:56] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-4.2.1.tar.gz tmp/so_vits_svc_fork-4.2.2.tar.gz --markdown 20240510/s/so-vits-svc-fork/4.2.1-4.2.2/README.md --exclude *.pyd
+[2024-05-10 18:11:56] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Downloading https://files.pythonhosted.org/packages/06/8f/5113357b07258120c9543bb186f77d0b85602988a4bec96497033b2359a7/odoo_addon_mail_optional_autofollow-17.0.1.0.0.1-py3-none-any.whl
+[2024-05-10 18:11:56] INFO root fetch - processPackages [dwclib]: Downloading https://files.pythonhosted.org/packages/f1/50/2ad506cdc8310602e75e5576823dec21783d28dc72c307bd4aa3c4b767d2/dwclib-2024.5.10.tar.gz
+[2024-05-10 18:11:56] INFO root fetch - processPackages [partial-json-parser]: executing diffoscope
+[2024-05-10 18:11:56] INFO root fetch - processPackages [partial-json-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partial_json_parser-0.2.0.tar.gz tmp/partial_json_parser-0.2.0.1.tar.gz --markdown 20240510/p/partial-json-parser/0.2.0-0.2.0.1/README.md --exclude *.pyd
+[2024-05-10 18:11:56] INFO root fetch - processPackages [datolitez]: executing diffoscope
+[2024-05-10 18:11:56] INFO root fetch - processPackages [datolitez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datolitez-1.1.tar.gz tmp/datolitez-2.1.tar.gz --markdown 20240510/d/datolitez/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 18:11:56] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: executing diffoscope
+[2024-05-10 18:11:56] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_optional_autofollow-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mail_optional_autofollow-17.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240510/o/odoo-addon-mail-optional-autofollow/16.0.1.0.0.7-17.0.1.0.0.1/README.md --exclude *.pyd
+[2024-05-10 18:11:56] INFO root fetch - processPackages [dwclib]: executing diffoscope
+[2024-05-10 18:11:56] INFO root fetch - processPackages [dwclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwclib-2024.4.4.tar.gz tmp/dwclib-2024.5.10.tar.gz --markdown 20240510/d/dwclib/2024.4.4-2024.5.10/README.md --exclude *.pyd
+[2024-05-10 18:11:57] INFO root fetch - processPackages [souschef]: Downloading https://files.pythonhosted.org/packages/43/46/83d63806bebaa2ecd41ce68579fe8c61d761f41069de4ad57bf79de38c25/souschef-1.4.6.tar.gz
+[2024-05-10 18:11:57] INFO root fetch - processPackages [datolitez]: Remove: archive file [/home/abi/fetcher/tmp/datolitez-1.1.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - processPackages [datolitez]: Remove: archive file [/home/abi/fetcher/tmp/datolitez-2.1.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - main [MainThread]: End processing [datolitez]: success
+[2024-05-10 18:11:57] INFO root fetch - processPackages [partial-json-parser]: Remove: archive file [/home/abi/fetcher/tmp/partial_json_parser-0.2.0.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - processPackages [partial-json-parser]: Remove: archive file [/home/abi/fetcher/tmp/partial_json_parser-0.2.0.1.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - main [MainThread]: End processing [partial-json-parser]: success
+[2024-05-10 18:11:57] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_optional_autofollow-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-10 18:11:57] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_optional_autofollow-17.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-10 18:11:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-optional-autofollow]: success
+[2024-05-10 18:11:57] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.1.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.2.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2024-05-10 18:11:57] INFO root fetch - processPackages [dwclib]: Remove: archive file [/home/abi/fetcher/tmp/dwclib-2024.4.4.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - processPackages [dwclib]: Remove: archive file [/home/abi/fetcher/tmp/dwclib-2024.5.10.tar.gz]
+[2024-05-10 18:11:57] INFO root fetch - main [MainThread]: End processing [dwclib]: success
+[2024-05-10 18:11:57] INFO root fetch - processPackages [souschef]: executing diffoscope
+[2024-05-10 18:11:57] INFO root fetch - processPackages [souschef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souschef-1.4.4.tar.gz tmp/souschef-1.4.6.tar.gz --markdown 20240510/s/souschef/1.4.4-1.4.6/README.md --exclude *.pyd
+[2024-05-10 18:11:59] INFO root fetch - processPackages [souschef]: Remove: archive file [/home/abi/fetcher/tmp/souschef-1.4.4.tar.gz]
+[2024-05-10 18:11:59] INFO root fetch - processPackages [souschef]: Remove: archive file [/home/abi/fetcher/tmp/souschef-1.4.6.tar.gz]
+[2024-05-10 18:11:59] INFO root fetch - main [MainThread]: End processing [souschef]: success
+[2024-05-10 18:11:59] INFO root fetch - main [MainThread]: Store serial: [23149510]
