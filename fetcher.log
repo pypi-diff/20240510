@@ -8786,3 +8786,51 @@
 [2024-05-10 08:46:21] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-05-10 08:46:21] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-10 08:46:21] INFO root fetch - main [MainThread]: Store serial: [23142361]
+[2024-05-10 08:48:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142361]
+[2024-05-10 08:48:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FastRAMQPI
+[2024-05-10 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdfcrowd
+[2024-05-10 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catnekaise.cdk-iam-utilities
+[2024-05-10 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-block-local
+[2024-05-10 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-packages
+[2024-05-10 08:48:30] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:48:30] INFO root fetch - processPackages [FastRAMQPI]: New version: [7.3.5] Old Version: [7.3.4]
+[2024-05-10 08:48:31] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-10 08:48:31] INFO root fetch - processPackages [common-packages]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 08:48:31] INFO root fetch - processPackages [pdfcrowd]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-10 08:48:31] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/58/e4/91a1a13e70f0eab6a453045e802715fd1870bcedb4c816bb7a4e4cfdeb97/fastramqpi-7.3.4.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [pdfcrowd]: Downloading https://files.pythonhosted.org/packages/62/6b/1413806fad7ab3bf337298d87f95c57003ae9b325a158f411d273e87fc2f/pdfcrowd-5.8.0.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/ba/68/f13aa3700c8c1191a63b93e35a427d2c2b5273e3d333939315f5ee9e75c1/catnekaise.cdk-iam-utilities-0.0.22.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [common-packages]: Downloading https://files.pythonhosted.org/packages/31/62/bbb3c9d5e4525b2f242cb799da2100347c021580cf0178c274a837308267/common_packages-0.1.8.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 08:48:31] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:48:31] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/ee/ac/149870692e8a2e834897380d9044b94136db4f0d5d41a40e64d52cf18fe6/fastramqpi-7.3.5.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [FastRAMQPI]: executing diffoscope
+[2024-05-10 08:48:31] INFO root fetch - processPackages [FastRAMQPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-7.3.4.tar.gz tmp/fastramqpi-7.3.5.tar.gz --markdown 20240510/F/FastRAMQPI/7.3.4-7.3.5/README.md --exclude *.pyd
+[2024-05-10 08:48:31] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/e9/1e/7747940f5ebcb117b44586bc88169c97cfed70cb3b9b1a519fbfceb2c85b/catnekaise.cdk-iam-utilities-0.0.23.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [pdfcrowd]: Downloading https://files.pythonhosted.org/packages/36/16/1049de3da76c35915c1c381d699f52446c8bddfd0ac16ffe8349b38135be/pdfcrowd-5.9.0.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [common-packages]: Downloading https://files.pythonhosted.org/packages/00/24/17b8c9b44bab525ed938ed5bd08daebcfc2bf9d0857174089d20f54e7475/common_packages-0.1.9.tar.gz
+[2024-05-10 08:48:31] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: executing diffoscope
+[2024-05-10 08:48:31] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.cdk-iam-utilities-0.0.22.tar.gz tmp/catnekaise.cdk-iam-utilities-0.0.23.tar.gz --markdown 20240510/c/catnekaise.cdk-iam-utilities/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-10 08:48:31] INFO root fetch - processPackages [pdfcrowd]: executing diffoscope
+[2024-05-10 08:48:31] INFO root fetch - processPackages [pdfcrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfcrowd-5.8.0.tar.gz tmp/pdfcrowd-5.9.0.tar.gz --markdown 20240510/p/pdfcrowd/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-10 08:48:32] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 08:48:32] INFO root fetch - processPackages [common-packages]: executing diffoscope
+[2024-05-10 08:48:32] INFO root fetch - processPackages [common-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_packages-0.1.8.tar.gz tmp/common_packages-0.1.9.tar.gz --markdown 20240510/c/common-packages/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 08:48:32] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.4.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.5.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - main [MainThread]: End processing [FastRAMQPI]: success
+[2024-05-10 08:48:32] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.22.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.23.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - main [MainThread]: End processing [catnekaise.cdk-iam-utilities]: success
+[2024-05-10 08:48:32] INFO root fetch - processPackages [pdfcrowd]: Remove: archive file [/home/abi/fetcher/tmp/pdfcrowd-5.8.0.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - processPackages [pdfcrowd]: Remove: archive file [/home/abi/fetcher/tmp/pdfcrowd-5.9.0.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - main [MainThread]: End processing [pdfcrowd]: success
+[2024-05-10 08:48:32] INFO root fetch - processPackages [common-packages]: Remove: archive file [/home/abi/fetcher/tmp/common_packages-0.1.8.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - processPackages [common-packages]: Remove: archive file [/home/abi/fetcher/tmp/common_packages-0.1.9.tar.gz]
+[2024-05-10 08:48:32] INFO root fetch - main [MainThread]: End processing [common-packages]: success
+[2024-05-10 08:48:32] INFO root fetch - main [MainThread]: Store serial: [23142376]
