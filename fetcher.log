@@ -10119,3 +10119,66 @@
 [2024-05-10 09:56:01] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-12.0.3.tar.gz]
 [2024-05-10 09:56:01] INFO root fetch - main [MainThread]: End processing [sourcedefender]: success
 [2024-05-10 09:56:01] INFO root fetch - main [MainThread]: Store serial: [23142964]
+[2024-05-10 09:58:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142964]
+[2024-05-10 09:58:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MpNM
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opencv-gst-rtsp-server
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdk-oracle
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: czo
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steepedz
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aily-sdk
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ingenialink
+[2024-05-10 09:58:15] INFO root fetch - processPackages [vdk-oracle]: New version: [0.1.2] Old Version: [0.1.1284357447]
+[2024-05-10 09:58:15] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 09:58:15] WARNING root fetch - processPackages [MpNM]: Skipping, unable to determine old version
+[2024-05-10 09:58:15] INFO root fetch - main [MainThread]: End processing [MpNM] error
+[2024-05-10 09:58:15] INFO root fetch - processPackages [czo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:58:15] INFO root fetch - processPackages [vdk-oracle]: Downloading https://files.pythonhosted.org/packages/cd/94/f38671ea4c5ea73537346d5075c18d17398d2d94e366342f41370102341f/vdk_oracle-0.1.1284357447.tar.gz
+[2024-05-10 09:58:15] WARNING root fetch - processPackages [steepedz]: Skipping, unable to determine old version
+[2024-05-10 09:58:15] INFO root fetch - main [MainThread]: End processing [steepedz] error
+[2024-05-10 09:58:15] INFO root fetch - processPackages [opencv-gst-rtsp-server]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 09:58:15] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-05-10 09:58:15] INFO root fetch - processPackages [ingenialink]: New version: [7.3.1] Old Version: [7.3.0]
+[2024-05-10 09:58:15] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240510] Old Version: [2.17.0.dev20240509]
+[2024-05-10 09:58:15] INFO root fetch - processPackages [czo]: Downloading https://files.pythonhosted.org/packages/51/bb/de1d305d12bd6715ea7fdd89bc537424fdea20af2a6497e0767eb0b0fe16/czo-0.1.8.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Downloading https://files.pythonhosted.org/packages/95/ea/8c6260b80601693e90d123e78c036741dbb0c5bda3a47990819cbd26f5db/opencv_gst_rtsp_server-0.1.3.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [vdk-oracle]: Downloading https://files.pythonhosted.org/packages/ce/29/fc10d50ca1babf1f25201f42a1a5a9701ef9292a30c345eced05b69a8484/vdk-oracle-0.1.2.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [ingenialink]: Downloading https://files.pythonhosted.org/packages/9f/ac/74ee191c10fdfd8ddcce9c3ad3e6e2af717f883250f8a43843f4c7b9c94a/ingenialink-7.3.0.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/8c/e3/7c98792856350864ba9ce72ae24636f04bc8b0418ca072b05df23935039a/tf_nightly-2.17.0.dev20240509-cp39-cp39-win_amd64.whl
+[2024-05-10 09:58:16] INFO root fetch - processPackages [vdk-oracle]: executing diffoscope
+[2024-05-10 09:58:16] INFO root fetch - processPackages [vdk-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk_oracle-0.1.1284357447.tar.gz tmp/vdk-oracle-0.1.2.tar.gz --markdown 20240510/v/vdk-oracle/0.1.1284357447-0.1.2/README.md --exclude *.pyd
+[2024-05-10 09:58:16] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-05-10 09:58:16] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240510/a/aily-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 09:58:16] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Downloading https://files.pythonhosted.org/packages/6c/e6/3f4e1e43ce2b531660cb3038a5ed6e668388ff36063cf10f1680040fad1c/opencv_gst_rtsp_server-0.1.4.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/b1/da/7079f650c322f215b09cf8fb648f25d1dec2d01e08e7b8a726086bbdb32c/tf_nightly-2.17.0.dev20240510-cp39-cp39-win_amd64.whl
+[2024-05-10 09:58:16] INFO root fetch - processPackages [czo]: Downloading https://files.pythonhosted.org/packages/8b/c3/303b7293f2fb00c7da01ac9f3aa75be51e746b6e11860829d64b6aaeb208/czo-0.1.9.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [ingenialink]: Downloading https://files.pythonhosted.org/packages/2b/e9/165fe31b22e9e48066b94ad1ae1eaee0c55c60f2d35093721690c6b5c5dc/ingenialink-7.3.1.tar.gz
+[2024-05-10 09:58:16] INFO root fetch - processPackages [opencv-gst-rtsp-server]: executing diffoscope
+[2024-05-10 09:58:16] INFO root fetch - processPackages [opencv-gst-rtsp-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencv_gst_rtsp_server-0.1.3.tar.gz tmp/opencv_gst_rtsp_server-0.1.4.tar.gz --markdown 20240510/o/opencv-gst-rtsp-server/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 09:58:16] INFO root fetch - processPackages [czo]: executing diffoscope
+[2024-05-10 09:58:16] INFO root fetch - processPackages [czo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czo-0.1.8.tar.gz tmp/czo-0.1.9.tar.gz --markdown 20240510/c/czo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:58:16] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-10 09:58:16] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240510-cp39-cp39-win_amd64.whl.zip --markdown 20240510/t/tf-nightly/2.17.0.dev20240509-2.17.0.dev20240510/README.md --exclude *.pyd
+[2024-05-10 09:58:16] INFO root fetch - processPackages [ingenialink]: executing diffoscope
+[2024-05-10 09:58:16] INFO root fetch - processPackages [ingenialink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingenialink-7.3.0.tar.gz tmp/ingenialink-7.3.1.tar.gz --markdown 20240510/i/ingenialink/7.3.0-7.3.1/README.md --exclude *.pyd
+[2024-05-10 09:58:16] INFO root fetch - processPackages [vdk-oracle]: Remove: archive file [/home/abi/fetcher/tmp/vdk_oracle-0.1.1284357447.tar.gz]
+[2024-05-10 09:58:16] INFO root fetch - processPackages [vdk-oracle]: Remove: archive file [/home/abi/fetcher/tmp/vdk-oracle-0.1.2.tar.gz]
+[2024-05-10 09:58:16] INFO root fetch - main [MainThread]: End processing [vdk-oracle]: success
+[2024-05-10 09:58:16] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-05-10 09:58:16] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-05-10 09:58:16] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-05-10 09:58:17] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Remove: archive file [/home/abi/fetcher/tmp/opencv_gst_rtsp_server-0.1.3.tar.gz]
+[2024-05-10 09:58:17] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Remove: archive file [/home/abi/fetcher/tmp/opencv_gst_rtsp_server-0.1.4.tar.gz]
+[2024-05-10 09:58:17] INFO root fetch - main [MainThread]: End processing [opencv-gst-rtsp-server]: success
+[2024-05-10 09:58:17] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip]
+[2024-05-10 09:58:17] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240510-cp39-cp39-win_amd64.whl.zip]
+[2024-05-10 09:58:17] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-10 09:58:17] INFO root fetch - processPackages [czo]: Remove: archive file [/home/abi/fetcher/tmp/czo-0.1.8.tar.gz]
+[2024-05-10 09:58:17] INFO root fetch - processPackages [czo]: Remove: archive file [/home/abi/fetcher/tmp/czo-0.1.9.tar.gz]
+[2024-05-10 09:58:17] INFO root fetch - main [MainThread]: End processing [czo]: success
+[2024-05-10 09:58:17] INFO root fetch - processPackages [ingenialink]: Remove: archive file [/home/abi/fetcher/tmp/ingenialink-7.3.0.tar.gz]
+[2024-05-10 09:58:17] INFO root fetch - processPackages [ingenialink]: Remove: archive file [/home/abi/fetcher/tmp/ingenialink-7.3.1.tar.gz]
+[2024-05-10 09:58:17] INFO root fetch - main [MainThread]: End processing [ingenialink]: success
+[2024-05-10 09:58:17] INFO root fetch - main [MainThread]: Store serial: [23142990]
