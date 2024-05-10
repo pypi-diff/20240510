@@ -16561,3 +16561,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:39:29] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
 [2024-05-10 13:39:29] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2024-05-10 13:39:29] INFO root fetch - main [MainThread]: Store serial: [23145606]
+[2024-05-10 13:41:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145606]
+[2024-05-10 13:41:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 13:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chemcoord
+[2024-05-10 13:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: message-local
+[2024-05-10 13:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ModernQt
+[2024-05-10 13:41:54] WARNING root fetch - processPackages [ModernQt]: Skipping, unable to determine old version
+[2024-05-10 13:41:54] INFO root fetch - main [MainThread]: End processing [ModernQt] error
+[2024-05-10 13:41:54] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 13:41:54] INFO root fetch - processPackages [chemcoord]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-10 13:41:54] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-10 13:41:54] INFO root fetch - processPackages [chemcoord]: Downloading https://files.pythonhosted.org/packages/ba/77/1197ed4f49bc08012b20a310caa52c038d8dedf043bbb8905916141a72d5/chemcoord-2.1.1.tar.gz
+[2024-05-10 13:41:54] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-10 13:41:54] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-10 13:41:54] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240510/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 13:41:54] INFO root fetch - processPackages [chemcoord]: Downloading https://files.pythonhosted.org/packages/92/ae/39c883910837504eaf42720ddad598b7c293bca79cc51308b5f03eb3c6a0/chemcoord-2.1.2.tar.gz
+[2024-05-10 13:41:54] INFO root fetch - processPackages [chemcoord]: executing diffoscope
+[2024-05-10 13:41:54] INFO root fetch - processPackages [chemcoord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemcoord-2.1.1.tar.gz tmp/chemcoord-2.1.2.tar.gz --markdown 20240510/c/chemcoord/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-10 13:41:55] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-10 13:41:55] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-10 13:41:55] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-10 13:41:55] INFO root fetch - processPackages [chemcoord]: Remove: archive file [/home/abi/fetcher/tmp/chemcoord-2.1.1.tar.gz]
+[2024-05-10 13:41:55] INFO root fetch - processPackages [chemcoord]: Remove: archive file [/home/abi/fetcher/tmp/chemcoord-2.1.2.tar.gz]
+[2024-05-10 13:41:55] INFO root fetch - main [MainThread]: End processing [chemcoord]: success
+[2024-05-10 13:41:55] INFO root fetch - main [MainThread]: Store serial: [23145614]
