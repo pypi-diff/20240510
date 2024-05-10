@@ -5559,3 +5559,30 @@
 [2024-05-10 05:22:51] INFO root fetch - processPackages [mqtt-hass-base]: Remove: archive file [/home/abi/fetcher/tmp/mqtt_hass_base-4.3.0.tar.gz]
 [2024-05-10 05:22:51] INFO root fetch - main [MainThread]: End processing [mqtt-hass-base]: success
 [2024-05-10 05:22:51] INFO root fetch - main [MainThread]: Store serial: [23140822]
+[2024-05-10 05:24:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140822]
+[2024-05-10 05:24:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced_navigation
+[2024-05-10 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkg-tool-lib
+[2024-05-10 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citric
+[2024-05-10 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keyserlickz
+[2024-05-10 05:24:59] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.5] Old Version: [0.1.43]
+[2024-05-10 05:24:59] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/09/0b/4308da726e64aa62c25eaaeafbfb5f2860288896a0fc6a90653b3fc0c42f/advanced_navigation-0.1.43.tar.gz
+[2024-05-10 05:24:59] WARNING root fetch - processPackages [pkg-tool-lib]: Skipping, unable to determine old version
+[2024-05-10 05:24:59] INFO root fetch - main [MainThread]: End processing [pkg-tool-lib] error
+[2024-05-10 05:24:59] WARNING root fetch - processPackages [keyserlickz]: Skipping, unable to determine old version
+[2024-05-10 05:24:59] INFO root fetch - main [MainThread]: End processing [keyserlickz] error
+[2024-05-10 05:24:59] INFO root fetch - processPackages [citric]: New version: [1.0.1a4] Old Version: [1.0.1a3]
+[2024-05-10 05:25:00] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/90/e8/8ee5f4a19058b2b6485380325a6b428e9efa709efec011404429716a20b1/advanced_navigation-0.1.5.tar.gz
+[2024-05-10 05:25:00] INFO root fetch - processPackages [citric]: Downloading https://files.pythonhosted.org/packages/33/01/faa7b914025544277e02c4f9ccb99700ff8ba0ba43042909b4acab6fce80/citric-1.0.1a3.tar.gz
+[2024-05-10 05:25:00] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-10 05:25:00] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.43.tar.gz tmp/advanced_navigation-0.1.5.tar.gz --markdown 20240510/a/advanced_navigation/0.1.43-0.1.5/README.md --exclude *.pyd
+[2024-05-10 05:25:00] INFO root fetch - processPackages [citric]: Downloading https://files.pythonhosted.org/packages/bf/12/a0659e739c6fdb1e57bd94e3455e790bc9dcc331a7a52c5d1e31b598ca3b/citric-1.0.1a4.tar.gz
+[2024-05-10 05:25:00] INFO root fetch - processPackages [citric]: executing diffoscope
+[2024-05-10 05:25:00] INFO root fetch - processPackages [citric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citric-1.0.1a3.tar.gz tmp/citric-1.0.1a4.tar.gz --markdown 20240510/c/citric/1.0.1a3-1.0.1a4/README.md --exclude *.pyd
+[2024-05-10 05:25:00] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.43.tar.gz]
+[2024-05-10 05:25:00] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.5.tar.gz]
+[2024-05-10 05:25:00] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-10 05:25:01] INFO root fetch - processPackages [citric]: Remove: archive file [/home/abi/fetcher/tmp/citric-1.0.1a3.tar.gz]
+[2024-05-10 05:25:01] INFO root fetch - processPackages [citric]: Remove: archive file [/home/abi/fetcher/tmp/citric-1.0.1a4.tar.gz]
+[2024-05-10 05:25:01] INFO root fetch - main [MainThread]: End processing [citric]: success
+[2024-05-10 05:25:01] INFO root fetch - main [MainThread]: Store serial: [23140837]
