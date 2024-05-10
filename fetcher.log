@@ -14152,3 +14152,60 @@
 [2024-05-10 12:25:50] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.9.tar.gz]
 [2024-05-10 12:25:50] INFO root fetch - main [MainThread]: End processing [pcffont]: success
 [2024-05-10 12:25:50] INFO root fetch - main [MainThread]: Store serial: [23144615]
+[2024-05-10 12:27:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144615]
+[2024-05-10 12:28:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profile-local
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oxeyesz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statlance
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azuread
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Fr1997v011
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPrediktorMapClient
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insightconnect-plugin-runtime
+[2024-05-10 12:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: causalimpact-return
+[2024-05-10 12:28:04] INFO root fetch - processPackages [Fr1997v011]: New version: [1.4.7] Old Version: [1.4.5]
+[2024-05-10 12:28:04] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-10 12:28:04] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/56/42/76723f493f9ecb34403cc47b9e07956b56114128dfb7ca5dc759e3dc5485/Fr1997v011-1.4.5.tar.gz
+[2024-05-10 12:28:04] WARNING root fetch - processPackages [oxeyesz]: Skipping, unable to determine old version
+[2024-05-10 12:28:04] INFO root fetch - main [MainThread]: End processing [oxeyesz] error
+[2024-05-10 12:28:04] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pyPrediktorMapClient]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-10 12:28:04] WARNING root fetch - processPackages [causalimpact-return]: Skipping, unable to determine old version
+[2024-05-10 12:28:04] INFO root fetch - main [MainThread]: End processing [causalimpact-return] error
+[2024-05-10 12:28:04] WARNING root fetch - processPackages [statlance]: Skipping, unable to determine old version
+[2024-05-10 12:28:04] INFO root fetch - processPackages [insightconnect-plugin-runtime]: New version: [5.4.9] Old Version: [5.4.8]
+[2024-05-10 12:28:04] INFO root fetch - main [MainThread]: End processing [statlance] error
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/25/e5/6a92a3da3df0c590f36d94f4550354a0e614848dc9331426962ad311e67e/insightconnect_plugin_runtime-5.4.8.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pyPrediktorMapClient]: Downloading https://files.pythonhosted.org/packages/ff/0a/585967c861f8e3ad7d96dc58f6405c3eb335660fce6908230a24099f4fe1/pyPrediktorMapClient-0.7.0.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-10 12:28:04] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240510/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240510/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-10 12:28:04] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/60/af/18f86dd82cdd66c3deaaab74cdd06746a69a0c02265a2ef9249f270139e6/Fr1997v011-1.4.7.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [pyPrediktorMapClient]: Downloading https://files.pythonhosted.org/packages/3f/8b/519fbfc11f51618bfa68ad17453adcb8d718b0414db0719862bb00b16afb/pyPrediktorMapClient-0.8.0.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/3b/11/96115a10cafdf6add731216b3c94cc4c65c6c2cbdc79e0d449a24323220f/insightconnect_plugin_runtime-5.4.9.tar.gz
+[2024-05-10 12:28:04] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-05-10 12:28:04] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.4.5.tar.gz tmp/Fr1997v011-1.4.7.tar.gz --markdown 20240510/F/Fr1997v011/1.4.5-1.4.7/README.md --exclude *.pyd
+[2024-05-10 12:28:05] INFO root fetch - processPackages [pyPrediktorMapClient]: executing diffoscope
+[2024-05-10 12:28:05] INFO root fetch - processPackages [pyPrediktorMapClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPrediktorMapClient-0.7.0.tar.gz tmp/pyPrediktorMapClient-0.8.0.tar.gz --markdown 20240510/p/pyPrediktorMapClient/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-10 12:28:05] INFO root fetch - processPackages [insightconnect-plugin-runtime]: executing diffoscope
+[2024-05-10 12:28:05] INFO root fetch - processPackages [insightconnect-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect_plugin_runtime-5.4.8.tar.gz tmp/insightconnect_plugin_runtime-5.4.9.tar.gz --markdown 20240510/i/insightconnect-plugin-runtime/5.4.8-5.4.9/README.md --exclude *.pyd
+[2024-05-10 12:28:05] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-10 12:28:05] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-10 12:28:05] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.5.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.7.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-05-10 12:28:05] INFO root fetch - processPackages [pyPrediktorMapClient]: Remove: archive file [/home/abi/fetcher/tmp/pyPrediktorMapClient-0.7.0.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - processPackages [pyPrediktorMapClient]: Remove: archive file [/home/abi/fetcher/tmp/pyPrediktorMapClient-0.8.0.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - main [MainThread]: End processing [pyPrediktorMapClient]: success
+[2024-05-10 12:28:05] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect_plugin_runtime-5.4.8.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect_plugin_runtime-5.4.9.tar.gz]
+[2024-05-10 12:28:05] INFO root fetch - main [MainThread]: End processing [insightconnect-plugin-runtime]: success
+[2024-05-10 12:28:05] INFO root fetch - main [MainThread]: Store serial: [23144642]
