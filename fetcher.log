@@ -6914,3 +6914,21 @@
 [2024-05-10 06:56:53] WARNING root fetch - processPackages [propitiatorilyz]: Skipping, unable to determine old version
 [2024-05-10 06:56:53] INFO root fetch - main [MainThread]: End processing [propitiatorilyz] error
 [2024-05-10 06:56:53] INFO root fetch - main [MainThread]: Store serial: [23141406]
+[2024-05-10 06:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141406]
+[2024-05-10 06:59:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 06:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infinity-sdk
+[2024-05-10 06:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hormismz
+[2024-05-10 06:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omopsurvey
+[2024-05-10 06:59:02] INFO root fetch - processPackages [infinity-sdk]: New version: [0.2.0.dev1] Old Version: [0.1.1]
+[2024-05-10 06:59:02] WARNING root fetch - processPackages [hormismz]: Skipping, unable to determine old version
+[2024-05-10 06:59:02] WARNING root fetch - processPackages [omopsurvey]: Skipping, unable to determine old version
+[2024-05-10 06:59:02] INFO root fetch - main [MainThread]: End processing [hormismz] error
+[2024-05-10 06:59:02] INFO root fetch - main [MainThread]: End processing [omopsurvey] error
+[2024-05-10 06:59:02] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/e7/6d/2f4b0401501c8297e988b260d145e3541605eb0480ba99bf0203f7952eab/infinity_sdk-0.1.1-py3-none-any.whl
+[2024-05-10 06:59:02] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/22/89ab633bb7be61b7b9e17562ece2ba8ed4b9d45368be57570ea9dd8218da/infinity_sdk-0.2.0.dev1-py3-none-any.whl
+[2024-05-10 06:59:02] INFO root fetch - processPackages [infinity-sdk]: executing diffoscope
+[2024-05-10 06:59:02] INFO root fetch - processPackages [infinity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinity_sdk-0.1.1-py3-none-any.whl.zip tmp/infinity_sdk-0.2.0.dev1-py3-none-any.whl.zip --markdown 20240510/i/infinity-sdk/0.1.1-0.2.0.dev1/README.md --exclude *.pyd
+[2024-05-10 06:59:03] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.1.1-py3-none-any.whl.zip]
+[2024-05-10 06:59:03] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.2.0.dev1-py3-none-any.whl.zip]
+[2024-05-10 06:59:03] INFO root fetch - main [MainThread]: End processing [infinity-sdk]: success
+[2024-05-10 06:59:03] INFO root fetch - main [MainThread]: Store serial: [23141417]
