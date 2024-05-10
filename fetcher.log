@@ -13205,3 +13205,18 @@
 [2024-05-10 11:44:46] INFO root fetch - processPackages [ScoutSuite]: Remove: archive file [/home/abi/fetcher/tmp/ScoutSuite-5.9.1.tar.gz]
 [2024-05-10 11:44:46] INFO root fetch - main [MainThread]: End processing [ScoutSuite]: success
 [2024-05-10 11:44:46] INFO root fetch - main [MainThread]: Store serial: [23144221]
+[2024-05-10 11:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144221]
+[2024-05-10 11:46:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 11:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kafka
+[2024-05-10 11:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: purulencyz
+[2024-05-10 11:46:59] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1715303604] Old Version: [3.8.0a1715267369]
+[2024-05-10 11:46:59] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/cb/85/fd3e1c485e0de6c676132106d5d39da137ee045a0eae1b5c8a481a9ae56a/pulumi_kafka-3.8.0a1715267369.tar.gz
+[2024-05-10 11:46:59] WARNING root fetch - processPackages [purulencyz]: Skipping, unable to determine old version
+[2024-05-10 11:46:59] INFO root fetch - main [MainThread]: End processing [purulencyz] error
+[2024-05-10 11:46:59] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/21/3f/a17180520084e34bf0f646ee21ba4a3ba8c0e5f96c8632b6626339976779/pulumi_kafka-3.8.0a1715303604.tar.gz
+[2024-05-10 11:46:59] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-10 11:46:59] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715267369.tar.gz tmp/pulumi_kafka-3.8.0a1715303604.tar.gz --markdown 20240510/p/pulumi-kafka/3.8.0a1715267369-3.8.0a1715303604/README.md --exclude *.pyd
+[2024-05-10 11:47:00] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715267369.tar.gz]
+[2024-05-10 11:47:00] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715303604.tar.gz]
+[2024-05-10 11:47:00] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-10 11:47:00] INFO root fetch - main [MainThread]: Store serial: [23144228]
