@@ -7255,3 +7255,27 @@
 [2024-05-10 07:18:44] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
 [2024-05-10 07:18:44] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2024-05-10 07:18:44] INFO root fetch - main [MainThread]: Store serial: [23141616]
+[2024-05-10 07:20:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141616]
+[2024-05-10 07:20:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 07:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tifffile
+[2024-05-10 07:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparc-curation-tools
+[2024-05-10 07:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extracurricularz
+[2024-05-10 07:20:53] WARNING root fetch - processPackages [extracurricularz]: Skipping, unable to determine old version
+[2024-05-10 07:20:53] INFO root fetch - main [MainThread]: End processing [extracurricularz] error
+[2024-05-10 07:20:53] INFO root fetch - processPackages [sparc-curation-tools]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-10 07:20:53] INFO root fetch - processPackages [tifffile]: New version: [2024.5.3] Old Version: [2024.5.10]
+[2024-05-10 07:20:53] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/29/8c/c287ce4e6ff5d92148f4c0ab1bfd25047268bd89fee9fec1c8b5bb812316/tifffile-2024.5.10.tar.gz
+[2024-05-10 07:20:53] INFO root fetch - processPackages [sparc-curation-tools]: Downloading https://files.pythonhosted.org/packages/ed/d0/d65379ee2c6d36f42e5e09ef7671e96ce90f35966bcc129c9d152acf1965/sparc_curation_tools-0.7.0-py3-none-any.whl
+[2024-05-10 07:20:54] INFO root fetch - processPackages [sparc-curation-tools]: Downloading https://files.pythonhosted.org/packages/11/4e/1006b08a2f05f868d1208bc339a50545d80ae3eb24491eb4aa549ac450c9/sparc_curation_tools-0.7.1-py3-none-any.whl
+[2024-05-10 07:20:54] INFO root fetch - processPackages [sparc-curation-tools]: executing diffoscope
+[2024-05-10 07:20:54] INFO root fetch - processPackages [sparc-curation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparc_curation_tools-0.7.0-py3-none-any.whl.zip tmp/sparc_curation_tools-0.7.1-py3-none-any.whl.zip --markdown 20240510/s/sparc-curation-tools/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-10 07:20:54] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/ff/e6/c5d9db56a135a06295f11c24a615d430d37c018fc068f5fa62aa1ad939bc/tifffile-2024.5.3.tar.gz
+[2024-05-10 07:20:54] INFO root fetch - processPackages [tifffile]: executing diffoscope
+[2024-05-10 07:20:54] INFO root fetch - processPackages [tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifffile-2024.5.10.tar.gz tmp/tifffile-2024.5.3.tar.gz --markdown 20240510/t/tifffile/2024.5.10-2024.5.3/README.md --exclude *.pyd
+[2024-05-10 07:20:54] INFO root fetch - processPackages [sparc-curation-tools]: Remove: archive file [/home/abi/fetcher/tmp/sparc_curation_tools-0.7.0-py3-none-any.whl.zip]
+[2024-05-10 07:20:54] INFO root fetch - processPackages [sparc-curation-tools]: Remove: archive file [/home/abi/fetcher/tmp/sparc_curation_tools-0.7.1-py3-none-any.whl.zip]
+[2024-05-10 07:20:54] INFO root fetch - main [MainThread]: End processing [sparc-curation-tools]: success
+[2024-05-10 07:20:55] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.5.10.tar.gz]
+[2024-05-10 07:20:55] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.5.3.tar.gz]
+[2024-05-10 07:20:55] INFO root fetch - main [MainThread]: End processing [tifffile]: success
+[2024-05-10 07:20:55] INFO root fetch - main [MainThread]: Store serial: [23141628]
