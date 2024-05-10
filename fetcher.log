@@ -11782,3 +11782,63 @@
 [2024-05-10 10:57:35] INFO root fetch - processPackages [scorecardpipeline]: Remove: archive file [/home/abi/fetcher/tmp/scorecardpipeline-0.1.9.tar.gz]
 [2024-05-10 10:57:35] INFO root fetch - main [MainThread]: End processing [scorecardpipeline]: success
 [2024-05-10 10:57:35] INFO root fetch - main [MainThread]: Store serial: [23143659]
+[2024-05-10 10:59:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143659]
+[2024-05-10 10:59:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dve-lumipy-testing
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychopy-catppuccin
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schemapack
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartauthen
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxy.py
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-cost-logger
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hangul
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: organonymicz
+[2024-05-10 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-account-payment-order-lock-draft
+[2024-05-10 10:59:47] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 10:59:47] INFO root fetch - processPackages [schemapack]: New version: [2.0.0a4] Old Version: [2.0.0a3]
+[2024-05-10 10:59:47] WARNING root fetch - processPackages [psychopy-catppuccin]: Skipping, unable to determine old version
+[2024-05-10 10:59:47] INFO root fetch - main [MainThread]: End processing [psychopy-catppuccin] error
+[2024-05-10 10:59:47] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-10 10:59:47] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.4.1] Old Version: [0.3.1]
+[2024-05-10 10:59:47] WARNING root fetch - processPackages [odoo14-addon-account-payment-order-lock-draft]: Skipping, unable to determine old version
+[2024-05-10 10:59:47] INFO root fetch - processPackages [smartauthen]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-10 10:59:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order-lock-draft] error
+[2024-05-10 10:59:47] WARNING root fetch - processPackages [hangul]: Skipping, unable to determine old version
+[2024-05-10 10:59:47] WARNING root fetch - processPackages [organonymicz]: Skipping, unable to determine old version
+[2024-05-10 10:59:47] INFO root fetch - main [MainThread]: End processing [hangul] error
+[2024-05-10 10:59:47] INFO root fetch - main [MainThread]: End processing [organonymicz] error
+[2024-05-10 10:59:47] INFO root fetch - processPackages [proxy.py]: New version: [2.4.4rc5] Old Version: [2.4.4rc4]
+[2024-05-10 10:59:47] INFO root fetch - processPackages [schemapack]: Downloading https://files.pythonhosted.org/packages/43/42/aeca02b9ba43141096f6ecde41b1c0ca9b077cdd0cbfdf6bc51c7eef445b/schemapack-2.0.0a3.tar.gz
+[2024-05-10 10:59:47] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/5a/7f/67f8f2881f000564738cd09dfbbb2cf6325801f000511c401b4a2ab37b15/openai-cost-logger-0.3.1.tar.gz
+[2024-05-10 10:59:47] INFO root fetch - processPackages [smartauthen]: Downloading https://files.pythonhosted.org/packages/d3/c4/cb1ae10f9ca80158f920d61e175b10b647bd9ea05206e9f988c9944abf6d/smartauthen-0.2.0.tar.gz
+[2024-05-10 10:59:47] INFO root fetch - processPackages [proxy.py]: Downloading https://files.pythonhosted.org/packages/5d/52/b5c637f03fa15c588d2ceb5b44eb7c4b9e7104038c100bb1d613f0224b6e/proxy.py-2.4.4rc4.tar.gz
+[2024-05-10 10:59:48] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-10 10:59:48] INFO root fetch - processPackages [schemapack]: Downloading https://files.pythonhosted.org/packages/ad/1f/cb9e24814adc52da5aa604ca3a7d8febfeb9eae3f17378654103e286d645/schemapack-2.0.0a4.tar.gz
+[2024-05-10 10:59:48] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/e9/a1/7b7acf43840f700a83e72f6f20f2a91b358a5bae5cb2d7d25d394d7d580f/openai-cost-logger-0.4.1.tar.gz
+[2024-05-10 10:59:48] INFO root fetch - processPackages [smartauthen]: Downloading https://files.pythonhosted.org/packages/82/3b/94510e2518cb5261966613e4fb86d4b2010c0e038baf5ed88e4e88167d4d/smartauthen-0.2.1.tar.gz
+[2024-05-10 10:59:48] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-10 10:59:48] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240510/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 10:59:48] INFO root fetch - processPackages [schemapack]: executing diffoscope
+[2024-05-10 10:59:48] INFO root fetch - processPackages [schemapack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemapack-2.0.0a3.tar.gz tmp/schemapack-2.0.0a4.tar.gz --markdown 20240510/s/schemapack/2.0.0a3-2.0.0a4/README.md --exclude *.pyd
+[2024-05-10 10:59:48] INFO root fetch - processPackages [proxy.py]: Downloading https://files.pythonhosted.org/packages/d7/cb/3b7031ab493debba915523a4dbd5929f2b88f48f0deee895c6c4894217df/proxy.py-2.4.4rc5.tar.gz
+[2024-05-10 10:59:48] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-05-10 10:59:48] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-cost-logger-0.3.1.tar.gz tmp/openai-cost-logger-0.4.1.tar.gz --markdown 20240510/o/openai-cost-logger/0.3.1-0.4.1/README.md --exclude *.pyd
+[2024-05-10 10:59:48] INFO root fetch - processPackages [smartauthen]: executing diffoscope
+[2024-05-10 10:59:48] INFO root fetch - processPackages [smartauthen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartauthen-0.2.0.tar.gz tmp/smartauthen-0.2.1.tar.gz --markdown 20240510/s/smartauthen/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-10 10:59:48] INFO root fetch - processPackages [proxy.py]: executing diffoscope
+[2024-05-10 10:59:48] INFO root fetch - processPackages [proxy.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy.py-2.4.4rc4.tar.gz tmp/proxy.py-2.4.4rc5.tar.gz --markdown 20240510/p/proxy.py/2.4.4rc4-2.4.4rc5/README.md --exclude *.pyd
+[2024-05-10 10:59:48] INFO root fetch - processPackages [smartauthen]: Remove: archive file [/home/abi/fetcher/tmp/smartauthen-0.2.0.tar.gz]
+[2024-05-10 10:59:48] INFO root fetch - processPackages [smartauthen]: Remove: archive file [/home/abi/fetcher/tmp/smartauthen-0.2.1.tar.gz]
+[2024-05-10 10:59:48] INFO root fetch - main [MainThread]: End processing [smartauthen]: success
+[2024-05-10 10:59:49] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai-cost-logger-0.3.1.tar.gz]
+[2024-05-10 10:59:49] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai-cost-logger-0.4.1.tar.gz]
+[2024-05-10 10:59:49] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-05-10 10:59:49] INFO root fetch - processPackages [schemapack]: Remove: archive file [/home/abi/fetcher/tmp/schemapack-2.0.0a3.tar.gz]
+[2024-05-10 10:59:49] INFO root fetch - processPackages [schemapack]: Remove: archive file [/home/abi/fetcher/tmp/schemapack-2.0.0a4.tar.gz]
+[2024-05-10 10:59:49] INFO root fetch - main [MainThread]: End processing [schemapack]: success
+[2024-05-10 10:59:49] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-10 10:59:49] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-10 10:59:49] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-10 10:59:50] INFO root fetch - processPackages [proxy.py]: Remove: archive file [/home/abi/fetcher/tmp/proxy.py-2.4.4rc4.tar.gz]
+[2024-05-10 10:59:50] INFO root fetch - processPackages [proxy.py]: Remove: archive file [/home/abi/fetcher/tmp/proxy.py-2.4.4rc5.tar.gz]
+[2024-05-10 10:59:50] INFO root fetch - main [MainThread]: End processing [proxy.py]: success
+[2024-05-10 10:59:50] INFO root fetch - main [MainThread]: Store serial: [23143689]
