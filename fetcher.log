@@ -12932,3 +12932,78 @@
 [2024-05-10 11:35:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-10 11:35:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-10 11:35:46] INFO root fetch - main [MainThread]: Store serial: [23144127]
+[2024-05-10 11:37:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144127]
+[2024-05-10 11:37:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audb
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NatanStanek
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvargparse
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imsciences
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PREN-flawas
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anathematizesz
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai2-kit
+[2024-05-10 11:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celitech-sdk
+[2024-05-10 11:37:58] INFO root fetch - processPackages [NatanStanek]: New version: [0.13.1] Old Version: [0.13]
+[2024-05-10 11:37:58] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 11:37:59] INFO root fetch - processPackages [audb]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-05-10 11:37:59] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/05/fa/8efee88fc52a016c8504f7f30bee553014f5c7c4b5852fdd5c5af16c0cd0/natanstanek-0.13.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.1] Old Version: [0.5.5.0]
+[2024-05-10 11:37:59] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 11:37:59] INFO root fetch - processPackages [anathematizesz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 11:37:59] INFO root fetch - processPackages [cvargparse]: New version: [0.5.4] Old Version: [0.5.3.1]
+[2024-05-10 11:37:59] INFO root fetch - processPackages [celitech-sdk]: New version: [1.1.57] Old Version: [1.1.56]
+[2024-05-10 11:37:59] INFO root fetch - processPackages [audb]: Downloading https://files.pythonhosted.org/packages/4c/66/e67ced282c9ab7911022b2ea2c4cc6ffc44545fa5acd6163be9001f85445/audb-1.6.4.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [anathematizesz]: Downloading https://files.pythonhosted.org/packages/ea/4a/0e95e0690a4aee4646d04b56eabbb9953d5cfa592d3bbbeacd3995a5a56f/anathematizesz-1.1.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/bb/3b/c3413b52e24116cecdb5be1943f48353cbe1f9971ce292d53943884261c8/imsciences-0.5.5.0.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [cvargparse]: Downloading https://files.pythonhosted.org/packages/a8/05/289662fb173883fafb1f42f53f54aedeb162945413040ea1e088fb847aaf/cvargparse-0.5.3.1.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/fa/a8/9c5e63ccca0192151966f6d76b33ec0ce8391746ab25adcb02ec311348ac/celitech_sdk-1.1.56.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/21/8e/54677e8c4a5505d657ec731e42653186380b39112e606f56b555b8636835/natanstanek-0.13.1.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [NatanStanek]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [NatanStanek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natanstanek-0.13.tar.gz tmp/natanstanek-0.13.1.tar.gz --markdown 20240510/N/NatanStanek/0.13-0.13.1/README.md --exclude *.pyd
+[2024-05-10 11:37:59] INFO root fetch - processPackages [audb]: Downloading https://files.pythonhosted.org/packages/e8/59/356952f63c8b3eabaabe455b779f888960fa0818e60f01b6b45ea9eda3b7/audb-1.6.5.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [anathematizesz]: Downloading https://files.pythonhosted.org/packages/7b/89/9731d6b54c73f0174df1821a50d4a75e64e81d3bfb53e1fe2119be6c0539/anathematizesz-2.1.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e9/1c/5da9fcf4487a8cabe58613797f8696e29f26f984716d448c49edca44a25d/imsciences-0.5.5.1.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [cvargparse]: Downloading https://files.pythonhosted.org/packages/ba/61/bce045db3a6b80486c931f896a2954a0e87911724c4260b3e1b187c2bb25/cvargparse-0.5.4.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/a9/a5/70d1b696e3df0566dea3da2bcd12df9c31e871fdc9502625a915841ff7b2/celitech_sdk-1.1.57.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-10 11:37:59] INFO root fetch - processPackages [anathematizesz]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.5.0.tar.gz tmp/imsciences-0.5.5.1.tar.gz --markdown 20240510/i/imsciences/0.5.5.0-0.5.5.1/README.md --exclude *.pyd
+[2024-05-10 11:37:59] INFO root fetch - processPackages [audb]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [audb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audb-1.6.4.tar.gz tmp/audb-1.6.5.tar.gz --markdown 20240510/a/audb/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-05-10 11:37:59] INFO root fetch - processPackages [anathematizesz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anathematizesz-1.1.tar.gz tmp/anathematizesz-2.1.tar.gz --markdown 20240510/a/anathematizesz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 11:37:59] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 11:37:59] INFO root fetch - processPackages [cvargparse]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [cvargparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvargparse-0.5.3.1.tar.gz tmp/cvargparse-0.5.4.tar.gz --markdown 20240510/c/cvargparse/0.5.3.1-0.5.4/README.md --exclude *.pyd
+[2024-05-10 11:37:59] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240510/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 11:37:59] INFO root fetch - processPackages [celitech-sdk]: executing diffoscope
+[2024-05-10 11:37:59] INFO root fetch - processPackages [celitech-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celitech_sdk-1.1.56.tar.gz tmp/celitech_sdk-1.1.57.tar.gz --markdown 20240510/c/celitech-sdk/1.1.56-1.1.57/README.md --exclude *.pyd
+[2024-05-10 11:38:00] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.13.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.13.1.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - main [MainThread]: End processing [NatanStanek]: success
+[2024-05-10 11:38:00] INFO root fetch - processPackages [cvargparse]: Remove: archive file [/home/abi/fetcher/tmp/cvargparse-0.5.3.1.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - processPackages [cvargparse]: Remove: archive file [/home/abi/fetcher/tmp/cvargparse-0.5.4.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - main [MainThread]: End processing [cvargparse]: success
+[2024-05-10 11:38:00] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.0.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.1.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-10 11:38:00] INFO root fetch - processPackages [anathematizesz]: Remove: archive file [/home/abi/fetcher/tmp/anathematizesz-1.1.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - processPackages [anathematizesz]: Remove: archive file [/home/abi/fetcher/tmp/anathematizesz-2.1.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - main [MainThread]: End processing [anathematizesz]: success
+[2024-05-10 11:38:00] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-10 11:38:00] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.56.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.57.tar.gz]
+[2024-05-10 11:38:00] INFO root fetch - main [MainThread]: End processing [celitech-sdk]: success
+[2024-05-10 11:38:01] INFO root fetch - processPackages [audb]: Remove: archive file [/home/abi/fetcher/tmp/audb-1.6.4.tar.gz]
+[2024-05-10 11:38:01] INFO root fetch - processPackages [audb]: Remove: archive file [/home/abi/fetcher/tmp/audb-1.6.5.tar.gz]
+[2024-05-10 11:38:01] INFO root fetch - main [MainThread]: End processing [audb]: success
+[2024-05-10 11:38:01] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 11:38:01] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 11:38:01] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 11:38:01] INFO root fetch - main [MainThread]: Store serial: [23144150]
