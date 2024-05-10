@@ -10467,3 +10467,63 @@
 [2024-05-10 10:09:12] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
 [2024-05-10 10:09:12] INFO root fetch - main [MainThread]: End processing [imesh]: success
 [2024-05-10 10:09:12] INFO root fetch - main [MainThread]: Store serial: [23143096]
+[2024-05-10 10:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143096]
+[2024-05-10 10:11:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abasersz
+[2024-05-10 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zynapse
+[2024-05-10 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: common-packages
+[2024-05-10 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChainPipe
+[2024-05-10 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tgqSim
+[2024-05-10 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cgcsdk
+[2024-05-10 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdip
+[2024-05-10 10:11:21] INFO root fetch - processPackages [common-packages]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 10:11:21] WARNING root fetch - processPackages [abasersz]: Skipping, unable to determine old version
+[2024-05-10 10:11:21] INFO root fetch - main [MainThread]: End processing [abasersz] error
+[2024-05-10 10:11:21] INFO root fetch - processPackages [zynapse]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 10:11:21] INFO root fetch - processPackages [common-packages]: Downloading https://files.pythonhosted.org/packages/31/62/bbb3c9d5e4525b2f242cb799da2100347c021580cf0178c274a837308267/common_packages-0.1.8.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [tgqSim]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 10:11:21] INFO root fetch - processPackages [cgcsdk]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-10 10:11:21] INFO root fetch - processPackages [ChainPipe]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 10:11:21] INFO root fetch - processPackages [pdip]: New version: [0.6.9] Old Version: [0.6.7]
+[2024-05-10 10:11:21] INFO root fetch - processPackages [zynapse]: Downloading https://files.pythonhosted.org/packages/f4/da/e2d44dd335e8e83b5d630622e14aad69fa9090adfff38c09572f46cfe313/zynapse-0.1.0.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/9e/3f/fe71a0e830788c5233c1ff11b7097700dcbe8f59a30cd0974d77fe9533d3/tgqSim-0.1.2.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [common-packages]: Downloading https://files.pythonhosted.org/packages/00/24/17b8c9b44bab525ed938ed5bd08daebcfc2bf9d0857174089d20f54e7475/common_packages-0.1.9.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [ChainPipe]: Downloading https://files.pythonhosted.org/packages/b4/97/0e248e5d347339269f7295ac8b160ffbc0afde1c7463e7d2e61397329121/ChainPipe-0.1.0.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [pdip]: Downloading https://files.pythonhosted.org/packages/57/e7/58335e77e839d6c68b9fe200ce7408ecfd29bc6f3d2061e26b0c635befc3/pdip-0.6.7.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/87/65/76fc126d9c172f266d53810af9485e77124ffc8cbed45efe90cadc62eb31/cgcsdk-1.0.7.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [common-packages]: executing diffoscope
+[2024-05-10 10:11:21] INFO root fetch - processPackages [common-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_packages-0.1.8.tar.gz tmp/common_packages-0.1.9.tar.gz --markdown 20240510/c/common-packages/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 10:11:21] INFO root fetch - processPackages [zynapse]: Downloading https://files.pythonhosted.org/packages/64/25/239891c599a0f93744f56201d2a0f9be62507e2307c543f4d7cf17a855dd/zynapse-0.1.1.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/4e/10/d6c6df42dafa7b8e032367eb66ec0ee97696bbc7db820922b0db2bfe35a8/tgqSim-0.1.3.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [ChainPipe]: Downloading https://files.pythonhosted.org/packages/b2/d0/a461f0bd9237754ac178d05a4c8cb44a55d41ca1df5526ab70f5c7ec11b3/ChainPipe-0.1.1.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/96/2d/f9306d15a546710b8e32afd5408a06aba1725b554636cba710212320579d/cgcsdk-1.0.9.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [zynapse]: executing diffoscope
+[2024-05-10 10:11:21] INFO root fetch - processPackages [zynapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zynapse-0.1.0.tar.gz tmp/zynapse-0.1.1.tar.gz --markdown 20240510/z/zynapse/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 10:11:21] INFO root fetch - processPackages [pdip]: Downloading https://files.pythonhosted.org/packages/c1/7a/441621bfafd823148cc81baf788849475a360bc3c0812d0e02c570be6e1c/pdip-0.6.9.tar.gz
+[2024-05-10 10:11:21] INFO root fetch - processPackages [ChainPipe]: executing diffoscope
+[2024-05-10 10:11:21] INFO root fetch - processPackages [ChainPipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChainPipe-0.1.0.tar.gz tmp/ChainPipe-0.1.1.tar.gz --markdown 20240510/C/ChainPipe/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 10:11:21] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-10 10:11:21] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.2.tar.gz tmp/tgqSim-0.1.3.tar.gz --markdown 20240510/t/tgqSim/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 10:11:21] INFO root fetch - processPackages [cgcsdk]: executing diffoscope
+[2024-05-10 10:11:21] INFO root fetch - processPackages [cgcsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgcsdk-1.0.7.tar.gz tmp/cgcsdk-1.0.9.tar.gz --markdown 20240510/c/cgcsdk/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-10 10:11:21] INFO root fetch - processPackages [pdip]: executing diffoscope
+[2024-05-10 10:11:21] INFO root fetch - processPackages [pdip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdip-0.6.7.tar.gz tmp/pdip-0.6.9.tar.gz --markdown 20240510/p/pdip/0.6.7-0.6.9/README.md --exclude *.pyd
+[2024-05-10 10:11:22] INFO root fetch - processPackages [common-packages]: Remove: archive file [/home/abi/fetcher/tmp/common_packages-0.1.8.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - processPackages [common-packages]: Remove: archive file [/home/abi/fetcher/tmp/common_packages-0.1.9.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - main [MainThread]: End processing [common-packages]: success
+[2024-05-10 10:11:22] INFO root fetch - processPackages [zynapse]: Remove: archive file [/home/abi/fetcher/tmp/zynapse-0.1.0.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - processPackages [zynapse]: Remove: archive file [/home/abi/fetcher/tmp/zynapse-0.1.1.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - main [MainThread]: End processing [zynapse]: success
+[2024-05-10 10:11:22] INFO root fetch - processPackages [ChainPipe]: Remove: archive file [/home/abi/fetcher/tmp/ChainPipe-0.1.0.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - processPackages [ChainPipe]: Remove: archive file [/home/abi/fetcher/tmp/ChainPipe-0.1.1.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - main [MainThread]: End processing [ChainPipe]: success
+[2024-05-10 10:11:22] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.2.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.3.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-10 10:11:22] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-1.0.7.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-1.0.9.tar.gz]
+[2024-05-10 10:11:22] INFO root fetch - main [MainThread]: End processing [cgcsdk]: success
+[2024-05-10 10:11:23] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.7.tar.gz]
+[2024-05-10 10:11:23] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.9.tar.gz]
+[2024-05-10 10:11:23] INFO root fetch - main [MainThread]: End processing [pdip]: success
+[2024-05-10 10:11:23] INFO root fetch - main [MainThread]: Store serial: [23143116]
