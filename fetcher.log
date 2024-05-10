@@ -7108,3 +7108,36 @@
 [2024-05-10 07:09:57] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-10 07:09:57] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-10 07:09:57] INFO root fetch - main [MainThread]: Store serial: [23141542]
+[2024-05-10 07:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141542]
+[2024-05-10 07:12:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 07:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beyondllm
+[2024-05-10 07:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omopsurvey
+[2024-05-10 07:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygame-screen-record
+[2024-05-10 07:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-pandas
+[2024-05-10 07:12:06] WARNING root fetch - processPackages [omopsurvey]: Skipping, unable to determine old version
+[2024-05-10 07:12:06] INFO root fetch - main [MainThread]: End processing [omopsurvey] error
+[2024-05-10 07:12:06] INFO root fetch - processPackages [beyondllm]: New version: [0.2.0] Old Version: [0.0.1]
+[2024-05-10 07:12:06] INFO root fetch - processPackages [pygame-screen-record]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-10 07:12:06] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-10 07:12:06] INFO root fetch - processPackages [beyondllm]: Downloading https://files.pythonhosted.org/packages/e2/bd/5bb7ab439cdc4a67d5744eec09b74531e0947d4af9f2ca57f9c6ee7ddf4e/beyondllm-0.0.1.tar.gz
+[2024-05-10 07:12:06] INFO root fetch - processPackages [pygame-screen-record]: Downloading https://files.pythonhosted.org/packages/09/fe/57f6f6b6c8b2fef2434d7ac12557700a77e9938a29fb65c8e251a139f173/pygame-screen-record-0.0.6.tar.gz
+[2024-05-10 07:12:06] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-10 07:12:07] INFO root fetch - processPackages [beyondllm]: Downloading https://files.pythonhosted.org/packages/4e/84/afd7eb01e6e294edb122913bebb4a0b4e04242b22d122c9f16836072f9b5/beyondllm-0.2.0.tar.gz
+[2024-05-10 07:12:07] INFO root fetch - processPackages [pygame-screen-record]: Downloading https://files.pythonhosted.org/packages/08/ac/d40b05cab098ccbd3ae4d4d6ebb5eed61203744312fdbe77602bc42c5783/pygame_screen_record-0.1.0.tar.gz
+[2024-05-10 07:12:07] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-10 07:12:07] INFO root fetch - processPackages [beyondllm]: executing diffoscope
+[2024-05-10 07:12:07] INFO root fetch - processPackages [beyondllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beyondllm-0.0.1.tar.gz tmp/beyondllm-0.2.0.tar.gz --markdown 20240510/b/beyondllm/0.0.1-0.2.0/README.md --exclude *.pyd
+[2024-05-10 07:12:07] INFO root fetch - processPackages [pygame-screen-record]: executing diffoscope
+[2024-05-10 07:12:07] INFO root fetch - processPackages [pygame-screen-record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame-screen-record-0.0.6.tar.gz tmp/pygame_screen_record-0.1.0.tar.gz --markdown 20240510/p/pygame-screen-record/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-10 07:12:07] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-10 07:12:07] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240510/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:12:07] INFO root fetch - processPackages [pygame-screen-record]: Remove: archive file [/home/abi/fetcher/tmp/pygame-screen-record-0.0.6.tar.gz]
+[2024-05-10 07:12:07] INFO root fetch - processPackages [pygame-screen-record]: Remove: archive file [/home/abi/fetcher/tmp/pygame_screen_record-0.1.0.tar.gz]
+[2024-05-10 07:12:07] INFO root fetch - main [MainThread]: End processing [pygame-screen-record]: success
+[2024-05-10 07:12:08] INFO root fetch - processPackages [beyondllm]: Remove: archive file [/home/abi/fetcher/tmp/beyondllm-0.0.1.tar.gz]
+[2024-05-10 07:12:08] INFO root fetch - processPackages [beyondllm]: Remove: archive file [/home/abi/fetcher/tmp/beyondllm-0.2.0.tar.gz]
+[2024-05-10 07:12:08] INFO root fetch - main [MainThread]: End processing [beyondllm]: success
+[2024-05-10 07:12:08] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-10 07:12:08] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-10 07:12:08] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-10 07:12:08] INFO root fetch - main [MainThread]: Store serial: [23141554]
