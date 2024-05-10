@@ -4069,3 +4069,69 @@
 [2024-05-10 04:01:02] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715231579.tar.gz]
 [2024-05-10 04:01:02] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-10 04:01:02] INFO root fetch - main [MainThread]: Store serial: [23140224]
+[2024-05-10 04:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140224]
+[2024-05-10 04:03:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 04:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-fastly
+[2024-05-10 04:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dg-face-tracking
+[2024-05-10 04:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-ns1
+[2024-05-10 04:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: npc_shields
+[2024-05-10 04:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kafka
+[2024-05-10 04:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-postgresql
+[2024-05-10 04:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-libvirt
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1715234502] Old Version: [3.3.0a1715228975]
+[2024-05-10 04:03:12] INFO root fetch - processPackages [npc_shields]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1715267369] Old Version: [3.8.0a1715245833]
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1715233706] Old Version: [0.5.0a1715060803]
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.7.0a1715228438] Old Version: [8.7.0a1714563248]
+[2024-05-10 04:03:12] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/4c/d1/d6d10db999400e46c6ed59e6cdbfe7dcc2d0cc357a6eb5e0a37c8aaf9876/pulumi_ns1-3.3.0a1715228975.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [npc_shields]: Downloading https://files.pythonhosted.org/packages/33/cd/293a5cd832070091e4564cdd4c11b22db9bb5bd32747afab6c6175b602c8/npc_shields-0.1.5.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/09/92/518ec268ab85f432931e2f9958d5d7649b877ef99a0cd72c19ac9df9fe1d/pulumi_kafka-3.8.0a1715245833.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/14/8e/50b23ced2aaabd4b5b62f02189af63571c9017109621841f8a8f5715d824/pulumi_libvirt-0.5.0a1715060803.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/b0/23/30e0bf17739d34c57f7b8977b9af96e4a8aecb832a95164cee63fe03e5fc/pulumi_fastly-8.7.0a1714563248.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/79/27/2afdd2ef045df22466ff57a5d17c3531e6f5c0fc6804ca52491357078c38/dg_face_tracking-0.1.8-py3-none-any.whl
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/cb/85/fd3e1c485e0de6c676132106d5d39da137ee045a0eae1b5c8a481a9ae56a/pulumi_kafka-3.8.0a1715267369.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [npc_shields]: Downloading https://files.pythonhosted.org/packages/6d/3e/c2ded0c7421b5f27cbe0e3d0457f7a0404dd60b1f4421db90e529c249172/npc_shields-0.1.6.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/cd/19/2e9189d47a498bd361ffce985b70f29f3fff7c1821f7b46d0767fec753e8/pulumi_libvirt-0.5.0a1715233706.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/89/62/2871c6c077fc369420b99b1aefa9c3e6b1067fc49092b12116c80468441b/pulumi_fastly-8.7.0a1715228438.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/2e/85/b0fbf43eba931f3b0fd4ff9561d76817d43a2b5b409469ccc3c32a6e49d6/pulumi_ns1-3.3.0a1715234502.tar.gz
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715245833.tar.gz tmp/pulumi_kafka-3.8.0a1715267369.tar.gz --markdown 20240510/p/pulumi-kafka/3.8.0a1715245833-3.8.0a1715267369/README.md --exclude *.pyd
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240510/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-10 04:03:12] INFO root fetch - processPackages [npc_shields]: executing diffoscope
+[2024-05-10 04:03:12] INFO root fetch - processPackages [npc_shields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_shields-0.1.5.tar.gz tmp/npc_shields-0.1.6.tar.gz --markdown 20240510/n/npc_shields/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1715060803.tar.gz tmp/pulumi_libvirt-0.5.0a1715233706.tar.gz --markdown 20240510/p/pulumi-libvirt/0.5.0a1715060803-0.5.0a1715233706/README.md --exclude *.pyd
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1715228975.tar.gz tmp/pulumi_ns1-3.3.0a1715234502.tar.gz --markdown 20240510/p/pulumi-ns1/3.3.0a1715228975-3.3.0a1715234502/README.md --exclude *.pyd
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-10 04:03:12] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.7.0a1714563248.tar.gz tmp/pulumi_fastly-8.7.0a1715228438.tar.gz --markdown 20240510/p/pulumi-fastly/8.7.0a1714563248-8.7.0a1715228438/README.md --exclude *.pyd
+[2024-05-10 04:03:12] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/0d/58/eb7cdb04b923201a004e8e2a15d07cd67a34137de53e041139b1ee76a783/dg_face_tracking-0.1.9-py3-none-any.whl
+[2024-05-10 04:03:13] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-05-10 04:03:13] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.1.8-py3-none-any.whl.zip tmp/dg_face_tracking-0.1.9-py3-none-any.whl.zip --markdown 20240510/d/dg-face-tracking/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715245833.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715267369.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715060803.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715233706.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-10 04:03:13] INFO root fetch - processPackages [npc_shields]: Remove: archive file [/home/abi/fetcher/tmp/npc_shields-0.1.5.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - processPackages [npc_shields]: Remove: archive file [/home/abi/fetcher/tmp/npc_shields-0.1.6.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - main [MainThread]: End processing [npc_shields]: success
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714563248.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1715228438.tar.gz]
+[2024-05-10 04:03:13] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-10 04:03:13] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.8-py3-none-any.whl.zip]
+[2024-05-10 04:03:13] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.9-py3-none-any.whl.zip]
+[2024-05-10 04:03:13] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-05-10 04:03:14] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715228975.tar.gz]
+[2024-05-10 04:03:14] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715234502.tar.gz]
+[2024-05-10 04:03:14] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-05-10 04:03:14] INFO root fetch - main [MainThread]: Store serial: [23140246]
