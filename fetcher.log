@@ -17859,3 +17859,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:31:27] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.0.9.tar.gz]
 [2024-05-10 14:31:27] INFO root fetch - main [MainThread]: End processing [eprllib]: success
 [2024-05-10 14:31:27] INFO root fetch - main [MainThread]: Store serial: [23146212]
+[2024-05-10 14:33:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146212]
+[2024-05-10 14:33:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: justatestwithcpp
+[2024-05-10 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminalradio
+[2024-05-10 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maya-umbrella
+[2024-05-10 14:33:36] INFO root fetch - processPackages [justatestwithcpp]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 14:33:36] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/73/68/812a2f2c7ebb938c71cee95aef62678cac77122bfedaa0883232d1c85517/justatestwithcpp-0.1.4.tar.gz
+[2024-05-10 14:33:36] WARNING root fetch - processPackages [terminalradio]: Skipping, unable to determine old version
+[2024-05-10 14:33:36] INFO root fetch - main [MainThread]: End processing [terminalradio] error
+[2024-05-10 14:33:36] INFO root fetch - processPackages [maya-umbrella]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-10 14:33:36] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/bc/f6/1da7d70cfdda44da2e6ab061bb58101a4fda4b45cf40efcdd0803c8ddf38/maya_umbrella-0.7.0.tar.gz
+[2024-05-10 14:33:37] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/aa/02/1c4e4ded33392ba6295b9ccab88f1960f668860b9c612abe321a766e3837/justatestwithcpp-0.1.5.tar.gz
+[2024-05-10 14:33:37] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/ea/6b/26c26f681f5b1f45934840440691471fa200f1ccbc8578c21fae359d1fb0/maya_umbrella-0.8.0.tar.gz
+[2024-05-10 14:33:37] INFO root fetch - processPackages [justatestwithcpp]: executing diffoscope
+[2024-05-10 14:33:37] INFO root fetch - processPackages [justatestwithcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justatestwithcpp-0.1.4.tar.gz tmp/justatestwithcpp-0.1.5.tar.gz --markdown 20240510/j/justatestwithcpp/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 14:33:37] INFO root fetch - processPackages [maya-umbrella]: executing diffoscope
+[2024-05-10 14:33:37] INFO root fetch - processPackages [maya-umbrella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maya_umbrella-0.7.0.tar.gz tmp/maya_umbrella-0.8.0.tar.gz --markdown 20240510/m/maya-umbrella/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-10 14:33:37] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.4.tar.gz]
+[2024-05-10 14:33:37] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.5.tar.gz]
+[2024-05-10 14:33:37] INFO root fetch - main [MainThread]: End processing [justatestwithcpp]: success
+[2024-05-10 14:33:37] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.7.0.tar.gz]
+[2024-05-10 14:33:37] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.8.0.tar.gz]
+[2024-05-10 14:33:37] INFO root fetch - main [MainThread]: End processing [maya-umbrella]: success
+[2024-05-10 14:33:37] INFO root fetch - main [MainThread]: Store serial: [23146222]
