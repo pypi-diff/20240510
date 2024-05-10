@@ -21981,3 +21981,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:48:00] INFO root fetch - processPackages [commutez]: Remove: archive file [/home/abi/fetcher/tmp/commutez-2.1.tar.gz]
 [2024-05-10 16:48:00] INFO root fetch - main [MainThread]: End processing [commutez]: success
 [2024-05-10 16:48:00] INFO root fetch - main [MainThread]: Store serial: [23148292]
+[2024-05-10 16:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148292]
+[2024-05-10 16:50:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-db
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: btc-embedded
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygramcore
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sshnpd
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ape-hardhat
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gtests
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-fastly
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-confluentcloud
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NsgOrcFx
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dghs-imgutils
+[2024-05-10 16:50:09] INFO root fetch - processPackages [gtests]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pygramcore]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pypomes-db]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-10 16:50:09] WARNING root fetch - processPackages [NsgOrcFx]: Skipping, unable to determine old version
+[2024-05-10 16:50:09] INFO root fetch - main [MainThread]: End processing [NsgOrcFx] error
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ape-hardhat]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.7.0a1715303918] Old Version: [8.7.0a1715228438]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/5a/74/63100b82c8ae01a45512975998fc5917cc2437ad082bc55dffcf61d0f423/gtests-0.0.5.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [sshnpd]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [dghs-imgutils]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/32/51/e5dc67ad4fd04d66053e79f34286b342d975a3a436788eae4a37ac8c3378/pypomes_db-0.6.3.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/89/62/2871c6c077fc369420b99b1aefa9c3e6b1067fc49092b12116c80468441b/pulumi_fastly-8.7.0a1715228438.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pygramcore]: Downloading https://files.pythonhosted.org/packages/fb/cd/9cb94708d379990e0885c67ff7502efdcb93fa5446627a97233f815a55f7/pygramcore-1.0.1.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [ape-hardhat]: Downloading https://files.pythonhosted.org/packages/07/50/faaf8503d6d32e3bbfd461d97dd2d7d242f1911837eb976a85f55b902727/ape-hardhat-0.7.1.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [sshnpd]: Downloading https://files.pythonhosted.org/packages/9f/4b/5c6ecc5a98227a50642761dfff25b81424b74fe0944b368dff7f67d17497/sshnpd-0.4.8.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/c3/60/1cd79c302eb6dbe70ddcbda58b0d4bbf682e725ceccae25ce0cb21e2a1f4/dghs_imgutils-0.4.3.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-10 16:50:09] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c3/b8/b2ef41ceb41a255afddf705a1f827b9a0328ac6875029397e1ca6888bd99/gtests-0.0.6.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/08/4b/67eda473fed501e37b9a312c88df396407e5778a36eb833ed20ab25c6b2f/pypomes_db-0.6.4.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pygramcore]: Downloading https://files.pythonhosted.org/packages/3a/10/e9aba66327e80d4e01fb991850014656dcc8181e0515edb554117d1c1774/pygramcore-1.0.2.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240510/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/80/b1/7ed8fddc76d1ef1e4a38475e38c0aff0ac717700cc39cbac4186560f3eeb/pulumi_fastly-8.7.0a1715303918.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [ape-hardhat]: Downloading https://files.pythonhosted.org/packages/71/cc/4ed81b6f7898acb58e7a7d1a12119af227ebbb14d0eb7cae8fe81478aba3/ape-hardhat-0.7.2.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [sshnpd]: Downloading https://files.pythonhosted.org/packages/a7/2a/2cf19788a3bc677dfce76cd05c7d7520e420fbb885f283ade4a1e7af3dee/sshnpd-0.4.9.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.5.tar.gz tmp/gtests-0.0.6.tar.gz --markdown 20240510/g/gtests/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.6.3.tar.gz tmp/pypomes_db-0.6.4.tar.gz --markdown 20240510/p/pypomes-db/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/cf/65/b8b9811e19e21f20ebfb6e93c9ac7cb219cc3f96456e36880144f8671472/dghs_imgutils-0.4.4.tar.gz
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pygramcore]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pygramcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygramcore-1.0.1.tar.gz tmp/pygramcore-1.0.2.tar.gz --markdown 20240510/p/pygramcore/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.7.0a1715228438.tar.gz tmp/pulumi_fastly-8.7.0a1715303918.tar.gz --markdown 20240510/p/pulumi-fastly/8.7.0a1715228438-8.7.0a1715303918/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240510/b/btc-embedded/24.1.5-24.1.6/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [sshnpd]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [sshnpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshnpd-0.4.8.tar.gz tmp/sshnpd-0.4.9.tar.gz --markdown 20240510/s/sshnpd/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [ape-hardhat]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [ape-hardhat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-hardhat-0.7.1.tar.gz tmp/ape-hardhat-0.7.2.tar.gz --markdown 20240510/a/ape-hardhat/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [dghs-imgutils]: executing diffoscope
+[2024-05-10 16:50:10] INFO root fetch - processPackages [dghs-imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dghs_imgutils-0.4.3.tar.gz tmp/dghs_imgutils-0.4.4.tar.gz --markdown 20240510/d/dghs-imgutils/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-10 16:50:10] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.5.tar.gz]
+[2024-05-10 16:50:10] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.6.tar.gz]
+[2024-05-10 16:50:10] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.6.3.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.6.4.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pygramcore]: Remove: archive file [/home/abi/fetcher/tmp/pygramcore-1.0.1.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pygramcore]: Remove: archive file [/home/abi/fetcher/tmp/pygramcore-1.0.2.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [pygramcore]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [sshnpd]: Remove: archive file [/home/abi/fetcher/tmp/sshnpd-0.4.8.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [sshnpd]: Remove: archive file [/home/abi/fetcher/tmp/sshnpd-0.4.9.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [sshnpd]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1715228438.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1715303918.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [ape-hardhat]: Remove: archive file [/home/abi/fetcher/tmp/ape-hardhat-0.7.1.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [ape-hardhat]: Remove: archive file [/home/abi/fetcher/tmp/ape-hardhat-0.7.2.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [ape-hardhat]: success
+[2024-05-10 16:50:11] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs_imgutils-0.4.3.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs_imgutils-0.4.4.tar.gz]
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
+[2024-05-10 16:50:11] INFO root fetch - main [MainThread]: Store serial: [23148324]
