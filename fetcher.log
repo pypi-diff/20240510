@@ -16813,3 +16813,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:51:41] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-1.1.2.tar.gz]
 [2024-05-10 13:51:41] INFO root fetch - main [MainThread]: End processing [happy-vllm]: success
 [2024-05-10 13:51:41] INFO root fetch - main [MainThread]: Store serial: [23145695]
+[2024-05-10 13:54:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145695]
+[2024-05-10 13:54:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 13:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codedepot-depot
+[2024-05-10 13:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rdsa-utils
+[2024-05-10 13:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-local
+[2024-05-10 13:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: attingez
+[2024-05-10 13:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bractletsz
+[2024-05-10 13:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: celus-nigiri
+[2024-05-10 13:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vios
+[2024-05-10 13:54:05] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 13:54:05] INFO root fetch - processPackages [rdsa-utils]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-10 13:54:05] INFO root fetch - processPackages [celus-nigiri]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-10 13:54:05] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 13:54:05] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4e/02/82d5dc03168143e31a13edfe21344444d2e7e75b3a7fa5e93a229cbdbd25/codedepot_depot-0.0.8.tar.gz
+[2024-05-10 13:54:05] INFO root fetch - processPackages [rdsa-utils]: Downloading https://files.pythonhosted.org/packages/9f/9e/119e20496ac9126a421e61a2d6b1e040f9422df35495f64855253c7eccda/rdsa-utils-0.1.9.tar.gz
+[2024-05-10 13:54:05] WARNING root fetch - processPackages [attingez]: Skipping, unable to determine old version
+[2024-05-10 13:54:05] INFO root fetch - main [MainThread]: End processing [attingez] error
+[2024-05-10 13:54:05] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/34/ff/54ecb00ea6c45ef7ce1b3d67a6afa03388acfd99d1998c62dd074e4669bd/celus_nigiri-2.1.0.tar.gz
+[2024-05-10 13:54:05] INFO root fetch - processPackages [bractletsz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:54:05] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-10 13:54:06] INFO root fetch - processPackages [vios]: New version: [2.4.0] Old Version: [2.3.6]
+[2024-05-10 13:54:06] INFO root fetch - processPackages [bractletsz]: Downloading https://files.pythonhosted.org/packages/df/1e/b77673dc1bba59cf3856a2cdafddbcb35d2b1743efb74d1d3d6291e03b3a/bractletsz-1.1.tar.gz
+[2024-05-10 13:54:06] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/ba/33/b42289173e6854c4adaaec4366238ee82a8aa6fe61b33aad0d27447bf1bc/codedepot_depot-0.0.9.tar.gz
+[2024-05-10 13:54:06] INFO root fetch - processPackages [rdsa-utils]: Downloading https://files.pythonhosted.org/packages/0c/31/190d08cd9f1184a26d0e10a64daacb9a9ba5491034c90035b25894f53104/rdsa_utils-0.2.0.tar.gz
+[2024-05-10 13:54:06] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/41/38/c9915ef27e35c2d32d988f3953a0d4ef81001877abd864b18b5b6f4908ea/celus_nigiri-2.2.0.tar.gz
+[2024-05-10 13:54:06] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-10 13:54:06] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/8c/58/64b508f9a99beacf521b9f028fa067eccc6b2fdc5c14db6f8c7c6d7a14ac/vios-2.3.6-py3-none-any.whl
+[2024-05-10 13:54:06] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-05-10 13:54:06] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.8.tar.gz tmp/codedepot_depot-0.0.9.tar.gz --markdown 20240510/c/codedepot-depot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 13:54:06] INFO root fetch - processPackages [rdsa-utils]: executing diffoscope
+[2024-05-10 13:54:06] INFO root fetch - processPackages [rdsa-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdsa-utils-0.1.9.tar.gz tmp/rdsa_utils-0.2.0.tar.gz --markdown 20240510/r/rdsa-utils/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-10 13:54:06] INFO root fetch - processPackages [celus-nigiri]: executing diffoscope
+[2024-05-10 13:54:06] INFO root fetch - processPackages [celus-nigiri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celus_nigiri-2.1.0.tar.gz tmp/celus_nigiri-2.2.0.tar.gz --markdown 20240510/c/celus-nigiri/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-10 13:54:06] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-10 13:54:06] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240510/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 13:54:06] INFO root fetch - processPackages [bractletsz]: Downloading https://files.pythonhosted.org/packages/ce/50/57379fd1a2b6b872e7d1f85a71b9786d0cd22b3e2ebe6fa40b95324f4f37/bractletsz-2.1.tar.gz
+[2024-05-10 13:54:06] INFO root fetch - processPackages [bractletsz]: executing diffoscope
+[2024-05-10 13:54:06] INFO root fetch - processPackages [bractletsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bractletsz-1.1.tar.gz tmp/bractletsz-2.1.tar.gz --markdown 20240510/b/bractletsz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:54:06] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/14/18/a3d88ce21e5e8cc13f0c800e4ad047ea2db368c3130ca3a935089c875adc/vios-2.4.0-py3-none-any.whl
+[2024-05-10 13:54:06] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-05-10 13:54:06] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.3.6-py3-none-any.whl.zip tmp/vios-2.4.0-py3-none-any.whl.zip --markdown 20240510/v/vios/2.3.6-2.4.0/README.md --exclude *.pyd
+[2024-05-10 13:54:07] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.1.0.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.2.0.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - main [MainThread]: End processing [celus-nigiri]: success
+[2024-05-10 13:54:07] INFO root fetch - processPackages [rdsa-utils]: Remove: archive file [/home/abi/fetcher/tmp/rdsa-utils-0.1.9.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - processPackages [rdsa-utils]: Remove: archive file [/home/abi/fetcher/tmp/rdsa_utils-0.2.0.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - main [MainThread]: End processing [rdsa-utils]: success
+[2024-05-10 13:54:07] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-10 13:54:07] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.8.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.9.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-05-10 13:54:07] INFO root fetch - processPackages [bractletsz]: Remove: archive file [/home/abi/fetcher/tmp/bractletsz-1.1.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - processPackages [bractletsz]: Remove: archive file [/home/abi/fetcher/tmp/bractletsz-2.1.tar.gz]
+[2024-05-10 13:54:07] INFO root fetch - main [MainThread]: End processing [bractletsz]: success
+[2024-05-10 13:54:07] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.3.6-py3-none-any.whl.zip]
+[2024-05-10 13:54:07] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.4.0-py3-none-any.whl.zip]
+[2024-05-10 13:54:07] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-05-10 13:54:07] INFO root fetch - main [MainThread]: Store serial: [23145716]
