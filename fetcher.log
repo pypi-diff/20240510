@@ -21354,3 +21354,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:25:57] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller_hooks_contrib-2024.6.tar.gz]
 [2024-05-10 16:25:57] INFO root fetch - main [MainThread]: End processing [pyinstaller-hooks-contrib]: success
 [2024-05-10 16:25:57] INFO root fetch - main [MainThread]: Store serial: [23147950]
+[2024-05-10 16:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147950]
+[2024-05-10 16:28:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 16:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amalgam-lang
+[2024-05-10 16:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: work
+[2024-05-10 16:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: control-op-scnu
+[2024-05-10 16:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcube
+[2024-05-10 16:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cardiosphygmographz
+[2024-05-10 16:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emkonfig
+[2024-05-10 16:28:06] INFO root fetch - processPackages [emkonfig]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 16:28:06] INFO root fetch - processPackages [control-op-scnu]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 16:28:06] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 16:28:06] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/d6/ca/d10f69adc3c59688227c252e41ffdaabd149f35025d457d286ad8141ce26/emkonfig-0.1.4.tar.gz
+[2024-05-10 16:28:06] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-05-10 16:28:06] INFO root fetch - processPackages [work]: New version: [1.1.0b1] Old Version: [1.1.0a4]
+[2024-05-10 16:28:06] WARNING root fetch - processPackages [cardiosphygmographz]: Skipping, unable to determine old version
+[2024-05-10 16:28:06] INFO root fetch - main [MainThread]: End processing [cardiosphygmographz] error
+[2024-05-10 16:28:06] INFO root fetch - processPackages [amalgam-lang]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-10 16:28:06] INFO root fetch - processPackages [control-op-scnu]: Downloading https://files.pythonhosted.org/packages/bf/ba/26eb0f6ef0a8d3f2757ec921c62d81808ebf7dc3fe773f1ba70096b9d3a8/control_op_scnu-0.1.0.tar.gz
+[2024-05-10 16:28:06] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/56/1d/9688532dab51d71896c43c73c3d03adad8f55493d9ae15bb0d5896e4c51b/work-1.1.0a4.tar.gz
+[2024-05-10 16:28:06] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/d6/60/f5fc90769b6cd230fe159d57d547e0449290e1f5ab69e415b35ec6afccb7/emkonfig-0.1.5.tar.gz
+[2024-05-10 16:28:06] INFO root fetch - processPackages [amalgam-lang]: Downloading https://files.pythonhosted.org/packages/1f/bb/2b41ffece52d20bec3d5b7622e3b3b8b953c74733f20bf731873baa3aae5/amalgam-lang-9.0.0.tar.gz
+[2024-05-10 16:28:06] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-05-10 16:28:06] WARNING root fetch - processPackages [amalgam-lang]: Skipping package: exceeds size limit 21400981>=10485760
+[2024-05-10 16:28:06] INFO root fetch - main [MainThread]: End processing [amalgam-lang] error
+[2024-05-10 16:28:06] INFO root fetch - processPackages [emkonfig]: executing diffoscope
+[2024-05-10 16:28:06] INFO root fetch - processPackages [emkonfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emkonfig-0.1.4.tar.gz tmp/emkonfig-0.1.5.tar.gz --markdown 20240510/e/emkonfig/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 16:28:06] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-05-10 16:28:06] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240510/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 16:28:06] INFO root fetch - processPackages [control-op-scnu]: Downloading https://files.pythonhosted.org/packages/a8/be/5406cf16173c31717055aeecba9152ebbfdaba81b5e02e3c765a7e3814bf/control_op_scnu-0.1.1.tar.gz
+[2024-05-10 16:28:07] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/a8/79/c9585621628cbec5e4c234c56a04795abaf7032c17f4a3a15b00765e3def/work-1.1.0b1.tar.gz
+[2024-05-10 16:28:07] INFO root fetch - processPackages [control-op-scnu]: executing diffoscope
+[2024-05-10 16:28:07] INFO root fetch - processPackages [control-op-scnu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_op_scnu-0.1.0.tar.gz tmp/control_op_scnu-0.1.1.tar.gz --markdown 20240510/c/control-op-scnu/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 16:28:07] INFO root fetch - processPackages [work]: executing diffoscope
+[2024-05-10 16:28:07] INFO root fetch - processPackages [work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-1.1.0a4.tar.gz tmp/work-1.1.0b1.tar.gz --markdown 20240510/w/work/1.1.0a4-1.1.0b1/README.md --exclude *.pyd
+[2024-05-10 16:28:07] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.4.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.5.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - main [MainThread]: End processing [emkonfig]: success
+[2024-05-10 16:28:07] INFO root fetch - processPackages [control-op-scnu]: Remove: archive file [/home/abi/fetcher/tmp/control_op_scnu-0.1.0.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - processPackages [control-op-scnu]: Remove: archive file [/home/abi/fetcher/tmp/control_op_scnu-0.1.1.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - main [MainThread]: End processing [control-op-scnu]: success
+[2024-05-10 16:28:07] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-05-10 16:28:07] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0a4.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0b1.tar.gz]
+[2024-05-10 16:28:07] INFO root fetch - main [MainThread]: End processing [work]: success
+[2024-05-10 16:28:07] INFO root fetch - main [MainThread]: Store serial: [23147996]
