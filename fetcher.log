@@ -7754,3 +7754,30 @@
 [2024-05-10 07:43:16] INFO root fetch - processPackages [django-inapp-survey]: Remove: archive file [/home/abi/fetcher/tmp/django-inapp-survey-0.2.6.tar.gz]
 [2024-05-10 07:43:16] INFO root fetch - main [MainThread]: End processing [django-inapp-survey]: success
 [2024-05-10 07:43:16] INFO root fetch - main [MainThread]: Store serial: [23141848]
+[2024-05-10 07:45:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141848]
+[2024-05-10 07:45:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 07:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-05-10 07:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-datafactory
+[2024-05-10 07:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fileformats-medimage-fsl
+[2024-05-10 07:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fileformats-medimage-fsl-extras
+[2024-05-10 07:45:24] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-10 07:45:24] WARNING root fetch - processPackages [fileformats-medimage-fsl-extras]: Skipping, unable to determine old version
+[2024-05-10 07:45:24] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-fsl-extras] error
+[2024-05-10 07:45:24] WARNING root fetch - processPackages [fileformats-medimage-fsl]: Skipping, unable to determine old version
+[2024-05-10 07:45:24] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-fsl] error
+[2024-05-10 07:45:24] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-10 07:45:24] INFO root fetch - processPackages [azure-mgmt-datafactory]: New version: [7.1.0] Old Version: [7.0.0]
+[2024-05-10 07:45:25] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-10 07:45:25] INFO root fetch - processPackages [azure-mgmt-datafactory]: Downloading https://files.pythonhosted.org/packages/cf/d9/5ec4367559bc0ecc74cd43b0caff5d1f7ecae060af864aa9c3b7ca81a198/azure-mgmt-datafactory-7.0.0.tar.gz
+[2024-05-10 07:45:25] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-10 07:45:25] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240510/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-10 07:45:25] INFO root fetch - processPackages [azure-mgmt-datafactory]: Downloading https://files.pythonhosted.org/packages/24/96/10d3397552962cdf5638d4a9c63ddad458a4b747a23f21c40968a6c2ea0f/azure-mgmt-datafactory-7.1.0.tar.gz
+[2024-05-10 07:45:25] INFO root fetch - processPackages [azure-mgmt-datafactory]: executing diffoscope
+[2024-05-10 07:45:25] INFO root fetch - processPackages [azure-mgmt-datafactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-datafactory-7.0.0.tar.gz tmp/azure-mgmt-datafactory-7.1.0.tar.gz --markdown 20240510/a/azure-mgmt-datafactory/7.0.0-7.1.0/README.md --exclude *.pyd
+[2024-05-10 07:45:25] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-10 07:45:25] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-10 07:45:25] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-10 07:45:29] INFO root fetch - processPackages [azure-mgmt-datafactory]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-datafactory-7.0.0.tar.gz]
+[2024-05-10 07:45:29] INFO root fetch - processPackages [azure-mgmt-datafactory]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-datafactory-7.1.0.tar.gz]
+[2024-05-10 07:45:29] INFO root fetch - main [MainThread]: End processing [azure-mgmt-datafactory]: success
+[2024-05-10 07:45:29] INFO root fetch - main [MainThread]: Store serial: [23141864]
