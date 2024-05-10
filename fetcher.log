@@ -22749,3 +22749,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:12:47] INFO root fetch - processPackages [scilpy]: Remove: archive file [/home/abi/fetcher/tmp/scilpy-2.0.2.tar.gz]
 [2024-05-10 17:12:47] INFO root fetch - main [MainThread]: End processing [scilpy]: success
 [2024-05-10 17:12:47] INFO root fetch - main [MainThread]: Store serial: [23148627]
+[2024-05-10 17:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148627]
+[2024-05-10 17:14:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 17:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isubsum
+[2024-05-10 17:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ordonnantz
+[2024-05-10 17:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alamos
+[2024-05-10 17:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: partenaire-qualif
+[2024-05-10 17:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webscout
+[2024-05-10 17:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synnax-freighter
+[2024-05-10 17:14:57] INFO root fetch - processPackages [webscout]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-10 17:14:57] WARNING root fetch - processPackages [ordonnantz]: Skipping, unable to determine old version
+[2024-05-10 17:14:57] INFO root fetch - main [MainThread]: End processing [ordonnantz] error
+[2024-05-10 17:14:57] WARNING root fetch - processPackages [isubsum]: Skipping, unable to determine old version
+[2024-05-10 17:14:57] INFO root fetch - main [MainThread]: End processing [isubsum] error
+[2024-05-10 17:14:57] WARNING root fetch - processPackages [partenaire-qualif]: Skipping, unable to determine old version
+[2024-05-10 17:14:57] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/45/98/6d4fb7a5c600a500da5103d03614edf69beb9564d9997e73d1a38776061c/webscout-1.4.4.tar.gz
+[2024-05-10 17:14:57] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-10 17:14:57] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-10 17:14:57] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-10 17:14:57] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/14/e2/8a9ca30c1e7adb84775cf9b509a03ae9a8e9542a06c5f0057c3308710537/webscout-1.4.5.tar.gz
+[2024-05-10 17:14:57] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-10 17:14:57] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/47/1d/b44d0a666ad7dfde7a8635a95d6241671db501c8ed9f7dd576bdf7fe184e/synnax_freighter-0.6.8.tar.gz
+[2024-05-10 17:14:58] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-10 17:14:58] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.4.4.tar.gz tmp/webscout-1.4.5.tar.gz --markdown 20240510/w/webscout/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-10 17:14:58] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/97/99/8375d1635ab3481a144b8507f5f4be9c85b138a7ecc2c616808ded325e74/synnax_freighter-0.6.9.tar.gz
+[2024-05-10 17:14:58] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-10 17:14:58] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-10 17:14:58] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.8.tar.gz tmp/synnax_freighter-0.6.9.tar.gz --markdown 20240510/s/synnax-freighter/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-10 17:14:58] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-10 17:14:58] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240510/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-10 17:14:58] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.4.tar.gz]
+[2024-05-10 17:14:58] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.5.tar.gz]
+[2024-05-10 17:14:58] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-10 17:14:58] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.8.tar.gz]
+[2024-05-10 17:14:58] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.9.tar.gz]
+[2024-05-10 17:14:58] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-10 17:14:58] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-10 17:14:58] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-10 17:14:58] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-10 17:14:58] INFO root fetch - main [MainThread]: Store serial: [23148654]
