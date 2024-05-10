@@ -19003,3 +19003,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:11:11] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.75.tar.gz]
 [2024-05-10 15:11:11] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
 [2024-05-10 15:11:11] INFO root fetch - main [MainThread]: Store serial: [23146761]
+[2024-05-10 15:13:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146761]
+[2024-05-10 15:13:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecuapassdocs
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profitpulse
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mercury
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modernqt
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tokencurator
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NsgOrcFx
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canosz
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: radical.utils
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal
+[2024-05-10 15:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modal-client
+[2024-05-10 15:13:20] INFO root fetch - processPackages [ecuapassdocs]: New version: [0.75] Old Version: [0.74]
+[2024-05-10 15:13:20] INFO root fetch - processPackages [profitpulse]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-05-10 15:13:20] WARNING root fetch - processPackages [canosz]: Skipping, unable to determine old version
+[2024-05-10 15:13:20] INFO root fetch - processPackages [NsgOrcFx]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-10 15:13:20] INFO root fetch - processPackages [canosz]: Start processing: voluptuous-openapi
+[2024-05-10 15:13:20] INFO root fetch - main [MainThread]: End processing [canosz] error
+[2024-05-10 15:13:20] INFO root fetch - processPackages [radical.utils]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-10 15:13:20] INFO root fetch - processPackages [mercury]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-10 15:13:20] WARNING root fetch - processPackages [tokencurator]: Skipping, unable to determine old version
+[2024-05-10 15:13:20] INFO root fetch - processPackages [tokencurator]: Start processing: dash-oflog-components
+[2024-05-10 15:13:20] INFO root fetch - main [MainThread]: End processing [tokencurator] error
+[2024-05-10 15:13:20] WARNING root fetch - processPackages [modernqt]: Skipping, unable to determine old version
+[2024-05-10 15:13:20] INFO root fetch - main [MainThread]: End processing [modernqt] error
+[2024-05-10 15:13:20] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/2f/b6/e0e1232b8e48c875e58a425f8e1c7aa9ea7cb4ccbd093d4f1bc2e7f50a45/ecuapassdocs-0.74.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-10 15:13:20] INFO root fetch - processPackages [dash-oflog-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 15:13:20] INFO root fetch - processPackages [voluptuous-openapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-10 15:13:20] INFO root fetch - processPackages [profitpulse]: Downloading https://files.pythonhosted.org/packages/86/3d/9a68e5437900766290a6463b7105a33f171fe43d27d64adf0f1daf6fa606/profitpulse-1.6.0.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [NsgOrcFx]: Downloading https://files.pythonhosted.org/packages/cf/75/924733d3fc48e0fdb7d99a0f101ca2a2f55370a653c8e9d1c88589eb5813/nsgorcfx-1.0.6.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [dash-oflog-components]: Downloading https://files.pythonhosted.org/packages/87/0b/f416b5cdfcc73fcb0e1d8e73d90f0fde8fa4a3042b87eef6a6f78630737b/dash_oflog_components-0.0.8.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/41/b2/4d440c73debd121aee89a28f62a2ced1c8e1b892bd156c1dce07de293e39/mercury-2.4.1.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/1f/11/cff0051613a1687c77e09b3096568dfa01f96271c0c2a0040cafae59f52b/radical.utils-1.9.0.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-10 15:13:20] INFO root fetch - processPackages [voluptuous-openapi]: Downloading https://files.pythonhosted.org/packages/42/60/66799f3277e7568e3dd49b68aff0a37965a0472a37679a4099e1573fbe4d/voluptuous-openapi-0.0.1.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-10 15:13:20] INFO root fetch - processPackages [NsgOrcFx]: Downloading https://files.pythonhosted.org/packages/d5/b1/c06c314e647a74fe23e3ff3e1883d6ac39522544b5078e8f723aa292a0bf/nsgorcfx-1.0.7.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [profitpulse]: Downloading https://files.pythonhosted.org/packages/6c/ac/009def4d43b335bdfdbeecab74d0e85eb84b1911c2610b78f7d089e2ccf5/profitpulse-2.0.0.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240510/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-10 15:13:20] INFO root fetch - processPackages [dash-oflog-components]: Downloading https://files.pythonhosted.org/packages/8b/f4/0b8659ff282e21dd91120e7b693c909d64230d30799a6ecfcf808cad6c44/dash_oflog_components-0.0.9.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/3d/ed/b4d47efc472e28826efda166e0586ff61b99f67c3a5559ea039da6a5c463/ecuapassdocs-0.75.tar.gz
+[2024-05-10 15:13:20] INFO root fetch - processPackages [NsgOrcFx]: executing diffoscope
+[2024-05-10 15:13:20] INFO root fetch - processPackages [NsgOrcFx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsgorcfx-1.0.6.tar.gz tmp/nsgorcfx-1.0.7.tar.gz --markdown 20240510/N/NsgOrcFx/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-10 15:13:20] INFO root fetch - processPackages [profitpulse]: executing diffoscope
+[2024-05-10 15:13:20] INFO root fetch - processPackages [profitpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profitpulse-1.6.0.tar.gz tmp/profitpulse-2.0.0.tar.gz --markdown 20240510/p/profitpulse/1.6.0-2.0.0/README.md --exclude *.pyd
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-10 15:13:20] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240510/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-10 15:13:20] INFO root fetch - processPackages [dash-oflog-components]: executing diffoscope
+[2024-05-10 15:13:20] INFO root fetch - processPackages [dash-oflog-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_oflog_components-0.0.8.tar.gz tmp/dash_oflog_components-0.0.9.tar.gz --markdown 20240510/d/dash-oflog-components/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 15:13:20] INFO root fetch - processPackages [voluptuous-openapi]: Downloading https://files.pythonhosted.org/packages/15/89/a999176fb9defaef6620337501b02696cc0615c720af0df0b69704fba567/voluptuous_openapi-0.0.2.tar.gz
+[2024-05-10 15:13:21] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/e7/de/82b0afcdf3df5e325a2f71a584166bd0f1cf392021c0494f36d0efc9492d/mercury-2.4.2.tar.gz
+[2024-05-10 15:13:21] INFO root fetch - processPackages [ecuapassdocs]: executing diffoscope
+[2024-05-10 15:13:21] INFO root fetch - processPackages [ecuapassdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecuapassdocs-0.74.tar.gz tmp/ecuapassdocs-0.75.tar.gz --markdown 20240510/e/ecuapassdocs/0.74-0.75/README.md --exclude *.pyd
+[2024-05-10 15:13:21] INFO root fetch - processPackages [voluptuous-openapi]: executing diffoscope
+[2024-05-10 15:13:21] INFO root fetch - processPackages [voluptuous-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voluptuous-openapi-0.0.1.tar.gz tmp/voluptuous_openapi-0.0.2.tar.gz --markdown 20240510/v/voluptuous-openapi/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 15:13:21] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/20/d0/1fdf2dbde27e3a8d85ba804e54707f9aae40ab8b524492de97c15a6d0fbf/radical.utils-1.9.1.tar.gz
+[2024-05-10 15:13:21] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2024-05-10 15:13:21] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.4.1.tar.gz tmp/mercury-2.4.2.tar.gz --markdown 20240510/m/mercury/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-10 15:13:21] INFO root fetch - processPackages [radical.utils]: executing diffoscope
+[2024-05-10 15:13:21] INFO root fetch - processPackages [radical.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.utils-1.9.0.tar.gz tmp/radical.utils-1.9.1.tar.gz --markdown 20240510/r/radical.utils/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-10 15:13:21] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-10 15:13:21] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-10 15:13:21] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-10 15:13:21] INFO root fetch - processPackages [NsgOrcFx]: Remove: archive file [/home/abi/fetcher/tmp/nsgorcfx-1.0.6.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - processPackages [NsgOrcFx]: Remove: archive file [/home/abi/fetcher/tmp/nsgorcfx-1.0.7.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - main [MainThread]: End processing [NsgOrcFx]: success
+[2024-05-10 15:13:21] INFO root fetch - processPackages [profitpulse]: Remove: archive file [/home/abi/fetcher/tmp/profitpulse-1.6.0.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - processPackages [profitpulse]: Remove: archive file [/home/abi/fetcher/tmp/profitpulse-2.0.0.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - main [MainThread]: End processing [profitpulse]: success
+[2024-05-10 15:13:21] INFO root fetch - processPackages [voluptuous-openapi]: Remove: archive file [/home/abi/fetcher/tmp/voluptuous-openapi-0.0.1.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - processPackages [voluptuous-openapi]: Remove: archive file [/home/abi/fetcher/tmp/voluptuous_openapi-0.0.2.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - main [MainThread]: End processing [voluptuous-openapi]: success
+[2024-05-10 15:13:21] INFO root fetch - processPackages [dash-oflog-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_oflog_components-0.0.8.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - processPackages [dash-oflog-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_oflog_components-0.0.9.tar.gz]
+[2024-05-10 15:13:21] INFO root fetch - main [MainThread]: End processing [dash-oflog-components]: success
+[2024-05-10 15:13:22] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.74.tar.gz]
+[2024-05-10 15:13:22] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.75.tar.gz]
+[2024-05-10 15:13:22] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
+[2024-05-10 15:13:22] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-10 15:13:22] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-10 15:13:22] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-10 15:13:22] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.0.tar.gz]
+[2024-05-10 15:13:22] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.1.tar.gz]
+[2024-05-10 15:13:22] INFO root fetch - main [MainThread]: End processing [radical.utils]: success
+[2024-05-10 15:13:24] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/mercury-2.4.1.tar.gz]
+[2024-05-10 15:13:24] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/mercury-2.4.2.tar.gz]
+[2024-05-10 15:13:24] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2024-05-10 15:13:24] INFO root fetch - main [MainThread]: Store serial: [23146795]
