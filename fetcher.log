@@ -6782,3 +6782,24 @@
 [2024-05-10 06:43:50] INFO root fetch - processPackages [nima]: Remove: archive file [/home/abi/fetcher/tmp/nima-0.9.1.tar.gz]
 [2024-05-10 06:43:50] INFO root fetch - main [MainThread]: End processing [nima]: success
 [2024-05-10 06:43:50] INFO root fetch - main [MainThread]: Store serial: [23141354]
+[2024-05-10 06:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141354]
+[2024-05-10 06:45:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webscout
+[2024-05-10 06:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saraApi
+[2024-05-10 06:45:58] INFO root fetch - processPackages [webscout]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-10 06:45:58] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2024-05-10 06:45:58] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/cf/82/c63ffc2d844a84f2b9625de2105eec3b42f16c6b7ea74654a2a0752b17be/saraapi-0.0.0.6.tar.gz
+[2024-05-10 06:45:58] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/45/98/6d4fb7a5c600a500da5103d03614edf69beb9564d9997e73d1a38776061c/webscout-1.4.4.tar.gz
+[2024-05-10 06:45:58] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/04/b2/25c601b79316080b097feb61d66e0481b6a0cdb1feef67a85afdf2172916/saraapi-0.0.0.7.tar.gz
+[2024-05-10 06:45:58] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-10 06:45:58] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.6.tar.gz tmp/saraapi-0.0.0.7.tar.gz --markdown 20240510/s/saraApi/0.0.0.6-0.0.0.7/README.md --exclude *.pyd
+[2024-05-10 06:45:58] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/14/e2/8a9ca30c1e7adb84775cf9b509a03ae9a8e9542a06c5f0057c3308710537/webscout-1.4.5.tar.gz
+[2024-05-10 06:45:59] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-10 06:45:59] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.4.4.tar.gz tmp/webscout-1.4.5.tar.gz --markdown 20240510/w/webscout/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-10 06:45:59] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.6.tar.gz]
+[2024-05-10 06:45:59] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.7.tar.gz]
+[2024-05-10 06:45:59] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-10 06:45:59] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.4.tar.gz]
+[2024-05-10 06:45:59] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.5.tar.gz]
+[2024-05-10 06:45:59] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-10 06:45:59] INFO root fetch - main [MainThread]: Store serial: [23141360]
