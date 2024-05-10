@@ -12144,3 +12144,141 @@
 [2024-05-10 11:08:44] INFO root fetch - processPackages [tardis-em]: Remove: archive file [/home/abi/fetcher/tmp/tardis_em-0.2.3.tar.gz]
 [2024-05-10 11:08:44] INFO root fetch - main [MainThread]: End processing [tardis-em]: success
 [2024-05-10 11:08:44] INFO root fetch - main [MainThread]: Store serial: [23143809]
+[2024-05-10 11:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143809]
+[2024-05-10 11:10:55] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scinum
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zsx-Neighbor-joining
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iamlistening
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: storage-local
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcuationz
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MyLLM
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-base
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysarpro
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-cli
+[2024-05-10 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-dso
+[2024-05-10 11:10:56] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [scinum]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [storage-local]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [pysarpro]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 11:10:56] WARNING root fetch - processPackages [zsx-Neighbor-joining]: Skipping, unable to determine old version
+[2024-05-10 11:10:56] INFO root fetch - processPackages [zsx-Neighbor-joining]: Start processing: gardener-cicd-libs
+[2024-05-10 11:10:56] INFO root fetch - main [MainThread]: End processing [zsx-Neighbor-joining] error
+[2024-05-10 11:10:56] WARNING root fetch - processPackages [arcuationz]: Skipping, unable to determine old version
+[2024-05-10 11:10:56] INFO root fetch - processPackages [arcuationz]: Start processing: gardener-cicd-whd
+[2024-05-10 11:10:56] INFO root fetch - main [MainThread]: End processing [arcuationz] error
+[2024-05-10 11:10:56] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [iamlistening]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2393.0] Old Version: [1.2392.0]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2393.0] Old Version: [1.2392.0]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2393.0] Old Version: [1.2392.0]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [scinum]: Downloading https://files.pythonhosted.org/packages/35/40/84e1b9fe9cdcdf58a9fbf307871357967578c240c87f1db70443588130ee/scinum-2.1.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/b7/63/976ced0597974a94e0db7472bfb4f03e6c82e5276610b0176be638f047e6/storage-local-0.1.8.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2393.0] Old Version: [1.2392.0]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2393.0] Old Version: [1.2392.0]
+[2024-05-10 11:10:56] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/07/a4/ba0689d7ba373ab01bee30148890982c66aebce125bf4cb4463c1279f1c8/iamlistening-5.1.8.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [pysarpro]: Downloading https://files.pythonhosted.org/packages/49/d7/2b7c8c7532cbed9f200d03100b53ad6b02b5501244761d2ea86469a60ad8/pysarpro-0.1.3.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/fb/7b/448050741085b923fa014d60459c47ddd82e19aa4e8221615a53c732d881/gardener_cicd_dso-1.2392.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/19/7b/7366fa515df08f3222ae4dc6d0bf78b8c505a2fc9cd83f8732fe20c348c7/gardener_cicd_base-1.2392.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/aa/7b/c9cd189e0646329e0cd4afa8b24671e882ebf15614794eccf15a8757ac8b/gardener_cicd_cli-1.2392.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ef/74/88c255ea013dab0ae47c75be00d0e98d806dbef03b1d8f827584a26b6d6c/gardener_cicd_libs-1.2392.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/04/12/703b1be7867a82bf1d3acce7f0727987ccf749cdc9e02238f77ba85366c9/gardener_cicd_whd-1.2392.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [scinum]: Downloading https://files.pythonhosted.org/packages/bb/78/ba0b6ff0a1c25aeae8416a3ed383a7b336eaabfdc6d5138fbded70cd98a9/scinum-2.1.1.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-10 11:10:56] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240510/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-10 11:10:56] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/80/92/c5f00ebfa1349b712e17441e635a7037dea493f636ec7cb5309d3f303ed3/storage-local-0.1.9.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/1e/81/79876c2de874a7124601107f9019de809d107376866a30720062e102ab24/iamlistening-5.1.9.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [storage-local]: executing diffoscope
+[2024-05-10 11:10:56] INFO root fetch - processPackages [storage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage-local-0.1.8.tar.gz tmp/storage-local-0.1.9.tar.gz --markdown 20240510/s/storage-local/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/00/9c/d742bee5157889db5c962fde9ab497a00641f4c82ed42f8dc37532e633bb/gardener_cicd_base-1.2393.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/0e/e9/a8300c930cb55b94861909f1326355ec70a07d4d46a18cced7d97d67c66e/gardener_cicd_cli-1.2393.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/ec/e8/2cf1cea75006a0764729dbc41b1743ae440b498ea287925a05b7afa5fdda/gardener_cicd_dso-1.2393.0.tar.gz
+[2024-05-10 11:10:56] INFO root fetch - processPackages [scinum]: executing diffoscope
+[2024-05-10 11:10:56] INFO root fetch - processPackages [scinum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinum-2.1.0.tar.gz tmp/scinum-2.1.1.tar.gz --markdown 20240510/s/scinum/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-10 11:10:56] INFO root fetch - processPackages [pysarpro]: Downloading https://files.pythonhosted.org/packages/4c/4a/8e43f4d6adb29128bbc5c9190d2345f2ad87ceb857a88bd014c333294954/pysarpro-0.1.4.tar.gz
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/ac/f0/39bafd925c9f0ce589a29f61ae0f79b3f8675be039f95dbf5dd8a47e2466/gardener_cicd_whd-1.2393.0.tar.gz
+[2024-05-10 11:10:57] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-05-10 11:10:57] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.8.tar.gz tmp/iamlistening-5.1.9.tar.gz --markdown 20240510/i/iamlistening/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/e6/14/6129b26424edbac109fa8e88d467eff1e6b55ad3773b5eb0fd4a9283426a/gardener_cicd_libs-1.2393.0.tar.gz
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2392.0.tar.gz tmp/gardener_cicd_base-1.2393.0.tar.gz --markdown 20240510/g/gardener-cicd-base/1.2392.0-1.2393.0/README.md --exclude *.pyd
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2392.0.tar.gz tmp/gardener_cicd_cli-1.2393.0.tar.gz --markdown 20240510/g/gardener-cicd-cli/1.2392.0-1.2393.0/README.md --exclude *.pyd
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2392.0.tar.gz tmp/gardener_cicd_dso-1.2393.0.tar.gz --markdown 20240510/g/gardener-cicd-dso/1.2392.0-1.2393.0/README.md --exclude *.pyd
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2392.0.tar.gz tmp/gardener_cicd_whd-1.2393.0.tar.gz --markdown 20240510/g/gardener-cicd-whd/1.2392.0-1.2393.0/README.md --exclude *.pyd
+[2024-05-10 11:10:57] INFO root fetch - processPackages [pysarpro]: executing diffoscope
+[2024-05-10 11:10:57] INFO root fetch - processPackages [pysarpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysarpro-0.1.3.tar.gz tmp/pysarpro-0.1.4.tar.gz --markdown 20240510/p/pysarpro/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2392.0.tar.gz tmp/gardener_cicd_libs-1.2393.0.tar.gz --markdown 20240510/g/gardener-cicd-libs/1.2392.0-1.2393.0/README.md --exclude *.pyd
+[2024-05-10 11:10:57] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-10 11:10:57] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-10 11:10:57] INFO root fetch - processPackages [MyLLM]: Start processing: gardener-oci
+[2024-05-10 11:10:57] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-10 11:10:57] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.1.8.tar.gz]
+[2024-05-10 11:10:57] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.1.9.tar.gz]
+[2024-05-10 11:10:57] INFO root fetch - processPackages [storage-local]: Start processing: linktest
+[2024-05-10 11:10:57] INFO root fetch - main [MainThread]: End processing [storage-local]: success
+[2024-05-10 11:10:57] INFO root fetch - processPackages [linktest]: New version: [2.7.5] Old Version: [2.7.4]
+[2024-05-10 11:10:57] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/9a/71/85dbe328392fb3dcbed1095537826b3ae9fcece9917fdbe620645f5b1299/linktest-2.7.4.tar.gz
+[2024-05-10 11:10:57] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2392.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2393.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: my-math-unimore-cicd
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-10 11:10:58] INFO root fetch - processPackages [scinum]: Remove: archive file [/home/abi/fetcher/tmp/scinum-2.1.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [scinum]: Remove: archive file [/home/abi/fetcher/tmp/scinum-2.1.1.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [scinum]: Start processing: beetcamp
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [scinum]: success
+[2024-05-10 11:10:58] INFO root fetch - processPackages [my-math-unimore-cicd]: New version: [0.3] Old Version: [0.2]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.8.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.9.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [iamlistening]: Start processing: pynnacle-uno
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2392.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2393.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-10 11:10:58] WARNING root fetch - processPackages [pynnacle-uno]: Skipping, unable to determine old version
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [pynnacle-uno] error
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2392.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2393.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-10 11:10:58] INFO root fetch - processPackages [my-math-unimore-cicd]: Downloading https://files.pythonhosted.org/packages/28/2f/fc564e75d63d9a78c12e38bf1398ce111b77fa7d8fa6d5effe3500752caa/my_math_unimore_cicd-0.2.tar.gz
+[2024-05-10 11:10:58] INFO root fetch - processPackages [beetcamp]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2392.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2393.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-10 11:10:58] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/44/31/7af7b1251d27c14225874d3e8aeca59af0f6fc4c9aecdda6e7545d567716/linktest-2.7.5.tar.gz
+[2024-05-10 11:10:58] INFO root fetch - processPackages [my-math-unimore-cicd]: Downloading https://files.pythonhosted.org/packages/c2/a6/b7f3f033dac4b800a1594e00a22685406ecb49bba609813d79d209aa6d85/my_math_unimore_cicd-0.3.tar.gz
+[2024-05-10 11:10:58] INFO root fetch - processPackages [beetcamp]: Downloading https://files.pythonhosted.org/packages/8d/72/69a66df34b9fc327228941ed7c279c73c6ca846f58c9688451900aa5cb8b/beetcamp-0.9.1.tar.gz
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-10 11:10:58] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-10 11:10:58] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.4.tar.gz tmp/linktest-2.7.5.tar.gz --markdown 20240510/l/linktest/2.7.4-2.7.5/README.md --exclude *.pyd
+[2024-05-10 11:10:58] INFO root fetch - processPackages [my-math-unimore-cicd]: executing diffoscope
+[2024-05-10 11:10:58] INFO root fetch - processPackages [my-math-unimore-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_math_unimore_cicd-0.2.tar.gz tmp/my_math_unimore_cicd-0.3.tar.gz --markdown 20240510/m/my-math-unimore-cicd/0.2-0.3/README.md --exclude *.pyd
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240510/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2392.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2393.0.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-10 11:10:58] INFO root fetch - processPackages [pysarpro]: Remove: archive file [/home/abi/fetcher/tmp/pysarpro-0.1.3.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - processPackages [pysarpro]: Remove: archive file [/home/abi/fetcher/tmp/pysarpro-0.1.4.tar.gz]
+[2024-05-10 11:10:58] INFO root fetch - main [MainThread]: End processing [pysarpro]: success
+[2024-05-10 11:10:58] INFO root fetch - processPackages [beetcamp]: Downloading https://files.pythonhosted.org/packages/29/a1/5edf652073c11c6e3a53ea79dc85e1201b64f9522ef0e6a380b0aa41c27f/beetcamp-0.9.3.tar.gz
+[2024-05-10 11:10:58] INFO root fetch - processPackages [beetcamp]: executing diffoscope
+[2024-05-10 11:10:58] INFO root fetch - processPackages [beetcamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetcamp-0.9.1.tar.gz tmp/beetcamp-0.9.3.tar.gz --markdown 20240510/b/beetcamp/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-10 11:10:59] INFO root fetch - processPackages [my-math-unimore-cicd]: Remove: archive file [/home/abi/fetcher/tmp/my_math_unimore_cicd-0.2.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - processPackages [my-math-unimore-cicd]: Remove: archive file [/home/abi/fetcher/tmp/my_math_unimore_cicd-0.3.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - main [MainThread]: End processing [my-math-unimore-cicd]: success
+[2024-05-10 11:10:59] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-10 11:10:59] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.4.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.5.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-10 11:10:59] INFO root fetch - processPackages [beetcamp]: Remove: archive file [/home/abi/fetcher/tmp/beetcamp-0.9.1.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - processPackages [beetcamp]: Remove: archive file [/home/abi/fetcher/tmp/beetcamp-0.9.3.tar.gz]
+[2024-05-10 11:10:59] INFO root fetch - main [MainThread]: End processing [beetcamp]: success
+[2024-05-10 11:10:59] INFO root fetch - main [MainThread]: Store serial: [23143870]
