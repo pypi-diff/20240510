@@ -5750,3 +5750,27 @@
 [2024-05-10 05:38:11] INFO root fetch - processPackages [ba-tsconcat]: Remove: archive file [/home/abi/fetcher/tmp/ba_tsconcat-0.1.4.tar.gz]
 [2024-05-10 05:38:11] INFO root fetch - main [MainThread]: End processing [ba-tsconcat]: success
 [2024-05-10 05:38:11] INFO root fetch - main [MainThread]: Store serial: [23140910]
+[2024-05-10 05:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140910]
+[2024-05-10 05:40:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flutter-gen
+[2024-05-10 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourmash-plugin-directsketch
+[2024-05-10 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: overreadingz
+[2024-05-10 05:40:19] INFO root fetch - processPackages [sourmash-plugin-directsketch]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 05:40:19] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/d1/70/e5a58cd815be20adcd8d7a08399710a6dd971aea33687346a17bf187d651/sourmash_plugin_directsketch-0.2.1.tar.gz
+[2024-05-10 05:40:19] INFO root fetch - processPackages [flutter-gen]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-05-10 05:40:19] WARNING root fetch - processPackages [overreadingz]: Skipping, unable to determine old version
+[2024-05-10 05:40:19] INFO root fetch - main [MainThread]: End processing [overreadingz] error
+[2024-05-10 05:40:19] INFO root fetch - processPackages [flutter-gen]: Downloading https://files.pythonhosted.org/packages/fe/1e/e72d92aae56add8a255b107fef276941306b27e37d75ca1d523a012348a1/flutter_gen-2.1.2.tar.gz
+[2024-05-10 05:40:19] INFO root fetch - processPackages [flutter-gen]: Downloading https://files.pythonhosted.org/packages/cb/22/fd2ec6231972918fe9976993b10e212bf0f651acc72b9943450cdc039159/flutter_gen-2.2.0.tar.gz
+[2024-05-10 05:40:20] INFO root fetch - processPackages [flutter-gen]: executing diffoscope
+[2024-05-10 05:40:20] INFO root fetch - processPackages [flutter-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flutter_gen-2.1.2.tar.gz tmp/flutter_gen-2.2.0.tar.gz --markdown 20240510/f/flutter-gen/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-05-10 05:40:20] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/74/d0/4121df77a06b62a1a34453aa320c9b3cc41d5cd3792bba6c5b356e661d52/sourmash_plugin_directsketch-0.2.2.tar.gz
+[2024-05-10 05:40:20] INFO root fetch - processPackages [sourmash-plugin-directsketch]: executing diffoscope
+[2024-05-10 05:40:20] INFO root fetch - processPackages [sourmash-plugin-directsketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourmash_plugin_directsketch-0.2.1.tar.gz tmp/sourmash_plugin_directsketch-0.2.2.tar.gz --markdown 20240510/s/sourmash-plugin-directsketch/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 05:40:20] INFO root fetch - processPackages [flutter-gen]: Remove: archive file [/home/abi/fetcher/tmp/flutter_gen-2.1.2.tar.gz]
+[2024-05-10 05:40:20] INFO root fetch - processPackages [flutter-gen]: Remove: archive file [/home/abi/fetcher/tmp/flutter_gen-2.2.0.tar.gz]
+[2024-05-10 05:40:20] INFO root fetch - main [MainThread]: End processing [flutter-gen]: success
+[2024-05-10 05:40:21] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.2.1.tar.gz]
+[2024-05-10 05:40:21] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.2.2.tar.gz]
+[2024-05-10 05:40:21] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-directsketch]: success
+[2024-05-10 05:40:21] INFO root fetch - main [MainThread]: Store serial: [23140919]
