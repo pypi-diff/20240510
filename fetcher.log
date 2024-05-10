@@ -24957,3 +24957,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:27:23] INFO root fetch - processPackages [cspdk]: Remove: archive file [/home/abi/fetcher/tmp/cspdk-0.8.1.tar.gz]
 [2024-05-10 18:27:23] INFO root fetch - main [MainThread]: End processing [cspdk]: success
 [2024-05-10 18:27:23] INFO root fetch - main [MainThread]: Store serial: [23149662]
+[2024-05-10 18:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149662]
+[2024-05-10 18:29:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 18:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyopenhc
+[2024-05-10 18:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jeedomdaemon
+[2024-05-10 18:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamascript
+[2024-05-10 18:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aa-freight
+[2024-05-10 18:29:33] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-10 18:29:33] INFO root fetch - processPackages [llamascript]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-10 18:29:33] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/59/d5/9c097f13c8faf36131450d2106ff490bea4dc900df15759d831e2a123a66/jeedomdaemon-0.8.2.tar.gz
+[2024-05-10 18:29:33] INFO root fetch - processPackages [pyopenhc]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 18:29:33] INFO root fetch - processPackages [aa-freight]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 18:29:33] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/c6/11/171d968fcd06a699ba7d58062e50c34bc27b8c3936e83db1772e0d9264aa/llamascript-0.3.2.tar.gz
+[2024-05-10 18:29:33] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/11/f2/13b6b1241ad7602038a74f899ce8f920e5851074703ce4df7fc9eb35c813/pyopenhc-0.0.5-py3-none-win_amd64.whl
+[2024-05-10 18:29:33] ERROR root fetch - processPackages [jeedomdaemon]: Unable to fetch info: No such project/version 'jeedomdaemon' 0.8.3
+[2024-05-10 18:29:33] INFO root fetch - main [MainThread]: End processing [jeedomdaemon] error
+[2024-05-10 18:29:33] INFO root fetch - processPackages [aa-freight]: Downloading https://files.pythonhosted.org/packages/e5/5e/4d2cfeaf300a08735028bc34cce3c5d5561b1c975e0418f3328947b709b2/aa_freight-1.8.0.tar.gz
+[2024-05-10 18:29:34] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/ad/95/601f7c2dc53902b676aa0f779215fc140f1c3ab97b493780b35943ac9210/llamascript-0.4.0.tar.gz
+[2024-05-10 18:29:34] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/96/f0/07ee50ed749c5a136b77248d4073f94685a1b4fe4462b3215c095e163fbf/pyopenhc-0.0.6-py3-none-win_amd64.whl
+[2024-05-10 18:29:34] INFO root fetch - processPackages [llamascript]: executing diffoscope
+[2024-05-10 18:29:34] INFO root fetch - processPackages [llamascript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamascript-0.3.2.tar.gz tmp/llamascript-0.4.0.tar.gz --markdown 20240510/l/llamascript/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-10 18:29:34] INFO root fetch - processPackages [aa-freight]: Downloading https://files.pythonhosted.org/packages/8b/d5/e632782f40e48007fb3cd63c5e753c4a356c305a6071aa7aa59468847cb7/aa_freight-1.9.0.tar.gz
+[2024-05-10 18:29:34] INFO root fetch - processPackages [pyopenhc]: executing diffoscope
+[2024-05-10 18:29:34] INFO root fetch - processPackages [pyopenhc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenhc-0.0.5-py3-none-win_amd64.whl.zip tmp/pyopenhc-0.0.6-py3-none-win_amd64.whl.zip --markdown 20240510/p/pyopenhc/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 18:29:34] INFO root fetch - processPackages [aa-freight]: executing diffoscope
+[2024-05-10 18:29:34] INFO root fetch - processPackages [aa-freight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_freight-1.8.0.tar.gz tmp/aa_freight-1.9.0.tar.gz --markdown 20240510/a/aa-freight/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 18:29:34] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.3.2.tar.gz]
+[2024-05-10 18:29:34] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.4.0.tar.gz]
+[2024-05-10 18:29:34] INFO root fetch - main [MainThread]: End processing [llamascript]: success
+[2024-05-10 18:29:35] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.0.5-py3-none-win_amd64.whl.zip]
+[2024-05-10 18:29:35] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.0.6-py3-none-win_amd64.whl.zip]
+[2024-05-10 18:29:35] INFO root fetch - main [MainThread]: End processing [pyopenhc]: success
+[2024-05-10 18:29:35] INFO root fetch - processPackages [aa-freight]: Remove: archive file [/home/abi/fetcher/tmp/aa_freight-1.8.0.tar.gz]
+[2024-05-10 18:29:35] INFO root fetch - processPackages [aa-freight]: Remove: archive file [/home/abi/fetcher/tmp/aa_freight-1.9.0.tar.gz]
+[2024-05-10 18:29:35] INFO root fetch - main [MainThread]: End processing [aa-freight]: success
+[2024-05-10 18:29:35] INFO root fetch - main [MainThread]: Store serial: [23149682]
