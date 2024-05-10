@@ -13789,3 +13789,21 @@
 [2024-05-10 12:05:28] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
 [2024-05-10 12:05:28] INFO root fetch - main [MainThread]: End processing [gftools]: success
 [2024-05-10 12:05:28] INFO root fetch - main [MainThread]: Store serial: [23144433]
+[2024-05-10 12:07:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144433]
+[2024-05-10 12:07:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imparityz
+[2024-05-10 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySurvMC
+[2024-05-10 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysarpro
+[2024-05-10 12:07:42] WARNING root fetch - processPackages [imparityz]: Skipping, unable to determine old version
+[2024-05-10 12:07:42] INFO root fetch - main [MainThread]: End processing [imparityz] error
+[2024-05-10 12:07:42] WARNING root fetch - processPackages [PySurvMC]: Skipping, unable to determine old version
+[2024-05-10 12:07:42] INFO root fetch - main [MainThread]: End processing [PySurvMC] error
+[2024-05-10 12:07:42] INFO root fetch - processPackages [pysarpro]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 12:07:43] INFO root fetch - processPackages [pysarpro]: Downloading https://files.pythonhosted.org/packages/4c/4a/8e43f4d6adb29128bbc5c9190d2345f2ad87ceb857a88bd014c333294954/pysarpro-0.1.4.tar.gz
+[2024-05-10 12:07:43] INFO root fetch - processPackages [pysarpro]: Downloading https://files.pythonhosted.org/packages/e8/56/d1fc96fe0ec8166b9957044a9df8e07c2e35ffee7301757307126c63fd3e/pysarpro-0.1.5-cp39-cp39-macosx_12_0_arm64.whl
+[2024-05-10 12:07:44] INFO root fetch - processPackages [pysarpro]: executing diffoscope
+[2024-05-10 12:07:44] INFO root fetch - processPackages [pysarpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysarpro-0.1.4.tar.gz tmp/pysarpro-0.1.5-cp39-cp39-macosx_12_0_arm64.whl.zip --markdown 20240510/p/pysarpro/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 12:07:45] INFO root fetch - processPackages [pysarpro]: Remove: archive file [/home/abi/fetcher/tmp/pysarpro-0.1.4.tar.gz]
+[2024-05-10 12:07:45] INFO root fetch - processPackages [pysarpro]: Remove: archive file [/home/abi/fetcher/tmp/pysarpro-0.1.5-cp39-cp39-macosx_12_0_arm64.whl.zip]
+[2024-05-10 12:07:45] INFO root fetch - main [MainThread]: End processing [pysarpro]: success
+[2024-05-10 12:07:45] INFO root fetch - main [MainThread]: Store serial: [23144456]
