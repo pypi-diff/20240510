@@ -13163,3 +13163,45 @@
 [2024-05-10 11:42:30] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-10 11:42:30] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-10 11:42:30] INFO root fetch - main [MainThread]: Store serial: [23144206]
+[2024-05-10 11:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144206]
+[2024-05-10 11:44:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 11:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annotationz
+[2024-05-10 11:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malariagen_data
+[2024-05-10 11:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NatanStanek
+[2024-05-10 11:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartboiler
+[2024-05-10 11:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ScoutSuite
+[2024-05-10 11:44:43] INFO root fetch - processPackages [NatanStanek]: New version: [0.14.0] Old Version: [0.13.1]
+[2024-05-10 11:44:43] WARNING root fetch - processPackages [annotationz]: Skipping, unable to determine old version
+[2024-05-10 11:44:43] INFO root fetch - main [MainThread]: End processing [annotationz] error
+[2024-05-10 11:44:43] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-10 11:44:43] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/21/8e/54677e8c4a5505d657ec731e42653186380b39112e606f56b555b8636835/natanstanek-0.13.1.tar.gz
+[2024-05-10 11:44:43] INFO root fetch - processPackages [ScoutSuite]: New version: [5.9.1] Old Version: [5.9.0]
+[2024-05-10 11:44:43] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-10 11:44:43] INFO root fetch - processPackages [malariagen_data]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-10 11:44:43] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-10 11:44:43] INFO root fetch - processPackages [ScoutSuite]: Downloading https://files.pythonhosted.org/packages/e1/10/3d3a76c6468d3486f270cd2b7d1b6ee1e3584fff4f07c8fb325d32781234/ScoutSuite-5.9.0.tar.gz
+[2024-05-10 11:44:43] INFO root fetch - processPackages [malariagen_data]: Downloading https://files.pythonhosted.org/packages/48/cf/dbf62cca9c39cf43ea74039b04331c748333ae6a6d7afecf3c4bbdab9094/malariagen_data-9.0.0.tar.gz
+[2024-05-10 11:44:43] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-10 11:44:43] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240510/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-10 11:44:43] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/7a/5c/f82c5b804f419f6c732a65a0a503630b2e6ec078e31d48f0102a4daa537c/natanstanek-0.14.0.tar.gz
+[2024-05-10 11:44:43] INFO root fetch - processPackages [NatanStanek]: executing diffoscope
+[2024-05-10 11:44:43] INFO root fetch - processPackages [NatanStanek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natanstanek-0.13.1.tar.gz tmp/natanstanek-0.14.0.tar.gz --markdown 20240510/N/NatanStanek/0.13.1-0.14.0/README.md --exclude *.pyd
+[2024-05-10 11:44:43] INFO root fetch - processPackages [malariagen_data]: Downloading https://files.pythonhosted.org/packages/a1/e0/29eafe2b899cf5a301e8ac2a9ff669e640abd9cb170979f6a7cb3500f9ca/malariagen_data-9.0.1.tar.gz
+[2024-05-10 11:44:43] INFO root fetch - processPackages [malariagen_data]: executing diffoscope
+[2024-05-10 11:44:43] INFO root fetch - processPackages [malariagen_data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malariagen_data-9.0.0.tar.gz tmp/malariagen_data-9.0.1.tar.gz --markdown 20240510/m/malariagen_data/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-05-10 11:44:43] INFO root fetch - processPackages [ScoutSuite]: Downloading https://files.pythonhosted.org/packages/ba/86/c7eb7bc6d2c5cb417ea3ec6e0d98e3f051d7240107dff3f7069c2f0053dd/ScoutSuite-5.9.1.tar.gz
+[2024-05-10 11:44:44] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.13.1.tar.gz]
+[2024-05-10 11:44:44] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.14.0.tar.gz]
+[2024-05-10 11:44:44] INFO root fetch - main [MainThread]: End processing [NatanStanek]: success
+[2024-05-10 11:44:44] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-10 11:44:44] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-10 11:44:44] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-10 11:44:44] INFO root fetch - processPackages [ScoutSuite]: executing diffoscope
+[2024-05-10 11:44:44] INFO root fetch - processPackages [ScoutSuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScoutSuite-5.9.0.tar.gz tmp/ScoutSuite-5.9.1.tar.gz --markdown 20240510/S/ScoutSuite/5.9.0-5.9.1/README.md --exclude *.pyd
+[2024-05-10 11:44:44] INFO root fetch - processPackages [malariagen_data]: Remove: archive file [/home/abi/fetcher/tmp/malariagen_data-9.0.0.tar.gz]
+[2024-05-10 11:44:44] INFO root fetch - processPackages [malariagen_data]: Remove: archive file [/home/abi/fetcher/tmp/malariagen_data-9.0.1.tar.gz]
+[2024-05-10 11:44:44] INFO root fetch - main [MainThread]: End processing [malariagen_data]: success
+[2024-05-10 11:44:46] INFO root fetch - processPackages [ScoutSuite]: Remove: archive file [/home/abi/fetcher/tmp/ScoutSuite-5.9.0.tar.gz]
+[2024-05-10 11:44:46] INFO root fetch - processPackages [ScoutSuite]: Remove: archive file [/home/abi/fetcher/tmp/ScoutSuite-5.9.1.tar.gz]
+[2024-05-10 11:44:46] INFO root fetch - main [MainThread]: End processing [ScoutSuite]: success
+[2024-05-10 11:44:46] INFO root fetch - main [MainThread]: Store serial: [23144221]
