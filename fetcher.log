@@ -9501,3 +9501,66 @@
 [2024-05-10 09:21:43] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-05-10 09:21:43] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-10 09:21:43] INFO root fetch - main [MainThread]: Store serial: [23142662]
+[2024-05-10 09:23:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142662]
+[2024-05-10 09:23:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyE2
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waypaper
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-indie-tools
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zetamarkets-py
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sample-classification-model
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gurux-dlms
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: umberingz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autofracture
+[2024-05-10 09:23:52] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-10 09:23:52] INFO root fetch - processPackages [autofracture]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 09:23:52] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ml-indie-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 09:23:52] INFO root fetch - processPackages [gurux-dlms]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-10 09:23:52] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-05-10 09:23:52] WARNING root fetch - processPackages [umberingz]: Skipping, unable to determine old version
+[2024-05-10 09:23:52] INFO root fetch - main [MainThread]: End processing [umberingz] error
+[2024-05-10 09:23:52] INFO root fetch - processPackages [waypaper]: New version: [2.1.1] Old Version: [2.1]
+[2024-05-10 09:23:52] WARNING root fetch - processPackages [sample-classification-model]: Skipping, unable to determine old version
+[2024-05-10 09:23:52] INFO root fetch - main [MainThread]: End processing [sample-classification-model] error
+[2024-05-10 09:23:52] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/f4/53/cbb96146ed606fe709651b6795ab5f137e293e328cf2c39091f590bd5914/autofracture-0.0.5.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/69/1d/c6da639234bf4fc987bcf4c70d7f07f77fa76a44aefc0606a4a01d5a7df1/ml-indie-tools-0.9.8.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/25/74/63f42de1c8cb6dcfb0f4a3019041df442189576684475fa7dae94f43bdba/waypaper-2.1.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [gurux-dlms]: Downloading https://files.pythonhosted.org/packages/3a/19/6ba6cf899efdf6f3e7df7b43471459e895a22370aa70ff24b8ec0d37867b/gurux_dlms-1.0.98.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/dc/de/d925fee74bb8d13f43b041409d0894d88ac152c18da6ca97c4d9820355c9/ml-indie-tools-0.9.9.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/bc/c0/d64c7b2231f0e6d5584344ffa80f83128b38606cf80d2bc2ece30da99d1a/autofracture-0.0.6.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-10 09:23:52] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240510/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-10 09:23:52] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-05-10 09:23:52] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240510/z/zetamarkets-py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ml-indie-tools]: executing diffoscope
+[2024-05-10 09:23:52] INFO root fetch - processPackages [ml-indie-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-indie-tools-0.9.8.tar.gz tmp/ml-indie-tools-0.9.9.tar.gz --markdown 20240510/m/ml-indie-tools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 09:23:52] INFO root fetch - processPackages [autofracture]: executing diffoscope
+[2024-05-10 09:23:52] INFO root fetch - processPackages [autofracture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofracture-0.0.5.tar.gz tmp/autofracture-0.0.6.tar.gz --markdown 20240510/a/autofracture/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 09:23:52] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/70/24/d107d9d25a659f1d6e2e6f0175c941ef5e9c18c1b41dde1c99d6247f1b7b/waypaper-2.1.1.tar.gz
+[2024-05-10 09:23:52] INFO root fetch - processPackages [gurux-dlms]: Downloading https://files.pythonhosted.org/packages/ea/9f/4151ff3e3361970601669bef12d45c4bd694cfa85f752d9f267ccbc2f78d/gurux_dlms-1.0.99.tar.gz
+[2024-05-10 09:23:53] INFO root fetch - processPackages [gurux-dlms]: executing diffoscope
+[2024-05-10 09:23:53] INFO root fetch - processPackages [gurux-dlms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurux_dlms-1.0.98.tar.gz tmp/gurux_dlms-1.0.99.tar.gz --markdown 20240510/g/gurux-dlms/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-10 09:23:53] INFO root fetch - processPackages [waypaper]: executing diffoscope
+[2024-05-10 09:23:53] INFO root fetch - processPackages [waypaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waypaper-2.1.tar.gz tmp/waypaper-2.1.1.tar.gz --markdown 20240510/w/waypaper/2.1-2.1.1/README.md --exclude *.pyd
+[2024-05-10 09:23:53] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.8.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.9.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - main [MainThread]: End processing [ml-indie-tools]: success
+[2024-05-10 09:23:53] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.5.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.6.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - main [MainThread]: End processing [autofracture]: success
+[2024-05-10 09:23:53] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-10 09:23:53] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-2.1.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-2.1.1.tar.gz]
+[2024-05-10 09:23:53] INFO root fetch - main [MainThread]: End processing [waypaper]: success
+[2024-05-10 09:23:54] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.98.tar.gz]
+[2024-05-10 09:23:54] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.99.tar.gz]
+[2024-05-10 09:23:54] INFO root fetch - main [MainThread]: End processing [gurux-dlms]: success
+[2024-05-10 09:23:58] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-05-10 09:23:58] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-05-10 09:23:58] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-05-10 09:23:58] INFO root fetch - main [MainThread]: Store serial: [23142702]
