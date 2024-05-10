@@ -5852,3 +5852,54 @@
 [2024-05-10 05:46:53] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.1.1.tar.gz]
 [2024-05-10 05:46:53] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
 [2024-05-10 05:46:53] INFO root fetch - main [MainThread]: Store serial: [23140944]
+[2024-05-10 05:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140944]
+[2024-05-10 05:49:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 05:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phariseez
+[2024-05-10 05:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: android-prober
+[2024-05-10 05:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medicafe
+[2024-05-10 05:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qlv-client
+[2024-05-10 05:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfx
+[2024-05-10 05:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-iterable
+[2024-05-10 05:49:01] INFO root fetch - processPackages [android-prober]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 05:49:01] INFO root fetch - processPackages [qlv-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-10 05:49:01] INFO root fetch - processPackages [airbyte-source-iterable]: New version: [0.5.1.dev202405100257] Old Version: [0.5.1.dev202405100143]
+[2024-05-10 05:49:01] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 05:49:01] INFO root fetch - processPackages [medicafe]: New version: [0.240509.5] Old Version: [0.240509.4]
+[2024-05-10 05:49:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-10 05:49:01] WARNING root fetch - processPackages [phariseez]: Skipping, unable to determine old version
+[2024-05-10 05:49:01] INFO root fetch - main [MainThread]: End processing [phariseez] error
+[2024-05-10 05:49:01] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/a6/4d/af1cef774d9228d0127c07dfd4ef052c8b957d3eecb139119ba8bbb6b61b/qlv-client-0.2.0.tar.gz
+[2024-05-10 05:49:01] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/48/ef/174474148ce687b7c81abe2ca0432c24b4bce9c39afcd14c7b185099ee7c/airbyte_source_iterable-0.5.1.dev202405100143.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/c0/03/e6fc06d325f1f1753184b507ecd27a29822866a740514d772bc4ae2366b9/medicafe-0.240509.4.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [android-prober]: Downloading https://files.pythonhosted.org/packages/f6/ab/bca01c4df067be20830546a929c869499442ea9d23392d9c97859a8c9d57/android_prober-0.1.3.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [android-prober]: Downloading https://files.pythonhosted.org/packages/e6/52/525235ecd9cb89523d1a3c0f1c8ec867fc2332528691654cae6a4ef48977/android_prober-0.1.4.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-10 05:49:02] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240510/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 05:49:02] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/c4/19/a8136c80bcbdafb7f7b4049f86d9c8e5be1ad6178e8b9088a0c85bd87485/qlv-client-0.2.1.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/4e/0b/4c54fb24f093e0ec0af1a24a1c8908f71d50aeb7bc9682ed61448976e3e7/airbyte_source_iterable-0.5.1.dev202405100257.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/9f/ff/9ae3c4f2c9a91a9165c87c71707b7c654ab1e9160d58a135696506d397c1/medicafe-0.240509.5.tar.gz
+[2024-05-10 05:49:02] INFO root fetch - processPackages [android-prober]: executing diffoscope
+[2024-05-10 05:49:02] INFO root fetch - processPackages [android-prober]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android_prober-0.1.3.tar.gz tmp/android_prober-0.1.4.tar.gz --markdown 20240510/a/android-prober/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 05:49:02] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-10 05:49:02] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.2.0.tar.gz tmp/qlv-client-0.2.1.tar.gz --markdown 20240510/q/qlv-client/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-10 05:49:02] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-10 05:49:02] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240509.4.tar.gz tmp/medicafe-0.240509.5.tar.gz --markdown 20240510/m/medicafe/0.240509.4-0.240509.5/README.md --exclude *.pyd
+[2024-05-10 05:49:02] INFO root fetch - processPackages [airbyte-source-iterable]: executing diffoscope
+[2024-05-10 05:49:02] INFO root fetch - processPackages [airbyte-source-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_iterable-0.5.1.dev202405100143.tar.gz tmp/airbyte_source_iterable-0.5.1.dev202405100257.tar.gz --markdown 20240510/a/airbyte-source-iterable/0.5.1.dev202405100143-0.5.1.dev202405100257/README.md --exclude *.pyd
+[2024-05-10 05:49:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-10 05:49:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-10 05:49:02] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-10 05:49:03] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.0.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.1.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-10 05:49:03] INFO root fetch - processPackages [android-prober]: Remove: archive file [/home/abi/fetcher/tmp/android_prober-0.1.3.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - processPackages [android-prober]: Remove: archive file [/home/abi/fetcher/tmp/android_prober-0.1.4.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - main [MainThread]: End processing [android-prober]: success
+[2024-05-10 05:49:03] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.4.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.5.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-10 05:49:03] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405100143.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405100257.tar.gz]
+[2024-05-10 05:49:03] INFO root fetch - main [MainThread]: End processing [airbyte-source-iterable]: success
+[2024-05-10 05:49:03] INFO root fetch - main [MainThread]: Store serial: [23140961]
