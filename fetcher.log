@@ -10371,3 +10371,66 @@
 [2024-05-10 10:04:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240509.tar.gz]
 [2024-05-10 10:04:50] INFO root fetch - main [MainThread]: End processing [langfun]: success
 [2024-05-10 10:04:50] INFO root fetch - main [MainThread]: Store serial: [23143057]
+[2024-05-10 10:06:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143057]
+[2024-05-10 10:06:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfp-leinao
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartboiler
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvcl-kit
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: create-flask-package
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iudex
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PREN-flawas
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: experimaestro
+[2024-05-10 10:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pg-sync-roles
+[2024-05-10 10:06:58] INFO root fetch - processPackages [iudex]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-10 10:06:58] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 10:06:58] WARNING root fetch - processPackages [create-flask-package]: Skipping, unable to determine old version
+[2024-05-10 10:06:58] INFO root fetch - main [MainThread]: End processing [create-flask-package] error
+[2024-05-10 10:06:59] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 10:06:59] INFO root fetch - processPackages [experimaestro]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-10 10:06:59] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-10 10:06:59] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/97/6b/ae3511098392182f15fa433c6b8dd0f3ebfe3951ec78ed305f1a2f7b649f/iudex-0.3.2.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/92/82/e5dc83d1ac5581482d5b41272c05bdc8b3f2370d9e841e79e5e3e38fd3dd/experimaestro-1.5.4.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 10:06:59] WARNING root fetch - processPackages [kfp-leinao]: Skipping, unable to determine old version
+[2024-05-10 10:06:59] INFO root fetch - main [MainThread]: End processing [kfp-leinao] error
+[2024-05-10 10:06:59] INFO root fetch - processPackages [nvcl-kit]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-10 10:06:59] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [nvcl-kit]: Downloading https://files.pythonhosted.org/packages/ed/2d/3f273555020b03bb920efaaf7c81752f05c16510e379fc21dc65402e79f4/nvcl-kit-1.1.7.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/d6/27/1ec4f30d01db2afc5aa1fc00819a60bf6d169a15d7b47ab32e7c7c745c79/iudex-0.4.0.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-10 10:06:59] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240510/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 10:06:59] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/bf/b6/08300b71dbc41c74f811308f0516624515e0374547584cfe95f9a9911c61/experimaestro-1.5.5.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-10 10:06:59] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240510/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-10 10:06:59] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-10 10:06:59] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.3.2.tar.gz tmp/iudex-0.4.0.tar.gz --markdown 20240510/i/iudex/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-10 10:06:59] INFO root fetch - processPackages [nvcl-kit]: Downloading https://files.pythonhosted.org/packages/c5/24/dd439820a592673218a4d25383c8ed8a7305a6b4927e062b48d8124c7cf9/nvcl-kit-1.1.8.tar.gz
+[2024-05-10 10:06:59] INFO root fetch - processPackages [nvcl-kit]: executing diffoscope
+[2024-05-10 10:06:59] INFO root fetch - processPackages [nvcl-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvcl-kit-1.1.7.tar.gz tmp/nvcl-kit-1.1.8.tar.gz --markdown 20240510/n/nvcl-kit/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-10 10:06:59] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 10:06:59] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 10:06:59] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2024-05-10 10:06:59] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-1.5.4.tar.gz tmp/experimaestro-1.5.5.tar.gz --markdown 20240510/e/experimaestro/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-10 10:07:00] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-10 10:07:00] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-10 10:07:00] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.3.2.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.0.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-10 10:07:00] INFO root fetch - processPackages [nvcl-kit]: Remove: archive file [/home/abi/fetcher/tmp/nvcl-kit-1.1.7.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - processPackages [nvcl-kit]: Remove: archive file [/home/abi/fetcher/tmp/nvcl-kit-1.1.8.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - main [MainThread]: End processing [nvcl-kit]: success
+[2024-05-10 10:07:00] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 10:07:00] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 10:07:01] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.4.tar.gz]
+[2024-05-10 10:07:01] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.5.tar.gz]
+[2024-05-10 10:07:01] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2024-05-10 10:07:01] INFO root fetch - main [MainThread]: Store serial: [23143083]
