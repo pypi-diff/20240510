@@ -5016,3 +5016,36 @@
 [2024-05-10 04:49:35] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
 [2024-05-10 04:49:35] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2024-05-10 04:49:35] INFO root fetch - main [MainThread]: Store serial: [23140603]
+[2024-05-10 04:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140603]
+[2024-05-10 04:51:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 04:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-aliding20230426
+[2024-05-10 04:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydbsmgr
+[2024-05-10 04:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invalidnessz
+[2024-05-10 04:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-postprocessor-cohere-rerank
+[2024-05-10 04:51:44] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-10 04:51:45] INFO root fetch - processPackages [pydbsmgr]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-10 04:51:45] WARNING root fetch - processPackages [invalidnessz]: Skipping, unable to determine old version
+[2024-05-10 04:51:45] INFO root fetch - main [MainThread]: End processing [invalidnessz] error
+[2024-05-10 04:51:45] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-05-10 04:51:45] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 04:51:45] INFO root fetch - processPackages [pydbsmgr]: Downloading https://files.pythonhosted.org/packages/21/04/70479b27f69d10ebc63be3d58ea6a55286816fe2786ec3d4b7edb142b8e7/pydbsmgr-0.9.5.tar.gz
+[2024-05-10 04:51:45] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-05-10 04:51:45] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Downloading https://files.pythonhosted.org/packages/fa/d5/d539a9a5b3eaff5a06442bb29b0a868c49632e72a35212c967f3986ed591/llama_index_postprocessor_cohere_rerank-0.1.4.tar.gz
+[2024-05-10 04:51:45] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-05-10 04:51:45] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240510/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-10 04:51:45] INFO root fetch - processPackages [pydbsmgr]: Downloading https://files.pythonhosted.org/packages/b2/2c/58e1435667640b1d0adb49f37dab2f66388dfb9ee9c0ecb058fc2057217d/pydbsmgr-0.9.6.tar.gz
+[2024-05-10 04:51:45] INFO root fetch - processPackages [pydbsmgr]: executing diffoscope
+[2024-05-10 04:51:45] INFO root fetch - processPackages [pydbsmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbsmgr-0.9.5.tar.gz tmp/pydbsmgr-0.9.6.tar.gz --markdown 20240510/p/pydbsmgr/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-10 04:51:45] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Downloading https://files.pythonhosted.org/packages/b2/cd/933dc35d86499c20a6b342eaf69e476c711946ff2cebb4956442e53d1578/llama_index_postprocessor_cohere_rerank-0.1.5.tar.gz
+[2024-05-10 04:51:45] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: executing diffoscope
+[2024-05-10 04:51:45] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_postprocessor_cohere_rerank-0.1.4.tar.gz tmp/llama_index_postprocessor_cohere_rerank-0.1.5.tar.gz --markdown 20240510/l/llama-index-postprocessor-cohere-rerank/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 04:51:46] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-05-10 04:51:46] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-05-10 04:51:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-05-10 04:51:46] INFO root fetch - processPackages [pydbsmgr]: Remove: archive file [/home/abi/fetcher/tmp/pydbsmgr-0.9.5.tar.gz]
+[2024-05-10 04:51:46] INFO root fetch - processPackages [pydbsmgr]: Remove: archive file [/home/abi/fetcher/tmp/pydbsmgr-0.9.6.tar.gz]
+[2024-05-10 04:51:46] INFO root fetch - main [MainThread]: End processing [pydbsmgr]: success
+[2024-05-10 04:51:46] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_cohere_rerank-0.1.4.tar.gz]
+[2024-05-10 04:51:46] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_cohere_rerank-0.1.5.tar.gz]
+[2024-05-10 04:51:46] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-cohere-rerank]: success
+[2024-05-10 04:51:46] INFO root fetch - main [MainThread]: Store serial: [23140616]
