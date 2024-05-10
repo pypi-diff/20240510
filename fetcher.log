@@ -4297,3 +4297,45 @@
 [2024-05-10 04:12:00] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715231397.tar.gz]
 [2024-05-10 04:12:00] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2024-05-10 04:12:00] INFO root fetch - main [MainThread]: Store serial: [23140318]
+[2024-05-10 04:14:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140318]
+[2024-05-10 04:14:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 04:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-pagerduty
+[2024-05-10 04:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: megfile
+[2024-05-10 04:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zxkane.cdk-construct-simple-nat
+[2024-05-10 04:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aim-flask
+[2024-05-10 04:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cabassetz
+[2024-05-10 04:14:10] INFO root fetch - processPackages [aim-flask]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-10 04:14:10] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-10 04:14:10] WARNING root fetch - processPackages [cabassetz]: Skipping, unable to determine old version
+[2024-05-10 04:14:10] INFO root fetch - main [MainThread]: End processing [cabassetz] error
+[2024-05-10 04:14:10] INFO root fetch - processPackages [megfile]: New version: [3.0.3] Old Version: [3.0.2.post1]
+[2024-05-10 04:14:10] INFO root fetch - processPackages [aim-flask]: Downloading https://files.pythonhosted.org/packages/e9/86/8b8ecfe3454e3bfd9d193612a57c7c2f19fbbf8981fd478835e45075ff5a/aim_flask-1.0.5.tar.gz
+[2024-05-10 04:14:10] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-10 04:14:10] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-10 04:14:10] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/64/15/5ac5fb2122b7bcb6da0917d4a4628d803f71c51658452d292b9961c5f9ab/megfile-3.0.2.post1-py3-none-any.whl
+[2024-05-10 04:14:10] INFO root fetch - processPackages [aim-flask]: Downloading https://files.pythonhosted.org/packages/10/24/04354c459dbb77851548d726ca619878402b18e972cd0adf36aa4dc70ba3/aim_flask-1.0.6-py3-none-any.whl
+[2024-05-10 04:14:10] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2024-05-10 04:14:10] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-10 04:14:10] INFO root fetch - processPackages [aim-flask]: executing diffoscope
+[2024-05-10 04:14:10] INFO root fetch - processPackages [aim-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim_flask-1.0.5.tar.gz tmp/aim_flask-1.0.6-py3-none-any.whl.zip --markdown 20240510/a/aim-flask/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-10 04:14:10] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-10 04:14:10] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240510/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-10 04:14:11] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/8d/96/3231582759df0ef6b318ab65cf43c25677a48d158e8e2828093c4aed8a46/megfile-3.0.3-py3-none-any.whl
+[2024-05-10 04:14:11] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2024-05-10 04:14:11] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-3.0.2.post1-py3-none-any.whl.zip tmp/megfile-3.0.3-py3-none-any.whl.zip --markdown 20240510/m/megfile/3.0.2.post1-3.0.3/README.md --exclude *.pyd
+[2024-05-10 04:14:11] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2024-05-10 04:14:11] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2024-05-10 04:14:11] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20240510/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-10 04:14:11] INFO root fetch - processPackages [aim-flask]: Remove: archive file [/home/abi/fetcher/tmp/aim_flask-1.0.5.tar.gz]
+[2024-05-10 04:14:11] INFO root fetch - processPackages [aim-flask]: Remove: archive file [/home/abi/fetcher/tmp/aim_flask-1.0.6-py3-none-any.whl.zip]
+[2024-05-10 04:14:11] INFO root fetch - main [MainThread]: End processing [aim-flask]: success
+[2024-05-10 04:14:11] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.2.post1-py3-none-any.whl.zip]
+[2024-05-10 04:14:11] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.3-py3-none-any.whl.zip]
+[2024-05-10 04:14:11] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2024-05-10 04:14:11] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-10 04:14:11] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-10 04:14:11] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-10 04:14:11] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz]
+[2024-05-10 04:14:11] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
+[2024-05-10 04:14:11] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2024-05-10 04:14:11] INFO root fetch - main [MainThread]: Store serial: [23140335]
