@@ -17289,3 +17289,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:11:40] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
 [2024-05-10 14:11:40] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
 [2024-05-10 14:11:40] INFO root fetch - main [MainThread]: Store serial: [23145889]
+[2024-05-10 14:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145889]
+[2024-05-10 14:14:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ownotp
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymzml
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-bigstitcher
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scHyper
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exist-client
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartboiler
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bin2dec
+[2024-05-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-plus-28
+[2024-05-10 14:14:04] INFO root fetch - processPackages [exist-client]: New version: [0.1.2.dev2] Old Version: [0.1.1]
+[2024-05-10 14:14:04] WARNING root fetch - processPackages [scHyper]: Skipping, unable to determine old version
+[2024-05-10 14:14:04] INFO root fetch - processPackages [scHyper]: Start processing: overjadedz
+[2024-05-10 14:14:04] INFO root fetch - main [MainThread]: End processing [scHyper] error
+[2024-05-10 14:14:04] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-10 14:14:04] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-10 14:14:04] WARNING root fetch - processPackages [bin2dec]: Skipping, unable to determine old version
+[2024-05-10 14:14:04] INFO root fetch - main [MainThread]: End processing [bin2dec] error
+[2024-05-10 14:14:04] WARNING root fetch - processPackages [ownotp]: Skipping, unable to determine old version
+[2024-05-10 14:14:04] INFO root fetch - main [MainThread]: End processing [ownotp] error
+[2024-05-10 14:14:04] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-10 14:14:04] INFO root fetch - processPackages [cdk8s-plus-28]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-05-10 14:14:04] WARNING root fetch - processPackages [pydantic-bigstitcher]: Skipping, unable to determine old version
+[2024-05-10 14:14:04] INFO root fetch - main [MainThread]: End processing [pydantic-bigstitcher] error
+[2024-05-10 14:14:04] INFO root fetch - processPackages [pymzml]: New version: [2.5.9] Old Version: [2.5.7]
+[2024-05-10 14:14:04] INFO root fetch - processPackages [exist-client]: Downloading https://files.pythonhosted.org/packages/8b/c4/b98ced55fa855f7e34b85f43a661da88882c22dcd7abc115d860517bfcdf/exist_client-0.1.1.tar.gz
+[2024-05-10 14:14:04] WARNING root fetch - processPackages [overjadedz]: Skipping, unable to determine old version
+[2024-05-10 14:14:04] INFO root fetch - main [MainThread]: End processing [overjadedz] error
+[2024-05-10 14:14:04] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-10 14:14:04] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-10 14:14:04] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/01/5c/4e759808a395b7494408f0e81c9b157761f00d2082586635f455eb9752d8/cdk8s-plus-28-2.3.2.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [pymzml]: Downloading https://files.pythonhosted.org/packages/84/76/6973cb0ea6542ce276889a32939823fafd3a85ae23b83b3736f4e6aa3bb5/pymzml-2.5.7.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [exist-client]: Downloading https://files.pythonhosted.org/packages/6f/07/42e6c701ec3751e699f0cd4b07d8595933d24705a18f51098d924ea52d5c/exist_client-0.1.2.dev2.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [exist-client]: executing diffoscope
+[2024-05-10 14:14:05] INFO root fetch - processPackages [exist-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exist_client-0.1.1.tar.gz tmp/exist_client-0.1.2.dev2.tar.gz --markdown 20240510/e/exist-client/0.1.1-0.1.2.dev2/README.md --exclude *.pyd
+[2024-05-10 14:14:05] WARNING root fetch - processPackages [pymzml]: Skipping package: exceeds size limit 24063443>=10485760
+[2024-05-10 14:14:05] INFO root fetch - main [MainThread]: End processing [pymzml] error
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-10 14:14:05] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240510/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240510/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240510/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/bf/e4/6d0312af9db55b647d65771b458e645f0df5a8e032fcbaf9e1cd38d0eaf4/cdk8s-plus-28-2.3.3.tar.gz
+[2024-05-10 14:14:05] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-10 14:14:05] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-10 14:14:05] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-05-10 14:14:05] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-05-10 14:14:06] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-10 14:14:06] INFO root fetch - processPackages [cdk8s-plus-28]: executing diffoscope
+[2024-05-10 14:14:06] INFO root fetch - processPackages [cdk8s-plus-28]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-28-2.3.2.tar.gz tmp/cdk8s-plus-28-2.3.3.tar.gz --markdown 20240510/c/cdk8s-plus-28/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-05-10 14:14:06] INFO root fetch - processPackages [exist-client]: Remove: archive file [/home/abi/fetcher/tmp/exist_client-0.1.1.tar.gz]
+[2024-05-10 14:14:06] INFO root fetch - processPackages [exist-client]: Remove: archive file [/home/abi/fetcher/tmp/exist_client-0.1.2.dev2.tar.gz]
+[2024-05-10 14:14:06] INFO root fetch - main [MainThread]: End processing [exist-client]: success
+[2024-05-10 14:14:06] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-10 14:14:06] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.3.2.tar.gz]
+[2024-05-10 14:14:06] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.3.3.tar.gz]
+[2024-05-10 14:14:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
+[2024-05-10 14:14:06] INFO root fetch - main [MainThread]: Store serial: [23145930]
