@@ -19159,3 +19159,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:16:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-10 15:16:15] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-10 15:16:15] INFO root fetch - main [MainThread]: Store serial: [23146825]
+[2024-05-10 15:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146825]
+[2024-05-10 15:18:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ledger
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: person-local
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: profile-local
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bloodyAD
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiktok-captcha-solver
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isystem.connect
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ooui
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anvil-uplink
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mfprocess
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: create-dara-app
+[2024-05-10 15:18:31] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [mfprocess]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [anvil-uplink]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [tiktok-captcha-solver]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [create-dara-app]: New version: [1.9.0] Old Version: [1.8.6]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [ooui]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-10 15:18:31] INFO root fetch - processPackages [bloodyAD]: New version: [2.0.3] Old Version: [1.1.1]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [mfprocess]: Downloading https://files.pythonhosted.org/packages/69/67/0a9948bb4ad6ee1cd91cd893ca1a9958b1f51d055860d07b2fa7a04eecd0/mfprocess-1.0.8.tar.gz
+[2024-05-10 15:18:31] INFO root fetch - processPackages [django-ledger]: New version: [0.6.1] Old Version: [0.6.0.2]
+[2024-05-10 15:18:31] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-10 15:18:31] INFO root fetch - processPackages [anvil-uplink]: Downloading https://files.pythonhosted.org/packages/1b/95/cb746314cd5babbe048e9dd01648180911b40ced7b83ba0103a41d8c6bea/anvil-uplink-0.4.1.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-05-10 15:18:32] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/12/67/32c8cde492a6ba9f95d1cc96e0e56dc12029aff64d88cf5738c300a2b0a0/ooui-0.1.0.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [tiktok-captcha-solver]: Downloading https://files.pythonhosted.org/packages/49/ea/a3426b33ea674f925a3915822a3d47132e0104e3ecd83d964d2eb7c04f18/tiktok_captcha_solver-0.0.1.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [bloodyAD]: Downloading https://files.pythonhosted.org/packages/82/fc/45c42806cf10a77c029cbb739b5b6f8205bf784ade2c66a48ce21cf1456b/bloodyad-1.1.1.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/8f/e0/27d7a1a97b8f26d274c89da2ca7d123e7439ed92c7c753e468adb4aa3a59/create_dara_app-1.8.6-py3-none-any.whl
+[2024-05-10 15:18:32] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/1c/b3/271e2dadad61a00f856c0a96bec6b1814da7d8a09a567da7bdf82ebc1f80/django_ledger-0.6.0.2-py3-none-any.whl
+[2024-05-10 15:18:32] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-05-10 15:18:32] INFO root fetch - processPackages [mfprocess]: Downloading https://files.pythonhosted.org/packages/2a/ea/e500f375b708c3fd5a6705d8a3e160c1dd88026ffdbe18484bfba29a1229/mfprocess-1.0.9.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240510/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240510/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [anvil-uplink]: Downloading https://files.pythonhosted.org/packages/fb/4f/13021c235829fff38f43990bc15497d8e1312e4d6d84efd8b9084efa8cd9/anvil-uplink-0.4.2.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [mfprocess]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [mfprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfprocess-1.0.8.tar.gz tmp/mfprocess-1.0.9.tar.gz --markdown 20240510/m/mfprocess/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/31/e8/3ee53d4612c22865a4b0f11788f4784f2313f860ff10262c174b09ac179e/ooui-0.2.0.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [tiktok-captcha-solver]: Downloading https://files.pythonhosted.org/packages/92/63/90bcc2973b377e9b2c41965e648e9df9ab809acc161cc9c2ba0d39409b81/tiktok_captcha_solver-0.0.2.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [bloodyAD]: Downloading https://files.pythonhosted.org/packages/bd/3c/4a3cfa2e9d67e7ab095a5725e7fdd2766a98260fcbc5c10dcb233a173059/bloodyad-2.0.3.tar.gz
+[2024-05-10 15:18:32] INFO root fetch - processPackages [anvil-uplink]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [anvil-uplink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anvil-uplink-0.4.1.tar.gz tmp/anvil-uplink-0.4.2.tar.gz --markdown 20240510/a/anvil-uplink/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/88/3d/1fc20643737a8d52cabf8bd94ee68dd1d89d0296a3587c18fb5e59ee40bf/create_dara_app-1.9.0-py3-none-any.whl
+[2024-05-10 15:18:32] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.1.0.tar.gz tmp/ooui-0.2.0.tar.gz --markdown 20240510/o/ooui/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [bloodyAD]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [bloodyAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloodyad-1.1.1.tar.gz tmp/bloodyad-2.0.3.tar.gz --markdown 20240510/b/bloodyAD/1.1.1-2.0.3/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [tiktok-captcha-solver]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [tiktok-captcha-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktok_captcha_solver-0.0.1.tar.gz tmp/tiktok_captcha_solver-0.0.2.tar.gz --markdown 20240510/t/tiktok-captcha-solver/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [create-dara-app]: executing diffoscope
+[2024-05-10 15:18:32] INFO root fetch - processPackages [create-dara-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_dara_app-1.8.6-py3-none-any.whl.zip tmp/create_dara_app-1.9.0-py3-none-any.whl.zip --markdown 20240510/c/create-dara-app/1.8.6-1.9.0/README.md --exclude *.pyd
+[2024-05-10 15:18:32] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/5c/a6/58d0c3f0d473cea5fa581e29a492f0787c4b70e84484ca2286c8a9eab147/django_ledger-0.6.1-py3-none-any.whl
+[2024-05-10 15:18:33] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [profile-local]: Start processing: dara-core
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [person-local]: Start processing: dara-components
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-05-10 15:18:33] INFO root fetch - processPackages [mfprocess]: Remove: archive file [/home/abi/fetcher/tmp/mfprocess-1.0.8.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [mfprocess]: Remove: archive file [/home/abi/fetcher/tmp/mfprocess-1.0.9.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [mfprocess]: Start processing: radical.pilot
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [mfprocess]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [dara-core]: New version: [1.9.0] Old Version: [1.8.6]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [django-ledger]: executing diffoscope
+[2024-05-10 15:18:33] INFO root fetch - processPackages [django-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ledger-0.6.0.2-py3-none-any.whl.zip tmp/django_ledger-0.6.1-py3-none-any.whl.zip --markdown 20240510/d/django-ledger/0.6.0.2-0.6.1/README.md --exclude *.pyd
+[2024-05-10 15:18:33] INFO root fetch - processPackages [dara-components]: New version: [1.9.0] Old Version: [1.8.6]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.1.0.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.2.0.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [ooui]: Start processing: capletz
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.8.6-py3-none-any.whl.zip]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.9.0-py3-none-any.whl.zip]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [create-dara-app]: Start processing: oarepo-ui
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [create-dara-app]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [capletz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/9a/a9/32850b4b02ed8260eba5d0532998b0a55cfbeb4c8ca49440c20acce5aae1/dara_core-1.8.6-py3-none-any.whl
+[2024-05-10 15:18:33] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2024-05-10 15:18:33] INFO root fetch - processPackages [tiktok-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/tiktok_captcha_solver-0.0.1.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [tiktok-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/tiktok_captcha_solver-0.0.2.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [tiktok-captcha-solver]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [anvil-uplink]: Remove: archive file [/home/abi/fetcher/tmp/anvil-uplink-0.4.1.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [anvil-uplink]: Remove: archive file [/home/abi/fetcher/tmp/anvil-uplink-0.4.2.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [anvil-uplink]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/df/c6/e227675d41b9d082c4399ca84e9d29ff0ee70f69bdda40b742adbd491460/dara_components-1.8.6-py3-none-any.whl
+[2024-05-10 15:18:33] INFO root fetch - processPackages [bloodyAD]: Remove: archive file [/home/abi/fetcher/tmp/bloodyad-1.1.1.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [bloodyAD]: Remove: archive file [/home/abi/fetcher/tmp/bloodyad-2.0.3.tar.gz]
+[2024-05-10 15:18:33] INFO root fetch - main [MainThread]: End processing [bloodyAD]: success
+[2024-05-10 15:18:33] INFO root fetch - processPackages [oarepo-ui]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-05-10 15:18:33] INFO root fetch - processPackages [capletz]: Downloading https://files.pythonhosted.org/packages/d5/83/6dc460c833982321200b62cd2c7ee157315fd2093df0b29ce828e7a0bb6d/capletz-1.1.tar.gz
+[2024-05-10 15:18:33] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/87/64/10c65b547fcd49c12a5c9a954426830269b57a4115a7070da01f33307313/oarepo-ui-5.1.8.tar.gz
+[2024-05-10 15:18:34] INFO root fetch - processPackages [capletz]: Downloading https://files.pythonhosted.org/packages/e5/04/ca7eb8435aaaa38cc77a160394a2d2131bb654cb6a94a7f3ba86611b88b8/capletz-2.1.tar.gz
+[2024-05-10 15:18:34] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2024-05-10 15:18:34] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/79/8e/95316366f4c35e7329fa617d319a0c6b5a7beb26fcd76a93638415957d69/oarepo-ui-5.1.9.tar.gz
+[2024-05-10 15:18:34] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/7f/fa/411d6863f64c07c19f0424e1680eb9286a40ac8965ec37d81115011db279/dara_components-1.9.0-py3-none-any.whl
+[2024-05-10 15:18:34] INFO root fetch - processPackages [capletz]: executing diffoscope
+[2024-05-10 15:18:34] INFO root fetch - processPackages [capletz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capletz-1.1.tar.gz tmp/capletz-2.1.tar.gz --markdown 20240510/c/capletz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 15:18:34] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-05-10 15:18:34] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240510/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-05-10 15:18:34] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2024-05-10 15:18:34] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.1.8.tar.gz tmp/oarepo-ui-5.1.9.tar.gz --markdown 20240510/o/oarepo-ui/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-05-10 15:18:34] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2024-05-10 15:18:34] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20240510/r/radical.pilot/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-10 15:18:34] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/2c/0e/5d68d255ad7ee2541d9e05ebbfbb02d19117a1b999a601b8a67f318aaae0/dara_core-1.9.0-py3-none-any.whl
+[2024-05-10 15:18:34] INFO root fetch - processPackages [dara-components]: executing diffoscope
+[2024-05-10 15:18:34] INFO root fetch - processPackages [dara-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_components-1.8.6-py3-none-any.whl.zip tmp/dara_components-1.9.0-py3-none-any.whl.zip --markdown 20240510/d/dara-components/1.8.6-1.9.0/README.md --exclude *.pyd
+[2024-05-10 15:18:34] INFO root fetch - processPackages [dara-core]: executing diffoscope
+[2024-05-10 15:18:34] INFO root fetch - processPackages [dara-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_core-1.8.6-py3-none-any.whl.zip tmp/dara_core-1.9.0-py3-none-any.whl.zip --markdown 20240510/d/dara-core/1.8.6-1.9.0/README.md --exclude *.pyd
+[2024-05-10 15:18:35] INFO root fetch - processPackages [capletz]: Remove: archive file [/home/abi/fetcher/tmp/capletz-1.1.tar.gz]
+[2024-05-10 15:18:35] INFO root fetch - processPackages [capletz]: Remove: archive file [/home/abi/fetcher/tmp/capletz-2.1.tar.gz]
+[2024-05-10 15:18:35] INFO root fetch - main [MainThread]: End processing [capletz]: success
+[2024-05-10 15:18:35] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-05-10 15:18:35] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-05-10 15:18:35] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-05-10 15:18:35] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.8.tar.gz]
+[2024-05-10 15:18:35] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.9.tar.gz]
+[2024-05-10 15:18:35] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2024-05-10 15:18:35] INFO root fetch - processPackages [django-ledger]: Remove: archive file [/home/abi/fetcher/tmp/django_ledger-0.6.0.2-py3-none-any.whl.zip]
+[2024-05-10 15:18:35] INFO root fetch - processPackages [django-ledger]: Remove: archive file [/home/abi/fetcher/tmp/django_ledger-0.6.1-py3-none-any.whl.zip]
+[2024-05-10 15:18:35] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
+[2024-05-10 15:18:35] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2024-05-10 15:18:35] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2024-05-10 15:18:35] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2024-05-10 15:18:54] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.8.6-py3-none-any.whl.zip]
+[2024-05-10 15:18:54] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.9.0-py3-none-any.whl.zip]
+[2024-05-10 15:18:54] INFO root fetch - main [MainThread]: End processing [dara-core]: success
+[2024-05-10 15:19:44] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.6-py3-none-any.whl.zip]
+[2024-05-10 15:19:44] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.0-py3-none-any.whl.zip]
+[2024-05-10 15:19:44] INFO root fetch - main [MainThread]: End processing [dara-components]: success
+[2024-05-10 15:19:44] INFO root fetch - main [MainThread]: Store serial: [23146876]
