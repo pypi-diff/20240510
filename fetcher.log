@@ -13073,3 +13073,93 @@
 [2024-05-10 11:40:15] INFO root fetch - processPackages [mf-prior-bench]: Remove: archive file [/home/abi/fetcher/tmp/mf_prior_bench-1.9.0.tar.gz]
 [2024-05-10 11:40:15] INFO root fetch - main [MainThread]: End processing [mf-prior-bench]: success
 [2024-05-10 11:40:15] INFO root fetch - main [MainThread]: Store serial: [23144170]
+[2024-05-10 11:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144170]
+[2024-05-10 11:42:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fresnez
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-packages
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omdctk
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ara-cli
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antibacterial-model
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PREN-flawas
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: g3visu
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mxlm
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazyqml
+[2024-05-10 11:42:28] INFO root fetch - processPackages [common-packages]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [lazyqml]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [g3visu]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-10 11:42:28] WARNING root fetch - processPackages [fresnez]: Skipping, unable to determine old version
+[2024-05-10 11:42:28] INFO root fetch - processPackages [fresnez]: Start processing: flexible-dict
+[2024-05-10 11:42:28] INFO root fetch - main [MainThread]: End processing [fresnez] error
+[2024-05-10 11:42:28] WARNING root fetch - processPackages [antibacterial-model]: Skipping, unable to determine old version
+[2024-05-10 11:42:28] INFO root fetch - main [MainThread]: End processing [antibacterial-model] error
+[2024-05-10 11:42:28] INFO root fetch - processPackages [common-packages]: Downloading https://files.pythonhosted.org/packages/31/62/bbb3c9d5e4525b2f242cb799da2100347c021580cf0178c274a837308267/common_packages-0.1.8.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ara-cli]: New version: [0.1.4.31] Old Version: [0.1.4.30]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [mxlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [omdctk]: New version: [1.1.0] Old Version: [1.0]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/1c/71/9b249be56354cd16466bfedb6d0dad9711c68dad0d0246b5e20c65f19c6b/g3visu-0.1.4.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/59/7f/9c0f7788bc42dbab9a17958a1357d5bcbf031073300840b1a5962bcdc25c/lazyqml-0.3.5.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [flexible-dict]: New version: [2.0.0] Old Version: [1.2.3]
+[2024-05-10 11:42:28] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/f7/16/c8de92b0a0dde6e732ba54549daa268a3166a71b64a8e4b3861700e6f587/flexible_dict-1.2.3.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/d1/14/a7587536922a5ed21c5fa295994c6a1966f727b60f8a944319e536c907e1/ara_cli-0.1.4.30.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [common-packages]: Downloading https://files.pythonhosted.org/packages/00/24/17b8c9b44bab525ed938ed5bd08daebcfc2bf9d0857174089d20f54e7475/common_packages-0.1.9.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/ed/b8/064bf4a9343e6d3119fd86585daaffb17ff093ce4f9455e450194e3769db/mxlm-0.0.8.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [omdctk]: Downloading https://files.pythonhosted.org/packages/72/4a/d04787e06ac60836a31c00168dbe7a1160f1be2652ad2e0ca0fc162fdfc5/omdctk-1.0.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [common-packages]: executing diffoscope
+[2024-05-10 11:42:28] INFO root fetch - processPackages [common-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_packages-0.1.8.tar.gz tmp/common_packages-0.1.9.tar.gz --markdown 20240510/c/common-packages/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 11:42:28] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/9d/c9/f97e150ccd7bf443eb2eb683a84179dba4323cef3bafe082e68a1ca5c1d7/flexible_dict-2.0.0.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/1e/62/e03dcbe821be3a27a08f0a0aa14568061da29165b69d74d9daf4bdf156ab/lazyqml-0.3.6.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/99/ba/42e9fe7585e81609d70437a731d3a92b0f3339738d6d090b99e494d10d57/g3visu-0.1.5.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2024-05-10 11:42:28] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-1.2.3.tar.gz tmp/flexible_dict-2.0.0.tar.gz --markdown 20240510/f/flexible-dict/1.2.3-2.0.0/README.md --exclude *.pyd
+[2024-05-10 11:42:28] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [g3visu]: executing diffoscope
+[2024-05-10 11:42:28] INFO root fetch - processPackages [g3visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3visu-0.1.4.tar.gz tmp/g3visu-0.1.5.tar.gz --markdown 20240510/g/g3visu/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 11:42:28] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-10 11:42:28] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/a6/1a/3be5fb75da7d7b03dc95a60b07480d69520ea7ad43ffda6cbb9e6de98511/mxlm-0.0.9.tar.gz
+[2024-05-10 11:42:29] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-10 11:42:29] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.3.5.tar.gz tmp/lazyqml-0.3.6.tar.gz --markdown 20240510/l/lazyqml/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-10 11:42:29] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/28/0a/4be7e667e271a4587610cb5cf063446ee6d4c836f102d93d40e47a1ff325/ara_cli-0.1.4.31.tar.gz
+[2024-05-10 11:42:29] INFO root fetch - processPackages [omdctk]: Downloading https://files.pythonhosted.org/packages/bc/43/3e2fb636d43d08481487383c5da76db6ad481ab89500b6ffc75db6c9b4bd/omdctk-1.1.0.tar.gz
+[2024-05-10 11:42:29] INFO root fetch - processPackages [mxlm]: executing diffoscope
+[2024-05-10 11:42:29] INFO root fetch - processPackages [mxlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxlm-0.0.8.tar.gz tmp/mxlm-0.0.9.tar.gz --markdown 20240510/m/mxlm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 11:42:29] INFO root fetch - processPackages [ara-cli]: executing diffoscope
+[2024-05-10 11:42:29] INFO root fetch - processPackages [ara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara_cli-0.1.4.30.tar.gz tmp/ara_cli-0.1.4.31.tar.gz --markdown 20240510/a/ara-cli/0.1.4.30-0.1.4.31/README.md --exclude *.pyd
+[2024-05-10 11:42:29] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 11:42:29] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 11:42:29] INFO root fetch - processPackages [omdctk]: executing diffoscope
+[2024-05-10 11:42:29] INFO root fetch - processPackages [omdctk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omdctk-1.0.tar.gz tmp/omdctk-1.1.0.tar.gz --markdown 20240510/o/omdctk/1.0-1.1.0/README.md --exclude *.pyd
+[2024-05-10 11:42:29] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-10 11:42:29] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240510/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-10 11:42:29] INFO root fetch - processPackages [common-packages]: Remove: archive file [/home/abi/fetcher/tmp/common_packages-0.1.8.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - processPackages [common-packages]: Remove: archive file [/home/abi/fetcher/tmp/common_packages-0.1.9.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - main [MainThread]: End processing [common-packages]: success
+[2024-05-10 11:42:29] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.2.3.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-2.0.0.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2024-05-10 11:42:29] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.4.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.5.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - main [MainThread]: End processing [g3visu]: success
+[2024-05-10 11:42:29] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.5.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.6.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-10 11:42:29] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.8.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.9.tar.gz]
+[2024-05-10 11:42:29] INFO root fetch - main [MainThread]: End processing [mxlm]: success
+[2024-05-10 11:42:30] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.30.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.31.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
+[2024-05-10 11:42:30] INFO root fetch - processPackages [omdctk]: Remove: archive file [/home/abi/fetcher/tmp/omdctk-1.0.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - processPackages [omdctk]: Remove: archive file [/home/abi/fetcher/tmp/omdctk-1.1.0.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - main [MainThread]: End processing [omdctk]: success
+[2024-05-10 11:42:30] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 11:42:30] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-10 11:42:30] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-10 11:42:30] INFO root fetch - main [MainThread]: Store serial: [23144206]
