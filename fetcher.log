@@ -9308,3 +9308,51 @@
 [2024-05-10 09:08:38] INFO root fetch - processPackages [mdremotifier]: Remove: archive file [/home/abi/fetcher/tmp/mdremotifier-0.3.2.tar.gz]
 [2024-05-10 09:08:38] INFO root fetch - main [MainThread]: End processing [mdremotifier]: success
 [2024-05-10 09:08:38] INFO root fetch - main [MainThread]: Store serial: [23142579]
+[2024-05-10 09:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142579]
+[2024-05-10 09:10:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 09:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riddlesolver
+[2024-05-10 09:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-notes-local
+[2024-05-10 09:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinjected
+[2024-05-10 09:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rag-doc-search
+[2024-05-10 09:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mesop
+[2024-05-10 09:10:49] INFO root fetch - processPackages [riddlesolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:10:49] INFO root fetch - processPackages [pinjected]: New version: [0.2.60] Old Version: [0.2.59]
+[2024-05-10 09:10:49] INFO root fetch - processPackages [contact-notes-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 09:10:49] INFO root fetch - processPackages [mesop]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-10 09:10:49] INFO root fetch - processPackages [rag-doc-search]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-10 09:10:49] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/8b/0b/5d8ba16dc2ea29ecfd27ef083dad139cd6ff7a327a7f22334bb9aa882db7/riddlesolver-0.1.8.tar.gz
+[2024-05-10 09:10:49] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/94/02/401f72b4bc3a22137e39e519a300db91b6d7f6f995ff3fdd5266dd81540c/contact-notes-local-0.0.8.tar.gz
+[2024-05-10 09:10:49] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/0d/42/d79c5b22a3dade2d26235e9df579f5c337649ac2041e4d35a77cae13dbdd/mesop-0.5.3-py3-none-any.whl
+[2024-05-10 09:10:49] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/a4/16/337e8d7c14300230719ba725b0537c82e7da6233bfe787176d90a61cf447/pinjected-0.2.59.tar.gz
+[2024-05-10 09:10:50] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/2d/5d/a4b74860e96f1025ad1e45a053fab4a004920bda458bc4868ce843aa0bc9/rag_doc_search-0.1.6.tar.gz
+[2024-05-10 09:10:50] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/46/68/daef27bbcc176c6be119dbd92ff2be28b6d27558058a394d39d371188751/riddlesolver-0.1.9.tar.gz
+[2024-05-10 09:10:50] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/7d/da/15635ad28159f22874e3fbe243ec786d3658da7812c3243f5feb8d5f8385/contact-notes-local-0.0.9.tar.gz
+[2024-05-10 09:10:50] INFO root fetch - processPackages [riddlesolver]: executing diffoscope
+[2024-05-10 09:10:50] INFO root fetch - processPackages [riddlesolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riddlesolver-0.1.8.tar.gz tmp/riddlesolver-0.1.9.tar.gz --markdown 20240510/r/riddlesolver/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:10:50] INFO root fetch - processPackages [contact-notes-local]: executing diffoscope
+[2024-05-10 09:10:50] INFO root fetch - processPackages [contact-notes-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-notes-local-0.0.8.tar.gz tmp/contact-notes-local-0.0.9.tar.gz --markdown 20240510/c/contact-notes-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:10:50] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/80/79/f8852c4f66e03f2618cbb9bda51dd38a5b041cd84c56ef69937885b6033d/pinjected-0.2.60.tar.gz
+[2024-05-10 09:10:50] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-10 09:10:50] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.59.tar.gz tmp/pinjected-0.2.60.tar.gz --markdown 20240510/p/pinjected/0.2.59-0.2.60/README.md --exclude *.pyd
+[2024-05-10 09:10:50] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/07/ed/6b79623bb7a0df2cc2388bd9130a4838f8279b994e514eebec0abecf669f/mesop-0.5.4-py3-none-any.whl
+[2024-05-10 09:10:50] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/28/85/5d376e2eddbe6407d0d7ed6dec63c18be0077d4e2f8a7513838157512a9f/rag_doc_search-0.1.7.tar.gz
+[2024-05-10 09:10:50] INFO root fetch - processPackages [rag-doc-search]: executing diffoscope
+[2024-05-10 09:10:50] INFO root fetch - processPackages [rag-doc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_doc_search-0.1.6.tar.gz tmp/rag_doc_search-0.1.7.tar.gz --markdown 20240510/r/rag-doc-search/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-10 09:10:50] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.8.tar.gz]
+[2024-05-10 09:10:50] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.9.tar.gz]
+[2024-05-10 09:10:50] INFO root fetch - main [MainThread]: End processing [contact-notes-local]: success
+[2024-05-10 09:10:51] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.59.tar.gz]
+[2024-05-10 09:10:51] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.60.tar.gz]
+[2024-05-10 09:10:51] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-10 09:10:51] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.8.tar.gz]
+[2024-05-10 09:10:51] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
+[2024-05-10 09:10:51] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
+[2024-05-10 09:10:51] INFO root fetch - processPackages [mesop]: executing diffoscope
+[2024-05-10 09:10:51] INFO root fetch - processPackages [mesop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesop-0.5.3-py3-none-any.whl.zip tmp/mesop-0.5.4-py3-none-any.whl.zip --markdown 20240510/m/mesop/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-10 09:10:51] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.6.tar.gz]
+[2024-05-10 09:10:51] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.7.tar.gz]
+[2024-05-10 09:10:51] INFO root fetch - main [MainThread]: End processing [rag-doc-search]: success
+[2024-05-10 09:10:52] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.3-py3-none-any.whl.zip]
+[2024-05-10 09:10:52] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.4-py3-none-any.whl.zip]
+[2024-05-10 09:10:52] INFO root fetch - main [MainThread]: End processing [mesop]: success
+[2024-05-10 09:10:52] INFO root fetch - main [MainThread]: Store serial: [23142593]
