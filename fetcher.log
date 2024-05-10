@@ -3459,3 +3459,50 @@
 [2024-05-10 03:34:15] WARNING root fetch - processPackages [poetrytrial]: Skipping, unable to determine old version
 [2024-05-10 03:34:15] INFO root fetch - main [MainThread]: End processing [poetrytrial] error
 [2024-05-10 03:34:15] INFO root fetch - main [MainThread]: Store serial: [23139968]
+[2024-05-10 03:36:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139968]
+[2024-05-10 03:36:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 03:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smart-sdk
+[2024-05-10 03:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharemyai-utils
+[2024-05-10 03:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: advanced_navigation
+[2024-05-10 03:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-osubot
+[2024-05-10 03:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-management-local
+[2024-05-10 03:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: largebrainedz
+[2024-05-10 03:36:23] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 03:36:23] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.0.1] Old Version: [6.0.0]
+[2024-05-10 03:36:23] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 03:36:23] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 03:36:23] INFO root fetch - processPackages [sharemyai-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 03:36:23] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/a1/51/50aef8f2c1f2c968effe6ed9e9c120eb1bb5a4b521bfb74294825630af17/advanced_navigation-0.1.3.tar.gz
+[2024-05-10 03:36:23] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-10 03:36:23] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/14/26/16fee3c6304b663f962cf1952ce92e08937ff9edd663d9bb51b14148eaa1/duwi_smart_sdk-0.2.1.tar.gz
+[2024-05-10 03:36:23] WARNING root fetch - processPackages [largebrainedz]: Skipping, unable to determine old version
+[2024-05-10 03:36:23] INFO root fetch - main [MainThread]: End processing [largebrainedz] error
+[2024-05-10 03:36:24] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/b5/76/046c411bc84af4287a2f15954e80828a23661367efca1cbc18a7696ee3f8/nonebot-plugin-osubot-6.0.0.tar.gz
+[2024-05-10 03:36:24] INFO root fetch - processPackages [sharemyai-utils]: Downloading https://files.pythonhosted.org/packages/f9/85/4d1a239d5b2310753e3641b585d5e4ca024697cf417a14227d8f78c0763c/sharemyai_utils-0.1.8.tar.gz
+[2024-05-10 03:36:24] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29385560>=10485760
+[2024-05-10 03:36:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-10 03:36:24] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-10 03:36:24] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/3a/41/fa3915ea9a3c4e822b3050e7fe9d6c5d29b709d7210ed1ddd8c0e61d59da/advanced_navigation-0.1.4.tar.gz
+[2024-05-10 03:36:24] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/eb/21/489500b6bb2463849c87a642a075f17e8b11a84a9934374d21efcaf359a9/duwi_smart_sdk-0.2.2.tar.gz
+[2024-05-10 03:36:24] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-10 03:36:24] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240510/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 03:36:24] INFO root fetch - processPackages [sharemyai-utils]: Downloading https://files.pythonhosted.org/packages/9b/8a/3c94dcbf0855c714ac43b9bfa2461fc9c88133f4787553d6fd263b38cfc6/sharemyai_utils-0.1.9.tar.gz
+[2024-05-10 03:36:24] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-10 03:36:24] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.2.1.tar.gz tmp/duwi_smart_sdk-0.2.2.tar.gz --markdown 20240510/d/duwi-smart-sdk/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 03:36:24] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-10 03:36:24] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.3.tar.gz tmp/advanced_navigation-0.1.4.tar.gz --markdown 20240510/a/advanced_navigation/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 03:36:24] INFO root fetch - processPackages [sharemyai-utils]: executing diffoscope
+[2024-05-10 03:36:24] INFO root fetch - processPackages [sharemyai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharemyai_utils-0.1.8.tar.gz tmp/sharemyai_utils-0.1.9.tar.gz --markdown 20240510/s/sharemyai-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 03:36:24] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-10 03:36:24] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-10 03:36:24] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-10 03:36:25] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.2.1.tar.gz]
+[2024-05-10 03:36:25] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.2.2.tar.gz]
+[2024-05-10 03:36:25] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-10 03:36:25] INFO root fetch - processPackages [sharemyai-utils]: Remove: archive file [/home/abi/fetcher/tmp/sharemyai_utils-0.1.8.tar.gz]
+[2024-05-10 03:36:25] INFO root fetch - processPackages [sharemyai-utils]: Remove: archive file [/home/abi/fetcher/tmp/sharemyai_utils-0.1.9.tar.gz]
+[2024-05-10 03:36:25] INFO root fetch - main [MainThread]: End processing [sharemyai-utils]: success
+[2024-05-10 03:36:25] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.3.tar.gz]
+[2024-05-10 03:36:25] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.4.tar.gz]
+[2024-05-10 03:36:25] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-10 03:36:25] INFO root fetch - main [MainThread]: Store serial: [23139982]
