@@ -21889,3 +21889,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:43:38] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.8.3.tar.gz]
 [2024-05-10 16:43:38] INFO root fetch - main [MainThread]: End processing [unifyai]: success
 [2024-05-10 16:43:38] INFO root fetch - main [MainThread]: Store serial: [23148236]
+[2024-05-10 16:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148236]
+[2024-05-10 16:45:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bio-curve-fit
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-objectbox
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: build-vocabulary
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deloreanby
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: albanianlanguage
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hijiki
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: samtool
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mini3di
+[2024-05-10 16:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rosbags
+[2024-05-10 16:45:47] INFO root fetch - processPackages [langchain-objectbox]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-05-10 16:45:47] WARNING root fetch - processPackages [mini3di]: Skipping, unable to determine old version
+[2024-05-10 16:45:47] INFO root fetch - main [MainThread]: End processing [mini3di] error
+[2024-05-10 16:45:47] INFO root fetch - processPackages [bio-curve-fit]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-05-10 16:45:47] WARNING root fetch - processPackages [deloreanby]: Skipping, unable to determine old version
+[2024-05-10 16:45:47] INFO root fetch - main [MainThread]: End processing [deloreanby] error
+[2024-05-10 16:45:47] INFO root fetch - processPackages [langchain-objectbox]: Downloading https://files.pythonhosted.org/packages/c8/53/ff46999e4a5e8c75c610e1ce6b31850c5c955d956908b3593009c7046003/langchain_objectbox-0.1.0a1.tar.gz
+[2024-05-10 16:45:47] ERROR root fetch - processPackages [samtool]: Unable to get metadata: No such project 'samtool'
+[2024-05-10 16:45:47] INFO root fetch - main [MainThread]: End processing [samtool] error
+[2024-05-10 16:45:47] INFO root fetch - processPackages [rosbags]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 16:45:47] INFO root fetch - processPackages [albanianlanguage]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 16:45:47] INFO root fetch - processPackages [build-vocabulary]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 16:45:47] INFO root fetch - processPackages [hijiki]: New version: [1.0.60] Old Version: [1.0.59]
+[2024-05-10 16:45:47] INFO root fetch - processPackages [bio-curve-fit]: Downloading https://files.pythonhosted.org/packages/fd/ea/a21f8c14e759b8e63650f9ded0f17762607999a3156a44c7b17f671d1136/bio_curve_fit-0.1.11.tar.gz
+[2024-05-10 16:45:47] INFO root fetch - processPackages [albanianlanguage]: Downloading https://files.pythonhosted.org/packages/26/74/9cb1b6d73e295426f6b27d032efdbacf77213008bb5f2a70303d282f428c/albanianlanguage-0.1.3.tar.gz
+[2024-05-10 16:45:47] INFO root fetch - processPackages [build-vocabulary]: Downloading https://files.pythonhosted.org/packages/cb/79/964946ad533de55eca8707c819efecbd747bea17a8f3f0e42f43eacebdfa/build_vocabulary-0.1.8-py3-none-any.whl
+[2024-05-10 16:45:47] INFO root fetch - processPackages [langchain-objectbox]: Downloading https://files.pythonhosted.org/packages/10/a5/41ac390ecc8e4738859859639f4f0e2417c2ad820e68a1ce9123d34a0aa4/langchain_objectbox-0.1.0a2.tar.gz
+[2024-05-10 16:45:47] INFO root fetch - processPackages [rosbags]: Downloading https://files.pythonhosted.org/packages/be/50/1dc1b241840389a7b691c41250ff12490d417146b5e7bbb66a672f9a4dc6/rosbags-0.9.8.tar.gz
+[2024-05-10 16:45:47] INFO root fetch - processPackages [hijiki]: Downloading https://files.pythonhosted.org/packages/f5/9d/56ee5b9707b347b7078f587a9804827b2d6638942747462fcb76e606267e/hijiki-1.0.59.tar.gz
+[2024-05-10 16:45:47] WARNING root fetch - processPackages [build-vocabulary]: Skipping package: exceeds size limit 13596012>=10485760
+[2024-05-10 16:45:47] INFO root fetch - main [MainThread]: End processing [build-vocabulary] error
+[2024-05-10 16:45:48] INFO root fetch - processPackages [langchain-objectbox]: executing diffoscope
+[2024-05-10 16:45:48] INFO root fetch - processPackages [langchain-objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_objectbox-0.1.0a1.tar.gz tmp/langchain_objectbox-0.1.0a2.tar.gz --markdown 20240510/l/langchain-objectbox/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-05-10 16:45:48] INFO root fetch - processPackages [bio-curve-fit]: Downloading https://files.pythonhosted.org/packages/ae/e3/cf3f67cd116c712f94d4e921ee75d5763954bf4afb45e49f862831ebf1d0/bio_curve_fit-0.1.12.tar.gz
+[2024-05-10 16:45:48] INFO root fetch - processPackages [hijiki]: Downloading https://files.pythonhosted.org/packages/f1/e6/3a691f6e4140716b68c5f559ff5b3675cb99c3025424f12aac12983ad891/hijiki-1.0.60.tar.gz
+[2024-05-10 16:45:48] INFO root fetch - processPackages [hijiki]: executing diffoscope
+[2024-05-10 16:45:48] INFO root fetch - processPackages [hijiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hijiki-1.0.59.tar.gz tmp/hijiki-1.0.60.tar.gz --markdown 20240510/h/hijiki/1.0.59-1.0.60/README.md --exclude *.pyd
+[2024-05-10 16:45:48] INFO root fetch - processPackages [bio-curve-fit]: executing diffoscope
+[2024-05-10 16:45:48] INFO root fetch - processPackages [bio-curve-fit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio_curve_fit-0.1.11.tar.gz tmp/bio_curve_fit-0.1.12.tar.gz --markdown 20240510/b/bio-curve-fit/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-05-10 16:45:48] INFO root fetch - processPackages [albanianlanguage]: Downloading https://files.pythonhosted.org/packages/9b/14/3114601d0e711a50505ff325b9461b41334d05a2ec192ed838e08c3cbbf7/albanianlanguage-0.1.4.tar.gz
+[2024-05-10 16:45:48] INFO root fetch - processPackages [rosbags]: Downloading https://files.pythonhosted.org/packages/cc/ad/5be6aea93a088caee179400c3a54b01fa1338e78a4b2c1dbf3fe65e7290b/rosbags-0.9.9.tar.gz
+[2024-05-10 16:45:48] INFO root fetch - processPackages [langchain-objectbox]: Remove: archive file [/home/abi/fetcher/tmp/langchain_objectbox-0.1.0a1.tar.gz]
+[2024-05-10 16:45:48] INFO root fetch - processPackages [langchain-objectbox]: Remove: archive file [/home/abi/fetcher/tmp/langchain_objectbox-0.1.0a2.tar.gz]
+[2024-05-10 16:45:48] INFO root fetch - main [MainThread]: End processing [langchain-objectbox]: success
+[2024-05-10 16:45:48] INFO root fetch - processPackages [bio-curve-fit]: Remove: archive file [/home/abi/fetcher/tmp/bio_curve_fit-0.1.11.tar.gz]
+[2024-05-10 16:45:48] INFO root fetch - processPackages [bio-curve-fit]: Remove: archive file [/home/abi/fetcher/tmp/bio_curve_fit-0.1.12.tar.gz]
+[2024-05-10 16:45:48] INFO root fetch - main [MainThread]: End processing [bio-curve-fit]: success
+[2024-05-10 16:45:48] INFO root fetch - processPackages [rosbags]: executing diffoscope
+[2024-05-10 16:45:48] INFO root fetch - processPackages [rosbags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosbags-0.9.8.tar.gz tmp/rosbags-0.9.9.tar.gz --markdown 20240510/r/rosbags/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 16:45:49] INFO root fetch - processPackages [hijiki]: Remove: archive file [/home/abi/fetcher/tmp/hijiki-1.0.59.tar.gz]
+[2024-05-10 16:45:49] INFO root fetch - processPackages [hijiki]: Remove: archive file [/home/abi/fetcher/tmp/hijiki-1.0.60.tar.gz]
+[2024-05-10 16:45:49] INFO root fetch - main [MainThread]: End processing [hijiki]: success
+[2024-05-10 16:45:49] INFO root fetch - processPackages [albanianlanguage]: executing diffoscope
+[2024-05-10 16:45:49] INFO root fetch - processPackages [albanianlanguage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/albanianlanguage-0.1.3.tar.gz tmp/albanianlanguage-0.1.4.tar.gz --markdown 20240510/a/albanianlanguage/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 16:45:49] INFO root fetch - processPackages [rosbags]: Remove: archive file [/home/abi/fetcher/tmp/rosbags-0.9.8.tar.gz]
+[2024-05-10 16:45:49] INFO root fetch - processPackages [rosbags]: Remove: archive file [/home/abi/fetcher/tmp/rosbags-0.9.9.tar.gz]
+[2024-05-10 16:45:49] INFO root fetch - main [MainThread]: End processing [rosbags]: success
+[2024-05-10 16:45:50] INFO root fetch - processPackages [albanianlanguage]: Remove: archive file [/home/abi/fetcher/tmp/albanianlanguage-0.1.3.tar.gz]
+[2024-05-10 16:45:50] INFO root fetch - processPackages [albanianlanguage]: Remove: archive file [/home/abi/fetcher/tmp/albanianlanguage-0.1.4.tar.gz]
+[2024-05-10 16:45:50] INFO root fetch - main [MainThread]: End processing [albanianlanguage]: success
+[2024-05-10 16:45:50] INFO root fetch - main [MainThread]: Store serial: [23148271]
