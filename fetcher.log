@@ -12321,3 +12321,110 @@
 [2024-05-10 11:13:25] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.8.7.tar.gz]
 [2024-05-10 11:13:25] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
 [2024-05-10 11:13:25] INFO root fetch - main [MainThread]: Store serial: [23143887]
+[2024-05-10 11:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143887]
+[2024-05-10 11:15:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h5ui
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geotexxx
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abiogenistz
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seam
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enhanceezqq
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autofracture
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zsx-scatter-plot
+[2024-05-10 11:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvfuser-cu121
+[2024-05-10 11:15:37] INFO root fetch - processPackages [seam]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240509] Old Version: [0.2.3.dev20240508]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [h5ui]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 11:15:37] WARNING root fetch - processPackages [abiogenistz]: Skipping, unable to determine old version
+[2024-05-10 11:15:37] INFO root fetch - processPackages [abiogenistz]: Start processing: intel-extension-for-pytorch
+[2024-05-10 11:15:37] INFO root fetch - main [MainThread]: End processing [abiogenistz] error
+[2024-05-10 11:15:37] INFO root fetch - processPackages [enhanceezqq]: New version: [1.0.2.2] Old Version: [1.0.2]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [autofracture]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [geotexxx]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/8d/7c/686a3584a8b5fb34028a303d77be938952618945b820840f3fffc39d92cc/seam-0.6.0.tar.gz
+[2024-05-10 11:15:37] WARNING root fetch - processPackages [zsx-scatter-plot]: Skipping, unable to determine old version
+[2024-05-10 11:15:37] INFO root fetch - processPackages [zsx-scatter-plot]: Start processing: ai2-kit
+[2024-05-10 11:15:37] INFO root fetch - main [MainThread]: End processing [zsx-scatter-plot] error
+[2024-05-10 11:15:37] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/a2/9f/0ccc14eaab0929b6a8176807c522d79e26e0a29a1fa8a22347d3c6af2d23/nvfuser_cu121-0.2.3.dev20240508.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [intel-extension-for-pytorch]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [h5ui]: Downloading https://files.pythonhosted.org/packages/59/0d/772a93dfcceea2bd7a4845ed2dd47fd0e3a940777180d452807255239e98/h5ui-0.1.8.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/79/28/33e31f28d8b8e4cf0be8f6b321c6ac55b43ad2b3c3da9e236b1c15e466d4/geotexxx-0.1.5.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/70/08/f83ca707dd9918fc865cffd3fbd794188814759680f71286b0952d8031fe/enhanceezqq-1.0.2.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/db/02/b3e8bfa674b8077690fcb757a078196aed0309580017a8ae40e5add914e3/autofracture-0.0.7.tar.gz
+[2024-05-10 11:15:37] WARNING root fetch - processPackages [h5ui]: Skipping package: exceeds size limit 16854110>=10485760
+[2024-05-10 11:15:37] INFO root fetch - processPackages [h5ui]: Start processing: lazyqml
+[2024-05-10 11:15:37] INFO root fetch - main [MainThread]: End processing [h5ui] error
+[2024-05-10 11:15:37] INFO root fetch - processPackages [lazyqml]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/e7/9a/5037c9f3a71101b6d3791f065f0f9fa8a9792d521314c287dc455b506f32/nvfuser_cu121-0.2.3.dev20240509.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/aa/a7/9cba3ab93e099c24f1d5a9e0c6352572fe3f03603ced877971c2ac257651/seam-0.6.1.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [intel-extension-for-pytorch]: Downloading https://files.pythonhosted.org/packages/60/44/7ff970930c4b95ea1426c57b6408c8ee09cd5f9806b537c3c29cc773bac6/intel_extension_for_pytorch-2.2.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-10 11:15:37] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-10 11:15:37] WARNING root fetch - processPackages [intel-extension-for-pytorch]: Skipping package: exceeds size limit 52674683>=10485760
+[2024-05-10 11:15:37] INFO root fetch - processPackages [intel-extension-for-pytorch]: Start processing: scrapegraphai
+[2024-05-10 11:15:37] INFO root fetch - main [MainThread]: End processing [intel-extension-for-pytorch] error
+[2024-05-10 11:15:37] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/6a/63/3e69c57397e5b637f993a272407ce45c42f404fbe12dd959294a50a12fb9/lazyqml-0.3.2.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-10 11:15:37] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240508.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240509.tar.gz --markdown 20240510/n/nvfuser-cu121/0.2.3.dev20240508-0.2.3.dev20240509/README.md --exclude *.pyd
+[2024-05-10 11:15:37] INFO root fetch - processPackages [seam]: executing diffoscope
+[2024-05-10 11:15:37] INFO root fetch - processPackages [seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seam-0.6.0.tar.gz tmp/seam-0.6.1.tar.gz --markdown 20240510/s/seam/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-10 11:15:37] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/0a/c0/cc9bf899c7fe196ba628438a85c1acc60cb2f3f0930bc5fa59113df6bd77/autofracture-0.0.8.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/77/26/a0d51ae3cf9b121642bb8ed0a46528e3dee28f7e6d5a9cef4b1cfd78b0f0/enhanceezqq-1.0.2.2.tar.gz
+[2024-05-10 11:15:37] INFO root fetch - processPackages [scrapegraphai]: New version: [0.9.0b8] Old Version: [0.9.0b7]
+[2024-05-10 11:15:37] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/1f/4b/0fcf2a4d4f7d68aaf2eebe5b15fd29aac6f5a971ed048d6df8a489c74caa/geotexxx-0.1.6.tar.gz
+[2024-05-10 11:15:38] INFO root fetch - processPackages [enhanceezqq]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [enhanceezqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhanceezqq-1.0.2.tar.gz tmp/enhanceezqq-1.0.2.2.tar.gz --markdown 20240510/e/enhanceezqq/1.0.2-1.0.2.2/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240510/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-10 11:15:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-10 11:15:38] INFO root fetch - processPackages [autofracture]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [autofracture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofracture-0.0.7.tar.gz tmp/autofracture-0.0.8.tar.gz --markdown 20240510/a/autofracture/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/42/a4/90f2d8250fd57152eeddcbbe0e795606c87af043d50e51b5ce212f7167fe/lazyqml-0.3.3.tar.gz
+[2024-05-10 11:15:38] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/63/5c/30d12a2ba836f5972d1146557ac75b13200683a0808baa631508b12da6d1/scrapegraphai-0.9.0b7.tar.gz
+[2024-05-10 11:15:38] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240510/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240510/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.3.2.tar.gz tmp/lazyqml-0.3.3.tar.gz --markdown 20240510/l/lazyqml/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240508.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240509.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-10 11:15:38] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/e8/f4/c60696cf15fae6617f4351065cbc78d635ceedaf932079ea2bfdcd1822ec/scrapegraphai-0.9.0b8.tar.gz
+[2024-05-10 11:15:38] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.6.0.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.6.1.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - main [MainThread]: End processing [seam]: success
+[2024-05-10 11:15:38] INFO root fetch - processPackages [geotexxx]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [geotexxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotexxx-0.1.5.tar.gz tmp/geotexxx-0.1.6.tar.gz --markdown 20240510/g/geotexxx/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-10 11:15:38] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b7.tar.gz tmp/scrapegraphai-0.9.0b8.tar.gz --markdown 20240510/s/scrapegraphai/0.9.0b7-0.9.0b8/README.md --exclude *.pyd
+[2024-05-10 11:15:38] INFO root fetch - processPackages [enhanceezqq]: Remove: archive file [/home/abi/fetcher/tmp/enhanceezqq-1.0.2.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - processPackages [enhanceezqq]: Remove: archive file [/home/abi/fetcher/tmp/enhanceezqq-1.0.2.2.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - main [MainThread]: End processing [enhanceezqq]: success
+[2024-05-10 11:15:38] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.7.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.8.tar.gz]
+[2024-05-10 11:15:38] INFO root fetch - main [MainThread]: End processing [autofracture]: success
+[2024-05-10 11:15:39] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-10 11:15:39] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-10 11:15:39] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-10 11:15:39] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.2.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.3.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-10 11:15:39] INFO root fetch - processPackages [geotexxx]: Remove: archive file [/home/abi/fetcher/tmp/geotexxx-0.1.5.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - processPackages [geotexxx]: Remove: archive file [/home/abi/fetcher/tmp/geotexxx-0.1.6.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - main [MainThread]: End processing [geotexxx]: success
+[2024-05-10 11:15:39] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b7.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b8.tar.gz]
+[2024-05-10 11:15:39] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-10 11:15:39] INFO root fetch - main [MainThread]: Store serial: [23143922]
