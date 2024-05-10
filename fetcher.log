@@ -5130,3 +5130,12 @@
 [2024-05-10 04:58:18] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.1.0.tar.gz]
 [2024-05-10 04:58:18] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
 [2024-05-10 04:58:18] INFO root fetch - main [MainThread]: Store serial: [23140652]
+[2024-05-10 05:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140652]
+[2024-05-10 05:00:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 05:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labo1
+[2024-05-10 05:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anthropometricallyz
+[2024-05-10 05:00:27] WARNING root fetch - processPackages [labo1]: Skipping, unable to determine old version
+[2024-05-10 05:00:27] INFO root fetch - main [MainThread]: End processing [labo1] error
+[2024-05-10 05:00:27] WARNING root fetch - processPackages [anthropometricallyz]: Skipping, unable to determine old version
+[2024-05-10 05:00:27] INFO root fetch - main [MainThread]: End processing [anthropometricallyz] error
+[2024-05-10 05:00:27] INFO root fetch - main [MainThread]: Store serial: [23140661]
