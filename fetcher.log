@@ -5139,3 +5139,24 @@
 [2024-05-10 05:00:27] WARNING root fetch - processPackages [anthropometricallyz]: Skipping, unable to determine old version
 [2024-05-10 05:00:27] INFO root fetch - main [MainThread]: End processing [anthropometricallyz] error
 [2024-05-10 05:00:27] INFO root fetch - main [MainThread]: Store serial: [23140661]
+[2024-05-10 05:02:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140661]
+[2024-05-10 05:02:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adeft
+[2024-05-10 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GnDocTrans
+[2024-05-10 05:02:36] INFO root fetch - processPackages [adeft]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 05:02:36] INFO root fetch - processPackages [GnDocTrans]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 05:02:36] INFO root fetch - processPackages [adeft]: Downloading https://files.pythonhosted.org/packages/0e/a9/5812106c5b20c84f4126ea687af8a09853d9846962f824333ea6a47fd521/adeft-0.8.0.tar.gz
+[2024-05-10 05:02:36] INFO root fetch - processPackages [GnDocTrans]: Downloading https://files.pythonhosted.org/packages/b8/5c/bf599030f84d4657d1122ca7dad3d10a0bea39c44612f9beaafdc88bc3e2/GnDocTrans-0.0.3.tar.gz
+[2024-05-10 05:02:36] INFO root fetch - processPackages [adeft]: Downloading https://files.pythonhosted.org/packages/41/65/ec03ce902b78e4dc34776fe52a8c8deed553ccac74c6f8d09d93c54fd6a9/adeft-0.9.0.tar.gz
+[2024-05-10 05:02:36] INFO root fetch - processPackages [GnDocTrans]: Downloading https://files.pythonhosted.org/packages/88/c6/3441d838f32074feb917dbbd4cf64789fcf169c54dd2a120336feee722b8/GnDocTrans-0.0.4.tar.gz
+[2024-05-10 05:02:36] INFO root fetch - processPackages [adeft]: executing diffoscope
+[2024-05-10 05:02:36] INFO root fetch - processPackages [adeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adeft-0.8.0.tar.gz tmp/adeft-0.9.0.tar.gz --markdown 20240510/a/adeft/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 05:02:36] INFO root fetch - processPackages [GnDocTrans]: executing diffoscope
+[2024-05-10 05:02:36] INFO root fetch - processPackages [GnDocTrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GnDocTrans-0.0.3.tar.gz tmp/GnDocTrans-0.0.4.tar.gz --markdown 20240510/G/GnDocTrans/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 05:02:37] INFO root fetch - processPackages [GnDocTrans]: Remove: archive file [/home/abi/fetcher/tmp/GnDocTrans-0.0.3.tar.gz]
+[2024-05-10 05:02:37] INFO root fetch - processPackages [GnDocTrans]: Remove: archive file [/home/abi/fetcher/tmp/GnDocTrans-0.0.4.tar.gz]
+[2024-05-10 05:02:37] INFO root fetch - main [MainThread]: End processing [GnDocTrans]: success
+[2024-05-10 05:02:37] INFO root fetch - processPackages [adeft]: Remove: archive file [/home/abi/fetcher/tmp/adeft-0.8.0.tar.gz]
+[2024-05-10 05:02:37] INFO root fetch - processPackages [adeft]: Remove: archive file [/home/abi/fetcher/tmp/adeft-0.9.0.tar.gz]
+[2024-05-10 05:02:37] INFO root fetch - main [MainThread]: End processing [adeft]: success
+[2024-05-10 05:02:37] INFO root fetch - main [MainThread]: Store serial: [23140666]
