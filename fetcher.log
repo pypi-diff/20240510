@@ -7141,3 +7141,30 @@
 [2024-05-10 07:12:08] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
 [2024-05-10 07:12:08] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
 [2024-05-10 07:12:08] INFO root fetch - main [MainThread]: Store serial: [23141554]
+[2024-05-10 07:14:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141554]
+[2024-05-10 07:14:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 07:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: curacez
+[2024-05-10 07:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: addemongo
+[2024-05-10 07:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syslogserver_to_cloudwatch
+[2024-05-10 07:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytvm
+[2024-05-10 07:14:17] INFO root fetch - processPackages [addemongo]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 07:14:17] WARNING root fetch - processPackages [curacez]: Skipping, unable to determine old version
+[2024-05-10 07:14:17] INFO root fetch - main [MainThread]: End processing [curacez] error
+[2024-05-10 07:14:17] WARNING root fetch - processPackages [syslogserver_to_cloudwatch]: Skipping, unable to determine old version
+[2024-05-10 07:14:17] INFO root fetch - main [MainThread]: End processing [syslogserver_to_cloudwatch] error
+[2024-05-10 07:14:18] INFO root fetch - processPackages [pytvm]: New version: [0.0.9] Old Version: [0.0.5]
+[2024-05-10 07:14:18] INFO root fetch - processPackages [addemongo]: Downloading https://files.pythonhosted.org/packages/19/51/0d97a032734ca730c8076263be3eb116567342254f08f0886e3744d48e7f/addemongo-0.0.3.tar.gz
+[2024-05-10 07:14:18] INFO root fetch - processPackages [pytvm]: Downloading https://files.pythonhosted.org/packages/be/23/fe7a8de3a191e24e4dc5d0f72135da8ee54ad220e5f5cf8fe794ddd13554/pytvm-0.0.5.tar.gz
+[2024-05-10 07:14:18] INFO root fetch - processPackages [addemongo]: Downloading https://files.pythonhosted.org/packages/ed/c6/5ed8eaf4d8a6c33a9bd17ca78e9282f73a9d167624eae1932696ee144018/addemongo-0.0.4.tar.gz
+[2024-05-10 07:14:18] INFO root fetch - processPackages [addemongo]: executing diffoscope
+[2024-05-10 07:14:18] INFO root fetch - processPackages [addemongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addemongo-0.0.3.tar.gz tmp/addemongo-0.0.4.tar.gz --markdown 20240510/a/addemongo/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 07:14:18] INFO root fetch - processPackages [pytvm]: Downloading https://files.pythonhosted.org/packages/66/2b/403835fc61a674193b26dcac3f1278160a342a39ecb6564b51b38008ad9f/pytvm-0.0.9.tar.gz
+[2024-05-10 07:14:18] INFO root fetch - processPackages [pytvm]: executing diffoscope
+[2024-05-10 07:14:18] INFO root fetch - processPackages [pytvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytvm-0.0.5.tar.gz tmp/pytvm-0.0.9.tar.gz --markdown 20240510/p/pytvm/0.0.5-0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:14:18] INFO root fetch - processPackages [addemongo]: Remove: archive file [/home/abi/fetcher/tmp/addemongo-0.0.3.tar.gz]
+[2024-05-10 07:14:18] INFO root fetch - processPackages [addemongo]: Remove: archive file [/home/abi/fetcher/tmp/addemongo-0.0.4.tar.gz]
+[2024-05-10 07:14:18] INFO root fetch - main [MainThread]: End processing [addemongo]: success
+[2024-05-10 07:14:19] INFO root fetch - processPackages [pytvm]: Remove: archive file [/home/abi/fetcher/tmp/pytvm-0.0.5.tar.gz]
+[2024-05-10 07:14:19] INFO root fetch - processPackages [pytvm]: Remove: archive file [/home/abi/fetcher/tmp/pytvm-0.0.9.tar.gz]
+[2024-05-10 07:14:19] INFO root fetch - main [MainThread]: End processing [pytvm]: success
+[2024-05-10 07:14:19] INFO root fetch - main [MainThread]: Store serial: [23141572]
