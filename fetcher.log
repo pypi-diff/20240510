@@ -4547,3 +4547,24 @@
 [2024-05-10 04:25:14] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-10 04:25:14] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-10 04:25:14] INFO root fetch - main [MainThread]: Store serial: [23140410]
+[2024-05-10 04:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140410]
+[2024-05-10 04:27:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 04:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetrytrial
+[2024-05-10 04:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2024-05-10 04:27:22] INFO root fetch - processPackages [poetrytrial]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 04:27:22] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240509] Old Version: [1.2.20240508]
+[2024-05-10 04:27:22] INFO root fetch - processPackages [poetrytrial]: Downloading https://files.pythonhosted.org/packages/d7/79/ddf3f88c4fdb93c4c350c44ad5584fce0a9de4ada32aae27bede884640ee/poetrytrial-0.0.2.tar.gz
+[2024-05-10 04:27:22] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/3c/08/cf06c2e0d5a681085bdb03818a393650419bcb3818302a68ec1ceea1f48a/iam_actions-1.2.20240508.tar.gz
+[2024-05-10 04:27:23] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/7f/63/719355b5214971508a95c2562ea566ce9007963a04c3b789dad7778bccb5/iam_actions-1.2.20240509.tar.gz
+[2024-05-10 04:27:23] INFO root fetch - processPackages [poetrytrial]: Downloading https://files.pythonhosted.org/packages/1d/c5/457a93555d8d418e5550bd90ae626454f726fbdd94831176440ad98c8ef1/poetrytrial-0.0.3.tar.gz
+[2024-05-10 04:27:23] INFO root fetch - processPackages [poetrytrial]: executing diffoscope
+[2024-05-10 04:27:23] INFO root fetch - processPackages [poetrytrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetrytrial-0.0.2.tar.gz tmp/poetrytrial-0.0.3.tar.gz --markdown 20240510/p/poetrytrial/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 04:27:23] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-10 04:27:23] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240508.tar.gz tmp/iam_actions-1.2.20240509.tar.gz --markdown 20240510/i/iam-actions/1.2.20240508-1.2.20240509/README.md --exclude *.pyd
+[2024-05-10 04:27:23] INFO root fetch - processPackages [poetrytrial]: Remove: archive file [/home/abi/fetcher/tmp/poetrytrial-0.0.2.tar.gz]
+[2024-05-10 04:27:23] INFO root fetch - processPackages [poetrytrial]: Remove: archive file [/home/abi/fetcher/tmp/poetrytrial-0.0.3.tar.gz]
+[2024-05-10 04:27:23] INFO root fetch - main [MainThread]: End processing [poetrytrial]: success
+[2024-05-10 04:27:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240508.tar.gz]
+[2024-05-10 04:27:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240509.tar.gz]
+[2024-05-10 04:27:28] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-10 04:27:28] INFO root fetch - main [MainThread]: Store serial: [23140417]
