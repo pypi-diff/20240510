@@ -2673,3 +2673,48 @@
 [2024-05-10 02:27:51] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
 [2024-05-10 02:27:51] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
 [2024-05-10 02:27:51] INFO root fetch - main [MainThread]: Store serial: [23139427]
+[2024-05-10 02:29:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139427]
+[2024-05-10 02:29:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 02:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-05-10 02:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-aurora-globaldatabase
+[2024-05-10 02:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libem
+[2024-05-10 02:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petiolesz
+[2024-05-10 02:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: systema
+[2024-05-10 02:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fairchem-data
+[2024-05-10 02:29:59] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-10 02:29:59] INFO root fetch - processPackages [libem]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 02:29:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-10 02:29:59] WARNING root fetch - processPackages [petiolesz]: Skipping, unable to determine old version
+[2024-05-10 02:29:59] INFO root fetch - main [MainThread]: End processing [petiolesz] error
+[2024-05-10 02:29:59] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-05-10 02:29:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-10 02:29:59] WARNING root fetch - processPackages [fairchem-data]: Skipping, unable to determine old version
+[2024-05-10 02:29:59] INFO root fetch - main [MainThread]: End processing [fairchem-data] error
+[2024-05-10 02:29:59] INFO root fetch - processPackages [libem]: Downloading https://files.pythonhosted.org/packages/e0/68/e931074f157de9193060fa8dcc4548b08ffa0c978ae88d4f25a2b79a72a8/libem-0.0.4.tar.gz
+[2024-05-10 02:29:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-10 02:29:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-10 02:30:00] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-05-10 02:30:00] INFO root fetch - processPackages [libem]: Downloading https://files.pythonhosted.org/packages/13/ab/5f07da8eb51a7ed23587a63e17db0baca5f6db6486e752dc898c4dcb3200/libem-0.0.5.tar.gz
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-10 02:30:00] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-05-10 02:30:00] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240510/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-10 02:30:00] INFO root fetch - processPackages [libem]: executing diffoscope
+[2024-05-10 02:30:00] INFO root fetch - processPackages [libem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libem-0.0.4.tar.gz tmp/libem-0.0.5.tar.gz --markdown 20240510/l/libem/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240510/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240510/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-10 02:30:00] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-10 02:30:00] INFO root fetch - processPackages [libem]: Remove: archive file [/home/abi/fetcher/tmp/libem-0.0.4.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - processPackages [libem]: Remove: archive file [/home/abi/fetcher/tmp/libem-0.0.5.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - main [MainThread]: End processing [libem]: success
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-10 02:30:00] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-10 02:30:00] INFO root fetch - main [MainThread]: Store serial: [23139450]
