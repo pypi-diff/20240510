@@ -18449,3 +18449,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:53:38] INFO root fetch - processPackages [FreeTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/freetakserver-2.2.1.tar.gz]
 [2024-05-10 14:53:38] INFO root fetch - main [MainThread]: End processing [FreeTAKServer]: success
 [2024-05-10 14:53:38] INFO root fetch - main [MainThread]: Store serial: [23146538]
+[2024-05-10 14:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146538]
+[2024-05-10 14:55:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fds.sdk.utils
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kthcloud
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databasemongoautomation
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: defogz
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logginger
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blues-lib
+[2024-05-10 14:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gogotable
+[2024-05-10 14:55:47] WARNING root fetch - processPackages [kthcloud]: Skipping, unable to determine old version
+[2024-05-10 14:55:47] INFO root fetch - main [MainThread]: End processing [kthcloud] error
+[2024-05-10 14:55:47] INFO root fetch - processPackages [gogotable]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 14:55:47] INFO root fetch - processPackages [blues-lib]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 14:55:47] INFO root fetch - processPackages [gogotable]: Downloading https://files.pythonhosted.org/packages/a7/4f/b3f608413af2d61f8cc065873a3d491b6368e99c4f65b74c1ef566e7f8eb/gogotable-0.0.3.tar.gz
+[2024-05-10 14:55:47] WARNING root fetch - processPackages [defogz]: Skipping, unable to determine old version
+[2024-05-10 14:55:47] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/51/e1/616fca55320be6b2824b9d0d210bf0a2c388681f007dd07476c641b57316/blues_lib-1.0.1.tar.gz
+[2024-05-10 14:55:47] INFO root fetch - main [MainThread]: End processing [defogz] error
+[2024-05-10 14:55:47] INFO root fetch - processPackages [fds.sdk.utils]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-05-10 14:55:47] WARNING root fetch - processPackages [databasemongoautomation]: Skipping, unable to determine old version
+[2024-05-10 14:55:47] INFO root fetch - main [MainThread]: End processing [databasemongoautomation] error
+[2024-05-10 14:55:47] WARNING root fetch - processPackages [logginger]: Skipping, unable to determine old version
+[2024-05-10 14:55:47] INFO root fetch - main [MainThread]: End processing [logginger] error
+[2024-05-10 14:55:47] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-10 14:55:47] INFO root fetch - processPackages [fds.sdk.utils]: Downloading https://files.pythonhosted.org/packages/7c/ab/e7b66073b1cb5c57f1ade539d0ce6ff9b0ae05c977d96b8fc27708ffddcd/fds_sdk_utils-1.1.1.tar.gz
+[2024-05-10 14:55:48] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-10 14:55:48] INFO root fetch - processPackages [gogotable]: Downloading https://files.pythonhosted.org/packages/71/0f/697519e8022357b62b40a23a7932f174232c6ffe710f9538deff3a7ff829/gogotable-0.0.4.tar.gz
+[2024-05-10 14:55:48] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/07/10/8831a8d44758e84c9edb7a2e8ee1c88844a973b26806d9f5a56c217ca72b/blues_lib-1.0.2.tar.gz
+[2024-05-10 14:55:48] INFO root fetch - processPackages [fds.sdk.utils]: Downloading https://files.pythonhosted.org/packages/d8/63/1191eb7b8a02c14ecf8c74567abd30daab7f521909a56fc75425bb210c92/fds_sdk_utils-2.0.0.tar.gz
+[2024-05-10 14:55:48] INFO root fetch - processPackages [gogotable]: executing diffoscope
+[2024-05-10 14:55:48] INFO root fetch - processPackages [gogotable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogotable-0.0.3.tar.gz tmp/gogotable-0.0.4.tar.gz --markdown 20240510/g/gogotable/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 14:55:48] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-10 14:55:48] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.0.1.tar.gz tmp/blues_lib-1.0.2.tar.gz --markdown 20240510/b/blues-lib/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 14:55:48] INFO root fetch - processPackages [fds.sdk.utils]: executing diffoscope
+[2024-05-10 14:55:48] INFO root fetch - processPackages [fds.sdk.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds_sdk_utils-1.1.1.tar.gz tmp/fds_sdk_utils-2.0.0.tar.gz --markdown 20240510/f/fds.sdk.utils/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-05-10 14:55:48] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-10 14:55:48] INFO root fetch - processPackages [gogotable]: Remove: archive file [/home/abi/fetcher/tmp/gogotable-0.0.3.tar.gz]
+[2024-05-10 14:55:48] INFO root fetch - processPackages [gogotable]: Remove: archive file [/home/abi/fetcher/tmp/gogotable-0.0.4.tar.gz]
+[2024-05-10 14:55:48] INFO root fetch - main [MainThread]: End processing [gogotable]: success
+[2024-05-10 14:55:48] INFO root fetch - processPackages [fds.sdk.utils]: Remove: archive file [/home/abi/fetcher/tmp/fds_sdk_utils-1.1.1.tar.gz]
+[2024-05-10 14:55:48] INFO root fetch - processPackages [fds.sdk.utils]: Remove: archive file [/home/abi/fetcher/tmp/fds_sdk_utils-2.0.0.tar.gz]
+[2024-05-10 14:55:48] INFO root fetch - main [MainThread]: End processing [fds.sdk.utils]: success
+[2024-05-10 14:55:49] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.1.tar.gz]
+[2024-05-10 14:55:49] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.0.2.tar.gz]
+[2024-05-10 14:55:49] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-10 14:55:49] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-10 14:55:49] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240510/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-10 14:55:49] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-10 14:55:49] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-10 14:55:49] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-10 14:55:49] INFO root fetch - main [MainThread]: Store serial: [23146573]
