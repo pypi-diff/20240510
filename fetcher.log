@@ -21679,3 +21679,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:34:51] INFO root fetch - processPackages [stips]: Remove: archive file [/home/abi/fetcher/tmp/stips-2.2.0.tar.gz]
 [2024-05-10 16:34:51] INFO root fetch - main [MainThread]: End processing [stips]: success
 [2024-05-10 16:34:51] INFO root fetch - main [MainThread]: Store serial: [23148119]
+[2024-05-10 16:36:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148119]
+[2024-05-10 16:36:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-allspice
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zprp-ffmpeg
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featureform-enterprise
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnastack-client-library
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xklb
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: markdown-fenced-code-tabs-next
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: combatedz
+[2024-05-10 16:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gtests
+[2024-05-10 16:37:00] INFO root fetch - processPackages [gtests]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 16:37:00] INFO root fetch - processPackages [xklb]: New version: [2.8.6] Old Version: [2.8.3]
+[2024-05-10 16:37:00] INFO root fetch - processPackages [featureform-enterprise]: New version: [0.13.8rc0] Old Version: [0.13.3rc2]
+[2024-05-10 16:37:00] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/c8/ef/5374a7043a66888154a43c11cc8a58926330c5f66ece9ba859bf9c417fa5/gtests-0.0.4.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.1.8] Old Version: [3.1.23]
+[2024-05-10 16:37:00] INFO root fetch - processPackages [py-allspice]: New version: [3.0.0] Old Version: [2.5.0]
+[2024-05-10 16:37:00] INFO root fetch - processPackages [zprp-ffmpeg]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-10 16:37:00] INFO root fetch - processPackages [combatedz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:37:00] WARNING root fetch - processPackages [markdown-fenced-code-tabs-next]: Skipping, unable to determine old version
+[2024-05-10 16:37:00] INFO root fetch - main [MainThread]: End processing [markdown-fenced-code-tabs-next] error
+[2024-05-10 16:37:00] WARNING root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Skipping, unable to determine old version
+[2024-05-10 16:37:00] INFO root fetch - main [MainThread]: End processing [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064] error
+[2024-05-10 16:37:00] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/0b/3f/b8667cfb5e2b901028548a1b44a7e2648ca7405e987b60938520508ef4a1/xklb-2.8.3.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [featureform-enterprise]: Downloading https://files.pythonhosted.org/packages/98/2d/0c87915cebc6dcf472d5f0960cd032c3497fcf454192f240336f95c56db4/featureform_enterprise-0.13.3rc2.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [gtests]: Downloading https://files.pythonhosted.org/packages/5a/74/63100b82c8ae01a45512975998fc5917cc2437ad082bc55dffcf61d0f423/gtests-0.0.5.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [zprp-ffmpeg]: Downloading https://files.pythonhosted.org/packages/ac/ce/4d00fff5e0945348780c8064c26d95faefbde88b64df68ab14bcf46214d7/zprp_ffmpeg-0.1.0.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/92/3f/eb72767fc7a3f468a1938d1d314df13bbabced3ff54c541fe03883999019/dnastack_client_library-3.1.23-py3-none-any.whl
+[2024-05-10 16:37:00] INFO root fetch - processPackages [py-allspice]: Downloading https://files.pythonhosted.org/packages/42/24/1de7618e633e5c22c10e6de5a08cd92a4cc0cbd58c8976d2146a8413c3e6/py_allspice-2.5.0.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [combatedz]: Downloading https://files.pythonhosted.org/packages/c1/99/3b1177b1ac94e15d61bb9817e1471702cc484cc06411af3786dbafe0029d/combatedz-1.1.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/42/d0/75a755cacfd739a2ea7fe983f64b8bf5633876e66948a0fc96015a9eb9dd/xklb-2.8.6.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [gtests]: executing diffoscope
+[2024-05-10 16:37:00] INFO root fetch - processPackages [gtests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtests-0.0.4.tar.gz tmp/gtests-0.0.5.tar.gz --markdown 20240510/g/gtests/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 16:37:00] INFO root fetch - processPackages [zprp-ffmpeg]: Downloading https://files.pythonhosted.org/packages/0d/6f/54ff7b04788f9712a5e45a9dc56e798c08479d3d2e210d2852eee46d606f/zprp_ffmpeg-1.0.0.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-05-10 16:37:00] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.8.3.tar.gz tmp/xklb-2.8.6.tar.gz --markdown 20240510/x/xklb/2.8.3-2.8.6/README.md --exclude *.pyd
+[2024-05-10 16:37:00] INFO root fetch - processPackages [py-allspice]: Downloading https://files.pythonhosted.org/packages/53/58/4f285284c54da2da8927bef331f6dfd523ef7c4e1652e5cfa699df8dc9a2/py_allspice-3.0.0.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [combatedz]: Downloading https://files.pythonhosted.org/packages/9f/2b/e607b5fae177259257a4fa12269ab73531c23bb5df87cd6d30047b34de8a/combatedz-2.1.tar.gz
+[2024-05-10 16:37:00] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/e1/61/e1ffd7be69008bd1ee773485f56a675672b1a35f441c2df72504d7e68c01/dnastack_client_library-3.1.8-py3-none-any.whl
+[2024-05-10 16:37:00] INFO root fetch - processPackages [zprp-ffmpeg]: executing diffoscope
+[2024-05-10 16:37:00] INFO root fetch - processPackages [zprp-ffmpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zprp_ffmpeg-0.1.0.tar.gz tmp/zprp_ffmpeg-1.0.0.tar.gz --markdown 20240510/z/zprp-ffmpeg/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-10 16:37:01] INFO root fetch - processPackages [py-allspice]: executing diffoscope
+[2024-05-10 16:37:01] INFO root fetch - processPackages [py-allspice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_allspice-2.5.0.tar.gz tmp/py_allspice-3.0.0.tar.gz --markdown 20240510/p/py-allspice/2.5.0-3.0.0/README.md --exclude *.pyd
+[2024-05-10 16:37:01] INFO root fetch - processPackages [combatedz]: executing diffoscope
+[2024-05-10 16:37:01] INFO root fetch - processPackages [combatedz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combatedz-1.1.tar.gz tmp/combatedz-2.1.tar.gz --markdown 20240510/c/combatedz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:37:01] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2024-05-10 16:37:01] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.1.23-py3-none-any.whl.zip tmp/dnastack_client_library-3.1.8-py3-none-any.whl.zip --markdown 20240510/d/dnastack-client-library/3.1.23-3.1.8/README.md --exclude *.pyd
+[2024-05-10 16:37:01] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.4.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - processPackages [gtests]: Remove: archive file [/home/abi/fetcher/tmp/gtests-0.0.5.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - main [MainThread]: End processing [gtests]: success
+[2024-05-10 16:37:01] INFO root fetch - processPackages [zprp-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/zprp_ffmpeg-0.1.0.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - processPackages [zprp-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/zprp_ffmpeg-1.0.0.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - main [MainThread]: End processing [zprp-ffmpeg]: success
+[2024-05-10 16:37:01] INFO root fetch - processPackages [featureform-enterprise]: Downloading https://files.pythonhosted.org/packages/15/54/3f019850686b4879737e59a9ea7435ff4d930595cc6727e3dcfa6155b13c/featureform_enterprise-0.13.8rc0.tar.gz
+[2024-05-10 16:37:01] INFO root fetch - processPackages [combatedz]: Remove: archive file [/home/abi/fetcher/tmp/combatedz-1.1.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - processPackages [combatedz]: Remove: archive file [/home/abi/fetcher/tmp/combatedz-2.1.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - main [MainThread]: End processing [combatedz]: success
+[2024-05-10 16:37:01] INFO root fetch - processPackages [py-allspice]: Remove: archive file [/home/abi/fetcher/tmp/py_allspice-2.5.0.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - processPackages [py-allspice]: Remove: archive file [/home/abi/fetcher/tmp/py_allspice-3.0.0.tar.gz]
+[2024-05-10 16:37:01] INFO root fetch - main [MainThread]: End processing [py-allspice]: success
+[2024-05-10 16:37:01] INFO root fetch - processPackages [featureform-enterprise]: executing diffoscope
+[2024-05-10 16:37:01] INFO root fetch - processPackages [featureform-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform_enterprise-0.13.3rc2.tar.gz tmp/featureform_enterprise-0.13.8rc0.tar.gz --markdown 20240510/f/featureform-enterprise/0.13.3rc2-0.13.8rc0/README.md --exclude *.pyd
+[2024-05-10 16:37:02] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.3.tar.gz]
+[2024-05-10 16:37:02] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.6.tar.gz]
+[2024-05-10 16:37:02] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-05-10 16:37:02] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.1.23-py3-none-any.whl.zip]
+[2024-05-10 16:37:02] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.1.8-py3-none-any.whl.zip]
+[2024-05-10 16:37:02] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2024-05-10 16:37:03] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.3rc2.tar.gz]
+[2024-05-10 16:37:03] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.8rc0.tar.gz]
+[2024-05-10 16:37:03] INFO root fetch - main [MainThread]: End processing [featureform-enterprise]: success
+[2024-05-10 16:37:03] INFO root fetch - main [MainThread]: Store serial: [23148160]
