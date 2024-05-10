@@ -8143,3 +8143,21 @@
 [2024-05-10 08:09:37] INFO root fetch - processPackages [vllm-xft]: Remove: archive file [/home/abi/fetcher/tmp/vllm_xft-0.3.3.1-py3-none-any.whl.zip]
 [2024-05-10 08:09:37] INFO root fetch - main [MainThread]: End processing [vllm-xft]: success
 [2024-05-10 08:09:37] INFO root fetch - main [MainThread]: Store serial: [23142046]
+[2024-05-10 08:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142046]
+[2024-05-10 08:11:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 08:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jphrase
+[2024-05-10 08:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faced
+[2024-05-10 08:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azuread
+[2024-05-10 08:11:46] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-10 08:11:46] WARNING root fetch - processPackages [jphrase]: Skipping, unable to determine old version
+[2024-05-10 08:11:46] INFO root fetch - main [MainThread]: End processing [jphrase] error
+[2024-05-10 08:11:46] WARNING root fetch - processPackages [faced]: Skipping, unable to determine old version
+[2024-05-10 08:11:46] INFO root fetch - main [MainThread]: End processing [faced] error
+[2024-05-10 08:11:46] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-10 08:11:46] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-10 08:11:46] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-10 08:11:46] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240510/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-10 08:11:47] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-10 08:11:47] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-10 08:11:47] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-10 08:11:47] INFO root fetch - main [MainThread]: Store serial: [23142060]
