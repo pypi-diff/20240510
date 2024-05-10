@@ -24101,3 +24101,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:53:47] INFO root fetch - processPackages [safe-mol]: Remove: archive file [/home/abi/fetcher/tmp/safe_mol-0.1.7.tar.gz]
 [2024-05-10 17:53:47] INFO root fetch - main [MainThread]: End processing [safe-mol]: success
 [2024-05-10 17:53:47] INFO root fetch - main [MainThread]: Store serial: [23149303]
+[2024-05-10 17:55:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149303]
+[2024-05-10 17:55:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 17:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proxyrotation
+[2024-05-10 17:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deditionz
+[2024-05-10 17:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cuttlesz
+[2024-05-10 17:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: music-kraken
+[2024-05-10 17:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skilleter-thingy
+[2024-05-10 17:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdip
+[2024-05-10 17:55:56] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.44] Old Version: [0.0.43]
+[2024-05-10 17:55:56] INFO root fetch - processPackages [pdip]: New version: [0.6.9] Old Version: [0.6.7]
+[2024-05-10 17:55:57] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/d4/5d/5a7afab972670588d5f28fc65df12838ac6c0a13d918c561d3b696b216eb/skilleter_thingy-0.0.43.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [proxyrotation]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-10 17:55:57] WARNING root fetch - processPackages [deditionz]: Skipping, unable to determine old version
+[2024-05-10 17:55:57] INFO root fetch - main [MainThread]: End processing [deditionz] error
+[2024-05-10 17:55:57] INFO root fetch - processPackages [pdip]: Downloading https://files.pythonhosted.org/packages/57/e7/58335e77e839d6c68b9fe200ce7408ecfd29bc6f3d2061e26b0c635befc3/pdip-0.6.7.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [cuttlesz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 17:55:57] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-10 17:55:57] INFO root fetch - processPackages [proxyrotation]: Downloading https://files.pythonhosted.org/packages/a9/a9/d37165da6d358e6790631c3017cef77591af432c833ca1accf3a48fb49bb/proxyrotation-0.2.0.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [cuttlesz]: Downloading https://files.pythonhosted.org/packages/d1/df/449c730d32d8f3c410c65ad679c4d113e3583d3b3eddaa519a4ec6598348/cuttlesz-1.1.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [pdip]: Downloading https://files.pythonhosted.org/packages/c1/7a/441621bfafd823148cc81baf788849475a360bc3c0812d0e02c570be6e1c/pdip-0.6.9.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/a7/90/0451e5d27385dbb70c496133277d644fdc488b1f3f4d56895a229d660a09/skilleter_thingy-0.0.44.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [pdip]: executing diffoscope
+[2024-05-10 17:55:57] INFO root fetch - processPackages [pdip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdip-0.6.7.tar.gz tmp/pdip-0.6.9.tar.gz --markdown 20240510/p/pdip/0.6.7-0.6.9/README.md --exclude *.pyd
+[2024-05-10 17:55:57] INFO root fetch - processPackages [proxyrotation]: Downloading https://files.pythonhosted.org/packages/2e/24/602ba94ee773dd482bfe4a8ac883554c3329dc1c2359a739934c109d29c4/proxyrotation-0.3.0.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-10 17:55:57] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.43.tar.gz tmp/skilleter_thingy-0.0.44.tar.gz --markdown 20240510/s/skilleter-thingy/0.0.43-0.0.44/README.md --exclude *.pyd
+[2024-05-10 17:55:57] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [cuttlesz]: Downloading https://files.pythonhosted.org/packages/71/f4/2a72d2c155fa5b30b23ba3ab3d4aace7f8aebc3858f512036cc9c63805dc/cuttlesz-2.1.tar.gz
+[2024-05-10 17:55:57] INFO root fetch - processPackages [proxyrotation]: executing diffoscope
+[2024-05-10 17:55:57] INFO root fetch - processPackages [proxyrotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxyrotation-0.2.0.tar.gz tmp/proxyrotation-0.3.0.tar.gz --markdown 20240510/p/proxyrotation/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:55:57] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-10 17:55:57] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240510/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 17:55:57] INFO root fetch - processPackages [cuttlesz]: executing diffoscope
+[2024-05-10 17:55:57] INFO root fetch - processPackages [cuttlesz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuttlesz-1.1.tar.gz tmp/cuttlesz-2.1.tar.gz --markdown 20240510/c/cuttlesz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 17:55:58] INFO root fetch - processPackages [proxyrotation]: Remove: archive file [/home/abi/fetcher/tmp/proxyrotation-0.2.0.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - processPackages [proxyrotation]: Remove: archive file [/home/abi/fetcher/tmp/proxyrotation-0.3.0.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - main [MainThread]: End processing [proxyrotation]: success
+[2024-05-10 17:55:58] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.43.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.44.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-10 17:55:58] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-10 17:55:58] INFO root fetch - processPackages [cuttlesz]: Remove: archive file [/home/abi/fetcher/tmp/cuttlesz-1.1.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - processPackages [cuttlesz]: Remove: archive file [/home/abi/fetcher/tmp/cuttlesz-2.1.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - main [MainThread]: End processing [cuttlesz]: success
+[2024-05-10 17:55:58] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.7.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.9.tar.gz]
+[2024-05-10 17:55:58] INFO root fetch - main [MainThread]: End processing [pdip]: success
+[2024-05-10 17:55:58] INFO root fetch - main [MainThread]: Store serial: [23149319]
