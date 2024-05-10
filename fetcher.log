@@ -6058,3 +6058,48 @@
 [2024-05-10 06:00:02] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev1.tar.gz]
 [2024-05-10 06:00:02] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2024-05-10 06:00:02] INFO root fetch - main [MainThread]: Store serial: [23141022]
+[2024-05-10 06:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141022]
+[2024-05-10 06:02:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enterographz
+[2024-05-10 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjected
+[2024-05-10 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pide
+[2024-05-10 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-tfe
+[2024-05-10 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-pagerduty
+[2024-05-10 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparklestock
+[2024-05-10 06:02:12] INFO root fetch - processPackages [sparklestock]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-10 06:02:12] WARNING root fetch - processPackages [pide]: Skipping, unable to determine old version
+[2024-05-10 06:02:12] INFO root fetch - main [MainThread]: End processing [pide] error
+[2024-05-10 06:02:12] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/bd/04/0d47c4cda9fc34298bb77ce3675a99310c2301d0fd8ecd1b668f82a703ba/sparklestock-0.0.0.8.tar.gz
+[2024-05-10 06:02:12] WARNING root fetch - processPackages [enterographz]: Skipping, unable to determine old version
+[2024-05-10 06:02:12] INFO root fetch - main [MainThread]: End processing [enterographz] error
+[2024-05-10 06:02:12] INFO root fetch - processPackages [pinjected]: New version: [0.2.56] Old Version: [0.2.55]
+[2024-05-10 06:02:12] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-05-10 06:02:12] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-10 06:02:12] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/9c/de/b105eec95a2a85c318dec78a7d43dad04cbc62d8064d165435495f5aa909/pinjected-0.2.55.tar.gz
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/2e/93/43a00832ebe4e30502cea63d15e3cdff858ba64aeccb88266a7cc06a718b/cdktf-cdktf-provider-tfe-9.0.1.tar.gz
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/4c/e5/8b7f0d082a46e17d4eedf3d3f444f81c6f7e91d578b29c24936a3a90a4c4/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz
+[2024-05-10 06:02:13] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/90/f5/76541a4c1c9b7c9f43f6a51f75d798054eccbf9d6e638f5ec8f629723680/sparklestock-0.0.0.9.tar.gz
+[2024-05-10 06:02:13] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-10 06:02:13] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.8.tar.gz tmp/sparklestock-0.0.0.9.tar.gz --markdown 20240510/s/sparklestock/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-10 06:02:13] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/49/ea/d7fe3fdacd86b68bf4750f1b7ee9871a9d5aceaad9c7a1d74ddb43f37449/pinjected-0.2.56.tar.gz
+[2024-05-10 06:02:13] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-10 06:02:13] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.55.tar.gz tmp/pinjected-0.2.56.tar.gz --markdown 20240510/p/pinjected/0.2.55-0.2.56/README.md --exclude *.pyd
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/83/44/3530307859569692e560ca204fa50eacd7eab9f7dbc0eb4ea521ef5192d3/cdktf-cdktf-provider-tfe-9.0.2.tar.gz
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/95/46/968f71be0a17bdfa82dc9a050fb2e6b2954d37c5d625ae2e68fece911353/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz --markdown 20240510/c/cdktf-cdktf-provider-pagerduty/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: executing diffoscope
+[2024-05-10 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-tfe-9.0.1.tar.gz tmp/cdktf-cdktf-provider-tfe-9.0.2.tar.gz --markdown 20240510/c/cdktf-cdktf-provider-tfe/9.0.1-9.0.2/README.md --exclude *.pyd
+[2024-05-10 06:02:13] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.8.tar.gz]
+[2024-05-10 06:02:13] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.9.tar.gz]
+[2024-05-10 06:02:13] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-10 06:02:14] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.55.tar.gz]
+[2024-05-10 06:02:14] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.56.tar.gz]
+[2024-05-10 06:02:14] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-10 06:02:15] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-9.0.1.tar.gz]
+[2024-05-10 06:02:15] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-9.0.2.tar.gz]
+[2024-05-10 06:02:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-tfe]: success
+[2024-05-10 06:02:15] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz]
+[2024-05-10 06:02:15] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
+[2024-05-10 06:02:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2024-05-10 06:02:15] INFO root fetch - main [MainThread]: Store serial: [23141043]
