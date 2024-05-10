@@ -18578,3 +18578,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:58:01] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-05-10 14:58:01] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-05-10 14:58:01] INFO root fetch - main [MainThread]: Store serial: [23146599]
+[2024-05-10 15:00:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146599]
+[2024-05-10 15:00:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecule-qemu
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhlyr
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cads-api-client
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmuxradio
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kthcloud
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adb-install-cert
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syndat
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-policy
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pretentiousz
+[2024-05-10 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autotrain-advanced
+[2024-05-10 15:00:10] INFO root fetch - processPackages [molecule-qemu]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-10 15:00:11] INFO root fetch - processPackages [kthcloud]: New version: [0.1.0a0] Old Version: [0.0.1a0]
+[2024-05-10 15:00:11] WARNING root fetch - processPackages [adb-install-cert]: Skipping, unable to determine old version
+[2024-05-10 15:00:11] INFO root fetch - processPackages [adb-install-cert]: Start processing: lusid-workflow-sdk-preview
+[2024-05-10 15:00:11] INFO root fetch - main [MainThread]: End processing [adb-install-cert] error
+[2024-05-10 15:00:11] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.86]
+[2024-05-10 15:00:11] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.992] Old Version: [0.1.987]
+[2024-05-10 15:00:11] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/80/38/e9859cd7ca721b412d83853a10eb7edb026d81452b1443b9d307b72bfd44/molecule-qemu-0.5.8.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [cads-api-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 15:00:11] WARNING root fetch - processPackages [zhlyr]: Skipping, unable to determine old version
+[2024-05-10 15:00:11] INFO root fetch - main [MainThread]: End processing [zhlyr] error
+[2024-05-10 15:00:11] WARNING root fetch - processPackages [tmuxradio]: Skipping, unable to determine old version
+[2024-05-10 15:00:11] INFO root fetch - main [MainThread]: End processing [tmuxradio] error
+[2024-05-10 15:00:11] INFO root fetch - processPackages [pulumi-policy]: New version: [1.9.0a1704638289] Old Version: [1.9.0a1704638278]
+[2024-05-10 15:00:11] INFO root fetch - processPackages [syndat]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 15:00:11] WARNING root fetch - processPackages [pretentiousz]: Skipping, unable to determine old version
+[2024-05-10 15:00:11] INFO root fetch - main [MainThread]: End processing [pretentiousz] error
+[2024-05-10 15:00:11] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3a/a8/6232b88f5d9e46a0a294aafbbbf1f6b1187bebb8f1d900919e61034b2467/lusid-workflow-sdk-preview-0.1.987.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [kthcloud]: Downloading https://files.pythonhosted.org/packages/8c/ef/6e0a75d415e35c7802ed6728ea9a15bcffe0bbe137eb64957d8ea2a656f6/kthcloud-0.0.1a0.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/ba/d5/a5157503a7af75b146d893cddb5f28599350d28ce8b00b358d129477540d/cads_api_client-1.0.0.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [pulumi-policy]: Downloading https://files.pythonhosted.org/packages/2a/f2/69b8e2f5021c6ead02fc1170be4481253f9393824a445b5959854406b0bb/pulumi_policy-1.9.0a1704638278-py2.py3-none-any.whl
+[2024-05-10 15:00:11] INFO root fetch - processPackages [syndat]: Downloading https://files.pythonhosted.org/packages/81/c8/2c12f51aa5f5952b567d356d82ae14d5c105a1f852d4aecd554dec5e65f5/syndat-0.0.4.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ef/43/92a17622b0c756ede2a6df31ee1f210c529202e426a9957ba19dff5b8de2/autotrain-advanced-0.7.86.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/03/14/7fbefe8f9765f53d92263fab24e9d4bd538e36ddb9b5bf5fa14836f80a09/molecule-qemu-0.5.9.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [kthcloud]: Downloading https://files.pythonhosted.org/packages/3c/46/30ad65221fee79dcc85ccbd1329836c7edd08263ac420ba73b49b5a87282/kthcloud-0.1.0a0.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/55/6b/08047a176dd1a9ba84be6da37fecbae88abcdee3fe2d02e0cf2e69e37761/lusid-workflow-sdk-preview-0.1.992.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/74/c6/1b3c2d6adc3b77803fa723521960b668dc262491c0f9284c474248eec277/cads_api_client-1.0.1.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [syndat]: Downloading https://files.pythonhosted.org/packages/33/d4/3f277939386ddc0d694d8e40b942ae380d3d480fd16cb52b8c1ecde5823f/syndat-0.0.5.tar.gz
+[2024-05-10 15:00:11] INFO root fetch - processPackages [pulumi-policy]: Downloading https://files.pythonhosted.org/packages/ec/53/cf8449c3764768fc06bb60127748e6bd26f8649365d2eec69d6f6e66d157/pulumi_policy-1.9.0a1704638289-py2.py3-none-any.whl
+[2024-05-10 15:00:11] INFO root fetch - processPackages [kthcloud]: executing diffoscope
+[2024-05-10 15:00:11] INFO root fetch - processPackages [kthcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kthcloud-0.0.1a0.tar.gz tmp/kthcloud-0.1.0a0.tar.gz --markdown 20240510/k/kthcloud/0.0.1a0-0.1.0a0/README.md --exclude *.pyd
+[2024-05-10 15:00:11] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-10 15:00:11] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.86.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240510/a/autotrain-advanced/0.7.86-0.7.9/README.md --exclude *.pyd
+[2024-05-10 15:00:11] INFO root fetch - processPackages [cads-api-client]: executing diffoscope
+[2024-05-10 15:00:11] INFO root fetch - processPackages [cads-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_api_client-1.0.0.tar.gz tmp/cads_api_client-1.0.1.tar.gz --markdown 20240510/c/cads-api-client/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 15:00:11] INFO root fetch - processPackages [syndat]: executing diffoscope
+[2024-05-10 15:00:11] INFO root fetch - processPackages [syndat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syndat-0.0.4.tar.gz tmp/syndat-0.0.5.tar.gz --markdown 20240510/s/syndat/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 15:00:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-10 15:00:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.987.tar.gz tmp/lusid-workflow-sdk-preview-0.1.992.tar.gz --markdown 20240510/l/lusid-workflow-sdk-preview/0.1.987-0.1.992/README.md --exclude *.pyd
+[2024-05-10 15:00:12] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2024-05-10 15:00:12] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.5.8.tar.gz tmp/molecule-qemu-0.5.9.tar.gz --markdown 20240510/m/molecule-qemu/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-10 15:00:12] INFO root fetch - processPackages [pulumi-policy]: executing diffoscope
+[2024-05-10 15:00:12] INFO root fetch - processPackages [pulumi-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_policy-1.9.0a1704638278-py2.py3-none-any.whl.zip tmp/pulumi_policy-1.9.0a1704638289-py2.py3-none-any.whl.zip --markdown 20240510/p/pulumi-policy/1.9.0a1704638278-1.9.0a1704638289/README.md --exclude *.pyd
+[2024-05-10 15:00:12] INFO root fetch - processPackages [syndat]: Remove: archive file [/home/abi/fetcher/tmp/syndat-0.0.4.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - processPackages [syndat]: Remove: archive file [/home/abi/fetcher/tmp/syndat-0.0.5.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - main [MainThread]: End processing [syndat]: success
+[2024-05-10 15:00:12] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.0.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.1.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - main [MainThread]: End processing [cads-api-client]: success
+[2024-05-10 15:00:12] INFO root fetch - processPackages [pulumi-policy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_policy-1.9.0a1704638278-py2.py3-none-any.whl.zip]
+[2024-05-10 15:00:12] INFO root fetch - processPackages [pulumi-policy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_policy-1.9.0a1704638289-py2.py3-none-any.whl.zip]
+[2024-05-10 15:00:12] INFO root fetch - main [MainThread]: End processing [pulumi-policy]: success
+[2024-05-10 15:00:12] INFO root fetch - processPackages [kthcloud]: Remove: archive file [/home/abi/fetcher/tmp/kthcloud-0.0.1a0.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - processPackages [kthcloud]: Remove: archive file [/home/abi/fetcher/tmp/kthcloud-0.1.0a0.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - main [MainThread]: End processing [kthcloud]: success
+[2024-05-10 15:00:12] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.86.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-05-10 15:00:12] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-10 15:00:13] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.8.tar.gz]
+[2024-05-10 15:00:13] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.9.tar.gz]
+[2024-05-10 15:00:13] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2024-05-10 15:00:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.987.tar.gz]
+[2024-05-10 15:00:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.992.tar.gz]
+[2024-05-10 15:00:13] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-10 15:00:13] INFO root fetch - main [MainThread]: Store serial: [23146633]
