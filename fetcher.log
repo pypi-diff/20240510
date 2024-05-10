@@ -4723,3 +4723,87 @@
 [2024-05-10 04:36:24] INFO root fetch - processPackages [promptmodel]: Remove: archive file [/home/abi/fetcher/tmp/promptmodel-0.1.9.tar.gz]
 [2024-05-10 04:36:24] INFO root fetch - main [MainThread]: End processing [promptmodel]: success
 [2024-05-10 04:36:24] INFO root fetch - main [MainThread]: Store serial: [23140481]
+[2024-05-10 04:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140481]
+[2024-05-10 04:38:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-venafi
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ModelMerge
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qa-metrics
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-postgresql
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chsel
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-keycloak
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-vault
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-rke
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1715237402] Old Version: [6.2.0a1715230012]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1715236929] Old Version: [3.5.0a1715063666]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1715303829] Old Version: [5.4.0a1715233878]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [ModelMerge]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [qa-metrics]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [chsel]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-10 04:38:32] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/1c/be/51af860eef2692203e266aca5a4f3a601b648255313b17fd1dae5d4af18c/pulumi_rke-3.5.0a1715063666.tar.gz
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/cd/ae/8d95992ac816fcb18dc54a8164db30c37792e7ebb3a3d4ebc91339e71e78/pulumi_vault-6.2.0a1715230012.tar.gz
+[2024-05-10 04:38:32] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/57/ac/94a0399e4db45ca2878bd7aedc510c224f1f329e069e079ca50dc2d3d615/pulumi_keycloak-5.4.0a1715233878.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [ModelMerge]: Downloading https://files.pythonhosted.org/packages/a4/a3/495bfd3df695c9b0fa1376184d5757b0ba3d50133b079745e69e211edcaa/modelmerge-0.2.8.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [chsel]: Downloading https://files.pythonhosted.org/packages/be/30/a1ba307ac926b468b9f76954a8948a6a8b090d1be5ed66c8b29ea9d69330/chsel-0.1.3.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/13/aa/5234943d3e2310387ac85015f52f6670b290aa89795583e76576d7235391/qa_metrics-0.2.8.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/c1/52/c52b68f04ab3eb816ad7cb9e206cdbd4fd3f505ad9bc3224f2542fc2172b/pulumi_rke-3.5.0a1715236929.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/df/0f/d94331fa2bb5907a201873656ea1be438d04fa7596ae6ebc6871fe0920b6/pulumi_keycloak-5.4.0a1715303829.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240510/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240510/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1715063666.tar.gz tmp/pulumi_rke-3.5.0a1715236929.tar.gz --markdown 20240510/p/pulumi-rke/3.5.0a1715063666-3.5.0a1715236929/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/28/ee/6a5434e84980f71c158af86ee844150d3ed2f280c8fc38da8884595f2265/pulumi_vault-6.2.0a1715237402.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [ModelMerge]: Downloading https://files.pythonhosted.org/packages/5d/63/1a15c955e5419d5811c36cea3b63cebd66a4d99ae815cf13897cccb81553/modelmerge-0.2.9.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/0e/8e/28a1a34f573a5db3ead1d4a3e25f63ebcf5a49b53622a58135ed41d2f427/qa_metrics-0.2.9.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1715233878.tar.gz tmp/pulumi_keycloak-5.4.0a1715303829.tar.gz --markdown 20240510/p/pulumi-keycloak/5.4.0a1715233878-5.4.0a1715303829/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [chsel]: Downloading https://files.pythonhosted.org/packages/f3/e1/9aaa68d3c72fa99812eac143f2bd77857c6ff6fda22fb93210938afaeef1/chsel-0.2.0.tar.gz
+[2024-05-10 04:38:33] INFO root fetch - processPackages [ModelMerge]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [ModelMerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.2.8.tar.gz tmp/modelmerge-0.2.9.tar.gz --markdown 20240510/M/ModelMerge/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [qa-metrics]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [qa-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa_metrics-0.2.8.tar.gz tmp/qa_metrics-0.2.9.tar.gz --markdown 20240510/q/qa-metrics/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1715230012.tar.gz tmp/pulumi_vault-6.2.0a1715237402.tar.gz --markdown 20240510/p/pulumi-vault/6.2.0a1715230012-6.2.0a1715237402/README.md --exclude *.pyd
+[2024-05-10 04:38:33] INFO root fetch - processPackages [chsel]: executing diffoscope
+[2024-05-10 04:38:33] INFO root fetch - processPackages [chsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chsel-0.1.3.tar.gz tmp/chsel-0.2.0.tar.gz --markdown 20240510/c/chsel/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-10 04:38:34] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1715063666.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1715236929.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-10 04:38:34] INFO root fetch - processPackages [ModelMerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.2.8.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [ModelMerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.2.9.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [ModelMerge]: success
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-10 04:38:34] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.8.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.9.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [qa-metrics]: success
+[2024-05-10 04:38:34] INFO root fetch - processPackages [chsel]: Remove: archive file [/home/abi/fetcher/tmp/chsel-0.1.3.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [chsel]: Remove: archive file [/home/abi/fetcher/tmp/chsel-0.2.0.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [chsel]: success
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715233878.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715303829.tar.gz]
+[2024-05-10 04:38:34] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-10 04:38:35] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715230012.tar.gz]
+[2024-05-10 04:38:35] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715237402.tar.gz]
+[2024-05-10 04:38:35] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-10 04:38:35] INFO root fetch - main [MainThread]: Store serial: [23140507]
