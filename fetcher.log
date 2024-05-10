@@ -14810,3 +14810,81 @@
 [2024-05-10 12:49:37] INFO root fetch - processPackages [salesforce-cdp-connector]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-cdp-connector-1.0.9.tar.gz]
 [2024-05-10 12:49:37] INFO root fetch - main [MainThread]: End processing [salesforce-cdp-connector]: success
 [2024-05-10 12:49:37] INFO root fetch - main [MainThread]: Store serial: [23144898]
+[2024-05-10 12:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144898]
+[2024-05-10 12:52:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salesforce-cdp-connector
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bamsz
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openframe-criteria-set-protocol
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libosdp
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bme680
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-datadog
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-sm-carsharing-structure-sommobilitat
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: besmirchersz
+[2024-05-10 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-sm-collaborators
+[2024-05-10 12:52:01] INFO root fetch - processPackages [salesforce-cdp-connector]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 12:52:01] INFO root fetch - processPackages [openframe-criteria-set-protocol]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-10 12:52:01] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-10 12:52:01] INFO root fetch - processPackages [salesforce-cdp-connector]: Downloading https://files.pythonhosted.org/packages/c4/40/15455bb7c487cfd9864566d899f488fa7dfd67cb4ae44e3fa032a8444adc/salesforce-cdp-connector-1.0.8.tar.gz
+[2024-05-10 12:52:01] INFO root fetch - processPackages [bamsz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 12:52:01] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: New version: [12.0.0.0.5] Old Version: [12.0.0.0.4]
+[2024-05-10 12:52:01] WARNING root fetch - processPackages [besmirchersz]: Skipping, unable to determine old version
+[2024-05-10 12:52:01] INFO root fetch - main [MainThread]: End processing [besmirchersz] error
+[2024-05-10 12:52:01] INFO root fetch - processPackages [bme680]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-05-10 12:52:01] INFO root fetch - processPackages [odoo12-addon-sm-collaborators]: New version: [12.0.0.0.4.99.dev1] Old Version: [12.0.0.0.4]
+[2024-05-10 12:52:01] INFO root fetch - processPackages [libosdp]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-05-10 12:52:01] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/45/97/5ad4c1bf8841e36eb139f2b6dd478923e4b38e69384bc8a0bdc4d6e5905a/openframe_criteria_set_protocol-1.4.6.tar.gz
+[2024-05-10 12:52:01] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bamsz]: Downloading https://files.pythonhosted.org/packages/a8/5a/d52e5dd4b1ac0461394ce7d1de7cc34c25ea6da530056886c713c5affc83/bamsz-1.1.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [salesforce-cdp-connector]: Downloading https://files.pythonhosted.org/packages/9c/18/5d82dd970de11e1c204c64bfacf46c925c1cf28e7411c93373c199a8d431/salesforce-cdp-connector-1.0.9.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bme680]: Downloading https://files.pythonhosted.org/packages/e5/b4/5576f6f4fe94b4b518ddf40e24d29ba00117ab9b92fcb90e4c23e16eff4f/bme680-1.1.1.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Downloading https://files.pythonhosted.org/packages/2a/d3/87990816fc8013340a0e2cf1b73f0280efe615dc59568434dcdf663b5d5b/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.4.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/5a/e2/16fa15b43337175346cf6ad1b8625c2f57b685c925468d125ac1beaf92e2/openframe_criteria_set_protocol-1.4.7.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [libosdp]: Downloading https://files.pythonhosted.org/packages/63/32/66182da43a9a1b1336869800c534d6f456dde4807d94a9c84e8919cb3ed9/libosdp-3.0.5.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [odoo12-addon-sm-collaborators]: Downloading https://files.pythonhosted.org/packages/3d/3c/db7e12a159e0350f1011c117f68ab9afec349404e6476013098cff219b28/odoo12_addon_sm_collaborators-12.0.0.0.4-py2.py3-none-any.whl
+[2024-05-10 12:52:02] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [salesforce-cdp-connector]: executing diffoscope
+[2024-05-10 12:52:02] INFO root fetch - processPackages [salesforce-cdp-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-cdp-connector-1.0.8.tar.gz tmp/salesforce-cdp-connector-1.0.9.tar.gz --markdown 20240510/s/salesforce-cdp-connector/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 12:52:02] INFO root fetch - processPackages [openframe-criteria-set-protocol]: executing diffoscope
+[2024-05-10 12:52:02] INFO root fetch - processPackages [openframe-criteria-set-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openframe_criteria_set_protocol-1.4.6.tar.gz tmp/openframe_criteria_set_protocol-1.4.7.tar.gz --markdown 20240510/o/openframe-criteria-set-protocol/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-10 12:52:02] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-10 12:52:02] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240510/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bamsz]: Downloading https://files.pythonhosted.org/packages/ea/26/4f123235e1fd25021fedfc9c9d031a60910ec7105b531d2b46e7dd80ebdd/bamsz-2.1.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Downloading https://files.pythonhosted.org/packages/b0/65/15f496031b58069b0bd18083716055c4ba2177182159f11fbfba2f328e55/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.5.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bamsz]: executing diffoscope
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bamsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamsz-1.1.tar.gz tmp/bamsz-2.1.tar.gz --markdown 20240510/b/bamsz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 12:52:02] INFO root fetch - processPackages [libosdp]: Downloading https://files.pythonhosted.org/packages/c5/40/bc1ffb649d917d7288ce358f2c8086fa944923866c7b7555aae11b940256/libosdp-3.0.6-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bme680]: Downloading https://files.pythonhosted.org/packages/4b/92/8ac453cac43f019387259a01e0f4e13c5917cc0925f077a32e308522a9ca/bme680-2.0.0.tar.gz
+[2024-05-10 12:52:02] INFO root fetch - processPackages [odoo12-addon-sm-collaborators]: Downloading https://files.pythonhosted.org/packages/c2/49/a1e9e845d1c3a77b9f5d30bdabaadb1fd010827ad4ff694933315c507eab/odoo12_addon_sm_collaborators-12.0.0.0.4.99.dev1-py2.py3-none-any.whl
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bme680]: executing diffoscope
+[2024-05-10 12:52:02] INFO root fetch - processPackages [bme680]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bme680-1.1.1.tar.gz tmp/bme680-2.0.0.tar.gz --markdown 20240510/b/bme680/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-05-10 12:52:02] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: executing diffoscope
+[2024-05-10 12:52:02] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.4.tar.gz tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.5.tar.gz --markdown 20240510/o/odoo12-addon-sm-carsharing-structure-sommobilitat/12.0.0.0.4-12.0.0.0.5/README.md --exclude *.pyd
+[2024-05-10 12:52:03] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.6.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.7.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - main [MainThread]: End processing [openframe-criteria-set-protocol]: success
+[2024-05-10 12:52:03] INFO root fetch - processPackages [salesforce-cdp-connector]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-cdp-connector-1.0.8.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - processPackages [salesforce-cdp-connector]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-cdp-connector-1.0.9.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - main [MainThread]: End processing [salesforce-cdp-connector]: success
+[2024-05-10 12:52:03] INFO root fetch - processPackages [bamsz]: Remove: archive file [/home/abi/fetcher/tmp/bamsz-1.1.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - processPackages [bamsz]: Remove: archive file [/home/abi/fetcher/tmp/bamsz-2.1.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - main [MainThread]: End processing [bamsz]: success
+[2024-05-10 12:52:03] INFO root fetch - processPackages [odoo12-addon-sm-collaborators]: executing diffoscope
+[2024-05-10 12:52:03] INFO root fetch - processPackages [odoo12-addon-sm-collaborators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_collaborators-12.0.0.0.4-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_collaborators-12.0.0.0.4.99.dev1-py2.py3-none-any.whl.zip --markdown 20240510/o/odoo12-addon-sm-collaborators/12.0.0.0.4-12.0.0.0.4.99.dev1/README.md --exclude *.pyd
+[2024-05-10 12:52:03] INFO root fetch - processPackages [bme680]: Remove: archive file [/home/abi/fetcher/tmp/bme680-1.1.1.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - processPackages [bme680]: Remove: archive file [/home/abi/fetcher/tmp/bme680-2.0.0.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - main [MainThread]: End processing [bme680]: success
+[2024-05-10 12:52:03] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.4.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.5.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - processPackages [libosdp]: executing diffoscope
+[2024-05-10 12:52:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-carsharing-structure-sommobilitat]: success
+[2024-05-10 12:52:03] INFO root fetch - processPackages [libosdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libosdp-3.0.5.tar.gz tmp/libosdp-3.0.6-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240510/l/libosdp/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-05-10 12:52:03] INFO root fetch - processPackages [libosdp]: Remove: archive file [/home/abi/fetcher/tmp/libosdp-3.0.5.tar.gz]
+[2024-05-10 12:52:03] INFO root fetch - processPackages [libosdp]: Remove: archive file [/home/abi/fetcher/tmp/libosdp-3.0.6-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-10 12:52:03] INFO root fetch - main [MainThread]: End processing [libosdp]: success
+[2024-05-10 12:52:04] INFO root fetch - processPackages [odoo12-addon-sm-collaborators]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_collaborators-12.0.0.0.4-py2.py3-none-any.whl.zip]
+[2024-05-10 12:52:04] INFO root fetch - processPackages [odoo12-addon-sm-collaborators]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_collaborators-12.0.0.0.4.99.dev1-py2.py3-none-any.whl.zip]
+[2024-05-10 12:52:04] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-collaborators]: success
+[2024-05-10 12:52:05] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-10 12:52:05] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-10 12:52:05] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-10 12:52:05] INFO root fetch - main [MainThread]: Store serial: [23144943]
