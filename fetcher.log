@@ -4956,3 +4956,63 @@
 [2024-05-10 04:47:19] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.9.tar.gz]
 [2024-05-10 04:47:19] INFO root fetch - main [MainThread]: End processing [awscli]: success
 [2024-05-10 04:47:19] INFO root fetch - main [MainThread]: Store serial: [23140583]
+[2024-05-10 04:49:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140583]
+[2024-05-10 04:49:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discorudo
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai4free
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medicafe
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DeFiPy
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stewardlyz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-aliding20230426
+[2024-05-10 04:49:28] INFO root fetch - processPackages [discorudo]: New version: [1.4] Old Version: [1.3]
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ai4free]: New version: [0.4] Old Version: [0.3]
+[2024-05-10 04:49:28] INFO root fetch - processPackages [medicafe]: New version: [0.240509.2] Old Version: [0.240509.1]
+[2024-05-10 04:49:28] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-10 04:49:28] INFO root fetch - processPackages [discorudo]: Downloading https://files.pythonhosted.org/packages/31/3e/0017b79dbda13118c8574f4fa1e3c909b949110b657de977540bdcd70d0b/discorudo-1.3.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ai4free]: Downloading https://files.pythonhosted.org/packages/27/ff/700fb407a8b563206d775ddc9cd39d2c97422caf3314f55734975665f7a2/ai4free-0.3.tar.gz
+[2024-05-10 04:49:28] WARNING root fetch - processPackages [stewardlyz]: Skipping, unable to determine old version
+[2024-05-10 04:49:28] INFO root fetch - main [MainThread]: End processing [stewardlyz] error
+[2024-05-10 04:49:28] INFO root fetch - processPackages [DeFiPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 04:49:28] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/14/91/2cbc214c92d8876f82af3393700d7e94e859b4dadf68d2c1398264079437/medicafe-0.240509.1.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-10 04:49:28] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ai4free]: Downloading https://files.pythonhosted.org/packages/37/4e/8224a320b9b0537ab4a8f376d000aa3c373a604e3c8114c42efbba41c29d/ai4free-0.4.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/dc/9b/4b3c802e4dae071394ba27afe644534c7343d192519c932d9f47c592db64/DeFiPy-0.0.8.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [discorudo]: Downloading https://files.pythonhosted.org/packages/60/61/c54033d43fcd5f0b371c2ade716966b7a7c11b0eeface6e358a12c6f6098/discorudo-1.4.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ai4free]: executing diffoscope
+[2024-05-10 04:49:28] INFO root fetch - processPackages [ai4free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai4free-0.3.tar.gz tmp/ai4free-0.4.tar.gz --markdown 20240510/a/ai4free/0.3-0.4/README.md --exclude *.pyd
+[2024-05-10 04:49:28] INFO root fetch - processPackages [discorudo]: executing diffoscope
+[2024-05-10 04:49:28] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/84/85/4c7be089eb05a21387f25c95ebd15fded83179d6c9fae229501e8ed28066/medicafe-0.240509.2.tar.gz
+[2024-05-10 04:49:28] INFO root fetch - processPackages [discorudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discorudo-1.3.tar.gz tmp/discorudo-1.4.tar.gz --markdown 20240510/d/discorudo/1.3-1.4/README.md --exclude *.pyd
+[2024-05-10 04:49:29] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-10 04:49:29] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240509.1.tar.gz tmp/medicafe-0.240509.2.tar.gz --markdown 20240510/m/medicafe/0.240509.1-0.240509.2/README.md --exclude *.pyd
+[2024-05-10 04:49:29] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/c6/4a/9e5e65acc4c127e8cc615783ca5a1d8a5a658e0d6a8cfe61a1d50f8ed7db/DeFiPy-0.0.9.tar.gz
+[2024-05-10 04:49:29] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-05-10 04:49:29] INFO root fetch - processPackages [DeFiPy]: executing diffoscope
+[2024-05-10 04:49:29] INFO root fetch - processPackages [DeFiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeFiPy-0.0.8.tar.gz tmp/DeFiPy-0.0.9.tar.gz --markdown 20240510/D/DeFiPy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 04:49:29] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2024-05-10 04:49:29] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-05-10 04:49:29] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240510/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-10 04:49:29] INFO root fetch - processPackages [discorudo]: Remove: archive file [/home/abi/fetcher/tmp/discorudo-1.3.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - processPackages [discorudo]: Remove: archive file [/home/abi/fetcher/tmp/discorudo-1.4.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - main [MainThread]: End processing [discorudo]: success
+[2024-05-10 04:49:29] INFO root fetch - processPackages [ai4free]: Remove: archive file [/home/abi/fetcher/tmp/ai4free-0.3.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - processPackages [ai4free]: Remove: archive file [/home/abi/fetcher/tmp/ai4free-0.4.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - main [MainThread]: End processing [ai4free]: success
+[2024-05-10 04:49:29] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.1.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.2.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-10 04:49:29] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.8.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.9.tar.gz]
+[2024-05-10 04:49:29] INFO root fetch - main [MainThread]: End processing [DeFiPy]: success
+[2024-05-10 04:49:29] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2024-05-10 04:49:29] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20240510/b/botocore/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-10 04:49:30] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-05-10 04:49:30] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-05-10 04:49:30] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-05-10 04:49:35] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.8.tar.gz]
+[2024-05-10 04:49:35] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
+[2024-05-10 04:49:35] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2024-05-10 04:49:35] INFO root fetch - main [MainThread]: Store serial: [23140603]
