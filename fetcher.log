@@ -13807,3 +13807,36 @@
 [2024-05-10 12:07:45] INFO root fetch - processPackages [pysarpro]: Remove: archive file [/home/abi/fetcher/tmp/pysarpro-0.1.5-cp39-cp39-macosx_12_0_arm64.whl.zip]
 [2024-05-10 12:07:45] INFO root fetch - main [MainThread]: End processing [pysarpro]: success
 [2024-05-10 12:07:45] INFO root fetch - main [MainThread]: Store serial: [23144456]
+[2024-05-10 12:09:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144456]
+[2024-05-10 12:09:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 12:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rotop
+[2024-05-10 12:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-event-contact
+[2024-05-10 12:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: araucanianz
+[2024-05-10 12:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apicat
+[2024-05-10 12:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icschedule
+[2024-05-10 12:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openframe-criteria-set-protocol
+[2024-05-10 12:09:58] WARNING root fetch - processPackages [araucanianz]: Skipping, unable to determine old version
+[2024-05-10 12:09:58] INFO root fetch - main [MainThread]: End processing [araucanianz] error
+[2024-05-10 12:09:58] WARNING root fetch - processPackages [apicat]: Skipping, unable to determine old version
+[2024-05-10 12:09:58] INFO root fetch - main [MainThread]: End processing [apicat] error
+[2024-05-10 12:09:58] WARNING root fetch - processPackages [icschedule]: Skipping, unable to determine old version
+[2024-05-10 12:09:58] INFO root fetch - main [MainThread]: End processing [icschedule] error
+[2024-05-10 12:09:58] WARNING root fetch - processPackages [odoo-addon-event-contact]: Skipping, unable to determine old version
+[2024-05-10 12:09:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-contact] error
+[2024-05-10 12:09:58] INFO root fetch - processPackages [rotop]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-10 12:09:58] INFO root fetch - processPackages [openframe-criteria-set-protocol]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-10 12:09:58] INFO root fetch - processPackages [rotop]: Downloading https://files.pythonhosted.org/packages/e8/f5/986fae3a142c33c9c342ba9d9ac41278dfedc136b1d94f60cbc19f8e0ab4/rotop-1.0.4.tar.gz
+[2024-05-10 12:09:59] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/45/97/5ad4c1bf8841e36eb139f2b6dd478923e4b38e69384bc8a0bdc4d6e5905a/openframe_criteria_set_protocol-1.4.6.tar.gz
+[2024-05-10 12:09:59] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/d2/9d/010acd1033a098a4d8e142740ea03a6a26478311f0a5ebf9f10c99a1a3ab/openframe_criteria_set_protocol-1.4.7-py3-none-any.whl
+[2024-05-10 12:09:59] INFO root fetch - processPackages [rotop]: Downloading https://files.pythonhosted.org/packages/96/d2/bbfeba9bc7af1d47be026353c609bd4c678f641fe2b2a8e8ec08636e3b5c/rotop-1.0.5.tar.gz
+[2024-05-10 12:09:59] INFO root fetch - processPackages [rotop]: executing diffoscope
+[2024-05-10 12:09:59] INFO root fetch - processPackages [rotop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotop-1.0.4.tar.gz tmp/rotop-1.0.5.tar.gz --markdown 20240510/r/rotop/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-10 12:09:59] INFO root fetch - processPackages [openframe-criteria-set-protocol]: executing diffoscope
+[2024-05-10 12:09:59] INFO root fetch - processPackages [openframe-criteria-set-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openframe_criteria_set_protocol-1.4.6.tar.gz tmp/openframe_criteria_set_protocol-1.4.7-py3-none-any.whl.zip --markdown 20240510/o/openframe-criteria-set-protocol/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-10 12:10:00] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.6.tar.gz]
+[2024-05-10 12:10:00] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.7-py3-none-any.whl.zip]
+[2024-05-10 12:10:00] INFO root fetch - main [MainThread]: End processing [openframe-criteria-set-protocol]: success
+[2024-05-10 12:10:00] INFO root fetch - processPackages [rotop]: Remove: archive file [/home/abi/fetcher/tmp/rotop-1.0.4.tar.gz]
+[2024-05-10 12:10:00] INFO root fetch - processPackages [rotop]: Remove: archive file [/home/abi/fetcher/tmp/rotop-1.0.5.tar.gz]
+[2024-05-10 12:10:00] INFO root fetch - main [MainThread]: End processing [rotop]: success
+[2024-05-10 12:10:00] INFO root fetch - main [MainThread]: Store serial: [23144482]
