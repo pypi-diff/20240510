@@ -7877,3 +7877,44 @@
 [2024-05-10 07:54:13] WARNING root fetch - processPackages [phosphomolybdicz]: Skipping, unable to determine old version
 [2024-05-10 07:54:13] INFO root fetch - main [MainThread]: End processing [phosphomolybdicz] error
 [2024-05-10 07:54:13] INFO root fetch - main [MainThread]: Store serial: [23141911]
+[2024-05-10 07:56:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141911]
+[2024-05-10 07:56:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autofracture
+[2024-05-10 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-himark
+[2024-05-10 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickfix2
+[2024-05-10 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenMM
+[2024-05-10 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saf-datasets
+[2024-05-10 07:56:21] INFO root fetch - processPackages [autofracture]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 07:56:21] INFO root fetch - processPackages [pytest-himark]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-10 07:56:21] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/58/86/c5ea6ab3db7d08cc432456156dbb4bb5c7ee78c0f0f07603fda6f66e5f63/autofracture-0.0.3.tar.gz
+[2024-05-10 07:56:21] INFO root fetch - processPackages [OpenMM]: New version: [8.1.1] Old Version: [0.2]
+[2024-05-10 07:56:21] INFO root fetch - processPackages [quickfix2]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-10 07:56:21] INFO root fetch - processPackages [saf-datasets]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-10 07:56:22] INFO root fetch - processPackages [pytest-himark]: Downloading https://files.pythonhosted.org/packages/5a/d6/17f43bfde7fba66967effaa03dd8644cd4eb62dc357bb8ee8557e13c600f/pytest_himark-0.1.3.tar.gz
+[2024-05-10 07:56:22] INFO root fetch - processPackages [quickfix2]: Downloading https://files.pythonhosted.org/packages/b5/8a/b30528bb410484c87d259b83a5d8f03bd473e09732c2ca9f90a0ca51cd95/quickfix2-0.0.3-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-10 07:56:22] INFO root fetch - processPackages [saf-datasets]: Downloading https://files.pythonhosted.org/packages/6a/81/41911c8f8c8c503a648bbf60465a4263d602e99ccd1e9e93db1f3c2db2b0/saf_datasets-0.6.1.tar.gz
+[2024-05-10 07:56:22] INFO root fetch - processPackages [OpenMM]: Downloading https://files.pythonhosted.org/packages/6b/ac/2e2aadfa7aa7db5cf1b9677166b084d9ea37a55daebcb48ed434ebe0faa3/openmm-0.2.tar.gz
+[2024-05-10 07:56:22] WARNING root fetch - processPackages [quickfix2]: Skipping package: exceeds size limit 23670669>=10485760
+[2024-05-10 07:56:22] INFO root fetch - main [MainThread]: End processing [quickfix2] error
+[2024-05-10 07:56:22] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/bd/46/da5c6c23529adc83ae3c7b22df65d9c15572d11dc4bdc685a9b1797c2787/autofracture-0.0.4.tar.gz
+[2024-05-10 07:56:22] INFO root fetch - processPackages [autofracture]: executing diffoscope
+[2024-05-10 07:56:22] INFO root fetch - processPackages [autofracture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofracture-0.0.3.tar.gz tmp/autofracture-0.0.4.tar.gz --markdown 20240510/a/autofracture/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 07:56:22] INFO root fetch - processPackages [pytest-himark]: Downloading https://files.pythonhosted.org/packages/f8/4e/7e94adc518f7a1f9a3fb39d34fc21215311cde40f3a3189d1eb57865815d/pytest_himark-0.2.0.tar.gz
+[2024-05-10 07:56:22] INFO root fetch - processPackages [saf-datasets]: Downloading https://files.pythonhosted.org/packages/b7/ad/1d3cfc551fe63d3a87da32aa4eb6266422987a032ff040080451ddd74be2/saf_datasets-0.6.2.tar.gz
+[2024-05-10 07:56:22] INFO root fetch - processPackages [pytest-himark]: executing diffoscope
+[2024-05-10 07:56:22] INFO root fetch - processPackages [pytest-himark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_himark-0.1.3.tar.gz tmp/pytest_himark-0.2.0.tar.gz --markdown 20240510/p/pytest-himark/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-10 07:56:22] INFO root fetch - processPackages [saf-datasets]: executing diffoscope
+[2024-05-10 07:56:22] INFO root fetch - processPackages [saf-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saf_datasets-0.6.1.tar.gz tmp/saf_datasets-0.6.2.tar.gz --markdown 20240510/s/saf-datasets/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-10 07:56:22] INFO root fetch - processPackages [OpenMM]: Downloading https://files.pythonhosted.org/packages/a7/19/9fae23938e1f1670b6d8017fde1ff2284c1fb019476b15d0651210abfd49/OpenMM-8.1.1-cp39-cp39-win_amd64.whl
+[2024-05-10 07:56:22] WARNING root fetch - processPackages [OpenMM]: Skipping package: exceeds size limit 10551037>=10485760
+[2024-05-10 07:56:22] INFO root fetch - main [MainThread]: End processing [OpenMM] error
+[2024-05-10 07:56:22] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.3.tar.gz]
+[2024-05-10 07:56:22] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.4.tar.gz]
+[2024-05-10 07:56:22] INFO root fetch - main [MainThread]: End processing [autofracture]: success
+[2024-05-10 07:56:23] INFO root fetch - processPackages [pytest-himark]: Remove: archive file [/home/abi/fetcher/tmp/pytest_himark-0.1.3.tar.gz]
+[2024-05-10 07:56:23] INFO root fetch - processPackages [pytest-himark]: Remove: archive file [/home/abi/fetcher/tmp/pytest_himark-0.2.0.tar.gz]
+[2024-05-10 07:56:23] INFO root fetch - main [MainThread]: End processing [pytest-himark]: success
+[2024-05-10 07:56:23] INFO root fetch - processPackages [saf-datasets]: Remove: archive file [/home/abi/fetcher/tmp/saf_datasets-0.6.1.tar.gz]
+[2024-05-10 07:56:23] INFO root fetch - processPackages [saf-datasets]: Remove: archive file [/home/abi/fetcher/tmp/saf_datasets-0.6.2.tar.gz]
+[2024-05-10 07:56:23] INFO root fetch - main [MainThread]: End processing [saf-datasets]: success
+[2024-05-10 07:56:23] INFO root fetch - main [MainThread]: Store serial: [23141945]
