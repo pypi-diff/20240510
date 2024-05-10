@@ -9841,3 +9841,36 @@
 [2024-05-10 09:39:34] INFO root fetch - processPackages [pymitter]: Remove: archive file [/home/abi/fetcher/tmp/pymitter-0.5.1.tar.gz]
 [2024-05-10 09:39:34] INFO root fetch - main [MainThread]: End processing [pymitter]: success
 [2024-05-10 09:39:34] INFO root fetch - main [MainThread]: Store serial: [23142835]
+[2024-05-10 09:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142835]
+[2024-05-10 09:41:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 09:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opsramp-analytics-utils
+[2024-05-10 09:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xmonkey-namonica
+[2024-05-10 09:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TitanicSurvivalModel100424
+[2024-05-10 09:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2024-05-10 09:41:43] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-05-10 09:41:43] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-10 09:41:43] WARNING root fetch - processPackages [TitanicSurvivalModel100424]: Skipping, unable to determine old version
+[2024-05-10 09:41:43] INFO root fetch - main [MainThread]: End processing [TitanicSurvivalModel100424] error
+[2024-05-10 09:41:43] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:41:43] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/16/46/502a29cd460f4cd104faead5c071072691e04f0e6d3c25184d216a5a2382/opsramp-analytics-utils-3.5.2.tar.gz
+[2024-05-10 09:41:43] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-10 09:41:43] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-10 09:41:43] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-10 09:41:43] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/cd/89/71e57545591ef3b75619e554ded371ec4b86bc419fd0548eac230f75a9a7/opsramp-analytics-utils-3.5.3.tar.gz
+[2024-05-10 09:41:43] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-10 09:41:43] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-10 09:41:43] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240510/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-10 09:41:43] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2024-05-10 09:41:43] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.5.2.tar.gz tmp/opsramp-analytics-utils-3.5.3.tar.gz --markdown 20240510/o/opsramp-analytics-utils/3.5.2-3.5.3/README.md --exclude *.pyd
+[2024-05-10 09:41:43] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-10 09:41:43] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240510/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:41:44] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-10 09:41:44] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-10 09:41:44] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-10 09:41:44] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.2.tar.gz]
+[2024-05-10 09:41:44] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.3.tar.gz]
+[2024-05-10 09:41:44] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2024-05-10 09:41:46] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-10 09:41:46] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-10 09:41:46] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-10 09:41:46] INFO root fetch - main [MainThread]: Store serial: [23142852]
