@@ -24992,3 +24992,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:29:35] INFO root fetch - processPackages [aa-freight]: Remove: archive file [/home/abi/fetcher/tmp/aa_freight-1.9.0.tar.gz]
 [2024-05-10 18:29:35] INFO root fetch - main [MainThread]: End processing [aa-freight]: success
 [2024-05-10 18:29:35] INFO root fetch - main [MainThread]: Store serial: [23149682]
+[2024-05-10 18:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149682]
+[2024-05-10 18:31:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 18:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdatalog
+[2024-05-10 18:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: centuplicationz
+[2024-05-10 18:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgeimpulse-api
+[2024-05-10 18:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decaspermousz
+[2024-05-10 18:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chewycomptoolcore
+[2024-05-10 18:31:45] INFO root fetch - processPackages [gdatalog]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-10 18:31:45] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.9] Old Version: [1.49.8]
+[2024-05-10 18:31:45] INFO root fetch - processPackages [gdatalog]: Downloading https://files.pythonhosted.org/packages/58/25/a197e1f02648c5743a6115bc93ddf5f729121d6ed8b28932b52eb501f1d6/gdatalog-0.3.2.tar.gz
+[2024-05-10 18:31:45] WARNING root fetch - processPackages [centuplicationz]: Skipping, unable to determine old version
+[2024-05-10 18:31:45] INFO root fetch - main [MainThread]: End processing [centuplicationz] error
+[2024-05-10 18:31:45] INFO root fetch - processPackages [decaspermousz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 18:31:45] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-05-10 18:31:45] WARNING root fetch - processPackages [chewycomptoolcore]: Skipping, unable to determine old version
+[2024-05-10 18:31:45] INFO root fetch - main [MainThread]: End processing [chewycomptoolcore] error
+[2024-05-10 18:31:45] INFO root fetch - processPackages [decaspermousz]: Downloading https://files.pythonhosted.org/packages/70/60/1cba0e5bb87d96cede124352314ea27080648715ed243ab2023e604ef4c7/decaspermousz-1.1.tar.gz
+[2024-05-10 18:31:45] INFO root fetch - processPackages [gdatalog]: Downloading https://files.pythonhosted.org/packages/f5/df/4a7d90e55feff28dff5eeec2da2b6eeedf62c2fd5c19f5292be5b9c46b9d/gdatalog-0.3.3.tar.gz
+[2024-05-10 18:31:45] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/2e/61db10bac2d979482398361a4532a56341b89eb7e3cd645df17c5ecdbfc5/edgeimpulse_api-1.49.9.tar.gz
+[2024-05-10 18:31:45] INFO root fetch - processPackages [gdatalog]: executing diffoscope
+[2024-05-10 18:31:45] INFO root fetch - processPackages [gdatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdatalog-0.3.2.tar.gz tmp/gdatalog-0.3.3.tar.gz --markdown 20240510/g/gdatalog/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-10 18:31:45] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-05-10 18:31:45] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.8.tar.gz tmp/edgeimpulse_api-1.49.9.tar.gz --markdown 20240510/e/edgeimpulse-api/1.49.8-1.49.9/README.md --exclude *.pyd
+[2024-05-10 18:31:46] INFO root fetch - processPackages [decaspermousz]: Downloading https://files.pythonhosted.org/packages/16/ae/a9530a3065ba26d3db0aa10f5efffe7b2e111ca8962fcece0ea1ce0fd154/decaspermousz-2.1.tar.gz
+[2024-05-10 18:31:46] INFO root fetch - processPackages [decaspermousz]: executing diffoscope
+[2024-05-10 18:31:46] INFO root fetch - processPackages [decaspermousz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decaspermousz-1.1.tar.gz tmp/decaspermousz-2.1.tar.gz --markdown 20240510/d/decaspermousz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 18:31:46] INFO root fetch - processPackages [gdatalog]: Remove: archive file [/home/abi/fetcher/tmp/gdatalog-0.3.2.tar.gz]
+[2024-05-10 18:31:46] INFO root fetch - processPackages [gdatalog]: Remove: archive file [/home/abi/fetcher/tmp/gdatalog-0.3.3.tar.gz]
+[2024-05-10 18:31:46] INFO root fetch - main [MainThread]: End processing [gdatalog]: success
+[2024-05-10 18:31:46] INFO root fetch - processPackages [decaspermousz]: Remove: archive file [/home/abi/fetcher/tmp/decaspermousz-1.1.tar.gz]
+[2024-05-10 18:31:46] INFO root fetch - processPackages [decaspermousz]: Remove: archive file [/home/abi/fetcher/tmp/decaspermousz-2.1.tar.gz]
+[2024-05-10 18:31:46] INFO root fetch - main [MainThread]: End processing [decaspermousz]: success
+[2024-05-10 18:31:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-05-10 18:31:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
+[2024-05-10 18:31:49] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-05-10 18:31:49] INFO root fetch - main [MainThread]: Store serial: [23149702]
