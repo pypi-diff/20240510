@@ -9021,3 +9021,70 @@
 [2024-05-10 08:57:36] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-05-10 08:57:36] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-10 08:57:36] INFO root fetch - main [MainThread]: Store serial: [23142482]
+[2024-05-10 08:59:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142482]
+[2024-05-10 08:59:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-block-local
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PREN-flawas
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youqu
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contact-notes-local
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docopt-parser
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ork.build
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PREN-flawas
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genio-bootrom
+[2024-05-10 08:59:45] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:59:45] INFO root fetch - processPackages [contact-notes-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 08:59:45] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:59:45] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:59:45] WARNING root fetch - processPackages [docopt-parser]: Skipping, unable to determine old version
+[2024-05-10 08:59:45] INFO root fetch - main [MainThread]: End processing [docopt-parser] error
+[2024-05-10 08:59:45] INFO root fetch - processPackages [genio-bootrom]: New version: [1.1.9a1] Old Version: [1.1.9.dev1]
+[2024-05-10 08:59:45] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 08:59:45] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/94/02/401f72b4bc3a22137e39e519a300db91b6d7f6f995ff3fdd5266dd81540c/contact-notes-local-0.0.8.tar.gz
+[2024-05-10 08:59:45] INFO root fetch - processPackages [youqu]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-05-10 08:59:45] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-10 08:59:45] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 08:59:45] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 08:59:45] INFO root fetch - processPackages [genio-bootrom]: Downloading https://files.pythonhosted.org/packages/00/d7/50f509d075a5f54771ba2582c5a248b2f23f6bc57f21b7d92c46304f8bd6/genio_bootrom-1.1.9.dev1-py3-none-any.whl
+[2024-05-10 08:59:45] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/26/f5/7214732c36bfa0e99c891713d9f7121a001ae98483c37f383d9980ecf258/youqu-2.5.4.tar.gz
+[2024-05-10 08:59:45] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 08:59:46] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/7d/da/15635ad28159f22874e3fbe243ec786d3658da7812c3243f5feb8d5f8385/contact-notes-local-0.0.9.tar.gz
+[2024-05-10 08:59:46] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-10 08:59:46] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 08:59:46] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:59:46] INFO root fetch - processPackages [contact-notes-local]: executing diffoscope
+[2024-05-10 08:59:46] INFO root fetch - processPackages [contact-notes-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-notes-local-0.0.8.tar.gz tmp/contact-notes-local-0.0.9.tar.gz --markdown 20240510/c/contact-notes-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:59:46] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-10 08:59:46] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240510/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 08:59:46] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/8f/6c/b47fd4b5e50bcc9a9fdefcb8d254a76178c9ee7b83f432607e13f910b445/youqu-2.5.5.tar.gz
+[2024-05-10 08:59:46] INFO root fetch - processPackages [genio-bootrom]: Downloading https://files.pythonhosted.org/packages/c9/c9/9bbd5ab89a11be3d874249abfea49e23326b0e8fecb0e241765ecc5cc523/genio_bootrom-1.1.9a1-py3-none-any.whl
+[2024-05-10 08:59:46] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 08:59:46] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 08:59:46] INFO root fetch - processPackages [youqu]: executing diffoscope
+[2024-05-10 08:59:46] INFO root fetch - processPackages [youqu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu-2.5.4.tar.gz tmp/youqu-2.5.5.tar.gz --markdown 20240510/y/youqu/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-05-10 08:59:46] INFO root fetch - processPackages [genio-bootrom]: executing diffoscope
+[2024-05-10 08:59:46] INFO root fetch - processPackages [genio-bootrom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genio_bootrom-1.1.9.dev1-py3-none-any.whl.zip tmp/genio_bootrom-1.1.9a1-py3-none-any.whl.zip --markdown 20240510/g/genio-bootrom/1.1.9.dev1-1.1.9a1/README.md --exclude *.pyd
+[2024-05-10 08:59:46] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 08:59:46] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 08:59:46] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 08:59:46] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.8.tar.gz]
+[2024-05-10 08:59:46] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.9.tar.gz]
+[2024-05-10 08:59:46] INFO root fetch - main [MainThread]: End processing [contact-notes-local]: success
+[2024-05-10 08:59:46] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 08:59:46] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:59:46] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 08:59:46] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:59:47] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.5.4.tar.gz]
+[2024-05-10 08:59:47] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.5.5.tar.gz]
+[2024-05-10 08:59:47] INFO root fetch - main [MainThread]: End processing [youqu]: success
+[2024-05-10 08:59:47] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 08:59:47] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 08:59:47] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 08:59:47] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 08:59:47] INFO root fetch - processPackages [genio-bootrom]: Remove: archive file [/home/abi/fetcher/tmp/genio_bootrom-1.1.9.dev1-py3-none-any.whl.zip]
+[2024-05-10 08:59:47] INFO root fetch - processPackages [genio-bootrom]: Remove: archive file [/home/abi/fetcher/tmp/genio_bootrom-1.1.9a1-py3-none-any.whl.zip]
+[2024-05-10 08:59:47] INFO root fetch - main [MainThread]: End processing [genio-bootrom]: success
+[2024-05-10 08:59:47] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-10 08:59:47] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-10 08:59:47] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-10 08:59:47] INFO root fetch - main [MainThread]: Store serial: [23142505]
