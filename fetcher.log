@@ -3185,3 +3185,39 @@
 [2024-05-10 03:12:21] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-10 03:12:21] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-10 03:12:21] INFO root fetch - main [MainThread]: Store serial: [23139761]
+[2024-05-10 03:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139761]
+[2024-05-10 03:14:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-edge-model-explorer
+[2024-05-10 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qbraid-qir
+[2024-05-10 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaac
+[2024-05-10 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansar-connect
+[2024-05-10 03:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waywortz
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.239] Old Version: [0.1.238]
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ai-edge-model-explorer]: New version: [0.dev202405060029] Old Version: [0.0.93]
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/bd/98/3b6e2c1409bfc66729092437d8bfd4eb84e0c30a7e4b0aaf17f0454a6eb8/ansar_connect-0.1.238.tar.gz
+[2024-05-10 03:14:30] WARNING root fetch - processPackages [waywortz]: Skipping, unable to determine old version
+[2024-05-10 03:14:30] INFO root fetch - main [MainThread]: End processing [waywortz] error
+[2024-05-10 03:14:30] INFO root fetch - processPackages [qbraid-qir]: New version: [0.2.0.dev20240426162625] Old Version: [0.2.0.dev20240419221437]
+[2024-05-10 03:14:30] WARNING root fetch - processPackages [jaac]: Skipping, unable to determine old version
+[2024-05-10 03:14:30] INFO root fetch - main [MainThread]: End processing [jaac] error
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/bf/d5/fbc2efb1778208cef17a1446482bff4829238efd6f8fa1a629dbe9b8442d/ai_edge_model_explorer-0.0.93.tar.gz
+[2024-05-10 03:14:30] INFO root fetch - processPackages [qbraid-qir]: Downloading https://files.pythonhosted.org/packages/ec/da/f7dd9c6aa618d968f7f13371c0596abaaa13e920d00b48b5a8004d4482de/qbraid_qir-0.2.0.dev20240419221437.tar.gz
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/91/63/ee3eaf50f0d592dbc75198451503831c5c42003117419dff9126e481759d/ansar_connect-0.1.239.tar.gz
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.238.tar.gz tmp/ansar_connect-0.1.239.tar.gz --markdown 20240510/a/ansar-connect/0.1.238-0.1.239/README.md --exclude *.pyd
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/48/77/6d6cffc04ea18750fc81b4affe078ef994f60eb0577d37b85cc841cba348/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl
+[2024-05-10 03:14:30] INFO root fetch - processPackages [qbraid-qir]: Downloading https://files.pythonhosted.org/packages/4a/cb/8b8f665a6f45953cca40e1fdf1f0862e6ca3c820224931183ef872d01eb0/qbraid_qir-0.2.0.dev20240426162625.tar.gz
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ai-edge-model-explorer]: executing diffoscope
+[2024-05-10 03:14:30] INFO root fetch - processPackages [ai-edge-model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_model_explorer-0.0.93.tar.gz tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip --markdown 20240510/a/ai-edge-model-explorer/0.0.93-0.dev202405060029/README.md --exclude *.pyd
+[2024-05-10 03:14:30] INFO root fetch - processPackages [qbraid-qir]: executing diffoscope
+[2024-05-10 03:14:30] INFO root fetch - processPackages [qbraid-qir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid_qir-0.2.0.dev20240419221437.tar.gz tmp/qbraid_qir-0.2.0.dev20240426162625.tar.gz --markdown 20240510/q/qbraid-qir/0.2.0.dev20240419221437-0.2.0.dev20240426162625/README.md --exclude *.pyd
+[2024-05-10 03:14:31] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.238.tar.gz]
+[2024-05-10 03:14:31] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.239.tar.gz]
+[2024-05-10 03:14:31] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-10 03:14:31] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.0.93.tar.gz]
+[2024-05-10 03:14:31] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip]
+[2024-05-10 03:14:31] INFO root fetch - main [MainThread]: End processing [ai-edge-model-explorer]: success
+[2024-05-10 03:14:31] INFO root fetch - processPackages [qbraid-qir]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_qir-0.2.0.dev20240419221437.tar.gz]
+[2024-05-10 03:14:31] INFO root fetch - processPackages [qbraid-qir]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_qir-0.2.0.dev20240426162625.tar.gz]
+[2024-05-10 03:14:31] INFO root fetch - main [MainThread]: End processing [qbraid-qir]: success
+[2024-05-10 03:14:31] INFO root fetch - main [MainThread]: Store serial: [23139779]
