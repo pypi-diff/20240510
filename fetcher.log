@@ -8059,3 +8059,33 @@
 [2024-05-10 08:05:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240507.tar.gz]
 [2024-05-10 08:05:15] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
 [2024-05-10 08:05:15] INFO root fetch - main [MainThread]: Store serial: [23142010]
+[2024-05-10 08:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142010]
+[2024-05-10 08:07:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlman
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh-cli
+[2024-05-10 08:07:25] INFO root fetch - processPackages [sqlman]: New version: [0.2] Old Version: [0.1]
+[2024-05-10 08:07:25] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 08:07:25] INFO root fetch - processPackages [sqlman]: Downloading https://files.pythonhosted.org/packages/d3/97/749cca164bc4deb6ec33e00c579b8e7f884732b39a912463ab4381f0f906/sqlman-0.1.tar.gz
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-10 08:07:25] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/c3/ea/50efd0b9c89f5cff565dd956a7f62411b65716fd0ba3e0d3653f718ffa86/docmesh_cli-0.0.1.tar.gz
+[2024-05-10 08:07:25] INFO root fetch - processPackages [sqlman]: Downloading https://files.pythonhosted.org/packages/4c/d1/7323aa1e315f840c93a35b72e9e0215ed6061ae6e22444fd2003f268f385/sqlman-0.2.tar.gz
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-10 08:07:25] INFO root fetch - processPackages [sqlman]: executing diffoscope
+[2024-05-10 08:07:25] INFO root fetch - processPackages [sqlman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlman-0.1.tar.gz tmp/sqlman-0.2.tar.gz --markdown 20240510/s/sqlman/0.1-0.2/README.md --exclude *.pyd
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-10 08:07:25] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240510/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 08:07:25] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/ba/b1/124ccf99ff6b244af6521dd949103d9c28f616ce4a41e481d5b41387cfe0/docmesh_cli-0.0.2.tar.gz
+[2024-05-10 08:07:26] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-10 08:07:26] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.1.tar.gz tmp/docmesh_cli-0.0.2.tar.gz --markdown 20240510/d/docmesh-cli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 08:07:26] INFO root fetch - processPackages [sqlman]: Remove: archive file [/home/abi/fetcher/tmp/sqlman-0.1.tar.gz]
+[2024-05-10 08:07:26] INFO root fetch - processPackages [sqlman]: Remove: archive file [/home/abi/fetcher/tmp/sqlman-0.2.tar.gz]
+[2024-05-10 08:07:26] INFO root fetch - main [MainThread]: End processing [sqlman]: success
+[2024-05-10 08:07:26] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.1.tar.gz]
+[2024-05-10 08:07:26] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.2.tar.gz]
+[2024-05-10 08:07:26] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-10 08:07:27] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-10 08:07:27] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-10 08:07:27] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-10 08:07:27] INFO root fetch - main [MainThread]: Store serial: [23142021]
