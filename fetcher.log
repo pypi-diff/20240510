@@ -2219,3 +2219,27 @@
 [2024-05-10 02:05:22] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240509.406.tar.gz]
 [2024-05-10 02:05:22] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-10 02:05:22] INFO root fetch - main [MainThread]: Store serial: [23139243]
+[2024-05-10 02:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139243]
+[2024-05-10 02:07:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: likelihood
+[2024-05-10 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-05-10 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demurerz
+[2024-05-10 02:07:30] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240509] Old Version: [0.0.8.dev20240508]
+[2024-05-10 02:07:30] WARNING root fetch - processPackages [demurerz]: Skipping, unable to determine old version
+[2024-05-10 02:07:30] INFO root fetch - main [MainThread]: End processing [demurerz] error
+[2024-05-10 02:07:30] INFO root fetch - processPackages [likelihood]: New version: [1.2.9] Old Version: [1.2.12]
+[2024-05-10 02:07:30] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/19/7e/f38457ecc662ac2dd7992bad9dd2f1a2953e8f1874377e9c0a025f3d9207/jaxutils-nightly-0.0.8.dev20240508.tar.gz
+[2024-05-10 02:07:30] INFO root fetch - processPackages [likelihood]: Downloading https://files.pythonhosted.org/packages/08/78/b443f2626b989626923f0167fb35c921f1a544177c28cbc43c067724f488/likelihood-1.2.12.tar.gz
+[2024-05-10 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/67/09/5ddf3ef154b935102c14d16852e825be5edbe4ffc69ab877777d36ecb3d4/jaxutils-nightly-0.0.8.dev20240509.tar.gz
+[2024-05-10 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-10 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240508.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240509.tar.gz --markdown 20240510/j/jaxutils-nightly/0.0.8.dev20240508-0.0.8.dev20240509/README.md --exclude *.pyd
+[2024-05-10 02:07:31] INFO root fetch - processPackages [likelihood]: Downloading https://files.pythonhosted.org/packages/a9/ff/5a5be1e149ad1d3ed4fe492e1449c4426bca3ebb97411341b0da259fb8a9/likelihood-1.2.9.tar.gz
+[2024-05-10 02:07:31] INFO root fetch - processPackages [likelihood]: executing diffoscope
+[2024-05-10 02:07:31] INFO root fetch - processPackages [likelihood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likelihood-1.2.12.tar.gz tmp/likelihood-1.2.9.tar.gz --markdown 20240510/l/likelihood/1.2.12-1.2.9/README.md --exclude *.pyd
+[2024-05-10 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240508.tar.gz]
+[2024-05-10 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240509.tar.gz]
+[2024-05-10 02:07:31] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-10 02:07:32] INFO root fetch - processPackages [likelihood]: Remove: archive file [/home/abi/fetcher/tmp/likelihood-1.2.12.tar.gz]
+[2024-05-10 02:07:32] INFO root fetch - processPackages [likelihood]: Remove: archive file [/home/abi/fetcher/tmp/likelihood-1.2.9.tar.gz]
+[2024-05-10 02:07:32] INFO root fetch - main [MainThread]: End processing [likelihood]: success
+[2024-05-10 02:07:32] INFO root fetch - main [MainThread]: Store serial: [23139253]
