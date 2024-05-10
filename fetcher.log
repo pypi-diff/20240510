@@ -6932,3 +6932,24 @@
 [2024-05-10 06:59:03] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.2.0.dev1-py3-none-any.whl.zip]
 [2024-05-10 06:59:03] INFO root fetch - main [MainThread]: End processing [infinity-sdk]: success
 [2024-05-10 06:59:03] INFO root fetch - main [MainThread]: Store serial: [23141417]
+[2024-05-10 07:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141417]
+[2024-05-10 07:01:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 07:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-python
+[2024-05-10 07:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-duckdb
+[2024-05-10 07:01:11] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 07:01:11] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-05-10 07:01:11] INFO root fetch - processPackages [dbt-duckdb]: New version: [1.8.0] Old Version: [1.7.5]
+[2024-05-10 07:01:12] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/fa/b3/0d37f2a4772a67f553f9da9277093414e332f3cd63aaeec60d2876d9cdeb/dbt_duckdb-1.7.5.tar.gz
+[2024-05-10 07:01:12] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-05-10 07:01:12] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/36/46/7d5dc7efaf6dc47d552590a2e1558dfb3b0a7ec27e3453d075632fd6b693/dbt_duckdb-1.8.0.tar.gz
+[2024-05-10 07:01:12] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-05-10 07:01:12] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240510/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 07:01:12] INFO root fetch - processPackages [dbt-duckdb]: executing diffoscope
+[2024-05-10 07:01:12] INFO root fetch - processPackages [dbt-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_duckdb-1.7.5.tar.gz tmp/dbt_duckdb-1.8.0.tar.gz --markdown 20240510/d/dbt-duckdb/1.7.5-1.8.0/README.md --exclude *.pyd
+[2024-05-10 07:01:13] INFO root fetch - processPackages [dbt-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_duckdb-1.7.5.tar.gz]
+[2024-05-10 07:01:13] INFO root fetch - processPackages [dbt-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_duckdb-1.8.0.tar.gz]
+[2024-05-10 07:01:13] INFO root fetch - main [MainThread]: End processing [dbt-duckdb]: success
+[2024-05-10 07:01:14] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-05-10 07:01:14] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-05-10 07:01:14] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-05-10 07:01:14] INFO root fetch - main [MainThread]: Store serial: [23141422]
