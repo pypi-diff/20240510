@@ -17697,3 +17697,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:26:38] INFO root fetch - processPackages [psycopg-binary]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-10 14:26:38] INFO root fetch - main [MainThread]: End processing [psycopg-binary]: success
 [2024-05-10 14:26:38] INFO root fetch - main [MainThread]: Store serial: [23146128]
+[2024-05-10 14:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146128]
+[2024-05-10 14:29:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkosui
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-cqsat
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AniMAIRE
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hltv-async-api
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: justatestwithcpp
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: projen
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bin2dec
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlexecx
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psycopg-pool
+[2024-05-10 14:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: psycopg-c
+[2024-05-10 14:29:08] INFO root fetch - processPackages [justatestwithcpp]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-pool]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-05-10 14:29:08] WARNING root fetch - processPackages [bin2dec]: Skipping, unable to determine old version
+[2024-05-10 14:29:08] INFO root fetch - processPackages [bin2dec]: Start processing: upsonic
+[2024-05-10 14:29:08] INFO root fetch - main [MainThread]: End processing [bin2dec] error
+[2024-05-10 14:29:08] INFO root fetch - processPackages [tkosui]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [projen]: New version: [0.81.9] Old Version: [0.81.8]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [nonebot-plugin-cqsat]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [AniMAIRE]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-c]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [sqlexecx]: New version: [0.3.0] Old Version: [0.1.0]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [hltv-async-api]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/01/df/f4fd76172ee4cefe0e90320539da938d8061e6ab1851142e0561e2207c28/justatestwithcpp-0.1.1.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [upsonic]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-10 14:29:08] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/1e/71c5fe5e0fe91b950d1c1b54ec57fee6ad64f50810fed74f469dfdd21a79/projen-0.81.8.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-pool]: Downloading https://files.pythonhosted.org/packages/70/b3/7143ee36ebe700bc70940c61c799502f40f876d0bb4d9cc7b2963767558f/psycopg-pool-3.2.0.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [tkosui]: Downloading https://files.pythonhosted.org/packages/4c/39/e1a4d09cf7213100a0cf33569a6324e24d4ebe40412495ec6d8c7babea20/tkosui-1.0.8.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [nonebot-plugin-cqsat]: Downloading https://files.pythonhosted.org/packages/cb/78/09396525759b0793eade3eaa66d3c2aeae08d4adedb6160e4b94455384c2/nonebot-plugin-cqsat-0.1.8.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [AniMAIRE]: Downloading https://files.pythonhosted.org/packages/b2/38/c237922ccee0f5a7a9261be185857eb0627a04c1f8c103b566078c7aaa25/animaire-1.1.7.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [sqlexecx]: Downloading https://files.pythonhosted.org/packages/42/5f/28de7c677d8eed923e4aee4cef807a2f3edda751de0818314d2876f81d5e/sqlexecx-0.1.0.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/6e/a9/4bbce281d0a3c76cb9a2dc50130c198091cff3d198f9859c4f44c0bc2f0e/hltv_async_api-0.8.1.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-c]: Downloading https://files.pythonhosted.org/packages/e8/78/fecd6cb6ea54de499bf40f766c060112eff47c975a9caaf2a389cfb122fd/psycopg-c-3.1.8.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/28/4f/e4de97c3853a38f0003dd35e31de9d8003b16d10fd76b190f4778626ce27/upsonic-0.8.4.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/bd/c1/57c54c3df4fe47d23ee270e853dfeaa074908634f442631e797a7efef912/justatestwithcpp-0.1.2.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-pool]: Downloading https://files.pythonhosted.org/packages/56/06/9a2c9fee1c761c5674adcd0739948e649a6ae4c3a47b2f1ce76e25d40447/psycopg-pool-3.2.1.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/bd/42ccbdcec141a68fd1ef11c16c2ec702d07f65b9a004736eba33473e8cdd/projen-0.81.9.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [sqlexecx]: Downloading https://files.pythonhosted.org/packages/42/d0/ffcd4a64e9dccc5dc5b607a9985320945567590734754723dc7197474bb2/sqlexecx-0.3.0.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [AniMAIRE]: Downloading https://files.pythonhosted.org/packages/e5/cb/41520a536c0fa4bfde26725b5b48394163b8a111244cc94713d2312be790/animaire-1.1.8.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/bf/6b/4233cfacd5c1018bc765701d048c493432b6fb868f673a3b0949781ecdc4/hltv_async_api-0.8.2.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [tkosui]: Downloading https://files.pythonhosted.org/packages/7e/1c/3c8e2817d63b78867ddcc963e4825c62717b5b2d328188d0ed543736e3c8/tkosui-1.0.9-py3-none-any.whl
+[2024-05-10 14:29:08] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/e2/c6/1f2c73c8b576a9a13477f4177f58dce58e65a860c35204e42f53a5db8144/upsonic-0.9.0.tar.gz
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-pool]: executing diffoscope
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg-pool-3.2.0.tar.gz tmp/psycopg-pool-3.2.1.tar.gz --markdown 20240510/p/psycopg-pool/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-05-10 14:29:08] INFO root fetch - processPackages [psycopg-c]: Downloading https://files.pythonhosted.org/packages/a1/6e/33c466ef37936fbc1a45e849b0e5a6e280624ce022e70ecaf438dc1c5e48/psycopg-c-3.1.9.tar.gz
+[2024-05-10 14:29:09] INFO root fetch - processPackages [sqlexecx]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [sqlexecx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlexecx-0.1.0.tar.gz tmp/sqlexecx-0.3.0.tar.gz --markdown 20240510/s/sqlexecx/0.1.0-0.3.0/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [justatestwithcpp]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [justatestwithcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justatestwithcpp-0.1.1.tar.gz tmp/justatestwithcpp-0.1.2.tar.gz --markdown 20240510/j/justatestwithcpp/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [AniMAIRE]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [AniMAIRE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animaire-1.1.7.tar.gz tmp/animaire-1.1.8.tar.gz --markdown 20240510/A/AniMAIRE/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.8.1.tar.gz tmp/hltv_async_api-0.8.2.tar.gz --markdown 20240510/h/hltv-async-api/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [tkosui]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [tkosui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkosui-1.0.8.tar.gz tmp/tkosui-1.0.9-py3-none-any.whl.zip --markdown 20240510/t/tkosui/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [upsonic]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [upsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic-0.8.4.tar.gz tmp/upsonic-0.9.0.tar.gz --markdown 20240510/u/upsonic/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [psycopg-c]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [psycopg-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg-c-3.1.8.tar.gz tmp/psycopg-c-3.1.9.tar.gz --markdown 20240510/p/psycopg-c/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-10 14:29:09] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.8.tar.gz tmp/projen-0.81.9.tar.gz --markdown 20240510/p/projen/0.81.8-0.81.9/README.md --exclude *.pyd
+[2024-05-10 14:29:09] INFO root fetch - processPackages [nonebot-plugin-cqsat]: Downloading https://files.pythonhosted.org/packages/fd/da/50d8216ddbe6d4ef6a595b36ea98ac8a8d173c5b6d5b0fab7a7be6cae05c/nonebot-plugin-cqsat-0.1.9.tar.gz
+[2024-05-10 14:29:09] INFO root fetch - processPackages [sqlexecx]: Remove: archive file [/home/abi/fetcher/tmp/sqlexecx-0.1.0.tar.gz]
+[2024-05-10 14:29:09] INFO root fetch - processPackages [sqlexecx]: Remove: archive file [/home/abi/fetcher/tmp/sqlexecx-0.3.0.tar.gz]
+[2024-05-10 14:29:09] INFO root fetch - processPackages [sqlexecx]: Start processing: oarepo-global-search
+[2024-05-10 14:29:09] INFO root fetch - main [MainThread]: End processing [sqlexecx]: success
+[2024-05-10 14:29:10] INFO root fetch - processPackages [AniMAIRE]: Remove: archive file [/home/abi/fetcher/tmp/animaire-1.1.7.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - processPackages [AniMAIRE]: Remove: archive file [/home/abi/fetcher/tmp/animaire-1.1.8.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - main [MainThread]: End processing [AniMAIRE]: success
+[2024-05-10 14:29:10] INFO root fetch - processPackages [tkosui]: Remove: archive file [/home/abi/fetcher/tmp/tkosui-1.0.8.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - processPackages [tkosui]: Remove: archive file [/home/abi/fetcher/tmp/tkosui-1.0.9-py3-none-any.whl.zip]
+[2024-05-10 14:29:10] INFO root fetch - main [MainThread]: End processing [tkosui]: success
+[2024-05-10 14:29:10] INFO root fetch - processPackages [oarepo-global-search]: New version: [1.0.7] Old Version: [1.0.5]
+[2024-05-10 14:29:10] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.8.1.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.8.2.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-05-10 14:29:10] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.8.4.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.9.0.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - main [MainThread]: End processing [upsonic]: success
+[2024-05-10 14:29:10] INFO root fetch - processPackages [psycopg-pool]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-pool-3.2.0.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - processPackages [psycopg-pool]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-pool-3.2.1.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - main [MainThread]: End processing [psycopg-pool]: success
+[2024-05-10 14:29:10] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/a2/30/049650f4443b7020bb6f81c5163d9d676b3ca97628266421e512bf5a7141/oarepo_global_search-1.0.5.tar.gz
+[2024-05-10 14:29:10] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/27/f6/53fc8f5149906afedb886ed9e59031bc5b1905029272ee05ae37ec248985/oarepo_global_search-1.0.7.tar.gz
+[2024-05-10 14:29:10] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.8.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.9.tar.gz]
+[2024-05-10 14:29:10] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-10 14:29:10] INFO root fetch - processPackages [oarepo-global-search]: executing diffoscope
+[2024-05-10 14:29:10] INFO root fetch - processPackages [oarepo-global-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo_global_search-1.0.5.tar.gz tmp/oarepo_global_search-1.0.7.tar.gz --markdown 20240510/o/oarepo-global-search/1.0.5-1.0.7/README.md --exclude *.pyd
+[2024-05-10 14:29:10] INFO root fetch - processPackages [nonebot-plugin-cqsat]: executing diffoscope
+[2024-05-10 14:29:10] INFO root fetch - processPackages [nonebot-plugin-cqsat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-cqsat-0.1.8.tar.gz tmp/nonebot-plugin-cqsat-0.1.9.tar.gz --markdown 20240510/n/nonebot-plugin-cqsat/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 14:29:11] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.5.tar.gz]
+[2024-05-10 14:29:11] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.7.tar.gz]
+[2024-05-10 14:29:11] INFO root fetch - main [MainThread]: End processing [oarepo-global-search]: success
+[2024-05-10 14:29:11] INFO root fetch - processPackages [nonebot-plugin-cqsat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cqsat-0.1.8.tar.gz]
+[2024-05-10 14:29:11] INFO root fetch - processPackages [nonebot-plugin-cqsat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cqsat-0.1.9.tar.gz]
+[2024-05-10 14:29:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cqsat]: success
+[2024-05-10 14:29:12] INFO root fetch - processPackages [psycopg-c]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-c-3.1.8.tar.gz]
+[2024-05-10 14:29:12] INFO root fetch - processPackages [psycopg-c]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-c-3.1.9.tar.gz]
+[2024-05-10 14:29:12] INFO root fetch - main [MainThread]: End processing [psycopg-c]: success
+[2024-05-10 14:29:16] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.1.tar.gz]
+[2024-05-10 14:29:16] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.2.tar.gz]
+[2024-05-10 14:29:16] INFO root fetch - main [MainThread]: End processing [justatestwithcpp]: success
+[2024-05-10 14:29:16] INFO root fetch - main [MainThread]: Store serial: [23146187]
