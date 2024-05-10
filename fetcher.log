@@ -12663,3 +12663,48 @@
 [2024-05-10 11:26:45] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.5.tar.gz]
 [2024-05-10 11:26:45] INFO root fetch - main [MainThread]: End processing [monviso]: success
 [2024-05-10 11:26:45] INFO root fetch - main [MainThread]: Store serial: [23144025]
+[2024-05-10 11:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144025]
+[2024-05-10 11:28:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 11:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuksa-client
+[2024-05-10 11:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anacleticumz
+[2024-05-10 11:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlc-run
+[2024-05-10 11:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AI-classifier
+[2024-05-10 11:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-cache-pydantic
+[2024-05-10 11:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spsam
+[2024-05-10 11:28:57] WARNING root fetch - processPackages [anacleticumz]: Skipping, unable to determine old version
+[2024-05-10 11:28:57] INFO root fetch - main [MainThread]: End processing [anacleticumz] error
+[2024-05-10 11:28:57] INFO root fetch - processPackages [kuksa-client]: New version: [0.4.3a1] Old Version: [0.4.2a1]
+[2024-05-10 11:28:57] WARNING root fetch - processPackages [AI-classifier]: Skipping, unable to determine old version
+[2024-05-10 11:28:57] INFO root fetch - main [MainThread]: End processing [AI-classifier] error
+[2024-05-10 11:28:57] INFO root fetch - processPackages [dlc-run]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 11:28:57] INFO root fetch - processPackages [spsam]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 11:28:57] INFO root fetch - processPackages [django-cache-pydantic]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-05-10 11:28:57] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/0a/4d/503b40966542ea84bfe6651d3a523d8fd43e7e95a425182ed165c156581f/kuksa_client-0.4.2a1.tar.gz
+[2024-05-10 11:28:57] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/e4/31/ead90902227ff6116c56c97b50505f7c7fa1176a7eff66d2478b29959d78/dlc_run-0.0.2.tar.gz
+[2024-05-10 11:28:57] INFO root fetch - processPackages [django-cache-pydantic]: Downloading https://files.pythonhosted.org/packages/6f/55/87dc6f96e00ab3dfe4f8954565bad0bb7f3bee9afefc70fca061088049a7/django-cache-pydantic-0.0.4.tar.gz
+[2024-05-10 11:28:57] INFO root fetch - processPackages [spsam]: Downloading https://files.pythonhosted.org/packages/ec/62/da2378d3c3b68d0003a7186946a008e2e463c04e4ad704c2eb57835ff96d/spsam-0.0.7.tar.gz
+[2024-05-10 11:28:58] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/b2/ef/486c867a809a44b5e29834f64612823dace99ef33f262928c9e5eead3eab/dlc_run-0.0.3.tar.gz
+[2024-05-10 11:28:58] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/70/6a/df0af7567ec5ec9cebe02a48de594645ed19bcfe9388106df69ba89cba5d/kuksa_client-0.4.3a1.tar.gz
+[2024-05-10 11:28:58] INFO root fetch - processPackages [django-cache-pydantic]: Downloading https://files.pythonhosted.org/packages/2f/d4/78af914b88a21d2ab4fbc1bb4eb3673e571101bc410c8155b661291962d1/django_cache_pydantic-0.1.0.tar.gz
+[2024-05-10 11:28:58] INFO root fetch - processPackages [spsam]: Downloading https://files.pythonhosted.org/packages/9d/54/369377ddbd9d7e1b83fb487adfafb4a93e12b362fa36157914eeb819c958/spsam-0.0.8.tar.gz
+[2024-05-10 11:28:58] INFO root fetch - processPackages [dlc-run]: executing diffoscope
+[2024-05-10 11:28:58] INFO root fetch - processPackages [dlc-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlc_run-0.0.2.tar.gz tmp/dlc_run-0.0.3.tar.gz --markdown 20240510/d/dlc-run/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 11:28:58] INFO root fetch - processPackages [django-cache-pydantic]: executing diffoscope
+[2024-05-10 11:28:58] INFO root fetch - processPackages [django-cache-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cache-pydantic-0.0.4.tar.gz tmp/django_cache_pydantic-0.1.0.tar.gz --markdown 20240510/d/django-cache-pydantic/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-05-10 11:28:58] INFO root fetch - processPackages [kuksa-client]: executing diffoscope
+[2024-05-10 11:28:58] INFO root fetch - processPackages [kuksa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuksa_client-0.4.2a1.tar.gz tmp/kuksa_client-0.4.3a1.tar.gz --markdown 20240510/k/kuksa-client/0.4.2a1-0.4.3a1/README.md --exclude *.pyd
+[2024-05-10 11:28:58] INFO root fetch - processPackages [spsam]: executing diffoscope
+[2024-05-10 11:28:58] INFO root fetch - processPackages [spsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spsam-0.0.7.tar.gz tmp/spsam-0.0.8.tar.gz --markdown 20240510/s/spsam/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 11:28:58] INFO root fetch - processPackages [spsam]: Remove: archive file [/home/abi/fetcher/tmp/spsam-0.0.7.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - processPackages [spsam]: Remove: archive file [/home/abi/fetcher/tmp/spsam-0.0.8.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - main [MainThread]: End processing [spsam]: success
+[2024-05-10 11:28:58] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.2.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.3.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - main [MainThread]: End processing [dlc-run]: success
+[2024-05-10 11:28:58] INFO root fetch - processPackages [django-cache-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/django-cache-pydantic-0.0.4.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - processPackages [django-cache-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/django_cache_pydantic-0.1.0.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - main [MainThread]: End processing [django-cache-pydantic]: success
+[2024-05-10 11:28:58] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.2a1.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.3a1.tar.gz]
+[2024-05-10 11:28:58] INFO root fetch - main [MainThread]: End processing [kuksa-client]: success
+[2024-05-10 11:28:58] INFO root fetch - main [MainThread]: Store serial: [23144044]
