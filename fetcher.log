@@ -6494,3 +6494,15 @@
 [2024-05-10 06:22:04] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-10 06:22:04] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-10 06:22:04] INFO root fetch - main [MainThread]: Store serial: [23141223]
+[2024-05-10 06:24:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141223]
+[2024-05-10 06:24:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmancer
+[2024-05-10 06:24:13] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-10 06:24:13] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-05-10 06:24:14] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-05-10 06:24:14] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-05-10 06:24:14] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240510/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-10 06:24:14] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-05-10 06:24:14] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-05-10 06:24:14] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-05-10 06:24:14] INFO root fetch - main [MainThread]: Store serial: [23141226]
