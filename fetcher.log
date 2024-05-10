@@ -4159,3 +4159,39 @@
 [2024-05-10 04:05:25] INFO root fetch - processPackages [imp-vol]: Remove: archive file [/home/abi/fetcher/tmp/imp_vol-0.1.1.tar.gz]
 [2024-05-10 04:05:25] INFO root fetch - main [MainThread]: End processing [imp-vol]: success
 [2024-05-10 04:05:25] INFO root fetch - main [MainThread]: Store serial: [23140262]
+[2024-05-10 04:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140262]
+[2024-05-10 04:07:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 04:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2024-05-10 04:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PubChem-Prospector
+[2024-05-10 04:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudflare
+[2024-05-10 04:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydboat
+[2024-05-10 04:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testsolar-pytestx
+[2024-05-10 04:07:33] WARNING root fetch - processPackages [pydboat]: Skipping, unable to determine old version
+[2024-05-10 04:07:33] INFO root fetch - main [MainThread]: End processing [pydboat] error
+[2024-05-10 04:07:33] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-10 04:07:33] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-10 04:07:34] WARNING root fetch - processPackages [PubChem-Prospector]: Skipping, unable to determine old version
+[2024-05-10 04:07:34] INFO root fetch - main [MainThread]: End processing [PubChem-Prospector] error
+[2024-05-10 04:07:34] INFO root fetch - processPackages [testsolar-pytestx]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-10 04:07:34] INFO root fetch - processPackages [testsolar-pytestx]: Downloading https://files.pythonhosted.org/packages/18/55/9fca77d1aadc11c33c9993b81dd5477682fc9069d75bdcc738fe61486af9/testsolar-pytestx-0.1.3.tar.gz
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-10 04:07:34] INFO root fetch - processPackages [testsolar-pytestx]: Downloading https://files.pythonhosted.org/packages/a7/9d/1877cda29631c9cc679242b8b42925f835e2f3e49f627fc7208a4c664bca/testsolar-pytestx-0.1.4.tar.gz
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240510/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-10 04:07:34] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240510/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-10 04:07:34] INFO root fetch - processPackages [testsolar-pytestx]: executing diffoscope
+[2024-05-10 04:07:34] INFO root fetch - processPackages [testsolar-pytestx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-pytestx-0.1.3.tar.gz tmp/testsolar-pytestx-0.1.4.tar.gz --markdown 20240510/t/testsolar-pytestx/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 04:07:35] INFO root fetch - processPackages [testsolar-pytestx]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-pytestx-0.1.3.tar.gz]
+[2024-05-10 04:07:35] INFO root fetch - processPackages [testsolar-pytestx]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-pytestx-0.1.4.tar.gz]
+[2024-05-10 04:07:35] INFO root fetch - main [MainThread]: End processing [testsolar-pytestx]: success
+[2024-05-10 04:07:35] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-10 04:07:35] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-10 04:07:35] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-10 04:07:35] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-10 04:07:35] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-10 04:07:35] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-10 04:07:35] INFO root fetch - main [MainThread]: Store serial: [23140279]
