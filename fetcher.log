@@ -3301,3 +3301,51 @@
 [2024-05-10 03:21:14] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.7.tar.gz]
 [2024-05-10 03:21:14] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger]: success
 [2024-05-10 03:21:14] INFO root fetch - main [MainThread]: Store serial: [23139878]
+[2024-05-10 03:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139878]
+[2024-05-10 03:23:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 03:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2024-05-10 03:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pms-model-manager
+[2024-05-10 03:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dycw-utilities
+[2024-05-10 03:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsplus
+[2024-05-10 03:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reasoner-validator
+[2024-05-10 03:23:23] INFO root fetch - processPackages [pms-model-manager]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-10 03:23:23] INFO root fetch - processPackages [dsplus]: New version: [0.5.1] Old Version: [0.4.9]
+[2024-05-10 03:23:23] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 03:23:23] INFO root fetch - processPackages [pms-model-manager]: Downloading https://files.pythonhosted.org/packages/f0/e2/80d258368a6db03a6d5b73ee98a149363de1d9855aa419ad5ea563b30e1f/pms_model_manager-1.1.0.tar.gz
+[2024-05-10 03:23:23] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/e4/a5/661020623f0f7b7be65acb24c36fcde092307b65eec1d5bbae82ccc203ff/dsplus-0.4.9.tar.gz
+[2024-05-10 03:23:23] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-10 03:23:23] INFO root fetch - processPackages [reasoner-validator]: New version: [4.1.4] Old Version: [4.1.3]
+[2024-05-10 03:23:23] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-05-10 03:23:23] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-10 03:23:23] INFO root fetch - processPackages [pms-model-manager]: Downloading https://files.pythonhosted.org/packages/d0/25/cd15fc6639697758ecbb86de6a2ad141a7ca72ea11f2598a670978186a2d/pms_model_manager-1.2.0.tar.gz
+[2024-05-10 03:23:23] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/1d/ec/30003c80f9e5aae7b691f26f9665c626ba29a6a42fce1a87c3c90c08cdff/dsplus-0.5.1.tar.gz
+[2024-05-10 03:23:23] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-05-10 03:23:23] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/64/ea/b09b44fa207de535b5037956e11b725253a13bdcf553851f37d4fcba4b38/reasoner_validator-4.1.3.tar.gz
+[2024-05-10 03:23:24] INFO root fetch - processPackages [pms-model-manager]: executing diffoscope
+[2024-05-10 03:23:24] INFO root fetch - processPackages [pms-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_model_manager-1.1.0.tar.gz tmp/pms_model_manager-1.2.0.tar.gz --markdown 20240510/p/pms-model-manager/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-10 03:23:24] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-05-10 03:23:24] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.4.9.tar.gz tmp/dsplus-0.5.1.tar.gz --markdown 20240510/d/dsplus/0.4.9-0.5.1/README.md --exclude *.pyd
+[2024-05-10 03:23:24] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-05-10 03:23:24] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240510/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 03:23:24] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-10 03:23:24] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/bc/19/8c957a05437c9c98a20ccc3746cc4be7da8c5fd7b1e96b6cb91d0fbfc35f/reasoner_validator-4.1.4.tar.gz
+[2024-05-10 03:23:24] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-10 03:23:24] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240510/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-10 03:23:24] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2024-05-10 03:23:24] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-4.1.3.tar.gz tmp/reasoner_validator-4.1.4.tar.gz --markdown 20240510/r/reasoner-validator/4.1.3-4.1.4/README.md --exclude *.pyd
+[2024-05-10 03:23:24] INFO root fetch - processPackages [pms-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/pms_model_manager-1.1.0.tar.gz]
+[2024-05-10 03:23:24] INFO root fetch - processPackages [pms-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/pms_model_manager-1.2.0.tar.gz]
+[2024-05-10 03:23:24] INFO root fetch - main [MainThread]: End processing [pms-model-manager]: success
+[2024-05-10 03:23:24] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-05-10 03:23:24] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-05-10 03:23:24] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-05-10 03:23:24] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.9.tar.gz]
+[2024-05-10 03:23:24] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.5.1.tar.gz]
+[2024-05-10 03:23:24] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-05-10 03:23:25] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.3.tar.gz]
+[2024-05-10 03:23:25] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.4.tar.gz]
+[2024-05-10 03:23:25] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2024-05-10 03:23:25] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-10 03:23:25] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-10 03:23:25] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-10 03:23:25] INFO root fetch - main [MainThread]: Store serial: [23139906]
