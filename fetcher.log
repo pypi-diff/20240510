@@ -13840,3 +13840,48 @@
 [2024-05-10 12:10:00] INFO root fetch - processPackages [rotop]: Remove: archive file [/home/abi/fetcher/tmp/rotop-1.0.5.tar.gz]
 [2024-05-10 12:10:00] INFO root fetch - main [MainThread]: End processing [rotop]: success
 [2024-05-10 12:10:00] INFO root fetch - main [MainThread]: Store serial: [23144482]
+[2024-05-10 12:12:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144482]
+[2024-05-10 12:12:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 12:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openframe-criteria-set-protocol
+[2024-05-10 12:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-horizon-sdk
+[2024-05-10 12:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tp-sql
+[2024-05-10 12:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latinicz
+[2024-05-10 12:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utils-woodsx
+[2024-05-10 12:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: r-shepard
+[2024-05-10 12:12:13] INFO root fetch - processPackages [r-shepard]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-10 12:12:13] INFO root fetch - processPackages [openframe-criteria-set-protocol]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-10 12:12:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 12:12:13] WARNING root fetch - processPackages [tp-sql]: Skipping, unable to determine old version
+[2024-05-10 12:12:13] INFO root fetch - main [MainThread]: End processing [tp-sql] error
+[2024-05-10 12:12:13] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/bc/10/b7e290462f090c87cf6b59ff9d4f6909fbdbf88e6c0ccd7dda31b9b8e189/r_shepard-0.2.0.tar.gz
+[2024-05-10 12:12:13] WARNING root fetch - processPackages [latinicz]: Skipping, unable to determine old version
+[2024-05-10 12:12:13] INFO root fetch - main [MainThread]: End processing [latinicz] error
+[2024-05-10 12:12:13] INFO root fetch - processPackages [utils-woodsx]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 12:12:13] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/45/97/5ad4c1bf8841e36eb139f2b6dd478923e4b38e69384bc8a0bdc4d6e5905a/openframe_criteria_set_protocol-1.4.6.tar.gz
+[2024-05-10 12:12:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-10 12:12:13] INFO root fetch - processPackages [utils-woodsx]: Downloading https://files.pythonhosted.org/packages/63/22/06b01b0ac70dd36838288cc66ed6a013c0ba8f2b5515b761365ff17b6b9d/utils_woodsx-0.0.1.tar.gz
+[2024-05-10 12:12:13] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/d2/9d/010acd1033a098a4d8e142740ea03a6a26478311f0a5ebf9f10c99a1a3ab/openframe_criteria_set_protocol-1.4.7-py3-none-any.whl
+[2024-05-10 12:12:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-10 12:12:13] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/66/3d/2b702e03df94bbf73abaff56f47f64382d41f75fdc7b53093461c7ffb260/r_shepard-0.2.1.tar.gz
+[2024-05-10 12:12:13] INFO root fetch - processPackages [openframe-criteria-set-protocol]: executing diffoscope
+[2024-05-10 12:12:13] INFO root fetch - processPackages [openframe-criteria-set-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openframe_criteria_set_protocol-1.4.6.tar.gz tmp/openframe_criteria_set_protocol-1.4.7-py3-none-any.whl.zip --markdown 20240510/o/openframe-criteria-set-protocol/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-10 12:12:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-10 12:12:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240510/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 12:12:13] INFO root fetch - processPackages [r-shepard]: executing diffoscope
+[2024-05-10 12:12:13] INFO root fetch - processPackages [r-shepard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_shepard-0.2.0.tar.gz tmp/r_shepard-0.2.1.tar.gz --markdown 20240510/r/r-shepard/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-10 12:12:13] INFO root fetch - processPackages [utils-woodsx]: Downloading https://files.pythonhosted.org/packages/86/9c/dddf51bf211ef28aa9f7d45046a53ba8a92fcab441bae895edf20047758a/utils_woodsx-0.0.2.tar.gz
+[2024-05-10 12:12:14] INFO root fetch - processPackages [utils-woodsx]: executing diffoscope
+[2024-05-10 12:12:14] INFO root fetch - processPackages [utils-woodsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_woodsx-0.0.1.tar.gz tmp/utils_woodsx-0.0.2.tar.gz --markdown 20240510/u/utils-woodsx/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 12:12:14] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.6.tar.gz]
+[2024-05-10 12:12:14] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.7-py3-none-any.whl.zip]
+[2024-05-10 12:12:14] INFO root fetch - main [MainThread]: End processing [openframe-criteria-set-protocol]: success
+[2024-05-10 12:12:14] INFO root fetch - processPackages [utils-woodsx]: Remove: archive file [/home/abi/fetcher/tmp/utils_woodsx-0.0.1.tar.gz]
+[2024-05-10 12:12:14] INFO root fetch - processPackages [utils-woodsx]: Remove: archive file [/home/abi/fetcher/tmp/utils_woodsx-0.0.2.tar.gz]
+[2024-05-10 12:12:14] INFO root fetch - main [MainThread]: End processing [utils-woodsx]: success
+[2024-05-10 12:12:14] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-10 12:12:14] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-10 12:12:14] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-10 12:12:14] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.2.0.tar.gz]
+[2024-05-10 12:12:14] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.2.1.tar.gz]
+[2024-05-10 12:12:14] INFO root fetch - main [MainThread]: End processing [r-shepard]: success
+[2024-05-10 12:12:14] INFO root fetch - main [MainThread]: Store serial: [23144503]
