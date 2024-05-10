@@ -7781,3 +7781,15 @@
 [2024-05-10 07:45:29] INFO root fetch - processPackages [azure-mgmt-datafactory]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-datafactory-7.1.0.tar.gz]
 [2024-05-10 07:45:29] INFO root fetch - main [MainThread]: End processing [azure-mgmt-datafactory]: success
 [2024-05-10 07:45:29] INFO root fetch - main [MainThread]: Store serial: [23141864]
+[2024-05-10 07:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141864]
+[2024-05-10 07:47:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 07:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingodb
+[2024-05-10 07:47:43] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 07:47:43] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-10 07:47:43] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-10 07:47:43] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-10 07:47:43] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240510/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:47:44] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-10 07:47:44] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-10 07:47:44] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-10 07:47:44] INFO root fetch - main [MainThread]: Store serial: [23141867]
