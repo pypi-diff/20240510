@@ -15131,3 +15131,72 @@
 [2024-05-10 12:57:06] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-10 12:57:06] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-10 12:57:06] INFO root fetch - main [MainThread]: Store serial: [23145056]
+[2024-05-10 12:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145056]
+[2024-05-10 12:59:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abysz
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MarkoLib
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudnetpy-qc
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sgn
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wxPush
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perun.proxygui
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-ec
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fast-lff-utils
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kili
+[2024-05-10 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funboost
+[2024-05-10 12:59:30] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1715303612] Old Version: [0.9.0a1715233208]
+[2024-05-10 12:59:30] WARNING root fetch - processPackages [abysz]: Skipping, unable to determine old version
+[2024-05-10 12:59:30] INFO root fetch - main [MainThread]: End processing [abysz] error
+[2024-05-10 12:59:30] WARNING root fetch - processPackages [wxPush]: Skipping, unable to determine old version
+[2024-05-10 12:59:30] INFO root fetch - main [MainThread]: End processing [wxPush] error
+[2024-05-10 12:59:30] INFO root fetch - processPackages [sgn]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 12:59:30] WARNING root fetch - processPackages [MarkoLib]: Skipping, unable to determine old version
+[2024-05-10 12:59:30] INFO root fetch - main [MainThread]: End processing [MarkoLib] error
+[2024-05-10 12:59:30] WARNING root fetch - processPackages [fast-lff-utils]: Skipping, unable to determine old version
+[2024-05-10 12:59:30] INFO root fetch - main [MainThread]: End processing [fast-lff-utils] error
+[2024-05-10 12:59:30] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/2a/84/ddaaf2831f9a133f06c88f6c85eab6bbe95a61bfd4f4e4d26ebbe07c9c54/pulumi_ec-0.9.0a1715233208.tar.gz
+[2024-05-10 12:59:30] INFO root fetch - processPackages [perun.proxygui]: New version: [5.2.0] Old Version: [5.1.4]
+[2024-05-10 12:59:30] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-10 12:59:30] INFO root fetch - processPackages [funboost]: New version: [44.4] Old Version: [44.3]
+[2024-05-10 12:59:30] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-05-10 12:59:30] INFO root fetch - processPackages [sgn]: Downloading https://files.pythonhosted.org/packages/a3/5d/f23228cc0ad4a14a2f8e77ebd9f7377f7f691b0baf6a5eaf17e8258d9bf0/sgn-0.0.1.tar.gz
+[2024-05-10 12:59:30] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/db/d6/437e8c1503adb9edb4b8221139137dbeb690bf51b3dd792be02a14e4d82f/cloudnetpy_qc-1.9.4.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/5c/d7/3612958e206b77dc2f7d5222e725afd1a8e1dc216177ae421e3e16c6097e/perun.proxygui-5.1.4.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/31/44/afd31ebca8527db3d9a39642dc76e8abac08befbece9dcb60f806eb5ebfe/funboost-44.3.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/6f/5a/f6d1320a227548687073537382e525cd8bcff8a1a2f5f47124f1d219694b/pulumi_ec-0.9.0a1715303612.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [sgn]: Downloading https://files.pythonhosted.org/packages/28/ef/09b7d80fb3fa3d67b1800a23c3fb56fd5f60b08f0820a01815141c2088e1/sgn-0.0.2.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-05-10 12:59:31] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.9.0a1715233208.tar.gz tmp/pulumi_ec-0.9.0a1715303612.tar.gz --markdown 20240510/p/pulumi-ec/0.9.0a1715233208-0.9.0a1715303612/README.md --exclude *.pyd
+[2024-05-10 12:59:31] INFO root fetch - processPackages [sgn]: executing diffoscope
+[2024-05-10 12:59:31] INFO root fetch - processPackages [sgn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgn-0.0.1.tar.gz tmp/sgn-0.0.2.tar.gz --markdown 20240510/s/sgn/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 12:59:31] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/2b/37/8700176a21e67e769e2ce546f74d753adeb243a4497dcb1bd3859a131986/cloudnetpy_qc-1.9.5.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/e0/35/879d4105e4d1547825f6d349c49191e8bcc44f9e7518c2dcced04f62a1f1/funboost-44.4.tar.gz
+[2024-05-10 12:59:31] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2024-05-10 12:59:31] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20240510/c/cloudnetpy-qc/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-10 12:59:31] INFO root fetch - processPackages [kili]: executing diffoscope
+[2024-05-10 12:59:31] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20240510/k/kili/2.98.0-2.99.0/README.md --exclude *.pyd
+[2024-05-10 12:59:31] INFO root fetch - processPackages [sgn]: Remove: archive file [/home/abi/fetcher/tmp/sgn-0.0.1.tar.gz]
+[2024-05-10 12:59:31] INFO root fetch - processPackages [sgn]: Remove: archive file [/home/abi/fetcher/tmp/sgn-0.0.2.tar.gz]
+[2024-05-10 12:59:31] INFO root fetch - main [MainThread]: End processing [sgn]: success
+[2024-05-10 12:59:31] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715233208.tar.gz]
+[2024-05-10 12:59:31] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715303612.tar.gz]
+[2024-05-10 12:59:31] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-05-10 12:59:32] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-05-10 12:59:32] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-44.3.tar.gz tmp/funboost-44.4.tar.gz --markdown 20240510/f/funboost/44.3-44.4/README.md --exclude *.pyd
+[2024-05-10 12:59:32] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/21/be/fcb088bbbf2902e95c390a772fbc6351c907895e11f8a074f4a2797002f9/perun.proxygui-5.2.0.tar.gz
+[2024-05-10 12:59:32] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2024-05-10 12:59:32] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2024-05-10 12:59:32] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2024-05-10 12:59:32] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-05-10 12:59:32] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-5.1.4.tar.gz tmp/perun.proxygui-5.2.0.tar.gz --markdown 20240510/p/perun.proxygui/5.1.4-5.2.0/README.md --exclude *.pyd
+[2024-05-10 12:59:33] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.4.tar.gz]
+[2024-05-10 12:59:33] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
+[2024-05-10 12:59:33] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2024-05-10 12:59:33] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.3.tar.gz]
+[2024-05-10 12:59:33] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.4.tar.gz]
+[2024-05-10 12:59:33] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2024-05-10 12:59:35] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.4.tar.gz]
+[2024-05-10 12:59:35] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.2.0.tar.gz]
+[2024-05-10 12:59:35] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-05-10 12:59:35] INFO root fetch - main [MainThread]: Store serial: [23145087]
