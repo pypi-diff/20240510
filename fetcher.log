@@ -19381,3 +19381,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:22:00] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
 [2024-05-10 15:22:00] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2024-05-10 15:22:00] INFO root fetch - main [MainThread]: Store serial: [23146927]
+[2024-05-10 15:24:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146927]
+[2024-05-10 15:24:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.analytics
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xingu
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capsulogenousz
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: person-local
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radical.synapse
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyopenhc
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ark
+[2024-05-10 15:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modernqt
+[2024-05-10 15:24:12] INFO root fetch - processPackages [radical.analytics]: New version: [1.6.7] Old Version: [1.52.0]
+[2024-05-10 15:24:13] WARNING root fetch - processPackages [capsulogenousz]: Skipping, unable to determine old version
+[2024-05-10 15:24:13] INFO root fetch - main [MainThread]: End processing [capsulogenousz] error
+[2024-05-10 15:24:13] INFO root fetch - processPackages [ark]: New version: [7.2.0] Old Version: [7.1.0]
+[2024-05-10 15:24:13] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 15:24:13] ERROR root fetch - processPackages [modernqt]: Unable to get metadata: No such project 'modernqt'
+[2024-05-10 15:24:13] INFO root fetch - main [MainThread]: End processing [modernqt] error
+[2024-05-10 15:24:13] INFO root fetch - processPackages [pyopenhc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.synapse]: New version: [1.60.0] Old Version: [1.52.0]
+[2024-05-10 15:24:13] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [xingu]: New version: [1.7.1] Old Version: [1.7]
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/c4/d3/7927b19a7362019b229b9fa3b83f0776c04acb8e03cf40599773b93c6ffa/radical_analytics-1.52.0.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [ark]: Downloading https://files.pythonhosted.org/packages/29/04/ba189a531d14aefa950646b519cfc1ed2d2ce2e2fda6f39bb260e299b288/ark-7.1.0.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/23/84/5fc9b5c76e3ebbbba253df69d420d8a7f6943b91edabb98ad38a73b8a68f/pyopenhc-0.0.3-py3-none-win_amd64.whl
+[2024-05-10 15:24:13] INFO root fetch - processPackages [xingu]: Downloading https://files.pythonhosted.org/packages/2d/bf/5807b8f463fafd309c4d2c5cec5564d6c0c470a9a74ce1048093b4cca6fc/xingu-1.7.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/af/58/8f7148d505eb0f290626635235d03fc0cd62eb47aae55269551e0e45a8db/radical_synapse-1.52.0.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-10 15:24:13] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240510/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/dd/ea/c60eeaf6b1275bfd4aa95f6d7e3b3969cfd767711c0f98183e5d86535c37/radical.analytics-1.6.7.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/5a/75/5fdcb397bbcdd24e939d7923737e80bcec6633d23a9a9d90017c7119bd75/pyopenhc-0.0.4-py3-none-manylinux1_x86_64.whl
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/d0/08/6cba0b1082efe3764e2c52ced29f4c115abf13021aff8ab4ed43b54c9979/radical_synapse-1.60.0.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [ark]: Downloading https://files.pythonhosted.org/packages/bc/18/daad7d17e58d02a82dd4fa7e0c24afc89a54ed20a2a8d4ccb0c16294788c/ark-7.2.0.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [xingu]: Downloading https://files.pythonhosted.org/packages/4d/3f/c85dd4f1036e7ac21f701a5fd7af1f48e38785e7fbb6a36f61c4bc1bf378/xingu-1.7.1.tar.gz
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.synapse]: executing diffoscope
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_synapse-1.52.0.tar.gz tmp/radical_synapse-1.60.0.tar.gz --markdown 20240510/r/radical.synapse/1.52.0-1.60.0/README.md --exclude *.pyd
+[2024-05-10 15:24:13] INFO root fetch - processPackages [xingu]: executing diffoscope
+[2024-05-10 15:24:13] INFO root fetch - processPackages [xingu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingu-1.7.tar.gz tmp/xingu-1.7.1.tar.gz --markdown 20240510/x/xingu/1.7-1.7.1/README.md --exclude *.pyd
+[2024-05-10 15:24:13] INFO root fetch - processPackages [ark]: executing diffoscope
+[2024-05-10 15:24:13] INFO root fetch - processPackages [ark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ark-7.1.0.tar.gz tmp/ark-7.2.0.tar.gz --markdown 20240510/a/ark/7.1.0-7.2.0/README.md --exclude *.pyd
+[2024-05-10 15:24:13] INFO root fetch - processPackages [pyopenhc]: executing diffoscope
+[2024-05-10 15:24:13] INFO root fetch - processPackages [pyopenhc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenhc-0.0.3-py3-none-win_amd64.whl.zip tmp/pyopenhc-0.0.4-py3-none-manylinux1_x86_64.whl.zip --markdown 20240510/p/pyopenhc/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.analytics]: executing diffoscope
+[2024-05-10 15:24:13] INFO root fetch - processPackages [radical.analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_analytics-1.52.0.tar.gz tmp/radical.analytics-1.6.7.tar.gz --markdown 20240510/r/radical.analytics/1.52.0-1.6.7/README.md --exclude *.pyd
+[2024-05-10 15:24:14] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-10 15:24:14] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.0.3-py3-none-win_amd64.whl.zip]
+[2024-05-10 15:24:14] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.0.4-py3-none-manylinux1_x86_64.whl.zip]
+[2024-05-10 15:24:14] INFO root fetch - main [MainThread]: End processing [pyopenhc]: success
+[2024-05-10 15:24:14] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical_synapse-1.52.0.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical_synapse-1.60.0.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - main [MainThread]: End processing [radical.synapse]: success
+[2024-05-10 15:24:14] INFO root fetch - processPackages [xingu]: Remove: archive file [/home/abi/fetcher/tmp/xingu-1.7.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - processPackages [xingu]: Remove: archive file [/home/abi/fetcher/tmp/xingu-1.7.1.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - main [MainThread]: End processing [xingu]: success
+[2024-05-10 15:24:14] INFO root fetch - processPackages [ark]: Remove: archive file [/home/abi/fetcher/tmp/ark-7.1.0.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - processPackages [ark]: Remove: archive file [/home/abi/fetcher/tmp/ark-7.2.0.tar.gz]
+[2024-05-10 15:24:14] INFO root fetch - main [MainThread]: End processing [ark]: success
+[2024-05-10 15:24:15] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical_analytics-1.52.0.tar.gz]
+[2024-05-10 15:24:15] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
+[2024-05-10 15:24:15] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
+[2024-05-10 15:24:15] INFO root fetch - main [MainThread]: Store serial: [23146954]
