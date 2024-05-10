@@ -18341,3 +18341,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:51:24] INFO root fetch - processPackages [mizu]: Remove: archive file [/home/abi/fetcher/tmp/mizu-0.3.0-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-10 14:51:24] INFO root fetch - main [MainThread]: End processing [mizu]: success
 [2024-05-10 14:51:24] INFO root fetch - main [MainThread]: Store serial: [23146435]
+[2024-05-10 14:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146435]
+[2024-05-10 14:53:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local-llm-finetune
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: person-local
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyopenhc
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unstract-sdk
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: movva_tools
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ownotp
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: covalent
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openAIInsight
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ownotp]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 14:53:33] WARNING root fetch - processPackages [local-llm-finetune]: Skipping, unable to determine old version
+[2024-05-10 14:53:33] INFO root fetch - processPackages [local-llm-finetune]: Start processing: FreeTAKServer
+[2024-05-10 14:53:33] INFO root fetch - main [MainThread]: End processing [local-llm-finetune] error
+[2024-05-10 14:53:33] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.26.0]
+[2024-05-10 14:53:33] WARNING root fetch - processPackages [pyopenhc]: Skipping, unable to determine old version
+[2024-05-10 14:53:33] INFO root fetch - processPackages [pyopenhc]: Start processing: sherlockpipe
+[2024-05-10 14:53:33] INFO root fetch - main [MainThread]: End processing [pyopenhc] error
+[2024-05-10 14:53:33] INFO root fetch - processPackages [movva_tools]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [bagbag]: New version: [0.67.2] Old Version: [0.67.1]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [FreeTAKServer]: New version: [2.2.1] Old Version: [2.2.0.1]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [ownotp]: Downloading https://files.pythonhosted.org/packages/9f/2e/fcf12df19a4d2ef028c0496d83f915bf43d7ca19ed6885eb637efdc3c79d/ownotp-0.0.1.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/2c/42/2d5dfa34c101c2b38f158326794dff4d9a6b6f39e466456ab9ff3cbec752/unstract_sdk-0.26.0.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/79/0f/41f497d3a52d80d749bc26f06c084ab8ef69b731c8552c2b6cb757205a53/bagbag-0.67.1.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/ae/06/fa51b5dcb39e8e6a7a8a823499d9504e6c1e9251753ad6524ae82bbb466e/openAIInsight-0.0.8-py3-none-any.whl
+[2024-05-10 14:53:33] INFO root fetch - processPackages [movva_tools]: Downloading https://files.pythonhosted.org/packages/ae/94/184b2e2e57252b2eb6a86b0788590e4b6c1f22651d9456ff89292bbacd2f/movva_tools-2.0.0.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [covalent]: New version: [0.234.1rc0] Old Version: [0.234.0rc0]
+[2024-05-10 14:53:33] INFO root fetch - processPackages [FreeTAKServer]: Downloading https://files.pythonhosted.org/packages/d6/38/acf8a83f3e57c41767374028150b202b3e8fda338346af0b071f29141a4b/freetakserver-2.2.0.1.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2024-05-10 14:53:33] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-10 14:53:33] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240510/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [ownotp]: Downloading https://files.pythonhosted.org/packages/89/0c/ddb003352cba5e2cd341bdf01dfbbd3fffab50c9566e4593ae9a29ca4fd7/ownotp-0.0.2.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/a9/62/4645da5995c386767f4d23fd5316fd7e6953c26821eebe6b91be6ac864d8/covalent-0.234.0rc0.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [movva_tools]: Downloading https://files.pythonhosted.org/packages/33/cf/1c822c64089c21376e5a92542623d43ddc33a45d6438cfcfe6cf3687f4cf/movva_tools-2.1.0.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/1e/33/a70a124292be5c9d2c37167928812a80dc68e36910e94f3ba08cba349c03/openAIInsight-0.0.9-py3-none-any.whl
+[2024-05-10 14:53:34] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/97/56/15e36d1bb182091fb77d72150882af1b976353ef9551153257ea74d7da33/bagbag-0.67.2.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [ownotp]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [ownotp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ownotp-0.0.1.tar.gz tmp/ownotp-0.0.2.tar.gz --markdown 20240510/o/ownotp/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.26.0.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240510/u/unstract-sdk/0.26.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [movva_tools]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [movva_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movva_tools-2.0.0.tar.gz tmp/movva_tools-2.1.0.tar.gz --markdown 20240510/m/movva_tools/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [FreeTAKServer]: Downloading https://files.pythonhosted.org/packages/2a/8e/c94431cb8e1dda4bf9995970442ef6fe4ee714a81b5d0b30dd8ccb8288b1/freetakserver-2.2.1.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.8-py3-none-any.whl.zip tmp/openAIInsight-0.0.9-py3-none-any.whl.zip --markdown 20240510/o/openAIInsight/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.67.1.tar.gz tmp/bagbag-0.67.2.tar.gz --markdown 20240510/b/bagbag/0.67.1-0.67.2/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20240510/s/sherlockpipe/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [FreeTAKServer]: executing diffoscope
+[2024-05-10 14:53:34] INFO root fetch - processPackages [FreeTAKServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freetakserver-2.2.0.1.tar.gz tmp/freetakserver-2.2.1.tar.gz --markdown 20240510/F/FreeTAKServer/2.2.0.1-2.2.1/README.md --exclude *.pyd
+[2024-05-10 14:53:34] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-10 14:53:34] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-10 14:53:34] INFO root fetch - processPackages [person-local]: Start processing: cimsparql
+[2024-05-10 14:53:34] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-10 14:53:34] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/67/52/60087cba9f426efba6c0cc26112ae3174e86c5edcee39fa8a6a0be746729/covalent-0.234.1rc0.tar.gz
+[2024-05-10 14:53:34] INFO root fetch - processPackages [cimsparql]: New version: [3.3.1] Old Version: [3.2.1]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [ownotp]: Remove: archive file [/home/abi/fetcher/tmp/ownotp-0.0.1.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [ownotp]: Remove: archive file [/home/abi/fetcher/tmp/ownotp-0.0.2.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - main [MainThread]: End processing [ownotp]: success
+[2024-05-10 14:53:35] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 14:53:35] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/37/42/1183faf65ac1dab04694bd10230fb826c502c48d5583ed8a9444e42db4af/cimsparql-3.2.1.tar.gz
+[2024-05-10 14:53:35] INFO root fetch - processPackages [covalent]: executing diffoscope
+[2024-05-10 14:53:35] INFO root fetch - processPackages [covalent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-0.234.0rc0.tar.gz tmp/covalent-0.234.1rc0.tar.gz --markdown 20240510/c/covalent/0.234.0rc0-0.234.1rc0/README.md --exclude *.pyd
+[2024-05-10 14:53:35] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.8-py3-none-any.whl.zip]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.9-py3-none-any.whl.zip]
+[2024-05-10 14:53:35] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2024-05-10 14:53:35] INFO root fetch - processPackages [movva_tools]: Remove: archive file [/home/abi/fetcher/tmp/movva_tools-2.0.0.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [movva_tools]: Remove: archive file [/home/abi/fetcher/tmp/movva_tools-2.1.0.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - main [MainThread]: End processing [movva_tools]: success
+[2024-05-10 14:53:35] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.26.0.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-05-10 14:53:35] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.6.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.7.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2024-05-10 14:53:35] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/ea/50/68a174e88c0afb9bb3be90eca2364b220176652ef1a6dfd42149bdca6a50/cimsparql-3.3.1.tar.gz
+[2024-05-10 14:53:35] INFO root fetch - processPackages [cimsparql]: executing diffoscope
+[2024-05-10 14:53:35] INFO root fetch - processPackages [cimsparql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cimsparql-3.2.1.tar.gz tmp/cimsparql-3.3.1.tar.gz --markdown 20240510/c/cimsparql/3.2.1-3.3.1/README.md --exclude *.pyd
+[2024-05-10 14:53:35] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.67.1.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.67.2.tar.gz]
+[2024-05-10 14:53:35] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-10 14:53:36] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-3.2.1.tar.gz]
+[2024-05-10 14:53:36] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-3.3.1.tar.gz]
+[2024-05-10 14:53:36] INFO root fetch - main [MainThread]: End processing [cimsparql]: success
+[2024-05-10 14:53:37] INFO root fetch - processPackages [covalent]: Remove: archive file [/home/abi/fetcher/tmp/covalent-0.234.0rc0.tar.gz]
+[2024-05-10 14:53:37] INFO root fetch - processPackages [covalent]: Remove: archive file [/home/abi/fetcher/tmp/covalent-0.234.1rc0.tar.gz]
+[2024-05-10 14:53:37] INFO root fetch - main [MainThread]: End processing [covalent]: success
+[2024-05-10 14:53:38] INFO root fetch - processPackages [FreeTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/freetakserver-2.2.0.1.tar.gz]
+[2024-05-10 14:53:38] INFO root fetch - processPackages [FreeTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/freetakserver-2.2.1.tar.gz]
+[2024-05-10 14:53:38] INFO root fetch - main [MainThread]: End processing [FreeTAKServer]: success
+[2024-05-10 14:53:38] INFO root fetch - main [MainThread]: Store serial: [23146538]
