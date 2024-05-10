@@ -4339,3 +4339,60 @@
 [2024-05-10 04:14:11] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
 [2024-05-10 04:14:11] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
 [2024-05-10 04:14:11] INFO root fetch - main [MainThread]: Store serial: [23140335]
+[2024-05-10 04:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140335]
+[2024-05-10 04:16:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-signalfx
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fomodoro
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ModelMerge
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nexus-scraper
+[2024-05-10 04:16:20] INFO root fetch - processPackages [fomodoro]: New version: [1.0.0] Old Version: [0.5.0]
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ModelMerge]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 04:16:20] INFO root fetch - processPackages [nexus-scraper]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-10 04:16:20] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1715236218] Old Version: [7.2.0a1715062812]
+[2024-05-10 04:16:20] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2024-05-10 04:16:20] INFO root fetch - processPackages [fomodoro]: Downloading https://files.pythonhosted.org/packages/fc/9c/290e6288e4140907e76f8f77237650534f375a41ea162999e7286afc9a7e/fomodoro-0.5.0.tar.gz
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ModelMerge]: Downloading https://files.pythonhosted.org/packages/33/8f/9736291d60645bd41b90e6bfccc4c26d3f8a0f111ec06977f8bfb6870c69/modelmerge-0.2.6.tar.gz
+[2024-05-10 04:16:20] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-10 04:16:20] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/3b/6f/ba752a16b70658c0efa72fe441f9a026fe65efecc5143d9929af0a30d984/nexus_scraper-0.2.0.tar.gz
+[2024-05-10 04:16:20] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/d5/a3/ce08d9bc4ba76eac3a033aac62318f6537f8029544dd26633d0b82061150/pulumi_signalfx-7.2.0a1715062812.tar.gz
+[2024-05-10 04:16:20] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2024-05-10 04:16:21] INFO root fetch - processPackages [fomodoro]: Downloading https://files.pythonhosted.org/packages/5b/91/a36053a6151f4297d4de3a261941f9dfa6f370037d42094d39defaab6a05/fomodoro-1.0.0.tar.gz
+[2024-05-10 04:16:21] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/b3/2b/7db96d407908719912ecceaef0404b665cc4f9e8bc0788989c9df567c2a5/nexus_scraper-0.2.2.tar.gz
+[2024-05-10 04:16:21] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-10 04:16:21] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/c8/55/04c61a2f3c8fe46059088bee84a8d7b86ad938dcbab33dbe0883ce558834/pulumi_signalfx-7.2.0a1715236218.tar.gz
+[2024-05-10 04:16:21] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2024-05-10 04:16:21] INFO root fetch - processPackages [fomodoro]: executing diffoscope
+[2024-05-10 04:16:21] INFO root fetch - processPackages [fomodoro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fomodoro-0.5.0.tar.gz tmp/fomodoro-1.0.0.tar.gz --markdown 20240510/f/fomodoro/0.5.0-1.0.0/README.md --exclude *.pyd
+[2024-05-10 04:16:21] INFO root fetch - processPackages [nexus-scraper]: executing diffoscope
+[2024-05-10 04:16:21] INFO root fetch - processPackages [nexus-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_scraper-0.2.0.tar.gz tmp/nexus_scraper-0.2.2.tar.gz --markdown 20240510/n/nexus-scraper/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-10 04:16:21] INFO root fetch - processPackages [ModelMerge]: Downloading https://files.pythonhosted.org/packages/1d/e4/87ed9509b9d6d41abc3214a3fdcd10ae95a50f57059424eef5bf488bb398/modelmerge-0.2.7.tar.gz
+[2024-05-10 04:16:21] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-10 04:16:21] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1715062812.tar.gz tmp/pulumi_signalfx-7.2.0a1715236218.tar.gz --markdown 20240510/p/pulumi-signalfx/7.2.0a1715062812-7.2.0a1715236218/README.md --exclude *.pyd
+[2024-05-10 04:16:21] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-10 04:16:21] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240510/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 04:16:21] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2024-05-10 04:16:21] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20240510/s/sqlglot/9.0.5-9.0.6/README.md --exclude *.pyd
+[2024-05-10 04:16:21] INFO root fetch - processPackages [ModelMerge]: executing diffoscope
+[2024-05-10 04:16:21] INFO root fetch - processPackages [ModelMerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.2.6.tar.gz tmp/modelmerge-0.2.7.tar.gz --markdown 20240510/M/ModelMerge/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-10 04:16:21] INFO root fetch - processPackages [fomodoro]: Remove: archive file [/home/abi/fetcher/tmp/fomodoro-0.5.0.tar.gz]
+[2024-05-10 04:16:21] INFO root fetch - processPackages [fomodoro]: Remove: archive file [/home/abi/fetcher/tmp/fomodoro-1.0.0.tar.gz]
+[2024-05-10 04:16:21] INFO root fetch - main [MainThread]: End processing [fomodoro]: success
+[2024-05-10 04:16:21] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.2.0.tar.gz]
+[2024-05-10 04:16:21] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.2.2.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - main [MainThread]: End processing [nexus-scraper]: success
+[2024-05-10 04:16:22] INFO root fetch - processPackages [ModelMerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.2.6.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - processPackages [ModelMerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.2.7.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - main [MainThread]: End processing [ModelMerge]: success
+[2024-05-10 04:16:22] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715062812.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715236218.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-10 04:16:22] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2024-05-10 04:16:22] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-10 04:16:22] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-10 04:16:22] INFO root fetch - main [MainThread]: Store serial: [23140356]
