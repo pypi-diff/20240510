@@ -3653,3 +3653,48 @@
 [2024-05-10 03:45:34] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.22.tar.gz]
 [2024-05-10 03:45:34] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter]: success
 [2024-05-10 03:45:34] INFO root fetch - main [MainThread]: Store serial: [23140069]
+[2024-05-10 03:47:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140069]
+[2024-05-10 03:47:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 03:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ParentLOL
+[2024-05-10 03:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migoapiclient
+[2024-05-10 03:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ora2
+[2024-05-10 03:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rococo
+[2024-05-10 03:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leads
+[2024-05-10 03:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thimbleriggerz
+[2024-05-10 03:47:44] WARNING root fetch - processPackages [ParentLOL]: Skipping, unable to determine old version
+[2024-05-10 03:47:44] INFO root fetch - main [MainThread]: End processing [ParentLOL] error
+[2024-05-10 03:47:44] INFO root fetch - processPackages [migoapiclient]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-10 03:47:44] WARNING root fetch - processPackages [thimbleriggerz]: Skipping, unable to determine old version
+[2024-05-10 03:47:44] INFO root fetch - main [MainThread]: End processing [thimbleriggerz] error
+[2024-05-10 03:47:44] INFO root fetch - processPackages [rococo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 03:47:44] INFO root fetch - processPackages [ora2]: New version: [6.9.0] Old Version: [6.7.0]
+[2024-05-10 03:47:44] INFO root fetch - processPackages [leads]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-10 03:47:44] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/6d/71/fb7d13b262f05021bbd57c2caaf51b937d353f9b1ac8236e7dc8438a9b07/migoapiclient-1.2.1.tar.gz
+[2024-05-10 03:47:44] INFO root fetch - processPackages [rococo]: Downloading https://files.pythonhosted.org/packages/94/76/11b3b064f1fbeb81c9bd2837214abd8f6f61cd7c1c8937c31db41c06062d/rococo-1.0.8.tar.gz
+[2024-05-10 03:47:45] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/91/be/0179afb9ad0fbe8646f1b512dec0748b03f60fb9baee130921c46ee75435/ora2-6.7.0.tar.gz
+[2024-05-10 03:47:45] INFO root fetch - processPackages [leads]: Downloading https://files.pythonhosted.org/packages/84/22/bb12180e417960ef462483ba20dfa702c1c44cabac5e47042cf8d4f7061a/leads-0.8.8.tar.gz
+[2024-05-10 03:47:45] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/60/f7/ba61265a0a3f888b6591b6379322d51e0e65b79c79408baa754c3f01742e/migoapiclient-1.2.2.tar.gz
+[2024-05-10 03:47:45] INFO root fetch - processPackages [rococo]: Downloading https://files.pythonhosted.org/packages/ba/71/997ca9a3bfd8c8a2c95ec6995b786e36a8b3c882060cfe5fd0f0bf7bb874/rococo-1.0.9.tar.gz
+[2024-05-10 03:47:45] INFO root fetch - processPackages [migoapiclient]: executing diffoscope
+[2024-05-10 03:47:45] INFO root fetch - processPackages [migoapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migoapiclient-1.2.1.tar.gz tmp/migoapiclient-1.2.2.tar.gz --markdown 20240510/m/migoapiclient/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-10 03:47:45] INFO root fetch - processPackages [rococo]: executing diffoscope
+[2024-05-10 03:47:45] INFO root fetch - processPackages [rococo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rococo-1.0.8.tar.gz tmp/rococo-1.0.9.tar.gz --markdown 20240510/r/rococo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 03:47:45] INFO root fetch - processPackages [leads]: Downloading https://files.pythonhosted.org/packages/39/e8/fa2e5f7f0d11837315b2fee4d21c7cb7c4973873d9d51b4abc5b357bf19f/leads-0.8.9.tar.gz
+[2024-05-10 03:47:45] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/c0/c9/bd87b2d0e32d62dddac5955e8afc4610afb0f2b860b0370324a8724aa71e/ora2-6.9.0.tar.gz
+[2024-05-10 03:47:45] INFO root fetch - processPackages [ora2]: executing diffoscope
+[2024-05-10 03:47:45] INFO root fetch - processPackages [ora2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ora2-6.7.0.tar.gz tmp/ora2-6.9.0.tar.gz --markdown 20240510/o/ora2/6.7.0-6.9.0/README.md --exclude *.pyd
+[2024-05-10 03:47:45] INFO root fetch - processPackages [leads]: executing diffoscope
+[2024-05-10 03:47:45] INFO root fetch - processPackages [leads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leads-0.8.8.tar.gz tmp/leads-0.8.9.tar.gz --markdown 20240510/l/leads/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-10 03:47:46] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.2.1.tar.gz]
+[2024-05-10 03:47:46] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.2.2.tar.gz]
+[2024-05-10 03:47:46] INFO root fetch - main [MainThread]: End processing [migoapiclient]: success
+[2024-05-10 03:47:46] INFO root fetch - processPackages [rococo]: Remove: archive file [/home/abi/fetcher/tmp/rococo-1.0.8.tar.gz]
+[2024-05-10 03:47:46] INFO root fetch - processPackages [rococo]: Remove: archive file [/home/abi/fetcher/tmp/rococo-1.0.9.tar.gz]
+[2024-05-10 03:47:46] INFO root fetch - main [MainThread]: End processing [rococo]: success
+[2024-05-10 03:47:46] INFO root fetch - processPackages [leads]: Remove: archive file [/home/abi/fetcher/tmp/leads-0.8.8.tar.gz]
+[2024-05-10 03:47:46] INFO root fetch - processPackages [leads]: Remove: archive file [/home/abi/fetcher/tmp/leads-0.8.9.tar.gz]
+[2024-05-10 03:47:46] INFO root fetch - main [MainThread]: End processing [leads]: success
+[2024-05-10 03:47:48] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-6.7.0.tar.gz]
+[2024-05-10 03:47:48] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-6.9.0.tar.gz]
+[2024-05-10 03:47:48] INFO root fetch - main [MainThread]: End processing [ora2]: success
+[2024-05-10 03:47:48] INFO root fetch - main [MainThread]: Store serial: [23140081]
