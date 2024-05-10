@@ -23932,3 +23932,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:47:12] INFO root fetch - processPackages [zenflow]: Remove: archive file [/home/abi/fetcher/tmp/zenflow-0.1.4.tar.gz]
 [2024-05-10 17:47:12] INFO root fetch - main [MainThread]: End processing [zenflow]: success
 [2024-05-10 17:47:12] INFO root fetch - main [MainThread]: Store serial: [23149222]
+[2024-05-10 17:49:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149222]
+[2024-05-10 17:49:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-05-10 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sdk-remote
+[2024-05-10 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aumagaz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-textract-textractor
+[2024-05-10 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: curetz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-glmnet
+[2024-05-10 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: truedata
+[2024-05-10 17:49:21] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-10 17:49:21] INFO root fetch - processPackages [amazon-textract-textractor]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-10 17:49:21] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.95] Old Version: [0.0.94]
+[2024-05-10 17:49:21] WARNING root fetch - processPackages [aumagaz]: Skipping, unable to determine old version
+[2024-05-10 17:49:21] INFO root fetch - main [MainThread]: End processing [aumagaz] error
+[2024-05-10 17:49:21] INFO root fetch - processPackages [curetz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 17:49:21] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [truedata]: New version: [6.0.4] Old Version: [6.0.3]
+[2024-05-10 17:49:21] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/54/52/90926bd9d7806bb08db117aad464305ed14d3b9a10836b7a9fe32c8ec38a/python_sdk_remote-0.0.94.tar.gz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [python-glmnet]: New version: [2.2.2.post1] Old Version: [2.2.2]
+[2024-05-10 17:49:21] INFO root fetch - processPackages [amazon-textract-textractor]: Downloading https://files.pythonhosted.org/packages/5e/2f/6af54c43a451a711e9727f218a50afe9817792185b4bc264291afa7ba9c9/amazon-textract-textractor-1.7.8.tar.gz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [curetz]: Downloading https://files.pythonhosted.org/packages/92/dd/35dc3493e5c897c9fa07d32277ff27b1738baaf67c5ca0f619d32f1b93cc/curetz-1.1.tar.gz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [truedata]: Downloading https://files.pythonhosted.org/packages/c2/27/e71e03cacd96f18de88cc35a443bbc103a88a7c87c93e27ee2801e0cd1bf/truedata-6.0.3.tar.gz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [python-glmnet]: Downloading https://files.pythonhosted.org/packages/e0/ca/2337efaf995899236a7c960d8f3ffa59b92b24d3a099b1a9f5cfec7fa031/python_glmnet-2.2.2-1-cp39-cp39-musllinux_1_1_x86_64.whl
+[2024-05-10 17:49:21] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/04/a3/a74b4c6fe60e3b7a7117cb7772da7b4fafb12dd818a3ecb2f6c6109f1dd6/python_sdk_remote-0.0.95.tar.gz
+[2024-05-10 17:49:21] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-10 17:49:21] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240510/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-10 17:49:21] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-10 17:49:21] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.94.tar.gz tmp/python_sdk_remote-0.0.95.tar.gz --markdown 20240510/p/python-sdk-remote/0.0.94-0.0.95/README.md --exclude *.pyd
+[2024-05-10 17:49:22] INFO root fetch - processPackages [curetz]: Downloading https://files.pythonhosted.org/packages/84/02/d3bf273cf898390a46fcccfa54cae3db18331bead8ea4b01627f05ae5073/curetz-2.1.tar.gz
+[2024-05-10 17:49:22] INFO root fetch - processPackages [amazon-textract-textractor]: Downloading https://files.pythonhosted.org/packages/33/a4/b01b94a453a8934cabe7a7ac60ff497351892ae148b340767deaa80bb2f8/amazon-textract-textractor-1.7.9.tar.gz
+[2024-05-10 17:49:22] INFO root fetch - processPackages [curetz]: executing diffoscope
+[2024-05-10 17:49:22] INFO root fetch - processPackages [curetz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curetz-1.1.tar.gz tmp/curetz-2.1.tar.gz --markdown 20240510/c/curetz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 17:49:22] INFO root fetch - processPackages [truedata]: Downloading https://files.pythonhosted.org/packages/b7/a4/a33d857aac099028316230992957d4261c396be60cb061e0218b3920a80d/truedata-6.0.4.tar.gz
+[2024-05-10 17:49:22] INFO root fetch - processPackages [amazon-textract-textractor]: executing diffoscope
+[2024-05-10 17:49:22] INFO root fetch - processPackages [amazon-textract-textractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-textractor-1.7.8.tar.gz tmp/amazon-textract-textractor-1.7.9.tar.gz --markdown 20240510/a/amazon-textract-textractor/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-10 17:49:22] INFO root fetch - processPackages [python-glmnet]: Downloading https://files.pythonhosted.org/packages/4a/d4/a3223a7b328d4a98c859ebc8ed625a5bc75db4fa0b3d02d68f867f0bed52/python_glmnet-2.2.2.post1-cp311-cp311-macosx_11_0_arm64.whl
+[2024-05-10 17:49:22] INFO root fetch - processPackages [truedata]: executing diffoscope
+[2024-05-10 17:49:22] INFO root fetch - processPackages [truedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truedata-6.0.3.tar.gz tmp/truedata-6.0.4.tar.gz --markdown 20240510/t/truedata/6.0.3-6.0.4/README.md --exclude *.pyd
+[2024-05-10 17:49:22] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.94.tar.gz]
+[2024-05-10 17:49:22] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.95.tar.gz]
+[2024-05-10 17:49:22] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-10 17:49:22] INFO root fetch - processPackages [curetz]: Remove: archive file [/home/abi/fetcher/tmp/curetz-1.1.tar.gz]
+[2024-05-10 17:49:22] INFO root fetch - processPackages [curetz]: Remove: archive file [/home/abi/fetcher/tmp/curetz-2.1.tar.gz]
+[2024-05-10 17:49:22] INFO root fetch - main [MainThread]: End processing [curetz]: success
+[2024-05-10 17:49:22] INFO root fetch - processPackages [amazon-textract-textractor]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-textractor-1.7.8.tar.gz]
+[2024-05-10 17:49:22] INFO root fetch - processPackages [amazon-textract-textractor]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-textractor-1.7.9.tar.gz]
+[2024-05-10 17:49:22] INFO root fetch - main [MainThread]: End processing [amazon-textract-textractor]: success
+[2024-05-10 17:49:23] INFO root fetch - processPackages [truedata]: Remove: archive file [/home/abi/fetcher/tmp/truedata-6.0.3.tar.gz]
+[2024-05-10 17:49:23] INFO root fetch - processPackages [truedata]: Remove: archive file [/home/abi/fetcher/tmp/truedata-6.0.4.tar.gz]
+[2024-05-10 17:49:23] INFO root fetch - main [MainThread]: End processing [truedata]: success
+[2024-05-10 17:49:23] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-10 17:49:23] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-10 17:49:23] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-10 17:49:24] INFO root fetch - processPackages [python-glmnet]: executing diffoscope
+[2024-05-10 17:49:24] INFO root fetch - processPackages [python-glmnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_glmnet-2.2.2-1-cp39-cp39-musllinux_1_1_x86_64.whl.zip tmp/python_glmnet-2.2.2.post1-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20240510/p/python-glmnet/2.2.2-2.2.2.post1/README.md --exclude *.pyd
+[2024-05-10 17:49:25] INFO root fetch - processPackages [python-glmnet]: Remove: archive file [/home/abi/fetcher/tmp/python_glmnet-2.2.2-1-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2024-05-10 17:49:25] INFO root fetch - processPackages [python-glmnet]: Remove: archive file [/home/abi/fetcher/tmp/python_glmnet-2.2.2.post1-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2024-05-10 17:49:25] INFO root fetch - main [MainThread]: End processing [python-glmnet]: success
+[2024-05-10 17:49:25] INFO root fetch - main [MainThread]: Store serial: [23149253]
