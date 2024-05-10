@@ -21119,3 +21119,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:19:16] INFO root fetch - processPackages [snipinator]: Remove: archive file [/home/abi/fetcher/tmp/snipinator-1.4.1.tar.gz]
 [2024-05-10 16:19:16] INFO root fetch - main [MainThread]: End processing [snipinator]: success
 [2024-05-10 16:19:16] INFO root fetch - main [MainThread]: Store serial: [23147819]
+[2024-05-10 16:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147819]
+[2024-05-10 16:21:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spyglass-neuro
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scHyper
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: motsmeles
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.pgstac
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwb4fp
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-aws-apigateway
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: munet
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rest-solace
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmuxradio
+[2024-05-10 16:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: giza-datasets
+[2024-05-10 16:21:25] INFO root fetch - processPackages [rest-solace]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [tmuxradio]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.2.4] Old Version: [0.6.2.3]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [spyglass-neuro]: New version: [0.5.2a1] Old Version: [0.5.2]
+[2024-05-10 16:21:25] WARNING root fetch - processPackages [pytest-aws-apigateway]: Skipping, unable to determine old version
+[2024-05-10 16:21:25] INFO root fetch - processPackages [stac-fastapi.pgstac]: New version: [3.0.0a0] Old Version: [2.5.0]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [pytest-aws-apigateway]: Start processing: cidaridaez
+[2024-05-10 16:21:25] INFO root fetch - main [MainThread]: End processing [pytest-aws-apigateway] error
+[2024-05-10 16:21:25] INFO root fetch - processPackages [giza-datasets]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [motsmeles]: New version: [3.3.0] Old Version: [3.1.0]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/f3/7a/e6b4b4827dc19af2fc433fd3a05df8a7a301bbd742144073bf2018df5ed5/rest_solace-0.0.0.tar.gz
+[2024-05-10 16:21:25] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/36/27/6cfe1d6430d78a82962af89a2e36533e1b4ede3714b0bcd9ecd4a38ff1e2/tmuxradio-0.2.1.tar.gz
+[2024-05-10 16:21:25] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/e9/00/753ca4f5b1bdedca6b382ea4c65a4d4c350929c6a75c2dce2cc80fc214ec/nwb4fp-0.6.2.3.tar.gz
+[2024-05-10 16:21:25] WARNING root fetch - processPackages [scHyper]: Skipping, unable to determine old version
+[2024-05-10 16:21:25] INFO root fetch - processPackages [scHyper]: Start processing: rumchat-actor
+[2024-05-10 16:21:25] INFO root fetch - main [MainThread]: End processing [scHyper] error
+[2024-05-10 16:21:25] INFO root fetch - processPackages [cidaridaez]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/a1/d7/a1dd7c39b925ece0513e391b8aae113bd7c1d1f7b2e086d703d607015f09/spyglass_neuro-0.5.2.tar.gz
+[2024-05-10 16:21:25] INFO root fetch - processPackages [stac-fastapi.pgstac]: Downloading https://files.pythonhosted.org/packages/9a/7f/35a5ab9faaf12ff1d5ba8a87612fae478992a7c21f61356d8a8b2863760b/stac_fastapi_pgstac-2.5.0.tar.gz
+[2024-05-10 16:21:25] INFO root fetch - processPackages [motsmeles]: Downloading https://files.pythonhosted.org/packages/d5/c5/a3af5f4d6011974a15080979048955efd76094571ec95f994be60127d1b1/motsmeles-3.1.0.tar.gz
+[2024-05-10 16:21:25] INFO root fetch - processPackages [giza-datasets]: Downloading https://files.pythonhosted.org/packages/20/da/168e8406a72807cc8ba0bd7a2e383a6948da6535009671300b6cf175d311/giza_datasets-0.2.2.tar.gz
+[2024-05-10 16:21:25] INFO root fetch - processPackages [rumchat-actor]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-10 16:21:25] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2024-05-10 16:21:25] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/39/3c/8567845a17f16ea8d02ec0364e399c4392828cca8d978b7c6902666aeb37/rest_solace-0.0.1.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [cidaridaez]: Downloading https://files.pythonhosted.org/packages/a1/8c/408e3073106f569f93947f68e31f7f71f1ea21c478f3b90f62d5ebad1085/cidaridaez-1.1.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/d0/27/e325b5152062a739039622ab1ce3de6aea904617f04041a0e49dcc1d6497/nwb4fp-0.6.2.4-py3-none-any.whl
+[2024-05-10 16:21:26] INFO root fetch - processPackages [rumchat-actor]: Downloading https://files.pythonhosted.org/packages/21/f8/000a2eada987f070ee060aaf62aeebe4bfb90ace37eea8a1d59de3210d9c/rumchat_actor-1.0.1.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [rest-solace]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [rest-solace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_solace-0.0.0.tar.gz tmp/rest_solace-0.0.1.tar.gz --markdown 20240510/r/rest-solace/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [motsmeles]: Downloading https://files.pythonhosted.org/packages/42/bc/c89d64174ebe3ae88c8bacfee1e1c9e71dc58816a4ff4e2dd255f490b666/motsmeles-3.3.0.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.2.3.tar.gz tmp/nwb4fp-0.6.2.4-py3-none-any.whl.zip --markdown 20240510/n/nwb4fp/0.6.2.3-0.6.2.4/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [giza-datasets]: Downloading https://files.pythonhosted.org/packages/23/98/710c157e814676cc2d269b0333cfc2a1f0682bc324ba3bf6c9b783647d9b/giza_datasets-0.2.4.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [stac-fastapi.pgstac]: Downloading https://files.pythonhosted.org/packages/84/9a/fdae9e5f717a4f94acb702690d763e0d4c8ad089f89e57f89f02ae2c7eb2/stac_fastapi_pgstac-3.0.0a0.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/d1/52/68f6e4a3e9030b583af7de40c0c887c677574834d65ecdaaf1ef1affee40/tmuxradio-0.2.2.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [giza-datasets]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [giza-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_datasets-0.2.2.tar.gz tmp/giza_datasets-0.2.4.tar.gz --markdown 20240510/g/giza-datasets/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [cidaridaez]: Downloading https://files.pythonhosted.org/packages/89/cb/8186a07e8e7c9b1e219842b739e5beeffa1630c4c4194e065497bda784c2/cidaridaez-2.1.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [motsmeles]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [motsmeles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motsmeles-3.1.0.tar.gz tmp/motsmeles-3.3.0.tar.gz --markdown 20240510/m/motsmeles/3.1.0-3.3.0/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [rumchat-actor]: Downloading https://files.pythonhosted.org/packages/7b/1b/633037fce733f5efd97f7e9794fd2656f2d52b285d746aa4843ee9509130/rumchat_actor-1.1.0.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [munet]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20240510/m/munet/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [cidaridaez]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [cidaridaez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cidaridaez-1.1.tar.gz tmp/cidaridaez-2.1.tar.gz --markdown 20240510/c/cidaridaez/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [stac-fastapi.pgstac]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [stac-fastapi.pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_pgstac-2.5.0.tar.gz tmp/stac_fastapi_pgstac-3.0.0a0.tar.gz --markdown 20240510/s/stac-fastapi.pgstac/2.5.0-3.0.0a0/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/29/4f/4c78aa72b34dc20008e1e4940d84ab57f4d5326bf4fa055092c2f875a7e5/spyglass_neuro-0.5.2a1.tar.gz
+[2024-05-10 16:21:26] INFO root fetch - processPackages [rumchat-actor]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [rumchat-actor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rumchat_actor-1.0.1.tar.gz tmp/rumchat_actor-1.1.0.tar.gz --markdown 20240510/r/rumchat-actor/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [tmuxradio]: executing diffoscope
+[2024-05-10 16:21:26] INFO root fetch - processPackages [tmuxradio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmuxradio-0.2.1.tar.gz tmp/tmuxradio-0.2.2.tar.gz --markdown 20240510/t/tmuxradio/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 16:21:26] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.3.tar.gz]
+[2024-05-10 16:21:26] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.4-py3-none-any.whl.zip]
+[2024-05-10 16:21:26] INFO root fetch - processPackages [nwb4fp]: Start processing: delivery-engine-client
+[2024-05-10 16:21:26] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-10 16:21:27] WARNING root fetch - processPackages [delivery-engine-client]: Skipping, unable to determine old version
+[2024-05-10 16:21:27] INFO root fetch - processPackages [delivery-engine-client]: Start processing: rag-pychunk
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [delivery-engine-client] error
+[2024-05-10 16:21:27] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.0.0.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.0.1.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [rest-solace]: success
+[2024-05-10 16:21:27] WARNING root fetch - processPackages [rag-pychunk]: Skipping, unable to determine old version
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [rag-pychunk] error
+[2024-05-10 16:21:27] INFO root fetch - processPackages [giza-datasets]: Remove: archive file [/home/abi/fetcher/tmp/giza_datasets-0.2.2.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - processPackages [giza-datasets]: Remove: archive file [/home/abi/fetcher/tmp/giza_datasets-0.2.4.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [giza-datasets]: success
+[2024-05-10 16:21:27] INFO root fetch - processPackages [motsmeles]: Remove: archive file [/home/abi/fetcher/tmp/motsmeles-3.1.0.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - processPackages [motsmeles]: Remove: archive file [/home/abi/fetcher/tmp/motsmeles-3.3.0.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [motsmeles]: success
+[2024-05-10 16:21:27] INFO root fetch - processPackages [cidaridaez]: Remove: archive file [/home/abi/fetcher/tmp/cidaridaez-1.1.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - processPackages [cidaridaez]: Remove: archive file [/home/abi/fetcher/tmp/cidaridaez-2.1.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [cidaridaez]: success
+[2024-05-10 16:21:27] INFO root fetch - processPackages [spyglass-neuro]: executing diffoscope
+[2024-05-10 16:21:27] INFO root fetch - processPackages [spyglass-neuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyglass_neuro-0.5.2.tar.gz tmp/spyglass_neuro-0.5.2a1.tar.gz --markdown 20240510/s/spyglass-neuro/0.5.2-0.5.2a1/README.md --exclude *.pyd
+[2024-05-10 16:21:27] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.8.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.9.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2024-05-10 16:21:27] INFO root fetch - processPackages [stac-fastapi.pgstac]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_pgstac-2.5.0.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - processPackages [stac-fastapi.pgstac]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_pgstac-3.0.0a0.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [stac-fastapi.pgstac]: success
+[2024-05-10 16:21:27] INFO root fetch - processPackages [rumchat-actor]: Remove: archive file [/home/abi/fetcher/tmp/rumchat_actor-1.0.1.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - processPackages [rumchat-actor]: Remove: archive file [/home/abi/fetcher/tmp/rumchat_actor-1.1.0.tar.gz]
+[2024-05-10 16:21:27] INFO root fetch - main [MainThread]: End processing [rumchat-actor]: success
+[2024-05-10 16:21:29] INFO root fetch - processPackages [spyglass-neuro]: Remove: archive file [/home/abi/fetcher/tmp/spyglass_neuro-0.5.2.tar.gz]
+[2024-05-10 16:21:29] INFO root fetch - processPackages [spyglass-neuro]: Remove: archive file [/home/abi/fetcher/tmp/spyglass_neuro-0.5.2a1.tar.gz]
+[2024-05-10 16:21:29] INFO root fetch - main [MainThread]: End processing [spyglass-neuro]: success
+[2024-05-10 16:21:32] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.1.tar.gz]
+[2024-05-10 16:21:32] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.2.tar.gz]
+[2024-05-10 16:21:32] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
+[2024-05-10 16:21:32] INFO root fetch - main [MainThread]: Store serial: [23147869]
