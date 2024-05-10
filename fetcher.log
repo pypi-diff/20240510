@@ -2404,3 +2404,120 @@
 [2024-05-10 02:16:48] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.2-py3-none-any.whl.zip]
 [2024-05-10 02:16:48] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-05-10 02:16:48] INFO root fetch - main [MainThread]: Store serial: [23139319]
+[2024-05-10 02:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139319]
+[2024-05-10 02:19:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ignite
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instabase-aihub
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hecplus
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gluestick
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsplus
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdklabs.appsync-utils
+[2024-05-10 02:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-gitlab-runner
+[2024-05-10 02:19:05] INFO root fetch - processPackages [hecplus]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 02:19:05] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [gluestick]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240509] Old Version: [0.6.0.dev20240508]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [instabase-aihub]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [dsplus]: New version: [0.5.1] Old Version: [0.4.9]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/14/51/4d60b3d5fd92b0cb2d99d83e79ff0c17721fc1349f78b9bf26c0e9ec1e32/pytorch_ignite-0.6.0.dev20240508.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [hecplus]: Downloading https://files.pythonhosted.org/packages/1a/64/0c2cb4212108bcc407cae2f4ba7b54ef7f4368efdcde299483c7b5d72abf/hecplus-0.1.0.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [gluestick]: Downloading https://files.pythonhosted.org/packages/fa/59/1066490b29af188458e0b642913fdc5d23b5f882d8e854b628066acde8af/gluestick-2.1.8.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/e4/a5/661020623f0f7b7be65acb24c36fcde092307b65eec1d5bbae82ccc203ff/dsplus-0.4.9.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [instabase-aihub]: Downloading https://files.pythonhosted.org/packages/fe/7f/8f4cb95e0acfcdeeeffc79b591e3dd35de0a7b5b9d47ef4d07e53ee2218e/instabase-aihub-0.1.2.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [hecplus]: Downloading https://files.pythonhosted.org/packages/81/68/1d24413bac78edb97c90fdee5ea22db4f0b138057a6d6d4d432136d6199e/hecplus-0.1.1.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/30/34/42c411cef531d3ec9f2fe5c8160cb2b611a0972d4d4f4d6b3011183c8c56/pytorch_ignite-0.6.0.dev20240509.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [gluestick]: Downloading https://files.pythonhosted.org/packages/ad/5e/9546772802134affc2b806507dfbf30e6ce60f3950fed655059a24f4d01b/gluestick-2.1.9.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/1d/ec/30003c80f9e5aae7b691f26f9665c626ba29a6a42fce1a87c3c90c08cdff/dsplus-0.5.1.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240510/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [instabase-aihub]: Downloading https://files.pythonhosted.org/packages/35/a4/19a8851c388fa35d3e731e75b05df33da0d3836258d26b50dc168e9c739b/instabase-aihub-0.1.3.tar.gz
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240510/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240510/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [hecplus]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [hecplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hecplus-0.1.0.tar.gz tmp/hecplus-0.1.1.tar.gz --markdown 20240510/h/hecplus/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240510/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240508.tar.gz tmp/pytorch_ignite-0.6.0.dev20240509.tar.gz --markdown 20240510/p/pytorch-ignite/0.6.0.dev20240508-0.6.0.dev20240509/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [gluestick]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [gluestick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluestick-2.1.8.tar.gz tmp/gluestick-2.1.9.tar.gz --markdown 20240510/g/gluestick/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.4.9.tar.gz tmp/dsplus-0.5.1.tar.gz --markdown 20240510/d/dsplus/0.4.9-0.5.1/README.md --exclude *.pyd
+[2024-05-10 02:19:06] INFO root fetch - processPackages [instabase-aihub]: executing diffoscope
+[2024-05-10 02:19:06] INFO root fetch - processPackages [instabase-aihub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instabase-aihub-0.1.2.tar.gz tmp/instabase-aihub-0.1.3.tar.gz --markdown 20240510/i/instabase-aihub/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240510/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: cdk-budibase
+[2024-05-10 02:19:07] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: lastree
+[2024-05-10 02:19:07] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-10 02:19:07] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-10 02:19:07] INFO root fetch - processPackages [hecplus]: Remove: archive file [/home/abi/fetcher/tmp/hecplus-0.1.0.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [hecplus]: Remove: archive file [/home/abi/fetcher/tmp/hecplus-0.1.1.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [hecplus]: Start processing: leptospirez
+[2024-05-10 02:19:07] INFO root fetch - main [MainThread]: End processing [hecplus]: success
+[2024-05-10 02:19:07] INFO root fetch - processPackages [gluestick]: Remove: archive file [/home/abi/fetcher/tmp/gluestick-2.1.8.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [gluestick]: Remove: archive file [/home/abi/fetcher/tmp/gluestick-2.1.9.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [gluestick]: Start processing: autopipeline
+[2024-05-10 02:19:07] INFO root fetch - main [MainThread]: End processing [gluestick]: success
+[2024-05-10 02:19:07] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.9.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.5.1.tar.gz]
+[2024-05-10 02:19:07] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-05-10 02:19:07] WARNING root fetch - processPackages [lastree]: Skipping, unable to determine old version
+[2024-05-10 02:19:07] INFO root fetch - main [MainThread]: End processing [lastree] error
+[2024-05-10 02:19:08] WARNING root fetch - processPackages [leptospirez]: Skipping, unable to determine old version
+[2024-05-10 02:19:08] INFO root fetch - main [MainThread]: End processing [leptospirez] error
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-10 02:19:08] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-10 02:19:08] INFO root fetch - processPackages [instabase-aihub]: Remove: archive file [/home/abi/fetcher/tmp/instabase-aihub-0.1.2.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - processPackages [instabase-aihub]: Remove: archive file [/home/abi/fetcher/tmp/instabase-aihub-0.1.3.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - main [MainThread]: End processing [instabase-aihub]: success
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240510/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 02:19:08] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240508.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240509.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-10 02:19:08] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-10 02:19:08] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-10 02:19:08] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-10 02:19:08] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240510/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-10 02:19:08] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-10 02:19:09] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-10 02:19:09] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-10 02:19:09] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-10 02:19:09] INFO root fetch - main [MainThread]: Store serial: [23139363]
