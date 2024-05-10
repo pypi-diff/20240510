@@ -20859,3 +20859,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:12:21] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a9-py3-none-any.whl.zip]
 [2024-05-10 16:12:21] INFO root fetch - main [MainThread]: End processing [objectbox]: success
 [2024-05-10 16:12:21] INFO root fetch - main [MainThread]: Store serial: [23147708]
+[2024-05-10 16:14:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147708]
+[2024-05-10 16:14:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: staccatoz
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-sync-roles
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CUCMLib
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PlumedToHTML
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-systemcoupling-core
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ydb-sqlalchemy
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: britive
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tenzir
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-gcp
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2024-05-10 16:14:39] WARNING root fetch - processPackages [staccatoz]: Skipping, unable to determine old version
+[2024-05-10 16:14:39] INFO root fetch - processPackages [staccatoz]: Start processing: codemodder
+[2024-05-10 16:14:39] INFO root fetch - main [MainThread]: End processing [staccatoz] error
+[2024-05-10 16:14:39] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [CUCMLib]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ansys-systemcoupling-core]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-10 16:14:39] INFO root fetch - processPackages [ydb-sqlalchemy]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-10 16:14:39] INFO root fetch - processPackages [tenzir]: New version: [4.9.0] Old Version: [4.8.2]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [britive]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-10 16:14:39] INFO root fetch - processPackages [CUCMLib]: Downloading https://files.pythonhosted.org/packages/ef/2f/14a4f85e2a7394c9744f5c86b7ee401e676f3329617a0634b60f3a9fef12/CUCMLib-0.1.7-py3-none-any.whl
+[2024-05-10 16:14:39] INFO root fetch - processPackages [codemodder]: New version: [0.98.1] Old Version: [0.98.0]
+[2024-05-10 16:14:40] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ydb-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/a7/d3/f9f9da00584b7fc5b8b8c119b5c3f94c1f715e5d3f5311cd5675290e5af4/ydb-sqlalchemy-0.0.1b8.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ansys-systemcoupling-core]: Downloading https://files.pythonhosted.org/packages/8e/cb/c7f69286505350e3533e5d9dad23f8ee9e8b9ecbca012a4ac1316589a42a/ansys_systemcoupling_core-0.4.1.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [tenzir]: Downloading https://files.pythonhosted.org/packages/ae/b5/3cebea0d71c0842865ba21ba5eb8ba4ec7b81c08c08b6a9b62c03ac88ce5/tenzir-4.8.2.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [britive]: Downloading https://files.pythonhosted.org/packages/ad/fe/09512cf25bfb5eebb803da0b5f76924c129c7ffe22d960be8db84a4705d5/britive-2.8.1.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [codemodder]: Downloading https://files.pythonhosted.org/packages/dc/e0/c9d7ae13ad0469bcd69e2808f36cf4f07d179d908ef7c4e6867612240df1/codemodder-0.98.0.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [CUCMLib]: Downloading https://files.pythonhosted.org/packages/ac/57/26021cfa1a47a144c1e9699fd09eb00ef15b6b30ca1e7545270164798ec3/CUCMLib-0.1.8-py3-none-any.whl
+[2024-05-10 16:14:40] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240510/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 16:14:40] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240510/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 16:14:40] INFO root fetch - processPackages [CUCMLib]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [CUCMLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUCMLib-0.1.7-py3-none-any.whl.zip tmp/CUCMLib-0.1.8-py3-none-any.whl.zip --markdown 20240510/C/CUCMLib/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 16:14:40] INFO root fetch - processPackages [tenzir]: Downloading https://files.pythonhosted.org/packages/e2/0e/a7a8a662547907859021f98b58cfd0ea300495994aa314939c1a0539d06b/tenzir-4.9.0.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ansys-systemcoupling-core]: Downloading https://files.pythonhosted.org/packages/e3/f7/c6501876ac2288bd9722fdafe57460d0f20c80f08f106c34bd3c3d506967/ansys_systemcoupling_core-0.5.0.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ydb-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/4e/4c/52555526f923fcab8dbd3230b93d0cdb7f79fecd4fd4171d50e3c55d9db7/ydb-sqlalchemy-0.0.1b9.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [britive]: Downloading https://files.pythonhosted.org/packages/f5/b8/6056ab55919b8f38bd45f07c3be6ed61a97bc56f413f4e0e1e8ebb38e7c4/britive-2.9.0.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ansys-systemcoupling-core]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ansys-systemcoupling-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_systemcoupling_core-0.4.1.tar.gz tmp/ansys_systemcoupling_core-0.5.0.tar.gz --markdown 20240510/a/ansys-systemcoupling-core/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-10 16:14:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ydb-sqlalchemy]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [ydb-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-sqlalchemy-0.0.1b8.tar.gz tmp/ydb-sqlalchemy-0.0.1b9.tar.gz --markdown 20240510/y/ydb-sqlalchemy/0.0.1b8-0.0.1b9/README.md --exclude *.pyd
+[2024-05-10 16:14:40] INFO root fetch - processPackages [codemodder]: Downloading https://files.pythonhosted.org/packages/b0/a4/9b3f672ea7359f8b9caea2f9069af271d2a387c8a639db4adc91d336d81e/codemodder-0.98.1.tar.gz
+[2024-05-10 16:14:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240510/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-10 16:14:40] INFO root fetch - processPackages [tenzir]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [tenzir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenzir-4.8.2.tar.gz tmp/tenzir-4.9.0.tar.gz --markdown 20240510/t/tenzir/4.8.2-4.9.0/README.md --exclude *.pyd
+[2024-05-10 16:14:40] INFO root fetch - processPackages [britive]: executing diffoscope
+[2024-05-10 16:14:40] INFO root fetch - processPackages [britive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/britive-2.8.1.tar.gz tmp/britive-2.9.0.tar.gz --markdown 20240510/b/britive/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-10 16:14:41] INFO root fetch - processPackages [codemodder]: executing diffoscope
+[2024-05-10 16:14:41] INFO root fetch - processPackages [codemodder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codemodder-0.98.0.tar.gz tmp/codemodder-0.98.1.tar.gz --markdown 20240510/c/codemodder/0.98.0-0.98.1/README.md --exclude *.pyd
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240510/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pg-sync-roles]: Start processing: pulumi-ise
+[2024-05-10 16:14:41] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-10 16:14:41] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [PlumedToHTML]: Start processing: emkonfig
+[2024-05-10 16:14:41] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715347506] Old Version: [0.2.0a1715232907]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [emkonfig]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/1b/5d/f63b60fc8125c816095da6764b68305298c9aa8d4e57933e202a5629b049/pulumi_ise-0.2.0a1715232907.tar.gz
+[2024-05-10 16:14:41] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/15/d9/1dbb2569bac564d8bb01db4c00b7e37ee2debda323e08ac2775d488d478b/emkonfig-0.1.2.tar.gz
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/dc/be/a1780ddc9edfe3ba1bc7f4239192a4b5f576a08fdf7e3956664f5bc57b32/pulumi_ise-0.2.0a1715347506.tar.gz
+[2024-05-10 16:14:41] INFO root fetch - processPackages [ydb-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/ydb-sqlalchemy-0.0.1b8.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [emkonfig]: Downloading https://files.pythonhosted.org/packages/93/52/e8b4ea7f073171385470ef66d5dd10be316d0432beb069e99c843f52416b/emkonfig-0.1.3.tar.gz
+[2024-05-10 16:14:41] INFO root fetch - processPackages [ydb-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/ydb-sqlalchemy-0.0.1b9.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [ydb-sqlalchemy]: Start processing: zp-data
+[2024-05-10 16:14:41] INFO root fetch - main [MainThread]: End processing [ydb-sqlalchemy]: success
+[2024-05-10 16:14:41] INFO root fetch - processPackages [tenzir]: Remove: archive file [/home/abi/fetcher/tmp/tenzir-4.8.2.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [tenzir]: Remove: archive file [/home/abi/fetcher/tmp/tenzir-4.9.0.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - main [MainThread]: End processing [tenzir]: success
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-10 16:14:41] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715232907.tar.gz tmp/pulumi_ise-0.2.0a1715347506.tar.gz --markdown 20240510/p/pulumi-ise/0.2.0a1715232907-0.2.0a1715347506/README.md --exclude *.pyd
+[2024-05-10 16:14:41] INFO root fetch - processPackages [emkonfig]: executing diffoscope
+[2024-05-10 16:14:41] INFO root fetch - processPackages [emkonfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emkonfig-0.1.2.tar.gz tmp/emkonfig-0.1.3.tar.gz --markdown 20240510/e/emkonfig/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 16:14:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-10 16:14:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-10 16:14:41] WARNING root fetch - processPackages [zp-data]: Skipping, unable to determine old version
+[2024-05-10 16:14:41] INFO root fetch - main [MainThread]: End processing [zp-data] error
+[2024-05-10 16:14:42] INFO root fetch - processPackages [britive]: Remove: archive file [/home/abi/fetcher/tmp/britive-2.8.1.tar.gz]
+[2024-05-10 16:14:42] INFO root fetch - processPackages [britive]: Remove: archive file [/home/abi/fetcher/tmp/britive-2.9.0.tar.gz]
+[2024-05-10 16:14:42] INFO root fetch - main [MainThread]: End processing [britive]: success
+[2024-05-10 16:14:42] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.2.tar.gz]
+[2024-05-10 16:14:42] INFO root fetch - processPackages [emkonfig]: Remove: archive file [/home/abi/fetcher/tmp/emkonfig-0.1.3.tar.gz]
+[2024-05-10 16:14:42] INFO root fetch - main [MainThread]: End processing [emkonfig]: success
+[2024-05-10 16:14:42] INFO root fetch - processPackages [ansys-systemcoupling-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_systemcoupling_core-0.4.1.tar.gz]
+[2024-05-10 16:14:42] INFO root fetch - processPackages [ansys-systemcoupling-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_systemcoupling_core-0.5.0.tar.gz]
+[2024-05-10 16:14:42] INFO root fetch - main [MainThread]: End processing [ansys-systemcoupling-core]: success
+[2024-05-10 16:14:43] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715232907.tar.gz]
+[2024-05-10 16:14:43] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715347506.tar.gz]
+[2024-05-10 16:14:43] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-10 16:14:43] INFO root fetch - processPackages [codemodder]: Remove: archive file [/home/abi/fetcher/tmp/codemodder-0.98.0.tar.gz]
+[2024-05-10 16:14:43] INFO root fetch - processPackages [codemodder]: Remove: archive file [/home/abi/fetcher/tmp/codemodder-0.98.1.tar.gz]
+[2024-05-10 16:14:43] INFO root fetch - main [MainThread]: End processing [codemodder]: success
+[2024-05-10 16:14:44] INFO root fetch - processPackages [CUCMLib]: Remove: archive file [/home/abi/fetcher/tmp/CUCMLib-0.1.7-py3-none-any.whl.zip]
+[2024-05-10 16:14:44] INFO root fetch - processPackages [CUCMLib]: Remove: archive file [/home/abi/fetcher/tmp/CUCMLib-0.1.8-py3-none-any.whl.zip]
+[2024-05-10 16:14:44] INFO root fetch - main [MainThread]: End processing [CUCMLib]: success
+[2024-05-10 16:14:51] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-10 16:14:51] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-10 16:14:51] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-10 16:14:51] INFO root fetch - main [MainThread]: Store serial: [23147751]
