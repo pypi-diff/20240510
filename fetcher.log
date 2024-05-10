@@ -7330,3 +7330,39 @@
 [2024-05-10 07:25:16] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-10 07:25:16] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-10 07:25:16] INFO root fetch - main [MainThread]: Store serial: [23141656]
+[2024-05-10 07:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141656]
+[2024-05-10 07:27:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 07:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-more-shortcuts
+[2024-05-10 07:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygame-screen-record
+[2024-05-10 07:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: porphyriaz
+[2024-05-10 07:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-pausable-contextual-help
+[2024-05-10 07:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mns-common
+[2024-05-10 07:27:25] INFO root fetch - processPackages [pygame-screen-record]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-10 07:27:25] INFO root fetch - processPackages [pygame-screen-record]: Downloading https://files.pythonhosted.org/packages/09/fe/57f6f6b6c8b2fef2434d7ac12557700a77e9938a29fb65c8e251a139f173/pygame-screen-record-0.0.6.tar.gz
+[2024-05-10 07:27:25] WARNING root fetch - processPackages [porphyriaz]: Skipping, unable to determine old version
+[2024-05-10 07:27:25] INFO root fetch - main [MainThread]: End processing [porphyriaz] error
+[2024-05-10 07:27:25] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 07:27:25] WARNING root fetch - processPackages [jupyterlab-more-shortcuts]: Skipping, unable to determine old version
+[2024-05-10 07:27:25] INFO root fetch - main [MainThread]: End processing [jupyterlab-more-shortcuts] error
+[2024-05-10 07:27:25] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.7] Old Version: [1.0.8.6]
+[2024-05-10 07:27:25] INFO root fetch - processPackages [pygame-screen-record]: Downloading https://files.pythonhosted.org/packages/08/ac/d40b05cab098ccbd3ae4d4d6ebb5eed61203744312fdbe77602bc42c5783/pygame_screen_record-0.1.0.tar.gz
+[2024-05-10 07:27:25] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: Downloading https://files.pythonhosted.org/packages/f0/24/2818bca1aa39c01d287856714fd87cddd5d85b5ded952d9fe4b4f48f211f/jupyterlab_pausable_contextual_help-0.1.2.tar.gz
+[2024-05-10 07:27:25] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/a2/3a/db027b122d868c9114b1dc8034035828a38d69308332ed633bc6dbb81ed6/mns_common-1.0.8.6.tar.gz
+[2024-05-10 07:27:25] INFO root fetch - processPackages [pygame-screen-record]: executing diffoscope
+[2024-05-10 07:27:25] INFO root fetch - processPackages [pygame-screen-record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame-screen-record-0.0.6.tar.gz tmp/pygame_screen_record-0.1.0.tar.gz --markdown 20240510/p/pygame-screen-record/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-10 07:27:25] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/54/9f/724e3ffa79ea26a881d039aab642d7b0a1ed3632480a16abb2fe3b90e2b8/mns_common-1.0.8.7.tar.gz
+[2024-05-10 07:27:25] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: Downloading https://files.pythonhosted.org/packages/ef/45/19dd5d75f686126a851f00554b3aba2145a83963f0517b6e7b90ad15ed80/jupyterlab_pausable_contextual_help-0.1.3.tar.gz
+[2024-05-10 07:27:25] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-10 07:27:25] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.8.6.tar.gz tmp/mns_common-1.0.8.7.tar.gz --markdown 20240510/m/mns-common/1.0.8.6-1.0.8.7/README.md --exclude *.pyd
+[2024-05-10 07:27:25] INFO root fetch - processPackages [pygame-screen-record]: Remove: archive file [/home/abi/fetcher/tmp/pygame-screen-record-0.0.6.tar.gz]
+[2024-05-10 07:27:25] INFO root fetch - processPackages [pygame-screen-record]: Remove: archive file [/home/abi/fetcher/tmp/pygame_screen_record-0.1.0.tar.gz]
+[2024-05-10 07:27:25] INFO root fetch - main [MainThread]: End processing [pygame-screen-record]: success
+[2024-05-10 07:27:26] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: executing diffoscope
+[2024-05-10 07:27:26] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_pausable_contextual_help-0.1.2.tar.gz tmp/jupyterlab_pausable_contextual_help-0.1.3.tar.gz --markdown 20240510/j/jupyterlab-pausable-contextual-help/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 07:27:26] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.6.tar.gz]
+[2024-05-10 07:27:26] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.7.tar.gz]
+[2024-05-10 07:27:26] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-10 07:27:27] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pausable_contextual_help-0.1.2.tar.gz]
+[2024-05-10 07:27:27] INFO root fetch - processPackages [jupyterlab-pausable-contextual-help]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pausable_contextual_help-0.1.3.tar.gz]
+[2024-05-10 07:27:27] INFO root fetch - main [MainThread]: End processing [jupyterlab-pausable-contextual-help]: success
+[2024-05-10 07:27:27] INFO root fetch - main [MainThread]: Store serial: [23141675]
