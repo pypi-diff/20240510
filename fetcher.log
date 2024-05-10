@@ -7444,3 +7444,45 @@
 [2024-05-10 07:29:40] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240509.1.tar.gz]
 [2024-05-10 07:29:40] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2024-05-10 07:29:40] INFO root fetch - main [MainThread]: Store serial: [23141704]
+[2024-05-10 07:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141704]
+[2024-05-10 07:31:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 07:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-indie-tools
+[2024-05-10 07:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-inapp-survey
+[2024-05-10 07:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrkutil
+[2024-05-10 07:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infrable
+[2024-05-10 07:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scolopendridz
+[2024-05-10 07:31:49] INFO root fetch - processPackages [mrkutil]: New version: [1.3.5] Old Version: [1.3.3]
+[2024-05-10 07:31:49] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 07:31:49] INFO root fetch - processPackages [ml-indie-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 07:31:49] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/e2/78/b1d7a431ba47c45d38ecdb61e13acc3d33c28cee478518fd56cee1f2521a/mrkutil-1.3.3.tar.gz
+[2024-05-10 07:31:49] INFO root fetch - processPackages [django-inapp-survey]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-10 07:31:49] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-10 07:31:49] WARNING root fetch - processPackages [scolopendridz]: Skipping, unable to determine old version
+[2024-05-10 07:31:49] INFO root fetch - main [MainThread]: End processing [scolopendridz] error
+[2024-05-10 07:31:49] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/69/1d/c6da639234bf4fc987bcf4c70d7f07f77fa76a44aefc0606a4a01d5a7df1/ml-indie-tools-0.9.8.tar.gz
+[2024-05-10 07:31:49] INFO root fetch - processPackages [django-inapp-survey]: Downloading https://files.pythonhosted.org/packages/c7/97/585d3a20b7c6bfc322920f1d5803b2b58d02f7d43ef8ebb7dcf954f25a1a/django-inapp-survey-0.2.5.tar.gz
+[2024-05-10 07:31:49] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/bf/7c/0cf821b80da130e7c993158062a72cc3a128a78bc513a720621be4ada51a/mrkutil-1.3.5.tar.gz
+[2024-05-10 07:31:49] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-10 07:31:49] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/dc/de/d925fee74bb8d13f43b041409d0894d88ac152c18da6ca97c4d9820355c9/ml-indie-tools-0.9.9.tar.gz
+[2024-05-10 07:31:49] INFO root fetch - processPackages [mrkutil]: executing diffoscope
+[2024-05-10 07:31:49] INFO root fetch - processPackages [mrkutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrkutil-1.3.3.tar.gz tmp/mrkutil-1.3.5.tar.gz --markdown 20240510/m/mrkutil/1.3.3-1.3.5/README.md --exclude *.pyd
+[2024-05-10 07:31:49] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-10 07:31:49] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240510/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 07:31:49] INFO root fetch - processPackages [ml-indie-tools]: executing diffoscope
+[2024-05-10 07:31:49] INFO root fetch - processPackages [ml-indie-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-indie-tools-0.9.8.tar.gz tmp/ml-indie-tools-0.9.9.tar.gz --markdown 20240510/m/ml-indie-tools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 07:31:50] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.3.3.tar.gz]
+[2024-05-10 07:31:50] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.3.5.tar.gz]
+[2024-05-10 07:31:50] INFO root fetch - main [MainThread]: End processing [mrkutil]: success
+[2024-05-10 07:31:50] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-10 07:31:50] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-10 07:31:50] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-10 07:31:50] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.8.tar.gz]
+[2024-05-10 07:31:50] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.9.tar.gz]
+[2024-05-10 07:31:50] INFO root fetch - main [MainThread]: End processing [ml-indie-tools]: success
+[2024-05-10 07:31:50] INFO root fetch - processPackages [django-inapp-survey]: Downloading https://files.pythonhosted.org/packages/6b/42/c569835be97417171a0ce026ec0364646331b6d091d576b58e1c40a29fb3/django-inapp-survey-0.2.6.tar.gz
+[2024-05-10 07:31:50] INFO root fetch - processPackages [django-inapp-survey]: executing diffoscope
+[2024-05-10 07:31:50] INFO root fetch - processPackages [django-inapp-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-inapp-survey-0.2.5.tar.gz tmp/django-inapp-survey-0.2.6.tar.gz --markdown 20240510/d/django-inapp-survey/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-10 07:31:53] INFO root fetch - processPackages [django-inapp-survey]: Remove: archive file [/home/abi/fetcher/tmp/django-inapp-survey-0.2.5.tar.gz]
+[2024-05-10 07:31:53] INFO root fetch - processPackages [django-inapp-survey]: Remove: archive file [/home/abi/fetcher/tmp/django-inapp-survey-0.2.6.tar.gz]
+[2024-05-10 07:31:53] INFO root fetch - main [MainThread]: End processing [django-inapp-survey]: success
+[2024-05-10 07:31:53] INFO root fetch - main [MainThread]: Store serial: [23141719]
