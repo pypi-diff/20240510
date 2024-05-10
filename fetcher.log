@@ -21449,3 +21449,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:30:19] INFO root fetch - processPackages [requests-darwin-lite]: Remove: archive file [/home/abi/fetcher/tmp/requests_darwin_lite-2.28.0.tar.gz]
 [2024-05-10 16:30:19] INFO root fetch - main [MainThread]: End processing [requests-darwin-lite]: success
 [2024-05-10 16:30:19] INFO root fetch - main [MainThread]: Store serial: [23148023]
+[2024-05-10 16:32:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148023]
+[2024-05-10 16:32:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rag-pychunk
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmuxradio
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colourablenessz
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyserrf
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textstat-cli-tddschn
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: btc-embedded
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libhum
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datamana
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LCPDelta
+[2024-05-10 16:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smartbetsAPI
+[2024-05-10 16:32:29] INFO root fetch - processPackages [tmuxradio]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-10 16:32:29] WARNING root fetch - processPackages [rag-pychunk]: Skipping, unable to determine old version
+[2024-05-10 16:32:29] INFO root fetch - processPackages [rag-pychunk]: Start processing: parenthesizez
+[2024-05-10 16:32:29] INFO root fetch - main [MainThread]: End processing [rag-pychunk] error
+[2024-05-10 16:32:29] INFO root fetch - processPackages [LCPDelta]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-10 16:32:29] INFO root fetch - processPackages [pyserrf]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 16:32:29] INFO root fetch - processPackages [libhum]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-10 16:32:29] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/d1/52/68f6e4a3e9030b583af7de40c0c887c677574834d65ecdaaf1ef1affee40/tmuxradio-0.2.2.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [colourablenessz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:32:30] INFO root fetch - processPackages [smartbetsAPI]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-10 16:32:30] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/e1/c2/b9f4a3e6959cdff11d311c276c5959998686d576741f4d1aadb176428554/LCPDelta-1.1.8.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-05-10 16:32:30] WARNING root fetch - processPackages [textstat-cli-tddschn]: Skipping, unable to determine old version
+[2024-05-10 16:32:30] INFO root fetch - processPackages [textstat-cli-tddschn]: Start processing: psat-server-web
+[2024-05-10 16:32:30] INFO root fetch - processPackages [datamana]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 16:32:30] INFO root fetch - main [MainThread]: End processing [textstat-cli-tddschn] error
+[2024-05-10 16:32:30] INFO root fetch - processPackages [pyserrf]: Downloading https://files.pythonhosted.org/packages/c3/4d/a44e8f34f1996f2ffa2001d24222183b78b54cb5d7f1052d316c9b3b2704/pyserrf-0.1.4.tar.gz
+[2024-05-10 16:32:30] WARNING root fetch - processPackages [parenthesizez]: Skipping, unable to determine old version
+[2024-05-10 16:32:30] INFO root fetch - processPackages [parenthesizez]: Start processing: work
+[2024-05-10 16:32:30] INFO root fetch - main [MainThread]: End processing [parenthesizez] error
+[2024-05-10 16:32:30] INFO root fetch - processPackages [work]: New version: [1.1.0b1] Old Version: [1.1.0a4]
+[2024-05-10 16:32:30] INFO root fetch - processPackages [colourablenessz]: Downloading https://files.pythonhosted.org/packages/14/b9/24f0dcdbb1a0242ccb8062e2537de5d293a357034b18ade73ffc383d13cb/colourablenessz-1.1.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [libhum]: Downloading https://files.pythonhosted.org/packages/70/c1/e7e83d766f4394e30c488aea72767fcd55b62be86f9c8c34f99cbbc5e0e1/libhum-1.1.3-py3-none-any.whl
+[2024-05-10 16:32:30] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/56/1d/9688532dab51d71896c43c73c3d03adad8f55493d9ae15bb0d5896e4c51b/work-1.1.0a4.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [psat-server-web]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-10 16:32:30] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/23/34/571c01d4b5bcdf1d0fe2182c2b277bd4e4a6800641d6bf75a0a0319d5af2/smartbetsapi-1.3.0.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [datamana]: Downloading https://files.pythonhosted.org/packages/a2/45/208e1e292b0ca3ec6932a7072cc8401ff18008df56d992b4a0e18c6ace19/datamana-0.1.0.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/84/25/10e53704ee31389c1936801ca4636b2bda2da3af18021f46764fe8e573e8/LCPDelta-1.1.9.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [pyserrf]: Downloading https://files.pythonhosted.org/packages/8d/99/b48f8de0a310f1ab3902ff6cab7df558a2599bbe7a5f31623b20b2b57783/pyserrf-0.1.5.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [LCPDelta]: executing diffoscope
+[2024-05-10 16:32:30] INFO root fetch - processPackages [LCPDelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LCPDelta-1.1.8.tar.gz tmp/LCPDelta-1.1.9.tar.gz --markdown 20240510/L/LCPDelta/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-10 16:32:30] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/a8/79/c9585621628cbec5e4c234c56a04795abaf7032c17f4a3a15b00765e3def/work-1.1.0b1.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/63/4c/c0f32c8e24cb6dca8fd70be5a5df4cfa2676ac4f41f77ea2b587799b03e2/psat-server-web-0.3.8.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [pyserrf]: executing diffoscope
+[2024-05-10 16:32:30] INFO root fetch - processPackages [pyserrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserrf-0.1.4.tar.gz tmp/pyserrf-0.1.5.tar.gz --markdown 20240510/p/pyserrf/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 16:32:30] INFO root fetch - processPackages [colourablenessz]: Downloading https://files.pythonhosted.org/packages/67/9d/c0d9df2b4670d477d3fc3ae0a50e5d137e433a1561f56f7ff046f252a67c/colourablenessz-2.1.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/86/57/bc825eaac056507114574237d7b0230c4a333e80feffb2d1802055af179d/smartbetsapi-1.3.1.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/42/68/01645496c449e0d1044b01500a11f43dc70b4254e394d92bd02e3eb65050/tmuxradio-0.2.3.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [libhum]: Downloading https://files.pythonhosted.org/packages/00/08/bbdaa22633d6c46590fd78eeac5a4c86a5cc0a22c3022ceb4551e16b6b59/libhum-1.1.4-py3-none-any.whl
+[2024-05-10 16:32:30] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [work]: executing diffoscope
+[2024-05-10 16:32:30] INFO root fetch - processPackages [work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-1.1.0a4.tar.gz tmp/work-1.1.0b1.tar.gz --markdown 20240510/w/work/1.1.0a4-1.1.0b1/README.md --exclude *.pyd
+[2024-05-10 16:32:30] INFO root fetch - processPackages [colourablenessz]: executing diffoscope
+[2024-05-10 16:32:30] INFO root fetch - processPackages [colourablenessz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colourablenessz-1.1.tar.gz tmp/colourablenessz-2.1.tar.gz --markdown 20240510/c/colourablenessz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:32:30] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-05-10 16:32:30] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240510/b/btc-embedded/24.1.5-24.1.6/README.md --exclude *.pyd
+[2024-05-10 16:32:30] INFO root fetch - processPackages [datamana]: Downloading https://files.pythonhosted.org/packages/16/3b/727123fae12408cb3459ea6fc130bd42ca691d7c27d5b09d55f6d5a1435f/datamana-0.1.1.tar.gz
+[2024-05-10 16:32:30] INFO root fetch - processPackages [libhum]: executing diffoscope
+[2024-05-10 16:32:30] INFO root fetch - processPackages [libhum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libhum-1.1.3-py3-none-any.whl.zip tmp/libhum-1.1.4-py3-none-any.whl.zip --markdown 20240510/l/libhum/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-10 16:32:30] INFO root fetch - processPackages [smartbetsAPI]: executing diffoscope
+[2024-05-10 16:32:30] INFO root fetch - processPackages [smartbetsAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartbetsapi-1.3.0.tar.gz tmp/smartbetsapi-1.3.1.tar.gz --markdown 20240510/s/smartbetsAPI/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-10 16:32:31] INFO root fetch - processPackages [datamana]: executing diffoscope
+[2024-05-10 16:32:31] INFO root fetch - processPackages [datamana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamana-0.1.0.tar.gz tmp/datamana-0.1.1.tar.gz --markdown 20240510/d/datamana/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 16:32:31] INFO root fetch - processPackages [tmuxradio]: executing diffoscope
+[2024-05-10 16:32:31] INFO root fetch - processPackages [tmuxradio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmuxradio-0.2.2.tar.gz tmp/tmuxradio-0.2.3.tar.gz --markdown 20240510/t/tmuxradio/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-10 16:32:31] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/a1/e6/698afe0d1f241b4aec8b9f51064660dc5318bbf5eb65e75bea707a0c2259/psat-server-web-0.3.9.tar.gz
+[2024-05-10 16:32:31] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.1.8.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.1.9.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [LCPDelta]: success
+[2024-05-10 16:32:31] INFO root fetch - processPackages [pyserrf]: Remove: archive file [/home/abi/fetcher/tmp/pyserrf-0.1.4.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [pyserrf]: Remove: archive file [/home/abi/fetcher/tmp/pyserrf-0.1.5.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [pyserrf]: success
+[2024-05-10 16:32:31] INFO root fetch - processPackages [colourablenessz]: Remove: archive file [/home/abi/fetcher/tmp/colourablenessz-1.1.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [colourablenessz]: Remove: archive file [/home/abi/fetcher/tmp/colourablenessz-2.1.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [colourablenessz]: success
+[2024-05-10 16:32:31] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-05-10 16:32:31] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0a4.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0b1.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [work]: success
+[2024-05-10 16:32:31] INFO root fetch - processPackages [libhum]: Remove: archive file [/home/abi/fetcher/tmp/libhum-1.1.3-py3-none-any.whl.zip]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [libhum]: Remove: archive file [/home/abi/fetcher/tmp/libhum-1.1.4-py3-none-any.whl.zip]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [libhum]: success
+[2024-05-10 16:32:31] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsapi-1.3.0.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsapi-1.3.1.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [smartbetsAPI]: success
+[2024-05-10 16:32:31] INFO root fetch - processPackages [datamana]: Remove: archive file [/home/abi/fetcher/tmp/datamana-0.1.0.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - processPackages [datamana]: Remove: archive file [/home/abi/fetcher/tmp/datamana-0.1.1.tar.gz]
+[2024-05-10 16:32:31] INFO root fetch - main [MainThread]: End processing [datamana]: success
+[2024-05-10 16:32:32] INFO root fetch - processPackages [psat-server-web]: executing diffoscope
+[2024-05-10 16:32:32] INFO root fetch - processPackages [psat-server-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psat-server-web-0.3.8.tar.gz tmp/psat-server-web-0.3.9.tar.gz --markdown 20240510/p/psat-server-web/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-10 16:32:35] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.8.tar.gz]
+[2024-05-10 16:32:35] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.9.tar.gz]
+[2024-05-10 16:32:35] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
+[2024-05-10 16:32:37] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.2.tar.gz]
+[2024-05-10 16:32:37] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.3.tar.gz]
+[2024-05-10 16:32:37] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
+[2024-05-10 16:32:37] INFO root fetch - main [MainThread]: Store serial: [23148058]
