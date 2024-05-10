@@ -10254,3 +10254,51 @@
 [2024-05-10 10:00:28] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.7.2.tar.gz]
 [2024-05-10 10:00:28] INFO root fetch - main [MainThread]: End processing [ahk]: success
 [2024-05-10 10:00:28] INFO root fetch - main [MainThread]: Store serial: [23143018]
+[2024-05-10 10:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143018]
+[2024-05-10 10:02:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aily-sdk
+[2024-05-10 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyqml
+[2024-05-10 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qlv-client
+[2024-05-10 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cacheline
+[2024-05-10 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: towbintools
+[2024-05-10 10:02:37] INFO root fetch - processPackages [lazyqml]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-10 10:02:37] INFO root fetch - processPackages [qlv-client]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-10 10:02:37] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/35/7c/78a251d1b68045ec832b0edbbe2c4205b1a33034602fd55876edb08038fb/lazyqml-0.3.1.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/89/d4/411d17cac600f72ef11c0737c003fffdefeb49958644537a0a8dd6a28a6d/qlv-client-0.2.3.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 10:02:37] INFO root fetch - processPackages [cacheline]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2024-05-10 10:02:37] INFO root fetch - processPackages [towbintools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 10:02:37] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/83/43/30cb7524884592bea2849d344f4360cf1c1d51ba9adc717a082ba5455cde/cacheline-0.0.2.dev8.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [towbintools]: Downloading https://files.pythonhosted.org/packages/5d/bf/e0d904a539b6b50c889c7afafb6a4ab44ee77d25c9991168afc6cc41bd9f/towbintools-0.1.5.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/6a/63/3e69c57397e5b637f993a272407ce45c42f404fbe12dd959294a50a12fb9/lazyqml-0.3.2.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-05-10 10:02:37] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240510/a/aily-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 10:02:37] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/9d/c3/9a3e22d013a54bac5c4162a33776807f680d8e771c45d590daf081cb8e8f/qlv-client-0.2.4.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-10 10:02:37] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.3.1.tar.gz tmp/lazyqml-0.3.2.tar.gz --markdown 20240510/l/lazyqml/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-10 10:02:37] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-10 10:02:37] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.2.3.tar.gz tmp/qlv-client-0.2.4.tar.gz --markdown 20240510/q/qlv-client/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-10 10:02:37] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/e5/81/2092b4cd33ee4a3617dbbbe07c7cd17cb0b1af143e9c29b46d43e9fff8d4/cacheline-0.0.2.dev9.tar.gz
+[2024-05-10 10:02:37] INFO root fetch - processPackages [towbintools]: Downloading https://files.pythonhosted.org/packages/92/9d/4862e631d82517a61f0b792880476d2fd70993a66a3683015552283f286c/towbintools-0.1.6.tar.gz
+[2024-05-10 10:02:38] INFO root fetch - processPackages [cacheline]: executing diffoscope
+[2024-05-10 10:02:38] INFO root fetch - processPackages [cacheline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacheline-0.0.2.dev8.tar.gz tmp/cacheline-0.0.2.dev9.tar.gz --markdown 20240510/c/cacheline/0.0.2.dev8-0.0.2.dev9/README.md --exclude *.pyd
+[2024-05-10 10:02:38] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-05-10 10:02:38] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.3.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.4.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-10 10:02:38] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.1.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.2.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-10 10:02:38] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev8.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev9.tar.gz]
+[2024-05-10 10:02:38] INFO root fetch - main [MainThread]: End processing [cacheline]: success
+[2024-05-10 10:02:38] INFO root fetch - processPackages [towbintools]: executing diffoscope
+[2024-05-10 10:02:38] INFO root fetch - processPackages [towbintools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towbintools-0.1.5.tar.gz tmp/towbintools-0.1.6.tar.gz --markdown 20240510/t/towbintools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 10:02:39] INFO root fetch - processPackages [towbintools]: Remove: archive file [/home/abi/fetcher/tmp/towbintools-0.1.5.tar.gz]
+[2024-05-10 10:02:39] INFO root fetch - processPackages [towbintools]: Remove: archive file [/home/abi/fetcher/tmp/towbintools-0.1.6.tar.gz]
+[2024-05-10 10:02:39] INFO root fetch - main [MainThread]: End processing [towbintools]: success
+[2024-05-10 10:02:39] INFO root fetch - main [MainThread]: Store serial: [23143030]
