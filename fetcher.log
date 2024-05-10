@@ -4678,3 +4678,48 @@
 [2024-05-10 04:34:12] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2024-05-10 04:34:12] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2024-05-10 04:34:12] INFO root fetch - main [MainThread]: Store serial: [23140463]
+[2024-05-10 04:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140463]
+[2024-05-10 04:36:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 04:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tls
+[2024-05-10 04:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brittenz
+[2024-05-10 04:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mov-cli
+[2024-05-10 04:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-wavefront
+[2024-05-10 04:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfreeproxies
+[2024-05-10 04:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptmodel
+[2024-05-10 04:36:22] WARNING root fetch - processPackages [pyfreeproxies]: Skipping, unable to determine old version
+[2024-05-10 04:36:22] INFO root fetch - main [MainThread]: End processing [pyfreeproxies] error
+[2024-05-10 04:36:22] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1715237486] Old Version: [3.2.0a1715229970]
+[2024-05-10 04:36:22] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1715237163] Old Version: [5.1.0a1715229855]
+[2024-05-10 04:36:22] WARNING root fetch - processPackages [brittenz]: Skipping, unable to determine old version
+[2024-05-10 04:36:22] INFO root fetch - main [MainThread]: End processing [brittenz] error
+[2024-05-10 04:36:22] INFO root fetch - processPackages [promptmodel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 04:36:22] INFO root fetch - processPackages [mov-cli]: New version: [4.4a2] Old Version: [4.4a1]
+[2024-05-10 04:36:22] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/0a/48/103fafc0231638302430d694a69101b2f6e78c513988b431a542f1dde663/pulumi_tls-5.1.0a1715229855.tar.gz
+[2024-05-10 04:36:22] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/0f/45/95e610edc97330602e33dab9f85c00d919856f54f9389601fc076591206b/pulumi_wavefront-3.2.0a1715229970.tar.gz
+[2024-05-10 04:36:22] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/74/38/f08afed7acc4db8eb2f3b292eb395fde44536534a64ab06b32008aaa3d60/mov_cli-4.4a1.tar.gz
+[2024-05-10 04:36:22] INFO root fetch - processPackages [promptmodel]: Downloading https://files.pythonhosted.org/packages/ef/df/c82f8c1d5a49741fa7733ffe3157595fd04cc996b351e83f55d71256b749/promptmodel-0.1.8.tar.gz
+[2024-05-10 04:36:22] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/2f/e5/daa759fe87ae60f2b2c33a9883a2f92eef8024388933220d1e79b98f8c91/pulumi_tls-5.1.0a1715237163.tar.gz
+[2024-05-10 04:36:22] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/11/50/802e6aeabe0d7c68d1fba4103abfc05c7b8f3b7042c77fb9247e9195124e/pulumi_wavefront-3.2.0a1715237486.tar.gz
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1715229855.tar.gz tmp/pulumi_tls-5.1.0a1715237163.tar.gz --markdown 20240510/p/pulumi-tls/5.1.0a1715229855-5.1.0a1715237163/README.md --exclude *.pyd
+[2024-05-10 04:36:23] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/e8/f8/cf4c98af536cb00638c3a89fee8bbb767784014f63255c9e3fd9932f4d9b/mov_cli-4.4a2.tar.gz
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1715229970.tar.gz tmp/pulumi_wavefront-3.2.0a1715237486.tar.gz --markdown 20240510/p/pulumi-wavefront/3.2.0a1715229970-3.2.0a1715237486/README.md --exclude *.pyd
+[2024-05-10 04:36:23] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-05-10 04:36:23] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-4.4a1.tar.gz tmp/mov_cli-4.4a2.tar.gz --markdown 20240510/m/mov-cli/4.4a1-4.4a2/README.md --exclude *.pyd
+[2024-05-10 04:36:23] INFO root fetch - processPackages [promptmodel]: Downloading https://files.pythonhosted.org/packages/eb/ee/83970984f9317936fe6ca6a3b9e762c186c05b8d6041a77b654e8d8cde7d/promptmodel-0.1.9.tar.gz
+[2024-05-10 04:36:23] INFO root fetch - processPackages [promptmodel]: executing diffoscope
+[2024-05-10 04:36:23] INFO root fetch - processPackages [promptmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptmodel-0.1.8.tar.gz tmp/promptmodel-0.1.9.tar.gz --markdown 20240510/p/promptmodel/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715229855.tar.gz]
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715237163.tar.gz]
+[2024-05-10 04:36:23] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715229970.tar.gz]
+[2024-05-10 04:36:23] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715237486.tar.gz]
+[2024-05-10 04:36:23] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-10 04:36:23] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.4a1.tar.gz]
+[2024-05-10 04:36:23] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.4a2.tar.gz]
+[2024-05-10 04:36:23] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-05-10 04:36:24] INFO root fetch - processPackages [promptmodel]: Remove: archive file [/home/abi/fetcher/tmp/promptmodel-0.1.8.tar.gz]
+[2024-05-10 04:36:24] INFO root fetch - processPackages [promptmodel]: Remove: archive file [/home/abi/fetcher/tmp/promptmodel-0.1.9.tar.gz]
+[2024-05-10 04:36:24] INFO root fetch - main [MainThread]: End processing [promptmodel]: success
+[2024-05-10 04:36:24] INFO root fetch - main [MainThread]: Store serial: [23140481]
