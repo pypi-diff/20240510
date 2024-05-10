@@ -10741,3 +10741,30 @@
 [2024-05-10 10:22:16] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.5.tar.gz]
 [2024-05-10 10:22:16] INFO root fetch - main [MainThread]: End processing [abstract-flask]: success
 [2024-05-10 10:22:16] INFO root fetch - main [MainThread]: Store serial: [23143219]
+[2024-05-10 10:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143219]
+[2024-05-10 10:24:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recharge-api
+[2024-05-10 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adb-install-cert
+[2024-05-10 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pselaphusz
+[2024-05-10 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyneople
+[2024-05-10 10:24:24] INFO root fetch - processPackages [recharge-api]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-10 10:24:24] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-10 10:24:25] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/bd/45/61253de1c5284e08f5e58dd5a564a699ef040f39e6eb00e2eef73f6a030d/recharge_api-1.5.0.tar.gz
+[2024-05-10 10:24:25] WARNING root fetch - processPackages [pselaphusz]: Skipping, unable to determine old version
+[2024-05-10 10:24:25] INFO root fetch - main [MainThread]: End processing [pselaphusz] error
+[2024-05-10 10:24:25] WARNING root fetch - processPackages [adb-install-cert]: Skipping, unable to determine old version
+[2024-05-10 10:24:25] INFO root fetch - main [MainThread]: End processing [adb-install-cert] error
+[2024-05-10 10:24:25] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-10 10:24:25] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-10 10:24:25] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/40/b0/9442b4352639088f28e1a2124e52d666e4557502b9312508e220e0265e4b/recharge_api-1.5.1.tar.gz
+[2024-05-10 10:24:25] INFO root fetch - processPackages [recharge-api]: executing diffoscope
+[2024-05-10 10:24:25] INFO root fetch - processPackages [recharge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recharge_api-1.5.0.tar.gz tmp/recharge_api-1.5.1.tar.gz --markdown 20240510/r/recharge-api/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-10 10:24:25] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-10 10:24:25] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240510/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-10 10:24:25] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-10 10:24:25] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-10 10:24:25] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-10 10:24:26] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.5.0.tar.gz]
+[2024-05-10 10:24:26] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.5.1.tar.gz]
+[2024-05-10 10:24:26] INFO root fetch - main [MainThread]: End processing [recharge-api]: success
+[2024-05-10 10:24:26] INFO root fetch - main [MainThread]: Store serial: [23143235]
