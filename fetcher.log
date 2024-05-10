@@ -6225,3 +6225,39 @@
 [2024-05-10 06:08:48] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.9.tar.gz]
 [2024-05-10 06:08:48] INFO root fetch - main [MainThread]: End processing [leprikon]: success
 [2024-05-10 06:08:48] INFO root fetch - main [MainThread]: Store serial: [23141087]
+[2024-05-10 06:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141087]
+[2024-05-10 06:10:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riddlesolver
+[2024-05-10 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RL-OM
+[2024-05-10 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bacGWAStatLearn
+[2024-05-10 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fabaz
+[2024-05-10 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eenhoorntje-llm-lib
+[2024-05-10 06:10:57] INFO root fetch - processPackages [eenhoorntje-llm-lib]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 06:10:57] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-10 06:10:57] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/58/53/c1bd6020de71ee2c61bd61f6c2d4ad72551fc6b613896bfdf423f9900b0a/eenhoorntje_llm_lib-0.8.tar.gz
+[2024-05-10 06:10:57] INFO root fetch - processPackages [riddlesolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 06:10:57] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-10 06:10:57] WARNING root fetch - processPackages [bacGWAStatLearn]: Skipping, unable to determine old version
+[2024-05-10 06:10:57] INFO root fetch - main [MainThread]: End processing [bacGWAStatLearn] error
+[2024-05-10 06:10:57] WARNING root fetch - processPackages [fabaz]: Skipping, unable to determine old version
+[2024-05-10 06:10:57] INFO root fetch - main [MainThread]: End processing [fabaz] error
+[2024-05-10 06:10:57] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/8b/0b/5d8ba16dc2ea29ecfd27ef083dad139cd6ff7a327a7f22334bb9aa882db7/riddlesolver-0.1.8.tar.gz
+[2024-05-10 06:10:57] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/6b/11/c58a3da50ee0ab313c0bb6c3b32dfcc29ee0022b5157d9e22cbdc4e456be/eenhoorntje_llm_lib-0.9.tar.gz
+[2024-05-10 06:10:57] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-10 06:10:57] INFO root fetch - processPackages [eenhoorntje-llm-lib]: executing diffoscope
+[2024-05-10 06:10:57] INFO root fetch - processPackages [eenhoorntje-llm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eenhoorntje_llm_lib-0.8.tar.gz tmp/eenhoorntje_llm_lib-0.9.tar.gz --markdown 20240510/e/eenhoorntje-llm-lib/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 06:10:57] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-10 06:10:57] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240510/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-10 06:10:57] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/46/68/daef27bbcc176c6be119dbd92ff2be28b6d27558058a394d39d371188751/riddlesolver-0.1.9.tar.gz
+[2024-05-10 06:10:57] INFO root fetch - processPackages [riddlesolver]: executing diffoscope
+[2024-05-10 06:10:57] INFO root fetch - processPackages [riddlesolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riddlesolver-0.1.8.tar.gz tmp/riddlesolver-0.1.9.tar.gz --markdown 20240510/r/riddlesolver/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 06:10:58] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.8.tar.gz]
+[2024-05-10 06:10:58] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.9.tar.gz]
+[2024-05-10 06:10:58] INFO root fetch - main [MainThread]: End processing [eenhoorntje-llm-lib]: success
+[2024-05-10 06:10:58] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-10 06:10:58] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-10 06:10:58] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-10 06:10:58] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.8.tar.gz]
+[2024-05-10 06:10:58] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
+[2024-05-10 06:10:58] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
+[2024-05-10 06:10:58] INFO root fetch - main [MainThread]: Store serial: [23141107]
