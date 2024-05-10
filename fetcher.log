@@ -5643,3 +5643,44 @@
 [2024-05-10 05:29:21] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-10 05:29:21] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-10 05:29:21] INFO root fetch - main [MainThread]: Store serial: [23140858]
+[2024-05-10 05:31:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140858]
+[2024-05-10 05:31:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 05:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-cloud-aiplatform
+[2024-05-10 05:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgcli
+[2024-05-10 05:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serviceboot
+[2024-05-10 05:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonproduciblez
+[2024-05-10 05:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycoreutil
+[2024-05-10 05:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-10 05:31:30] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-10 05:31:30] WARNING root fetch - processPackages [nonproduciblez]: Skipping, unable to determine old version
+[2024-05-10 05:31:30] INFO root fetch - main [MainThread]: End processing [nonproduciblez] error
+[2024-05-10 05:31:30] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/08/29/05a0e095d53695159fda3c35eecf55d0a04c723fac09a800da79e9d578a4/nonebot_plugin_tetris_stats-1.0.4.tar.gz
+[2024-05-10 05:31:30] WARNING root fetch - processPackages [pycoreutil]: Skipping, unable to determine old version
+[2024-05-10 05:31:30] INFO root fetch - main [MainThread]: End processing [pycoreutil] error
+[2024-05-10 05:31:30] INFO root fetch - processPackages [pgcli]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-05-10 05:31:30] INFO root fetch - processPackages [google-cloud-aiplatform]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-10 05:31:30] WARNING root fetch - processPackages [nonebot-plugin-tetris-stats]: Skipping package: exceeds size limit 15906949>=10485760
+[2024-05-10 05:31:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats] error
+[2024-05-10 05:31:30] INFO root fetch - processPackages [pgcli]: Downloading https://files.pythonhosted.org/packages/08/a7/448bcaf13dbcb4bd00c4f62fea1b2b491958653646da41c785755df6235f/pgcli-4.0.1.tar.gz
+[2024-05-10 05:31:30] INFO root fetch - processPackages [serviceboot]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 05:31:30] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/87/ed/ff22ee773fb07107589eec61c3659904016820ba5aed048a68bf3eba44a9/google-cloud-aiplatform-1.8.1.tar.gz
+[2024-05-10 05:31:30] INFO root fetch - processPackages [serviceboot]: Downloading https://files.pythonhosted.org/packages/7a/6a/9c7a5cbd69c042de5a14b4acb2bb37466f5d90be60d5a38a95722af572bd/serviceboot-2.1.8.tar.gz
+[2024-05-10 05:31:30] INFO root fetch - processPackages [pgcli]: Downloading https://files.pythonhosted.org/packages/d7/ff/10c1eb5fb8e4a81bb60abb4d13bfa04e27564fb7880915abdf603069cc93/pgcli-4.1.0.tar.gz
+[2024-05-10 05:31:31] INFO root fetch - processPackages [pgcli]: executing diffoscope
+[2024-05-10 05:31:31] INFO root fetch - processPackages [pgcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgcli-4.0.1.tar.gz tmp/pgcli-4.1.0.tar.gz --markdown 20240510/p/pgcli/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-05-10 05:31:31] INFO root fetch - processPackages [serviceboot]: Downloading https://files.pythonhosted.org/packages/12/a9/041d236cdbab15b4d72373dedd66796765d23d334313d4e24e5b122b93e3/serviceboot-2.1.9.tar.gz
+[2024-05-10 05:31:31] INFO root fetch - processPackages [serviceboot]: executing diffoscope
+[2024-05-10 05:31:31] INFO root fetch - processPackages [serviceboot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serviceboot-2.1.8.tar.gz tmp/serviceboot-2.1.9.tar.gz --markdown 20240510/s/serviceboot/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 05:31:31] INFO root fetch - processPackages [serviceboot]: Remove: archive file [/home/abi/fetcher/tmp/serviceboot-2.1.8.tar.gz]
+[2024-05-10 05:31:31] INFO root fetch - processPackages [serviceboot]: Remove: archive file [/home/abi/fetcher/tmp/serviceboot-2.1.9.tar.gz]
+[2024-05-10 05:31:31] INFO root fetch - main [MainThread]: End processing [serviceboot]: success
+[2024-05-10 05:31:31] INFO root fetch - processPackages [pgcli]: Remove: archive file [/home/abi/fetcher/tmp/pgcli-4.0.1.tar.gz]
+[2024-05-10 05:31:31] INFO root fetch - processPackages [pgcli]: Remove: archive file [/home/abi/fetcher/tmp/pgcli-4.1.0.tar.gz]
+[2024-05-10 05:31:31] INFO root fetch - main [MainThread]: End processing [pgcli]: success
+[2024-05-10 05:31:32] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/4d/c4/93fac91a85d9ee19de83e183b5b8980a3fe9e3a193e1a27c3574c7899c9c/google-cloud-aiplatform-1.9.0.tar.gz
+[2024-05-10 05:31:35] INFO root fetch - processPackages [google-cloud-aiplatform]: executing diffoscope
+[2024-05-10 05:31:35] INFO root fetch - processPackages [google-cloud-aiplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-aiplatform-1.8.1.tar.gz tmp/google-cloud-aiplatform-1.9.0.tar.gz --markdown 20240510/g/google-cloud-aiplatform/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-10 05:31:38] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.8.1.tar.gz]
+[2024-05-10 05:31:38] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.9.0.tar.gz]
+[2024-05-10 05:31:38] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform]: success
+[2024-05-10 05:31:38] INFO root fetch - main [MainThread]: Store serial: [23140881]
