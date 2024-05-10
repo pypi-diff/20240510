@@ -8955,3 +8955,69 @@
 [2024-05-10 08:55:15] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.2.tar.gz]
 [2024-05-10 08:55:15] INFO root fetch - main [MainThread]: End processing [mystmd]: success
 [2024-05-10 08:55:15] INFO root fetch - main [MainThread]: Store serial: [23142459]
+[2024-05-10 08:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142459]
+[2024-05-10 08:57:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spectrum-fundamentals
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trust-plutus-namematch
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-indie-tools
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tree-sitter-xml
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zetamarkets-py
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openagents-grpc-proto
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text-block-local
+[2024-05-10 08:57:29] INFO root fetch - processPackages [trust-plutus-namematch]: New version: [0.2] Old Version: [0.1.0]
+[2024-05-10 08:57:29] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-10 08:57:29] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:57:29] INFO root fetch - processPackages [ml-indie-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 08:57:30] INFO root fetch - processPackages [spectrum-fundamentals]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-10 08:57:30] INFO root fetch - processPackages [tree-sitter-xml]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-10 08:57:30] INFO root fetch - processPackages [openagents-grpc-proto]: New version: [0.8] Old Version: [0.7.9]
+[2024-05-10 08:57:30] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/2a/f3/9056e14804719b90b5b534295641aee5117c0d81035db34f29f6e63a816f/trust_plutus_namematch-0.1.0.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/69/1d/c6da639234bf4fc987bcf4c70d7f07f77fa76a44aefc0606a4a01d5a7df1/ml-indie-tools-0.9.8.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [tree-sitter-xml]: Downloading https://files.pythonhosted.org/packages/93/0b/868b3665745bca06fcc256a52e2605a2253d25d6f0dd7f6952392e731753/tree_sitter_xml-0.6.2-cp38-abi3-win_amd64.whl
+[2024-05-10 08:57:30] INFO root fetch - processPackages [spectrum-fundamentals]: Downloading https://files.pythonhosted.org/packages/4e/9a/5d0567bf8de1bdd363d32ee2df3e6c9ee48ff967c59017c4d88ece6914b6/spectrum_fundamentals-0.5.2.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/c8/07/57c53e60ea04fd797642bb8f833c304f525c8d347f0f28d9618d50e01895/openagents_grpc_proto-0.7.9.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/d7/66/e4bce7789df58594640f34af771702e50bab7bce5a8286a9c09ac79acb66/trust_plutus_namematch-0.2.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/dc/de/d925fee74bb8d13f43b041409d0894d88ac152c18da6ca97c4d9820355c9/ml-indie-tools-0.9.9.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [trust-plutus-namematch]: executing diffoscope
+[2024-05-10 08:57:30] INFO root fetch - processPackages [trust-plutus-namematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trust_plutus_namematch-0.1.0.tar.gz tmp/trust_plutus_namematch-0.2.tar.gz --markdown 20240510/t/trust-plutus-namematch/0.1.0-0.2/README.md --exclude *.pyd
+[2024-05-10 08:57:30] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 08:57:30] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:57:30] INFO root fetch - processPackages [ml-indie-tools]: executing diffoscope
+[2024-05-10 08:57:30] INFO root fetch - processPackages [ml-indie-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-indie-tools-0.9.8.tar.gz tmp/ml-indie-tools-0.9.9.tar.gz --markdown 20240510/m/ml-indie-tools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 08:57:30] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-05-10 08:57:30] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240510/z/zetamarkets-py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-10 08:57:30] INFO root fetch - processPackages [tree-sitter-xml]: Downloading https://files.pythonhosted.org/packages/93/cd/3fb722c2696d5df7cd03570da1850b3e9b473da9d47086beb6dddeac42fb/tree-sitter-xml-0.6.3.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [spectrum-fundamentals]: Downloading https://files.pythonhosted.org/packages/48/33/b3f974be7e03170aa4019b690c8bee936a304d689325eb82f7efdb1d2558/spectrum_fundamentals-0.5.3.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/ea/40/4c9267d8b9c8b0c9b92410591fc741d677f6e230eaa07ed5ef3db4e6c584/openagents_grpc_proto-0.8.tar.gz
+[2024-05-10 08:57:30] INFO root fetch - processPackages [tree-sitter-xml]: executing diffoscope
+[2024-05-10 08:57:30] INFO root fetch - processPackages [tree-sitter-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_xml-0.6.2-cp38-abi3-win_amd64.whl.zip tmp/tree-sitter-xml-0.6.3.tar.gz --markdown 20240510/t/tree-sitter-xml/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-10 08:57:30] INFO root fetch - processPackages [openagents-grpc-proto]: executing diffoscope
+[2024-05-10 08:57:30] INFO root fetch - processPackages [openagents-grpc-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_grpc_proto-0.7.9.tar.gz tmp/openagents_grpc_proto-0.8.tar.gz --markdown 20240510/o/openagents-grpc-proto/0.7.9-0.8/README.md --exclude *.pyd
+[2024-05-10 08:57:30] INFO root fetch - processPackages [spectrum-fundamentals]: executing diffoscope
+[2024-05-10 08:57:30] INFO root fetch - processPackages [spectrum-fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_fundamentals-0.5.2.tar.gz tmp/spectrum_fundamentals-0.5.3.tar.gz --markdown 20240510/s/spectrum-fundamentals/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-10 08:57:31] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.8.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.9.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - main [MainThread]: End processing [ml-indie-tools]: success
+[2024-05-10 08:57:31] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 08:57:31] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-0.1.0.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-0.2.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - main [MainThread]: End processing [trust-plutus-namematch]: success
+[2024-05-10 08:57:31] INFO root fetch - processPackages [tree-sitter-xml]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_xml-0.6.2-cp38-abi3-win_amd64.whl.zip]
+[2024-05-10 08:57:31] INFO root fetch - processPackages [tree-sitter-xml]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-xml-0.6.3.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - main [MainThread]: End processing [tree-sitter-xml]: success
+[2024-05-10 08:57:31] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.7.9.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.8.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - main [MainThread]: End processing [openagents-grpc-proto]: success
+[2024-05-10 08:57:31] INFO root fetch - processPackages [spectrum-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_fundamentals-0.5.2.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - processPackages [spectrum-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_fundamentals-0.5.3.tar.gz]
+[2024-05-10 08:57:31] INFO root fetch - main [MainThread]: End processing [spectrum-fundamentals]: success
+[2024-05-10 08:57:36] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-05-10 08:57:36] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-05-10 08:57:36] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-05-10 08:57:36] INFO root fetch - main [MainThread]: Store serial: [23142482]
