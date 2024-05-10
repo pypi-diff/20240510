@@ -6887,3 +6887,18 @@
 [2024-05-10 06:50:25] INFO root fetch - processPackages [benchify]: Remove: archive file [/home/abi/fetcher/tmp/benchify-0.0.9.tar.gz]
 [2024-05-10 06:50:25] INFO root fetch - main [MainThread]: End processing [benchify]: success
 [2024-05-10 06:50:25] INFO root fetch - main [MainThread]: Store serial: [23141390]
+[2024-05-10 06:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141390]
+[2024-05-10 06:52:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 06:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PerplexiPy
+[2024-05-10 06:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: obtruncatorz
+[2024-05-10 06:52:33] WARNING root fetch - processPackages [obtruncatorz]: Skipping, unable to determine old version
+[2024-05-10 06:52:33] INFO root fetch - main [MainThread]: End processing [obtruncatorz] error
+[2024-05-10 06:52:33] INFO root fetch - processPackages [PerplexiPy]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-10 06:52:34] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/29/78/59b316d11dbf40da31d11d641ee0bc67642dc7dd3529cfd2a772e0d4cf72/PerplexiPy-1.0.7-py3-none-any.whl
+[2024-05-10 06:52:34] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/cf/dd/30b98be8ad88ca8d3830eb41dc5b13dee0009d50f3cc75e938cea00e48d1/PerplexiPy-1.0.8-py3-none-any.whl
+[2024-05-10 06:52:34] INFO root fetch - processPackages [PerplexiPy]: executing diffoscope
+[2024-05-10 06:52:34] INFO root fetch - processPackages [PerplexiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PerplexiPy-1.0.7-py3-none-any.whl.zip tmp/PerplexiPy-1.0.8-py3-none-any.whl.zip --markdown 20240510/P/PerplexiPy/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-10 06:52:35] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-1.0.7-py3-none-any.whl.zip]
+[2024-05-10 06:52:35] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-1.0.8-py3-none-any.whl.zip]
+[2024-05-10 06:52:35] INFO root fetch - main [MainThread]: End processing [PerplexiPy]: success
+[2024-05-10 06:52:35] INFO root fetch - main [MainThread]: Store serial: [23141396]
