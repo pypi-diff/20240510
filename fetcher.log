@@ -24773,3 +24773,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:18:31] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715349279.tar.gz]
 [2024-05-10 18:18:31] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
 [2024-05-10 18:18:31] INFO root fetch - main [MainThread]: Store serial: [23149556]
+[2024-05-10 18:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149556]
+[2024-05-10 18:20:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power-grid-model
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ise
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirji-messages
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsz
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kohistaniz
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirji-agents
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-ads-api-report-fetcher
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aiven
+[2024-05-10 18:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: debauchedlyz
+[2024-05-10 18:20:40] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715356962] Old Version: [0.2.0a1715349279]
+[2024-05-10 18:20:40] WARNING root fetch - processPackages [debauchedlyz]: Skipping, unable to determine old version
+[2024-05-10 18:20:40] INFO root fetch - main [MainThread]: End processing [debauchedlyz] error
+[2024-05-10 18:20:40] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-10 18:20:40] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-10 18:20:40] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/88/cb/9912f66a432769fc58e97a813f9f095f4c20a8e89faa3692b9a7c2f8b592/pulumi_ise-0.2.0a1715349279.tar.gz
+[2024-05-10 18:20:40] INFO root fetch - processPackages [jsz]: New version: [2024.5.9.2] Old Version: [2024.5.11]
+[2024-05-10 18:20:40] WARNING root fetch - processPackages [kohistaniz]: Skipping, unable to determine old version
+[2024-05-10 18:20:40] INFO root fetch - main [MainThread]: End processing [kohistaniz] error
+[2024-05-10 18:20:40] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 18:20:40] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 18:20:40] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-10 18:20:41] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/25/0f/ce33b958b10d49658da98af96fe8029289822968952893e499d7373ea186/sirji-messages-0.0.7.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [jsz]: Downloading https://files.pythonhosted.org/packages/27/8d/ba46f8aacfefc2a8a1262d08d1e240bbcb89b2379a47b782d38ccb9a915b/jsz-2024.5.11.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/66/1b/0835ee541f26c90d961171c17f714223b4186af98530212d8f4a0f21c5da/pulumi_ise-0.2.0a1715356962.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-10 18:20:41] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240510/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 18:20:41] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-10 18:20:41] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240510/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-10 18:20:41] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-10 18:20:41] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715349279.tar.gz tmp/pulumi_ise-0.2.0a1715356962.tar.gz --markdown 20240510/p/pulumi-ise/0.2.0a1715349279-0.2.0a1715356962/README.md --exclude *.pyd
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [jsz]: Downloading https://files.pythonhosted.org/packages/ad/da/4362dc05d4de3be256b12cb9a6b3a38dd0cd9220c61f79c5fec3e8fb7248/jsz-2024.5.9.2.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/a5/c6/4ac7d143f28208fd31dc3a617bb8d957ddd00f4c7eb41fe7fe62b3590af7/sirji-messages-0.0.9.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [jsz]: executing diffoscope
+[2024-05-10 18:20:41] INFO root fetch - processPackages [jsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsz-2024.5.11.tar.gz tmp/jsz-2024.5.9.2.tar.gz --markdown 20240510/j/jsz/2024.5.11-2024.5.9.2/README.md --exclude *.pyd
+[2024-05-10 18:20:41] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240510/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-05-10 18:20:41] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.7.tar.gz tmp/sirji-messages-0.0.9.tar.gz --markdown 20240510/s/sirji-messages/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-10 18:20:41] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-10 18:20:41] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240510/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-10 18:20:42] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-10 18:20:42] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-05-10 18:20:42] INFO root fetch - processPackages [jsz]: Remove: archive file [/home/abi/fetcher/tmp/jsz-2024.5.11.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - processPackages [jsz]: Remove: archive file [/home/abi/fetcher/tmp/jsz-2024.5.9.2.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - main [MainThread]: End processing [jsz]: success
+[2024-05-10 18:20:42] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.7.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.9.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-05-10 18:20:42] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715349279.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715356962.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-10 18:20:42] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-10 18:20:42] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-10 18:20:44] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-10 18:20:44] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-10 18:20:44] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-10 18:20:44] INFO root fetch - main [MainThread]: Store serial: [23149600]
