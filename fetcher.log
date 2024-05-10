@@ -9564,3 +9564,47 @@
 [2024-05-10 09:23:58] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-05-10 09:23:58] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-10 09:23:58] INFO root fetch - main [MainThread]: Store serial: [23142702]
+[2024-05-10 09:26:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142702]
+[2024-05-10 09:26:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tlvisuals
+[2024-05-10 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2024-05-10 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beanhub-cli
+[2024-05-10 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdown-include-bd
+[2024-05-10 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waypaper
+[2024-05-10 09:26:07] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-10 09:26:07] INFO root fetch - processPackages [beanhub-cli]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-10 09:26:07] INFO root fetch - processPackages [waypaper]: New version: [2.1.1] Old Version: [2.1]
+[2024-05-10 09:26:07] INFO root fetch - processPackages [tlvisuals]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 09:26:07] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-10 09:26:07] INFO root fetch - processPackages [markdown-include-bd]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 09:26:07] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/25/74/63f42de1c8cb6dcfb0f4a3019041df442189576684475fa7dae94f43bdba/waypaper-2.1.tar.gz
+[2024-05-10 09:26:07] INFO root fetch - processPackages [tlvisuals]: Downloading https://files.pythonhosted.org/packages/1b/9a/38b98c46be1614b8f1d33c91a2ded008e14582bbd81959736952e47f0016/tlvisuals-0.0.2.tar.gz
+[2024-05-10 09:26:07] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/40/0f/28e445103d5540d70d64cefded297c2891d7dc635d101d58f94fd3d9fcf9/beanhub_cli-1.1.1.tar.gz
+[2024-05-10 09:26:07] INFO root fetch - processPackages [markdown-include-bd]: Downloading https://files.pythonhosted.org/packages/54/ad/04caf9853ab64d0b3b7561da58280e4a9c296ae52cafebeb9277d55c41e3/markdown_include_bd-0.0.2.tar.gz
+[2024-05-10 09:26:07] INFO root fetch - processPackages [tlvisuals]: Downloading https://files.pythonhosted.org/packages/61/ae/9bcc78e264018bd4b17692321d43f70119c7ee03a514709d5d1ec2de64f2/tlvisuals-0.0.3.tar.gz
+[2024-05-10 09:26:07] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/70/24/d107d9d25a659f1d6e2e6f0175c941ef5e9c18c1b41dde1c99d6247f1b7b/waypaper-2.1.1.tar.gz
+[2024-05-10 09:26:07] WARNING root fetch - processPackages [markdown-include-bd]: Skipping package: exceeds size limit 23979203>=10485760
+[2024-05-10 09:26:07] INFO root fetch - main [MainThread]: End processing [markdown-include-bd] error
+[2024-05-10 09:26:07] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/26/a6/f2a776571d8324ab535deb2a047f4c8954623f228749329ed269a4483599/beanhub_cli-1.1.2.tar.gz
+[2024-05-10 09:26:08] INFO root fetch - processPackages [tlvisuals]: executing diffoscope
+[2024-05-10 09:26:08] INFO root fetch - processPackages [tlvisuals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlvisuals-0.0.2.tar.gz tmp/tlvisuals-0.0.3.tar.gz --markdown 20240510/t/tlvisuals/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 09:26:08] INFO root fetch - processPackages [waypaper]: executing diffoscope
+[2024-05-10 09:26:08] INFO root fetch - processPackages [waypaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waypaper-2.1.tar.gz tmp/waypaper-2.1.1.tar.gz --markdown 20240510/w/waypaper/2.1-2.1.1/README.md --exclude *.pyd
+[2024-05-10 09:26:08] INFO root fetch - processPackages [beanhub-cli]: executing diffoscope
+[2024-05-10 09:26:08] INFO root fetch - processPackages [beanhub-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_cli-1.1.1.tar.gz tmp/beanhub_cli-1.1.2.tar.gz --markdown 20240510/b/beanhub-cli/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-10 09:26:08] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-10 09:26:08] INFO root fetch - processPackages [tlvisuals]: Remove: archive file [/home/abi/fetcher/tmp/tlvisuals-0.0.2.tar.gz]
+[2024-05-10 09:26:08] INFO root fetch - processPackages [tlvisuals]: Remove: archive file [/home/abi/fetcher/tmp/tlvisuals-0.0.3.tar.gz]
+[2024-05-10 09:26:08] INFO root fetch - main [MainThread]: End processing [tlvisuals]: success
+[2024-05-10 09:26:08] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-10 09:26:08] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240510/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-10 09:26:08] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-2.1.tar.gz]
+[2024-05-10 09:26:08] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-2.1.1.tar.gz]
+[2024-05-10 09:26:08] INFO root fetch - main [MainThread]: End processing [waypaper]: success
+[2024-05-10 09:26:09] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.1.1.tar.gz]
+[2024-05-10 09:26:09] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.1.2.tar.gz]
+[2024-05-10 09:26:09] INFO root fetch - main [MainThread]: End processing [beanhub-cli]: success
+[2024-05-10 09:26:24] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-10 09:26:24] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-10 09:26:24] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-10 09:26:24] INFO root fetch - main [MainThread]: Store serial: [23142720]
