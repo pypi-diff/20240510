@@ -22068,3 +22068,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:50:11] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs_imgutils-0.4.4.tar.gz]
 [2024-05-10 16:50:11] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
 [2024-05-10 16:50:11] INFO root fetch - main [MainThread]: Store serial: [23148324]
+[2024-05-10 16:52:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148324]
+[2024-05-10 16:52:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fal
+[2024-05-10 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLibEngine
+[2024-05-10 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FairFRU
+[2024-05-10 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ModernQQt
+[2024-05-10 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conclavistz
+[2024-05-10 16:52:20] INFO root fetch - processPackages [conclavistz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:52:20] INFO root fetch - processPackages [fal]: New version: [1.0.0] Old Version: [0.9.5]
+[2024-05-10 16:52:20] WARNING root fetch - processPackages [SQLibEngine]: Skipping, unable to determine old version
+[2024-05-10 16:52:20] INFO root fetch - main [MainThread]: End processing [SQLibEngine] error
+[2024-05-10 16:52:20] WARNING root fetch - processPackages [ModernQQt]: Skipping, unable to determine old version
+[2024-05-10 16:52:20] INFO root fetch - main [MainThread]: End processing [ModernQQt] error
+[2024-05-10 16:52:20] INFO root fetch - processPackages [FairFRU]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-10 16:52:20] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/1f/19/76b0975dea51404e3e86e1bdaf7bcaf35843068dded2e9eb0e9a020ec8d4/fal-0.9.5.tar.gz
+[2024-05-10 16:52:20] INFO root fetch - processPackages [FairFRU]: Downloading https://files.pythonhosted.org/packages/5f/09/05eba027ec1b4f6feca1ace2882b2857c83bc5a0a1bad710599186766894/FairFRU-0.2.6.tar.gz
+[2024-05-10 16:52:20] INFO root fetch - processPackages [conclavistz]: Downloading https://files.pythonhosted.org/packages/90/e1/da9ec3f5e215965db68f4b51bee541188145f50a8386da759f4fda41cdde/conclavistz-1.1.tar.gz
+[2024-05-10 16:52:20] INFO root fetch - processPackages [FairFRU]: Downloading https://files.pythonhosted.org/packages/72/f6/0f1b0d3d308d6e6dfd5213f112ce48d7abdbdfa955c56a924f8d42d7aafa/FairFRU-0.2.7.tar.gz
+[2024-05-10 16:52:20] INFO root fetch - processPackages [conclavistz]: Downloading https://files.pythonhosted.org/packages/de/8c/8a01a6207b7a2c171c348ca49462e282d28c556cc0428d93c78c39ad65ff/conclavistz-2.1.tar.gz
+[2024-05-10 16:52:21] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/45/8b/bd95ffbabbaae04ef49876fcb8360d1e64e6687b8fec9c5824cc497f52ef/fal-1.0.0.tar.gz
+[2024-05-10 16:52:21] INFO root fetch - processPackages [conclavistz]: executing diffoscope
+[2024-05-10 16:52:21] INFO root fetch - processPackages [conclavistz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conclavistz-1.1.tar.gz tmp/conclavistz-2.1.tar.gz --markdown 20240510/c/conclavistz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:52:21] INFO root fetch - processPackages [FairFRU]: executing diffoscope
+[2024-05-10 16:52:21] INFO root fetch - processPackages [FairFRU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FairFRU-0.2.6.tar.gz tmp/FairFRU-0.2.7.tar.gz --markdown 20240510/F/FairFRU/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-10 16:52:21] INFO root fetch - processPackages [fal]: executing diffoscope
+[2024-05-10 16:52:21] INFO root fetch - processPackages [fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal-0.9.5.tar.gz tmp/fal-1.0.0.tar.gz --markdown 20240510/f/fal/0.9.5-1.0.0/README.md --exclude *.pyd
+[2024-05-10 16:52:21] INFO root fetch - processPackages [conclavistz]: Remove: archive file [/home/abi/fetcher/tmp/conclavistz-1.1.tar.gz]
+[2024-05-10 16:52:21] INFO root fetch - processPackages [conclavistz]: Remove: archive file [/home/abi/fetcher/tmp/conclavistz-2.1.tar.gz]
+[2024-05-10 16:52:21] INFO root fetch - main [MainThread]: End processing [conclavistz]: success
+[2024-05-10 16:52:21] INFO root fetch - processPackages [FairFRU]: Remove: archive file [/home/abi/fetcher/tmp/FairFRU-0.2.6.tar.gz]
+[2024-05-10 16:52:21] INFO root fetch - processPackages [FairFRU]: Remove: archive file [/home/abi/fetcher/tmp/FairFRU-0.2.7.tar.gz]
+[2024-05-10 16:52:21] INFO root fetch - main [MainThread]: End processing [FairFRU]: success
+[2024-05-10 16:52:21] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-0.9.5.tar.gz]
+[2024-05-10 16:52:21] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-1.0.0.tar.gz]
+[2024-05-10 16:52:21] INFO root fetch - main [MainThread]: End processing [fal]: success
+[2024-05-10 16:52:21] INFO root fetch - main [MainThread]: Store serial: [23148348]
