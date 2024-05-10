@@ -6446,3 +6446,51 @@
 [2024-05-10 06:19:45] INFO root fetch - processPackages [tlvisuals]: Remove: archive file [/home/abi/fetcher/tmp/tlvisuals-0.0.3.tar.gz]
 [2024-05-10 06:19:45] INFO root fetch - main [MainThread]: End processing [tlvisuals]: success
 [2024-05-10 06:19:45] INFO root fetch - main [MainThread]: Store serial: [23141198]
+[2024-05-10 06:21:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141198]
+[2024-05-10 06:21:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 06:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiny-progress-bar
+[2024-05-10 06:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azure
+[2024-05-10 06:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resquanderz
+[2024-05-10 06:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graph-validation-test-runners
+[2024-05-10 06:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soarv1
+[2024-05-10 06:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyRobotiqGripper
+[2024-05-10 06:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-10 06:21:54] INFO root fetch - processPackages [tiny-progress-bar]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 06:21:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-10 06:21:54] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-10 06:21:54] WARNING root fetch - processPackages [soarv1]: Skipping, unable to determine old version
+[2024-05-10 06:21:54] INFO root fetch - main [MainThread]: End processing [soarv1] error
+[2024-05-10 06:21:54] INFO root fetch - processPackages [tiny-progress-bar]: Downloading https://files.pythonhosted.org/packages/53/91/bd6e0347684b5111b8ee2249f16a9aba710736da7ee406e6a880f1d4069b/tiny_progress_bar-0.1.2.tar.gz
+[2024-05-10 06:21:54] WARNING root fetch - processPackages [pyRobotiqGripper]: Skipping, unable to determine old version
+[2024-05-10 06:21:54] INFO root fetch - main [MainThread]: End processing [pyRobotiqGripper] error
+[2024-05-10 06:21:54] INFO root fetch - processPackages [graph-validation-test-runners]: New version: [0.1.1] Old Version: [0.0.12]
+[2024-05-10 06:21:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/a0/40/e4a004ee41742eac93e194aa9c82e0fb1bb3e5771eebd40fde586c8e5518/nonebot_plugin_tetris_stats-1.1.2.tar.gz
+[2024-05-10 06:21:54] WARNING root fetch - processPackages [resquanderz]: Skipping, unable to determine old version
+[2024-05-10 06:21:54] INFO root fetch - main [MainThread]: End processing [resquanderz] error
+[2024-05-10 06:21:54] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-10 06:21:54] INFO root fetch - processPackages [graph-validation-test-runners]: Downloading https://files.pythonhosted.org/packages/d0/09/22b35c4240ef7074de76b49feaa4cd4cef0b1645a832772cf5d01a3dcda8/graph_validation_test_runners-0.0.12.tar.gz
+[2024-05-10 06:21:54] INFO root fetch - processPackages [tiny-progress-bar]: Downloading https://files.pythonhosted.org/packages/04/10/919120701c9dae56fbf280cf587c864a63ce20ca86485cd09fc1539105ff/tiny_progress_bar-0.1.3.tar.gz
+[2024-05-10 06:21:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/74/d9/87a8c00d7a5fc8b7d2febdc757858a45f4f6c6a5932cbc65788e79982c6e/nonebot_plugin_tetris_stats-1.1.3.tar.gz
+[2024-05-10 06:21:54] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-10 06:21:54] INFO root fetch - processPackages [tiny-progress-bar]: executing diffoscope
+[2024-05-10 06:21:54] INFO root fetch - processPackages [tiny-progress-bar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_progress_bar-0.1.2.tar.gz tmp/tiny_progress_bar-0.1.3.tar.gz --markdown 20240510/t/tiny-progress-bar/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 06:21:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-10 06:21:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.1.2.tar.gz tmp/nonebot_plugin_tetris_stats-1.1.3.tar.gz --markdown 20240510/n/nonebot-plugin-tetris-stats/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-10 06:21:55] INFO root fetch - processPackages [graph-validation-test-runners]: Downloading https://files.pythonhosted.org/packages/50/86/cf0c825fddbbc13e1a76cd2d505a6f4ede525dedb1f2b865e48b435f69c1/graph_validation_test_runners-0.1.1.tar.gz
+[2024-05-10 06:21:55] INFO root fetch - processPackages [graph-validation-test-runners]: executing diffoscope
+[2024-05-10 06:21:55] INFO root fetch - processPackages [graph-validation-test-runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_validation_test_runners-0.0.12.tar.gz tmp/graph_validation_test_runners-0.1.1.tar.gz --markdown 20240510/g/graph-validation-test-runners/0.0.12-0.1.1/README.md --exclude *.pyd
+[2024-05-10 06:21:55] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-10 06:21:55] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240510/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-10 06:21:55] INFO root fetch - processPackages [tiny-progress-bar]: Remove: archive file [/home/abi/fetcher/tmp/tiny_progress_bar-0.1.2.tar.gz]
+[2024-05-10 06:21:55] INFO root fetch - processPackages [tiny-progress-bar]: Remove: archive file [/home/abi/fetcher/tmp/tiny_progress_bar-0.1.3.tar.gz]
+[2024-05-10 06:21:55] INFO root fetch - main [MainThread]: End processing [tiny-progress-bar]: success
+[2024-05-10 06:21:55] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.1.2.tar.gz]
+[2024-05-10 06:21:55] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.1.3.tar.gz]
+[2024-05-10 06:21:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-10 06:21:55] INFO root fetch - processPackages [graph-validation-test-runners]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_test_runners-0.0.12.tar.gz]
+[2024-05-10 06:21:55] INFO root fetch - processPackages [graph-validation-test-runners]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_test_runners-0.1.1.tar.gz]
+[2024-05-10 06:21:55] INFO root fetch - main [MainThread]: End processing [graph-validation-test-runners]: success
+[2024-05-10 06:22:04] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-10 06:22:04] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-10 06:22:04] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-10 06:22:04] INFO root fetch - main [MainThread]: Store serial: [23141223]
