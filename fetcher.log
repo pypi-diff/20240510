@@ -6953,3 +6953,33 @@
 [2024-05-10 07:01:14] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
 [2024-05-10 07:01:14] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2024-05-10 07:01:14] INFO root fetch - main [MainThread]: Store serial: [23141422]
+[2024-05-10 07:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141422]
+[2024-05-10 07:03:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 07:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: procyoninaez
+[2024-05-10 07:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendp
+[2024-05-10 07:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infrable
+[2024-05-10 07:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2024-05-10 07:03:23] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 07:03:23] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-10 07:03:23] WARNING root fetch - processPackages [procyoninaez]: Skipping, unable to determine old version
+[2024-05-10 07:03:23] INFO root fetch - main [MainThread]: End processing [procyoninaez] error
+[2024-05-10 07:03:23] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240509001]
+[2024-05-10 07:03:23] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-10 07:03:23] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-10 07:03:23] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/10/25/4cd1155d5dc1ed8e0da420680a6178f1093d094ddef133212cce6314c836/opendp-0.9.2a20240509001.tar.gz
+[2024-05-10 07:03:23] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-10 07:03:23] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240510/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 07:03:23] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-10 07:03:23] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-10 07:03:23] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/85/6c/b343f02569a02102fd61d7a89f66fb699dbdbf7903119928f4cc3ce8516d/opendp-0.9.2b20240207001-py3-none-any.whl
+[2024-05-10 07:03:24] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36048210>=10485760
+[2024-05-10 07:03:24] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-10 07:03:24] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-10 07:03:24] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240510/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-10 07:03:24] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-10 07:03:24] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-10 07:03:24] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-10 07:03:24] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-10 07:03:24] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-10 07:03:24] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-10 07:03:24] INFO root fetch - main [MainThread]: Store serial: [23141446]
