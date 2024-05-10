@@ -25076,3 +25076,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:34:00] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-05-10 18:34:00] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-05-10 18:34:00] INFO root fetch - main [MainThread]: Store serial: [23149723]
+[2024-05-10 18:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149723]
+[2024-05-10 18:36:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rHDPE-Data-Analysis
+[2024-05-10 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-infraflow-cdk
+[2024-05-10 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cinnabarinez
+[2024-05-10 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtealeaves
+[2024-05-10 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuralneuron
+[2024-05-10 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spyglass-neuro
+[2024-05-10 18:36:09] INFO root fetch - processPackages [spyglass-neuro]: New version: [0.5.2a1] Old Version: [0.5.2]
+[2024-05-10 18:36:09] INFO root fetch - processPackages [neuralneuron]: New version: [15.6] Old Version: [15.5]
+[2024-05-10 18:36:09] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-10 18:36:09] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 18:36:09] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.9.0.8] Old Version: [0.1.9.9.0.7]
+[2024-05-10 18:36:09] WARNING root fetch - processPackages [cinnabarinez]: Skipping, unable to determine old version
+[2024-05-10 18:36:09] INFO root fetch - main [MainThread]: End processing [cinnabarinez] error
+[2024-05-10 18:36:09] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/a1/d7/a1dd7c39b925ece0513e391b8aae113bd7c1d1f7b2e086d703d607015f09/spyglass_neuro-0.5.2.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/bd/86/0eee8496383f088007b699e9595c44b852c99d69b0e5c0d9b35903891ac2/py_infraflow_cdk-0.1.9.9.0.7.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/ee/4f/f8f108e94bcac2de84ed14980a227afd32adfc42b8d12d28a04468455963/qtealeaves-1.1.4.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [neuralneuron]: Downloading https://files.pythonhosted.org/packages/21/6c/2a49c37a3817ab18ae8bb26373a59d4b2722c6305a9af838c4f88c34d553/neuralneuron-15.5.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/64/2f/e4ca007e5b9053d0c58a5668b4f6e8aca77929093696eeda71392758bac8/rHDPE_Data_Analysis-1.0.8.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/e6/90/6a2899f46f57d36284a39f5b71a4ef60bfa7e40cad83d20af6460c5083ae/py_infraflow_cdk-0.1.9.9.0.8.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/db/10/746b34ac20fc4ba3793861a5cb01199b23cdf1fadb6667b79b46923641d3/qtealeaves-1.1.5.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [neuralneuron]: Downloading https://files.pythonhosted.org/packages/3a/5c/d632f0bf111c8fae8b605cd89211c0ec40da19dd58af6fc73c1c6ae54b19/neuralneuron-15.6.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/6b/55/8ca49f99f4d5d68cb92bdb8f75216a49db6840e9e848dbbd20ab2e86edfd/rHDPE_Data_Analysis-1.0.9.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-05-10 18:36:09] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.9.0.7.tar.gz tmp/py_infraflow_cdk-0.1.9.9.0.8.tar.gz --markdown 20240510/p/py-infraflow-cdk/0.1.9.9.0.7-0.1.9.9.0.8/README.md --exclude *.pyd
+[2024-05-10 18:36:09] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/29/4f/4c78aa72b34dc20008e1e4940d84ab57f4d5326bf4fa055092c2f875a7e5/spyglass_neuro-0.5.2a1.tar.gz
+[2024-05-10 18:36:09] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-10 18:36:09] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.4.tar.gz tmp/qtealeaves-1.1.5.tar.gz --markdown 20240510/q/qtealeaves/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-10 18:36:09] INFO root fetch - processPackages [neuralneuron]: executing diffoscope
+[2024-05-10 18:36:09] INFO root fetch - processPackages [neuralneuron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralneuron-15.5.tar.gz tmp/neuralneuron-15.6.tar.gz --markdown 20240510/n/neuralneuron/15.5-15.6/README.md --exclude *.pyd
+[2024-05-10 18:36:09] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-05-10 18:36:09] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.8.tar.gz tmp/rHDPE_Data_Analysis-1.0.9.tar.gz --markdown 20240510/r/rHDPE-Data-Analysis/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 18:36:10] INFO root fetch - processPackages [spyglass-neuro]: executing diffoscope
+[2024-05-10 18:36:10] INFO root fetch - processPackages [spyglass-neuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyglass_neuro-0.5.2.tar.gz tmp/spyglass_neuro-0.5.2a1.tar.gz --markdown 20240510/s/spyglass-neuro/0.5.2-0.5.2a1/README.md --exclude *.pyd
+[2024-05-10 18:36:10] INFO root fetch - processPackages [neuralneuron]: Remove: archive file [/home/abi/fetcher/tmp/neuralneuron-15.5.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - processPackages [neuralneuron]: Remove: archive file [/home/abi/fetcher/tmp/neuralneuron-15.6.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - main [MainThread]: End processing [neuralneuron]: success
+[2024-05-10 18:36:10] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.7.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.8.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-05-10 18:36:10] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.8.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.9.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-05-10 18:36:10] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.4.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.5.tar.gz]
+[2024-05-10 18:36:10] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-10 18:36:11] INFO root fetch - processPackages [spyglass-neuro]: Remove: archive file [/home/abi/fetcher/tmp/spyglass_neuro-0.5.2.tar.gz]
+[2024-05-10 18:36:11] INFO root fetch - processPackages [spyglass-neuro]: Remove: archive file [/home/abi/fetcher/tmp/spyglass_neuro-0.5.2a1.tar.gz]
+[2024-05-10 18:36:11] INFO root fetch - main [MainThread]: End processing [spyglass-neuro]: success
+[2024-05-10 18:36:11] INFO root fetch - main [MainThread]: Store serial: [23149745]
