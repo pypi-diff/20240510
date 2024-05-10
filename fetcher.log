@@ -6649,3 +6649,24 @@
 [2024-05-10 06:32:55] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-1.0.3.tar.gz]
 [2024-05-10 06:32:55] INFO root fetch - main [MainThread]: End processing [erdantic]: success
 [2024-05-10 06:32:55] INFO root fetch - main [MainThread]: Store serial: [23141287]
+[2024-05-10 06:34:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141287]
+[2024-05-10 06:35:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 06:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdmty-django-users
+[2024-05-10 06:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-10 06:35:04] INFO root fetch - processPackages [gdmty-django-users]: New version: [24.5.0] Old Version: [24.4.2]
+[2024-05-10 06:35:04] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-10 06:35:04] INFO root fetch - processPackages [gdmty-django-users]: Downloading https://files.pythonhosted.org/packages/47/44/65e622bceddf8d87df738172fb302c54e4e954e5109b1031bf4815b231ff/gdmty_django_users-24.4.2.tar.gz
+[2024-05-10 06:35:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-10 06:35:04] INFO root fetch - processPackages [gdmty-django-users]: Downloading https://files.pythonhosted.org/packages/59/30/16dad759234aeb2693a8f7862715f67676aac21e8304337eccba43960a42/gdmty_django_users-24.5.0.tar.gz
+[2024-05-10 06:35:04] INFO root fetch - processPackages [gdmty-django-users]: executing diffoscope
+[2024-05-10 06:35:04] INFO root fetch - processPackages [gdmty-django-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdmty_django_users-24.4.2.tar.gz tmp/gdmty_django_users-24.5.0.tar.gz --markdown 20240510/g/gdmty-django-users/24.4.2-24.5.0/README.md --exclude *.pyd
+[2024-05-10 06:35:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-10 06:35:04] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-10 06:35:04] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240510/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-10 06:35:05] INFO root fetch - processPackages [gdmty-django-users]: Remove: archive file [/home/abi/fetcher/tmp/gdmty_django_users-24.4.2.tar.gz]
+[2024-05-10 06:35:05] INFO root fetch - processPackages [gdmty-django-users]: Remove: archive file [/home/abi/fetcher/tmp/gdmty_django_users-24.5.0.tar.gz]
+[2024-05-10 06:35:05] INFO root fetch - main [MainThread]: End processing [gdmty-django-users]: success
+[2024-05-10 06:35:06] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-10 06:35:06] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-10 06:35:06] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-10 06:35:06] INFO root fetch - main [MainThread]: Store serial: [23141296]
