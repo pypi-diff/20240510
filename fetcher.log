@@ -13007,3 +13007,69 @@
 [2024-05-10 11:38:01] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-05-10 11:38:01] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-05-10 11:38:01] INFO root fetch - main [MainThread]: Store serial: [23144150]
+[2024-05-10 11:40:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144150]
+[2024-05-10 11:40:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 11:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: InternEvo
+[2024-05-10 11:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mwtoolbox
+[2024-05-10 11:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamicio
+[2024-05-10 11:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyqml
+[2024-05-10 11:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mf-prior-bench
+[2024-05-10 11:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: insight-plugin
+[2024-05-10 11:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openCV-movement-detection
+[2024-05-10 11:40:13] INFO root fetch - processPackages [InternEvo]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-10 11:40:13] INFO root fetch - processPackages [lazyqml]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-10 11:40:13] INFO root fetch - processPackages [openCV-movement-detection]: New version: [1.2] Old Version: [1.1]
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mwtoolbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 11:40:13] INFO root fetch - processPackages [dynamicio]: New version: [5.0.0rc3] Old Version: [5.0.0rc2]
+[2024-05-10 11:40:13] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/dd/c7/ba32450c2f8500fa6b23a308af9074e7eb0bd99237922e4cb976f6ebedd8/InternEvo-0.4.8.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mwtoolbox]: Downloading https://files.pythonhosted.org/packages/48/c2/56e367436d71e2a7740c30e153c924a7f3d007e8b9abe2dae783a47caf36/mwtoolbox-0.0.7.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [insight-plugin]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mf-prior-bench]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-10 11:40:13] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/b8/de/e8017c916a660910c96cdc8ea1f3d492f3e4ab77021b582fb9c86035b31b/lazyqml-0.3.4.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [openCV-movement-detection]: Downloading https://files.pythonhosted.org/packages/0e/28/52ff24b7c291e405a641670566bfd7e97fc5161e0f8672e3464c27308cf0/openCV_movement_detection-1.1.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/48/19/e83e7d01135d0656843b30243be7d673a3c8956fced4c16ba3c496ce9d72/dynamicio-5.0.0rc2.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/e2/64/35bbfdeba8ecad1a3beed06f488ba6b5d48ca967ec642a618feb8cd134de/insight_plugin-1.3.0.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mwtoolbox]: Downloading https://files.pythonhosted.org/packages/f3/e7/f3d152b6f3e576bcc4b263fb1d9c18362644266dfac7291c434bfed6970b/mwtoolbox-0.0.8.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mf-prior-bench]: Downloading https://files.pythonhosted.org/packages/a6/d9/c9251a73ab3970021165a41b17e6b90e8158966fcc1b5a174996a5194824/mf-prior-bench-1.8.1.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/59/7f/9c0f7788bc42dbab9a17958a1357d5bcbf031073300840b1a5962bcdc25c/lazyqml-0.3.5.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/bc/44/a4441d30ce8e8c05d1d5941a4dbdf3a1f12802584bb9435288f2ceaf0b6e/InternEvo-0.4.9.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/0d/89/18c1870891d79962900af8a44d2e942f4036a770024f97a264fb68a57c63/dynamicio-5.0.0rc3.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mwtoolbox]: executing diffoscope
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mwtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwtoolbox-0.0.7.tar.gz tmp/mwtoolbox-0.0.8.tar.gz --markdown 20240510/m/mwtoolbox/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 11:40:13] INFO root fetch - processPackages [openCV-movement-detection]: Downloading https://files.pythonhosted.org/packages/f0/8e/224739336ff666ba42f4c2194dc9c98eb4d3923f3103fbe3fa3d1c5cddf6/openCV_movement_detection-1.2.tar.gz
+[2024-05-10 11:40:13] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-10 11:40:13] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.3.4.tar.gz tmp/lazyqml-0.3.5.tar.gz --markdown 20240510/l/lazyqml/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-10 11:40:13] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-10 11:40:13] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.8.tar.gz tmp/InternEvo-0.4.9.tar.gz --markdown 20240510/I/InternEvo/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-10 11:40:13] INFO root fetch - processPackages [dynamicio]: executing diffoscope
+[2024-05-10 11:40:13] INFO root fetch - processPackages [dynamicio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicio-5.0.0rc2.tar.gz tmp/dynamicio-5.0.0rc3.tar.gz --markdown 20240510/d/dynamicio/5.0.0rc2-5.0.0rc3/README.md --exclude *.pyd
+[2024-05-10 11:40:13] INFO root fetch - processPackages [openCV-movement-detection]: executing diffoscope
+[2024-05-10 11:40:13] INFO root fetch - processPackages [openCV-movement-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openCV_movement_detection-1.1.tar.gz tmp/openCV_movement_detection-1.2.tar.gz --markdown 20240510/o/openCV-movement-detection/1.1-1.2/README.md --exclude *.pyd
+[2024-05-10 11:40:13] INFO root fetch - processPackages [mf-prior-bench]: Downloading https://files.pythonhosted.org/packages/5d/91/7779606a37f44951dc7055a3b13647850da4676b86ce46412f328d84663a/mf_prior_bench-1.9.0.tar.gz
+[2024-05-10 11:40:14] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/bf/5c/d5851c258dfc85fe9874f8e94acc91b537cfb10db648e703b3aafdf39bed/insight_plugin-1.4.0.tar.gz
+[2024-05-10 11:40:14] INFO root fetch - processPackages [mf-prior-bench]: executing diffoscope
+[2024-05-10 11:40:14] INFO root fetch - processPackages [mf-prior-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mf-prior-bench-1.8.1.tar.gz tmp/mf_prior_bench-1.9.0.tar.gz --markdown 20240510/m/mf-prior-bench/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-10 11:40:14] INFO root fetch - processPackages [insight-plugin]: executing diffoscope
+[2024-05-10 11:40:14] INFO root fetch - processPackages [insight-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insight_plugin-1.3.0.tar.gz tmp/insight_plugin-1.4.0.tar.gz --markdown 20240510/i/insight-plugin/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-10 11:40:14] INFO root fetch - processPackages [mwtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mwtoolbox-0.0.7.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - processPackages [mwtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mwtoolbox-0.0.8.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - main [MainThread]: End processing [mwtoolbox]: success
+[2024-05-10 11:40:14] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.4.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.5.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-10 11:40:14] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc2.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc3.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - main [MainThread]: End processing [dynamicio]: success
+[2024-05-10 11:40:14] INFO root fetch - processPackages [openCV-movement-detection]: Remove: archive file [/home/abi/fetcher/tmp/openCV_movement_detection-1.1.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - processPackages [openCV-movement-detection]: Remove: archive file [/home/abi/fetcher/tmp/openCV_movement_detection-1.2.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - main [MainThread]: End processing [openCV-movement-detection]: success
+[2024-05-10 11:40:14] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.8.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.9.tar.gz]
+[2024-05-10 11:40:14] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-10 11:40:15] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.3.0.tar.gz]
+[2024-05-10 11:40:15] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.4.0.tar.gz]
+[2024-05-10 11:40:15] INFO root fetch - main [MainThread]: End processing [insight-plugin]: success
+[2024-05-10 11:40:15] INFO root fetch - processPackages [mf-prior-bench]: Remove: archive file [/home/abi/fetcher/tmp/mf-prior-bench-1.8.1.tar.gz]
+[2024-05-10 11:40:15] INFO root fetch - processPackages [mf-prior-bench]: Remove: archive file [/home/abi/fetcher/tmp/mf_prior_bench-1.9.0.tar.gz]
+[2024-05-10 11:40:15] INFO root fetch - main [MainThread]: End processing [mf-prior-bench]: success
+[2024-05-10 11:40:15] INFO root fetch - main [MainThread]: Store serial: [23144170]
