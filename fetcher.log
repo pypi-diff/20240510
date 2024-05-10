@@ -7736,3 +7736,21 @@
 [2024-05-10 07:41:02] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post13-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-10 07:41:02] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-10 07:41:02] INFO root fetch - main [MainThread]: Store serial: [23141838]
+[2024-05-10 07:43:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141838]
+[2024-05-10 07:43:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 07:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-inapp-survey
+[2024-05-10 07:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manipulatedz
+[2024-05-10 07:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zootechnicsz
+[2024-05-10 07:43:12] INFO root fetch - processPackages [django-inapp-survey]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-10 07:43:12] INFO root fetch - processPackages [django-inapp-survey]: Downloading https://files.pythonhosted.org/packages/c7/97/585d3a20b7c6bfc322920f1d5803b2b58d02f7d43ef8ebb7dcf954f25a1a/django-inapp-survey-0.2.5.tar.gz
+[2024-05-10 07:43:12] WARNING root fetch - processPackages [zootechnicsz]: Skipping, unable to determine old version
+[2024-05-10 07:43:12] INFO root fetch - main [MainThread]: End processing [zootechnicsz] error
+[2024-05-10 07:43:12] WARNING root fetch - processPackages [manipulatedz]: Skipping, unable to determine old version
+[2024-05-10 07:43:12] INFO root fetch - main [MainThread]: End processing [manipulatedz] error
+[2024-05-10 07:43:13] INFO root fetch - processPackages [django-inapp-survey]: Downloading https://files.pythonhosted.org/packages/6b/42/c569835be97417171a0ce026ec0364646331b6d091d576b58e1c40a29fb3/django-inapp-survey-0.2.6.tar.gz
+[2024-05-10 07:43:13] INFO root fetch - processPackages [django-inapp-survey]: executing diffoscope
+[2024-05-10 07:43:13] INFO root fetch - processPackages [django-inapp-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-inapp-survey-0.2.5.tar.gz tmp/django-inapp-survey-0.2.6.tar.gz --markdown 20240510/d/django-inapp-survey/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-10 07:43:16] INFO root fetch - processPackages [django-inapp-survey]: Remove: archive file [/home/abi/fetcher/tmp/django-inapp-survey-0.2.5.tar.gz]
+[2024-05-10 07:43:16] INFO root fetch - processPackages [django-inapp-survey]: Remove: archive file [/home/abi/fetcher/tmp/django-inapp-survey-0.2.6.tar.gz]
+[2024-05-10 07:43:16] INFO root fetch - main [MainThread]: End processing [django-inapp-survey]: success
+[2024-05-10 07:43:16] INFO root fetch - main [MainThread]: Store serial: [23141848]
