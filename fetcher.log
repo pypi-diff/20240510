@@ -7963,3 +7963,54 @@
 [2024-05-10 07:58:43] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-10 07:58:43] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-10 07:58:43] INFO root fetch - main [MainThread]: Store serial: [23141969]
+[2024-05-10 08:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141969]
+[2024-05-10 08:00:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 08:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tushiez
+[2024-05-10 08:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wxhook
+[2024-05-10 08:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: effluent
+[2024-05-10 08:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-flask
+[2024-05-10 08:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ntdrt
+[2024-05-10 08:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jobspec
+[2024-05-10 08:00:52] INFO root fetch - processPackages [abstract-flask]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2024-05-10 08:00:52] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/a5/a9/9231c936df17c0ed372494d5643b7d822a3ef58e2847ef40ae01610cfad6/abstract_flask-0.0.0.1.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [ntdrt]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 08:00:52] INFO root fetch - processPackages [effluent]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-10 08:00:52] INFO root fetch - processPackages [jobspec]: New version: [0.1.11] Old Version: [0.1.1]
+[2024-05-10 08:00:52] WARNING root fetch - processPackages [tushiez]: Skipping, unable to determine old version
+[2024-05-10 08:00:52] INFO root fetch - main [MainThread]: End processing [tushiez] error
+[2024-05-10 08:00:52] INFO root fetch - processPackages [wxhook]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:00:52] INFO root fetch - processPackages [effluent]: Downloading https://files.pythonhosted.org/packages/0b/f5/aa484c6829e3f4b44a4028802ebb16700ef676ade42c88cb7b8bf9c39351/effluent-1.4.1.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/7b/65/d9ef70a36c382c4265e3a93c13f4ed5de76034e979e089b8ef19e016a87d/wxhook-0.0.8.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/99/b5/84938409a7290ee982a6d60acf5583607985a2dd94b58d0ac8006d3d7d57/abstract_flask-0.0.0.2.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [ntdrt]: Downloading https://files.pythonhosted.org/packages/43/c6/3419076bd618f6e8dac6c666d0b7b3dd7b714ac7de11d2f6fecff44b1e29/ntdrt-1.8.0.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [jobspec]: Downloading https://files.pythonhosted.org/packages/b7/d0/3486b0f2158ef748594c9f45989aa690f2ade8e34e8a6820f9b8d174b2b7/jobspec-0.1.1.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [abstract-flask]: executing diffoscope
+[2024-05-10 08:00:52] INFO root fetch - processPackages [abstract-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_flask-0.0.0.1.tar.gz tmp/abstract_flask-0.0.0.2.tar.gz --markdown 20240510/a/abstract-flask/0.0.0.1-0.0.0.2/README.md --exclude *.pyd
+[2024-05-10 08:00:52] INFO root fetch - processPackages [effluent]: Downloading https://files.pythonhosted.org/packages/9a/d2/5758000a11ebf66dfd1ca79ddf3dbf2347eb5d1b55edfdfae67534fef51e/effluent-1.4.2.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [effluent]: executing diffoscope
+[2024-05-10 08:00:52] INFO root fetch - processPackages [effluent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effluent-1.4.1.tar.gz tmp/effluent-1.4.2.tar.gz --markdown 20240510/e/effluent/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-10 08:00:52] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/17/5c/a9ff0e80c475e54b6a76923e20f58e555ebbb84b2c3f9f3a048237484fc5/wxhook-0.0.9.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [jobspec]: Downloading https://files.pythonhosted.org/packages/28/74/837097d3b5ed25dc79330b5b1e05f0cd8532d547cd0fb19cd7c2efa1a3fc/jobspec-0.1.11.tar.gz
+[2024-05-10 08:00:52] INFO root fetch - processPackages [ntdrt]: Downloading https://files.pythonhosted.org/packages/30/cb/753e0ba6ea23e50325b8e01d0d72bb07538d6f322d14a36d8567d4217f36/ntdrt-1.9.0.tar.gz
+[2024-05-10 08:00:53] INFO root fetch - processPackages [wxhook]: executing diffoscope
+[2024-05-10 08:00:53] INFO root fetch - processPackages [wxhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhook-0.0.8.tar.gz tmp/wxhook-0.0.9.tar.gz --markdown 20240510/w/wxhook/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:00:53] INFO root fetch - processPackages [jobspec]: executing diffoscope
+[2024-05-10 08:00:53] INFO root fetch - processPackages [jobspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobspec-0.1.1.tar.gz tmp/jobspec-0.1.11.tar.gz --markdown 20240510/j/jobspec/0.1.1-0.1.11/README.md --exclude *.pyd
+[2024-05-10 08:00:53] INFO root fetch - processPackages [ntdrt]: executing diffoscope
+[2024-05-10 08:00:53] INFO root fetch - processPackages [ntdrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntdrt-1.8.0.tar.gz tmp/ntdrt-1.9.0.tar.gz --markdown 20240510/n/ntdrt/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 08:00:53] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.1.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.2.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - main [MainThread]: End processing [abstract-flask]: success
+[2024-05-10 08:00:53] INFO root fetch - processPackages [effluent]: Remove: archive file [/home/abi/fetcher/tmp/effluent-1.4.1.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - processPackages [effluent]: Remove: archive file [/home/abi/fetcher/tmp/effluent-1.4.2.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - main [MainThread]: End processing [effluent]: success
+[2024-05-10 08:00:53] INFO root fetch - processPackages [ntdrt]: Remove: archive file [/home/abi/fetcher/tmp/ntdrt-1.8.0.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - processPackages [ntdrt]: Remove: archive file [/home/abi/fetcher/tmp/ntdrt-1.9.0.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - main [MainThread]: End processing [ntdrt]: success
+[2024-05-10 08:00:53] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.8.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.9.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - main [MainThread]: End processing [wxhook]: success
+[2024-05-10 08:00:53] INFO root fetch - processPackages [jobspec]: Remove: archive file [/home/abi/fetcher/tmp/jobspec-0.1.1.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - processPackages [jobspec]: Remove: archive file [/home/abi/fetcher/tmp/jobspec-0.1.11.tar.gz]
+[2024-05-10 08:00:53] INFO root fetch - main [MainThread]: End processing [jobspec]: success
+[2024-05-10 08:00:53] INFO root fetch - main [MainThread]: Store serial: [23141987]
