@@ -6670,3 +6670,24 @@
 [2024-05-10 06:35:06] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-10 06:35:06] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-10 06:35:06] INFO root fetch - main [MainThread]: Store serial: [23141296]
+[2024-05-10 06:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141296]
+[2024-05-10 06:37:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: verticilsz
+[2024-05-10 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shawlingz
+[2024-05-10 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-05-10 06:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlabelImg
+[2024-05-10 06:37:15] WARNING root fetch - processPackages [mlabelImg]: Skipping, unable to determine old version
+[2024-05-10 06:37:15] INFO root fetch - main [MainThread]: End processing [mlabelImg] error
+[2024-05-10 06:37:15] WARNING root fetch - processPackages [verticilsz]: Skipping, unable to determine old version
+[2024-05-10 06:37:15] INFO root fetch - main [MainThread]: End processing [verticilsz] error
+[2024-05-10 06:37:15] WARNING root fetch - processPackages [shawlingz]: Skipping, unable to determine old version
+[2024-05-10 06:37:15] INFO root fetch - main [MainThread]: End processing [shawlingz] error
+[2024-05-10 06:37:15] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-10 06:37:15] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-10 06:37:15] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-10 06:37:16] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-10 06:37:16] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240510/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-10 06:37:17] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-10 06:37:17] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-10 06:37:17] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-10 06:37:17] INFO root fetch - main [MainThread]: Store serial: [23141312]
