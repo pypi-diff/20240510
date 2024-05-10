@@ -14314,3 +14314,75 @@
 [2024-05-10 12:30:22] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.8.tar.gz]
 [2024-05-10 12:30:22] INFO root fetch - main [MainThread]: End processing [convert-us-to-uk]: success
 [2024-05-10 12:30:22] INFO root fetch - main [MainThread]: Store serial: [23144678]
+[2024-05-10 12:32:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144678]
+[2024-05-10 12:32:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiostream
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudamqp
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azuredevops
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etymz
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AkitaCode
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-confluentcloud
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alita-sdk
+[2024-05-10 12:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kozmoml-lightgbm
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-10 12:32:36] INFO root fetch - processPackages [AkitaCode]: New version: [2.1] Old Version: [2.0.8]
+[2024-05-10 12:32:36] INFO root fetch - processPackages [aiostream]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-10 12:32:36] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 12:32:36] WARNING root fetch - processPackages [etymz]: Skipping, unable to determine old version
+[2024-05-10 12:32:36] WARNING root fetch - processPackages [kozmoml-lightgbm]: Skipping, unable to determine old version
+[2024-05-10 12:32:36] INFO root fetch - main [MainThread]: End processing [etymz] error
+[2024-05-10 12:32:36] INFO root fetch - main [MainThread]: End processing [kozmoml-lightgbm] error
+[2024-05-10 12:32:36] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1715335882] Old Version: [3.1.0a1715232079]
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [aiostream]: Downloading https://files.pythonhosted.org/packages/14/e3/65640941115a2099c87155fe6259f91a958f92fdc88a06b236079075400f/aiostream-0.5.1.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/a6/e1/5b5f1fcd8c365e869dcd71544494596ea64e37c15319f1a775895626f3a6/AkitaCode-2.0.8.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/65/0e/52bf32d2339278f5f010d084eaaecb2befeaa142cc1971d7af60b7b74e16/pulumi_azuredevops-3.1.0a1715232079.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/81/08/643bf57bb5904069b4227d92bcdcb488675c0f2662812924e5d60034ba8c/alita_sdk-0.1.4.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/29/18/163d6a988e80a15bd40158514237b4191556dc712b8a56dce221055218ed/AkitaCode-2.1-py3-none-any.whl
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [aiostream]: Downloading https://files.pythonhosted.org/packages/e4/60/0b46dfd568d1e22ff587ff0b00829a11411bc34be1b6497c8783cbd9ec82/aiostream-0.5.2.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240510/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-10 12:32:36] INFO root fetch - processPackages [AkitaCode]: executing diffoscope
+[2024-05-10 12:32:36] INFO root fetch - processPackages [AkitaCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkitaCode-2.0.8.tar.gz tmp/AkitaCode-2.1-py3-none-any.whl.zip --markdown 20240510/A/AkitaCode/2.0.8-2.1/README.md --exclude *.pyd
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240510/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-10 12:32:36] INFO root fetch - processPackages [aiostream]: executing diffoscope
+[2024-05-10 12:32:36] INFO root fetch - processPackages [aiostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiostream-0.5.1.tar.gz tmp/aiostream-0.5.2.tar.gz --markdown 20240510/a/aiostream/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-10 12:32:36] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 12:32:36] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 12:32:36] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/45/c6/4d5ae94f8974dde8a87b4c805253999a01cfdfa63672ae58706df52a8d79/alita_sdk-0.1.5.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/d7/41/8a55aaca590b45b1e532ea97a931ff91e23b99d24e315ba0ec45392453ce/pulumi_azuredevops-3.1.0a1715335882.tar.gz
+[2024-05-10 12:32:36] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-10 12:32:36] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.4.tar.gz tmp/alita_sdk-0.1.5.tar.gz --markdown 20240510/a/alita-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-10 12:32:36] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1715232079.tar.gz tmp/pulumi_azuredevops-3.1.0a1715335882.tar.gz --markdown 20240510/p/pulumi-azuredevops/3.1.0a1715232079-3.1.0a1715335882/README.md --exclude *.pyd
+[2024-05-10 12:32:37] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.0.8.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.1-py3-none-any.whl.zip]
+[2024-05-10 12:32:37] INFO root fetch - main [MainThread]: End processing [AkitaCode]: success
+[2024-05-10 12:32:37] INFO root fetch - processPackages [aiostream]: Remove: archive file [/home/abi/fetcher/tmp/aiostream-0.5.1.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - processPackages [aiostream]: Remove: archive file [/home/abi/fetcher/tmp/aiostream-0.5.2.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - main [MainThread]: End processing [aiostream]: success
+[2024-05-10 12:32:37] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-05-10 12:32:37] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-10 12:32:37] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 12:32:37] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.4.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.5.tar.gz]
+[2024-05-10 12:32:37] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-10 12:32:38] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715232079.tar.gz]
+[2024-05-10 12:32:38] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715335882.tar.gz]
+[2024-05-10 12:32:38] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-10 12:32:38] INFO root fetch - main [MainThread]: Store serial: [23144710]
