@@ -11253,3 +11253,32 @@
 [2024-05-10 10:39:46] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.8.tar.gz]
 [2024-05-10 10:39:46] INFO root fetch - main [MainThread]: End processing [vital]: success
 [2024-05-10 10:39:46] INFO root fetch - main [MainThread]: Store serial: [23143417]
+[2024-05-10 10:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143417]
+[2024-05-10 10:41:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: againbuyz
+[2024-05-10 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytim
+[2024-05-10 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk
+[2024-05-10 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SunoAI
+[2024-05-10 10:41:56] WARNING root fetch - processPackages [againbuyz]: Skipping, unable to determine old version
+[2024-05-10 10:41:56] INFO root fetch - main [MainThread]: End processing [againbuyz] error
+[2024-05-10 10:41:56] INFO root fetch - processPackages [SunoAI]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-10 10:41:56] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 10:41:56] INFO root fetch - processPackages [SunoAI]: Downloading https://files.pythonhosted.org/packages/45/69/b643cda548e7bd07077e8f5d571b8271681881f0da443f82bfea4df6cf0a/sunoai-1.0.2.tar.gz
+[2024-05-10 10:41:56] INFO root fetch - processPackages [pytim]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-10 10:41:56] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-10 10:41:57] INFO root fetch - processPackages [pytim]: Downloading https://files.pythonhosted.org/packages/5a/ff/94870ff16c4e588becffbda3c55b3544f7065bfd81cb71d57bc4a7463a06/pytim-0.9.0.tar.gz
+[2024-05-10 10:41:57] INFO root fetch - processPackages [SunoAI]: Downloading https://files.pythonhosted.org/packages/68/c3/4f32d51839508abdadc95184962ae62bb8bb2f3bd881d99caa270102d2d1/sunoai-1.0.3.tar.gz
+[2024-05-10 10:41:57] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-10 10:41:57] WARNING root fetch - processPackages [pytim]: Skipping package: exceeds size limit 13601152>=10485760
+[2024-05-10 10:41:57] INFO root fetch - main [MainThread]: End processing [pytim] error
+[2024-05-10 10:41:57] INFO root fetch - processPackages [SunoAI]: executing diffoscope
+[2024-05-10 10:41:57] INFO root fetch - processPackages [SunoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunoai-1.0.2.tar.gz tmp/sunoai-1.0.3.tar.gz --markdown 20240510/S/SunoAI/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-10 10:41:57] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-10 10:41:57] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240510/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 10:41:57] INFO root fetch - processPackages [SunoAI]: Remove: archive file [/home/abi/fetcher/tmp/sunoai-1.0.2.tar.gz]
+[2024-05-10 10:41:57] INFO root fetch - processPackages [SunoAI]: Remove: archive file [/home/abi/fetcher/tmp/sunoai-1.0.3.tar.gz]
+[2024-05-10 10:41:57] INFO root fetch - main [MainThread]: End processing [SunoAI]: success
+[2024-05-10 10:41:58] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-10 10:41:58] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-10 10:41:58] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-10 10:41:58] INFO root fetch - main [MainThread]: Store serial: [23143427]
