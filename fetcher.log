@@ -5388,3 +5388,41 @@
 [2024-05-10 05:11:46] INFO root fetch - processPackages [odoo-addon-sale-commission-product-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commission_product_criteria-16.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-10 05:11:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-commission-product-criteria]: success
 [2024-05-10 05:11:46] INFO root fetch - main [MainThread]: Store serial: [23140747]
+[2024-05-10 05:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140747]
+[2024-05-10 05:13:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 05:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hebill-html
+[2024-05-10 05:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourcery-nightly
+[2024-05-10 05:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2024-05-10 05:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelmerge
+[2024-05-10 05:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bractletsz
+[2024-05-10 05:13:56] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-05-10 05:13:56] INFO root fetch - processPackages [hebill-html]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 05:13:57] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 05:13:57] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/d0/4d/1bcce6fd4b01edc3088927c67c6a1f036da4325e2d64f9023ffc785bf41f/cyberdrop_dl-5.2.8.tar.gz
+[2024-05-10 05:13:57] WARNING root fetch - processPackages [bractletsz]: Skipping, unable to determine old version
+[2024-05-10 05:13:57] INFO root fetch - main [MainThread]: End processing [bractletsz] error
+[2024-05-10 05:13:57] INFO root fetch - processPackages [modelmerge]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-10 05:13:57] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/5d/63/1a15c955e5419d5811c36cea3b63cebd66a4d99ae815cf13897cccb81553/modelmerge-0.2.9.tar.gz
+[2024-05-10 05:13:57] INFO root fetch - processPackages [hebill-html]: Downloading https://files.pythonhosted.org/packages/58/dc/935235a852b9eaa85a6b5ce8be767a74a231bb989c7bebc1c47a6729726a/hebill_html-1.0.0.tar.gz
+[2024-05-10 05:13:57] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-10 05:13:57] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/a7/7a/092028b397178a9db79ef8faa65d75bf211ee19118810447fad4b661a628/cyberdrop_dl-5.2.9.tar.gz
+[2024-05-10 05:13:57] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-10 05:13:57] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-10 05:13:57] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-05-10 05:13:57] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.2.8.tar.gz tmp/cyberdrop_dl-5.2.9.tar.gz --markdown 20240510/c/cyberdrop-dl/5.2.8-5.2.9/README.md --exclude *.pyd
+[2024-05-10 05:13:57] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/11/0e/4d9ed9c63613a22797b46062c87d79ea67ed053e5a2f2043186393f390e6/modelmerge-0.3.0.tar.gz
+[2024-05-10 05:13:57] INFO root fetch - processPackages [hebill-html]: Downloading https://files.pythonhosted.org/packages/ad/e6/6856fa8888fccc80bb25948761f653f9805e2f984501dec996f11c0609a3/hebill_html-1.0.1.tar.gz
+[2024-05-10 05:13:57] INFO root fetch - processPackages [hebill-html]: executing diffoscope
+[2024-05-10 05:13:57] INFO root fetch - processPackages [hebill-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill_html-1.0.0.tar.gz tmp/hebill_html-1.0.1.tar.gz --markdown 20240510/h/hebill-html/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 05:13:57] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-10 05:13:57] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.2.9.tar.gz tmp/modelmerge-0.3.0.tar.gz --markdown 20240510/m/modelmerge/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-10 05:13:58] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.8.tar.gz]
+[2024-05-10 05:13:58] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
+[2024-05-10 05:13:58] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-05-10 05:13:58] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.2.9.tar.gz]
+[2024-05-10 05:13:58] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.0.tar.gz]
+[2024-05-10 05:13:58] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-10 05:13:58] INFO root fetch - processPackages [hebill-html]: Remove: archive file [/home/abi/fetcher/tmp/hebill_html-1.0.0.tar.gz]
+[2024-05-10 05:13:58] INFO root fetch - processPackages [hebill-html]: Remove: archive file [/home/abi/fetcher/tmp/hebill_html-1.0.1.tar.gz]
+[2024-05-10 05:13:58] INFO root fetch - main [MainThread]: End processing [hebill-html]: success
+[2024-05-10 05:13:58] INFO root fetch - main [MainThread]: Store serial: [23140763]
