@@ -20434,3 +20434,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:58:11] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.5.0a5.tar.gz]
 [2024-05-10 15:58:11] INFO root fetch - main [MainThread]: End processing [toui]: success
 [2024-05-10 15:58:11] INFO root fetch - main [MainThread]: Store serial: [23147439]
+[2024-05-10 16:00:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147439]
+[2024-05-10 16:00:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 16:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmuxradio
+[2024-05-10 16:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prothiel
+[2024-05-10 16:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chevroletz
+[2024-05-10 16:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-ads-api-report-fetcher
+[2024-05-10 16:00:20] INFO root fetch - processPackages [tmuxradio]: New version: [0.2] Old Version: [0.1]
+[2024-05-10 16:00:20] INFO root fetch - processPackages [prothiel]: New version: [0.1.6] Old Version: [0.1.2]
+[2024-05-10 16:00:20] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-10 16:00:20] INFO root fetch - processPackages [chevroletz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:00:20] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-10 16:00:20] INFO root fetch - processPackages [prothiel]: Downloading https://files.pythonhosted.org/packages/6b/fc/17ce34ef920be905dce3e4bdb091be5a69e77f2982a5b829b49c11d04b32/prothiel-0.1.2.tar.gz
+[2024-05-10 16:00:20] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/5d/c6/9bc26718667b32ab61407781ffa79f4296660b84963d534dead41b03d928/tmuxradio-0.1.tar.gz
+[2024-05-10 16:00:20] INFO root fetch - processPackages [chevroletz]: Downloading https://files.pythonhosted.org/packages/1f/dc/eecf440013ea92351cdd7227f5cd215b1c607c50962e919efac956d9e511/chevroletz-1.1.tar.gz
+[2024-05-10 16:00:20] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-10 16:00:21] INFO root fetch - processPackages [prothiel]: Downloading https://files.pythonhosted.org/packages/65/93/57eb029437ae11bc5772b32f2b396694f0e50100274f5d2ec5ac2be6cf73/prothiel-0.1.6.tar.gz
+[2024-05-10 16:00:21] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-10 16:00:21] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240510/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-10 16:00:21] INFO root fetch - processPackages [prothiel]: executing diffoscope
+[2024-05-10 16:00:21] INFO root fetch - processPackages [prothiel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prothiel-0.1.2.tar.gz tmp/prothiel-0.1.6.tar.gz --markdown 20240510/p/prothiel/0.1.2-0.1.6/README.md --exclude *.pyd
+[2024-05-10 16:00:21] INFO root fetch - processPackages [chevroletz]: Downloading https://files.pythonhosted.org/packages/07/75/583a97eb87ca91b07ed72c0fe76f15d655c1d4901c223f21185001688a32/chevroletz-2.1.tar.gz
+[2024-05-10 16:00:21] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/38/0e/e8297a2158c25e7371760803aaccc10a45443b5300093d723b3087cdb96d/tmuxradio-0.2.tar.gz
+[2024-05-10 16:00:21] INFO root fetch - processPackages [chevroletz]: executing diffoscope
+[2024-05-10 16:00:21] INFO root fetch - processPackages [chevroletz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chevroletz-1.1.tar.gz tmp/chevroletz-2.1.tar.gz --markdown 20240510/c/chevroletz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:00:21] INFO root fetch - processPackages [prothiel]: Remove: archive file [/home/abi/fetcher/tmp/prothiel-0.1.2.tar.gz]
+[2024-05-10 16:00:21] INFO root fetch - processPackages [prothiel]: Remove: archive file [/home/abi/fetcher/tmp/prothiel-0.1.6.tar.gz]
+[2024-05-10 16:00:21] INFO root fetch - main [MainThread]: End processing [prothiel]: success
+[2024-05-10 16:00:21] INFO root fetch - processPackages [tmuxradio]: executing diffoscope
+[2024-05-10 16:00:21] INFO root fetch - processPackages [tmuxradio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmuxradio-0.1.tar.gz tmp/tmuxradio-0.2.tar.gz --markdown 20240510/t/tmuxradio/0.1-0.2/README.md --exclude *.pyd
+[2024-05-10 16:00:21] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-10 16:00:21] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-10 16:00:21] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-10 16:00:21] INFO root fetch - processPackages [chevroletz]: Remove: archive file [/home/abi/fetcher/tmp/chevroletz-1.1.tar.gz]
+[2024-05-10 16:00:21] INFO root fetch - processPackages [chevroletz]: Remove: archive file [/home/abi/fetcher/tmp/chevroletz-2.1.tar.gz]
+[2024-05-10 16:00:21] INFO root fetch - main [MainThread]: End processing [chevroletz]: success
+[2024-05-10 16:00:27] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.1.tar.gz]
+[2024-05-10 16:00:27] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.tar.gz]
+[2024-05-10 16:00:27] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
+[2024-05-10 16:00:27] INFO root fetch - main [MainThread]: Store serial: [23147451]
