@@ -3761,3 +3761,45 @@
 [2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715303443.tar.gz]
 [2024-05-10 03:52:09] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
 [2024-05-10 03:52:09] INFO root fetch - main [MainThread]: Store serial: [23140103]
+[2024-05-10 03:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140103]
+[2024-05-10 03:54:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 03:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-dnsimple
+[2024-05-10 03:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: equilaterz
+[2024-05-10 03:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viztracer
+[2024-05-10 03:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iscasmodel
+[2024-05-10 03:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-utils
+[2024-05-10 03:54:19] INFO root fetch - processPackages [iscasmodel]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 03:54:19] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1715232779] Old Version: [3.5.0a1715228330]
+[2024-05-10 03:54:19] WARNING root fetch - processPackages [equilaterz]: Skipping, unable to determine old version
+[2024-05-10 03:54:19] INFO root fetch - main [MainThread]: End processing [equilaterz] error
+[2024-05-10 03:54:19] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/19/fd/3bfdc33ea889d21a70b23adc7871343826a97f90ea9627c694769bf91799/iscasmodel-0.8.tar.gz
+[2024-05-10 03:54:19] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/88/b7/f547bc709275c7d3130dd00c86da23b671a1084045c2db6265d662e1e252/pulumi_dnsimple-3.5.0a1715228330.tar.gz
+[2024-05-10 03:54:20] INFO root fetch - processPackages [viztracer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-10 03:54:20] INFO root fetch - processPackages [neon-utils]: New version: [1.9.2a5] Old Version: [1.9.2a4]
+[2024-05-10 03:54:20] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/13/12/355a54f73402f501d8505f078621de0c6e6222dab6f24765d2acfd74f701/iscasmodel-0.9.tar.gz
+[2024-05-10 03:54:20] INFO root fetch - processPackages [viztracer]: Downloading https://files.pythonhosted.org/packages/08/15/c902c962282c154e06b8b0dd84ab5a14af7249d7ddc771afa2e4440118f6/viztracer-0.9.4.tar.gz
+[2024-05-10 03:54:20] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/dd/ca/a71293eeebdf831affad8b2a309fdbd2c26ab8123381e5bf031c5de855f8/pulumi_dnsimple-3.5.0a1715232779.tar.gz
+[2024-05-10 03:54:20] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/40/2d/fb1887f565e889964657dd1ffc5eca79ea8e671fe20620d2659c16798ce4/neon-utils-1.9.2a4.tar.gz
+[2024-05-10 03:54:20] INFO root fetch - processPackages [iscasmodel]: executing diffoscope
+[2024-05-10 03:54:20] INFO root fetch - processPackages [iscasmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscasmodel-0.8.tar.gz tmp/iscasmodel-0.9.tar.gz --markdown 20240510/i/iscasmodel/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 03:54:20] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-10 03:54:20] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1715228330.tar.gz tmp/pulumi_dnsimple-3.5.0a1715232779.tar.gz --markdown 20240510/p/pulumi-dnsimple/3.5.0a1715228330-3.5.0a1715232779/README.md --exclude *.pyd
+[2024-05-10 03:54:20] INFO root fetch - processPackages [viztracer]: Downloading https://files.pythonhosted.org/packages/b8/77/f17217f051f1e17025aed6107194c557a1796d6a58e2045c8710a0f154fc/viztracer-0.9.5.tar.gz
+[2024-05-10 03:54:20] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4b/7e/d169b05a82bb414b9aaef0aca31a8f1752c08f9ca655cca6a681584a2c23/neon-utils-1.9.2a5.tar.gz
+[2024-05-10 03:54:20] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2024-05-10 03:54:20] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.9.2a4.tar.gz tmp/neon-utils-1.9.2a5.tar.gz --markdown 20240510/n/neon-utils/1.9.2a4-1.9.2a5/README.md --exclude *.pyd
+[2024-05-10 03:54:20] INFO root fetch - processPackages [viztracer]: executing diffoscope
+[2024-05-10 03:54:20] INFO root fetch - processPackages [viztracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viztracer-0.9.4.tar.gz tmp/viztracer-0.9.5.tar.gz --markdown 20240510/v/viztracer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-10 03:54:20] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.8.tar.gz]
+[2024-05-10 03:54:20] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.9.tar.gz]
+[2024-05-10 03:54:20] INFO root fetch - main [MainThread]: End processing [iscasmodel]: success
+[2024-05-10 03:54:20] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715228330.tar.gz]
+[2024-05-10 03:54:20] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715232779.tar.gz]
+[2024-05-10 03:54:20] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-10 03:54:21] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a4.tar.gz]
+[2024-05-10 03:54:21] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a5.tar.gz]
+[2024-05-10 03:54:21] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2024-05-10 03:54:21] INFO root fetch - processPackages [viztracer]: Remove: archive file [/home/abi/fetcher/tmp/viztracer-0.9.4.tar.gz]
+[2024-05-10 03:54:21] INFO root fetch - processPackages [viztracer]: Remove: archive file [/home/abi/fetcher/tmp/viztracer-0.9.5.tar.gz]
+[2024-05-10 03:54:21] INFO root fetch - main [MainThread]: End processing [viztracer]: success
+[2024-05-10 03:54:21] INFO root fetch - main [MainThread]: Store serial: [23140117]
