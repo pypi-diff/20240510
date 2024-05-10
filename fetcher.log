@@ -15573,3 +15573,78 @@
 [2024-05-10 13:09:23] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
 [2024-05-10 13:09:23] INFO root fetch - main [MainThread]: End processing [ok-script]: success
 [2024-05-10 13:09:23] INFO root fetch - main [MainThread]: Store serial: [23145250]
+[2024-05-10 13:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145250]
+[2024-05-10 13:11:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iudex
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-newrelic
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-nomad
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-linode
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiostream
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mwrpy
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-mysql
+[2024-05-10 13:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: birefractingz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [iudex]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1715303914] Old Version: [2.3.0a1715234415]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [aiostream]: New version: [0.6.0rc1] Old Version: [0.6.0]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1715304114] Old Version: [3.3.0a1715234267]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [mwrpy]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [birefractingz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/31/30/7d6549b64df2708144ea28e68a08a79a0432464db9d347e05162c815d060/pulumi_nomad-2.3.0a1715234415.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/47/91/96a93c269b5c49375fb7f13214c2a823a7d6fbd8595d28c72ba424a9ac96/iudex-0.4.1.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/c0/65/d4155594b796cb602befdaee219f564401f8d12b3a78cc2d1e95e4aadf31/pulumi_mysql-3.3.0a1715234267.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [aiostream]: Downloading https://files.pythonhosted.org/packages/bc/28/22a27656991d26ad8716c06fec6fa70923b917f2fc2b54ce18198f15c7d4/aiostream-0.6.0.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [birefractingz]: Downloading https://files.pythonhosted.org/packages/45/41/44ee9eec67d8440acb2d1da86882b711cef8f7576ac4d2e7dc4666f3aab1/birefractingz-1.1.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/17/99/7ff79cb1721c8e8fed427c41b4e67da2d92206f901c3b83e9db2a42dc0ed/pulumi_nomad-2.3.0a1715303914.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/b2/5b/9904c4cdc988fe75771324bc74cfd9c6cd2eff6cab70970cfeff87ca5101/mwrpy-0.8.3.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/6b/c3/c8efd886e857b8c0119c3312ddef2f866af7dc912ba59288e9d94db1f57a/iudex-0.4.2.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1715234415.tar.gz tmp/pulumi_nomad-2.3.0a1715303914.tar.gz --markdown 20240510/p/pulumi-nomad/2.3.0a1715234415-2.3.0a1715303914/README.md --exclude *.pyd
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/d5/57/df28ae00357a523fdcc499a245d9c3268a44dd1200f253f71a989f2d4615/pulumi_mysql-3.3.0a1715304114.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [aiostream]: Downloading https://files.pythonhosted.org/packages/46/27/b73379ce08eb869ecb5636fa390f91649cb44e633929f6a4f31501a78f25/aiostream-0.6.0rc1.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-10 13:11:46] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.4.1.tar.gz tmp/iudex-0.4.2.tar.gz --markdown 20240510/i/iudex/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240510/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1715234267.tar.gz tmp/pulumi_mysql-3.3.0a1715304114.tar.gz --markdown 20240510/p/pulumi-mysql/3.3.0a1715234267-3.3.0a1715304114/README.md --exclude *.pyd
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [aiostream]: executing diffoscope
+[2024-05-10 13:11:46] INFO root fetch - processPackages [aiostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiostream-0.6.0.tar.gz tmp/aiostream-0.6.0rc1.tar.gz --markdown 20240510/a/aiostream/0.6.0-0.6.0rc1/README.md --exclude *.pyd
+[2024-05-10 13:11:46] INFO root fetch - processPackages [birefractingz]: Downloading https://files.pythonhosted.org/packages/bd/1a/00db22dfb81fc1c15c332a30b10f4b055664719dd86dac8bf114f592748f/birefractingz-2.1.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/b8/f8/86ab6a316853b3c834436cc308bcb864b1425f88bcef59b5a036f7bd82d5/mwrpy-0.9.0.tar.gz
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-10 13:11:46] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240510/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-10 13:11:47] INFO root fetch - processPackages [birefractingz]: executing diffoscope
+[2024-05-10 13:11:47] INFO root fetch - processPackages [birefractingz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birefractingz-1.1.tar.gz tmp/birefractingz-2.1.tar.gz --markdown 20240510/b/birefractingz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:11:47] INFO root fetch - processPackages [mwrpy]: executing diffoscope
+[2024-05-10 13:11:47] INFO root fetch - processPackages [mwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwrpy-0.8.3.tar.gz tmp/mwrpy-0.9.0.tar.gz --markdown 20240510/m/mwrpy/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-10 13:11:47] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.1.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.2.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-10 13:11:47] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715234267.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715304114.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-10 13:11:47] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715234415.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715303914.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-05-10 13:11:47] INFO root fetch - processPackages [aiostream]: Remove: archive file [/home/abi/fetcher/tmp/aiostream-0.6.0.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - processPackages [aiostream]: Remove: archive file [/home/abi/fetcher/tmp/aiostream-0.6.0rc1.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - main [MainThread]: End processing [aiostream]: success
+[2024-05-10 13:11:47] INFO root fetch - processPackages [birefractingz]: Remove: archive file [/home/abi/fetcher/tmp/birefractingz-1.1.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - processPackages [birefractingz]: Remove: archive file [/home/abi/fetcher/tmp/birefractingz-2.1.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - main [MainThread]: End processing [birefractingz]: success
+[2024-05-10 13:11:47] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-10 13:11:47] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-10 13:11:48] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-10 13:11:48] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-10 13:11:48] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-10 13:11:48] INFO root fetch - processPackages [mwrpy]: Remove: archive file [/home/abi/fetcher/tmp/mwrpy-0.8.3.tar.gz]
+[2024-05-10 13:11:48] INFO root fetch - processPackages [mwrpy]: Remove: archive file [/home/abi/fetcher/tmp/mwrpy-0.9.0.tar.gz]
+[2024-05-10 13:11:48] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
+[2024-05-10 13:11:48] INFO root fetch - main [MainThread]: Store serial: [23145273]
