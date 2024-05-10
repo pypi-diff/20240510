@@ -4807,3 +4807,30 @@
 [2024-05-10 04:38:35] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715237402.tar.gz]
 [2024-05-10 04:38:35] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2024-05-10 04:38:35] INFO root fetch - main [MainThread]: Store serial: [23140507]
+[2024-05-10 04:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140507]
+[2024-05-10 04:40:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 04:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-vsphere
+[2024-05-10 04:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weirdz
+[2024-05-10 04:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dampingz
+[2024-05-10 04:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-nomad
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1715303914] Old Version: [2.3.0a1715234415]
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-10 04:40:44] WARNING root fetch - processPackages [dampingz]: Skipping, unable to determine old version
+[2024-05-10 04:40:44] INFO root fetch - main [MainThread]: End processing [dampingz] error
+[2024-05-10 04:40:44] WARNING root fetch - processPackages [weirdz]: Skipping, unable to determine old version
+[2024-05-10 04:40:44] INFO root fetch - main [MainThread]: End processing [weirdz] error
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/31/30/7d6549b64df2708144ea28e68a08a79a0432464db9d347e05162c815d060/pulumi_nomad-2.3.0a1715234415.tar.gz
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/17/99/7ff79cb1721c8e8fed427c41b4e67da2d92206f901c3b83e9db2a42dc0ed/pulumi_nomad-2.3.0a1715303914.tar.gz
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240510/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-05-10 04:40:44] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1715234415.tar.gz tmp/pulumi_nomad-2.3.0a1715303914.tar.gz --markdown 20240510/p/pulumi-nomad/2.3.0a1715234415-2.3.0a1715303914/README.md --exclude *.pyd
+[2024-05-10 04:40:45] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715234415.tar.gz]
+[2024-05-10 04:40:45] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715303914.tar.gz]
+[2024-05-10 04:40:45] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-05-10 04:40:45] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-10 04:40:45] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-10 04:40:45] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-10 04:40:45] INFO root fetch - main [MainThread]: Store serial: [23140522]
