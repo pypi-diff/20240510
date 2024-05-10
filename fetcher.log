@@ -6857,3 +6857,33 @@
 [2024-05-10 06:48:15] INFO root fetch - processPackages [libvmdk-python]: Remove: archive file [/home/abi/fetcher/tmp/libvmdk-python-20240510.tar.gz]
 [2024-05-10 06:48:15] INFO root fetch - main [MainThread]: End processing [libvmdk-python]: success
 [2024-05-10 06:48:15] INFO root fetch - main [MainThread]: Store serial: [23141382]
+[2024-05-10 06:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141382]
+[2024-05-10 06:50:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-person-profile-csv-imp-local
+[2024-05-10 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-05-10 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchify
+[2024-05-10 06:50:24] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-10 06:50:24] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 06:50:24] INFO root fetch - processPackages [benchify]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 06:50:24] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-10 06:50:24] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/9e/0f/163f194d63f71a058cf81578c6e97b1c2846909f9a67dfbae23404506a95/contact-person-profile-csv-imp-local-0.0.6.tar.gz
+[2024-05-10 06:50:24] INFO root fetch - processPackages [benchify]: Downloading https://files.pythonhosted.org/packages/5a/0b/7b7396c47e597d572c094b8ccc9486e40a7fe4547621a5b1cf8d3221a35d/benchify-0.0.8.tar.gz
+[2024-05-10 06:50:24] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-10 06:50:24] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-10 06:50:24] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240510/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-10 06:50:24] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/d6/d6/80a39f4462a0951c0a55d7ca60eabb3e448982712754008f1c4b3079baa4/contact_person_profile_csv_imp_local-0.0.7.tar.gz
+[2024-05-10 06:50:24] INFO root fetch - processPackages [benchify]: Downloading https://files.pythonhosted.org/packages/19/ed/b541b5e624a1cef56b003967dd27d6d363717167450153c1891c87d50d66/benchify-0.0.9.tar.gz
+[2024-05-10 06:50:24] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: executing diffoscope
+[2024-05-10 06:50:24] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-person-profile-csv-imp-local-0.0.6.tar.gz tmp/contact_person_profile_csv_imp_local-0.0.7.tar.gz --markdown 20240510/c/contact-person-profile-csv-imp-local/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 06:50:24] INFO root fetch - processPackages [benchify]: executing diffoscope
+[2024-05-10 06:50:24] INFO root fetch - processPackages [benchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchify-0.0.8.tar.gz tmp/benchify-0.0.9.tar.gz --markdown 20240510/b/benchify/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 06:50:24] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-10 06:50:24] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-10 06:50:24] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-10 06:50:25] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-person-profile-csv-imp-local-0.0.6.tar.gz]
+[2024-05-10 06:50:25] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.7.tar.gz]
+[2024-05-10 06:50:25] INFO root fetch - main [MainThread]: End processing [contact-person-profile-csv-imp-local]: success
+[2024-05-10 06:50:25] INFO root fetch - processPackages [benchify]: Remove: archive file [/home/abi/fetcher/tmp/benchify-0.0.8.tar.gz]
+[2024-05-10 06:50:25] INFO root fetch - processPackages [benchify]: Remove: archive file [/home/abi/fetcher/tmp/benchify-0.0.9.tar.gz]
+[2024-05-10 06:50:25] INFO root fetch - main [MainThread]: End processing [benchify]: success
+[2024-05-10 06:50:25] INFO root fetch - main [MainThread]: Store serial: [23141390]
