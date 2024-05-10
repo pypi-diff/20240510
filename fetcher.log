@@ -13945,3 +13945,36 @@
 [2024-05-10 12:14:29] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.4.tar.gz]
 [2024-05-10 12:14:29] INFO root fetch - main [MainThread]: End processing [qdtrader]: success
 [2024-05-10 12:14:29] INFO root fetch - main [MainThread]: Store serial: [23144525]
+[2024-05-10 12:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144525]
+[2024-05-10 12:16:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 12:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcsa
+[2024-05-10 12:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g3visu
+[2024-05-10 12:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-auth0
+[2024-05-10 12:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonfugitivelyz
+[2024-05-10 12:16:42] INFO root fetch - processPackages [g3visu]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 12:16:42] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1715317931] Old Version: [3.4.0a1715303443]
+[2024-05-10 12:16:43] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/99/ba/42e9fe7585e81609d70437a731d3a92b0f3339738d6d090b99e494d10d57/g3visu-0.1.5.tar.gz
+[2024-05-10 12:16:43] WARNING root fetch - processPackages [nonfugitivelyz]: Skipping, unable to determine old version
+[2024-05-10 12:16:43] INFO root fetch - main [MainThread]: End processing [nonfugitivelyz] error
+[2024-05-10 12:16:43] INFO root fetch - processPackages [gcsa]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-10 12:16:43] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/f1/aa/d07c9b5fd0b65fd4cfab4018408dda8cc12f38665461decca6fd5c41258d/pulumi_auth0-3.4.0a1715303443.tar.gz
+[2024-05-10 12:16:43] INFO root fetch - processPackages [gcsa]: Downloading https://files.pythonhosted.org/packages/c2/de/72cda65fb5cd7d53f7cb52e19f1861fc68451a5c3bba5c297cabafdc5092/gcsa-2.2.0.tar.gz
+[2024-05-10 12:16:43] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/54/2f/0471679dc1fb27c05c08d0e43d44716ed234d1366356f002f55080cdcc76/g3visu-0.1.6.tar.gz
+[2024-05-10 12:16:43] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/79/48/491895d063527cb047955ce1a7ef51d6b12d51c0a13f11517c4a4f70a07c/pulumi_auth0-3.4.0a1715317931.tar.gz
+[2024-05-10 12:16:43] INFO root fetch - processPackages [g3visu]: executing diffoscope
+[2024-05-10 12:16:43] INFO root fetch - processPackages [g3visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3visu-0.1.5.tar.gz tmp/g3visu-0.1.6.tar.gz --markdown 20240510/g/g3visu/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 12:16:43] INFO root fetch - processPackages [gcsa]: Downloading https://files.pythonhosted.org/packages/80/08/e62e946a038ebaf6cc70d965cf1490112bbc21e2053ade476ff8937c2041/gcsa-2.3.0.tar.gz
+[2024-05-10 12:16:43] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-10 12:16:43] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1715303443.tar.gz tmp/pulumi_auth0-3.4.0a1715317931.tar.gz --markdown 20240510/p/pulumi-auth0/3.4.0a1715303443-3.4.0a1715317931/README.md --exclude *.pyd
+[2024-05-10 12:16:43] INFO root fetch - processPackages [gcsa]: executing diffoscope
+[2024-05-10 12:16:43] INFO root fetch - processPackages [gcsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcsa-2.2.0.tar.gz tmp/gcsa-2.3.0.tar.gz --markdown 20240510/g/gcsa/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-10 12:16:44] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.5.tar.gz]
+[2024-05-10 12:16:44] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.6.tar.gz]
+[2024-05-10 12:16:44] INFO root fetch - main [MainThread]: End processing [g3visu]: success
+[2024-05-10 12:16:44] INFO root fetch - processPackages [gcsa]: Remove: archive file [/home/abi/fetcher/tmp/gcsa-2.2.0.tar.gz]
+[2024-05-10 12:16:44] INFO root fetch - processPackages [gcsa]: Remove: archive file [/home/abi/fetcher/tmp/gcsa-2.3.0.tar.gz]
+[2024-05-10 12:16:44] INFO root fetch - main [MainThread]: End processing [gcsa]: success
+[2024-05-10 12:16:44] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715303443.tar.gz]
+[2024-05-10 12:16:44] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715317931.tar.gz]
+[2024-05-10 12:16:44] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-10 12:16:44] INFO root fetch - main [MainThread]: Store serial: [23144538]
