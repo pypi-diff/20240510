@@ -23557,3 +23557,243 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:39:13] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.42.tar.gz]
 [2024-05-10 17:39:13] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-05-10 17:39:13] INFO root fetch - main [MainThread]: Store serial: [23149072]
+[2024-05-10 17:41:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149072]
+[2024-05-10 17:41:27] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bent
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onyx-extension
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dkd
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cupelz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alist3
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secondtrycpp
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: subsidiesz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: api-management-local
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: postgresql-lock
+[2024-05-10 17:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omu
+[2024-05-10 17:41:27] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.59]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [secondtrycpp]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [omu]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [alist3]: New version: [1.1] Old Version: [1.0]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [cupelz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [postgresql-lock]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [secondtrycpp]: Downloading https://files.pythonhosted.org/packages/df/ee/67c7a3b4f0c92fad075da0ec51d542cfd8a990f06726533e92d116ce7021/secondtrycpp-0.1.1.tar.gz
+[2024-05-10 17:41:27] WARNING root fetch - processPackages [onyx-extension]: Skipping, unable to determine old version
+[2024-05-10 17:41:27] INFO root fetch - processPackages [onyx-extension]: Start processing: omuchat
+[2024-05-10 17:41:27] INFO root fetch - main [MainThread]: End processing [onyx-extension] error
+[2024-05-10 17:41:27] WARNING root fetch - processPackages [subsidiesz]: Skipping, unable to determine old version
+[2024-05-10 17:41:27] INFO root fetch - processPackages [subsidiesz]: Start processing: omuchatprovider
+[2024-05-10 17:41:27] INFO root fetch - main [MainThread]: End processing [subsidiesz] error
+[2024-05-10 17:41:27] INFO root fetch - processPackages [dkd]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/82/6c/7ba56024e9094aedb77da1b9e96938e77bd7ca868df4522e8da83674fef3/omu-0.2.5.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [omuchatprovider]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [omuchat]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:27] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/ba/f6/c1f636b22c554ee5bd176fcee395c9ad675179178711404128f3e7a2da77/bent-0.0.59.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/e5/5c/39201fc2717f8d66c943581f5a76a06d5df17d6896be2a36142e55c0fa9e/omuchat-0.2.5.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [cupelz]: Downloading https://files.pythonhosted.org/packages/04/11/c6a3ca3d07c96ae9abcc5ccc75bde37330622e40a19c2b944a64c0f2ebab/cupelz-1.1.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [alist3]: Downloading https://files.pythonhosted.org/packages/fd/e3/b45b308c117ce5d49c3e0a2a5de155fc15f9e6892ae6690ef0ba1d8a221d/alist3-1.0.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [postgresql-lock]: Downloading https://files.pythonhosted.org/packages/cd/a8/ce6716c1a5daf714fb7f1b106cf5a00b798df24fabc5c3fbd8660ec6df9f/postgresql_lock-0.1.5.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [dkd]: Downloading https://files.pythonhosted.org/packages/2c/60/8ecba5bf5fdfc4501c739d0c771352b0dd685a21744347012ef20fb485f7/dkd-1.0.2.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/29/07/5e6db93c8e2b722e66ebf44b1d52372bf04342b429a6119f85c8d0eeb200/omu-0.3.0.tar.gz
+[2024-05-10 17:41:27] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/b6/cf/8fc772032b06571196bd13b2b8cd95625a82ca54b1fff217bb31887cb8e1/omuchatprovider-0.2.5.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [secondtrycpp]: Downloading https://files.pythonhosted.org/packages/52/bb/afeacf0ccba2ed116d88126f9cc1aee505444ad7ed78a5656f67f9dd1022/secondtrycpp-0.1.2.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omu]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omu-0.2.5.tar.gz tmp/omu-0.3.0.tar.gz --markdown 20240510/o/omu/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/e4/27/825d5a65a61e514f1f4b1f6f536e4faf0688408a2896c6aee361b70a33c9/omuchat-0.3.0.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [secondtrycpp]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [secondtrycpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secondtrycpp-0.1.1.tar.gz tmp/secondtrycpp-0.1.2.tar.gz --markdown 20240510/s/secondtrycpp/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240510/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [cupelz]: Downloading https://files.pythonhosted.org/packages/d6/d6/e494152ced2175dfae38a12d21e0cdd775fbeb30d8f4a02d8815ded0f819/cupelz-2.1.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [alist3]: Downloading https://files.pythonhosted.org/packages/1c/1c/01980d3f68af3194fac96992d5feebfd825425586d1b007741b646dbc287/alist3-1.1.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/55/ac/95dc4b24e74f09e7b6fc9de5fcdb9fe7aaa4e702a8bf50adb2117b8c0e71/omuchatprovider-0.3.0.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [dkd]: Downloading https://files.pythonhosted.org/packages/5b/26/c2582274332691ef94ae0b430ca1233607965aadfbda4ea540f8b0f07923/dkd-2.0.0.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [postgresql-lock]: Downloading https://files.pythonhosted.org/packages/d7/1d/18449a4a645127d6512b45a040a2a918467fe3bff533d8c94742d814b4c5/postgresql_lock-0.1.6.tar.gz
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omuchat]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omuchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchat-0.2.5.tar.gz tmp/omuchat-0.3.0.tar.gz --markdown 20240510/o/omuchat/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.59.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240510/b/bent/0.0.59-0.0.9/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [cupelz]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [cupelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupelz-1.1.tar.gz tmp/cupelz-2.1.tar.gz --markdown 20240510/c/cupelz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [alist3]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [alist3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alist3-1.0.tar.gz tmp/alist3-1.1.tar.gz --markdown 20240510/a/alist3/1.0-1.1/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omuchatprovider]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [omuchatprovider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchatprovider-0.2.5.tar.gz tmp/omuchatprovider-0.3.0.tar.gz --markdown 20240510/o/omuchatprovider/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [dkd]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [dkd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkd-1.0.2.tar.gz tmp/dkd-2.0.0.tar.gz --markdown 20240510/d/dkd/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [postgresql-lock]: executing diffoscope
+[2024-05-10 17:41:28] INFO root fetch - processPackages [postgresql-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgresql_lock-0.1.5.tar.gz tmp/postgresql_lock-0.1.6.tar.gz --markdown 20240510/p/postgresql-lock/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 17:41:28] INFO root fetch - processPackages [secondtrycpp]: Remove: archive file [/home/abi/fetcher/tmp/secondtrycpp-0.1.1.tar.gz]
+[2024-05-10 17:41:28] INFO root fetch - processPackages [secondtrycpp]: Remove: archive file [/home/abi/fetcher/tmp/secondtrycpp-0.1.2.tar.gz]
+[2024-05-10 17:41:28] INFO root fetch - processPackages [secondtrycpp]: Start processing: omuplugin-chat
+[2024-05-10 17:41:28] INFO root fetch - main [MainThread]: End processing [secondtrycpp]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-chat]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [api-management-local]: Start processing: omuplugin-emoji
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/2c/b5/822f9e24b125be9d6fb60dcbe6e88ca4f6b746074aebf8a9cc31846558ce/omuplugin_chat-0.2.5.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-emoji]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/06/23/d98dfb323ed3cf894496a87c80605734d84ceba0219991b05551a8e23f94/omuplugin_emoji-0.2.5.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [cupelz]: Remove: archive file [/home/abi/fetcher/tmp/cupelz-1.1.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [cupelz]: Remove: archive file [/home/abi/fetcher/tmp/cupelz-2.1.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [cupelz]: Start processing: omuplugin-nyanya
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [cupelz]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/54/00/798ed8d654509d67f0fc6a7d8d73dd4b0f2bca3106c0099f527e45c3184b/omuplugin_chat-0.3.0.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-nyanya]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [alist3]: Remove: archive file [/home/abi/fetcher/tmp/alist3-1.0.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [alist3]: Remove: archive file [/home/abi/fetcher/tmp/alist3-1.1.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [alist3]: Start processing: omuplugin-obssync
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [alist3]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [postgresql-lock]: Remove: archive file [/home/abi/fetcher/tmp/postgresql_lock-0.1.5.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [postgresql-lock]: Remove: archive file [/home/abi/fetcher/tmp/postgresql_lock-0.1.6.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [postgresql-lock]: Start processing: arm-adi
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [postgresql-lock]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/26/36/f7d7e426835b921cf65ef430d2e18caab2f485cc8ea691fa62c380fcdd96/omuplugin_nyanya-0.2.5.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.2.5.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.3.0.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuchat]: Start processing: omuplugin-onecomme
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [omuchat]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.2.5.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.3.0.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omu]: Start processing: omuplugin-translator
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [omu]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-obssync]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-chat]: executing diffoscope
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_chat-0.2.5.tar.gz tmp/omuplugin_chat-0.3.0.tar.gz --markdown 20240510/o/omuplugin-chat/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:29] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.59.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [bent]: Start processing: omuserver
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-onecomme]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [dkd]: Remove: archive file [/home/abi/fetcher/tmp/dkd-1.0.2.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [dkd]: Remove: archive file [/home/abi/fetcher/tmp/dkd-2.0.0.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [dkd]: Start processing: navigator-session
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [dkd]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-translator]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/9b/f4/a6a5959415e26340f53ca41a1fc3d5cb2c8c11bf7f1c5f93c3fcfebb7ef9/omuplugin_emoji-0.3.0.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuserver]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-10 17:41:29] WARNING root fetch - processPackages [arm-adi]: Skipping, unable to determine old version
+[2024-05-10 17:41:29] INFO root fetch - processPackages [arm-adi]: Start processing: maya-umbrella
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [arm-adi] error
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.2.5.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.3.0.tar.gz]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuchatprovider]: Start processing: sourcedefender
+[2024-05-10 17:41:29] INFO root fetch - main [MainThread]: End processing [omuchatprovider]: success
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/ca/7b/d3a334a9c1af258f753e3ad7f2569168f20e56cf5e33cd0ccba4c5b18e06/omuplugin_onecomme-0.2.5.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-obssync]: Downloading https://files.pythonhosted.org/packages/e4/ca/791241cea01ffe15589a92b12d24876fa199f55a5dcc8356720d0664b6cf/omuplugin_obssync-0.2.5.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [maya-umbrella]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/41/f6/3a9ab3e6913b92d0ef6dc7daf6cef9b112efcacad08100c9ee241ebae440/omuplugin_translator-0.2.5.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/cd/00/3b0954c3cf04fd2cc6c217fa036cd9a6f907ff35b9278b1b74e115472e1c/omuserver-0.2.5.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-emoji]: executing diffoscope
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_emoji-0.2.5.tar.gz tmp/omuplugin_emoji-0.3.0.tar.gz --markdown 20240510/o/omuplugin-emoji/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:29] INFO root fetch - processPackages [navigator-session]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/04/d4/52605831920525b627e96d1163a621e96063ccc3f356b79a927ae77be600/omuplugin_nyanya-0.3.0.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [sourcedefender]: New version: [13.0.0] Old Version: [12.0.4]
+[2024-05-10 17:41:29] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/bc/f6/1da7d70cfdda44da2e6ab061bb58101a4fda4b45cf40efcdd0803c8ddf38/maya_umbrella-0.7.0.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-obssync]: Downloading https://files.pythonhosted.org/packages/a4/45/c83524bbffe21254aab058e2eb6c62323af82586aa421db404ef800b3d9c/omuplugin_obssync-0.3.0.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/f9/d8/7f6bb55ef6684e34e1c09729ebeab37952675722f59bd0c3a635a07512a9/sourcedefender-12.0.4.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/e4/5d/7316cf24c45d9f8ab3a9060816e0ac83465bd2387c9eca76f5b657036b7b/omuplugin_onecomme-0.3.0.tar.gz
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-nyanya]: executing diffoscope
+[2024-05-10 17:41:29] INFO root fetch - processPackages [omuplugin-nyanya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_nyanya-0.2.5.tar.gz tmp/omuplugin_nyanya-0.3.0.tar.gz --markdown 20240510/o/omuplugin-nyanya/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [navigator-session]: Downloading https://files.pythonhosted.org/packages/c7/fe/e84aa85482209d0e753e9f15cdf6c4b737a419a5b69177be9f8bf176cc7a/navigator_session-0.5.4-py3-none-any.whl
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/51/1e/5ea9bb95c3491376de8cc7dbc0824732392ac6acf89aa5413e6d90d58969/omuserver-0.3.0.tar.gz
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/6e/aa/88febc73049c06061d1df1e0a37118215c95e00fb80f563631d1b5a4dc90/omuplugin_translator-0.3.0.tar.gz
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.2.5.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.3.0.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-chat]: Start processing: focusployer
+[2024-05-10 17:41:30] INFO root fetch - main [MainThread]: End processing [omuplugin-chat]: success
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-onecomme]: executing diffoscope
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-onecomme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_onecomme-0.2.5.tar.gz tmp/omuplugin_onecomme-0.3.0.tar.gz --markdown 20240510/o/omuplugin-onecomme/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-obssync]: executing diffoscope
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-obssync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_obssync-0.2.5.tar.gz tmp/omuplugin_obssync-0.3.0.tar.gz --markdown 20240510/o/omuplugin-obssync/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/ea/6b/26c26f681f5b1f45934840440691471fa200f1ccbc8578c21fae359d1fb0/maya_umbrella-0.8.0.tar.gz
+[2024-05-10 17:41:30] WARNING root fetch - processPackages [focusployer]: Skipping, unable to determine old version
+[2024-05-10 17:41:30] INFO root fetch - processPackages [focusployer]: Start processing: secondtrycpp
+[2024-05-10 17:41:30] INFO root fetch - main [MainThread]: End processing [focusployer] error
+[2024-05-10 17:41:30] INFO root fetch - processPackages [secondtrycpp]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-translator]: executing diffoscope
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuserver]: executing diffoscope
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_translator-0.2.5.tar.gz tmp/omuplugin_translator-0.3.0.tar.gz --markdown 20240510/o/omuplugin-translator/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuserver-0.2.5.tar.gz tmp/omuserver-0.3.0.tar.gz --markdown 20240510/o/omuserver/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [maya-umbrella]: executing diffoscope
+[2024-05-10 17:41:30] INFO root fetch - processPackages [maya-umbrella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maya_umbrella-0.7.0.tar.gz tmp/maya_umbrella-0.8.0.tar.gz --markdown 20240510/m/maya-umbrella/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.2.5.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.3.0.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-emoji]: Start processing: dimp
+[2024-05-10 17:41:30] INFO root fetch - main [MainThread]: End processing [omuplugin-emoji]: success
+[2024-05-10 17:41:30] INFO root fetch - processPackages [secondtrycpp]: Downloading https://files.pythonhosted.org/packages/16/9e/e0c994cfca747bfb7b44e6d1ff73e060b1387fd0d472a40541b985f3b00f/secondtrycpp-0.1.3.tar.gz
+[2024-05-10 17:41:30] INFO root fetch - processPackages [navigator-session]: Downloading https://files.pythonhosted.org/packages/83/ed/8bed2a0a6e857edfc928bbd394331d31e7ffa32d8586dc4190b5f8c5b70e/navigator_session-0.5.5-py3-none-any.whl
+[2024-05-10 17:41:30] INFO root fetch - processPackages [dimp]: New version: [2.0.0] Old Version: [1.0.3]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [navigator-session]: executing diffoscope
+[2024-05-10 17:41:30] INFO root fetch - processPackages [navigator-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_session-0.5.4-py3-none-any.whl.zip tmp/navigator_session-0.5.5-py3-none-any.whl.zip --markdown 20240510/n/navigator-session/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [dimp]: Downloading https://files.pythonhosted.org/packages/5b/c6/3a8af4cd13986c13960ef6b3330e8cf2b74cd730d852fb53e288bebeb1ed/dimp-1.0.3.tar.gz
+[2024-05-10 17:41:30] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/0d/27/70a70c50baeeb45ba7c0d2e489161b8106333c81b6cb59d6945299de9009/sourcedefender-13.0.0.tar.gz
+[2024-05-10 17:41:30] INFO root fetch - processPackages [secondtrycpp]: Downloading https://files.pythonhosted.org/packages/af/8c/d0134566759c87e9a04ed000616d187a0a34d757ccc93dbb4f454d7b4719/secondtrycpp-0.1.4.tar.gz
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-obssync]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_obssync-0.2.5.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-obssync]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_obssync-0.3.0.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-obssync]: Start processing: o2sclpy
+[2024-05-10 17:41:30] INFO root fetch - main [MainThread]: End processing [omuplugin-obssync]: success
+[2024-05-10 17:41:30] INFO root fetch - processPackages [secondtrycpp]: executing diffoscope
+[2024-05-10 17:41:30] INFO root fetch - processPackages [secondtrycpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secondtrycpp-0.1.3.tar.gz tmp/secondtrycpp-0.1.4.tar.gz --markdown 20240510/s/secondtrycpp/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 17:41:30] INFO root fetch - processPackages [o2sclpy]: New version: [0.929] Old Version: [0.928]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.2.5.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.3.0.tar.gz]
+[2024-05-10 17:41:30] INFO root fetch - processPackages [omuplugin-onecomme]: Start processing: ilo
+[2024-05-10 17:41:30] INFO root fetch - main [MainThread]: End processing [omuplugin-onecomme]: success
+[2024-05-10 17:41:31] INFO root fetch - processPackages [dimp]: Downloading https://files.pythonhosted.org/packages/9b/55/0853928170703dc56e753e9b7c87c634183353a5fd0285681e2dd759b8a5/dimp-2.0.0.tar.gz
+[2024-05-10 17:41:31] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.2.5.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.3.0.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [omuplugin-translator]: Start processing: python-HackMD
+[2024-05-10 17:41:31] INFO root fetch - main [MainThread]: End processing [omuplugin-translator]: success
+[2024-05-10 17:41:31] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.2.5.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.3.0.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - main [MainThread]: End processing [omuplugin-nyanya]: success
+[2024-05-10 17:41:31] INFO root fetch - processPackages [ilo]: New version: [0.0.9] Old Version: [0.0.23]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.7.0.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.8.0.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - main [MainThread]: End processing [maya-umbrella]: success
+[2024-05-10 17:41:31] INFO root fetch - processPackages [o2sclpy]: Downloading https://files.pythonhosted.org/packages/bc/e4/3267ec3f68b87b610f16b044b80fb6c8c618c6063ea080da544772782d07/o2sclpy-0.928.tar.gz
+[2024-05-10 17:41:31] INFO root fetch - processPackages [python-HackMD]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [dimp]: executing diffoscope
+[2024-05-10 17:41:31] INFO root fetch - processPackages [dimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimp-1.0.3.tar.gz tmp/dimp-2.0.0.tar.gz --markdown 20240510/d/dimp/1.0.3-2.0.0/README.md --exclude *.pyd
+[2024-05-10 17:41:31] INFO root fetch - processPackages [ilo]: Downloading https://files.pythonhosted.org/packages/ae/8c/284bbd18032d95c9650fa87c8bc646fb82d858851ab50c8fc9d2aa4fedc1/ilo-0.0.23.tar.gz
+[2024-05-10 17:41:31] INFO root fetch - processPackages [navigator-session]: Remove: archive file [/home/abi/fetcher/tmp/navigator_session-0.5.4-py3-none-any.whl.zip]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [navigator-session]: Remove: archive file [/home/abi/fetcher/tmp/navigator_session-0.5.5-py3-none-any.whl.zip]
+[2024-05-10 17:41:31] INFO root fetch - main [MainThread]: End processing [navigator-session]: success
+[2024-05-10 17:41:31] INFO root fetch - processPackages [python-HackMD]: Downloading https://files.pythonhosted.org/packages/06/8e/0d5091f3756e33d4d7674c3ca23fb39ad7fad0767b4423c2a951eea93599/python-HackMD-1.0.1.tar.gz
+[2024-05-10 17:41:31] INFO root fetch - processPackages [secondtrycpp]: Remove: archive file [/home/abi/fetcher/tmp/secondtrycpp-0.1.3.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [secondtrycpp]: Remove: archive file [/home/abi/fetcher/tmp/secondtrycpp-0.1.4.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - main [MainThread]: End processing [secondtrycpp]: success
+[2024-05-10 17:41:31] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.2.5.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.3.0.tar.gz]
+[2024-05-10 17:41:31] INFO root fetch - main [MainThread]: End processing [omuserver]: success
+[2024-05-10 17:41:31] INFO root fetch - processPackages [o2sclpy]: Downloading https://files.pythonhosted.org/packages/2d/14/dea90ae5b05bb1b47d26238848b1dcc80e422164e9a1e353e4a894ab1f6c/o2sclpy-0.929.tar.gz
+[2024-05-10 17:41:31] INFO root fetch - processPackages [ilo]: Downloading https://files.pythonhosted.org/packages/79/7c/5036dd253f004cca41ef815b9c7858eb91b2e8b0acf1639ad811561b060b/ilo-0.0.9.tar.gz
+[2024-05-10 17:41:31] INFO root fetch - processPackages [ilo]: executing diffoscope
+[2024-05-10 17:41:31] INFO root fetch - processPackages [ilo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilo-0.0.23.tar.gz tmp/ilo-0.0.9.tar.gz --markdown 20240510/i/ilo/0.0.23-0.0.9/README.md --exclude *.pyd
+[2024-05-10 17:41:31] INFO root fetch - processPackages [python-HackMD]: Downloading https://files.pythonhosted.org/packages/9c/a3/daba22f4fbe95148ab6c459bb92b13c8c1d8e45c95b74ac5fc8e8b542be8/python_HackMD-1.0.2-py3-none-any.whl
+[2024-05-10 17:41:31] INFO root fetch - processPackages [o2sclpy]: executing diffoscope
+[2024-05-10 17:41:31] INFO root fetch - processPackages [o2sclpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o2sclpy-0.928.tar.gz tmp/o2sclpy-0.929.tar.gz --markdown 20240510/o/o2sclpy/0.928-0.929/README.md --exclude *.pyd
+[2024-05-10 17:41:31] INFO root fetch - processPackages [python-HackMD]: executing diffoscope
+[2024-05-10 17:41:31] INFO root fetch - processPackages [python-HackMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-HackMD-1.0.1.tar.gz tmp/python_HackMD-1.0.2-py3-none-any.whl.zip --markdown 20240510/p/python-HackMD/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 17:41:32] INFO root fetch - processPackages [dimp]: Remove: archive file [/home/abi/fetcher/tmp/dimp-1.0.3.tar.gz]
+[2024-05-10 17:41:32] INFO root fetch - processPackages [dimp]: Remove: archive file [/home/abi/fetcher/tmp/dimp-2.0.0.tar.gz]
+[2024-05-10 17:41:32] INFO root fetch - main [MainThread]: End processing [dimp]: success
+[2024-05-10 17:41:32] INFO root fetch - processPackages [ilo]: Remove: archive file [/home/abi/fetcher/tmp/ilo-0.0.23.tar.gz]
+[2024-05-10 17:41:32] INFO root fetch - processPackages [ilo]: Remove: archive file [/home/abi/fetcher/tmp/ilo-0.0.9.tar.gz]
+[2024-05-10 17:41:32] INFO root fetch - main [MainThread]: End processing [ilo]: success
+[2024-05-10 17:41:32] INFO root fetch - processPackages [sourcedefender]: executing diffoscope
+[2024-05-10 17:41:32] INFO root fetch - processPackages [sourcedefender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcedefender-12.0.4.tar.gz tmp/sourcedefender-13.0.0.tar.gz --markdown 20240510/s/sourcedefender/12.0.4-13.0.0/README.md --exclude *.pyd
+[2024-05-10 17:41:32] INFO root fetch - processPackages [python-HackMD]: Remove: archive file [/home/abi/fetcher/tmp/python-HackMD-1.0.1.tar.gz]
+[2024-05-10 17:41:32] INFO root fetch - processPackages [python-HackMD]: Remove: archive file [/home/abi/fetcher/tmp/python_HackMD-1.0.2-py3-none-any.whl.zip]
+[2024-05-10 17:41:32] INFO root fetch - main [MainThread]: End processing [python-HackMD]: success
+[2024-05-10 17:41:32] INFO root fetch - processPackages [o2sclpy]: Remove: archive file [/home/abi/fetcher/tmp/o2sclpy-0.928.tar.gz]
+[2024-05-10 17:41:32] INFO root fetch - processPackages [o2sclpy]: Remove: archive file [/home/abi/fetcher/tmp/o2sclpy-0.929.tar.gz]
+[2024-05-10 17:41:32] INFO root fetch - main [MainThread]: End processing [o2sclpy]: success
+[2024-05-10 17:42:44] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-12.0.4.tar.gz]
+[2024-05-10 17:42:44] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-13.0.0.tar.gz]
+[2024-05-10 17:42:44] INFO root fetch - main [MainThread]: End processing [sourcedefender]: success
+[2024-05-10 17:42:44] INFO root fetch - main [MainThread]: Store serial: [23149165]
