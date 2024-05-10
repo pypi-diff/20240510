@@ -13538,3 +13538,45 @@
 [2024-05-10 11:56:13] INFO root fetch - processPackages [STCAT]: Remove: archive file [/home/abi/fetcher/tmp/STCAT-0.6.tar.gz]
 [2024-05-10 11:56:13] INFO root fetch - main [MainThread]: End processing [STCAT]: success
 [2024-05-10 11:56:13] INFO root fetch - main [MainThread]: Store serial: [23144339]
+[2024-05-10 11:58:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144339]
+[2024-05-10 11:58:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 11:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eurmlsdk
+[2024-05-10 11:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iudex
+[2024-05-10 11:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msanic
+[2024-05-10 11:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyqml
+[2024-05-10 11:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antimodernlyz
+[2024-05-10 11:58:29] INFO root fetch - processPackages [iudex]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-10 11:58:29] WARNING root fetch - processPackages [antimodernlyz]: Skipping, unable to determine old version
+[2024-05-10 11:58:29] INFO root fetch - processPackages [lazyqml]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-10 11:58:29] INFO root fetch - main [MainThread]: End processing [antimodernlyz] error
+[2024-05-10 11:58:29] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/d6/27/1ec4f30d01db2afc5aa1fc00819a60bf6d169a15d7b47ab32e7c7c745c79/iudex-0.4.0.tar.gz
+[2024-05-10 11:58:29] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/1e/62/e03dcbe821be3a27a08f0a0aa14568061da29165b69d74d9daf4bdf156ab/lazyqml-0.3.6.tar.gz
+[2024-05-10 11:58:29] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.78] Old Version: [0.0.77]
+[2024-05-10 11:58:29] INFO root fetch - processPackages [msanic]: New version: [1.0.23] Old Version: [1.0.22]
+[2024-05-10 11:58:29] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/27/35/76b2fffa3476ba7fe3b9156d910ed513154e093bd2b240133f7390fb5d90/eurmlsdk-0.0.77.tar.gz
+[2024-05-10 11:58:29] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/11/6a/ea3eff8de2c37e225b396cb5b158d44d4d34ef97ca2c8860d557a8022627/msanic-1.0.22-py3-none-any.whl
+[2024-05-10 11:58:29] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/47/91/96a93c269b5c49375fb7f13214c2a823a7d6fbd8595d28c72ba424a9ac96/iudex-0.4.1.tar.gz
+[2024-05-10 11:58:29] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/20/fe/6f00642bff2a6556ab5a56e6af46024ea44e669ceb601d01575cf62a0c92/lazyqml-0.3.7.tar.gz
+[2024-05-10 11:58:29] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-10 11:58:29] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.4.0.tar.gz tmp/iudex-0.4.1.tar.gz --markdown 20240510/i/iudex/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-10 11:58:29] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-10 11:58:29] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.3.6.tar.gz tmp/lazyqml-0.3.7.tar.gz --markdown 20240510/l/lazyqml/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-10 11:58:29] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/8c/14/b7260d0e748cfbe893fe6437ee4d110e6edbf4eda046bf183dd3a474bea0/eurmlsdk-0.0.78.tar.gz
+[2024-05-10 11:58:29] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/53/1f/839f4b181c0d7288a498a6166752ca34bc8a8e37aad80eff8d458aeecf46/msanic-1.0.23-py3-none-any.whl
+[2024-05-10 11:58:29] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-10 11:58:29] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.77.tar.gz tmp/eurmlsdk-0.0.78.tar.gz --markdown 20240510/e/eurmlsdk/0.0.77-0.0.78/README.md --exclude *.pyd
+[2024-05-10 11:58:30] INFO root fetch - processPackages [msanic]: executing diffoscope
+[2024-05-10 11:58:30] INFO root fetch - processPackages [msanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msanic-1.0.22-py3-none-any.whl.zip tmp/msanic-1.0.23-py3-none-any.whl.zip --markdown 20240510/m/msanic/1.0.22-1.0.23/README.md --exclude *.pyd
+[2024-05-10 11:58:30] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.0.tar.gz]
+[2024-05-10 11:58:30] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.1.tar.gz]
+[2024-05-10 11:58:30] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-10 11:58:30] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.77.tar.gz]
+[2024-05-10 11:58:30] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.78.tar.gz]
+[2024-05-10 11:58:30] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-10 11:58:30] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.6.tar.gz]
+[2024-05-10 11:58:30] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.7.tar.gz]
+[2024-05-10 11:58:30] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-10 11:58:30] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.22-py3-none-any.whl.zip]
+[2024-05-10 11:58:30] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.23-py3-none-any.whl.zip]
+[2024-05-10 11:58:30] INFO root fetch - main [MainThread]: End processing [msanic]: success
+[2024-05-10 11:58:30] INFO root fetch - main [MainThread]: Store serial: [23144351]
