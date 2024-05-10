@@ -12887,3 +12887,48 @@
 [2024-05-10 11:33:31] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
 [2024-05-10 11:33:32] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
 [2024-05-10 11:33:32] INFO root fetch - main [MainThread]: Store serial: [23144107]
+[2024-05-10 11:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144107]
+[2024-05-10 11:35:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-sdk
+[2024-05-10 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-10 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prodmatic
+[2024-05-10 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: creditivez
+[2024-05-10 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geneea-nlp-client
+[2024-05-10 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autofracture
+[2024-05-10 11:35:43] INFO root fetch - processPackages [autofracture]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 11:35:43] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-10 11:35:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-10 11:35:43] WARNING root fetch - processPackages [prodmatic]: Skipping, unable to determine old version
+[2024-05-10 11:35:43] INFO root fetch - main [MainThread]: End processing [prodmatic] error
+[2024-05-10 11:35:43] WARNING root fetch - processPackages [creditivez]: Skipping, unable to determine old version
+[2024-05-10 11:35:43] INFO root fetch - main [MainThread]: End processing [creditivez] error
+[2024-05-10 11:35:43] INFO root fetch - processPackages [geneea-nlp-client]: New version: [1.5.0] Old Version: [1.4.4]
+[2024-05-10 11:35:43] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/db/02/b3e8bfa674b8077690fcb757a078196aed0309580017a8ae40e5add914e3/autofracture-0.0.7.tar.gz
+[2024-05-10 11:35:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-10 11:35:43] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-10 11:35:43] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/0a/c0/cc9bf899c7fe196ba628438a85c1acc60cb2f3f0930bc5fa59113df6bd77/autofracture-0.0.8.tar.gz
+[2024-05-10 11:35:43] INFO root fetch - processPackages [geneea-nlp-client]: Downloading https://files.pythonhosted.org/packages/74/35/8edf2f0deea8346162a72a56095e5596d173423ea6c5cd9b2c290ea4d63d/geneea-nlp-client-1.4.4.tar.gz
+[2024-05-10 11:35:44] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-10 11:35:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-10 11:35:44] INFO root fetch - processPackages [autofracture]: executing diffoscope
+[2024-05-10 11:35:44] INFO root fetch - processPackages [autofracture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofracture-0.0.7.tar.gz tmp/autofracture-0.0.8.tar.gz --markdown 20240510/a/autofracture/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 11:35:44] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-10 11:35:44] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240510/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-10 11:35:44] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-10 11:35:44] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240510/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-10 11:35:44] INFO root fetch - processPackages [geneea-nlp-client]: Downloading https://files.pythonhosted.org/packages/ca/e0/d7b1c36db1ec1fbb4e0e1d29a79accdb4ead941338a2f13d8705d6aeb203/geneea-nlp-client-1.5.0.tar.gz
+[2024-05-10 11:35:44] INFO root fetch - processPackages [geneea-nlp-client]: executing diffoscope
+[2024-05-10 11:35:44] INFO root fetch - processPackages [geneea-nlp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneea-nlp-client-1.4.4.tar.gz tmp/geneea-nlp-client-1.5.0.tar.gz --markdown 20240510/g/geneea-nlp-client/1.4.4-1.5.0/README.md --exclude *.pyd
+[2024-05-10 11:35:44] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.7.tar.gz]
+[2024-05-10 11:35:44] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.8.tar.gz]
+[2024-05-10 11:35:44] INFO root fetch - main [MainThread]: End processing [autofracture]: success
+[2024-05-10 11:35:45] INFO root fetch - processPackages [geneea-nlp-client]: Remove: archive file [/home/abi/fetcher/tmp/geneea-nlp-client-1.4.4.tar.gz]
+[2024-05-10 11:35:45] INFO root fetch - processPackages [geneea-nlp-client]: Remove: archive file [/home/abi/fetcher/tmp/geneea-nlp-client-1.5.0.tar.gz]
+[2024-05-10 11:35:45] INFO root fetch - main [MainThread]: End processing [geneea-nlp-client]: success
+[2024-05-10 11:35:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-10 11:35:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-10 11:35:45] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-10 11:35:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-10 11:35:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-10 11:35:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-10 11:35:46] INFO root fetch - main [MainThread]: Store serial: [23144127]
