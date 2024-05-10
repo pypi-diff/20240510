@@ -3438,3 +3438,18 @@
 [2024-05-10 03:29:56] INFO root fetch - processPackages [spinach]: Remove: archive file [/home/abi/fetcher/tmp/spinach-0.0.9.tar.gz]
 [2024-05-10 03:29:56] INFO root fetch - main [MainThread]: End processing [spinach]: success
 [2024-05-10 03:29:56] INFO root fetch - main [MainThread]: Store serial: [23139952]
+[2024-05-10 03:32:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139952]
+[2024-05-10 03:32:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 03:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collectablez
+[2024-05-10 03:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsplus
+[2024-05-10 03:32:05] INFO root fetch - processPackages [dsplus]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-10 03:32:05] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/1d/ec/30003c80f9e5aae7b691f26f9665c626ba29a6a42fce1a87c3c90c08cdff/dsplus-0.5.1.tar.gz
+[2024-05-10 03:32:05] WARNING root fetch - processPackages [collectablez]: Skipping, unable to determine old version
+[2024-05-10 03:32:05] INFO root fetch - main [MainThread]: End processing [collectablez] error
+[2024-05-10 03:32:05] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/49/54/c972823426ee1148efee300a2ae9922722d29dd686f1c0e3ec461f335a4f/dsplus-0.5.2.tar.gz
+[2024-05-10 03:32:05] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-05-10 03:32:05] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.5.1.tar.gz tmp/dsplus-0.5.2.tar.gz --markdown 20240510/d/dsplus/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-10 03:32:06] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.5.1.tar.gz]
+[2024-05-10 03:32:06] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.5.2.tar.gz]
+[2024-05-10 03:32:06] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-05-10 03:32:06] INFO root fetch - main [MainThread]: Store serial: [23139961]
