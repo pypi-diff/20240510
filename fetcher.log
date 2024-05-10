@@ -3869,3 +3869,141 @@
 [2024-05-10 03:56:35] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240509230054-py3-none-any.whl.zip]
 [2024-05-10 03:56:35] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-05-10 03:56:35] INFO root fetch - main [MainThread]: Store serial: [23140144]
+[2024-05-10 03:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140144]
+[2024-05-10 03:58:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-consul
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-ft
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt-custom-adapter
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-web
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moschitta-routing
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-pasqal
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-ionq
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-azuread
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-confluentcloud
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ccxt-custom-adapter]: New version: [4.3.23] Old Version: [4.3.22]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-ft]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240509230054] Old Version: [1.4.0.dev20240509224851]
+[2024-05-10 03:58:45] WARNING root fetch - processPackages [moschitta-routing]: Skipping, unable to determine old version
+[2024-05-10 03:58:45] INFO root fetch - processPackages [moschitta-routing]: Start processing: againbuyz
+[2024-05-10 03:58:45] INFO root fetch - main [MainThread]: End processing [moschitta-routing] error
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/49/62/c4113d25b4a3384345a0898a88c75884f0763631f5a64f67fd4c13a47e92/ccxt-custom-adapter-4.3.22.tar.gz
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/d4/8e/914865909b64a06170d7765d49f15b5db04b0b663e8b197573c0e0e7cdc7/cirq_web-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/2c/6f/94c10d64fab6dcc496302cfcf08bad9444b8949b0017555a54e5e7f4dde7/cirq_ionq-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/aa/b0/a366c67bcb0f3f002a195da4d4b1c1b62f7b3fa8acdd4af84530ca62196f/cirq_ft-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/01/4d/01f46a6fd2a988bc5ffb695f7b0ff592853fb79fbaf4b1711fd636cc0de4/cirq-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:58:45] WARNING root fetch - processPackages [againbuyz]: Skipping, unable to determine old version
+[2024-05-10 03:58:45] INFO root fetch - processPackages [againbuyz]: Start processing: ParentLOL
+[2024-05-10 03:58:45] INFO root fetch - main [MainThread]: End processing [againbuyz] error
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/c0/35/5b3ada17c4a12b0e57c3eb29955a36226d4412fe32593e86ae0e1099c578/cirq_pasqal-1.4.0.dev20240509224851-py3-none-any.whl
+[2024-05-10 03:58:45] WARNING root fetch - processPackages [ParentLOL]: Skipping, unable to determine old version
+[2024-05-10 03:58:45] INFO root fetch - processPackages [ParentLOL]: Start processing: np-tools
+[2024-05-10 03:58:45] INFO root fetch - main [MainThread]: End processing [ParentLOL] error
+[2024-05-10 03:58:45] INFO root fetch - processPackages [np-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-10 03:58:45] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/d2/34/b4a49e12158f379f05c12c2e9727901664db146a3a42fbf4f9bf2d991251/cirq_web-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/f4/12/69c63a9b7d53d4554f2cd74848fb9063ecd5655bc74890a67260d11d33a4/cirq_ft-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:58:45] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/95/46/728535c4a42f8503beb0eac62feecdd7485c825a35fd3cce9f827597b007/cirq_ionq-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:58:46] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240510/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/ad/d0/f6d3adc185d36c4cd18c3a37254df40de68896cdacf593e4872c4bcbd925/cirq-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:58:46] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240510/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240510/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/13/f0/1cccd8a476c1e49e215ceedfa4f425abd3f1c26d4354eff588386c43a0c9/cirq_pasqal-1.4.0.dev20240509230054-py3-none-any.whl
+[2024-05-10 03:58:46] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/7d/00/4ffdf7879b57a53675c0a072a6994ee222cef3f6c1623e7c822a02d2d8be/np_tools-0.1.8.tar.gz
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq_ft-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq-ft/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/18/65/b477738f2873ab936d3ce14e5089052c8503ac261262eb34a6d0095f6c1b/ccxt-custom-adapter-4.3.23.tar.gz
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq-pasqal/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq-ionq/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240509224851-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240509230054-py3-none-any.whl.zip --markdown 20240510/c/cirq-web/1.4.0.dev20240509224851-1.4.0.dev20240509230054/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/63/fb/c0aa437bbfc78ecde48c8fd50dc43e54d68497a94d2f9416445f466a76b6/np_tools-0.1.9.tar.gz
+[2024-05-10 03:58:46] INFO root fetch - processPackages [ccxt-custom-adapter]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [ccxt-custom-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-custom-adapter-4.3.22.tar.gz tmp/ccxt-custom-adapter-4.3.23.tar.gz --markdown 20240510/c/ccxt-custom-adapter/4.3.22-4.3.23/README.md --exclude *.pyd
+[2024-05-10 03:58:46] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2024-05-10 03:58:46] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.8.tar.gz tmp/np_tools-0.1.9.tar.gz --markdown 20240510/n/np-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-confluentcloud]: Start processing: pulumi-cloudamqp
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-ionq]: Start processing: pulumi-keycloak
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-consul]: Start processing: pulumi-hcloud
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-pasqal]: Start processing: pulumi-kong
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1715233878] Old Version: [5.4.0a1715228738]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240509224851-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240509230054-py3-none-any.whl.zip]
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1715233805] Old Version: [4.6.0a1715228714]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/ea/e5/14dbdfab4a964a83de306af235899c5c51edabdf2662192921fa057c8302/pulumi_keycloak-5.4.0a1715228738.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.8.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.9.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/5e/c7/fa3564fe19c50cd2af468c7b50bf0c4f551bc90c1399bc038d9ca9482dda/pulumi_kong-4.6.0a1715228714.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-10 03:58:47] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240510/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240510/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/57/ac/94a0399e4db45ca2878bd7aedc510c224f1f329e069e079ca50dc2d3d615/pulumi_keycloak-5.4.0a1715233878.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/81/1f/1272799987d240edc64692fc2fa9e4570c3fd213b42bfe35acb1c6b7f475/pulumi_kong-4.6.0a1715233805.tar.gz
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-10 03:58:47] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1715228738.tar.gz tmp/pulumi_keycloak-5.4.0a1715233878.tar.gz --markdown 20240510/p/pulumi-keycloak/5.4.0a1715228738-5.4.0a1715233878/README.md --exclude *.pyd
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1715228714.tar.gz tmp/pulumi_kong-4.6.0a1715233805.tar.gz --markdown 20240510/p/pulumi-kong/4.6.0a1715228714-4.6.0a1715233805/README.md --exclude *.pyd
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-05-10 03:58:48] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-10 03:58:48] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715228714.tar.gz]
+[2024-05-10 03:58:48] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715233805.tar.gz]
+[2024-05-10 03:58:48] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-10 03:58:49] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715228738.tar.gz]
+[2024-05-10 03:58:49] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715233878.tar.gz]
+[2024-05-10 03:58:49] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-10 03:58:50] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.22.tar.gz]
+[2024-05-10 03:58:50] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.23.tar.gz]
+[2024-05-10 03:58:50] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter]: success
+[2024-05-10 03:58:50] INFO root fetch - main [MainThread]: Store serial: [23140200]
