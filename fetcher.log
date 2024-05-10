@@ -6803,3 +6803,57 @@
 [2024-05-10 06:45:59] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.5.tar.gz]
 [2024-05-10 06:45:59] INFO root fetch - main [MainThread]: End processing [webscout]: success
 [2024-05-10 06:45:59] INFO root fetch - main [MainThread]: Store serial: [23141360]
+[2024-05-10 06:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141360]
+[2024-05-10 06:48:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: g29py
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vigilant-kit
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geddsz
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libvmdk-python
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dermatoxerasiaz
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binchicken
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-indie-tools
+[2024-05-10 06:48:08] INFO root fetch - processPackages [ml-indie-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 06:48:08] INFO root fetch - processPackages [g29py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 06:48:09] WARNING root fetch - processPackages [geddsz]: Skipping, unable to determine old version
+[2024-05-10 06:48:09] INFO root fetch - main [MainThread]: End processing [geddsz] error
+[2024-05-10 06:48:09] INFO root fetch - processPackages [binchicken]: New version: [0.10.5] Old Version: [0.10.4]
+[2024-05-10 06:48:09] WARNING root fetch - processPackages [dermatoxerasiaz]: Skipping, unable to determine old version
+[2024-05-10 06:48:09] INFO root fetch - main [MainThread]: End processing [dermatoxerasiaz] error
+[2024-05-10 06:48:09] INFO root fetch - processPackages [libvmdk-python]: New version: [20240510] Old Version: [20240303]
+[2024-05-10 06:48:09] INFO root fetch - processPackages [vigilant-kit]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-10 06:48:09] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/69/1d/c6da639234bf4fc987bcf4c70d7f07f77fa76a44aefc0606a4a01d5a7df1/ml-indie-tools-0.9.8.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [g29py]: Downloading https://files.pythonhosted.org/packages/5f/87/435a4b6aba8ff1b2232e9acabdcbb542de3200d953d29ddc18d045c8e582/g29py-0.0.8.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [libvmdk-python]: Downloading https://files.pythonhosted.org/packages/70/a0/f304905770375dba7f3a871fc832fac8365d8ebfbefd9ba17aec8dadfeb9/libvmdk-python-20240303.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/fd/f8/b02621ecd85873716c80d4ea5b577a33f7c75d03208f14c4a9c2b3a8dd3f/vigilant_kit-1.4.3.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [binchicken]: Downloading https://files.pythonhosted.org/packages/be/ce/6c3c9c1d0a583e483816bab77f284c753f4f52991d2aaad70d5f17f84503/binchicken-0.10.4.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/dc/de/d925fee74bb8d13f43b041409d0894d88ac152c18da6ca97c4d9820355c9/ml-indie-tools-0.9.9.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [ml-indie-tools]: executing diffoscope
+[2024-05-10 06:48:09] INFO root fetch - processPackages [ml-indie-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-indie-tools-0.9.8.tar.gz tmp/ml-indie-tools-0.9.9.tar.gz --markdown 20240510/m/ml-indie-tools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 06:48:09] INFO root fetch - processPackages [g29py]: Downloading https://files.pythonhosted.org/packages/03/28/84d9dcf63192d2a922a33c568c12b8f41b6e4e36fff95d522b9a6c6479be/g29py-0.0.9.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [binchicken]: Downloading https://files.pythonhosted.org/packages/c7/6f/5d126a6a8e081c6c7a80e67d1864004565abf8f99f5d74d8e0f899354e47/binchicken-0.10.5.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [g29py]: executing diffoscope
+[2024-05-10 06:48:09] INFO root fetch - processPackages [g29py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g29py-0.0.8.tar.gz tmp/g29py-0.0.9.tar.gz --markdown 20240510/g/g29py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 06:48:09] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/64/51/33b3e00a3fd4d285808c9f3e8acf9ee616fc7d41243a1224834ab0179751/vigilant_kit-1.4.4.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [libvmdk-python]: Downloading https://files.pythonhosted.org/packages/c3/27/935f186c36dd5e199c18616dab63ba892eac388d009badd7c8e127c8c0d3/libvmdk-python-20240510.tar.gz
+[2024-05-10 06:48:09] INFO root fetch - processPackages [binchicken]: executing diffoscope
+[2024-05-10 06:48:09] INFO root fetch - processPackages [binchicken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binchicken-0.10.4.tar.gz tmp/binchicken-0.10.5.tar.gz --markdown 20240510/b/binchicken/0.10.4-0.10.5/README.md --exclude *.pyd
+[2024-05-10 06:48:09] INFO root fetch - processPackages [vigilant-kit]: executing diffoscope
+[2024-05-10 06:48:09] INFO root fetch - processPackages [vigilant-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vigilant_kit-1.4.3.tar.gz tmp/vigilant_kit-1.4.4.tar.gz --markdown 20240510/v/vigilant-kit/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-10 06:48:09] INFO root fetch - processPackages [libvmdk-python]: executing diffoscope
+[2024-05-10 06:48:09] INFO root fetch - processPackages [libvmdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvmdk-python-20240303.tar.gz tmp/libvmdk-python-20240510.tar.gz --markdown 20240510/l/libvmdk-python/20240303-20240510/README.md --exclude *.pyd
+[2024-05-10 06:48:10] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.8.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.9.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - main [MainThread]: End processing [ml-indie-tools]: success
+[2024-05-10 06:48:10] INFO root fetch - processPackages [g29py]: Remove: archive file [/home/abi/fetcher/tmp/g29py-0.0.8.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - processPackages [g29py]: Remove: archive file [/home/abi/fetcher/tmp/g29py-0.0.9.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - main [MainThread]: End processing [g29py]: success
+[2024-05-10 06:48:10] INFO root fetch - processPackages [vigilant-kit]: Remove: archive file [/home/abi/fetcher/tmp/vigilant_kit-1.4.3.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - processPackages [vigilant-kit]: Remove: archive file [/home/abi/fetcher/tmp/vigilant_kit-1.4.4.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - main [MainThread]: End processing [vigilant-kit]: success
+[2024-05-10 06:48:10] INFO root fetch - processPackages [binchicken]: Remove: archive file [/home/abi/fetcher/tmp/binchicken-0.10.4.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - processPackages [binchicken]: Remove: archive file [/home/abi/fetcher/tmp/binchicken-0.10.5.tar.gz]
+[2024-05-10 06:48:10] INFO root fetch - main [MainThread]: End processing [binchicken]: success
+[2024-05-10 06:48:15] INFO root fetch - processPackages [libvmdk-python]: Remove: archive file [/home/abi/fetcher/tmp/libvmdk-python-20240303.tar.gz]
+[2024-05-10 06:48:15] INFO root fetch - processPackages [libvmdk-python]: Remove: archive file [/home/abi/fetcher/tmp/libvmdk-python-20240510.tar.gz]
+[2024-05-10 06:48:15] INFO root fetch - main [MainThread]: End processing [libvmdk-python]: success
+[2024-05-10 06:48:15] INFO root fetch - main [MainThread]: Store serial: [23141382]
