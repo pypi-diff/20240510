@@ -2855,3 +2855,18 @@
 [2024-05-10 02:45:47] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405090044.tar.gz]
 [2024-05-10 02:45:47] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-10 02:45:47] INFO root fetch - main [MainThread]: Store serial: [23139520]
+[2024-05-10 02:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139520]
+[2024-05-10 02:47:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 02:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myalgicz
+[2024-05-10 02:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2024-05-10 02:47:55] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-10 02:47:55] WARNING root fetch - processPackages [myalgicz]: Skipping, unable to determine old version
+[2024-05-10 02:47:55] INFO root fetch - main [MainThread]: End processing [myalgicz] error
+[2024-05-10 02:47:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-10 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-10 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-10 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240510/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-10 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-10 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-10 02:47:56] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-10 02:47:56] INFO root fetch - main [MainThread]: Store serial: [23139528]
