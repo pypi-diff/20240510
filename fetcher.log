@@ -8873,3 +8873,33 @@
 [2024-05-10 08:50:44] INFO root fetch - processPackages [gptvm]: Remove: archive file [/home/abi/fetcher/tmp/gptvm-0.1.3-py37-none-any.whl.zip]
 [2024-05-10 08:50:44] INFO root fetch - main [MainThread]: End processing [gptvm]: success
 [2024-05-10 08:50:44] INFO root fetch - main [MainThread]: Store serial: [23142388]
+[2024-05-10 08:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142388]
+[2024-05-10 08:52:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 08:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-sedona
+[2024-05-10 08:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultima-scraper-api
+[2024-05-10 08:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text-block-local
+[2024-05-10 08:52:53] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:52:53] INFO root fetch - processPackages [apache-sedona]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-10 08:52:53] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 08:52:53] INFO root fetch - processPackages [ultima-scraper-api]: New version: [2.2.27] Old Version: [2.2.26]
+[2024-05-10 08:52:53] INFO root fetch - processPackages [apache-sedona]: Downloading https://files.pythonhosted.org/packages/3a/34/fb8c9d3d3b7b885ef8dc273ad893e899c2e10b1f0896eb3ab9fddec41718/apache-sedona-1.5.1.tar.gz
+[2024-05-10 08:52:53] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/00/b9/f82c4c350de9082daa9b31d53867b6bee431225b7b73fe3ca2c6be17a0e4/ultima_scraper_api-2.2.26.tar.gz
+[2024-05-10 08:52:54] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 08:52:54] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 08:52:54] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:52:54] INFO root fetch - processPackages [apache-sedona]: Downloading https://files.pythonhosted.org/packages/2d/d0/0c327fa940590fdddbce99ee2f330c4884fcd415127e57f82677911a7189/apache_sedona-1.5.2.tar.gz
+[2024-05-10 08:52:54] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/51/eb/c18b041f8f6c3601e18dde5f4dd5fbb71c15314ce292599a0d798acb7c01/ultima_scraper_api-2.2.27.tar.gz
+[2024-05-10 08:52:54] INFO root fetch - processPackages [apache-sedona]: executing diffoscope
+[2024-05-10 08:52:54] INFO root fetch - processPackages [apache-sedona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-sedona-1.5.1.tar.gz tmp/apache_sedona-1.5.2.tar.gz --markdown 20240510/a/apache-sedona/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-10 08:52:54] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2024-05-10 08:52:54] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-2.2.26.tar.gz tmp/ultima_scraper_api-2.2.27.tar.gz --markdown 20240510/u/ultima-scraper-api/2.2.26-2.2.27/README.md --exclude *.pyd
+[2024-05-10 08:52:54] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 08:52:54] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 08:52:54] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 08:52:55] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-2.2.26.tar.gz]
+[2024-05-10 08:52:55] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-2.2.27.tar.gz]
+[2024-05-10 08:52:55] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2024-05-10 08:52:55] INFO root fetch - processPackages [apache-sedona]: Remove: archive file [/home/abi/fetcher/tmp/apache-sedona-1.5.1.tar.gz]
+[2024-05-10 08:52:55] INFO root fetch - processPackages [apache-sedona]: Remove: archive file [/home/abi/fetcher/tmp/apache_sedona-1.5.2.tar.gz]
+[2024-05-10 08:52:55] INFO root fetch - main [MainThread]: End processing [apache-sedona]: success
+[2024-05-10 08:52:55] INFO root fetch - main [MainThread]: Store serial: [23142434]
