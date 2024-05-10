@@ -10434,3 +10434,36 @@
 [2024-05-10 10:07:01] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.5.tar.gz]
 [2024-05-10 10:07:01] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
 [2024-05-10 10:07:01] INFO root fetch - main [MainThread]: Store serial: [23143083]
+[2024-05-10 10:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143083]
+[2024-05-10 10:09:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 10:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-05-10 10:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathematizez
+[2024-05-10 10:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imesh
+[2024-05-10 10:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SunoAI
+[2024-05-10 10:09:10] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240509] Old Version: [0.4.5.dev20240508]
+[2024-05-10 10:09:10] WARNING root fetch - processPackages [mathematizez]: Skipping, unable to determine old version
+[2024-05-10 10:09:10] INFO root fetch - main [MainThread]: End processing [mathematizez] error
+[2024-05-10 10:09:10] INFO root fetch - processPackages [SunoAI]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 10:09:10] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 10:09:10] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/53/5d/8f18e36a9d0f60a9227cd04682be4d13a89cf669ac232dc0aeb25f97ba4d/pyglove-0.4.5.dev20240508.tar.gz
+[2024-05-10 10:09:10] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2024-05-10 10:09:10] INFO root fetch - processPackages [SunoAI]: Downloading https://files.pythonhosted.org/packages/14/34/8bb473c93757e50e5e0e83e9ac726f7136d04d29105f36461fe4e3ef8c3f/sunoai-1.0.1.tar.gz
+[2024-05-10 10:09:10] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/08/ca/00edeaabe928b39f53b97a3aa1c814e327a710a91c5e496e0133bc6d973f/pyglove-0.4.5.dev20240509.tar.gz
+[2024-05-10 10:09:10] INFO root fetch - processPackages [SunoAI]: Downloading https://files.pythonhosted.org/packages/45/69/b643cda548e7bd07077e8f5d571b8271681881f0da443f82bfea4df6cf0a/sunoai-1.0.2.tar.gz
+[2024-05-10 10:09:10] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-10 10:09:10] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240508.tar.gz tmp/pyglove-0.4.5.dev20240509.tar.gz --markdown 20240510/p/pyglove/0.4.5.dev20240508-0.4.5.dev20240509/README.md --exclude *.pyd
+[2024-05-10 10:09:11] INFO root fetch - processPackages [SunoAI]: executing diffoscope
+[2024-05-10 10:09:11] INFO root fetch - processPackages [SunoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunoai-1.0.1.tar.gz tmp/sunoai-1.0.2.tar.gz --markdown 20240510/S/SunoAI/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 10:09:11] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2024-05-10 10:09:11] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2024-05-10 10:09:11] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20240510/i/imesh/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 10:09:11] INFO root fetch - processPackages [SunoAI]: Remove: archive file [/home/abi/fetcher/tmp/sunoai-1.0.1.tar.gz]
+[2024-05-10 10:09:11] INFO root fetch - processPackages [SunoAI]: Remove: archive file [/home/abi/fetcher/tmp/sunoai-1.0.2.tar.gz]
+[2024-05-10 10:09:11] INFO root fetch - main [MainThread]: End processing [SunoAI]: success
+[2024-05-10 10:09:12] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240508.tar.gz]
+[2024-05-10 10:09:12] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240509.tar.gz]
+[2024-05-10 10:09:12] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-10 10:09:12] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2024-05-10 10:09:12] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2024-05-10 10:09:12] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2024-05-10 10:09:12] INFO root fetch - main [MainThread]: Store serial: [23143096]
