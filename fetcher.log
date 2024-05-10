@@ -19096,3 +19096,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:13:24] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/mercury-2.4.2.tar.gz]
 [2024-05-10 15:13:24] INFO root fetch - main [MainThread]: End processing [mercury]: success
 [2024-05-10 15:13:24] INFO root fetch - main [MainThread]: Store serial: [23146795]
+[2024-05-10 15:15:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146795]
+[2024-05-10 15:15:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapegraphai
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.gtod
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhlyr
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-splunk-addon-ui-smartx
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miticidalz
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radical.saga
+[2024-05-10 15:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: booktest
+[2024-05-10 15:15:34] WARNING root fetch - processPackages [zhlyr]: Skipping, unable to determine old version
+[2024-05-10 15:15:34] INFO root fetch - main [MainThread]: End processing [zhlyr] error
+[2024-05-10 15:15:34] INFO root fetch - processPackages [scrapegraphai]: New version: [0.9.0b8] Old Version: [0.9.0b7]
+[2024-05-10 15:15:34] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-05-10 15:15:34] INFO root fetch - processPackages [radical.gtod]: New version: [1.60.0] Old Version: [1.6.7]
+[2024-05-10 15:15:34] WARNING root fetch - processPackages [miticidalz]: Skipping, unable to determine old version
+[2024-05-10 15:15:34] INFO root fetch - main [MainThread]: End processing [miticidalz] error
+[2024-05-10 15:15:34] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.9] Old Version: [2024.5.10]
+[2024-05-10 15:15:34] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/63/5c/30d12a2ba836f5972d1146557ac75b13200683a0808baa631508b12da6d1/scrapegraphai-0.9.0b7.tar.gz
+[2024-05-10 15:15:34] INFO root fetch - processPackages [booktest]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-10 15:15:34] INFO root fetch - processPackages [radical.saga]: New version: [1.8.0] Old Version: [1.60.0]
+[2024-05-10 15:15:34] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Downloading https://files.pythonhosted.org/packages/16/7d/958dc5a8e13ba6c7d96d696571630c841c584f3aa3199510072c0a020697/pytest_splunk_addon_ui_smartx-3.1.0.tar.gz
+[2024-05-10 15:15:34] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/22/d2/2fb3b17a3da230d9750ddfdb3f6c3c672616eaae2da0786eb84086aced6f/fbgemm_gpu_nightly_cpu-2024.5.10-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-10 15:15:35] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/c2/10/8177d6c495d6812ba86922af29e8c67374253289041f0c340ddf71868493/radical_saga-1.60.0.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/95/21/43e7639c258b9b198722ad6e91b1a332a48b938dfab0810ab6d1d8d71547/booktest-0.3.7.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/e8/f4/c60696cf15fae6617f4351065cbc78d635ceedaf932079ea2bfdcd1822ec/scrapegraphai-0.9.0b8.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-10 15:15:35] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b7.tar.gz tmp/scrapegraphai-0.9.0b8.tar.gz --markdown 20240510/s/scrapegraphai/0.9.0b7-0.9.0b8/README.md --exclude *.pyd
+[2024-05-10 15:15:35] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Downloading https://files.pythonhosted.org/packages/2f/41/ed4debfcc3a460e5e212cfff95b30e18b01de31cb37a0f9e4c321334a57a/pytest_splunk_addon_ui_smartx-3.1.1.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: executing diffoscope
+[2024-05-10 15:15:35] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_splunk_addon_ui_smartx-3.1.0.tar.gz tmp/pytest_splunk_addon_ui_smartx-3.1.1.tar.gz --markdown 20240510/p/pytest-splunk-addon-ui-smartx/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-05-10 15:15:35] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/7e/22/256c1131161300a3720ad31183ddcd307d796c77ee4dd422e34dfb8263d7/radical_gtod-1.60.0.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/4f/4b/15452082443a7cc86d52bcb6ff568b457eed3d787d65d867942840f1d52c/radical.saga-1.8.0.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/93/c7/91e0ef317cf0a48df8669619ee6f557d57a311d7e80732010b94ca8b6b41/booktest-0.3.8.tar.gz
+[2024-05-10 15:15:35] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-05-10 15:15:35] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.gtod-1.6.7.tar.gz tmp/radical_gtod-1.60.0.tar.gz --markdown 20240510/r/radical.gtod/1.6.7-1.60.0/README.md --exclude *.pyd
+[2024-05-10 15:15:35] INFO root fetch - processPackages [booktest]: executing diffoscope
+[2024-05-10 15:15:35] INFO root fetch - processPackages [booktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booktest-0.3.7.tar.gz tmp/booktest-0.3.8.tar.gz --markdown 20240510/b/booktest/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-10 15:15:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/34/33/65604f909cf0830076814afa9f0dceaa2c308165d02d78b5b11cc85f8d10/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-10 15:15:35] INFO root fetch - processPackages [radical.saga]: executing diffoscope
+[2024-05-10 15:15:35] INFO root fetch - processPackages [radical.saga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_saga-1.60.0.tar.gz tmp/radical.saga-1.8.0.tar.gz --markdown 20240510/r/radical.saga/1.60.0-1.8.0/README.md --exclude *.pyd
+[2024-05-10 15:15:35] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b7.tar.gz]
+[2024-05-10 15:15:35] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b8.tar.gz]
+[2024-05-10 15:15:35] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-10 15:15:36] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon_ui_smartx-3.1.0.tar.gz]
+[2024-05-10 15:15:36] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon_ui_smartx-3.1.1.tar.gz]
+[2024-05-10 15:15:36] INFO root fetch - main [MainThread]: End processing [pytest-splunk-addon-ui-smartx]: success
+[2024-05-10 15:15:36] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.6.7.tar.gz]
+[2024-05-10 15:15:36] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical_gtod-1.60.0.tar.gz]
+[2024-05-10 15:15:36] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-05-10 15:15:36] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.7.tar.gz]
+[2024-05-10 15:15:36] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.8.tar.gz]
+[2024-05-10 15:15:36] INFO root fetch - main [MainThread]: End processing [booktest]: success
+[2024-05-10 15:15:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-10 15:15:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.10-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240510/f/fbgemm-gpu-nightly-cpu/2024.5.10-2024.5.9/README.md --exclude *.pyd
+[2024-05-10 15:15:37] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical_saga-1.60.0.tar.gz]
+[2024-05-10 15:15:37] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.8.0.tar.gz]
+[2024-05-10 15:15:37] INFO root fetch - main [MainThread]: End processing [radical.saga]: success
+[2024-05-10 15:16:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.10-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-10 15:16:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-10 15:16:15] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-10 15:16:15] INFO root fetch - main [MainThread]: Store serial: [23146825]
