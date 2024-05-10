@@ -24531,3 +24531,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:07:36] INFO root fetch - processPackages [uproot]: Remove: archive file [/home/abi/fetcher/tmp/uproot-5.3.7.tar.gz]
 [2024-05-10 18:07:36] INFO root fetch - main [MainThread]: End processing [uproot]: success
 [2024-05-10 18:07:36] INFO root fetch - main [MainThread]: Store serial: [23149464]
+[2024-05-10 18:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149464]
+[2024-05-10 18:09:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatchet-sdk
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccs-digitalmarketplace-frontend-jinja
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catc
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdo-sdk-python
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crawlee
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumiverse-cpln
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sulphatoz
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-flex-report
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dnacurve
+[2024-05-10 18:09:44] INFO root fetch - processPackages [pulumiverse-cpln]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 18:09:44] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-10 18:09:44] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/1b/fb/9af76754a5f5181f7b978484c9a0f433b0c9489c89d3f2c2d6709f5ca52d/pulumiverse_cpln-0.0.8.tar.gz
+[2024-05-10 18:09:44] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: New version: [2.4.0rc3] Old Version: [2.4.0rc2]
+[2024-05-10 18:09:44] INFO root fetch - processPackages [dnacurve]: New version: [2024.5.10] Old Version: [2023.8.30]
+[2024-05-10 18:09:44] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-10 18:09:44] INFO root fetch - processPackages [crawlee]: New version: [0.0.3b9] Old Version: [0.0.3b8]
+[2024-05-10 18:09:44] INFO root fetch - processPackages [hatchet-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-10 18:09:44] WARNING root fetch - processPackages [catc]: Skipping, unable to determine old version
+[2024-05-10 18:09:44] INFO root fetch - main [MainThread]: End processing [catc] error
+[2024-05-10 18:09:44] WARNING root fetch - processPackages [sulphatoz]: Skipping, unable to determine old version
+[2024-05-10 18:09:44] INFO root fetch - main [MainThread]: End processing [sulphatoz] error
+[2024-05-10 18:09:44] INFO root fetch - processPackages [django-flex-report]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-10 18:09:45] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/b7/8b/68973381c93504e7bb9a11fe80f87dcd98513e32ad380a834f18ebfd2e7a/hatchet_sdk-0.9.3.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/f1/53/f6afe62a96b0c8443f26009ee143128ed7bc0941b2b1a92c7debc39cb2b3/pulumiverse_cpln-0.0.9.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/70/2a/4f2dd8203b2954001606f4d75ba036c96cfdc75138000c8fea3ced82376f/ccs-digitalmarketplace-frontend-jinja-2.4.0rc2.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/9f/72/688eb2e27a31cb96a74e93e99a90d6fe1cf7353cce9f00adbde3974adb74/crawlee-0.0.3b8.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [dnacurve]: Downloading https://files.pythonhosted.org/packages/83/2d/137a50a896ba1936d05e3d50d002696ea63ad24ad49817497093a4864658/dnacurve-2023.8.30.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/e5/2c/aae5fa69a2c27ce610dc0eeace7a79fa48b93192450b4613deccbfca4de0/django-flex-report-0.8.0.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [pulumiverse-cpln]: executing diffoscope
+[2024-05-10 18:09:45] INFO root fetch - processPackages [pulumiverse-cpln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_cpln-0.0.8.tar.gz tmp/pulumiverse_cpln-0.0.9.tar.gz --markdown 20240510/p/pulumiverse-cpln/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 18:09:45] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-10 18:09:45] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240510/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-10 18:09:45] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/19/f2/b637c52e9d3495664654bf550e30f893558eb0a752bb7a6718c55674e5cd/hatchet_sdk-0.9.4.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/06/75/c15665a9a3afc73b1c3bf6c50c25d7fba7e095a3fbb348426d0556dbc3f3/ccs-digitalmarketplace-frontend-jinja-2.4.0rc3.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/71/ff/adfe688e42a6a08e7abfb828297e605bebdc72f49021d5c066a27275959d/django-flex-report-0.8.1.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/84/03/9368bf77c453e6b5e03fac8250e51113b079ed2408053fc99d1e551fe02f/crawlee-0.0.3b9.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: executing diffoscope
+[2024-05-10 18:09:45] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc2.tar.gz tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc3.tar.gz --markdown 20240510/c/ccs-digitalmarketplace-frontend-jinja/2.4.0rc2-2.4.0rc3/README.md --exclude *.pyd
+[2024-05-10 18:09:45] INFO root fetch - processPackages [dnacurve]: Downloading https://files.pythonhosted.org/packages/8a/0b/d064ea9cca7ecbebc57e586bf66c89bb3485069919b7045a9a24a889465d/dnacurve-2024.5.10.tar.gz
+[2024-05-10 18:09:45] INFO root fetch - processPackages [hatchet-sdk]: executing diffoscope
+[2024-05-10 18:09:45] INFO root fetch - processPackages [hatchet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchet_sdk-0.9.3.tar.gz tmp/hatchet_sdk-0.9.4.tar.gz --markdown 20240510/h/hatchet-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-10 18:09:45] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-10 18:09:45] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b8.tar.gz tmp/crawlee-0.0.3b9.tar.gz --markdown 20240510/c/crawlee/0.0.3b8-0.0.3b9/README.md --exclude *.pyd
+[2024-05-10 18:09:45] INFO root fetch - processPackages [django-flex-report]: executing diffoscope
+[2024-05-10 18:09:45] INFO root fetch - processPackages [django-flex-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-flex-report-0.8.0.tar.gz tmp/django-flex-report-0.8.1.tar.gz --markdown 20240510/d/django-flex-report/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-10 18:09:45] INFO root fetch - processPackages [dnacurve]: executing diffoscope
+[2024-05-10 18:09:45] INFO root fetch - processPackages [dnacurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnacurve-2023.8.30.tar.gz tmp/dnacurve-2024.5.10.tar.gz --markdown 20240510/d/dnacurve/2023.8.30-2024.5.10/README.md --exclude *.pyd
+[2024-05-10 18:09:45] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.8.tar.gz]
+[2024-05-10 18:09:45] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.9.tar.gz]
+[2024-05-10 18:09:45] INFO root fetch - main [MainThread]: End processing [pulumiverse-cpln]: success
+[2024-05-10 18:09:46] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b8.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b9.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-10 18:09:46] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc2.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc3.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-frontend-jinja]: success
+[2024-05-10 18:09:46] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.8.0.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.8.1.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - main [MainThread]: End processing [django-flex-report]: success
+[2024-05-10 18:09:46] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.3.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.4.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - main [MainThread]: End processing [hatchet-sdk]: success
+[2024-05-10 18:09:46] INFO root fetch - processPackages [dnacurve]: Remove: archive file [/home/abi/fetcher/tmp/dnacurve-2023.8.30.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - processPackages [dnacurve]: Remove: archive file [/home/abi/fetcher/tmp/dnacurve-2024.5.10.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - main [MainThread]: End processing [dnacurve]: success
+[2024-05-10 18:09:46] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-10 18:09:46] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-10 18:09:46] INFO root fetch - main [MainThread]: Store serial: [23149494]
