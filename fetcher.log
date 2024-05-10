@@ -9448,3 +9448,24 @@
 [2024-05-10 09:15:13] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit_taxonomy-0.1.3.tar.gz]
 [2024-05-10 09:15:13] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit-taxonomy]: success
 [2024-05-10 09:15:13] INFO root fetch - main [MainThread]: Store serial: [23142634]
+[2024-05-10 09:17:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142634]
+[2024-05-10 09:17:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 09:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu-api-python
+[2024-05-10 09:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PREN-flawas
+[2024-05-10 09:17:21] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 09:17:21] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-10 09:17:21] INFO root fetch - processPackages [tsugu-api-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-10 09:17:21] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/1d/29/343cd22136eb6323e20bcd0b41899cc8556630fb599a84e1cafe42a614f7/tsugu-api-python-0.2.0.tar.gz
+[2024-05-10 09:17:22] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-10 09:17:22] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/9e/a6/3f5bc542fd676366a9ca3b4ffa6eb0b5dac7878f707fc7d3f05cc5eba33e/tsugu-api-python-0.2.1.tar.gz
+[2024-05-10 09:17:22] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-10 09:17:22] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240510/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:17:22] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-10 09:17:22] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-0.2.0.tar.gz tmp/tsugu-api-python-0.2.1.tar.gz --markdown 20240510/t/tsugu-api-python/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-10 09:17:23] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-0.2.0.tar.gz]
+[2024-05-10 09:17:23] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-0.2.1.tar.gz]
+[2024-05-10 09:17:23] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-10 09:17:23] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-10 09:17:23] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-10 09:17:23] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-10 09:17:23] INFO root fetch - main [MainThread]: Store serial: [23142647]
