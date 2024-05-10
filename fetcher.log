@@ -18500,3 +18500,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:55:49] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-10 14:55:49] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-10 14:55:49] INFO root fetch - main [MainThread]: Store serial: [23146573]
+[2024-05-10 14:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146573]
+[2024-05-10 14:57:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gogotable
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byzerllm
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: callorhynchidaez
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyinsteon
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-coder
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyopenhc
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuroHarmonize
+[2024-05-10 14:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: molecule-qemu
+[2024-05-10 14:57:58] WARNING root fetch - processPackages [pyopenhc]: Skipping, unable to determine old version
+[2024-05-10 14:57:58] INFO root fetch - main [MainThread]: End processing [pyopenhc] error
+[2024-05-10 14:57:58] INFO root fetch - processPackages [gogotable]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [molecule-qemu]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.82]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [pyinsteon]: New version: [1.6.0] Old Version: [1.5.3]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [neuroHarmonize]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [callorhynchidaez]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 14:57:58] INFO root fetch - processPackages [gogotable]: Downloading https://files.pythonhosted.org/packages/71/0f/697519e8022357b62b40a23a7932f174232c6ffe710f9538deff3a7ff829/gogotable-0.0.4.tar.gz
+[2024-05-10 14:57:58] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/80/38/e9859cd7ca721b412d83853a10eb7edb026d81452b1443b9d307b72bfd44/molecule-qemu-0.5.8.tar.gz
+[2024-05-10 14:57:58] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-10 14:57:58] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/b5/68/9068266cee155c02a0d8fdbb3e722d110268e98b3fde7a3972baa37c618e/byzerllm-0.1.82.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-10 14:57:59] INFO root fetch - processPackages [pyinsteon]: Downloading https://files.pythonhosted.org/packages/79/24/4f66a2a15d657a7ecdd856f4ae6df532828fbb0692a42bf823f221fe4c22/pyinsteon-1.5.3.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [callorhynchidaez]: Downloading https://files.pythonhosted.org/packages/95/9b/b3e58e78140d8f5e8831aa3a3ee86bde06e7fcfaa43483a608f87039524c/callorhynchidaez-1.1.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [neuroHarmonize]: Downloading https://files.pythonhosted.org/packages/5e/93/3b5931a465535920d0cfd53c23a41628901a95d2431c89c31b3c38a3f9b0/neuroharmonize-2.4.2.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [gogotable]: Downloading https://files.pythonhosted.org/packages/0f/c6/ebd2ac90d518b5fa6270244b997efd1405aee14ea00e7a18660ebc8fde7b/gogotable-0.1.0.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-10 14:57:59] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240510/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 14:57:59] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/03/14/7fbefe8f9765f53d92263fab24e9d4bd538e36ddb9b5bf5fa14836f80a09/molecule-qemu-0.5.9.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [gogotable]: executing diffoscope
+[2024-05-10 14:57:59] INFO root fetch - processPackages [gogotable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogotable-0.0.4.tar.gz tmp/gogotable-0.1.0.tar.gz --markdown 20240510/g/gogotable/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-05-10 14:57:59] INFO root fetch - processPackages [callorhynchidaez]: Downloading https://files.pythonhosted.org/packages/68/b3/c39f36b3ae01134512cb90c45bdf3f21544ca579051a19c0e0172c507c54/callorhynchidaez-2.1.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [neuroHarmonize]: Downloading https://files.pythonhosted.org/packages/1c/a0/74a831b59210e66a5790cad23326b1e9eb3c89f660b5a550c85b4ea0a08e/neuroharmonize-2.4.3.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [pyinsteon]: Downloading https://files.pythonhosted.org/packages/63/25/d904c99aa9964189de8f4d3fbf57b018926965ff962d0af6b971403e1d2c/pyinsteon-1.6.0.tar.gz
+[2024-05-10 14:57:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-10 14:57:59] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-05-10 14:57:59] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.82.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240510/b/byzerllm/0.1.82-0.1.9/README.md --exclude *.pyd
+[2024-05-10 14:57:59] INFO root fetch - processPackages [neuroHarmonize]: executing diffoscope
+[2024-05-10 14:57:59] INFO root fetch - processPackages [neuroHarmonize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroharmonize-2.4.2.tar.gz tmp/neuroharmonize-2.4.3.tar.gz --markdown 20240510/n/neuroHarmonize/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-05-10 14:57:59] INFO root fetch - processPackages [callorhynchidaez]: executing diffoscope
+[2024-05-10 14:57:59] INFO root fetch - processPackages [callorhynchidaez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callorhynchidaez-1.1.tar.gz tmp/callorhynchidaez-2.1.tar.gz --markdown 20240510/c/callorhynchidaez/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 14:57:59] INFO root fetch - processPackages [pyinsteon]: executing diffoscope
+[2024-05-10 14:57:59] INFO root fetch - processPackages [pyinsteon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinsteon-1.5.3.tar.gz tmp/pyinsteon-1.6.0.tar.gz --markdown 20240510/p/pyinsteon/1.5.3-1.6.0/README.md --exclude *.pyd
+[2024-05-10 14:57:59] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2024-05-10 14:57:59] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.5.8.tar.gz tmp/molecule-qemu-0.5.9.tar.gz --markdown 20240510/m/molecule-qemu/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-10 14:58:00] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-10 14:58:00] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240510/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-10 14:58:00] INFO root fetch - processPackages [gogotable]: Remove: archive file [/home/abi/fetcher/tmp/gogotable-0.0.4.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - processPackages [gogotable]: Remove: archive file [/home/abi/fetcher/tmp/gogotable-0.1.0.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - main [MainThread]: End processing [gogotable]: success
+[2024-05-10 14:58:00] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-10 14:58:00] INFO root fetch - processPackages [callorhynchidaez]: Remove: archive file [/home/abi/fetcher/tmp/callorhynchidaez-1.1.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - processPackages [callorhynchidaez]: Remove: archive file [/home/abi/fetcher/tmp/callorhynchidaez-2.1.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - main [MainThread]: End processing [callorhynchidaez]: success
+[2024-05-10 14:58:00] INFO root fetch - processPackages [neuroHarmonize]: Remove: archive file [/home/abi/fetcher/tmp/neuroharmonize-2.4.2.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - processPackages [neuroHarmonize]: Remove: archive file [/home/abi/fetcher/tmp/neuroharmonize-2.4.3.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - main [MainThread]: End processing [neuroHarmonize]: success
+[2024-05-10 14:58:00] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.8.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.9.tar.gz]
+[2024-05-10 14:58:00] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2024-05-10 14:58:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-10 14:58:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-10 14:58:01] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-10 14:58:01] INFO root fetch - processPackages [pyinsteon]: Remove: archive file [/home/abi/fetcher/tmp/pyinsteon-1.5.3.tar.gz]
+[2024-05-10 14:58:01] INFO root fetch - processPackages [pyinsteon]: Remove: archive file [/home/abi/fetcher/tmp/pyinsteon-1.6.0.tar.gz]
+[2024-05-10 14:58:01] INFO root fetch - main [MainThread]: End processing [pyinsteon]: success
+[2024-05-10 14:58:01] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.82.tar.gz]
+[2024-05-10 14:58:01] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-05-10 14:58:01] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-05-10 14:58:01] INFO root fetch - main [MainThread]: Store serial: [23146599]
