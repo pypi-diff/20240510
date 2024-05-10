@@ -13627,3 +13627,105 @@
 [2024-05-10 12:00:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050909.tar.gz]
 [2024-05-10 12:00:47] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-10 12:00:47] INFO root fetch - main [MainThread]: Store serial: [23144371]
+[2024-05-10 12:02:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144371]
+[2024-05-10 12:03:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atticizingz
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migration-db
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgeimpulse-api
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autofracture
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jstream
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-core
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-claude
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-claude
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phones-local
+[2024-05-10 12:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-claude
+[2024-05-10 12:03:02] INFO root fetch - processPackages [phones-local]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [migration-db]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [autofracture]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.9] Old Version: [1.49.8]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/fc/74/c996582f6028c700de7c7b11ebcc914e1214b4d4ee2d2bbc58af5ac878f0/phones_local-0.0.19.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/7f/ed/1d35592a8041b6e70f3af7408af064fcea50ebc84c2e08def0f09107c7ce/migration_db-1.0.8.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:03:02] WARNING root fetch - processPackages [jstream]: Skipping, unable to determine old version
+[2024-05-10 12:03:02] INFO root fetch - processPackages [jstream]: Start processing: composio-griptape
+[2024-05-10 12:03:02] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/0a/c0/cc9bf899c7fe196ba628438a85c1acc60cb2f3f0930bc5fa59113df6bd77/autofracture-0.0.8.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - main [MainThread]: End processing [jstream] error
+[2024-05-10 12:03:02] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-05-10 12:03:02] WARNING root fetch - processPackages [atticizingz]: Skipping, unable to determine old version
+[2024-05-10 12:03:02] INFO root fetch - processPackages [atticizingz]: Start processing: composio-griptape
+[2024-05-10 12:03:02] INFO root fetch - main [MainThread]: End processing [atticizingz] error
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-griptape]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-griptape]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/f3/6c/933dde8aebe19c3f8e67d410e40b972ef063e6f2c8377b4f87f87559e917/composio_claude-0.2.52.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/f3/6c/933dde8aebe19c3f8e67d410e40b972ef063e6f2c8377b4f87f87559e917/composio_claude-0.2.52.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/f3/6c/933dde8aebe19c3f8e67d410e40b972ef063e6f2c8377b4f87f87559e917/composio_claude-0.2.52.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/1a/47/250647e9d1357e7aaeea859959882e233fe63142855c89366998750bf06f/phones_local-0.0.20.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/21/4d/a05ab9a9bb48f79223952469dbca6b72d5dd7b36d9ecafec42abe2033706/migration_db-1.0.9.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/4b/28/2cae085ac4a54364c01ca191c64503de850d38d1599bc7a14ae2d029a67e/composio_griptape-0.2.52.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/2e/61db10bac2d979482398361a4532a56341b89eb7e3cd645df17c5ecdbfc5/edgeimpulse_api-1.49.9.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/4b/28/2cae085ac4a54364c01ca191c64503de850d38d1599bc7a14ae2d029a67e/composio_griptape-0.2.52.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/bf/99/7b1c4dda041f0e4042ecd2b8f924c4196a65d19d328485e526ea7a4edd03/autofracture-0.0.9.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-10 12:03:02] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones_local-0.0.19.tar.gz tmp/phones_local-0.0.20.tar.gz --markdown 20240510/p/phones-local/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-05-10 12:03:02] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-10 12:03:02] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.8.tar.gz tmp/migration_db-1.0.9.tar.gz --markdown 20240510/m/migration-db/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 12:03:02] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-05-10 12:03:02] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.8.tar.gz tmp/edgeimpulse_api-1.49.9.tar.gz --markdown 20240510/e/edgeimpulse-api/1.49.8-1.49.9/README.md --exclude *.pyd
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/e9/44/046c1c00e1ab50d14d791f8b093fc40e7e01114b2bbb9e23a47bbcffac64/composio_claude-0.2.54.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/e9/44/046c1c00e1ab50d14d791f8b093fc40e7e01114b2bbb9e23a47bbcffac64/composio_claude-0.2.54.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/e9/44/046c1c00e1ab50d14d791f8b093fc40e7e01114b2bbb9e23a47bbcffac64/composio_claude-0.2.54.tar.gz
+[2024-05-10 12:03:02] INFO root fetch - processPackages [autofracture]: executing diffoscope
+[2024-05-10 12:03:02] INFO root fetch - processPackages [autofracture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofracture-0.0.8.tar.gz tmp/autofracture-0.0.9.tar.gz --markdown 20240510/a/autofracture/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/b2/26/9b24eae033a127f9a35077b7a0fe084aacc90b008a5b4839d9cbe4dd269e/composio_griptape-0.2.54.tar.gz
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/b2/26/9b24eae033a127f9a35077b7a0fe084aacc90b008a5b4839d9cbe4dd269e/composio_griptape-0.2.54.tar.gz
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.52.tar.gz tmp/composio_claude-0.2.54.tar.gz --markdown 20240510/c/composio-claude/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.52.tar.gz tmp/composio_claude-0.2.54.tar.gz --markdown 20240510/c/composio-claude/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.52.tar.gz tmp/composio_claude-0.2.54.tar.gz --markdown 20240510/c/composio-claude/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240510/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.52.tar.gz tmp/composio_griptape-0.2.54.tar.gz --markdown 20240510/c/composio-griptape/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.52.tar.gz tmp/composio_griptape-0.2.54.tar.gz --markdown 20240510/c/composio-griptape/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:03:03] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.19.tar.gz]
+[2024-05-10 12:03:03] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.20.tar.gz]
+[2024-05-10 12:03:03] INFO root fetch - processPackages [phones-local]: Start processing: composio-griptape
+[2024-05-10 12:03:03] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:03:03] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.8.tar.gz]
+[2024-05-10 12:03:03] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.9.tar.gz]
+[2024-05-10 12:03:03] INFO root fetch - main [MainThread]: End processing [autofracture]: success
+[2024-05-10 12:03:03] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.8.tar.gz]
+[2024-05-10 12:03:03] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.9.tar.gz]
+[2024-05-10 12:03:03] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-10 12:03:03] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.52.tar.gz tmp/composio_griptape-0.2.54.tar.gz --markdown 20240510/c/composio-griptape/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:03:04] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.52.tar.gz]
+[2024-05-10 12:03:04] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.54.tar.gz]
+[2024-05-10 12:03:04] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-10 12:03:04] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-10 12:03:04] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.52.tar.gz]
+[2024-05-10 12:03:04] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-10 12:03:04] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.54.tar.gz]
+[2024-05-10 12:03:04] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-10 12:03:04] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-10 12:03:04] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-10 12:03:04] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-10 12:03:04] ERROR root fetch - processPackages [composio-griptape]: Diffoscope failed: time="2024-05-10T12:03:04+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/composio_griptape-0.2.52.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/composio_griptape-0.2.54.tar.gz: No such file or directory
+
+[2024-05-10 12:03:04] INFO root fetch - main [MainThread]: End processing [composio-griptape] error
+[2024-05-10 12:03:04] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-10 12:03:06] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-05-10 12:03:06] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
+[2024-05-10 12:03:06] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-05-10 12:03:06] INFO root fetch - main [MainThread]: Store serial: [23144413]
