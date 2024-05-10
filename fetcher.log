@@ -15062,3 +15062,72 @@
 [2024-05-10 12:54:34] INFO root fetch - processPackages [autopeptideml]: Remove: archive file [/home/abi/fetcher/tmp/autopeptideml-0.2.9.tar.gz]
 [2024-05-10 12:54:34] INFO root fetch - main [MainThread]: End processing [autopeptideml]: success
 [2024-05-10 12:54:34] INFO root fetch - main [MainThread]: Store serial: [23145029]
+[2024-05-10 12:56:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145029]
+[2024-05-10 12:56:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-http
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otp-generate
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napatrackmater
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: barebonesz
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liveflask
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-alicloud
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-webfastoche
+[2024-05-10 12:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opengate-data
+[2024-05-10 12:56:57] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-10 12:56:57] INFO root fetch - processPackages [pulumi-http]: New version: [0.1.0a1715303697] Old Version: [0.1.0a1715233527]
+[2024-05-10 12:56:57] WARNING root fetch - processPackages [django-webfastoche]: Skipping, unable to determine old version
+[2024-05-10 12:56:57] INFO root fetch - main [MainThread]: End processing [django-webfastoche] error
+[2024-05-10 12:56:57] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-10 12:56:57] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/20/23/c66f9eeca38e52ba1c699040a13d0d30638f79f6611017e5882794eeb87b/pulumi_http-0.1.0a1715233527.tar.gz
+[2024-05-10 12:56:57] INFO root fetch - processPackages [otp-generate]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 12:56:57] INFO root fetch - processPackages [barebonesz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 12:56:57] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-10 12:56:57] INFO root fetch - processPackages [napatrackmater]: New version: [5.2.1] Old Version: [5.1.9]
+[2024-05-10 12:56:57] INFO root fetch - processPackages [opengate-data]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-10 12:56:57] INFO root fetch - processPackages [barebonesz]: Downloading https://files.pythonhosted.org/packages/a2/16/57c97269d14003a46a32627421f5e7b5024bcb6f46e0e4dbc9a503b23ffd/barebonesz-1.1.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/9f/d9/3a304418e74fa0f244e48603366dee92195124a13d511eebc976fae288ba/otp_generate-0.0.3.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/18/77/8ced0137002d33a3a2efa8309438a23ccb7375b07a27a7a16c6d767a6833/napatrackmater-5.1.9.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [opengate-data]: Downloading https://files.pythonhosted.org/packages/f8/2d/a029478b2c2c0d31e3a1c23ba3c2e24695f662154047853a2722e2254e1b/opengate_data-1.0.5.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/37/7c/e181b76eafe6a2b2834a18dc87bcee5dad9258742083c3585f7e0fdbe357/pulumi_http-0.1.0a1715303697.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-10 12:56:58] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240510/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.1.0a1715233527.tar.gz tmp/pulumi_http-0.1.0a1715303697.tar.gz --markdown 20240510/p/pulumi-http/0.1.0a1715233527-0.1.0a1715303697/README.md --exclude *.pyd
+[2024-05-10 12:56:58] INFO root fetch - processPackages [barebonesz]: Downloading https://files.pythonhosted.org/packages/98/4d/b11797958363455c1eee9ce5913a48d60386997d86efd5c1dc6b82472c47/barebonesz-2.1.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/f6/2b/46291db0d406f6fd2899de2895bc2108de86e8a6aef760d46b2bc07c2a8d/otp_generate-0.0.4.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [barebonesz]: executing diffoscope
+[2024-05-10 12:56:58] INFO root fetch - processPackages [barebonesz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barebonesz-1.1.tar.gz tmp/barebonesz-2.1.tar.gz --markdown 20240510/b/barebonesz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 12:56:58] INFO root fetch - processPackages [otp-generate]: executing diffoscope
+[2024-05-10 12:56:58] INFO root fetch - processPackages [otp-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otp_generate-0.0.3.tar.gz tmp/otp_generate-0.0.4.tar.gz --markdown 20240510/o/otp-generate/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 12:56:58] INFO root fetch - processPackages [opengate-data]: Downloading https://files.pythonhosted.org/packages/06/f7/1bc54785473cbf12f4765cb83f1921bf2f2d80aa01a8d818ef2ed98d598b/opengate_data-1.0.6.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [opengate-data]: executing diffoscope
+[2024-05-10 12:56:58] INFO root fetch - processPackages [opengate-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengate_data-1.0.5.tar.gz tmp/opengate_data-1.0.6.tar.gz --markdown 20240510/o/opengate-data/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240510/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-10 12:56:58] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/5c/a8/5cdba4f0fea2021b2884e7022330cb69aab99391b0a35c58415eb20083a3/napatrackmater-5.2.1.tar.gz
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715233527.tar.gz]
+[2024-05-10 12:56:58] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715303697.tar.gz]
+[2024-05-10 12:56:58] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-05-10 12:56:59] INFO root fetch - processPackages [barebonesz]: Remove: archive file [/home/abi/fetcher/tmp/barebonesz-1.1.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - processPackages [barebonesz]: Remove: archive file [/home/abi/fetcher/tmp/barebonesz-2.1.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - main [MainThread]: End processing [barebonesz]: success
+[2024-05-10 12:56:59] INFO root fetch - processPackages [otp-generate]: Remove: archive file [/home/abi/fetcher/tmp/otp_generate-0.0.3.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - processPackages [otp-generate]: Remove: archive file [/home/abi/fetcher/tmp/otp_generate-0.0.4.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - main [MainThread]: End processing [otp-generate]: success
+[2024-05-10 12:56:59] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2024-05-10 12:56:59] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-5.1.9.tar.gz tmp/napatrackmater-5.2.1.tar.gz --markdown 20240510/n/napatrackmater/5.1.9-5.2.1/README.md --exclude *.pyd
+[2024-05-10 12:56:59] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-10 12:56:59] INFO root fetch - processPackages [opengate-data]: Remove: archive file [/home/abi/fetcher/tmp/opengate_data-1.0.5.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - processPackages [opengate-data]: Remove: archive file [/home/abi/fetcher/tmp/opengate_data-1.0.6.tar.gz]
+[2024-05-10 12:56:59] INFO root fetch - main [MainThread]: End processing [opengate-data]: success
+[2024-05-10 12:57:00] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-5.1.9.tar.gz]
+[2024-05-10 12:57:00] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-5.2.1.tar.gz]
+[2024-05-10 12:57:00] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2024-05-10 12:57:06] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-10 12:57:06] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-10 12:57:06] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-10 12:57:06] INFO root fetch - main [MainThread]: Store serial: [23145056]
