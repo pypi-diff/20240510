@@ -11994,3 +11994,108 @@
 [2024-05-10 11:04:17] INFO root fetch - processPackages [mwtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mwtoolbox-0.0.8.tar.gz]
 [2024-05-10 11:04:17] INFO root fetch - main [MainThread]: End processing [mwtoolbox]: success
 [2024-05-10 11:04:17] INFO root fetch - main [MainThread]: Store serial: [23143750]
+[2024-05-10 11:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143750]
+[2024-05-10 11:06:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysces
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.core
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.features
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.tabular
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polyclash
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.multimodal
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stonefish-license-manager
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.timeseries
+[2024-05-10 11:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: europarser
+[2024-05-10 11:06:27] INFO root fetch - processPackages [europarser]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 11:06:27] WARNING root fetch - processPackages [polyclash]: Skipping, unable to determine old version
+[2024-05-10 11:06:27] INFO root fetch - processPackages [polyclash]: Start processing: autogluon
+[2024-05-10 11:06:27] INFO root fetch - main [MainThread]: End processing [polyclash] error
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240509] Old Version: [1.1.1b20240508]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240509] Old Version: [1.1.1b20240508]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240509] Old Version: [1.1.1b20240508]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240509] Old Version: [1.1.1b20240508]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240509] Old Version: [1.1.1b20240508]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [stonefish-license-manager]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240509] Old Version: [1.1.1b20240508]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [pysces]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [europarser]: Downloading https://files.pythonhosted.org/packages/84/ed/9d3477bedff0b479534a4407f4324b94b3e53f398923885a8a6f7a046cf6/europarser-0.1.8.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240509] Old Version: [1.1.1b20240508]
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/47/c1/16e12f91842e98da4163d66ea39aa4b3b07e13efc432f0033f685ec9c654/autogluon.common-1.1.1b20240508.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/2b/d5/5b472e1603f7d872705041a56376245105697cdcfb6ae101b9f17b4d4cf6/autogluon.multimodal-1.1.1b20240508.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/91/85/2e30969f33233bca9e4f1f93829265075e9c7860ba6699d45ad07b6f93f6/autogluon.tabular-1.1.1b20240508.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/c8/d3/2d8bacf38c9ce535e4d48a4f67f2c631955ebbf484fc0f0bce83d4f9043a/autogluon.features-1.1.1b20240508.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/3e/b2/7b5171ba6f07a17bc38464265a784aac29b32f2ac5e25dad252186585f8d/autogluon.core-1.1.1b20240508.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/cc/a6/d9bc96eac56e8b23ec5186eee3c36e5a50285ecc2f5d76abc109fedd0c8a/autogluon.timeseries-1.1.1b20240508.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [pysces]: Downloading https://files.pythonhosted.org/packages/c7/41/f7dc3f54ad6fe0c9ca59b7123221d10ee693d5a2aad361219d1eca3c8653/pysces-1.2.0.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/58/ea/7af62c3e3fd13173cf42ab957346cdd62fa401b767081db8ac24f22a4a8c/autogluon-1.1.1b20240508.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/f0/ad/d3b5caaabd5ba7980f74302ca088a8e3bd1014597f27058b0440408ca15f/stonefish_license_manager-0.4.5-py3-none-any.whl
+[2024-05-10 11:06:28] INFO root fetch - processPackages [europarser]: Downloading https://files.pythonhosted.org/packages/55/0c/51cdcf004abb1c4f3e90fa8b49998505adf1c8b64661fd01ada9201409e9/europarser-0.1.9.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/d0/8a/f904531915f9297ee0010faea40bfbe61fcebbea0f837ec19fe3b31fa669/autogluon.features-1.1.1b20240509.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/47/4e/712aab35b7098330159c1051b3136fb4de1eff47671d64321abd60f9ac76/autogluon.common-1.1.1b20240509.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [europarser]: executing diffoscope
+[2024-05-10 11:06:28] INFO root fetch - processPackages [europarser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/europarser-0.1.8.tar.gz tmp/europarser-0.1.9.tar.gz --markdown 20240510/e/europarser/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240508.tar.gz tmp/autogluon.features-1.1.1b20240509.tar.gz --markdown 20240510/a/autogluon.features/1.1.1b20240508-1.1.1b20240509/README.md --exclude *.pyd
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/b1/51/a7ac09a9850b353d83c63996e20c37ce4562265033179f6d5903961c22ff/autogluon.multimodal-1.1.1b20240509.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/69/02/f4e341e434361d2fb310279604fc21bb00d311abf7938b68633dcc4ff2f7/autogluon.core-1.1.1b20240509.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240508.tar.gz tmp/autogluon.common-1.1.1b20240509.tar.gz --markdown 20240510/a/autogluon.common/1.1.1b20240508-1.1.1b20240509/README.md --exclude *.pyd
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a0/c2/3ec42eb2a98e5b68fa84b9fefcc516bbae10f5b0f699d9546c1f6c67edc4/autogluon.tabular-1.1.1b20240509.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/e3/06/fb1e6c7ef85d6efe93a949364779ff80d095612bcec87e067763a6c44979/autogluon-1.1.1b20240509.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/c3/4c/3f4b37f3686cd905fe491c5b0fa6c76833a7a655c9dac2b84cab4fcf43d9/autogluon.timeseries-1.1.1b20240509.tar.gz
+[2024-05-10 11:06:28] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/52/60/120a8b9413c34abb8beb2874a6015624a5ca8ff2fb1d01ba40834d1bc780/stonefish_license_manager-0.4.6-py3-none-any.whl
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240508.tar.gz tmp/autogluon.core-1.1.1b20240509.tar.gz --markdown 20240510/a/autogluon.core/1.1.1b20240508-1.1.1b20240509/README.md --exclude *.pyd
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-10 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240508.tar.gz tmp/autogluon.multimodal-1.1.1b20240509.tar.gz --markdown 20240510/a/autogluon.multimodal/1.1.1b20240508-1.1.1b20240509/README.md --exclude *.pyd
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240508.tar.gz tmp/autogluon-1.1.1b20240509.tar.gz --markdown 20240510/a/autogluon/1.1.1b20240508-1.1.1b20240509/README.md --exclude *.pyd
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240508.tar.gz tmp/autogluon.tabular-1.1.1b20240509.tar.gz --markdown 20240510/a/autogluon.tabular/1.1.1b20240508-1.1.1b20240509/README.md --exclude *.pyd
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240508.tar.gz tmp/autogluon.timeseries-1.1.1b20240509.tar.gz --markdown 20240510/a/autogluon.timeseries/1.1.1b20240508-1.1.1b20240509/README.md --exclude *.pyd
+[2024-05-10 11:06:29] INFO root fetch - processPackages [stonefish-license-manager]: executing diffoscope
+[2024-05-10 11:06:29] INFO root fetch - processPackages [stonefish-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip --markdown 20240510/s/stonefish-license-manager/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-10 11:06:29] INFO root fetch - processPackages [pysces]: Downloading https://files.pythonhosted.org/packages/61/92/3e73dc8ff06ddff77fcb7a5e4833ec82ff7ba03f279fed0f594108d461cf/pysces-1.2.1.tar.gz
+[2024-05-10 11:06:29] INFO root fetch - processPackages [pysces]: executing diffoscope
+[2024-05-10 11:06:29] INFO root fetch - processPackages [pysces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysces-1.2.0.tar.gz tmp/pysces-1.2.1.tar.gz --markdown 20240510/p/pysces/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240508.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240509.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.common]: Start processing: ambergrisz
+[2024-05-10 11:06:29] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-10 11:06:29] INFO root fetch - processPackages [europarser]: Remove: archive file [/home/abi/fetcher/tmp/europarser-0.1.8.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - processPackages [europarser]: Remove: archive file [/home/abi/fetcher/tmp/europarser-0.1.9.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - main [MainThread]: End processing [europarser]: success
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240508.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240509.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-10 11:06:29] INFO root fetch - processPackages [ambergrisz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240508.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240509.tar.gz]
+[2024-05-10 11:06:29] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240508.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240509.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-10 11:06:30] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip]
+[2024-05-10 11:06:30] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip]
+[2024-05-10 11:06:30] INFO root fetch - processPackages [ambergrisz]: Downloading https://files.pythonhosted.org/packages/f7/9f/3b2219b838f4cda3d8949ea1c39293fa3a3aa6d0f0b82c4bdb10b68029be/ambergrisz-1.1.tar.gz
+[2024-05-10 11:06:30] INFO root fetch - main [MainThread]: End processing [stonefish-license-manager]: success
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240508.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240509.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240508.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240509.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-10 11:06:30] INFO root fetch - processPackages [ambergrisz]: Downloading https://files.pythonhosted.org/packages/22/64/425304a104060a4faf940c9b080e719267053cd2b3c2a7b710d0f988984f/ambergrisz-2.1.tar.gz
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240508.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240509.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-10 11:06:30] INFO root fetch - processPackages [ambergrisz]: executing diffoscope
+[2024-05-10 11:06:30] INFO root fetch - processPackages [ambergrisz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambergrisz-1.1.tar.gz tmp/ambergrisz-2.1.tar.gz --markdown 20240510/a/ambergrisz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 11:06:30] INFO root fetch - processPackages [ambergrisz]: Remove: archive file [/home/abi/fetcher/tmp/ambergrisz-1.1.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - processPackages [ambergrisz]: Remove: archive file [/home/abi/fetcher/tmp/ambergrisz-2.1.tar.gz]
+[2024-05-10 11:06:30] INFO root fetch - main [MainThread]: End processing [ambergrisz]: success
+[2024-05-10 11:06:31] INFO root fetch - processPackages [pysces]: Remove: archive file [/home/abi/fetcher/tmp/pysces-1.2.0.tar.gz]
+[2024-05-10 11:06:31] INFO root fetch - processPackages [pysces]: Remove: archive file [/home/abi/fetcher/tmp/pysces-1.2.1.tar.gz]
+[2024-05-10 11:06:31] INFO root fetch - main [MainThread]: End processing [pysces]: success
+[2024-05-10 11:06:31] INFO root fetch - main [MainThread]: Store serial: [23143794]
