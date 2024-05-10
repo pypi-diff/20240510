@@ -17549,3 +17549,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:21:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
 [2024-05-10 14:21:28] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2024-05-10 14:21:28] INFO root fetch - main [MainThread]: Store serial: [23146026]
+[2024-05-10 14:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146026]
+[2024-05-10 14:23:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NearBeach
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yls-macos-arm
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poemai-utils
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snek-sploit
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autotrain-advanced
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cesnet-models
+[2024-05-10 14:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: browserbase
+[2024-05-10 14:23:52] INFO root fetch - processPackages [cesnet-models]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.85]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [poemai-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [snek-sploit]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [yls-macos-arm]: New version: [1.4.2] Old Version: [1.4.0]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [browserbase]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [NearBeach]: New version: [0.31.9] Old Version: [0.31.8]
+[2024-05-10 14:23:52] INFO root fetch - processPackages [cesnet-models]: Downloading https://files.pythonhosted.org/packages/a2/23/352c0dfb056d1d6811718fc6af9c88f81a09b25530b9fa493c12d13dcb15/cesnet_models-0.1.2.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-10 14:23:52] INFO root fetch - processPackages [poemai-utils]: Downloading https://files.pythonhosted.org/packages/40/7d/bec73ed5647e5dce646f4df9b05a20febf61fa9e9bad73c908212112b83f/poemai-utils-0.0.8.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/71/80/d7edd34e93a1360f3c8eba8d40df4cec8d106e644b9ad70b2f597dfd25b7/autotrain-advanced-0.7.85.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/d3/c9/4444a9584fae7ddaa87ff4efa7f16f8833a3827e50758749323b05d77edd/nearbeach-0.31.8.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/4b/1e/f9d179f517e95bcb0f483c136a86e0a1dbb0c9c99a9687f8de3cfab2e936/browserbase-0.0.9.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [yls-macos-arm]: Downloading https://files.pythonhosted.org/packages/ca/c9/6d3e0fd9d1c4f1951d73b043f00923294dbf4d877aeb68cbe8646e612f85/yls_macos_arm-1.4.0.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [cesnet-models]: Downloading https://files.pythonhosted.org/packages/67/31/b29b06a8b0abeb9cd83f02d7c8f29c45820ee5a4a250618b806430a9462b/cesnet_models-0.1.3.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/a7/84/0fd3932259319677d4b0e0d2230c55c5e3cf628e5c4591dc2160225966be/snek_sploit-0.4.0.tar.gz
+[2024-05-10 14:23:52] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 32530107>=10485760
+[2024-05-10 14:23:52] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2024-05-10 14:23:52] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-10 14:23:52] INFO root fetch - processPackages [cesnet-models]: executing diffoscope
+[2024-05-10 14:23:52] INFO root fetch - processPackages [cesnet-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesnet_models-0.1.2.tar.gz tmp/cesnet_models-0.1.3.tar.gz --markdown 20240510/c/cesnet-models/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 14:23:52] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-10 14:23:52] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240510/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-10 14:23:52] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [poemai-utils]: Downloading https://files.pythonhosted.org/packages/f6/15/bc347c47a908ad17496455eaa95f3ff62e5d8cf8e7281a00685aa1daeef7/poemai-utils-0.0.9.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-10 14:23:52] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/97/33/f0124d5e0776b662b77b3a950edd964219b1ad487966aaf81cd4c8d07d40/browserbase-0.1.0.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.85.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240510/a/autotrain-advanced/0.7.85-0.7.9/README.md --exclude *.pyd
+[2024-05-10 14:23:52] INFO root fetch - processPackages [poemai-utils]: executing diffoscope
+[2024-05-10 14:23:52] INFO root fetch - processPackages [poemai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poemai-utils-0.0.8.tar.gz tmp/poemai-utils-0.0.9.tar.gz --markdown 20240510/p/poemai-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 14:23:52] INFO root fetch - processPackages [yls-macos-arm]: Downloading https://files.pythonhosted.org/packages/c6/83/38c64b1f6b8944023a74a0e468bc9d815a66370f8592c83086e4391be923/yls_macos_arm-1.4.2.tar.gz
+[2024-05-10 14:23:52] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/1e/2f/7b1641b1ac5c2e6b48805c4665a36ff45eaf6399969a8d041846ab874d84/snek_sploit-0.5.0.tar.gz
+[2024-05-10 14:23:53] INFO root fetch - processPackages [yls-macos-arm]: executing diffoscope
+[2024-05-10 14:23:53] INFO root fetch - processPackages [yls-macos-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yls_macos_arm-1.4.0.tar.gz tmp/yls_macos_arm-1.4.2.tar.gz --markdown 20240510/y/yls-macos-arm/1.4.0-1.4.2/README.md --exclude *.pyd
+[2024-05-10 14:23:53] INFO root fetch - processPackages [browserbase]: executing diffoscope
+[2024-05-10 14:23:53] INFO root fetch - processPackages [browserbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserbase-0.0.9.tar.gz tmp/browserbase-0.1.0.tar.gz --markdown 20240510/b/browserbase/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-10 14:23:53] INFO root fetch - processPackages [snek-sploit]: executing diffoscope
+[2024-05-10 14:23:53] INFO root fetch - processPackages [snek-sploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snek_sploit-0.4.0.tar.gz tmp/snek_sploit-0.5.0.tar.gz --markdown 20240510/s/snek-sploit/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-10 14:23:53] INFO root fetch - processPackages [cesnet-models]: Remove: archive file [/home/abi/fetcher/tmp/cesnet_models-0.1.2.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - processPackages [cesnet-models]: Remove: archive file [/home/abi/fetcher/tmp/cesnet_models-0.1.3.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [cesnet-models]: success
+[2024-05-10 14:23:53] INFO root fetch - processPackages [poemai-utils]: Remove: archive file [/home/abi/fetcher/tmp/poemai-utils-0.0.8.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - processPackages [poemai-utils]: Remove: archive file [/home/abi/fetcher/tmp/poemai-utils-0.0.9.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [poemai-utils]: success
+[2024-05-10 14:23:53] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-10 14:23:53] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-10 14:23:53] INFO root fetch - processPackages [yls-macos-arm]: Remove: archive file [/home/abi/fetcher/tmp/yls_macos_arm-1.4.0.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - processPackages [yls-macos-arm]: Remove: archive file [/home/abi/fetcher/tmp/yls_macos_arm-1.4.2.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [yls-macos-arm]: success
+[2024-05-10 14:23:53] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.0.9.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.1.0.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [browserbase]: success
+[2024-05-10 14:23:53] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.4.0.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.5.0.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [snek-sploit]: success
+[2024-05-10 14:23:53] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.85.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-10 14:23:53] INFO root fetch - main [MainThread]: Store serial: [23146052]
