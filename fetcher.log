@@ -2091,3 +2091,59 @@
 [2024-05-10 01:58:17] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-10 01:58:17] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2024-05-10 01:58:17] INFO root fetch - main [MainThread]: Store serial: [23139172]
+[2024-05-10 02:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139172]
+[2024-05-10 02:00:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydra-rbp
+[2024-05-10 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdcraft
+[2024-05-10 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudms
+[2024-05-10 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperdrivepy
+[2024-05-10 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-rsp
+[2024-05-10 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honeybee-doe2
+[2024-05-10 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: advanced_navigation
+[2024-05-10 02:00:43] INFO root fetch - processPackages [lsst-rsp]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-10 02:00:43] INFO root fetch - processPackages [lsst-rsp]: Downloading https://files.pythonhosted.org/packages/a4/34/1918eb44184bcfae9a26d6174a1edf06b17651011195d6f0daafd2fac3ba/lsst_rsp-0.5.2.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [mdcraft]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-10 02:00:43] INFO root fetch - processPackages [hydra-rbp]: New version: [0.1.21.34] Old Version: [0.1.21.33]
+[2024-05-10 02:00:43] INFO root fetch - processPackages [cloudms]: New version: [20240509.0] Old Version: [20240226.0]
+[2024-05-10 02:00:43] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-10 02:00:43] WARNING root fetch - processPackages [advanced_navigation]: Skipping, unable to determine old version
+[2024-05-10 02:00:43] INFO root fetch - processPackages [hyperdrivepy]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-10 02:00:43] INFO root fetch - main [MainThread]: End processing [advanced_navigation] error
+[2024-05-10 02:00:43] INFO root fetch - processPackages [mdcraft]: Downloading https://files.pythonhosted.org/packages/24/79/df73ff2218aedef44a596e875bce83b95a718a509659de05a565db4796eb/MDCraft-0.0.1.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [lsst-rsp]: Downloading https://files.pythonhosted.org/packages/32/29/f2e195c0f86e7c327d86a9b43f6a64cfd254a1abb4dbf2d45143161bfbc0/lsst_rsp-0.5.3.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/ce/0e/dc9a749bc823239ea23addec54ac5fb1fe67442012d144776b7aaf04e4a4/hyperdrivepy-0.9.0.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [hydra-rbp]: Downloading https://files.pythonhosted.org/packages/bc/87/28d107780077880671add84ac044599769995ea63ddafc2003421a8796de/hydra_rbp-0.1.21.33.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [cloudms]: Downloading https://files.pythonhosted.org/packages/82/9d/e16f0f9ec916e54bad287f72bbfd04ddeaccaaa8484d59ea4525c72cb9a5/cloudms-20240226.0-py3-none-any.whl
+[2024-05-10 02:00:43] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/52/9d/f78d4564aa323ce8831793fac52afc79854a3c766830dc71e12d9c01b914/honeybee-doe2-0.9.2.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [lsst-rsp]: executing diffoscope
+[2024-05-10 02:00:43] INFO root fetch - processPackages [lsst-rsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_rsp-0.5.2.tar.gz tmp/lsst_rsp-0.5.3.tar.gz --markdown 20240510/l/lsst-rsp/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-10 02:00:43] WARNING root fetch - processPackages [hydra-rbp]: Skipping package: exceeds size limit 52348179>=10485760
+[2024-05-10 02:00:43] INFO root fetch - main [MainThread]: End processing [hydra-rbp] error
+[2024-05-10 02:00:43] INFO root fetch - processPackages [mdcraft]: Downloading https://files.pythonhosted.org/packages/8a/c7/feeb796607f474f6e2e02d636a19c20bb5689bae3bb2c573b89a35e8d02f/mdcraft-1.0.0.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/ac/3a/d2ef6f8e736169d77a55e9ddc5b48736fcc013d20dbf1e2df82076b0c415/honeybee-doe2-0.9.3.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/6b/7c/c15799fc76eb63dbfd0bf2e6b43dcc670a47241c5bed9368175be841be11/hyperdrivepy-0.9.2.tar.gz
+[2024-05-10 02:00:43] INFO root fetch - processPackages [cloudms]: Downloading https://files.pythonhosted.org/packages/e6/91/a848f122a18bc085275b51311d20fdd4160ed4b26fe8694d59fd3e811341/cloudms-20240509.0-py3-none-any.whl
+[2024-05-10 02:00:43] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2024-05-10 02:00:43] INFO root fetch - processPackages [hyperdrivepy]: executing diffoscope
+[2024-05-10 02:00:43] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.9.2.tar.gz tmp/honeybee-doe2-0.9.3.tar.gz --markdown 20240510/h/honeybee-doe2/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-10 02:00:43] INFO root fetch - processPackages [hyperdrivepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdrivepy-0.9.0.tar.gz tmp/hyperdrivepy-0.9.2.tar.gz --markdown 20240510/h/hyperdrivepy/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-10 02:00:43] INFO root fetch - processPackages [mdcraft]: executing diffoscope
+[2024-05-10 02:00:43] INFO root fetch - processPackages [mdcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDCraft-0.0.1.tar.gz tmp/mdcraft-1.0.0.tar.gz --markdown 20240510/m/mdcraft/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-10 02:00:44] INFO root fetch - processPackages [cloudms]: executing diffoscope
+[2024-05-10 02:00:44] INFO root fetch - processPackages [cloudms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudms-20240226.0-py3-none-any.whl.zip tmp/cloudms-20240509.0-py3-none-any.whl.zip --markdown 20240510/c/cloudms/20240226.0-20240509.0/README.md --exclude *.pyd
+[2024-05-10 02:00:44] INFO root fetch - processPackages [lsst-rsp]: Remove: archive file [/home/abi/fetcher/tmp/lsst_rsp-0.5.2.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - processPackages [lsst-rsp]: Remove: archive file [/home/abi/fetcher/tmp/lsst_rsp-0.5.3.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - main [MainThread]: End processing [lsst-rsp]: success
+[2024-05-10 02:00:44] INFO root fetch - processPackages [mdcraft]: Remove: archive file [/home/abi/fetcher/tmp/MDCraft-0.0.1.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - processPackages [mdcraft]: Remove: archive file [/home/abi/fetcher/tmp/mdcraft-1.0.0.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - main [MainThread]: End processing [mdcraft]: success
+[2024-05-10 02:00:44] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.9.2.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.9.3.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2024-05-10 02:00:44] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-0.9.0.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-0.9.2.tar.gz]
+[2024-05-10 02:00:44] INFO root fetch - main [MainThread]: End processing [hyperdrivepy]: success
+[2024-05-10 02:01:00] INFO root fetch - processPackages [cloudms]: Remove: archive file [/home/abi/fetcher/tmp/cloudms-20240226.0-py3-none-any.whl.zip]
+[2024-05-10 02:01:00] INFO root fetch - processPackages [cloudms]: Remove: archive file [/home/abi/fetcher/tmp/cloudms-20240509.0-py3-none-any.whl.zip]
+[2024-05-10 02:01:00] INFO root fetch - main [MainThread]: End processing [cloudms]: success
+[2024-05-10 02:01:00] INFO root fetch - main [MainThread]: Store serial: [23139197]
