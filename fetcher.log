@@ -4195,3 +4195,57 @@
 [2024-05-10 04:07:35] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-05-10 04:07:35] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-05-10 04:07:35] INFO root fetch - main [MainThread]: Store serial: [23140279]
+[2024-05-10 04:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140279]
+[2024-05-10 04:09:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 04:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mixentropy
+[2024-05-10 04:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qbraid-core
+[2024-05-10 04:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-mysql
+[2024-05-10 04:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rabbitmq
+[2024-05-10 04:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waxandz
+[2024-05-10 04:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mongodbatlas
+[2024-05-10 04:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-ec
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1715235763] Old Version: [3.4.0a1715229415]
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1715233208] Old Version: [0.9.0a1715228625]
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1715234267] Old Version: [3.3.0a1715060865]
+[2024-05-10 04:09:44] WARNING root fetch - processPackages [mixentropy]: Skipping, unable to determine old version
+[2024-05-10 04:09:44] INFO root fetch - main [MainThread]: End processing [mixentropy] error
+[2024-05-10 04:09:44] INFO root fetch - processPackages [qbraid-core]: New version: [0.1.5a0] Old Version: [0.1.5]
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/79/b5/e94e0b2cb4e1fd21c437c6c1436bc22c807f025dd3670ee3e15861a19e7d/pulumi_rabbitmq-3.4.0a1715229415.tar.gz
+[2024-05-10 04:09:44] WARNING root fetch - processPackages [waxandz]: Skipping, unable to determine old version
+[2024-05-10 04:09:44] INFO root fetch - main [MainThread]: End processing [waxandz] error
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/7d/3b/788ec06e138c82b96cee6d95d1574de48e5b528f07db2660c6a827cb218a/pulumi_ec-0.9.0a1715228625.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/78/63/6460cffedb58bd9910bbeb8de5f3b6edbb35936794f56e8c015e1e0e5958/pulumi_mysql-3.3.0a1715060865.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/f8/68/f95abd1be355a758abff849a2e1e62ea6587b68e452166345439c7c11d45/qbraid_core-0.1.5.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/c0/65/d4155594b796cb602befdaee219f564401f8d12b3a78cc2d1e95e4aadf31/pulumi_mysql-3.3.0a1715234267.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/34/10/af549e6dbae3c7a1636500ca75b6d428829dc6b0a3e9fbdff6a689ee5018/pulumi_rabbitmq-3.4.0a1715235763.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1715060865.tar.gz tmp/pulumi_mysql-3.3.0a1715234267.tar.gz --markdown 20240510/p/pulumi-mysql/3.3.0a1715060865-3.3.0a1715234267/README.md --exclude *.pyd
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/2a/84/ddaaf2831f9a133f06c88f6c85eab6bbe95a61bfd4f4e4d26ebbe07c9c54/pulumi_ec-0.9.0a1715233208.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240510/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-10 04:09:44] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/93/22/8833e7f1d6c685bf4a7d212060d60a399fe8e514772915370fd9a181e643/qbraid_core-0.1.5a0.tar.gz
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.9.0a1715228625.tar.gz tmp/pulumi_ec-0.9.0a1715233208.tar.gz --markdown 20240510/p/pulumi-ec/0.9.0a1715228625-0.9.0a1715233208/README.md --exclude *.pyd
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-10 04:09:44] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1715229415.tar.gz tmp/pulumi_rabbitmq-3.4.0a1715235763.tar.gz --markdown 20240510/p/pulumi-rabbitmq/3.4.0a1715229415-3.4.0a1715235763/README.md --exclude *.pyd
+[2024-05-10 04:09:44] INFO root fetch - processPackages [qbraid-core]: executing diffoscope
+[2024-05-10 04:09:44] INFO root fetch - processPackages [qbraid-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid_core-0.1.5.tar.gz tmp/qbraid_core-0.1.5a0.tar.gz --markdown 20240510/q/qbraid-core/0.1.5-0.1.5a0/README.md --exclude *.pyd
+[2024-05-10 04:09:45] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715060865.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715234267.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-10 04:09:45] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715229415.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715235763.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-10 04:09:45] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715228625.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715233208.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-05-10 04:09:45] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_core-0.1.5.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_core-0.1.5a0.tar.gz]
+[2024-05-10 04:09:45] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
+[2024-05-10 04:09:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-05-10 04:09:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-05-10 04:09:46] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-05-10 04:09:46] INFO root fetch - main [MainThread]: Store serial: [23140303]
