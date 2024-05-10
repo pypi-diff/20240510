@@ -14209,3 +14209,108 @@
 [2024-05-10 12:28:05] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect_plugin_runtime-5.4.9.tar.gz]
 [2024-05-10 12:28:05] INFO root fetch - main [MainThread]: End processing [insightconnect-plugin-runtime]: success
 [2024-05-10 12:28:05] INFO root fetch - main [MainThread]: Store serial: [23144642]
+[2024-05-10 12:30:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144642]
+[2024-05-10 12:30:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antibacterial-model
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cheatsheetify
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartboiler
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-cloudinit
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emr-cli
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-viewrouter
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auteurismz
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-civo
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipyslides
+[2024-05-10 12:30:19] INFO root fetch - processPackages [emr-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [cheatsheetify]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [antibacterial-model]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1715303486] Old Version: [1.5.0a1715232200]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715318369] Old Version: [2.4.0a1715303352]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [auteurismz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [django-viewrouter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [ipyslides]: New version: [3.8.4] Old Version: [3.8.2]
+[2024-05-10 12:30:19] INFO root fetch - processPackages [emr-cli]: Downloading https://files.pythonhosted.org/packages/57/aa/f25811c10a6e0647b87323f3140c463a8357cb004f5292599a140b279293/emr_cli-0.0.8.tar.gz
+[2024-05-10 12:30:19] INFO root fetch - processPackages [cheatsheetify]: Downloading https://files.pythonhosted.org/packages/82/25/9351f71fe1d3e938529b92a11dfd42cfbc02a1c827d5bb8322c1dbefd6db/cheatsheetify-0.1.0.tar.gz
+[2024-05-10 12:30:19] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/2a/3d/cbbdcf7326944204a65137ac4eea2660c8a476336e05eee6e747b6f1463d/antibacterial-model-1.0.1.tar.gz
+[2024-05-10 12:30:19] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/f4/d0/e604e40385edd88d7a7fe3d7d7b1990ea10c3af418f0065ee3db557254ae/pulumi_civo-2.4.0a1715303352.tar.gz
+[2024-05-10 12:30:19] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/54/e5/1ac16b65c08cd655e012843726ee2ae51d048edd59f566a1079aa19fafae/pulumi_cloudinit-1.5.0a1715232200.tar.gz
+[2024-05-10 12:30:19] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-10 12:30:19] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [django-viewrouter]: Downloading https://files.pythonhosted.org/packages/9f/f5/976527f69fcc0095f73bb0a6c6eedaaf25bb876d20c717d18439e4f4e181/django_viewrouter-0.1.0.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [auteurismz]: Downloading https://files.pythonhosted.org/packages/a6/92/07996c7aa7153938f9ed9486e605ba0eb8b429dfbd0c1be1c05be17bc698/auteurismz-1.1.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [ipyslides]: Downloading https://files.pythonhosted.org/packages/a3/80/c401bf5787775ba2a4f4cebd1cf59965e320da5040b99367925dfda414bb/ipyslides-3.8.2.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [emr-cli]: Downloading https://files.pythonhosted.org/packages/1e/2d/1b63e3c460cac416ae146ba0ecf025caf042b44a4b337519dd04fca516cc/emr_cli-0.0.9.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/a0/f3/0dfe0202618d2151cb6a65a9becb494eedc6cee6c340094bde231ef4a1f4/antibacterial-model-1.0.2.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/0e/ed/f38843b7a4eabb2925422c97bdaa0af4fbba5773cd8297ef7ac3ea2382e2/pulumi_cloudinit-1.5.0a1715303486.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [cheatsheetify]: Downloading https://files.pythonhosted.org/packages/06/17/9c79178dd5709a6912d68424a309f7b9ffcf945e1ee946df7b250c70c6b7/cheatsheetify-0.1.1.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [emr-cli]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [emr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emr_cli-0.0.8.tar.gz tmp/emr_cli-0.0.9.tar.gz --markdown 20240510/e/emr-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/cf/f6/cbd2dbdb315748cc8cd668e9386564b127093790103297d3af1372fd6a18/pulumi_civo-2.4.0a1715318369.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [antibacterial-model]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [antibacterial-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antibacterial-model-1.0.1.tar.gz tmp/antibacterial-model-1.0.2.tar.gz --markdown 20240510/a/antibacterial-model/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240510/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [django-viewrouter]: Downloading https://files.pythonhosted.org/packages/f5/42/289aed9d1ce50d918f2791622e8f3df3ab3794275856385b6e622cfbc837/django_viewrouter-0.1.1.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1715232200.tar.gz tmp/pulumi_cloudinit-1.5.0a1715303486.tar.gz --markdown 20240510/p/pulumi-cloudinit/1.5.0a1715232200-1.5.0a1715303486/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [auteurismz]: Downloading https://files.pythonhosted.org/packages/63/15/95d29f5220e2f3e48c2ffb655e7fa954a825c92ca058b08c591dd715b485/auteurismz-2.1.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715303352.tar.gz tmp/pulumi_civo-2.4.0a1715318369.tar.gz --markdown 20240510/p/pulumi-civo/2.4.0a1715303352-2.4.0a1715318369/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [ipyslides]: Downloading https://files.pythonhosted.org/packages/48/7c/b18181bbbb19ed43f1a84e9c827c73b08b9da15d42b2278d4c201292eb06/ipyslides-3.8.4.tar.gz
+[2024-05-10 12:30:20] INFO root fetch - processPackages [cheatsheetify]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [cheatsheetify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheatsheetify-0.1.0.tar.gz tmp/cheatsheetify-0.1.1.tar.gz --markdown 20240510/c/cheatsheetify/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [django-viewrouter]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [django-viewrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_viewrouter-0.1.0.tar.gz tmp/django_viewrouter-0.1.1.tar.gz --markdown 20240510/d/django-viewrouter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [auteurismz]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [auteurismz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auteurismz-1.1.tar.gz tmp/auteurismz-2.1.tar.gz --markdown 20240510/a/auteurismz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 12:30:20] INFO root fetch - processPackages [ipyslides]: executing diffoscope
+[2024-05-10 12:30:20] INFO root fetch - processPackages [ipyslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyslides-3.8.2.tar.gz tmp/ipyslides-3.8.4.tar.gz --markdown 20240510/i/ipyslides/3.8.2-3.8.4/README.md --exclude *.pyd
+[2024-05-10 12:30:21] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial-model-1.0.1.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial-model-1.0.2.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [antibacterial-model]: Start processing: convert-us-to-uk
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [antibacterial-model]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [convert-us-to-uk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715232200.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715303486.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [pulumi-cloudinit]: Start processing: causalImpactReturnSummary
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [emr-cli]: Remove: archive file [/home/abi/fetcher/tmp/emr_cli-0.0.8.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [emr-cli]: Remove: archive file [/home/abi/fetcher/tmp/emr_cli-0.0.9.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [emr-cli]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/28/c0/4ab6b95c41f410132a90c836c08780fe35c8baa135dedf017f3d472ca80e/convert-us-to-uk-0.1.7.tar.gz
+[2024-05-10 12:30:21] WARNING root fetch - processPackages [causalImpactReturnSummary]: Skipping, unable to determine old version
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [causalImpactReturnSummary] error
+[2024-05-10 12:30:21] INFO root fetch - processPackages [django-viewrouter]: Remove: archive file [/home/abi/fetcher/tmp/django_viewrouter-0.1.0.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [django-viewrouter]: Remove: archive file [/home/abi/fetcher/tmp/django_viewrouter-0.1.1.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [django-viewrouter]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [auteurismz]: Remove: archive file [/home/abi/fetcher/tmp/auteurismz-1.1.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [auteurismz]: Remove: archive file [/home/abi/fetcher/tmp/auteurismz-2.1.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [auteurismz]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [cheatsheetify]: Remove: archive file [/home/abi/fetcher/tmp/cheatsheetify-0.1.0.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [cheatsheetify]: Remove: archive file [/home/abi/fetcher/tmp/cheatsheetify-0.1.1.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [cheatsheetify]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/61/94/7c950481bae084b3f86a477e146ef4150fb4905bdc4566ab73121ec9829a/convert-us-to-uk-0.1.8.tar.gz
+[2024-05-10 12:30:21] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715303352.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715318369.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-10 12:30:21] INFO root fetch - processPackages [convert-us-to-uk]: executing diffoscope
+[2024-05-10 12:30:21] INFO root fetch - processPackages [convert-us-to-uk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convert-us-to-uk-0.1.7.tar.gz tmp/convert-us-to-uk-0.1.8.tar.gz --markdown 20240510/c/convert-us-to-uk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 12:30:22] INFO root fetch - processPackages [ipyslides]: Remove: archive file [/home/abi/fetcher/tmp/ipyslides-3.8.2.tar.gz]
+[2024-05-10 12:30:22] INFO root fetch - processPackages [ipyslides]: Remove: archive file [/home/abi/fetcher/tmp/ipyslides-3.8.4.tar.gz]
+[2024-05-10 12:30:22] INFO root fetch - main [MainThread]: End processing [ipyslides]: success
+[2024-05-10 12:30:22] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.7.tar.gz]
+[2024-05-10 12:30:22] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.8.tar.gz]
+[2024-05-10 12:30:22] INFO root fetch - main [MainThread]: End processing [convert-us-to-uk]: success
+[2024-05-10 12:30:22] INFO root fetch - main [MainThread]: Store serial: [23144678]
