@@ -10302,3 +10302,72 @@
 [2024-05-10 10:02:39] INFO root fetch - processPackages [towbintools]: Remove: archive file [/home/abi/fetcher/tmp/towbintools-0.1.6.tar.gz]
 [2024-05-10 10:02:39] INFO root fetch - main [MainThread]: End processing [towbintools]: success
 [2024-05-10 10:02:39] INFO root fetch - main [MainThread]: Store serial: [23143030]
+[2024-05-10 10:04:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143030]
+[2024-05-10 10:04:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: towbintools
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MpNM
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runholderz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basetest1
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-test-common
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aily-sdk
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langfun
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optimaladj
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: itwingstestsprojectnn
+[2024-05-10 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abandoningz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [towbintools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 10:04:48] WARNING root fetch - processPackages [MpNM]: Skipping, unable to determine old version
+[2024-05-10 10:04:48] INFO root fetch - main [MainThread]: End processing [MpNM] error
+[2024-05-10 10:04:48] WARNING root fetch - processPackages [basetest1]: Skipping, unable to determine old version
+[2024-05-10 10:04:48] INFO root fetch - main [MainThread]: End processing [basetest1] error
+[2024-05-10 10:04:48] INFO root fetch - processPackages [itwingstestsprojectnn]: New version: [0.5] Old Version: [0.4]
+[2024-05-10 10:04:48] WARNING root fetch - processPackages [abandoningz]: Skipping, unable to determine old version
+[2024-05-10 10:04:48] INFO root fetch - main [MainThread]: End processing [abandoningz] error
+[2024-05-10 10:04:48] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-10 10:04:48] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240509] Old Version: [0.0.2.dev20240508]
+[2024-05-10 10:04:48] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 10:04:48] INFO root fetch - processPackages [towbintools]: Downloading https://files.pythonhosted.org/packages/5d/bf/e0d904a539b6b50c889c7afafb6a4ab44ee77d25c9991168afc6cc41bd9f/towbintools-0.1.5.tar.gz
+[2024-05-10 10:04:48] WARNING root fetch - processPackages [runholderz]: Skipping, unable to determine old version
+[2024-05-10 10:04:48] INFO root fetch - main [MainThread]: End processing [runholderz] error
+[2024-05-10 10:04:48] INFO root fetch - processPackages [optimaladj]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 10:04:48] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/fb/68/4825514014ece60e635c46fd828e8cc5c29b9afa31e5f11e6cdeee8a9740/itwingstestsprojectnn-0.4.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/2c/05/28ba518532df3987777a585b67c468edc6255c1e9ba5f815625aa3c957fe/auto-test-common-2.0.4.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/ab/07/1ac2c1dde1fb6a666078e8124110eccc1745e38e18d984a09f39f5862912/langfun-0.0.2.dev20240508.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [towbintools]: Downloading https://files.pythonhosted.org/packages/92/9d/4862e631d82517a61f0b792880476d2fd70993a66a3683015552283f286c/towbintools-0.1.6.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [optimaladj]: Downloading https://files.pythonhosted.org/packages/01/94/ffa87e040e88c469dae3ed733f68f5142049cd5e7906f0b6a8b6b377aabf/optimaladj-0.0.4.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/d4/a5/d5695212a56a1b3e208d14a6dfed3c7e482d294a1467192f457a129442a9/itwingstestsprojectnn-0.5.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/53/81/55b1e1c80283289fe12d661a4db8f4fa02d468df5f5fc5f9e362ea0cf7d4/auto-test-common-2.0.5.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [towbintools]: executing diffoscope
+[2024-05-10 10:04:48] INFO root fetch - processPackages [towbintools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towbintools-0.1.5.tar.gz tmp/towbintools-0.1.6.tar.gz --markdown 20240510/t/towbintools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 10:04:48] INFO root fetch - processPackages [itwingstestsprojectnn]: executing diffoscope
+[2024-05-10 10:04:48] INFO root fetch - processPackages [itwingstestsprojectnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itwingstestsprojectnn-0.4.tar.gz tmp/itwingstestsprojectnn-0.5.tar.gz --markdown 20240510/i/itwingstestsprojectnn/0.4-0.5/README.md --exclude *.pyd
+[2024-05-10 10:04:48] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/3e/62/fbfb1811dc976a190f3f8f248edd0da0ae761ba54bbc3c70fdf36c7f5e3a/langfun-0.0.2.dev20240509.tar.gz
+[2024-05-10 10:04:48] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-05-10 10:04:48] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.4.tar.gz tmp/auto-test-common-2.0.5.tar.gz --markdown 20240510/a/auto-test-common/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-10 10:04:48] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-05-10 10:04:48] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240510/a/aily-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 10:04:49] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-10 10:04:49] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240508.tar.gz tmp/langfun-0.0.2.dev20240509.tar.gz --markdown 20240510/l/langfun/0.0.2.dev20240508-0.0.2.dev20240509/README.md --exclude *.pyd
+[2024-05-10 10:04:49] INFO root fetch - processPackages [optimaladj]: Downloading https://files.pythonhosted.org/packages/04/3a/8da4ae2a9d26debf7578dcea07868bb6fa6dc5db99523222b617ecedc773/optimaladj-0.0.5.tar.gz
+[2024-05-10 10:04:49] INFO root fetch - processPackages [optimaladj]: executing diffoscope
+[2024-05-10 10:04:49] INFO root fetch - processPackages [optimaladj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimaladj-0.0.4.tar.gz tmp/optimaladj-0.0.5.tar.gz --markdown 20240510/o/optimaladj/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 10:04:49] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-05-10 10:04:49] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.4.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.5.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - main [MainThread]: End processing [itwingstestsprojectnn]: success
+[2024-05-10 10:04:49] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.4.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.5.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-05-10 10:04:49] INFO root fetch - processPackages [towbintools]: Remove: archive file [/home/abi/fetcher/tmp/towbintools-0.1.5.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - processPackages [towbintools]: Remove: archive file [/home/abi/fetcher/tmp/towbintools-0.1.6.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - main [MainThread]: End processing [towbintools]: success
+[2024-05-10 10:04:49] INFO root fetch - processPackages [optimaladj]: Remove: archive file [/home/abi/fetcher/tmp/optimaladj-0.0.4.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - processPackages [optimaladj]: Remove: archive file [/home/abi/fetcher/tmp/optimaladj-0.0.5.tar.gz]
+[2024-05-10 10:04:49] INFO root fetch - main [MainThread]: End processing [optimaladj]: success
+[2024-05-10 10:04:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240508.tar.gz]
+[2024-05-10 10:04:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240509.tar.gz]
+[2024-05-10 10:04:50] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-10 10:04:50] INFO root fetch - main [MainThread]: Store serial: [23143057]
