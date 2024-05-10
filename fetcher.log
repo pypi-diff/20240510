@@ -15496,3 +15496,80 @@
 [2024-05-10 13:06:58] INFO root fetch - processPackages [redlite]: Remove: archive file [/home/abi/fetcher/tmp/redlite-0.1.4rc3-py3-none-any.whl.zip]
 [2024-05-10 13:06:58] INFO root fetch - main [MainThread]: End processing [redlite]: success
 [2024-05-10 13:06:58] INFO root fetch - main [MainThread]: Store serial: [23145220]
+[2024-05-10 13:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145220]
+[2024-05-10 13:09:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turacoverdinz
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspm
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msaexp
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prothiel
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phones-local
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blockchain-python
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-null
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: packaged
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imy
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ok-script
+[2024-05-10 13:09:21] INFO root fetch - processPackages [phones-local]: New version: [0.0.21] Old Version: [0.0.20]
+[2024-05-10 13:09:21] WARNING root fetch - processPackages [blockchain-python]: Skipping, unable to determine old version
+[2024-05-10 13:09:21] INFO root fetch - main [MainThread]: End processing [blockchain-python] error
+[2024-05-10 13:09:21] INFO root fetch - processPackages [pyspm]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-10 13:09:21] INFO root fetch - processPackages [prothiel]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 13:09:21] INFO root fetch - processPackages [msaexp]: New version: [0.8] Old Version: [0.7.6]
+[2024-05-10 13:09:21] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/1a/47/250647e9d1357e7aaeea859959882e233fe63142855c89366998750bf06f/phones_local-0.0.20.tar.gz
+[2024-05-10 13:09:21] WARNING root fetch - processPackages [turacoverdinz]: Skipping, unable to determine old version
+[2024-05-10 13:09:21] INFO root fetch - main [MainThread]: End processing [turacoverdinz] error
+[2024-05-10 13:09:21] INFO root fetch - processPackages [packaged]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-10 13:09:21] INFO root fetch - processPackages [imy]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 13:09:21] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1715338256] Old Version: [0.1.0a1715303875]
+[2024-05-10 13:09:21] INFO root fetch - processPackages [pyspm]: Downloading https://files.pythonhosted.org/packages/63/3d/a3a7c4b4b5d9515a5b5921e93fba70b8b53a6c0533f255d5c7fdc123d5b5/pyspm-0.6.1.tar.gz
+[2024-05-10 13:09:21] INFO root fetch - processPackages [prothiel]: Downloading https://files.pythonhosted.org/packages/fb/d6/871ab447db114ebb4a9f607031a6b8161140cfe791aa088c58430140875b/prothiel-0.1.1.tar.gz
+[2024-05-10 13:09:21] INFO root fetch - processPackages [msaexp]: Downloading https://files.pythonhosted.org/packages/8e/20/77e460d4f28886eaf902a40b42e096ff776d6fbf8c5066dbe04956cef462/msaexp-0.7.6.tar.gz
+[2024-05-10 13:09:21] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/66/47/e5d3fe481be343022d65c4fe2969f5dbd55394907475f081730a79ccceb5/packaged-0.0.2.tar.gz
+[2024-05-10 13:09:21] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/55/ae/6c99f3966ff2ed3a215ca5782c6488252e8cec251bfee396af0f0582c110/pulumi_null-0.1.0a1715303875.tar.gz
+[2024-05-10 13:09:21] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/b3/db/2d2c6f8590d8cbecc696b775b042aa7370581e98ae1ba4f380a70ec2ede3/imy-0.3.0.tar.gz
+[2024-05-10 13:09:21] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-10 13:09:21] WARNING root fetch - processPackages [msaexp]: Skipping package: exceeds size limit 15698574>=10485760
+[2024-05-10 13:09:21] INFO root fetch - main [MainThread]: End processing [msaexp] error
+[2024-05-10 13:09:21] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/52/8b/7a3c6f6aeff5633ab0ac542168b26e8d1db4c16627d34c9b7422ede9a298/phones_local-0.0.21.tar.gz
+[2024-05-10 13:09:22] INFO root fetch - processPackages [pyspm]: Downloading https://files.pythonhosted.org/packages/f6/e1/041ae9a705aed4485327a737cd7b458fe26a029ecf8a70d46e130949b0bf/pyspm-0.6.2.tar.gz
+[2024-05-10 13:09:22] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-10 13:09:22] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones_local-0.0.20.tar.gz tmp/phones_local-0.0.21.tar.gz --markdown 20240510/p/phones-local/0.0.20-0.0.21/README.md --exclude *.pyd
+[2024-05-10 13:09:22] INFO root fetch - processPackages [prothiel]: Downloading https://files.pythonhosted.org/packages/6b/fc/17ce34ef920be905dce3e4bdb091be5a69e77f2982a5b829b49c11d04b32/prothiel-0.1.2.tar.gz
+[2024-05-10 13:09:22] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/34/a3/3fdece83b918c35b06c047dad03773b75532909bb0d97ff48661ab6f8e86/pulumi_null-0.1.0a1715338256.tar.gz
+[2024-05-10 13:09:22] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/ed/a5/7e21d35251e6e1e93bc5f9823b84962d97f0b428efb98602ad6b9a780fe2/packaged-0.1.0.tar.gz
+[2024-05-10 13:09:22] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/e3/37/26170d7d47c5d7d4c838769f7d45e248db2633ca29112a68076521a3f8d4/imy-0.3.1.tar.gz
+[2024-05-10 13:09:22] INFO root fetch - processPackages [prothiel]: executing diffoscope
+[2024-05-10 13:09:22] INFO root fetch - processPackages [prothiel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prothiel-0.1.1.tar.gz tmp/prothiel-0.1.2.tar.gz --markdown 20240510/p/prothiel/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 13:09:22] INFO root fetch - processPackages [pyspm]: executing diffoscope
+[2024-05-10 13:09:22] INFO root fetch - processPackages [pyspm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspm-0.6.1.tar.gz tmp/pyspm-0.6.2.tar.gz --markdown 20240510/p/pyspm/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-10 13:09:22] INFO root fetch - processPackages [packaged]: executing diffoscope
+[2024-05-10 13:09:22] INFO root fetch - processPackages [packaged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaged-0.0.2.tar.gz tmp/packaged-0.1.0.tar.gz --markdown 20240510/p/packaged/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-10 13:09:22] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-10 13:09:22] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-05-10 13:09:22] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.1.0a1715303875.tar.gz tmp/pulumi_null-0.1.0a1715338256.tar.gz --markdown 20240510/p/pulumi-null/0.1.0a1715303875-0.1.0a1715338256/README.md --exclude *.pyd
+[2024-05-10 13:09:22] INFO root fetch - processPackages [imy]: executing diffoscope
+[2024-05-10 13:09:22] INFO root fetch - processPackages [imy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imy-0.3.0.tar.gz tmp/imy-0.3.1.tar.gz --markdown 20240510/i/imy/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-10 13:09:22] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-10 13:09:22] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240510/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 13:09:22] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.20.tar.gz]
+[2024-05-10 13:09:22] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.21.tar.gz]
+[2024-05-10 13:09:22] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-10 13:09:22] INFO root fetch - processPackages [prothiel]: Remove: archive file [/home/abi/fetcher/tmp/prothiel-0.1.1.tar.gz]
+[2024-05-10 13:09:22] INFO root fetch - processPackages [prothiel]: Remove: archive file [/home/abi/fetcher/tmp/prothiel-0.1.2.tar.gz]
+[2024-05-10 13:09:22] INFO root fetch - main [MainThread]: End processing [prothiel]: success
+[2024-05-10 13:09:23] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1715303875.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1715338256.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-05-10 13:09:23] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.3.0.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.3.1.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - main [MainThread]: End processing [imy]: success
+[2024-05-10 13:09:23] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.0.2.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.1.0.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - main [MainThread]: End processing [packaged]: success
+[2024-05-10 13:09:23] INFO root fetch - processPackages [pyspm]: Remove: archive file [/home/abi/fetcher/tmp/pyspm-0.6.1.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - processPackages [pyspm]: Remove: archive file [/home/abi/fetcher/tmp/pyspm-0.6.2.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - main [MainThread]: End processing [pyspm]: success
+[2024-05-10 13:09:23] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-10 13:09:23] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-10 13:09:23] INFO root fetch - main [MainThread]: Store serial: [23145250]
