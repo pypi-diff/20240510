@@ -3286,3 +3286,18 @@
 [2024-05-10 03:18:53] INFO root fetch - processPackages [regex]: Remove: archive file [/home/abi/fetcher/tmp/regex-2024.5.10-cp311-cp311-musllinux_1_1_x86_64.whl.zip]
 [2024-05-10 03:18:53] INFO root fetch - main [MainThread]: End processing [regex]: success
 [2024-05-10 03:18:53] INFO root fetch - main [MainThread]: Store serial: [23139832]
+[2024-05-10 03:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139832]
+[2024-05-10 03:21:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 03:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: debauchedlyz
+[2024-05-10 03:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-openapi3-swagger
+[2024-05-10 03:21:01] WARNING root fetch - processPackages [debauchedlyz]: Skipping, unable to determine old version
+[2024-05-10 03:21:01] INFO root fetch - main [MainThread]: End processing [debauchedlyz] error
+[2024-05-10 03:21:01] INFO root fetch - processPackages [flask-openapi3-swagger]: New version: [5.17.7] Old Version: [5.17.6]
+[2024-05-10 03:21:02] INFO root fetch - processPackages [flask-openapi3-swagger]: Downloading https://files.pythonhosted.org/packages/23/f6/f9f736413e6e9e01598ec156db63d84e56368f2b36c687e3c669f760a9db/flask_openapi3_swagger-5.17.6.tar.gz
+[2024-05-10 03:21:02] INFO root fetch - processPackages [flask-openapi3-swagger]: Downloading https://files.pythonhosted.org/packages/04/df/f84ffec99fcccc38c3d4e78bc86b5c22708bb14044582f259f8a5b614f46/flask_openapi3_swagger-5.17.7.tar.gz
+[2024-05-10 03:21:02] INFO root fetch - processPackages [flask-openapi3-swagger]: executing diffoscope
+[2024-05-10 03:21:02] INFO root fetch - processPackages [flask-openapi3-swagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_swagger-5.17.6.tar.gz tmp/flask_openapi3_swagger-5.17.7.tar.gz --markdown 20240510/f/flask-openapi3-swagger/5.17.6-5.17.7/README.md --exclude *.pyd
+[2024-05-10 03:21:14] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.6.tar.gz]
+[2024-05-10 03:21:14] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.7.tar.gz]
+[2024-05-10 03:21:14] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger]: success
+[2024-05-10 03:21:14] INFO root fetch - main [MainThread]: Store serial: [23139878]
