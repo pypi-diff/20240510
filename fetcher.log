@@ -5520,3 +5520,42 @@
 [2024-05-10 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
 [2024-05-10 05:20:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
 [2024-05-10 05:20:40] INFO root fetch - main [MainThread]: Store serial: [23140810]
+[2024-05-10 05:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140810]
+[2024-05-10 05:22:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 05:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skillpacks
+[2024-05-10 05:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: advanced_navigation
+[2024-05-10 05:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mqtt-hass-base
+[2024-05-10 05:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medicafe
+[2024-05-10 05:22:49] INFO root fetch - processPackages [medicafe]: New version: [0.240509.3] Old Version: [0.240509.2]
+[2024-05-10 05:22:49] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/84/85/4c7be089eb05a21387f25c95ebd15fded83179d6c9fae229501e8ed28066/medicafe-0.240509.2.tar.gz
+[2024-05-10 05:22:49] INFO root fetch - processPackages [skillpacks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 05:22:49] INFO root fetch - processPackages [mqtt-hass-base]: New version: [4.3.0] Old Version: [4.2.6]
+[2024-05-10 05:22:49] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.5] Old Version: [0.1.43]
+[2024-05-10 05:22:49] INFO root fetch - processPackages [mqtt-hass-base]: Downloading https://files.pythonhosted.org/packages/43/a8/0e617bb5c9352993d1c51b65bf6a713c70d2daf91b1ee535eb4ac95f62df/mqtt-hass-base-4.2.6.tar.gz
+[2024-05-10 05:22:49] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/09/0b/4308da726e64aa62c25eaaeafbfb5f2860288896a0fc6a90653b3fc0c42f/advanced_navigation-0.1.43.tar.gz
+[2024-05-10 05:22:49] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/e5/2f/a1c43b4d509c4f512639a4b941f93a4a156c544bd2a39f3491b050d2ebbf/skillpacks-0.1.8.tar.gz
+[2024-05-10 05:22:49] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/2c/a2/f080a068f9b638643abe28d6d4921ec3c1426836cc49dd22d451ad7ed011/medicafe-0.240509.3.tar.gz
+[2024-05-10 05:22:50] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-10 05:22:50] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240509.2.tar.gz tmp/medicafe-0.240509.3.tar.gz --markdown 20240510/m/medicafe/0.240509.2-0.240509.3/README.md --exclude *.pyd
+[2024-05-10 05:22:50] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/90/e8/8ee5f4a19058b2b6485380325a6b428e9efa709efec011404429716a20b1/advanced_navigation-0.1.5.tar.gz
+[2024-05-10 05:22:50] INFO root fetch - processPackages [mqtt-hass-base]: Downloading https://files.pythonhosted.org/packages/89/5a/767a28613d56df6aee58a1be7c72325fb524b4b9ce04cf93935b0f3045c9/mqtt_hass_base-4.3.0.tar.gz
+[2024-05-10 05:22:50] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/b6/89/f0de80c844dbbf0e0a57a873f9722d300512a78e06c8ea86863eb3f8391d/skillpacks-0.1.9.tar.gz
+[2024-05-10 05:22:50] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-10 05:22:50] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.43.tar.gz tmp/advanced_navigation-0.1.5.tar.gz --markdown 20240510/a/advanced_navigation/0.1.43-0.1.5/README.md --exclude *.pyd
+[2024-05-10 05:22:50] INFO root fetch - processPackages [skillpacks]: executing diffoscope
+[2024-05-10 05:22:50] INFO root fetch - processPackages [skillpacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillpacks-0.1.8.tar.gz tmp/skillpacks-0.1.9.tar.gz --markdown 20240510/s/skillpacks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 05:22:50] INFO root fetch - processPackages [mqtt-hass-base]: executing diffoscope
+[2024-05-10 05:22:50] INFO root fetch - processPackages [mqtt-hass-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt-hass-base-4.2.6.tar.gz tmp/mqtt_hass_base-4.3.0.tar.gz --markdown 20240510/m/mqtt-hass-base/4.2.6-4.3.0/README.md --exclude *.pyd
+[2024-05-10 05:22:50] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.2.tar.gz]
+[2024-05-10 05:22:50] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.3.tar.gz]
+[2024-05-10 05:22:50] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-10 05:22:50] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.8.tar.gz]
+[2024-05-10 05:22:50] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.9.tar.gz]
+[2024-05-10 05:22:50] INFO root fetch - main [MainThread]: End processing [skillpacks]: success
+[2024-05-10 05:22:51] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.43.tar.gz]
+[2024-05-10 05:22:51] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.5.tar.gz]
+[2024-05-10 05:22:51] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-10 05:22:51] INFO root fetch - processPackages [mqtt-hass-base]: Remove: archive file [/home/abi/fetcher/tmp/mqtt-hass-base-4.2.6.tar.gz]
+[2024-05-10 05:22:51] INFO root fetch - processPackages [mqtt-hass-base]: Remove: archive file [/home/abi/fetcher/tmp/mqtt_hass_base-4.3.0.tar.gz]
+[2024-05-10 05:22:51] INFO root fetch - main [MainThread]: End processing [mqtt-hass-base]: success
+[2024-05-10 05:22:51] INFO root fetch - main [MainThread]: Store serial: [23140822]
