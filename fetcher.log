@@ -14762,3 +14762,51 @@
 [2024-05-10 12:47:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-05-10 12:47:12] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-05-10 12:47:12] INFO root fetch - main [MainThread]: Store serial: [23144886]
+[2024-05-10 12:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144886]
+[2024-05-10 12:49:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixel-font-builder
+[2024-05-10 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: middleware-help-python
+[2024-05-10 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chiasmodon
+[2024-05-10 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-10 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: salesforce-cdp-connector
+[2024-05-10 12:49:35] INFO root fetch - processPackages [middleware-help-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 12:49:35] INFO root fetch - processPackages [chiasmodon]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-10 12:49:35] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 12:49:35] INFO root fetch - processPackages [pixel-font-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 12:49:35] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/6a/c5/5361010d7a3eb790f06ac83e8b2aaf29a19948c8785df6e76fb2d8b4b6fb/middleware-help-python-0.0.8.tar.gz
+[2024-05-10 12:49:35] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/25/17/b5f908d2026f311130c674046aa56b269636e0cc1dd8c9794eda76390c0f/chiasmodon-2.0.3.tar.gz
+[2024-05-10 12:49:35] INFO root fetch - processPackages [salesforce-cdp-connector]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 12:49:35] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 12:49:35] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/79/ad/e5074cef3451521cb8b859d7f8e55bc7e0b814fc84479c02b995ced8b444/pixel-font-builder-0.0.8.tar.gz
+[2024-05-10 12:49:35] INFO root fetch - processPackages [salesforce-cdp-connector]: Downloading https://files.pythonhosted.org/packages/c4/40/15455bb7c487cfd9864566d899f488fa7dfd67cb4ae44e3fa032a8444adc/salesforce-cdp-connector-1.0.8.tar.gz
+[2024-05-10 12:49:35] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/4a/ec/7ad761b972765e118d5729003a46ce5a6575af8d1f8cf0711991b414f5d1/middleware-help-python-0.0.9.tar.gz
+[2024-05-10 12:49:35] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/c1/54/b4ff3fcb24b30e3f8b3ec7b5e8e5741ae5bdc7e25580dcc3d6b924aac89a/chiasmodon-2.0.4.tar.gz
+[2024-05-10 12:49:35] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 12:49:36] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-05-10 12:49:36] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.8.tar.gz tmp/middleware-help-python-0.0.9.tar.gz --markdown 20240510/m/middleware-help-python/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 12:49:36] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-05-10 12:49:36] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-2.0.3.tar.gz tmp/chiasmodon-2.0.4.tar.gz --markdown 20240510/c/chiasmodon/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-10 12:49:36] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/a9/a0/9853b02b59999eb2eb450c7c1946ce7c2565d6c50e8c02d4f3f0fd55d95c/pixel-font-builder-0.0.9.tar.gz
+[2024-05-10 12:49:36] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 12:49:36] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 12:49:36] INFO root fetch - processPackages [pixel-font-builder]: executing diffoscope
+[2024-05-10 12:49:36] INFO root fetch - processPackages [pixel-font-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixel-font-builder-0.0.8.tar.gz tmp/pixel-font-builder-0.0.9.tar.gz --markdown 20240510/p/pixel-font-builder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 12:49:36] INFO root fetch - processPackages [salesforce-cdp-connector]: Downloading https://files.pythonhosted.org/packages/9c/18/5d82dd970de11e1c204c64bfacf46c925c1cf28e7411c93373c199a8d431/salesforce-cdp-connector-1.0.9.tar.gz
+[2024-05-10 12:49:36] INFO root fetch - processPackages [salesforce-cdp-connector]: executing diffoscope
+[2024-05-10 12:49:36] INFO root fetch - processPackages [salesforce-cdp-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-cdp-connector-1.0.8.tar.gz tmp/salesforce-cdp-connector-1.0.9.tar.gz --markdown 20240510/s/salesforce-cdp-connector/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 12:49:36] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.8.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.9.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-05-10 12:49:36] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.3.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.4.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-05-10 12:49:36] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.8.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.9.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - main [MainThread]: End processing [pixel-font-builder]: success
+[2024-05-10 12:49:36] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 12:49:36] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 12:49:37] INFO root fetch - processPackages [salesforce-cdp-connector]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-cdp-connector-1.0.8.tar.gz]
+[2024-05-10 12:49:37] INFO root fetch - processPackages [salesforce-cdp-connector]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-cdp-connector-1.0.9.tar.gz]
+[2024-05-10 12:49:37] INFO root fetch - main [MainThread]: End processing [salesforce-cdp-connector]: success
+[2024-05-10 12:49:37] INFO root fetch - main [MainThread]: Store serial: [23144898]
