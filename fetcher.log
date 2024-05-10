@@ -6691,3 +6691,24 @@
 [2024-05-10 06:37:17] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-10 06:37:17] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-10 06:37:17] INFO root fetch - main [MainThread]: Store serial: [23141312]
+[2024-05-10 06:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141312]
+[2024-05-10 06:39:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 06:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biopipen
+[2024-05-10 06:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proman-versioning
+[2024-05-10 06:39:25] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 06:39:25] INFO root fetch - processPackages [proman-versioning]: New version: [0.6.2a4] Old Version: [0.6.2a2]
+[2024-05-10 06:39:25] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2024-05-10 06:39:25] INFO root fetch - processPackages [proman-versioning]: Downloading https://files.pythonhosted.org/packages/83/5c/edbbc445367ee0c4a2159a474278fc4723906d1297650c7fbda931e532bd/proman-versioning-0.6.2a2.tar.gz
+[2024-05-10 06:39:26] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2024-05-10 06:39:26] INFO root fetch - processPackages [proman-versioning]: Downloading https://files.pythonhosted.org/packages/f4/11/f9e6cb97f9e95d04dfaba50cfa4166cfce822727ddb85275f12f1f8b179e/proman_versioning-0.6.2a4.tar.gz
+[2024-05-10 06:39:26] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2024-05-10 06:39:26] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20240510/b/biopipen/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 06:39:26] INFO root fetch - processPackages [proman-versioning]: executing diffoscope
+[2024-05-10 06:39:26] INFO root fetch - processPackages [proman-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proman-versioning-0.6.2a2.tar.gz tmp/proman_versioning-0.6.2a4.tar.gz --markdown 20240510/p/proman-versioning/0.6.2a2-0.6.2a4/README.md --exclude *.pyd
+[2024-05-10 06:39:27] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2024-05-10 06:39:27] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2024-05-10 06:39:27] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2024-05-10 06:39:27] INFO root fetch - processPackages [proman-versioning]: Remove: archive file [/home/abi/fetcher/tmp/proman-versioning-0.6.2a2.tar.gz]
+[2024-05-10 06:39:27] INFO root fetch - processPackages [proman-versioning]: Remove: archive file [/home/abi/fetcher/tmp/proman_versioning-0.6.2a4.tar.gz]
+[2024-05-10 06:39:27] INFO root fetch - main [MainThread]: End processing [proman-versioning]: success
+[2024-05-10 06:39:27] INFO root fetch - main [MainThread]: Store serial: [23141324]
