@@ -4442,3 +4442,45 @@
 [2024-05-10 04:18:36] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-10 04:18:36] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-10 04:18:36] INFO root fetch - main [MainThread]: Store serial: [23140372]
+[2024-05-10 04:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140372]
+[2024-05-10 04:20:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 04:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-btripopen20220520
+[2024-05-10 04:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tamerlanismz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rancher2
+[2024-05-10 04:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pennylane-kq
+[2024-05-10 04:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phones-local
+[2024-05-10 04:20:46] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715235918] Old Version: [6.2.0a1715229630]
+[2024-05-10 04:20:46] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-05-10 04:20:46] INFO root fetch - processPackages [phones-local]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-05-10 04:20:46] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 04:20:46] WARNING root fetch - processPackages [tamerlanismz]: Skipping, unable to determine old version
+[2024-05-10 04:20:46] INFO root fetch - main [MainThread]: End processing [tamerlanismz] error
+[2024-05-10 04:20:46] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/dc/66/03b7d69b3b69efda5e4fb02d727eb158beee810d2d1f4c170ab874df3838/pulumi_rancher2-6.2.0a1715229630.tar.gz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/28/d5/12cfe543c42d0f7cde9122572dbc47036fd395d767316eed362b2741dc4a/alibabacloud_btripopen20220520-2.7.0.tar.gz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/61/fa/1630126f3615d1ddc1faf8ae4b0317aae95334dfe9ecbb2d63b90344cc6c/pennylane-kq-0.0.7.tar.gz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/fc/74/c996582f6028c700de7c7b11ebcc914e1214b4d4ee2d2bbc58af5ac878f0/phones_local-0.0.19.tar.gz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/ee/8b/2e2e19240d648b872cc218d437c70b05090f2609b67d10edf52e095407f0/alibabacloud_btripopen20220520-2.8.0.tar.gz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/87/75/6858ad54303cbf8bfb49e3e92c804b0629be27c0309e5e6ed194007b3d28/pulumi_rancher2-6.2.0a1715235918.tar.gz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-10 04:20:46] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/1a/47/250647e9d1357e7aaeea859959882e233fe63142855c89366998750bf06f/phones_local-0.0.20.tar.gz
+[2024-05-10 04:20:47] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2024-05-10 04:20:47] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-2.7.0.tar.gz tmp/alibabacloud_btripopen20220520-2.8.0.tar.gz --markdown 20240510/a/alibabacloud-btripopen20220520/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-05-10 04:20:47] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-10 04:20:47] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715229630.tar.gz tmp/pulumi_rancher2-6.2.0a1715235918.tar.gz --markdown 20240510/p/pulumi-rancher2/6.2.0a1715229630-6.2.0a1715235918/README.md --exclude *.pyd
+[2024-05-10 04:20:47] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-10 04:20:47] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.7.tar.gz tmp/pennylane-kq-0.0.8.tar.gz --markdown 20240510/p/pennylane-kq/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 04:20:47] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-10 04:20:47] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones_local-0.0.19.tar.gz tmp/phones_local-0.0.20.tar.gz --markdown 20240510/p/phones-local/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-05-10 04:20:47] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.19.tar.gz]
+[2024-05-10 04:20:47] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.20.tar.gz]
+[2024-05-10 04:20:47] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-10 04:20:47] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.7.tar.gz]
+[2024-05-10 04:20:47] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.8.tar.gz]
+[2024-05-10 04:20:47] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-10 04:20:48] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715229630.tar.gz]
+[2024-05-10 04:20:48] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715235918.tar.gz]
+[2024-05-10 04:20:48] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-10 04:20:50] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-2.7.0.tar.gz]
+[2024-05-10 04:20:50] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-2.8.0.tar.gz]
+[2024-05-10 04:20:50] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2024-05-10 04:20:50] INFO root fetch - main [MainThread]: Store serial: [23140388]
