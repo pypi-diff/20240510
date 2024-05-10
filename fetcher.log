@@ -8702,3 +8702,42 @@
 [2024-05-10 08:39:45] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-10 08:39:45] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-10 08:39:45] INFO root fetch - main [MainThread]: Store serial: [23142334]
+[2024-05-10 08:41:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142334]
+[2024-05-10 08:41:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai2-kit
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-snippets
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acctf
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypaperless
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 08:41:55] INFO root fetch - processPackages [acctf]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-10 08:41:55] INFO root fetch - processPackages [pypaperless]: New version: [3.1.5] Old Version: [3.1.4]
+[2024-05-10 08:41:55] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.49]
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [acctf]: Downloading https://files.pythonhosted.org/packages/08/71/2cc708695784ec6db9133f772671a10a36dc6add3e843b5a6d559029bc25/acctf-0.4.2.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/5e/95/ca31fc35c8797d159dfb02da463c7d84ec3e44ee4f932e7070d7f4d91516/python-snippets-0.0.49.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/6f/bf/a7b2e348927dbb350f67a68fd4646fc9d4d46a2d92e26bd0e55bf6179fe0/pypaperless-3.1.4.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-10 08:41:55] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240510/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 08:41:55] INFO root fetch - processPackages [acctf]: Downloading https://files.pythonhosted.org/packages/06/38/6f780dc228b7ddbb7843507bbdac91a41802fbe0dedfcd73200601db1cbd/acctf-0.4.3.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/1b/4a/d41f5e0d81f34bc7e42b1ff1819f1038e11451be0180a7bb7977850af874/pypaperless-3.1.5.tar.gz
+[2024-05-10 08:41:55] INFO root fetch - processPackages [acctf]: executing diffoscope
+[2024-05-10 08:41:55] INFO root fetch - processPackages [acctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acctf-0.4.2.tar.gz tmp/acctf-0.4.3.tar.gz --markdown 20240510/a/acctf/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-10 08:41:55] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2024-05-10 08:41:55] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.49.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20240510/p/python-snippets/0.0.49-0.0.6/README.md --exclude *.pyd
+[2024-05-10 08:41:56] INFO root fetch - processPackages [pypaperless]: executing diffoscope
+[2024-05-10 08:41:56] INFO root fetch - processPackages [pypaperless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaperless-3.1.4.tar.gz tmp/pypaperless-3.1.5.tar.gz --markdown 20240510/p/pypaperless/3.1.4-3.1.5/README.md --exclude *.pyd
+[2024-05-10 08:41:56] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-10 08:41:56] INFO root fetch - processPackages [acctf]: Remove: archive file [/home/abi/fetcher/tmp/acctf-0.4.2.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - processPackages [acctf]: Remove: archive file [/home/abi/fetcher/tmp/acctf-0.4.3.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - main [MainThread]: End processing [acctf]: success
+[2024-05-10 08:41:56] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.49.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2024-05-10 08:41:56] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.4.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.5.tar.gz]
+[2024-05-10 08:41:56] INFO root fetch - main [MainThread]: End processing [pypaperless]: success
+[2024-05-10 08:41:56] INFO root fetch - main [MainThread]: Store serial: [23142346]
