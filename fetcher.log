@@ -8756,3 +8756,33 @@
 [2024-05-10 08:44:06] INFO root fetch - processPackages [caroa04]: Remove: archive file [/home/abi/fetcher/tmp/caroa04-1.0.3.tar.gz]
 [2024-05-10 08:44:06] INFO root fetch - main [MainThread]: End processing [caroa04]: success
 [2024-05-10 08:44:06] INFO root fetch - main [MainThread]: Store serial: [23142353]
+[2024-05-10 08:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142353]
+[2024-05-10 08:46:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 08:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-notes-local
+[2024-05-10 08:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lk-utils
+[2024-05-10 08:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zetamarkets-py
+[2024-05-10 08:46:15] INFO root fetch - processPackages [contact-notes-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:46:15] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-10 08:46:15] INFO root fetch - processPackages [lk-utils]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-05-10 08:46:15] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/94/02/401f72b4bc3a22137e39e519a300db91b6d7f6f995ff3fdd5266dd81540c/contact-notes-local-0.0.8.tar.gz
+[2024-05-10 08:46:15] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-05-10 08:46:15] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/cb/f7/c4b9be2e0d2e13589b444492578943979b82f000d436c31db3edf6d3ac51/lk_utils-2.9.4-py3-none-any.whl
+[2024-05-10 08:46:15] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/7d/da/15635ad28159f22874e3fbe243ec786d3658da7812c3243f5feb8d5f8385/contact-notes-local-0.0.9.tar.gz
+[2024-05-10 08:46:15] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-05-10 08:46:15] INFO root fetch - processPackages [contact-notes-local]: executing diffoscope
+[2024-05-10 08:46:15] INFO root fetch - processPackages [contact-notes-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-notes-local-0.0.8.tar.gz tmp/contact-notes-local-0.0.9.tar.gz --markdown 20240510/c/contact-notes-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:46:15] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-05-10 08:46:15] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240510/z/zetamarkets-py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-10 08:46:15] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/c7/63/9023448692862a9032e16dfd5b896240f2cdcf94f51b4f1898a763c48218/lk_utils-2.9.5-py3-none-any.whl
+[2024-05-10 08:46:15] INFO root fetch - processPackages [lk-utils]: executing diffoscope
+[2024-05-10 08:46:15] INFO root fetch - processPackages [lk-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_utils-2.9.4-py3-none-any.whl.zip tmp/lk_utils-2.9.5-py3-none-any.whl.zip --markdown 20240510/l/lk-utils/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-05-10 08:46:16] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.8.tar.gz]
+[2024-05-10 08:46:16] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.9.tar.gz]
+[2024-05-10 08:46:16] INFO root fetch - main [MainThread]: End processing [contact-notes-local]: success
+[2024-05-10 08:46:16] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.4-py3-none-any.whl.zip]
+[2024-05-10 08:46:16] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.5-py3-none-any.whl.zip]
+[2024-05-10 08:46:16] INFO root fetch - main [MainThread]: End processing [lk-utils]: success
+[2024-05-10 08:46:21] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-05-10 08:46:21] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-05-10 08:46:21] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-05-10 08:46:21] INFO root fetch - main [MainThread]: Store serial: [23142361]
