@@ -19897,3 +19897,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:41:33] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.9.tar.gz]
 [2024-05-10 15:41:33] INFO root fetch - main [MainThread]: End processing [jcvi]: success
 [2024-05-10 15:41:33] INFO root fetch - main [MainThread]: Store serial: [23147179]
+[2024-05-10 15:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147179]
+[2024-05-10 15:43:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 15:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peewee
+[2024-05-10 15:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garak
+[2024-05-10 15:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfreeproxies
+[2024-05-10 15:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iaklogger
+[2024-05-10 15:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epyxid
+[2024-05-10 15:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mfprocess
+[2024-05-10 15:43:58] INFO root fetch - processPackages [mfprocess]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 15:43:58] INFO root fetch - processPackages [peewee]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-05-10 15:43:58] INFO root fetch - processPackages [pyfreeproxies]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 15:43:58] INFO root fetch - processPackages [garak]: New version: [0.9.post3] Old Version: [0.9.post2]
+[2024-05-10 15:43:58] INFO root fetch - processPackages [mfprocess]: Downloading https://files.pythonhosted.org/packages/69/67/0a9948bb4ad6ee1cd91cd893ca1a9958b1f51d055860d07b2fa7a04eecd0/mfprocess-1.0.8.tar.gz
+[2024-05-10 15:43:58] INFO root fetch - processPackages [iaklogger]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-10 15:43:58] INFO root fetch - processPackages [pyfreeproxies]: Downloading https://files.pythonhosted.org/packages/27/18/5fccaf09bec19b94d084df3a3fbe5806a9724eaf3c50909b21684bfb9f74/pyfreeproxies-0.0.2.tar.gz
+[2024-05-10 15:43:58] INFO root fetch - processPackages [peewee]: Downloading https://files.pythonhosted.org/packages/ec/72/784eaf8c15d1dd0d5c126b2180bf3dd860611f7ba2b746c8e9cacee9a172/peewee-3.9.5.tar.gz
+[2024-05-10 15:43:58] INFO root fetch - processPackages [epyxid]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 15:43:58] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/03/df/1f7c0c0498f0b20f9f47da2a3f0d97091567e575df6c574929ec2d2ed74f/garak-0.9.post2.tar.gz
+[2024-05-10 15:43:58] INFO root fetch - processPackages [iaklogger]: Downloading https://files.pythonhosted.org/packages/c8/7c/8dae63ee358ded966567f7fd705f5c3c8275dd5cb79ede0bc37860499f98/iaklogger-1.0.5.tar.gz
+[2024-05-10 15:43:58] INFO root fetch - processPackages [mfprocess]: Downloading https://files.pythonhosted.org/packages/2a/ea/e500f375b708c3fd5a6705d8a3e160c1dd88026ffdbe18484bfba29a1229/mfprocess-1.0.9.tar.gz
+[2024-05-10 15:43:58] INFO root fetch - processPackages [epyxid]: Downloading https://files.pythonhosted.org/packages/54/69/22f8cbc05aa322128d46526bb7eb436cc239a92d69af932bc166b7b9af96/epyxid-0.1.3.tar.gz
+[2024-05-10 15:43:58] INFO root fetch - processPackages [pyfreeproxies]: Downloading https://files.pythonhosted.org/packages/1f/d5/d4ef854e5deedb5486be69eb77a622a0367efe02880a5c51cb554f34a810/pyfreeproxies-0.0.3.tar.gz
+[2024-05-10 15:43:59] INFO root fetch - processPackages [mfprocess]: executing diffoscope
+[2024-05-10 15:43:59] INFO root fetch - processPackages [mfprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfprocess-1.0.8.tar.gz tmp/mfprocess-1.0.9.tar.gz --markdown 20240510/m/mfprocess/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 15:43:59] INFO root fetch - processPackages [peewee]: Downloading https://files.pythonhosted.org/packages/5e/66/5902f91abec78be8ef41eff4e547fe595c9e7b6c20f4be3d8cfb8e079061/peewee-3.9.6.tar.gz
+[2024-05-10 15:43:59] INFO root fetch - processPackages [pyfreeproxies]: executing diffoscope
+[2024-05-10 15:43:59] INFO root fetch - processPackages [pyfreeproxies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfreeproxies-0.0.2.tar.gz tmp/pyfreeproxies-0.0.3.tar.gz --markdown 20240510/p/pyfreeproxies/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 15:43:59] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/db/33/48b9aff5805cd85069c8cef6c1f79de816a42850ef54e9db130e2bd7b4aa/garak-0.9.post3.tar.gz
+[2024-05-10 15:43:59] INFO root fetch - processPackages [iaklogger]: Downloading https://files.pythonhosted.org/packages/6f/13/5816b3323d3bbe66ab9ac4e0fb611d412ba7e66c95665db8e597160442fb/iaklogger-1.0.6.tar.gz
+[2024-05-10 15:43:59] INFO root fetch - processPackages [peewee]: executing diffoscope
+[2024-05-10 15:43:59] INFO root fetch - processPackages [peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee-3.9.5.tar.gz tmp/peewee-3.9.6.tar.gz --markdown 20240510/p/peewee/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-05-10 15:43:59] INFO root fetch - processPackages [epyxid]: Downloading https://files.pythonhosted.org/packages/7c/23/6708b8af07eea62a0d345c8f1df48b78a96728b9d3baa3e53c15d560b94c/epyxid-0.1.4.tar.gz
+[2024-05-10 15:43:59] INFO root fetch - processPackages [iaklogger]: executing diffoscope
+[2024-05-10 15:43:59] INFO root fetch - processPackages [iaklogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iaklogger-1.0.5.tar.gz tmp/iaklogger-1.0.6.tar.gz --markdown 20240510/i/iaklogger/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-10 15:43:59] INFO root fetch - processPackages [garak]: executing diffoscope
+[2024-05-10 15:43:59] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.post2.tar.gz tmp/garak-0.9.post3.tar.gz --markdown 20240510/g/garak/0.9.post2-0.9.post3/README.md --exclude *.pyd
+[2024-05-10 15:43:59] INFO root fetch - processPackages [epyxid]: executing diffoscope
+[2024-05-10 15:43:59] INFO root fetch - processPackages [epyxid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyxid-0.1.3.tar.gz tmp/epyxid-0.1.4.tar.gz --markdown 20240510/e/epyxid/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 15:43:59] INFO root fetch - processPackages [mfprocess]: Remove: archive file [/home/abi/fetcher/tmp/mfprocess-1.0.8.tar.gz]
+[2024-05-10 15:43:59] INFO root fetch - processPackages [mfprocess]: Remove: archive file [/home/abi/fetcher/tmp/mfprocess-1.0.9.tar.gz]
+[2024-05-10 15:43:59] INFO root fetch - main [MainThread]: End processing [mfprocess]: success
+[2024-05-10 15:43:59] INFO root fetch - processPackages [pyfreeproxies]: Remove: archive file [/home/abi/fetcher/tmp/pyfreeproxies-0.0.2.tar.gz]
+[2024-05-10 15:43:59] INFO root fetch - processPackages [pyfreeproxies]: Remove: archive file [/home/abi/fetcher/tmp/pyfreeproxies-0.0.3.tar.gz]
+[2024-05-10 15:43:59] INFO root fetch - main [MainThread]: End processing [pyfreeproxies]: success
+[2024-05-10 15:43:59] INFO root fetch - processPackages [iaklogger]: Remove: archive file [/home/abi/fetcher/tmp/iaklogger-1.0.5.tar.gz]
+[2024-05-10 15:43:59] INFO root fetch - processPackages [iaklogger]: Remove: archive file [/home/abi/fetcher/tmp/iaklogger-1.0.6.tar.gz]
+[2024-05-10 15:43:59] INFO root fetch - main [MainThread]: End processing [iaklogger]: success
+[2024-05-10 15:44:00] INFO root fetch - processPackages [epyxid]: Remove: archive file [/home/abi/fetcher/tmp/epyxid-0.1.3.tar.gz]
+[2024-05-10 15:44:00] INFO root fetch - processPackages [epyxid]: Remove: archive file [/home/abi/fetcher/tmp/epyxid-0.1.4.tar.gz]
+[2024-05-10 15:44:00] INFO root fetch - main [MainThread]: End processing [epyxid]: success
+[2024-05-10 15:44:00] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post2.tar.gz]
+[2024-05-10 15:44:00] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
+[2024-05-10 15:44:00] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2024-05-10 15:44:02] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.5.tar.gz]
+[2024-05-10 15:44:02] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.6.tar.gz]
+[2024-05-10 15:44:02] INFO root fetch - main [MainThread]: End processing [peewee]: success
+[2024-05-10 15:44:02] INFO root fetch - main [MainThread]: Store serial: [23147215]
