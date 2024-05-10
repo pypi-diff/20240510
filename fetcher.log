@@ -22470,3 +22470,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:03:30] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.99.tar.gz]
 [2024-05-10 17:03:30] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
 [2024-05-10 17:03:30] INFO root fetch - main [MainThread]: Store serial: [23148511]
+[2024-05-10 17:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148511]
+[2024-05-10 17:05:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 17:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygramcore
+[2024-05-10 17:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isubsum
+[2024-05-10 17:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyanno4rt
+[2024-05-10 17:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jeedomdaemon
+[2024-05-10 17:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecularprofiles
+[2024-05-10 17:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-testing
+[2024-05-10 17:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmat-tools
+[2024-05-10 17:05:40] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-10 17:05:40] INFO root fetch - processPackages [pygramcore]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-10 17:05:40] INFO root fetch - processPackages [pyanno4rt]: New version: [0.7.0] Old Version: [0.5.0]
+[2024-05-10 17:05:40] WARNING root fetch - processPackages [isubsum]: Skipping, unable to determine old version
+[2024-05-10 17:05:40] INFO root fetch - main [MainThread]: End processing [isubsum] error
+[2024-05-10 17:05:41] WARNING root fetch - processPackages [kmat-tools]: Skipping, unable to determine old version
+[2024-05-10 17:05:41] INFO root fetch - main [MainThread]: End processing [kmat-tools] error
+[2024-05-10 17:05:41] INFO root fetch - processPackages [molecularprofiles]: New version: [1.0.0] Old Version: [0.5.7]
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pygramcore]: Downloading https://files.pythonhosted.org/packages/3a/10/e9aba66327e80d4e01fb991850014656dcc8181e0515edb554117d1c1774/pygramcore-1.0.2.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/ab/73/d34485df8f55737332d8bf01ff16322bd0cd43cb92f3d370d7301726054c/jeedomdaemon-0.8.0.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pyanno4rt]: Downloading https://files.pythonhosted.org/packages/a4/2b/acfc656350a10241d09e369da7b294b2d7059ed325abc667ab2a01a38052/pyanno4rt-0.5.0.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 17:05:41] INFO root fetch - processPackages [molecularprofiles]: Downloading https://files.pythonhosted.org/packages/4b/a5/3868047822bf06d6e8f71c97f216f14d4e406680e87ef7444ab10c75a17b/molecularprofiles-0.5.7.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-10 17:05:41] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/bb/03/9f017afa408ea503851709b7d11096f449969f474789dfcd673c7f4e2e8c/jeedomdaemon-0.8.1.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pygramcore]: Downloading https://files.pythonhosted.org/packages/0b/d9/91f3bd284acb680f0ccd55eb9671b4685bc4258f3d2ba881b8c2d9967ce5/pygramcore-1.0.3.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-05-10 17:05:41] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.8.0.tar.gz tmp/jeedomdaemon-0.8.1.tar.gz --markdown 20240510/j/jeedomdaemon/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pygramcore]: executing diffoscope
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pygramcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygramcore-1.0.2.tar.gz tmp/pygramcore-1.0.3.tar.gz --markdown 20240510/p/pygramcore/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-10 17:05:41] INFO root fetch - processPackages [molecularprofiles]: Downloading https://files.pythonhosted.org/packages/32/0f/fd1c69d9e8e6802746ca33185bda041222291b37c715e87fa194298a7505/molecularprofiles-1.0.0.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pyanno4rt]: Downloading https://files.pythonhosted.org/packages/47/74/b8ce1a61b9778e9fe72d71afd6c3d3ce98da9379e959775c60d206d3cb23/pyanno4rt-0.7.0.tar.gz
+[2024-05-10 17:05:41] INFO root fetch - processPackages [molecularprofiles]: executing diffoscope
+[2024-05-10 17:05:41] INFO root fetch - processPackages [molecularprofiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecularprofiles-0.5.7.tar.gz tmp/molecularprofiles-1.0.0.tar.gz --markdown 20240510/m/molecularprofiles/0.5.7-1.0.0/README.md --exclude *.pyd
+[2024-05-10 17:05:41] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pyanno4rt]: executing diffoscope
+[2024-05-10 17:05:41] INFO root fetch - processPackages [pyanno4rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanno4rt-0.5.0.tar.gz tmp/pyanno4rt-0.7.0.tar.gz --markdown 20240510/p/pyanno4rt/0.5.0-0.7.0/README.md --exclude *.pyd
+[2024-05-10 17:05:41] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-10 17:05:41] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240510/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 17:05:42] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.0.tar.gz]
+[2024-05-10 17:05:42] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.1.tar.gz]
+[2024-05-10 17:05:42] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-05-10 17:05:42] INFO root fetch - processPackages [pygramcore]: Remove: archive file [/home/abi/fetcher/tmp/pygramcore-1.0.2.tar.gz]
+[2024-05-10 17:05:42] INFO root fetch - processPackages [pygramcore]: Remove: archive file [/home/abi/fetcher/tmp/pygramcore-1.0.3.tar.gz]
+[2024-05-10 17:05:42] INFO root fetch - main [MainThread]: End processing [pygramcore]: success
+[2024-05-10 17:05:42] INFO root fetch - processPackages [molecularprofiles]: Remove: archive file [/home/abi/fetcher/tmp/molecularprofiles-0.5.7.tar.gz]
+[2024-05-10 17:05:42] INFO root fetch - processPackages [molecularprofiles]: Remove: archive file [/home/abi/fetcher/tmp/molecularprofiles-1.0.0.tar.gz]
+[2024-05-10 17:05:42] INFO root fetch - main [MainThread]: End processing [molecularprofiles]: success
+[2024-05-10 17:05:43] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-10 17:05:43] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-10 17:05:43] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-10 17:05:45] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.5.0.tar.gz]
+[2024-05-10 17:05:45] INFO root fetch - processPackages [pyanno4rt]: Remove: archive file [/home/abi/fetcher/tmp/pyanno4rt-0.7.0.tar.gz]
+[2024-05-10 17:05:45] INFO root fetch - main [MainThread]: End processing [pyanno4rt]: success
+[2024-05-10 17:05:45] INFO root fetch - main [MainThread]: Store serial: [23148534]
