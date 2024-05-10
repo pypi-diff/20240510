@@ -9915,3 +9915,63 @@
 [2024-05-10 09:43:57] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.1.tar.gz]
 [2024-05-10 09:43:57] INFO root fetch - main [MainThread]: End processing [homematicip]: success
 [2024-05-10 09:43:57] INFO root fetch - main [MainThread]: Store serial: [23142870]
+[2024-05-10 09:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142870]
+[2024-05-10 09:46:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 09:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bellek
+[2024-05-10 09:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basetest1
+[2024-05-10 09:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astronomer-providers
+[2024-05-10 09:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-rfb
+[2024-05-10 09:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wei-office-simptool
+[2024-05-10 09:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iudex
+[2024-05-10 09:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siglyser
+[2024-05-10 09:46:06] INFO root fetch - processPackages [bellek]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-10 09:46:06] INFO root fetch - processPackages [iudex]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-10 09:46:06] INFO root fetch - processPackages [astronomer-providers]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-10 09:46:06] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/26/4a/fccdc0d1ab493a2f8ff61dc7887c3dfae74cbb14da793a33c1372d57e126/bellek-0.98.0.tar.gz
+[2024-05-10 09:46:06] INFO root fetch - processPackages [wei-office-simptool]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 09:46:06] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/f2/1f/b625d030cb933e37ccfb1f9e406f8e70947bd7b6a1a4280652eb7df2a433/iudex-0.3.1.tar.gz
+[2024-05-10 09:46:06] INFO root fetch - processPackages [jupyter-rfb]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-10 09:46:06] INFO root fetch - processPackages [siglyser]: New version: [0.22] Old Version: [0.21]
+[2024-05-10 09:46:06] WARNING root fetch - processPackages [basetest1]: Skipping, unable to determine old version
+[2024-05-10 09:46:06] INFO root fetch - main [MainThread]: End processing [basetest1] error
+[2024-05-10 09:46:06] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/e9/3b/491aaa0cd633b3b37776ab70e3cb8d12e9feddedf54fc017fc4be50e8195/astronomer-providers-1.8.1.tar.gz
+[2024-05-10 09:46:06] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/30/12/74b2e7eda7694a9dd96a9c24e4afdbd88b29fab59de9146b6a0695baf860/wei_office_simptool-0.0.7.tar.gz
+[2024-05-10 09:46:06] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/1a/2c/d10c9a7db975b462d348e242a313e4d15e3c11363d764f5a1f40176b3e42/bellek-0.99.0.tar.gz
+[2024-05-10 09:46:06] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/97/6b/ae3511098392182f15fa433c6b8dd0f3ebfe3951ec78ed305f1a2f7b649f/iudex-0.3.2.tar.gz
+[2024-05-10 09:46:06] INFO root fetch - processPackages [jupyter-rfb]: Downloading https://files.pythonhosted.org/packages/99/b3/7910a3aed753c40a6db6e10d560e0acd6149665d9589910cab79a0f9ce7e/jupyter_rfb-0.4.2.tar.gz
+[2024-05-10 09:46:06] INFO root fetch - processPackages [siglyser]: Downloading https://files.pythonhosted.org/packages/42/4a/070d84606cd38cd510f23f65863854b017bd1c82359324f576b4df1e9eaf/siglyser-0.21.tar.gz
+[2024-05-10 09:46:07] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-05-10 09:46:07] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.98.0.tar.gz tmp/bellek-0.99.0.tar.gz --markdown 20240510/b/bellek/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-10 09:46:07] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-10 09:46:07] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.3.1.tar.gz tmp/iudex-0.3.2.tar.gz --markdown 20240510/i/iudex/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-10 09:46:07] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/03/2d/cd7d34116a8506bd6ae9e26506f3bd20928a3fe6cf6b3cb9e17bdde34e78/astronomer-providers-1.9.0.tar.gz
+[2024-05-10 09:46:07] INFO root fetch - processPackages [siglyser]: Downloading https://files.pythonhosted.org/packages/b6/de/24ebe0d26e6b6eb1d2ba855c73ebff81307b6f4bc50cc87aafd9b662dd78/siglyser-0.22.tar.gz
+[2024-05-10 09:46:07] INFO root fetch - processPackages [astronomer-providers]: executing diffoscope
+[2024-05-10 09:46:07] INFO root fetch - processPackages [astronomer-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer-providers-1.8.1.tar.gz tmp/astronomer-providers-1.9.0.tar.gz --markdown 20240510/a/astronomer-providers/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-10 09:46:07] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/d4/d0/be9405ce71183a255f101474ba4e11063f70403b4b0426d1a92dbfbfada1/wei_office_simptool-0.0.8.tar.gz
+[2024-05-10 09:46:07] INFO root fetch - processPackages [siglyser]: executing diffoscope
+[2024-05-10 09:46:07] INFO root fetch - processPackages [siglyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siglyser-0.21.tar.gz tmp/siglyser-0.22.tar.gz --markdown 20240510/s/siglyser/0.21-0.22/README.md --exclude *.pyd
+[2024-05-10 09:46:07] INFO root fetch - processPackages [jupyter-rfb]: Downloading https://files.pythonhosted.org/packages/12/5b/aae8d02b9bb5613adaad2bfcffbbf1e48e5900be8ffe8905f3f3215c1b43/jupyter_rfb-0.4.3.tar.gz
+[2024-05-10 09:46:07] INFO root fetch - processPackages [wei-office-simptool]: executing diffoscope
+[2024-05-10 09:46:07] INFO root fetch - processPackages [wei-office-simptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wei_office_simptool-0.0.7.tar.gz tmp/wei_office_simptool-0.0.8.tar.gz --markdown 20240510/w/wei-office-simptool/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 09:46:07] INFO root fetch - processPackages [jupyter-rfb]: executing diffoscope
+[2024-05-10 09:46:07] INFO root fetch - processPackages [jupyter-rfb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_rfb-0.4.2.tar.gz tmp/jupyter_rfb-0.4.3.tar.gz --markdown 20240510/j/jupyter-rfb/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-10 09:46:07] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.3.1.tar.gz]
+[2024-05-10 09:46:07] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.3.2.tar.gz]
+[2024-05-10 09:46:07] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-10 09:46:07] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.98.0.tar.gz]
+[2024-05-10 09:46:07] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.99.0.tar.gz]
+[2024-05-10 09:46:07] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-05-10 09:46:08] INFO root fetch - processPackages [siglyser]: Remove: archive file [/home/abi/fetcher/tmp/siglyser-0.21.tar.gz]
+[2024-05-10 09:46:08] INFO root fetch - processPackages [siglyser]: Remove: archive file [/home/abi/fetcher/tmp/siglyser-0.22.tar.gz]
+[2024-05-10 09:46:08] INFO root fetch - main [MainThread]: End processing [siglyser]: success
+[2024-05-10 09:46:08] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.7.tar.gz]
+[2024-05-10 09:46:08] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.8.tar.gz]
+[2024-05-10 09:46:08] INFO root fetch - main [MainThread]: End processing [wei-office-simptool]: success
+[2024-05-10 09:46:08] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.8.1.tar.gz]
+[2024-05-10 09:46:08] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.9.0.tar.gz]
+[2024-05-10 09:46:08] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
+[2024-05-10 09:46:09] INFO root fetch - processPackages [jupyter-rfb]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rfb-0.4.2.tar.gz]
+[2024-05-10 09:46:09] INFO root fetch - processPackages [jupyter-rfb]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rfb-0.4.3.tar.gz]
+[2024-05-10 09:46:09] INFO root fetch - main [MainThread]: End processing [jupyter-rfb]: success
+[2024-05-10 09:46:09] INFO root fetch - main [MainThread]: Store serial: [23142893]
