@@ -17620,3 +17620,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:23:53] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
 [2024-05-10 14:23:53] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-05-10 14:23:53] INFO root fetch - main [MainThread]: Store serial: [23146052]
+[2024-05-10 14:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146052]
+[2024-05-10 14:26:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: didrachmalz
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiida-wannier90
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psycopg
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bin2dec
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quarkstudio
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psycopg-binary
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openagents-node-sdk
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: broadenersz
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NsgOrcFx
+[2024-05-10 14:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-inmanta-lsm
+[2024-05-10 14:26:18] INFO root fetch - processPackages [bin2dec]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 14:26:18] WARNING root fetch - processPackages [broadenersz]: Skipping, unable to determine old version
+[2024-05-10 14:26:18] INFO root fetch - main [MainThread]: End processing [broadenersz] error
+[2024-05-10 14:26:18] INFO root fetch - processPackages [openagents-node-sdk]: New version: [0.2.1] Old Version: [0.2]
+[2024-05-10 14:26:18] INFO root fetch - processPackages [psycopg]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-10 14:26:18] INFO root fetch - processPackages [psycopg-binary]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-10 14:26:18] WARNING root fetch - processPackages [didrachmalz]: Skipping, unable to determine old version
+[2024-05-10 14:26:18] INFO root fetch - main [MainThread]: End processing [didrachmalz] error
+[2024-05-10 14:26:18] INFO root fetch - processPackages [NsgOrcFx]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-10 14:26:18] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.2.21] Old Version: [6.6.2.20]
+[2024-05-10 14:26:18] INFO root fetch - processPackages [bin2dec]: Downloading https://files.pythonhosted.org/packages/d2/00/3ddbdb77c45179fcfc598e9b5fbc429231cf6412e783486a611db22988da/bin2dec-0.1.1.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [pytest-inmanta-lsm]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-10 14:26:18] INFO root fetch - processPackages [aiida-wannier90]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-10 14:26:18] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/b4/ea/07b8f4bce35f8c714b31faa43d62b0d7ef360fdf058e76085b0ff66afae1/openagents_node_sdk-0.2.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [psycopg]: Downloading https://files.pythonhosted.org/packages/ef/52/bfc1d7d82467594a45d46cf5ecae1cd5e6009ec851f4cff1f239d0f32730/psycopg-3.1.8.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [psycopg-binary]: Downloading https://files.pythonhosted.org/packages/56/01/43669ee809662be9967ef54520b89bbbb76a0a8d03cc3d7368521fcd7f24/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl
+[2024-05-10 14:26:18] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/28/2e/5735f6a6cb0acef9c06f31d0ce369015f76a3058ced898e5279e15f606ee/quarkstudio-6.6.2.20-cp312-none-win_amd64.whl
+[2024-05-10 14:26:18] INFO root fetch - processPackages [aiida-wannier90]: Downloading https://files.pythonhosted.org/packages/3c/c4/06c1c5cea164292950d273f22ff65f1d2222cb2a60109e4e24b55a8a1d86/aiida_wannier90-2.1.0.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [NsgOrcFx]: Downloading https://files.pythonhosted.org/packages/cf/75/924733d3fc48e0fdb7d99a0f101ca2a2f55370a653c8e9d1c88589eb5813/nsgorcfx-1.0.6.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [pytest-inmanta-lsm]: Downloading https://files.pythonhosted.org/packages/2a/57/a73b9702b79dcffcec622dbd6ccd6612f42b0d0ff956b9b0e6d57363578a/pytest_inmanta_lsm-3.3.0.tar.gz
+[2024-05-10 14:26:18] ERROR root fetch - processPackages [bin2dec]: Unable to fetch info: No such project/version 'bin2dec' 0.1.2
+[2024-05-10 14:26:18] INFO root fetch - main [MainThread]: End processing [bin2dec] error
+[2024-05-10 14:26:18] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/a5/80/c3e045fc372815ba8941916c776b4d143ad2118bfba1285cdc0e7a107f79/openagents_node_sdk-0.2.1.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [psycopg]: Downloading https://files.pythonhosted.org/packages/7f/56/6463b9b47400710819153dcdfecf29d6d2f63f772e524f94b090fe5716a2/psycopg-3.1.9.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [openagents-node-sdk]: executing diffoscope
+[2024-05-10 14:26:18] INFO root fetch - processPackages [openagents-node-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_node_sdk-0.2.tar.gz tmp/openagents_node_sdk-0.2.1.tar.gz --markdown 20240510/o/openagents-node-sdk/0.2-0.2.1/README.md --exclude *.pyd
+[2024-05-10 14:26:18] INFO root fetch - processPackages [aiida-wannier90]: Downloading https://files.pythonhosted.org/packages/39/a7/31dcf3ed9cc465578f396ffd265668a0c767a5b18093b50358cac388b6b1/aiida_wannier90-2.2.0.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/1b/7a/2ddc240da8724a4e7ea8c215381ab3952381d9fbd393742fba258c232693/quarkstudio-6.6.2.21-cp312-none-win_amd64.whl
+[2024-05-10 14:26:18] INFO root fetch - processPackages [NsgOrcFx]: Downloading https://files.pythonhosted.org/packages/d5/b1/c06c314e647a74fe23e3ff3e1883d6ac39522544b5078e8f723aa292a0bf/nsgorcfx-1.0.7.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [pytest-inmanta-lsm]: Downloading https://files.pythonhosted.org/packages/b7/6f/38b568cc85abeb2f4ea5f2c164e2749f28a8c1894778574c5639793b57bb/pytest_inmanta_lsm-3.4.0.tar.gz
+[2024-05-10 14:26:18] INFO root fetch - processPackages [psycopg]: executing diffoscope
+[2024-05-10 14:26:18] INFO root fetch - processPackages [psycopg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg-3.1.8.tar.gz tmp/psycopg-3.1.9.tar.gz --markdown 20240510/p/psycopg/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-10 14:26:19] INFO root fetch - processPackages [aiida-wannier90]: executing diffoscope
+[2024-05-10 14:26:19] INFO root fetch - processPackages [aiida-wannier90]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_wannier90-2.1.0.tar.gz tmp/aiida_wannier90-2.2.0.tar.gz --markdown 20240510/a/aiida-wannier90/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-10 14:26:19] INFO root fetch - processPackages [NsgOrcFx]: executing diffoscope
+[2024-05-10 14:26:19] INFO root fetch - processPackages [NsgOrcFx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsgorcfx-1.0.6.tar.gz tmp/nsgorcfx-1.0.7.tar.gz --markdown 20240510/N/NsgOrcFx/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-10 14:26:19] INFO root fetch - processPackages [psycopg-binary]: Downloading https://files.pythonhosted.org/packages/9c/2b/43346b9fed00f054fb2806070a2b97697c752778d6ce301d204b7566e81b/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl
+[2024-05-10 14:26:19] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-05-10 14:26:19] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.2.20-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.2.21-cp312-none-win_amd64.whl.zip --markdown 20240510/q/quarkstudio/6.6.2.20-6.6.2.21/README.md --exclude *.pyd
+[2024-05-10 14:26:19] INFO root fetch - processPackages [pytest-inmanta-lsm]: executing diffoscope
+[2024-05-10 14:26:19] INFO root fetch - processPackages [pytest-inmanta-lsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_inmanta_lsm-3.3.0.tar.gz tmp/pytest_inmanta_lsm-3.4.0.tar.gz --markdown 20240510/p/pytest-inmanta-lsm/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-10 14:26:19] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.2.tar.gz]
+[2024-05-10 14:26:19] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.2.1.tar.gz]
+[2024-05-10 14:26:19] INFO root fetch - main [MainThread]: End processing [openagents-node-sdk]: success
+[2024-05-10 14:26:19] INFO root fetch - processPackages [psycopg-binary]: executing diffoscope
+[2024-05-10 14:26:19] INFO root fetch - processPackages [psycopg-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl.zip tmp/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20240510/p/psycopg-binary/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-10 14:26:19] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.20-cp312-none-win_amd64.whl.zip]
+[2024-05-10 14:26:19] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.21-cp312-none-win_amd64.whl.zip]
+[2024-05-10 14:26:19] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-05-10 14:26:19] INFO root fetch - processPackages [NsgOrcFx]: Remove: archive file [/home/abi/fetcher/tmp/nsgorcfx-1.0.6.tar.gz]
+[2024-05-10 14:26:19] INFO root fetch - processPackages [NsgOrcFx]: Remove: archive file [/home/abi/fetcher/tmp/nsgorcfx-1.0.7.tar.gz]
+[2024-05-10 14:26:19] INFO root fetch - main [MainThread]: End processing [NsgOrcFx]: success
+[2024-05-10 14:26:19] INFO root fetch - processPackages [aiida-wannier90]: Remove: archive file [/home/abi/fetcher/tmp/aiida_wannier90-2.1.0.tar.gz]
+[2024-05-10 14:26:19] INFO root fetch - processPackages [aiida-wannier90]: Remove: archive file [/home/abi/fetcher/tmp/aiida_wannier90-2.2.0.tar.gz]
+[2024-05-10 14:26:19] INFO root fetch - main [MainThread]: End processing [aiida-wannier90]: success
+[2024-05-10 14:26:20] INFO root fetch - processPackages [pytest-inmanta-lsm]: Remove: archive file [/home/abi/fetcher/tmp/pytest_inmanta_lsm-3.3.0.tar.gz]
+[2024-05-10 14:26:20] INFO root fetch - processPackages [pytest-inmanta-lsm]: Remove: archive file [/home/abi/fetcher/tmp/pytest_inmanta_lsm-3.4.0.tar.gz]
+[2024-05-10 14:26:20] INFO root fetch - main [MainThread]: End processing [pytest-inmanta-lsm]: success
+[2024-05-10 14:26:20] INFO root fetch - processPackages [psycopg]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-3.1.8.tar.gz]
+[2024-05-10 14:26:20] INFO root fetch - processPackages [psycopg]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-3.1.9.tar.gz]
+[2024-05-10 14:26:20] INFO root fetch - main [MainThread]: End processing [psycopg]: success
+[2024-05-10 14:26:38] INFO root fetch - processPackages [psycopg-binary]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-10 14:26:38] INFO root fetch - processPackages [psycopg-binary]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-10 14:26:38] INFO root fetch - main [MainThread]: End processing [psycopg-binary]: success
+[2024-05-10 14:26:38] INFO root fetch - main [MainThread]: Store serial: [23146128]
