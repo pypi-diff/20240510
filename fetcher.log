@@ -21282,3 +21282,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:23:45] INFO root fetch - main [MainThread]: End processing [requests-darwin-lite]: success
 [2024-05-10 16:23:45] INFO root fetch - main [MainThread]: End processing [requests-darwin-lite]: success
 [2024-05-10 16:23:45] INFO root fetch - main [MainThread]: Store serial: [23147903]
+[2024-05-10 16:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147903]
+[2024-05-10 16:25:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyinstaller-hooks-contrib
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opal-lang
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybird-cdk
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aa-discordnotify
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frappe-manager
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dhuodata-lib
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalmarketplace-developer-tools
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nodespecs
+[2024-05-10 16:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: collectablez
+[2024-05-10 16:25:54] INFO root fetch - processPackages [nodespecs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 16:25:54] WARNING root fetch - processPackages [collectablez]: Skipping, unable to determine old version
+[2024-05-10 16:25:54] INFO root fetch - main [MainThread]: End processing [collectablez] error
+[2024-05-10 16:25:54] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/52/a0/fd5c3bd7428fd16c03171629234a2d7da112e6a3e63403357feee7ed2338/nodespecs-0.0.8.tar.gz
+[2024-05-10 16:25:54] WARNING root fetch - processPackages [opal-lang]: Skipping, unable to determine old version
+[2024-05-10 16:25:54] INFO root fetch - main [MainThread]: End processing [opal-lang] error
+[2024-05-10 16:25:54] INFO root fetch - processPackages [aa-discordnotify]: New version: [2.0.0] Old Version: [1.3.0]
+[2024-05-10 16:25:54] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-10 16:25:54] INFO root fetch - processPackages [digitalmarketplace-developer-tools]: New version: [1.1.0rc3] Old Version: [1.1.0rc2]
+[2024-05-10 16:25:54] INFO root fetch - processPackages [frappe-manager]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-10 16:25:54] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.9] Old Version: [0.17.7]
+[2024-05-10 16:25:54] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: New version: [2024.6] Old Version: [2024.5]
+[2024-05-10 16:25:54] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Downloading https://files.pythonhosted.org/packages/47/17/81f0ff4aa9c84445bb4029142e1b8c98d2244408efb1e4cd275769a927fe/pyinstaller_hooks_contrib-2024.5.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [aa-discordnotify]: Downloading https://files.pythonhosted.org/packages/71/73/9a8b16af3eafcc92b2944e41a0e25d85a2da099065dd4433dba468a70cd3/aa_discordnotify-1.3.0.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/3e/92/de755043cf73a78654d2fc630d58f430edfd83587d2e6e3f99fc497957e9/nodespecs-0.0.9.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/b8/06/cf638b54937dbe7c3a2395f567621aa38c3c243666a1a1bfeb2617b5ea84/frappe_manager-0.8.3.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/f3/81/f30f9f528ee749955097b3b30e9e4a3bda7150fe0f441e292388e5b3538f/tinybird_cdk-0.17.7.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/1d/7b/44b709b342b54e0b1ceff1e325b7a14cd19c3aa1eb709883315afa2bbcc1/dhuodata_lib-0.3.6.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [digitalmarketplace-developer-tools]: Downloading https://files.pythonhosted.org/packages/f9/6c/3e6d74eb2b0afeddfd6895f4436aa535fee3f1819744d8fa2d3dabbeaae8/digitalmarketplace-developer-tools-1.1.0rc2.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [nodespecs]: executing diffoscope
+[2024-05-10 16:25:55] INFO root fetch - processPackages [nodespecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodespecs-0.0.8.tar.gz tmp/nodespecs-0.0.9.tar.gz --markdown 20240510/n/nodespecs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 16:25:55] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Downloading https://files.pythonhosted.org/packages/9a/b1/ea0917424a3f1b4ed760957415c5d02c081a4621300f89bd9caa9ff27b2e/pyinstaller_hooks_contrib-2024.6.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [aa-discordnotify]: Downloading https://files.pythonhosted.org/packages/2b/fc/288eac3811b8418c9f318ddfa0e4b8cf47962009e89bf2c272385d990ef4/aa_discordnotify-2.0.0.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/57/f0/2d67e6da268505d856564aa5856e22f6fb12a1970cdacba953e08cb7a5a6/dhuodata_lib-0.3.7.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/c0/52/ca33789ac475a5f5a554bfa9bed5120e1b89730afac4d6adf74847cf8839/tinybird_cdk-0.17.9.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [digitalmarketplace-developer-tools]: Downloading https://files.pythonhosted.org/packages/01/81/d471493fd49600fdd08ee1da56a51b564ed1539efe968dee8c8c7db1c8ca/digitalmarketplace-developer-tools-1.1.0rc3.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/0e/af/c09a0baea3d0a36661cf4083f7a44cad1f804fe0408874bce6e67f717275/frappe_manager-0.9.0.tar.gz
+[2024-05-10 16:25:55] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: executing diffoscope
+[2024-05-10 16:25:55] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinstaller_hooks_contrib-2024.5.tar.gz tmp/pyinstaller_hooks_contrib-2024.6.tar.gz --markdown 20240510/p/pyinstaller-hooks-contrib/2024.5-2024.6/README.md --exclude *.pyd
+[2024-05-10 16:25:55] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-05-10 16:25:55] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird_cdk-0.17.7.tar.gz tmp/tinybird_cdk-0.17.9.tar.gz --markdown 20240510/t/tinybird-cdk/0.17.7-0.17.9/README.md --exclude *.pyd
+[2024-05-10 16:25:55] INFO root fetch - processPackages [aa-discordnotify]: executing diffoscope
+[2024-05-10 16:25:55] INFO root fetch - processPackages [aa-discordnotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_discordnotify-1.3.0.tar.gz tmp/aa_discordnotify-2.0.0.tar.gz --markdown 20240510/a/aa-discordnotify/1.3.0-2.0.0/README.md --exclude *.pyd
+[2024-05-10 16:25:55] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-05-10 16:25:55] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata_lib-0.3.6.tar.gz tmp/dhuodata_lib-0.3.7.tar.gz --markdown 20240510/d/dhuodata-lib/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-10 16:25:55] INFO root fetch - processPackages [digitalmarketplace-developer-tools]: executing diffoscope
+[2024-05-10 16:25:55] INFO root fetch - processPackages [digitalmarketplace-developer-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalmarketplace-developer-tools-1.1.0rc2.tar.gz tmp/digitalmarketplace-developer-tools-1.1.0rc3.tar.gz --markdown 20240510/d/digitalmarketplace-developer-tools/1.1.0rc2-1.1.0rc3/README.md --exclude *.pyd
+[2024-05-10 16:25:55] INFO root fetch - processPackages [frappe-manager]: executing diffoscope
+[2024-05-10 16:25:55] INFO root fetch - processPackages [frappe-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frappe_manager-0.8.3.tar.gz tmp/frappe_manager-0.9.0.tar.gz --markdown 20240510/f/frappe-manager/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-10 16:25:55] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.8.tar.gz]
+[2024-05-10 16:25:55] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.9.tar.gz]
+[2024-05-10 16:25:55] INFO root fetch - main [MainThread]: End processing [nodespecs]: success
+[2024-05-10 16:25:56] INFO root fetch - processPackages [aa-discordnotify]: Remove: archive file [/home/abi/fetcher/tmp/aa_discordnotify-1.3.0.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - processPackages [aa-discordnotify]: Remove: archive file [/home/abi/fetcher/tmp/aa_discordnotify-2.0.0.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - main [MainThread]: End processing [aa-discordnotify]: success
+[2024-05-10 16:25:56] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.3.6.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.3.7.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-05-10 16:25:56] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.7.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.9.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-05-10 16:25:56] INFO root fetch - processPackages [digitalmarketplace-developer-tools]: Remove: archive file [/home/abi/fetcher/tmp/digitalmarketplace-developer-tools-1.1.0rc2.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - processPackages [digitalmarketplace-developer-tools]: Remove: archive file [/home/abi/fetcher/tmp/digitalmarketplace-developer-tools-1.1.0rc3.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - main [MainThread]: End processing [digitalmarketplace-developer-tools]: success
+[2024-05-10 16:25:56] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.8.3.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.9.0.tar.gz]
+[2024-05-10 16:25:56] INFO root fetch - main [MainThread]: End processing [frappe-manager]: success
+[2024-05-10 16:25:57] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller_hooks_contrib-2024.5.tar.gz]
+[2024-05-10 16:25:57] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller_hooks_contrib-2024.6.tar.gz]
+[2024-05-10 16:25:57] INFO root fetch - main [MainThread]: End processing [pyinstaller-hooks-contrib]: success
+[2024-05-10 16:25:57] INFO root fetch - main [MainThread]: Store serial: [23147950]
