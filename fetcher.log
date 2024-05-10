@@ -16260,3 +16260,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:29:33] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.65.tar.gz]
 [2024-05-10 13:29:33] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-10 13:29:33] INFO root fetch - main [MainThread]: Store serial: [23145487]
+[2024-05-10 13:31:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145487]
+[2024-05-10 13:31:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioxdl
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto-ext
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-vits-svc-fork
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-tailscale
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-splunk
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: popoll-backend
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ModernQt
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: internet-domain-local
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catnekaise.ghrawel
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchserve-nightly
+[2024-05-10 13:31:57] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [popoll-backend]: New version: [0.0.41] Old Version: [0.0.40]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1715305832] Old Version: [1.3.0a1715236726]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [aioxdl]: New version: [0.0.27] Old Version: [0.0.26]
+[2024-05-10 13:31:57] WARNING root fetch - processPackages [ModernQt]: Skipping, unable to determine old version
+[2024-05-10 13:31:57] INFO root fetch - processPackages [ModernQt]: Start processing: torch-model-archiver-nightly
+[2024-05-10 13:31:57] INFO root fetch - main [MainThread]: End processing [ModernQt] error
+[2024-05-10 13:31:57] INFO root fetch - processPackages [catnekaise.ghrawel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-10 13:31:57] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-10 13:31:57] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-10 13:31:57] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/35/45/d97d8e92e428eb64a7090076d5039a77870c686d9f7399a3a9b1e236d544/pulumi_splunk-1.3.0a1715236726.tar.gz
+[2024-05-10 13:31:57] INFO root fetch - processPackages [moto-ext]: New version: [5.0.6.post2] Old Version: [5.0.6.post1]
+[2024-05-10 13:31:58] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/83/62/4472f61384763e6896c418bd04f6cc71dda702bf0cbdefc1ae7ae6ba0b95/popoll_backend-0.0.40.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-10 13:31:58] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/e6/d6/4edf12fe7fd26d4f3e4ec077fa944d2b24ff5eed6b1024ce63b977f813a3/aioxdl-0.0.26.tar.gz
+[2024-05-10 13:31:58] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-workflow-archiver-nightly
+[2024-05-10 13:31:58] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/cc/a0/2e7c04485b6a8b8263a15c463582718c6c23ce77a4c56bc6afac7c647132/so_vits_svc_fork-4.2.0.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-10 13:31:58] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/09/8c/1670342fefbae956194a975655f08cad91dae0476f361e37f6ec68de2c24/moto_ext-5.0.6.post1.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/e9/c2/500013a94a1e22cd97723549da88e5f9a837b79f68f80e8cd81b1f54c726/catnekaise.ghrawel-0.0.8.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-10 13:31:58] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/4d/e6/9d1797c350f7c2fa4a7a3f0899cf2d35ae92af339c9b2268061c37bca0d3/pulumi_splunk-1.3.0a1715305832.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-10 13:31:58] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-10 13:31:58] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240510/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 13:31:58] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-10 13:31:58] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240510/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-10 13:31:58] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/19/dd/ba3efd7e6e75e8e581000255c34ffd93f5e04b1fe512e69cb22f9d00f544/popoll_backend-0.0.41.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/14/0d/3ea6d215841422e64b8f5ffc5908536852c080c3e3d63a3acab6667a6f43/aioxdl-0.0.27.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-10 13:31:58] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-05-10 13:31:58] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1715236726.tar.gz tmp/pulumi_splunk-1.3.0a1715305832.tar.gz --markdown 20240510/p/pulumi-splunk/1.3.0a1715236726-1.3.0a1715305832/README.md --exclude *.pyd
+[2024-05-10 13:31:58] INFO root fetch - processPackages [popoll-backend]: executing diffoscope
+[2024-05-10 13:31:58] INFO root fetch - processPackages [popoll-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popoll_backend-0.0.40.tar.gz tmp/popoll_backend-0.0.41.tar.gz --markdown 20240510/p/popoll-backend/0.0.40-0.0.41/README.md --exclude *.pyd
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240510/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-10 13:31:58] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-05-10 13:31:58] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.26.tar.gz tmp/aioxdl-0.0.27.tar.gz --markdown 20240510/a/aioxdl/0.0.26-0.0.27/README.md --exclude *.pyd
+[2024-05-10 13:31:58] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/b1/47/b2ed4c9d3f94e0e86c31a57557b11a6b67814cbc7ec094a9c22994075be2/so_vits_svc_fork-4.2.1.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/15/a1/d4db42648d073fac0fdfa638072b7600d69d0d1c58b390c2894eb9a6ceae/catnekaise.ghrawel-0.0.9.tar.gz
+[2024-05-10 13:31:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-10 13:31:58] INFO root fetch - processPackages [catnekaise.ghrawel]: executing diffoscope
+[2024-05-10 13:31:58] INFO root fetch - processPackages [catnekaise.ghrawel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.ghrawel-0.0.8.tar.gz tmp/catnekaise.ghrawel-0.0.9.tar.gz --markdown 20240510/c/catnekaise.ghrawel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 13:31:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-10 13:31:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240510/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-10 13:31:59] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2024-05-10 13:31:59] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-4.2.0.tar.gz tmp/so_vits_svc_fork-4.2.1.tar.gz --markdown 20240510/s/so-vits-svc-fork/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-05-10 13:31:59] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [internet-domain-local]: Start processing: blowsz
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-10 13:31:59] INFO root fetch - processPackages [blowsz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.26.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.27.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-10 13:31:59] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715236726.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715305832.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-05-10 13:31:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-10 13:31:59] INFO root fetch - processPackages [blowsz]: Downloading https://files.pythonhosted.org/packages/f6/2d/c27244bec9b03486c78bae3be5946691b43f53157eddbf8ff0a6d8a4c22c/blowsz-1.1.tar.gz
+[2024-05-10 13:31:59] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.40.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.41.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
+[2024-05-10 13:31:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-10 13:31:59] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/44/7a/31eda162615342852cf51765f4f577a0a521490629741489bef0f37dabf9/moto_ext-5.0.6.post2.tar.gz
+[2024-05-10 13:31:59] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.0.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.1.tar.gz]
+[2024-05-10 13:31:59] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2024-05-10 13:32:00] INFO root fetch - processPackages [blowsz]: Downloading https://files.pythonhosted.org/packages/03/f2/485635de8c4ddc60435eec5b3f58627a370f739d54671310c002a55d90e5/blowsz-2.1.tar.gz
+[2024-05-10 13:32:00] INFO root fetch - processPackages [blowsz]: executing diffoscope
+[2024-05-10 13:32:00] INFO root fetch - processPackages [blowsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blowsz-1.1.tar.gz tmp/blowsz-2.1.tar.gz --markdown 20240510/b/blowsz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:32:00] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2024-05-10 13:32:00] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto_ext-5.0.6.post1.tar.gz tmp/moto_ext-5.0.6.post2.tar.gz --markdown 20240510/m/moto-ext/5.0.6.post1-5.0.6.post2/README.md --exclude *.pyd
+[2024-05-10 13:32:00] INFO root fetch - processPackages [blowsz]: Remove: archive file [/home/abi/fetcher/tmp/blowsz-1.1.tar.gz]
+[2024-05-10 13:32:00] INFO root fetch - processPackages [blowsz]: Remove: archive file [/home/abi/fetcher/tmp/blowsz-2.1.tar.gz]
+[2024-05-10 13:32:00] INFO root fetch - main [MainThread]: End processing [blowsz]: success
+[2024-05-10 13:32:01] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.8.tar.gz]
+[2024-05-10 13:32:01] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.9.tar.gz]
+[2024-05-10 13:32:01] INFO root fetch - main [MainThread]: End processing [catnekaise.ghrawel]: success
+[2024-05-10 13:32:12] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.6.post1.tar.gz]
+[2024-05-10 13:32:12] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.6.post2.tar.gz]
+[2024-05-10 13:32:12] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2024-05-10 13:32:12] INFO root fetch - main [MainThread]: Store serial: [23145527]
