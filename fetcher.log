@@ -7054,3 +7054,57 @@
 [2024-05-10 07:07:46] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.9.tar.gz]
 [2024-05-10 07:07:46] INFO root fetch - main [MainThread]: End processing [uiautomator2]: success
 [2024-05-10 07:07:46] INFO root fetch - main [MainThread]: Store serial: [23141520]
+[2024-05-10 07:09:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141520]
+[2024-05-10 07:09:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csp-cryspy
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saraApi
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ridgeplot-py
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forspentz
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mns-common
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: borneo-python-client
+[2024-05-10 07:09:55] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.9] Old Version: [0.0.0.7]
+[2024-05-10 07:09:55] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.5] Old Version: [1.0.8.4]
+[2024-05-10 07:09:55] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-10 07:09:55] INFO root fetch - processPackages [csp-cryspy]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-10 07:09:55] WARNING root fetch - processPackages [forspentz]: Skipping, unable to determine old version
+[2024-05-10 07:09:55] INFO root fetch - main [MainThread]: End processing [forspentz] error
+[2024-05-10 07:09:55] WARNING root fetch - processPackages [borneo-python-client]: Skipping, unable to determine old version
+[2024-05-10 07:09:55] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-10 07:09:55] INFO root fetch - main [MainThread]: End processing [borneo-python-client] error
+[2024-05-10 07:09:55] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/04/b2/25c601b79316080b097feb61d66e0481b6a0cdb1feef67a85afdf2172916/saraapi-0.0.0.7.tar.gz
+[2024-05-10 07:09:55] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/d5/c0/066995a82fed6b0edd0fd814ba77d9e62198833e1d9e37f95a40b39f5d44/mns_common-1.0.8.4.tar.gz
+[2024-05-10 07:09:55] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/62/64/a8aad8e087db5be91a8ed104388f24e4df87535694ffcf65b73101af1ca4/csp_cryspy-1.2.4.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/a4/c7/c21675fb6ca6756ce14065372b1c7de31cbe26528c4159935449b0bda46a/ridgeplot_py-0.2.3.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/3a/66/1b73da6fadfb740f8dc1a1fda9646c12ddeebe071b78799390f6d653d5f6/saraapi-0.0.0.9.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/87/a9/1c3b0638f85040b706114f99c06bcb5d20e7f7073f7a6103a0a6db06f916/mns_common-1.0.8.5.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-10 07:09:56] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240510/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-10 07:09:56] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-10 07:09:56] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.7.tar.gz tmp/saraapi-0.0.0.9.tar.gz --markdown 20240510/s/saraApi/0.0.0.7-0.0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:09:56] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/90/75/92c5acb3312dac65c11707508d0d94558795579af9c48ad8b9da476febd3/csp_cryspy-1.2.5.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-10 07:09:56] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.8.4.tar.gz tmp/mns_common-1.0.8.5.tar.gz --markdown 20240510/m/mns-common/1.0.8.4-1.0.8.5/README.md --exclude *.pyd
+[2024-05-10 07:09:56] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/20/74/45f11c01898d0e103b34fd2306c4004a95c71de6c08264f87c2dec99ae07/ridgeplot_py-0.2.5.tar.gz
+[2024-05-10 07:09:56] INFO root fetch - processPackages [csp-cryspy]: executing diffoscope
+[2024-05-10 07:09:56] INFO root fetch - processPackages [csp-cryspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csp_cryspy-1.2.4.tar.gz tmp/csp_cryspy-1.2.5.tar.gz --markdown 20240510/c/csp-cryspy/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-10 07:09:56] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2024-05-10 07:09:56] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot_py-0.2.3.tar.gz tmp/ridgeplot_py-0.2.5.tar.gz --markdown 20240510/r/ridgeplot-py/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-10 07:09:57] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.7.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.9.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-10 07:09:57] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.4.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.5.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-10 07:09:57] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.3.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.5.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2024-05-10 07:09:57] INFO root fetch - processPackages [csp-cryspy]: Remove: archive file [/home/abi/fetcher/tmp/csp_cryspy-1.2.4.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - processPackages [csp-cryspy]: Remove: archive file [/home/abi/fetcher/tmp/csp_cryspy-1.2.5.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - main [MainThread]: End processing [csp-cryspy]: success
+[2024-05-10 07:09:57] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-10 07:09:57] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-10 07:09:57] INFO root fetch - main [MainThread]: Store serial: [23141542]
