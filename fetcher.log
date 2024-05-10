@@ -18769,3 +18769,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:04:34] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.9.tar.gz]
 [2024-05-10 15:04:34] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
 [2024-05-10 15:04:34] INFO root fetch - main [MainThread]: Store serial: [23146675]
+[2024-05-10 15:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146675]
+[2024-05-10 15:06:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-http
+[2024-05-10 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: craniometricallyz
+[2024-05-10 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyopenhc
+[2024-05-10 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peewee
+[2024-05-10 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-mongodbatlas
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-http]: New version: [0.1.0a1715337278] Old Version: [0.1.0a1715303697]
+[2024-05-10 15:06:43] INFO root fetch - processPackages [peewee]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-10 15:06:43] WARNING root fetch - processPackages [craniometricallyz]: Skipping, unable to determine old version
+[2024-05-10 15:06:43] INFO root fetch - main [MainThread]: End processing [craniometricallyz] error
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pyopenhc]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/37/7c/e181b76eafe6a2b2834a18dc87bcee5dad9258742083c3585f7e0fdbe357/pulumi_http-0.1.0a1715303697.tar.gz
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-05-10 15:06:43] INFO root fetch - processPackages [peewee]: Downloading https://files.pythonhosted.org/packages/ec/72/784eaf8c15d1dd0d5c126b2180bf3dd860611f7ba2b746c8e9cacee9a172/peewee-3.9.5.tar.gz
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/8e/fb/1ecc5261333d4a431884c79f7dc47c87ca6ca9a3ff9c60a59d46e9fa145f/pyopenhc-0.0.2-py3-none-win_amd64.whl
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/34/40/795f08501af2159bda8bebab2caf5301d1458db385cc3f0012616090c036/pulumi_http-0.1.0a1715337278.tar.gz
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240510/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.1.0a1715303697.tar.gz tmp/pulumi_http-0.1.0a1715337278.tar.gz --markdown 20240510/p/pulumi-http/0.1.0a1715303697-0.1.0a1715337278/README.md --exclude *.pyd
+[2024-05-10 15:06:43] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/c4/9b/ee42ace6abcd3abbf7c99a30b5cfaa48f5cf208d551bedfda502d498026e/pyopenhc-0.0.3-py3-none-manylinux1_x86_64.whl
+[2024-05-10 15:06:43] INFO root fetch - processPackages [peewee]: Downloading https://files.pythonhosted.org/packages/5e/66/5902f91abec78be8ef41eff4e547fe595c9e7b6c20f4be3d8cfb8e079061/peewee-3.9.6.tar.gz
+[2024-05-10 15:06:44] INFO root fetch - processPackages [pyopenhc]: executing diffoscope
+[2024-05-10 15:06:44] INFO root fetch - processPackages [pyopenhc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenhc-0.0.2-py3-none-win_amd64.whl.zip tmp/pyopenhc-0.0.3-py3-none-manylinux1_x86_64.whl.zip --markdown 20240510/p/pyopenhc/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 15:06:44] INFO root fetch - processPackages [peewee]: executing diffoscope
+[2024-05-10 15:06:44] INFO root fetch - processPackages [peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee-3.9.5.tar.gz tmp/peewee-3.9.6.tar.gz --markdown 20240510/p/peewee/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-05-10 15:06:44] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715303697.tar.gz]
+[2024-05-10 15:06:44] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715337278.tar.gz]
+[2024-05-10 15:06:44] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-05-10 15:06:44] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.0.2-py3-none-win_amd64.whl.zip]
+[2024-05-10 15:06:44] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.0.3-py3-none-manylinux1_x86_64.whl.zip]
+[2024-05-10 15:06:44] INFO root fetch - main [MainThread]: End processing [pyopenhc]: success
+[2024-05-10 15:06:45] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-05-10 15:06:45] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-05-10 15:06:45] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-05-10 15:06:46] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.5.tar.gz]
+[2024-05-10 15:06:46] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.6.tar.gz]
+[2024-05-10 15:06:46] INFO root fetch - main [MainThread]: End processing [peewee]: success
+[2024-05-10 15:06:46] INFO root fetch - main [MainThread]: Store serial: [23146693]
