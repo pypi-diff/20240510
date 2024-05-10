@@ -10657,3 +10657,72 @@
 [2024-05-10 10:17:55] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
 [2024-05-10 10:17:55] INFO root fetch - main [MainThread]: End processing [libecalc] error
 [2024-05-10 10:17:55] INFO root fetch - main [MainThread]: Store serial: [23143191]
+[2024-05-10 10:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143191]
+[2024-05-10 10:20:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: individuumz
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorkrowch
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: va-am
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orq-ai-sdk
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acetylacetonez
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: common-tools-ai-bnq
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doblib
+[2024-05-10 10:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: create-flask-package
+[2024-05-10 10:20:04] INFO root fetch - processPackages [create-flask-package]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-10 10:20:04] WARNING root fetch - processPackages [individuumz]: Skipping, unable to determine old version
+[2024-05-10 10:20:04] INFO root fetch - main [MainThread]: End processing [individuumz] error
+[2024-05-10 10:20:04] INFO root fetch - processPackages [orq-ai-sdk]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-05-10 10:20:04] INFO root fetch - processPackages [acetylacetonez]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 10:20:04] INFO root fetch - processPackages [tensorkrowch]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-10 10:20:04] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 10:20:04] INFO root fetch - processPackages [doblib]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 10:20:04] INFO root fetch - processPackages [va-am]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 10:20:04] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/b2/32/49ac78703a99df890b96d7139e4e939c8d844da98a9f2a416d415fafaf5c/create_flask_package-0.1.tar.gz
+[2024-05-10 10:20:04] INFO root fetch - processPackages [orq-ai-sdk]: Downloading https://files.pythonhosted.org/packages/90/c5/59b7587452bdda3fd5d34f4e9d98a787349e4b1b252b199dfbcbcee1ea0a/orq_ai_sdk-2.3.5.tar.gz
+[2024-05-10 10:20:04] INFO root fetch - processPackages [acetylacetonez]: Downloading https://files.pythonhosted.org/packages/f6/17/ea7472ce02694a5a884c89074277f31d8da819fc04317a0f07ea76786872/acetylacetonez-1.1.tar.gz
+[2024-05-10 10:20:04] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/0f/40/bef2b3731aec33595d8b2ed05c4f3fb6feadf7584f8dfc9bf67f1041affc/common-tools-ai-bnq-0.1.4.tar.gz
+[2024-05-10 10:20:04] INFO root fetch - processPackages [tensorkrowch]: Downloading https://files.pythonhosted.org/packages/8c/af/0768f8579f0ff6b423975eb161d7317da13531bbeb3dc1b2b41101eae6ac/tensorkrowch-1.1.1.tar.gz
+[2024-05-10 10:20:04] INFO root fetch - processPackages [va-am]: Downloading https://files.pythonhosted.org/packages/21/de/641a742f41bab0fb8bb5119009e6a8160b75c9fa86fd3fd46eeb67d3afa1/va_am-0.1.2.tar.gz
+[2024-05-10 10:20:04] INFO root fetch - processPackages [doblib]: Downloading https://files.pythonhosted.org/packages/8c/f4/c55fff535cba24fc344bdd9fd909d8b3a4c8d653956450925abfacc6531d/doblib-0.9.0-py3-none-any.whl
+[2024-05-10 10:20:05] INFO root fetch - processPackages [acetylacetonez]: Downloading https://files.pythonhosted.org/packages/77/9a/3faebde450c0bba09c16fb061dec4b3b26e04ec17259dc2497e4c2e5f1cb/acetylacetonez-2.1.tar.gz
+[2024-05-10 10:20:05] INFO root fetch - processPackages [orq-ai-sdk]: Downloading https://files.pythonhosted.org/packages/1c/c9/470136f711f2249d273bf616ffe5cc18b329b55fe53483c61b707a2cb919/orq_ai_sdk-2.3.6.tar.gz
+[2024-05-10 10:20:05] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/bc/c7/f8284fe2411aa7af12ee08467cb21c9d0c0d7a4cc46822e4b606cac4013a/common-tools-ai-bnq-0.1.5.tar.gz
+[2024-05-10 10:20:05] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/4a/c3/fdfde4cd146e41aff368089aab41cefa16e709497400f019a1bed98a5b38/create_flask_package-0.1.1.tar.gz
+[2024-05-10 10:20:05] INFO root fetch - processPackages [tensorkrowch]: Downloading https://files.pythonhosted.org/packages/61/8e/8e7f26194ec4f713d744ce2430d4629aee8677d2d162ea16dae55078cff4/tensorkrowch-1.1.2.tar.gz
+[2024-05-10 10:20:05] INFO root fetch - processPackages [va-am]: Downloading https://files.pythonhosted.org/packages/bb/3e/90fffd6831d1c14b7e4522ed51282af92fdc1c97577ef4e87855e8aeb961/va_am-0.1.3.tar.gz
+[2024-05-10 10:20:05] INFO root fetch - processPackages [orq-ai-sdk]: executing diffoscope
+[2024-05-10 10:20:05] INFO root fetch - processPackages [orq-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orq_ai_sdk-2.3.5.tar.gz tmp/orq_ai_sdk-2.3.6.tar.gz --markdown 20240510/o/orq-ai-sdk/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-05-10 10:20:05] INFO root fetch - processPackages [create-flask-package]: executing diffoscope
+[2024-05-10 10:20:05] INFO root fetch - processPackages [create-flask-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_flask_package-0.1.tar.gz tmp/create_flask_package-0.1.1.tar.gz --markdown 20240510/c/create-flask-package/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-10 10:20:05] INFO root fetch - processPackages [tensorkrowch]: executing diffoscope
+[2024-05-10 10:20:05] INFO root fetch - processPackages [tensorkrowch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorkrowch-1.1.1.tar.gz tmp/tensorkrowch-1.1.2.tar.gz --markdown 20240510/t/tensorkrowch/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-10 10:20:05] INFO root fetch - processPackages [acetylacetonez]: executing diffoscope
+[2024-05-10 10:20:05] INFO root fetch - processPackages [acetylacetonez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetylacetonez-1.1.tar.gz tmp/acetylacetonez-2.1.tar.gz --markdown 20240510/a/acetylacetonez/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 10:20:05] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-10 10:20:05] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.1.4.tar.gz tmp/common-tools-ai-bnq-0.1.5.tar.gz --markdown 20240510/c/common-tools-ai-bnq/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 10:20:05] INFO root fetch - processPackages [va-am]: executing diffoscope
+[2024-05-10 10:20:05] INFO root fetch - processPackages [va-am]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/va_am-0.1.2.tar.gz tmp/va_am-0.1.3.tar.gz --markdown 20240510/v/va-am/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 10:20:05] INFO root fetch - processPackages [doblib]: Downloading https://files.pythonhosted.org/packages/e3/9d/3bdbd800045aa48f8a80df87ba3c36b2dee944d7940a2fe598421affd1ad/doblib-0.9.1-py3-none-any.whl
+[2024-05-10 10:20:06] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.1.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - main [MainThread]: End processing [create-flask-package]: success
+[2024-05-10 10:20:06] INFO root fetch - processPackages [orq-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orq_ai_sdk-2.3.5.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - processPackages [orq-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orq_ai_sdk-2.3.6.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - main [MainThread]: End processing [orq-ai-sdk]: success
+[2024-05-10 10:20:06] INFO root fetch - processPackages [acetylacetonez]: Remove: archive file [/home/abi/fetcher/tmp/acetylacetonez-1.1.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - processPackages [acetylacetonez]: Remove: archive file [/home/abi/fetcher/tmp/acetylacetonez-2.1.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - main [MainThread]: End processing [acetylacetonez]: success
+[2024-05-10 10:20:06] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.4.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.5.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-10 10:20:06] INFO root fetch - processPackages [va-am]: Remove: archive file [/home/abi/fetcher/tmp/va_am-0.1.2.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - processPackages [va-am]: Remove: archive file [/home/abi/fetcher/tmp/va_am-0.1.3.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - main [MainThread]: End processing [va-am]: success
+[2024-05-10 10:20:06] INFO root fetch - processPackages [tensorkrowch]: Remove: archive file [/home/abi/fetcher/tmp/tensorkrowch-1.1.1.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - processPackages [tensorkrowch]: Remove: archive file [/home/abi/fetcher/tmp/tensorkrowch-1.1.2.tar.gz]
+[2024-05-10 10:20:06] INFO root fetch - main [MainThread]: End processing [tensorkrowch]: success
+[2024-05-10 10:20:06] INFO root fetch - processPackages [doblib]: executing diffoscope
+[2024-05-10 10:20:06] INFO root fetch - processPackages [doblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doblib-0.9.0-py3-none-any.whl.zip tmp/doblib-0.9.1-py3-none-any.whl.zip --markdown 20240510/d/doblib/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 10:20:07] INFO root fetch - processPackages [doblib]: Remove: archive file [/home/abi/fetcher/tmp/doblib-0.9.0-py3-none-any.whl.zip]
+[2024-05-10 10:20:07] INFO root fetch - processPackages [doblib]: Remove: archive file [/home/abi/fetcher/tmp/doblib-0.9.1-py3-none-any.whl.zip]
+[2024-05-10 10:20:07] INFO root fetch - main [MainThread]: End processing [doblib]: success
+[2024-05-10 10:20:07] INFO root fetch - main [MainThread]: Store serial: [23143213]
