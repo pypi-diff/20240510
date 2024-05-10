@@ -9975,3 +9975,39 @@
 [2024-05-10 09:46:09] INFO root fetch - processPackages [jupyter-rfb]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rfb-0.4.3.tar.gz]
 [2024-05-10 09:46:09] INFO root fetch - main [MainThread]: End processing [jupyter-rfb]: success
 [2024-05-10 09:46:09] INFO root fetch - main [MainThread]: Store serial: [23142893]
+[2024-05-10 09:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142893]
+[2024-05-10 09:48:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 09:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbimagetotext
+[2024-05-10 09:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-ml-group3
+[2024-05-10 09:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anfractz
+[2024-05-10 09:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nemoguardrails
+[2024-05-10 09:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: riddlesolver
+[2024-05-10 09:48:19] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:48:19] INFO root fetch - processPackages [riddlesolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:48:19] WARNING root fetch - processPackages [lib-ml-group3]: Skipping, unable to determine old version
+[2024-05-10 09:48:19] INFO root fetch - main [MainThread]: End processing [lib-ml-group3] error
+[2024-05-10 09:48:19] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-10 09:48:19] WARNING root fetch - processPackages [anfractz]: Skipping, unable to determine old version
+[2024-05-10 09:48:19] INFO root fetch - main [MainThread]: End processing [anfractz] error
+[2024-05-10 09:48:19] INFO root fetch - processPackages [nemoguardrails]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-10 09:48:19] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/8b/0b/5d8ba16dc2ea29ecfd27ef083dad139cd6ff7a327a7f22334bb9aa882db7/riddlesolver-0.1.8.tar.gz
+[2024-05-10 09:48:19] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/46/68/daef27bbcc176c6be119dbd92ff2be28b6d27558058a394d39d371188751/riddlesolver-0.1.9.tar.gz
+[2024-05-10 09:48:19] INFO root fetch - processPackages [nemoguardrails]: Downloading https://files.pythonhosted.org/packages/30/f7/1606875a545c4d659e73549533cc7990902a19150409eab3395156fb7d9c/nemoguardrails-0.8.3-py3-none-any.whl
+[2024-05-10 09:48:19] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-10 09:48:19] INFO root fetch - processPackages [riddlesolver]: executing diffoscope
+[2024-05-10 09:48:19] INFO root fetch - processPackages [riddlesolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riddlesolver-0.1.8.tar.gz tmp/riddlesolver-0.1.9.tar.gz --markdown 20240510/r/riddlesolver/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:48:19] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-10 09:48:19] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240510/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:48:20] INFO root fetch - processPackages [nemoguardrails]: Downloading https://files.pythonhosted.org/packages/94/5c/a1e5e8842a4dd0cf91f3b095a58b9ff6529c629947e14d42355fda2ad384/nemoguardrails-0.9.0-py3-none-any.whl
+[2024-05-10 09:48:20] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.8.tar.gz]
+[2024-05-10 09:48:20] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
+[2024-05-10 09:48:20] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
+[2024-05-10 09:48:20] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-10 09:48:20] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-10 09:48:20] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-10 09:48:20] INFO root fetch - processPackages [nemoguardrails]: executing diffoscope
+[2024-05-10 09:48:20] INFO root fetch - processPackages [nemoguardrails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemoguardrails-0.8.3-py3-none-any.whl.zip tmp/nemoguardrails-0.9.0-py3-none-any.whl.zip --markdown 20240510/n/nemoguardrails/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-10 09:48:22] INFO root fetch - processPackages [nemoguardrails]: Remove: archive file [/home/abi/fetcher/tmp/nemoguardrails-0.8.3-py3-none-any.whl.zip]
+[2024-05-10 09:48:22] INFO root fetch - processPackages [nemoguardrails]: Remove: archive file [/home/abi/fetcher/tmp/nemoguardrails-0.9.0-py3-none-any.whl.zip]
+[2024-05-10 09:48:22] INFO root fetch - main [MainThread]: End processing [nemoguardrails]: success
+[2024-05-10 09:48:22] INFO root fetch - main [MainThread]: Store serial: [23142907]
