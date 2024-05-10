@@ -9236,3 +9236,33 @@
 [2024-05-10 09:04:14] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.9.tar.gz]
 [2024-05-10 09:04:14] INFO root fetch - main [MainThread]: End processing [hata]: success
 [2024-05-10 09:04:14] INFO root fetch - main [MainThread]: Store serial: [23142555]
+[2024-05-10 09:06:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142555]
+[2024-05-10 09:06:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 09:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: person-local
+[2024-05-10 09:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultima-scraper-collection
+[2024-05-10 09:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irisml-tasks-yolov9
+[2024-05-10 09:06:25] INFO root fetch - processPackages [irisml-tasks-yolov9]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 09:06:25] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 09:06:25] INFO root fetch - processPackages [ultima-scraper-collection]: New version: [2.3.13] Old Version: [2.3.12]
+[2024-05-10 09:06:25] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-10 09:06:25] INFO root fetch - processPackages [irisml-tasks-yolov9]: Downloading https://files.pythonhosted.org/packages/57/d1/cb11d014776e6f2e9001320d86a2444238f77761db51e29de6c94b258a52/irisml_tasks_yolov9-0.0.3.tar.gz
+[2024-05-10 09:06:25] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/42/97/f7e5af52e6346c9d9ff23edf921c726c7bf5bb6ce04725435ce8d134f934/ultima_scraper_collection-2.3.12.tar.gz
+[2024-05-10 09:06:25] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-10 09:06:26] INFO root fetch - processPackages [irisml-tasks-yolov9]: Downloading https://files.pythonhosted.org/packages/5e/49/365230da1f9f6c3af8b33b1d873027c76e0cce37dfc9278af9be9d10d6b4/irisml_tasks_yolov9-0.0.4.tar.gz
+[2024-05-10 09:06:26] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-10 09:06:26] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240510/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 09:06:26] INFO root fetch - processPackages [irisml-tasks-yolov9]: executing diffoscope
+[2024-05-10 09:06:26] INFO root fetch - processPackages [irisml-tasks-yolov9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml_tasks_yolov9-0.0.3.tar.gz tmp/irisml_tasks_yolov9-0.0.4.tar.gz --markdown 20240510/i/irisml-tasks-yolov9/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 09:06:26] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/ed/70/7ce4e5e5a7cd7b1021b55844efc0fee794155a77ecb2bdba4e30e2b7db34/ultima_scraper_collection-2.3.13.tar.gz
+[2024-05-10 09:06:26] INFO root fetch - processPackages [ultima-scraper-collection]: executing diffoscope
+[2024-05-10 09:06:26] INFO root fetch - processPackages [ultima-scraper-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_collection-2.3.12.tar.gz tmp/ultima_scraper_collection-2.3.13.tar.gz --markdown 20240510/u/ultima-scraper-collection/2.3.12-2.3.13/README.md --exclude *.pyd
+[2024-05-10 09:06:26] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-10 09:06:26] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-10 09:06:26] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-10 09:06:26] INFO root fetch - processPackages [irisml-tasks-yolov9]: Remove: archive file [/home/abi/fetcher/tmp/irisml_tasks_yolov9-0.0.3.tar.gz]
+[2024-05-10 09:06:26] INFO root fetch - processPackages [irisml-tasks-yolov9]: Remove: archive file [/home/abi/fetcher/tmp/irisml_tasks_yolov9-0.0.4.tar.gz]
+[2024-05-10 09:06:26] INFO root fetch - main [MainThread]: End processing [irisml-tasks-yolov9]: success
+[2024-05-10 09:06:27] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.3.12.tar.gz]
+[2024-05-10 09:06:27] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.3.13.tar.gz]
+[2024-05-10 09:06:27] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
+[2024-05-10 09:06:27] INFO root fetch - main [MainThread]: Store serial: [23142565]
