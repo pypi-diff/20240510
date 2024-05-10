@@ -14446,3 +14446,39 @@
 [2024-05-10 12:34:53] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.9.tar.gz]
 [2024-05-10 12:34:53] INFO root fetch - main [MainThread]: End processing [agilerl]: success
 [2024-05-10 12:34:53] INFO root fetch - main [MainThread]: Store serial: [23144732]
+[2024-05-10 12:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144732]
+[2024-05-10 12:37:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autohemolyticz
+[2024-05-10 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-version-remla-6
+[2024-05-10 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kozmoml-catboost
+[2024-05-10 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kozmoml-huggingface
+[2024-05-10 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: middleware-help-python
+[2024-05-10 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kozmoml-mlflow
+[2024-05-10 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: palstavez
+[2024-05-10 12:37:06] WARNING root fetch - processPackages [kozmoml-huggingface]: Skipping, unable to determine old version
+[2024-05-10 12:37:06] INFO root fetch - main [MainThread]: End processing [kozmoml-huggingface] error
+[2024-05-10 12:37:06] WARNING root fetch - processPackages [kozmoml-mlflow]: Skipping, unable to determine old version
+[2024-05-10 12:37:06] INFO root fetch - main [MainThread]: End processing [kozmoml-mlflow] error
+[2024-05-10 12:37:06] INFO root fetch - processPackages [autohemolyticz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 12:37:06] INFO root fetch - processPackages [middleware-help-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-10 12:37:06] WARNING root fetch - processPackages [palstavez]: Skipping, unable to determine old version
+[2024-05-10 12:37:06] INFO root fetch - main [MainThread]: End processing [palstavez] error
+[2024-05-10 12:37:06] WARNING root fetch - processPackages [kozmoml-catboost]: Skipping, unable to determine old version
+[2024-05-10 12:37:06] WARNING root fetch - processPackages [lib-version-remla-6]: Skipping, unable to determine old version
+[2024-05-10 12:37:06] INFO root fetch - main [MainThread]: End processing [kozmoml-catboost] error
+[2024-05-10 12:37:06] INFO root fetch - main [MainThread]: End processing [lib-version-remla-6] error
+[2024-05-10 12:37:06] INFO root fetch - processPackages [autohemolyticz]: Downloading https://files.pythonhosted.org/packages/e2/01/ac28e8c9f9bc6a2f1ba720ff97aa243caa924b2d20dff8aa4016e3654a1e/autohemolyticz-1.1.tar.gz
+[2024-05-10 12:37:06] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/c5/58/07a488b008dcfdb84ab86c3f8ca72aac2fdfca41eb16775c16bdd053d5ba/middleware-help-python-0.0.7.tar.gz
+[2024-05-10 12:37:07] INFO root fetch - processPackages [autohemolyticz]: Downloading https://files.pythonhosted.org/packages/5f/77/b1e2e9211cd5324d7f091ba40f38d27275ca2f2a009dd8cb4dc373a1fffe/autohemolyticz-2.1.tar.gz
+[2024-05-10 12:37:07] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/6a/c5/5361010d7a3eb790f06ac83e8b2aaf29a19948c8785df6e76fb2d8b4b6fb/middleware-help-python-0.0.8.tar.gz
+[2024-05-10 12:37:07] INFO root fetch - processPackages [autohemolyticz]: executing diffoscope
+[2024-05-10 12:37:07] INFO root fetch - processPackages [autohemolyticz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohemolyticz-1.1.tar.gz tmp/autohemolyticz-2.1.tar.gz --markdown 20240510/a/autohemolyticz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 12:37:07] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-05-10 12:37:07] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.7.tar.gz tmp/middleware-help-python-0.0.8.tar.gz --markdown 20240510/m/middleware-help-python/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-10 12:37:07] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.7.tar.gz]
+[2024-05-10 12:37:07] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.8.tar.gz]
+[2024-05-10 12:37:07] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-05-10 12:37:07] INFO root fetch - processPackages [autohemolyticz]: Remove: archive file [/home/abi/fetcher/tmp/autohemolyticz-1.1.tar.gz]
+[2024-05-10 12:37:07] INFO root fetch - processPackages [autohemolyticz]: Remove: archive file [/home/abi/fetcher/tmp/autohemolyticz-2.1.tar.gz]
+[2024-05-10 12:37:07] INFO root fetch - main [MainThread]: End processing [autohemolyticz]: success
+[2024-05-10 12:37:07] INFO root fetch - main [MainThread]: Store serial: [23144761]
