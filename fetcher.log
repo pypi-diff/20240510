@@ -24675,3 +24675,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:14:09] INFO root fetch - processPackages [heatmiser-wifi]: Remove: archive file [/home/abi/fetcher/tmp/heatmiser_wifi-1.3.0.tar.gz]
 [2024-05-10 18:14:09] INFO root fetch - main [MainThread]: End processing [heatmiser-wifi]: success
 [2024-05-10 18:14:09] INFO root fetch - main [MainThread]: Store serial: [23149519]
+[2024-05-10 18:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149519]
+[2024-05-10 18:16:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scenarioz
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotify-web-downloader
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-newrelic
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catc
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aider-chat
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deadishlyz
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-civo
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wandarr
+[2024-05-10 18:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-snowflake
+[2024-05-10 18:16:19] WARNING root fetch - processPackages [catc]: Skipping, unable to determine old version
+[2024-05-10 18:16:19] INFO root fetch - main [MainThread]: End processing [catc] error
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715335912] Old Version: [2.4.0a1715318369]
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-10 18:16:19] INFO root fetch - processPackages [spotify-web-downloader]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-05-10 18:16:19] WARNING root fetch - processPackages [scenarioz]: Skipping, unable to determine old version
+[2024-05-10 18:16:19] INFO root fetch - main [MainThread]: End processing [scenarioz] error
+[2024-05-10 18:16:19] INFO root fetch - processPackages [wandarr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 18:16:19] INFO root fetch - processPackages [deadishlyz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 18:16:19] INFO root fetch - processPackages [aider-chat]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/cf/f6/cbd2dbdb315748cc8cd668e9386564b127093790103297d3af1372fd6a18/pulumi_civo-2.4.0a1715318369.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [spotify-web-downloader]: Downloading https://files.pythonhosted.org/packages/8f/c3/4120458bc74932cdea6693d0265047cc8b0da62c6d2cf2285c0aa4ab6d2e/spotify_web_downloader-1.6.6.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [deadishlyz]: Downloading https://files.pythonhosted.org/packages/57/44/14f5409404458dcead01fc00c84ce3182d0ea74531763ded0e677238e7f2/deadishlyz-1.1.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/97/6d/6e7b681204d0890d7a1d07928f1168e3e15b16856958c5b3934aa123f438/aider-chat-0.8.3.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [wandarr]: Downloading https://files.pythonhosted.org/packages/38/85/0b48a746dbc0142983340e11a78837dadde64d9125234f5fe2d968663f34/wandarr-1.0.8.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-10 18:16:19] WARNING root fetch - processPackages [wandarr]: Skipping package: exceeds size limit 39405317>=10485760
+[2024-05-10 18:16:19] INFO root fetch - main [MainThread]: End processing [wandarr] error
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/c8/49/b62ae4ed13fc031fa7ceda3b55cf94825ffabcc0c5701bd091b74f157d92/pulumi_civo-2.4.0a1715335912.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240510/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240510/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-10 18:16:19] INFO root fetch - processPackages [spotify-web-downloader]: Downloading https://files.pythonhosted.org/packages/e1/ae/8a7487f856a5f35b143b6e76aa48beaa4cb2809388a6b013896085c16e57/spotify_web_downloader-1.6.7.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [deadishlyz]: Downloading https://files.pythonhosted.org/packages/a1/6b/9e93a572fa3f6a29ed8cc08709191bbde4678069592e417f1cc1d3fbc77d/deadishlyz-2.1.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-10 18:16:19] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715318369.tar.gz tmp/pulumi_civo-2.4.0a1715335912.tar.gz --markdown 20240510/p/pulumi-civo/2.4.0a1715318369-2.4.0a1715335912/README.md --exclude *.pyd
+[2024-05-10 18:16:19] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/27/f3/89e2047247691d2f850711b47e321bccb308fdcd459ee406fc6fd652d143/aider-chat-0.9.0.tar.gz
+[2024-05-10 18:16:19] INFO root fetch - processPackages [spotify-web-downloader]: executing diffoscope
+[2024-05-10 18:16:19] INFO root fetch - processPackages [spotify-web-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_web_downloader-1.6.6.tar.gz tmp/spotify_web_downloader-1.6.7.tar.gz --markdown 20240510/s/spotify-web-downloader/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-05-10 18:16:19] INFO root fetch - processPackages [deadishlyz]: executing diffoscope
+[2024-05-10 18:16:19] INFO root fetch - processPackages [deadishlyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadishlyz-1.1.tar.gz tmp/deadishlyz-2.1.tar.gz --markdown 20240510/d/deadishlyz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 18:16:19] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2024-05-10 18:16:19] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.3.tar.gz tmp/aider-chat-0.9.0.tar.gz --markdown 20240510/a/aider-chat/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-10 18:16:20] INFO root fetch - processPackages [deadishlyz]: Remove: archive file [/home/abi/fetcher/tmp/deadishlyz-1.1.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - processPackages [deadishlyz]: Remove: archive file [/home/abi/fetcher/tmp/deadishlyz-2.1.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - main [MainThread]: End processing [deadishlyz]: success
+[2024-05-10 18:16:20] INFO root fetch - processPackages [spotify-web-downloader]: Remove: archive file [/home/abi/fetcher/tmp/spotify_web_downloader-1.6.6.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - processPackages [spotify-web-downloader]: Remove: archive file [/home/abi/fetcher/tmp/spotify_web_downloader-1.6.7.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - main [MainThread]: End processing [spotify-web-downloader]: success
+[2024-05-10 18:16:20] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715318369.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715335912.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-10 18:16:20] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-10 18:16:20] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.3.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2024-05-10 18:16:20] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-10 18:16:20] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-10 18:16:20] INFO root fetch - main [MainThread]: Store serial: [23149546]
