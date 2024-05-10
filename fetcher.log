@@ -23491,3 +23491,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:35:12] INFO root fetch - processPackages [mkm]: Remove: archive file [/home/abi/fetcher/tmp/mkm-2.0.0.tar.gz]
 [2024-05-10 17:35:12] INFO root fetch - main [MainThread]: End processing [mkm]: success
 [2024-05-10 17:35:12] INFO root fetch - main [MainThread]: Store serial: [23149037]
+[2024-05-10 17:37:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149037]
+[2024-05-10 17:37:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secondtrycpp
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adlike
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matplotlib-set-diagrams
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydeck
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mmdit
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langflow-base
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: focusployer
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auto-di-tag
+[2024-05-10 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Notion2Pelican
+[2024-05-10 17:37:21] INFO root fetch - processPackages [secondtrycpp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 17:37:21] INFO root fetch - processPackages [adlike]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 17:37:21] INFO root fetch - processPackages [pydeck]: New version: [0.9.0b1] Old Version: [0.9.0b0]
+[2024-05-10 17:37:21] INFO root fetch - processPackages [Notion2Pelican]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 17:37:21] INFO root fetch - processPackages [adlike]: Downloading https://files.pythonhosted.org/packages/ae/65/97ca00941c892b938cd86fdb76d479b2e7e79ef74acece93bf86a12c272b/adlike-0.0.3.tar.gz
+[2024-05-10 17:37:21] WARNING root fetch - processPackages [matplotlib-set-diagrams]: Skipping, unable to determine old version
+[2024-05-10 17:37:21] INFO root fetch - main [MainThread]: End processing [matplotlib-set-diagrams] error
+[2024-05-10 17:37:21] INFO root fetch - processPackages [mmdit]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-10 17:37:21] WARNING root fetch - processPackages [auto-di-tag]: Skipping, unable to determine old version
+[2024-05-10 17:37:21] INFO root fetch - main [MainThread]: End processing [auto-di-tag] error
+[2024-05-10 17:37:21] INFO root fetch - processPackages [langflow-base]: New version: [0.0.42] Old Version: [0.0.41]
+[2024-05-10 17:37:21] WARNING root fetch - processPackages [focusployer]: Skipping, unable to determine old version
+[2024-05-10 17:37:21] INFO root fetch - main [MainThread]: End processing [focusployer] error
+[2024-05-10 17:37:21] INFO root fetch - processPackages [secondtrycpp]: Downloading https://files.pythonhosted.org/packages/f3/c5/7c203dd0a76cca39d6396d559c8f059e6d5bc59b7311a61d325fe5e46dda/secondtrycpp-0.1.0.tar.gz
+[2024-05-10 17:37:21] INFO root fetch - processPackages [pydeck]: Downloading https://files.pythonhosted.org/packages/cd/a4/c379b7440b3307a8de90ad4b49241c046c8b28eb54194e4a9a27f362d5ef/pydeck-0.9.0b0.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [Notion2Pelican]: Downloading https://files.pythonhosted.org/packages/f8/ba/77d209bf07462f62f3249be256d5fa46b7704cc0eccb2ea45aef1b47afec/Notion2Pelican-0.0.2-py3-none-any.whl
+[2024-05-10 17:37:22] INFO root fetch - processPackages [adlike]: Downloading https://files.pythonhosted.org/packages/88/1c/e12e9c87efe51841d7b18b7989429dd3c342580bbee30454dd2ff93c4a8f/adlike-0.0.4.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/dd/08/fe092d22880831e594d53f332c34e38d9e160296f6befb140b1117f53600/langflow_base-0.0.41.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [adlike]: executing diffoscope
+[2024-05-10 17:37:22] INFO root fetch - processPackages [adlike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adlike-0.0.3.tar.gz tmp/adlike-0.0.4.tar.gz --markdown 20240510/a/adlike/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 17:37:22] INFO root fetch - processPackages [secondtrycpp]: Downloading https://files.pythonhosted.org/packages/df/ee/67c7a3b4f0c92fad075da0ec51d542cfd8a990f06726533e92d116ce7021/secondtrycpp-0.1.1.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [mmdit]: Downloading https://files.pythonhosted.org/packages/c0/3a/93a3f49be34e23ef91a7b849a175e2b37698fb2f04371af9d77542ee8c36/mmdit-0.0.9.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [secondtrycpp]: executing diffoscope
+[2024-05-10 17:37:22] INFO root fetch - processPackages [secondtrycpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secondtrycpp-0.1.0.tar.gz tmp/secondtrycpp-0.1.1.tar.gz --markdown 20240510/s/secondtrycpp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 17:37:22] INFO root fetch - processPackages [Notion2Pelican]: Downloading https://files.pythonhosted.org/packages/17/0f/db9bcef3d19f23e3bb6c40d67d7b4d09785f0e22d26f658e9f1e61e84094/Notion2Pelican-0.0.3-py3-none-any.whl
+[2024-05-10 17:37:22] INFO root fetch - processPackages [mmdit]: Downloading https://files.pythonhosted.org/packages/95/05/54ca19c0d43a845a755543cebc538260b6aa41a0995db33adf6dd8ebdfdb/mmdit-0.1.0.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [Notion2Pelican]: executing diffoscope
+[2024-05-10 17:37:22] INFO root fetch - processPackages [Notion2Pelican]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Notion2Pelican-0.0.2-py3-none-any.whl.zip tmp/Notion2Pelican-0.0.3-py3-none-any.whl.zip --markdown 20240510/N/Notion2Pelican/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 17:37:22] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/1a/dc/b9fd6fc4642d290d25033b9c51a3cafe021e53129612f9ac03dfe20b5779/langflow_base-0.0.42.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [mmdit]: executing diffoscope
+[2024-05-10 17:37:22] INFO root fetch - processPackages [mmdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmdit-0.0.9.tar.gz tmp/mmdit-0.1.0.tar.gz --markdown 20240510/m/mmdit/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-10 17:37:22] INFO root fetch - processPackages [adlike]: Remove: archive file [/home/abi/fetcher/tmp/adlike-0.0.3.tar.gz]
+[2024-05-10 17:37:22] INFO root fetch - processPackages [adlike]: Remove: archive file [/home/abi/fetcher/tmp/adlike-0.0.4.tar.gz]
+[2024-05-10 17:37:22] INFO root fetch - main [MainThread]: End processing [adlike]: success
+[2024-05-10 17:37:22] INFO root fetch - processPackages [pydeck]: Downloading https://files.pythonhosted.org/packages/c2/b4/0f50ec1bd4e18432e1aa9c9b622b3ac0d5821a9c58186490880984da9b83/pydeck-0.9.0b1.tar.gz
+[2024-05-10 17:37:22] INFO root fetch - processPackages [secondtrycpp]: Remove: archive file [/home/abi/fetcher/tmp/secondtrycpp-0.1.0.tar.gz]
+[2024-05-10 17:37:22] INFO root fetch - processPackages [secondtrycpp]: Remove: archive file [/home/abi/fetcher/tmp/secondtrycpp-0.1.1.tar.gz]
+[2024-05-10 17:37:22] INFO root fetch - main [MainThread]: End processing [secondtrycpp]: success
+[2024-05-10 17:37:22] INFO root fetch - processPackages [langflow-base]: executing diffoscope
+[2024-05-10 17:37:22] INFO root fetch - processPackages [langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow_base-0.0.41.tar.gz tmp/langflow_base-0.0.42.tar.gz --markdown 20240510/l/langflow-base/0.0.41-0.0.42/README.md --exclude *.pyd
+[2024-05-10 17:37:23] INFO root fetch - processPackages [pydeck]: executing diffoscope
+[2024-05-10 17:37:23] INFO root fetch - processPackages [pydeck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeck-0.9.0b0.tar.gz tmp/pydeck-0.9.0b1.tar.gz --markdown 20240510/p/pydeck/0.9.0b0-0.9.0b1/README.md --exclude *.pyd
+[2024-05-10 17:37:23] INFO root fetch - processPackages [Notion2Pelican]: Remove: archive file [/home/abi/fetcher/tmp/Notion2Pelican-0.0.2-py3-none-any.whl.zip]
+[2024-05-10 17:37:23] INFO root fetch - processPackages [Notion2Pelican]: Remove: archive file [/home/abi/fetcher/tmp/Notion2Pelican-0.0.3-py3-none-any.whl.zip]
+[2024-05-10 17:37:23] INFO root fetch - main [MainThread]: End processing [Notion2Pelican]: success
+[2024-05-10 17:37:23] INFO root fetch - processPackages [mmdit]: Remove: archive file [/home/abi/fetcher/tmp/mmdit-0.0.9.tar.gz]
+[2024-05-10 17:37:23] INFO root fetch - processPackages [mmdit]: Remove: archive file [/home/abi/fetcher/tmp/mmdit-0.1.0.tar.gz]
+[2024-05-10 17:37:23] INFO root fetch - main [MainThread]: End processing [mmdit]: success
+[2024-05-10 17:37:47] INFO root fetch - processPackages [pydeck]: Remove: archive file [/home/abi/fetcher/tmp/pydeck-0.9.0b0.tar.gz]
+[2024-05-10 17:37:47] INFO root fetch - processPackages [pydeck]: Remove: archive file [/home/abi/fetcher/tmp/pydeck-0.9.0b1.tar.gz]
+[2024-05-10 17:37:47] INFO root fetch - main [MainThread]: End processing [pydeck]: success
+[2024-05-10 17:39:13] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.41.tar.gz]
+[2024-05-10 17:39:13] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.42.tar.gz]
+[2024-05-10 17:39:13] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
+[2024-05-10 17:39:13] INFO root fetch - main [MainThread]: Store serial: [23149072]
