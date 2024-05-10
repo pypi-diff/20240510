@@ -6132,3 +6132,63 @@
 [2024-05-10 06:04:25] INFO root fetch - processPackages [android-prober]: Remove: archive file [/home/abi/fetcher/tmp/android_prober-0.1.5.tar.gz]
 [2024-05-10 06:04:25] INFO root fetch - main [MainThread]: End processing [android-prober]: success
 [2024-05-10 06:04:25] INFO root fetch - main [MainThread]: Store serial: [23141055]
+[2024-05-10 06:06:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141055]
+[2024-05-10 06:06:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 06:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gink
+[2024-05-10 06:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2024-05-10 06:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiny-progress-bar
+[2024-05-10 06:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comidz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reasonify-headless
+[2024-05-10 06:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-binary
+[2024-05-10 06:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contact-user-external-local
+[2024-05-10 06:06:34] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc9] Old Version: [2.8.0rc8]
+[2024-05-10 06:06:34] INFO root fetch - processPackages [tiny-progress-bar]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-10 06:06:34] INFO root fetch - processPackages [contact-user-external-local]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 06:06:34] INFO root fetch - processPackages [gink]: New version: [0.20240509.1715238879] Old Version: [0.20240407.1712460796]
+[2024-05-10 06:06:34] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-10 06:06:34] INFO root fetch - processPackages [reasonify-headless]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2024-05-10 06:06:34] WARNING root fetch - processPackages [comidz]: Skipping, unable to determine old version
+[2024-05-10 06:06:34] INFO root fetch - main [MainThread]: End processing [comidz] error
+[2024-05-10 06:06:34] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/5f/ee/9f99cee94313fd0846bc0b261c0a705f5b9f0b87d20d6934a77d616566e0/rime_sdk-2.8.0rc8.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/1f/f2/14502257f1d345c3e863d6799e7ab416bd5e69e65d919acb58fedf29a6ca/gink-0.20240407.1712460796.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [tiny-progress-bar]: Downloading https://files.pythonhosted.org/packages/e9/ca/077cafe46477442e7f42bcef10858821dc38113160a7ac898ec928cd0eba/tiny_progress_bar-0.1.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/e5/84/c83a41f919b774cc802c8bfabc9c4453f0585625e2c57e4d2c5e49d7a170/contact_user_external_local-0.0.1.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/9d/d5/16220b8170a98dd64f7661ef1b1e3494886960a9b6ec754d18f66016453a/reasonify_headless-0.0.2.1.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/bc/ba/d1c9ca6e591a0063bcfa1785fdaed8a65e1bac168016461ded39105a7430/gink-0.20240509.1715238879.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/82/d0/af2bc54a7ae81e59f924b38132b45b3fa131069dcddc38c084be863230b7/rime_sdk-2.8.0rc9.tar.gz
+[2024-05-10 06:06:34] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-10 06:06:34] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240510/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-10 06:06:34] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-05-10 06:06:34] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240407.1712460796.tar.gz tmp/gink-0.20240509.1715238879.tar.gz --markdown 20240510/g/gink/0.20240407.1712460796-0.20240509.1715238879/README.md --exclude *.pyd
+[2024-05-10 06:06:34] INFO root fetch - processPackages [tiny-progress-bar]: Downloading https://files.pythonhosted.org/packages/0f/2b/8122f49537211bb3ba88667b25738620b21b81cefa4939d26427830299f7/tiny_progress_bar-0.1.1.tar.gz
+[2024-05-10 06:06:35] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-10 06:06:35] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc8.tar.gz tmp/rime_sdk-2.8.0rc9.tar.gz --markdown 20240510/r/rime-sdk/2.8.0rc8-2.8.0rc9/README.md --exclude *.pyd
+[2024-05-10 06:06:35] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/fb/7f/1af80dda8fe583a3b05de384f063223f27ceab3dc06b2b1f706b11282330/contact_user_external_local-0.0.2.tar.gz
+[2024-05-10 06:06:35] INFO root fetch - processPackages [tiny-progress-bar]: executing diffoscope
+[2024-05-10 06:06:35] INFO root fetch - processPackages [tiny-progress-bar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_progress_bar-0.1.tar.gz tmp/tiny_progress_bar-0.1.1.tar.gz --markdown 20240510/t/tiny-progress-bar/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-10 06:06:35] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/55/02/4f30284be16d42efeb2642faa0af2e1679f4c918e6ed5e63dec58c2af438/reasonify_headless-0.0.2.2.tar.gz
+[2024-05-10 06:06:35] INFO root fetch - processPackages [contact-user-external-local]: executing diffoscope
+[2024-05-10 06:06:35] INFO root fetch - processPackages [contact-user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_user_external_local-0.0.1.tar.gz tmp/contact_user_external_local-0.0.2.tar.gz --markdown 20240510/c/contact-user-external-local/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 06:06:35] INFO root fetch - processPackages [reasonify-headless]: executing diffoscope
+[2024-05-10 06:06:35] INFO root fetch - processPackages [reasonify-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonify_headless-0.0.2.1.tar.gz tmp/reasonify_headless-0.0.2.2.tar.gz --markdown 20240510/r/reasonify-headless/0.0.2.1-0.0.2.2/README.md --exclude *.pyd
+[2024-05-10 06:06:35] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-10 06:06:35] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-10 06:06:35] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-10 06:06:35] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.1.tar.gz]
+[2024-05-10 06:06:35] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.2.tar.gz]
+[2024-05-10 06:06:35] INFO root fetch - main [MainThread]: End processing [contact-user-external-local]: success
+[2024-05-10 06:06:35] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.0.2.1.tar.gz]
+[2024-05-10 06:06:35] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.0.2.2.tar.gz]
+[2024-05-10 06:06:35] INFO root fetch - main [MainThread]: End processing [reasonify-headless]: success
+[2024-05-10 06:06:36] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240407.1712460796.tar.gz]
+[2024-05-10 06:06:36] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240509.1715238879.tar.gz]
+[2024-05-10 06:06:36] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-05-10 06:06:36] INFO root fetch - processPackages [tiny-progress-bar]: Remove: archive file [/home/abi/fetcher/tmp/tiny_progress_bar-0.1.tar.gz]
+[2024-05-10 06:06:36] INFO root fetch - processPackages [tiny-progress-bar]: Remove: archive file [/home/abi/fetcher/tmp/tiny_progress_bar-0.1.1.tar.gz]
+[2024-05-10 06:06:36] INFO root fetch - main [MainThread]: End processing [tiny-progress-bar]: success
+[2024-05-10 06:06:37] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc8.tar.gz]
+[2024-05-10 06:06:37] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
+[2024-05-10 06:06:37] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-10 06:06:37] INFO root fetch - main [MainThread]: Store serial: [23141076]
