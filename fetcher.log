@@ -8834,3 +8834,42 @@
 [2024-05-10 08:48:32] INFO root fetch - processPackages [common-packages]: Remove: archive file [/home/abi/fetcher/tmp/common_packages-0.1.9.tar.gz]
 [2024-05-10 08:48:32] INFO root fetch - main [MainThread]: End processing [common-packages]: success
 [2024-05-10 08:48:32] INFO root fetch - main [MainThread]: Store serial: [23142376]
+[2024-05-10 08:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142376]
+[2024-05-10 08:50:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 08:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kernel-quantile-regression
+[2024-05-10 08:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migoapiclient
+[2024-05-10 08:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpkits
+[2024-05-10 08:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptvm
+[2024-05-10 08:50:42] INFO root fetch - processPackages [migoapiclient]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-10 08:50:42] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/6d/71/fb7d13b262f05021bbd57c2caaf51b937d353f9b1ac8236e7dc8438a9b07/migoapiclient-1.2.1.tar.gz
+[2024-05-10 08:50:42] INFO root fetch - processPackages [kernel-quantile-regression]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:50:42] INFO root fetch - processPackages [gptvm]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 08:50:42] INFO root fetch - processPackages [dpkits]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-10 08:50:42] INFO root fetch - processPackages [kernel-quantile-regression]: Downloading https://files.pythonhosted.org/packages/35/53/6352628a6762cfeff73aa1ae041a84857a32b6221b5450c8c6da6a463f91/kernel_quantile_regression-0.0.8.tar.gz
+[2024-05-10 08:50:42] INFO root fetch - processPackages [gptvm]: Downloading https://files.pythonhosted.org/packages/03/1c/5e2347c2fe9f224a05614f7dc3d989e858a586c9f28b2208a6a186cbebda/gptvm-0.1.2-py3-none-any.whl
+[2024-05-10 08:50:42] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/60/f7/ba61265a0a3f888b6591b6379322d51e0e65b79c79408baa754c3f01742e/migoapiclient-1.2.2.tar.gz
+[2024-05-10 08:50:42] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/5a/9a/be66f4f22136401fdd06bb8102016751a90473a5870209de0a5d9a2ceed2/dpkits-1.2.2.tar.gz
+[2024-05-10 08:50:43] INFO root fetch - processPackages [migoapiclient]: executing diffoscope
+[2024-05-10 08:50:43] INFO root fetch - processPackages [migoapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migoapiclient-1.2.1.tar.gz tmp/migoapiclient-1.2.2.tar.gz --markdown 20240510/m/migoapiclient/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-10 08:50:43] INFO root fetch - processPackages [kernel-quantile-regression]: Downloading https://files.pythonhosted.org/packages/dc/e2/874d9d723a6de04019271195e22a7cea79c5177442591c2e127a72b9391c/kernel_quantile_regression-0.0.9.tar.gz
+[2024-05-10 08:50:43] INFO root fetch - processPackages [gptvm]: Downloading https://files.pythonhosted.org/packages/9c/52/16e9956dc2b652273fbc5ec842a2317054b8564ff6e28a89815eb1bee3a6/gptvm-0.1.3-py37-none-any.whl
+[2024-05-10 08:50:43] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/c8/e1/09f1fb197c9901d9da94dce765eeae394d61505ab67450b3b9b1e096effb/dpkits-1.2.3.tar.gz
+[2024-05-10 08:50:43] INFO root fetch - processPackages [kernel-quantile-regression]: executing diffoscope
+[2024-05-10 08:50:43] INFO root fetch - processPackages [kernel-quantile-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kernel_quantile_regression-0.0.8.tar.gz tmp/kernel_quantile_regression-0.0.9.tar.gz --markdown 20240510/k/kernel-quantile-regression/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:50:43] INFO root fetch - processPackages [gptvm]: executing diffoscope
+[2024-05-10 08:50:43] INFO root fetch - processPackages [gptvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptvm-0.1.2-py3-none-any.whl.zip tmp/gptvm-0.1.3-py37-none-any.whl.zip --markdown 20240510/g/gptvm/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 08:50:43] INFO root fetch - processPackages [dpkits]: executing diffoscope
+[2024-05-10 08:50:43] INFO root fetch - processPackages [dpkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpkits-1.2.2.tar.gz tmp/dpkits-1.2.3.tar.gz --markdown 20240510/d/dpkits/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-10 08:50:43] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.2.1.tar.gz]
+[2024-05-10 08:50:43] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.2.2.tar.gz]
+[2024-05-10 08:50:43] INFO root fetch - main [MainThread]: End processing [migoapiclient]: success
+[2024-05-10 08:50:43] INFO root fetch - processPackages [kernel-quantile-regression]: Remove: archive file [/home/abi/fetcher/tmp/kernel_quantile_regression-0.0.8.tar.gz]
+[2024-05-10 08:50:43] INFO root fetch - processPackages [kernel-quantile-regression]: Remove: archive file [/home/abi/fetcher/tmp/kernel_quantile_regression-0.0.9.tar.gz]
+[2024-05-10 08:50:43] INFO root fetch - main [MainThread]: End processing [kernel-quantile-regression]: success
+[2024-05-10 08:50:44] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.2.tar.gz]
+[2024-05-10 08:50:44] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.3.tar.gz]
+[2024-05-10 08:50:44] INFO root fetch - main [MainThread]: End processing [dpkits]: success
+[2024-05-10 08:50:44] INFO root fetch - processPackages [gptvm]: Remove: archive file [/home/abi/fetcher/tmp/gptvm-0.1.2-py3-none-any.whl.zip]
+[2024-05-10 08:50:44] INFO root fetch - processPackages [gptvm]: Remove: archive file [/home/abi/fetcher/tmp/gptvm-0.1.3-py37-none-any.whl.zip]
+[2024-05-10 08:50:44] INFO root fetch - main [MainThread]: End processing [gptvm]: success
+[2024-05-10 08:50:44] INFO root fetch - main [MainThread]: Store serial: [23142388]
