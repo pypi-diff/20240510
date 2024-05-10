@@ -3161,3 +3161,27 @@
 [2024-05-10 03:10:11] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.23.tar.gz]
 [2024-05-10 03:10:11] INFO root fetch - main [MainThread]: End processing [geocif]: success
 [2024-05-10 03:10:11] INFO root fetch - main [MainThread]: Store serial: [23139751]
+[2024-05-10 03:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139751]
+[2024-05-10 03:12:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-05-10 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profile-local
+[2024-05-10 03:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adi-pypi
+[2024-05-10 03:12:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-10 03:12:20] WARNING root fetch - processPackages [adi-pypi]: Skipping, unable to determine old version
+[2024-05-10 03:12:20] INFO root fetch - main [MainThread]: End processing [adi-pypi] error
+[2024-05-10 03:12:20] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 03:12:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-10 03:12:20] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-10 03:12:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-10 03:12:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-10 03:12:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240510/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-10 03:12:20] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-10 03:12:21] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-10 03:12:21] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240510/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 03:12:21] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-10 03:12:21] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-10 03:12:21] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-10 03:12:21] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-10 03:12:21] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-10 03:12:21] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-10 03:12:21] INFO root fetch - main [MainThread]: Store serial: [23139761]
