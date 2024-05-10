@@ -4600,3 +4600,57 @@
 [2024-05-10 04:29:39] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-10 04:29:39] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-10 04:29:39] INFO root fetch - main [MainThread]: Store serial: [23140432]
+[2024-05-10 04:31:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140432]
+[2024-05-10 04:31:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auth0
+[2024-05-10 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfreeproxies
+[2024-05-10 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-snowflake
+[2024-05-10 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feffery-utils-components
+[2024-05-10 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RegScale-CLI
+[2024-05-10 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TDSR-UWB
+[2024-05-10 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mdxcanvas
+[2024-05-10 04:31:47] WARNING root fetch - processPackages [TDSR-UWB]: Skipping, unable to determine old version
+[2024-05-10 04:31:47] INFO root fetch - main [MainThread]: End processing [TDSR-UWB] error
+[2024-05-10 04:31:47] INFO root fetch - processPackages [mdxcanvas]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 04:31:47] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1715303443] Old Version: [3.4.0a1714161308]
+[2024-05-10 04:31:47] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-10 04:31:47] INFO root fetch - processPackages [mdxcanvas]: Downloading https://files.pythonhosted.org/packages/80/3d/e08f2ef8febf302a3fa3ed911684f02b665af57cf3885fb8bdeeeffa0700/mdxcanvas-0.1.4.tar.gz
+[2024-05-10 04:31:47] INFO root fetch - processPackages [feffery-utils-components]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2024-05-10 04:31:47] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-10 04:31:47] WARNING root fetch - processPackages [pyfreeproxies]: Skipping, unable to determine old version
+[2024-05-10 04:31:47] INFO root fetch - main [MainThread]: End processing [pyfreeproxies] error
+[2024-05-10 04:31:47] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/c0/d0/157fcd0831bfcad23c209c8ccaf5ea69f728b973cb2d914e2b5801b0271a/pulumi_auth0-3.4.0a1714161308.tar.gz
+[2024-05-10 04:31:47] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-10 04:31:48] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2024-05-10 04:31:48] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/0a/07/8ccfc86619bdd75c593872ce4365982923dd768e1cebc8b20c1ade295380/feffery_utils_components-0.2.0rc8.tar.gz
+[2024-05-10 04:31:48] INFO root fetch - processPackages [mdxcanvas]: Downloading https://files.pythonhosted.org/packages/85/6a/eb43c3d2d56c9e4632797c8d4a79af34f9aea7f1c0a395454518165c6112/mdxcanvas-0.1.5.tar.gz
+[2024-05-10 04:31:48] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-10 04:31:48] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/f1/aa/d07c9b5fd0b65fd4cfab4018408dda8cc12f38665461decca6fd5c41258d/pulumi_auth0-3.4.0a1715303443.tar.gz
+[2024-05-10 04:31:48] INFO root fetch - processPackages [mdxcanvas]: executing diffoscope
+[2024-05-10 04:31:48] INFO root fetch - processPackages [mdxcanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdxcanvas-0.1.4.tar.gz tmp/mdxcanvas-0.1.5.tar.gz --markdown 20240510/m/mdxcanvas/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 04:31:48] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-10 04:31:48] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240510/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-10 04:31:48] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-10 04:31:48] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1714161308.tar.gz tmp/pulumi_auth0-3.4.0a1715303443.tar.gz --markdown 20240510/p/pulumi-auth0/3.4.0a1714161308-3.4.0a1715303443/README.md --exclude *.pyd
+[2024-05-10 04:31:48] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/81/07/778978d646b2a15a81f5db8b7ec76ce6f41543e491b67f82cc41051e8332/RegScale_CLI-5.9.0-py3-none-any.whl
+[2024-05-10 04:31:48] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2024-05-10 04:31:48] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip --markdown 20240510/R/RegScale-CLI/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-10 04:31:48] INFO root fetch - processPackages [mdxcanvas]: Remove: archive file [/home/abi/fetcher/tmp/mdxcanvas-0.1.4.tar.gz]
+[2024-05-10 04:31:48] INFO root fetch - processPackages [mdxcanvas]: Remove: archive file [/home/abi/fetcher/tmp/mdxcanvas-0.1.5.tar.gz]
+[2024-05-10 04:31:48] INFO root fetch - main [MainThread]: End processing [mdxcanvas]: success
+[2024-05-10 04:31:49] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1714161308.tar.gz]
+[2024-05-10 04:31:49] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715303443.tar.gz]
+[2024-05-10 04:31:49] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-10 04:31:49] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-10 04:31:49] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-10 04:31:49] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-10 04:31:49] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2024-05-10 04:31:49] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
+[2024-05-10 04:31:49] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2024-05-10 04:31:51] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/45/a9/10eefc492704996ca69e4455b3aff875c8f400db6c9802d6fc66c53379d6/feffery_utils_components-0.2.0rc9.tar.gz
+[2024-05-10 04:31:53] INFO root fetch - processPackages [feffery-utils-components]: executing diffoscope
+[2024-05-10 04:31:53] INFO root fetch - processPackages [feffery-utils-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_utils_components-0.2.0rc8.tar.gz tmp/feffery_utils_components-0.2.0rc9.tar.gz --markdown 20240510/f/feffery-utils-components/0.2.0rc8-0.2.0rc9/README.md --exclude *.pyd
+[2024-05-10 04:32:02] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc8.tar.gz]
+[2024-05-10 04:32:02] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc9.tar.gz]
+[2024-05-10 04:32:02] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
+[2024-05-10 04:32:02] INFO root fetch - main [MainThread]: Store serial: [23140453]
