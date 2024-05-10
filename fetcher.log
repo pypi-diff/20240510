@@ -5684,3 +5684,15 @@
 [2024-05-10 05:31:38] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.9.0.tar.gz]
 [2024-05-10 05:31:38] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform]: success
 [2024-05-10 05:31:38] INFO root fetch - main [MainThread]: Store serial: [23140881]
+[2024-05-10 05:33:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140881]
+[2024-05-10 05:33:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 05:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msanic
+[2024-05-10 05:33:49] INFO root fetch - processPackages [msanic]: New version: [1.0.22] Old Version: [1.0.21]
+[2024-05-10 05:33:49] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/a0/d6/33356533ef337e714a8e9001951bf361a0223c87ce727c6f43f21a513e18/msanic-1.0.21-py3-none-any.whl
+[2024-05-10 05:33:49] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/11/6a/ea3eff8de2c37e225b396cb5b158d44d4d34ef97ca2c8860d557a8022627/msanic-1.0.22-py3-none-any.whl
+[2024-05-10 05:33:49] INFO root fetch - processPackages [msanic]: executing diffoscope
+[2024-05-10 05:33:49] INFO root fetch - processPackages [msanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msanic-1.0.21-py3-none-any.whl.zip tmp/msanic-1.0.22-py3-none-any.whl.zip --markdown 20240510/m/msanic/1.0.21-1.0.22/README.md --exclude *.pyd
+[2024-05-10 05:33:50] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.21-py3-none-any.whl.zip]
+[2024-05-10 05:33:50] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.22-py3-none-any.whl.zip]
+[2024-05-10 05:33:50] INFO root fetch - main [MainThread]: End processing [msanic]: success
+[2024-05-10 05:33:50] INFO root fetch - main [MainThread]: Store serial: [23140883]
