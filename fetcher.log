@@ -5927,3 +5927,9 @@
 [2024-05-10 05:51:14] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.1.1.tar.gz]
 [2024-05-10 05:51:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
 [2024-05-10 05:51:14] INFO root fetch - main [MainThread]: Store serial: [23140971]
+[2024-05-10 05:53:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140971]
+[2024-05-10 05:53:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 05:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rhadamanthinez
+[2024-05-10 05:53:23] WARNING root fetch - processPackages [rhadamanthinez]: Skipping, unable to determine old version
+[2024-05-10 05:53:23] INFO root fetch - main [MainThread]: End processing [rhadamanthinez] error
+[2024-05-10 05:53:23] INFO root fetch - main [MainThread]: Store serial: [23140975]
