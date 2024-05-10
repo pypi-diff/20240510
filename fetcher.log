@@ -7811,3 +7811,57 @@
 [2024-05-10 07:49:54] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.4.tar.gz]
 [2024-05-10 07:49:54] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
 [2024-05-10 07:49:54] INFO root fetch - main [MainThread]: Store serial: [23141880]
+[2024-05-10 07:51:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141880]
+[2024-05-10 07:52:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 07:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-report-to-label-printer
+[2024-05-10 07:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-report-print-send
+[2024-05-10 07:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcube
+[2024-05-10 07:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MGFEA
+[2024-05-10 07:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linktest
+[2024-05-10 07:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: viessmann-gridbox-connector
+[2024-05-10 07:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: newToolsNew
+[2024-05-10 07:52:03] WARNING root fetch - processPackages [MGFEA]: Skipping, unable to determine old version
+[2024-05-10 07:52:03] INFO root fetch - main [MainThread]: End processing [MGFEA] error
+[2024-05-10 07:52:03] WARNING root fetch - processPackages [odoo-addon-base-report-to-label-printer]: Skipping, unable to determine old version
+[2024-05-10 07:52:03] INFO root fetch - processPackages [newToolsNew]: New version: [9] Old Version: [2024.0.0.8]
+[2024-05-10 07:52:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-label-printer] error
+[2024-05-10 07:52:03] INFO root fetch - processPackages [linktest]: New version: [2.7.4] Old Version: [2.7.3]
+[2024-05-10 07:52:03] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-10 07:52:03] INFO root fetch - processPackages [viessmann-gridbox-connector]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-10 07:52:03] INFO root fetch - processPackages [newToolsNew]: Downloading https://files.pythonhosted.org/packages/04/ae/dcf3f3ef6f99cf1cd519794dfb7dc425910d5559abf5f7871a9f4dc30541/newToolsNew-2024.0.0.8.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: New version: [16.0.20240509.0] Old Version: [16.0.20240117.0]
+[2024-05-10 07:52:03] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/05/fe/ae5464f10a3464e821a5ca565c09bfb20f4aea340591e61da665c76f2aad/linktest-2.7.3.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: Downloading https://files.pythonhosted.org/packages/c1/72/5dcd3d40aa70ac41653dfbe72ee9a83592fb95e9d9cc2a18a30a0ca66ee4/odoo_addons_oca_report_print_send-16.0.20240117.0-py3-none-any.whl
+[2024-05-10 07:52:03] INFO root fetch - processPackages [viessmann-gridbox-connector]: Downloading https://files.pythonhosted.org/packages/2b/b4/bde54235ca19b1e022b5e835318dacb58797a979ffe22bc122fce048ba30/viessmann_gridbox_connector-1.3.7.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/9a/71/85dbe328392fb3dcbed1095537826b3ae9fcece9917fdbe620645f5b1299/linktest-2.7.4.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-05-10 07:52:03] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240510/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-10 07:52:03] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-10 07:52:03] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.3.tar.gz tmp/linktest-2.7.4.tar.gz --markdown 20240510/l/linktest/2.7.3-2.7.4/README.md --exclude *.pyd
+[2024-05-10 07:52:03] INFO root fetch - processPackages [newToolsNew]: Downloading https://files.pythonhosted.org/packages/72/69/cbf51ea958cf4bbc082248d0cfc5facacad567ef24713d44d4ad0f81e6ad/newToolsNew-9.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [newToolsNew]: executing diffoscope
+[2024-05-10 07:52:03] INFO root fetch - processPackages [newToolsNew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newToolsNew-2024.0.0.8.tar.gz tmp/newToolsNew-9.tar.gz --markdown 20240510/n/newToolsNew/2024.0.0.8-9/README.md --exclude *.pyd
+[2024-05-10 07:52:03] INFO root fetch - processPackages [viessmann-gridbox-connector]: Downloading https://files.pythonhosted.org/packages/bc/68/c62b6b2ab1ec1bd6c0c85c6363c46eb6fa8133f888ece9c94a0a47a2a146/viessmann_gridbox_connector-1.3.8.tar.gz
+[2024-05-10 07:52:03] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: Downloading https://files.pythonhosted.org/packages/85/fa/4f52d8648a1d99fbd14bc4cd652cc2f4d61722f91f867536c97abe252ea7/odoo_addons_oca_report_print_send-16.0.20240509.0-py3-none-any.whl
+[2024-05-10 07:52:03] INFO root fetch - processPackages [viessmann-gridbox-connector]: executing diffoscope
+[2024-05-10 07:52:03] INFO root fetch - processPackages [viessmann-gridbox-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viessmann_gridbox_connector-1.3.7.tar.gz tmp/viessmann_gridbox_connector-1.3.8.tar.gz --markdown 20240510/v/viessmann-gridbox-connector/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-10 07:52:03] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: executing diffoscope
+[2024-05-10 07:52:03] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_report_print_send-16.0.20240117.0-py3-none-any.whl.zip tmp/odoo_addons_oca_report_print_send-16.0.20240509.0-py3-none-any.whl.zip --markdown 20240510/o/odoo-addons-oca-report-print-send/16.0.20240117.0-16.0.20240509.0/README.md --exclude *.pyd
+[2024-05-10 07:52:04] INFO root fetch - processPackages [newToolsNew]: Remove: archive file [/home/abi/fetcher/tmp/newToolsNew-2024.0.0.8.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - processPackages [newToolsNew]: Remove: archive file [/home/abi/fetcher/tmp/newToolsNew-9.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - main [MainThread]: End processing [newToolsNew]: success
+[2024-05-10 07:52:04] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-05-10 07:52:04] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.3.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.4.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-10 07:52:04] INFO root fetch - processPackages [viessmann-gridbox-connector]: Remove: archive file [/home/abi/fetcher/tmp/viessmann_gridbox_connector-1.3.7.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - processPackages [viessmann-gridbox-connector]: Remove: archive file [/home/abi/fetcher/tmp/viessmann_gridbox_connector-1.3.8.tar.gz]
+[2024-05-10 07:52:04] INFO root fetch - main [MainThread]: End processing [viessmann-gridbox-connector]: success
+[2024-05-10 07:52:04] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_report_print_send-16.0.20240117.0-py3-none-any.whl.zip]
+[2024-05-10 07:52:04] INFO root fetch - processPackages [odoo-addons-oca-report-print-send]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_report_print_send-16.0.20240509.0-py3-none-any.whl.zip]
+[2024-05-10 07:52:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-report-print-send]: success
+[2024-05-10 07:52:04] INFO root fetch - main [MainThread]: Store serial: [23141898]
