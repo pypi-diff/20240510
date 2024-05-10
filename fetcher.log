@@ -16370,3 +16370,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:32:12] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.6.post2.tar.gz]
 [2024-05-10 13:32:12] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
 [2024-05-10 13:32:12] INFO root fetch - main [MainThread]: Store serial: [23145527]
+[2024-05-10 13:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145527]
+[2024-05-10 13:34:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tls
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catnekaise.actions-constructs
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-sumologic
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rancher2
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-wavefront
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brahmanismz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-snowflake
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: glitch-python-hcl2
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orca_nw_lib
+[2024-05-10 13:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-core-xe-21
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1715307330] Old Version: [3.2.0a1715237486]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1715306927] Old Version: [5.1.0a1715237163]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715304682] Old Version: [6.2.0a1715235918]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [catnekaise.actions-constructs]: New version: [0.2.22] Old Version: [0.2.21]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [glitch-python-hcl2]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-10 13:34:36] WARNING root fetch - processPackages [brahmanismz]: Skipping, unable to determine old version
+[2024-05-10 13:34:36] INFO root fetch - main [MainThread]: End processing [brahmanismz] error
+[2024-05-10 13:34:36] INFO root fetch - processPackages [orca_nw_lib]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/11/50/802e6aeabe0d7c68d1fba4103abfc05c7b8f3b7042c77fb9247e9195124e/pulumi_wavefront-3.2.0a1715237486.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240510] Old Version: [2.5.0b20240509]
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/2f/e5/daa759fe87ae60f2b2c33a9883a2f92eef8024388933220d1e79b98f8c91/pulumi_tls-5.1.0a1715237163.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/87/75/6858ad54303cbf8bfb49e3e92c804b0629be27c0309e5e6ed194007b3d28/pulumi_rancher2-6.2.0a1715235918.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [catnekaise.actions-constructs]: Downloading https://files.pythonhosted.org/packages/6d/6a/18a40d8500255b16711e6fc3bcd8c1c2b8d2b4f381d4019faa4b60a7c0b1/catnekaise.actions-constructs-0.2.21.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [orca_nw_lib]: Downloading https://files.pythonhosted.org/packages/c2/db/468463ad8f24f8b96661a2f5d3e1426395ec3c90ece00be7c9b15e719a36/orca_nw_lib-1.3.6.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [glitch-python-hcl2]: Downloading https://files.pythonhosted.org/packages/46/ac/c9cff4ddc384164341c88119069d277ed8f2a947e032e846f30f434af1e8/glitch-python-hcl2-0.1.4.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/d6/f0/5a8288e3997ea206d7068a1b7d505ed5fe411db8f9e88e2883829b07ec9c/pulumi_wavefront-3.2.0a1715307330.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/5d/69/d69d95a31c5e5d13d56dd8987245d452ee4c37a483636d74bf8a5fd1e1fb/bigdl_core_xe_21-2.5.0b20240509-cp39-cp39-win_amd64.whl
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/b9/66/344c4b5617e3071ef7465da4a1110b1bc979df4d6a26946ea8a3a324f157/pulumi_rancher2-6.2.0a1715304682.tar.gz
+[2024-05-10 13:34:36] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 29667253>=10485760
+[2024-05-10 13:34:36] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-10 13:34:36] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/a0/81/2ce2f1c5ef0b049a0da261dc0adb1752ad63eb41bfa82384b5e2a88e1483/pulumi_tls-5.1.0a1715306927.tar.gz
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1715237486.tar.gz tmp/pulumi_wavefront-3.2.0a1715307330.tar.gz --markdown 20240510/p/pulumi-wavefront/3.2.0a1715237486-3.2.0a1715307330/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240510/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [catnekaise.actions-constructs]: Downloading https://files.pythonhosted.org/packages/f2/f2/77d9a8eee0349ea2c04ee8d29b9ea97ba601d248463b93388fb9a2fa0d3f/catnekaise.actions-constructs-0.2.22.tar.gz
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1715237163.tar.gz tmp/pulumi_tls-5.1.0a1715306927.tar.gz --markdown 20240510/p/pulumi-tls/5.1.0a1715237163-5.1.0a1715306927/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240510/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [glitch-python-hcl2]: Downloading https://files.pythonhosted.org/packages/b5/fd/f6b5bcfde33cc1b76c15754bdec33f76c19d03d0e8f076ef91c37d76ced9/glitch-python-hcl2-0.2.0.tar.gz
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715235918.tar.gz tmp/pulumi_rancher2-6.2.0a1715304682.tar.gz --markdown 20240510/p/pulumi-rancher2/6.2.0a1715235918-6.2.0a1715304682/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [orca_nw_lib]: Downloading https://files.pythonhosted.org/packages/2f/2d/754ee2bc7d4d5d2baba39cc15fb0f6e3c2c336d68a1832148e1417b17f3f/orca_nw_lib-1.3.7.tar.gz
+[2024-05-10 13:34:37] INFO root fetch - processPackages [catnekaise.actions-constructs]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [catnekaise.actions-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.actions-constructs-0.2.21.tar.gz tmp/catnekaise.actions-constructs-0.2.22.tar.gz --markdown 20240510/c/catnekaise.actions-constructs/0.2.21-0.2.22/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [glitch-python-hcl2]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [glitch-python-hcl2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glitch-python-hcl2-0.1.4.tar.gz tmp/glitch-python-hcl2-0.2.0.tar.gz --markdown 20240510/g/glitch-python-hcl2/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [orca_nw_lib]: executing diffoscope
+[2024-05-10 13:34:37] INFO root fetch - processPackages [orca_nw_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_nw_lib-1.3.6.tar.gz tmp/orca_nw_lib-1.3.7.tar.gz --markdown 20240510/o/orca_nw_lib/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715237163.tar.gz]
+[2024-05-10 13:34:37] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715306927.tar.gz]
+[2024-05-10 13:34:37] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-10 13:34:38] INFO root fetch - processPackages [catnekaise.actions-constructs]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.actions-constructs-0.2.21.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - processPackages [catnekaise.actions-constructs]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.actions-constructs-0.2.22.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [catnekaise.actions-constructs]: success
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715237486.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715307330.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-10 13:34:38] INFO root fetch - processPackages [glitch-python-hcl2]: Remove: archive file [/home/abi/fetcher/tmp/glitch-python-hcl2-0.1.4.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - processPackages [glitch-python-hcl2]: Remove: archive file [/home/abi/fetcher/tmp/glitch-python-hcl2-0.2.0.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [glitch-python-hcl2]: success
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-10 13:34:38] INFO root fetch - processPackages [orca_nw_lib]: Remove: archive file [/home/abi/fetcher/tmp/orca_nw_lib-1.3.6.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - processPackages [orca_nw_lib]: Remove: archive file [/home/abi/fetcher/tmp/orca_nw_lib-1.3.7.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [orca_nw_lib]: success
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715235918.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715304682.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-10 13:34:38] INFO root fetch - main [MainThread]: Store serial: [23145558]
