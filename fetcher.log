@@ -10616,3 +10616,36 @@
 [2024-05-10 10:13:35] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405100734.tar.gz]
 [2024-05-10 10:13:35] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
 [2024-05-10 10:13:35] INFO root fetch - main [MainThread]: Store serial: [23143171]
+[2024-05-10 10:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143171]
+[2024-05-10 10:15:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: depthcharge-ms
+[2024-05-10 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstrusitiesz
+[2024-05-10 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-flask
+[2024-05-10 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-pandas
+[2024-05-10 10:15:44] INFO root fetch - processPackages [depthcharge-ms]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-10 10:15:44] WARNING root fetch - processPackages [abstrusitiesz]: Skipping, unable to determine old version
+[2024-05-10 10:15:44] INFO root fetch - main [MainThread]: End processing [abstrusitiesz] error
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-flask]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/13/2f/9925b89e36ff851a9ff2a373f21acbe77e05d2f75ed6cf132d06158b1aca/abstract_flask-0.0.0.3.tar.gz
+[2024-05-10 10:15:44] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/5d/9a/3a43f87209f30ee5cee78b197b442e53ad859db66837a86bcbd1b953e2d3/depthcharge_ms-0.4.6.tar.gz
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-10 10:15:44] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/ba/05/25133a9a3ef08fe3d8568dc5cfb8fc3e3ac74c4efa5a2f46f7a266c7a048/depthcharge_ms-0.4.7.tar.gz
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/7e/d5/c07d82050cc18763914e23d64e0dc7c4e8b7407891843b8ed6fa81291698/abstract_flask-0.0.0.4.tar.gz
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240510/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-10 10:15:44] INFO root fetch - processPackages [depthcharge-ms]: executing diffoscope
+[2024-05-10 10:15:44] INFO root fetch - processPackages [depthcharge-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthcharge_ms-0.4.6.tar.gz tmp/depthcharge_ms-0.4.7.tar.gz --markdown 20240510/d/depthcharge-ms/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-flask]: executing diffoscope
+[2024-05-10 10:15:44] INFO root fetch - processPackages [abstract-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_flask-0.0.0.3.tar.gz tmp/abstract_flask-0.0.0.4.tar.gz --markdown 20240510/a/abstract-flask/0.0.0.3-0.0.0.4/README.md --exclude *.pyd
+[2024-05-10 10:15:45] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-10 10:15:45] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-10 10:15:45] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-10 10:15:45] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.3.tar.gz]
+[2024-05-10 10:15:45] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.4.tar.gz]
+[2024-05-10 10:15:45] INFO root fetch - main [MainThread]: End processing [abstract-flask]: success
+[2024-05-10 10:15:45] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.6.tar.gz]
+[2024-05-10 10:15:45] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.7.tar.gz]
+[2024-05-10 10:15:45] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
+[2024-05-10 10:15:45] INFO root fetch - main [MainThread]: Store serial: [23143182]
