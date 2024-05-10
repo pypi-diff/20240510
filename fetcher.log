@@ -18041,3 +18041,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:40:10] INFO root fetch - processPackages [xoa-driver]: Remove: archive file [/home/abi/fetcher/tmp/xoa_driver-2.5.4.tar.gz]
 [2024-05-10 14:40:10] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
 [2024-05-10 14:40:10] INFO root fetch - main [MainThread]: Store serial: [23146287]
+[2024-05-10 14:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146287]
+[2024-05-10 14:42:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 14:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cabassetz
+[2024-05-10 14:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: justatestwithcpp
+[2024-05-10 14:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: addemongo
+[2024-05-10 14:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-llm
+[2024-05-10 14:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imsciences
+[2024-05-10 14:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index-readers-dashscope
+[2024-05-10 14:42:19] WARNING root fetch - processPackages [cabassetz]: Skipping, unable to determine old version
+[2024-05-10 14:42:19] INFO root fetch - main [MainThread]: End processing [cabassetz] error
+[2024-05-10 14:42:19] INFO root fetch - processPackages [addemongo]: New version: [0.0.7] Old Version: [0.0.4]
+[2024-05-10 14:42:19] INFO root fetch - processPackages [justatestwithcpp]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 14:42:19] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.2] Old Version: [0.5.5.1]
+[2024-05-10 14:42:19] INFO root fetch - processPackages [addemongo]: Downloading https://files.pythonhosted.org/packages/ed/c6/5ed8eaf4d8a6c33a9bd17ca78e9282f73a9d167624eae1932696ee144018/addemongo-0.0.4.tar.gz
+[2024-05-10 14:42:19] WARNING root fetch - processPackages [llama-index-readers-dashscope]: Skipping, unable to determine old version
+[2024-05-10 14:42:19] INFO root fetch - main [MainThread]: End processing [llama-index-readers-dashscope] error
+[2024-05-10 14:42:19] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/aa/02/1c4e4ded33392ba6295b9ccab88f1960f668860b9c612abe321a766e3837/justatestwithcpp-0.1.5.tar.gz
+[2024-05-10 14:42:19] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e9/1c/5da9fcf4487a8cabe58613797f8696e29f26f984716d448c49edca44a25d/imsciences-0.5.5.1.tar.gz
+[2024-05-10 14:42:19] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240510] Old Version: [2.5.0b20240509]
+[2024-05-10 14:42:19] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/33/63/a7d3d374f881d34432173ab41c7ab172da7d634e0abdb7338ed3123dedd0/bigdl_llm-2.5.0b20240509-py3-none-win_amd64.whl
+[2024-05-10 14:42:19] INFO root fetch - processPackages [addemongo]: Downloading https://files.pythonhosted.org/packages/66/c1/3ade713195d2d1515589054feb95ac941084c7a9b7179d9895b63cfc1922/addemongo-0.0.7.tar.gz
+[2024-05-10 14:42:19] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/f2/9a/2378ad800112ee99b19c1d0b9fa3ed67fc1e59382d224c10120d7b493cea/imsciences-0.5.5.2.tar.gz
+[2024-05-10 14:42:19] INFO root fetch - processPackages [addemongo]: executing diffoscope
+[2024-05-10 14:42:19] INFO root fetch - processPackages [addemongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addemongo-0.0.4.tar.gz tmp/addemongo-0.0.7.tar.gz --markdown 20240510/a/addemongo/0.0.4-0.0.7/README.md --exclude *.pyd
+[2024-05-10 14:42:19] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/9c/ce/5f4853a6b003f8d40e5a11988a2f94abeaf6775c606835202bc48e4eb3a8/justatestwithcpp-0.1.6.tar.gz
+[2024-05-10 14:42:19] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-10 14:42:19] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.5.1.tar.gz tmp/imsciences-0.5.5.2.tar.gz --markdown 20240510/i/imsciences/0.5.5.1-0.5.5.2/README.md --exclude *.pyd
+[2024-05-10 14:42:19] INFO root fetch - processPackages [justatestwithcpp]: executing diffoscope
+[2024-05-10 14:42:19] INFO root fetch - processPackages [justatestwithcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justatestwithcpp-0.1.5.tar.gz tmp/justatestwithcpp-0.1.6.tar.gz --markdown 20240510/j/justatestwithcpp/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 14:42:20] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/39/30/3b0f554b5d04e770461dd9ad72be8b99477275a808edfaa50a7e14fe066d/bigdl_llm-2.5.0b20240510-py3-none-win_amd64.whl
+[2024-05-10 14:42:20] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.1.tar.gz]
+[2024-05-10 14:42:20] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.2.tar.gz]
+[2024-05-10 14:42:20] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-10 14:42:20] INFO root fetch - processPackages [addemongo]: Remove: archive file [/home/abi/fetcher/tmp/addemongo-0.0.4.tar.gz]
+[2024-05-10 14:42:20] INFO root fetch - processPackages [addemongo]: Remove: archive file [/home/abi/fetcher/tmp/addemongo-0.0.7.tar.gz]
+[2024-05-10 14:42:20] INFO root fetch - main [MainThread]: End processing [addemongo]: success
+[2024-05-10 14:42:20] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.5.tar.gz]
+[2024-05-10 14:42:20] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.6.tar.gz]
+[2024-05-10 14:42:20] INFO root fetch - main [MainThread]: End processing [justatestwithcpp]: success
+[2024-05-10 14:42:20] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-10 14:42:20] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240509-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240510-py3-none-win_amd64.whl.zip --markdown 20240510/b/bigdl-llm/2.5.0b20240509-2.5.0b20240510/README.md --exclude *.pyd
+[2024-05-10 14:42:21] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240509-py3-none-win_amd64.whl.zip]
+[2024-05-10 14:42:21] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240510-py3-none-win_amd64.whl.zip]
+[2024-05-10 14:42:21] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-10 14:42:21] INFO root fetch - main [MainThread]: Store serial: [23146313]
