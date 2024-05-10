@@ -20648,3 +20648,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:04:59] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.75.tar.gz]
 [2024-05-10 16:04:59] INFO root fetch - main [MainThread]: End processing [affixapi]: success
 [2024-05-10 16:04:59] INFO root fetch - main [MainThread]: Store serial: [23147629]
+[2024-05-10 16:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147629]
+[2024-05-10 16:07:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chilesz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infrable
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfreeproxies
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aigents
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlops-ods
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: control-op-scnu
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-configuration-sdk
+[2024-05-10 16:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyranges
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pyfreeproxies]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [aigents]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715348911] Old Version: [0.0.21a1715224161]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715348911] Old Version: [0.0.21a1715224161]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [chilesz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:07:08] WARNING root fetch - processPackages [control-op-scnu]: Skipping, unable to determine old version
+[2024-05-10 16:07:08] INFO root fetch - processPackages [control-op-scnu]: Start processing: weltedz
+[2024-05-10 16:07:08] INFO root fetch - main [MainThread]: End processing [control-op-scnu] error
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pyfreeproxies]: Downloading https://files.pythonhosted.org/packages/1f/d5/d4ef854e5deedb5486be69eb77a622a0367efe02880a5c51cb554f34a810/pyfreeproxies-0.0.3.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [mlops-ods]: New version: [0.1.202405101405] Old Version: [0.1.202405071027]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [lusid-configuration-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/c8/f7/f3301c094146b9c24e0e53874c573ac5f2de4f1844f520727193de6150b7/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pyranges]: New version: [0.1.0] Old Version: [0.0.99]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/54/4b/700ffbadbf9db766974497aea1f247b239d058b46b2891375e7679e7be39/aigents-0.7.5.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/c8/f7/f3301c094146b9c24e0e53874c573ac5f2de4f1844f520727193de6150b7/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz
+[2024-05-10 16:07:08] WARNING root fetch - processPackages [weltedz]: Skipping, unable to determine old version
+[2024-05-10 16:07:08] INFO root fetch - processPackages [weltedz]: Start processing: dash-oflog-components
+[2024-05-10 16:07:08] INFO root fetch - main [MainThread]: End processing [weltedz] error
+[2024-05-10 16:07:08] INFO root fetch - processPackages [chilesz]: Downloading https://files.pythonhosted.org/packages/ef/85/55489e313ee5ad196fa4abe19b0f01ca9a8beb5522be65123e8b15abecfb/chilesz-1.1.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/d9/6a/22276cb091e220165857cd5febb571124c5320412a8c4a06990b82e0793e/mlops_ods-0.1.202405071027.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [dash-oflog-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/4b/72/075fd9696e4c448209d751656d7184b1b3a7738ab256428ba4bef0fbbc25/pyranges-0.0.99.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/5b/5b/92ff9593317f48411450dfe5ddf59fa167dfe6db48fecc6abd8c35fb901a/lusid_configuration_sdk-2.1.8.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [dash-oflog-components]: Downloading https://files.pythonhosted.org/packages/87/0b/f416b5cdfcc73fcb0e1d8e73d90f0fde8fa4a3042b87eef6a6f78630737b/dash_oflog_components-0.0.8.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/9c/b1/a669b912677357fe414a9f18ad8449caf07d139d9b4490ded67a5805ebd5/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/9c/b1/a669b912677357fe414a9f18ad8449caf07d139d9b4490ded67a5805ebd5/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz
+[2024-05-10 16:07:08] INFO root fetch - processPackages [pyfreeproxies]: Downloading https://files.pythonhosted.org/packages/f4/23/30220bd7eda4d0fcd479406ec16bc8188d9730ba265891e932a58b0cfea7/pyfreeproxies-0.1.0.tar.gz
+[2024-05-10 16:07:09] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/09/6b/347d7a67116da4e5957c9cf4345e53c1c8d54ca968dcf1332897574e6593/aigents-0.7.6.tar.gz
+[2024-05-10 16:07:09] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240510/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [chilesz]: Downloading https://files.pythonhosted.org/packages/37/03/995cbc611be18ef87327b2bcce0ddea128e95c1bae28f2834da6daba0595/chilesz-2.1.tar.gz
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pyfreeproxies]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pyfreeproxies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfreeproxies-0.0.3.tar.gz tmp/pyfreeproxies-0.1.0.tar.gz --markdown 20240510/p/pyfreeproxies/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz --markdown 20240510/p/pulumi-kubernetes-the-hard-way/0.0.21a1715224161-0.0.21a1715348911/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz --markdown 20240510/p/pulumi-kubernetes-the-hard-way/0.0.21a1715224161-0.0.21a1715348911/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [aigents]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [aigents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigents-0.7.5.tar.gz tmp/aigents-0.7.6.tar.gz --markdown 20240510/a/aigents/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [chilesz]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/f0/dd/405172d11d93dacc4884861c5b68b8c3e80517ed89ebdca3e4e5bc9cd685/lusid_configuration_sdk-2.1.9.tar.gz
+[2024-05-10 16:07:09] INFO root fetch - processPackages [chilesz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chilesz-1.1.tar.gz tmp/chilesz-2.1.tar.gz --markdown 20240510/c/chilesz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/a6/6f/e948da0a1b1326d6821f510e171d940579e1a6a0725a8a29a2d4593530c0/mlops_ods-0.1.202405101405.tar.gz
+[2024-05-10 16:07:09] INFO root fetch - processPackages [dash-oflog-components]: Downloading https://files.pythonhosted.org/packages/8b/f4/0b8659ff282e21dd91120e7b693c909d64230d30799a6ecfcf808cad6c44/dash_oflog_components-0.0.9.tar.gz
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/55/cb/94f961598841a1b09aaf6f69b2a3fd74b0f707cc6b382b6e27f5e3f764a9/pyranges-0.1.0.tar.gz
+[2024-05-10 16:07:09] INFO root fetch - processPackages [lusid-configuration-sdk]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [lusid-configuration-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_configuration_sdk-2.1.8.tar.gz tmp/lusid_configuration_sdk-2.1.9.tar.gz --markdown 20240510/l/lusid-configuration-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [dash-oflog-components]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [dash-oflog-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_oflog_components-0.0.8.tar.gz tmp/dash_oflog_components-0.0.9.tar.gz --markdown 20240510/d/dash-oflog-components/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [mlops-ods]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [mlops-ods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_ods-0.1.202405071027.tar.gz tmp/mlops_ods-0.1.202405101405.tar.gz --markdown 20240510/m/mlops-ods/0.1.202405071027-0.1.202405101405/README.md --exclude *.pyd
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2024-05-10 16:07:09] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.99.tar.gz tmp/pyranges-0.1.0.tar.gz --markdown 20240510/p/pyranges/0.0.99-0.1.0/README.md --exclude *.pyd
+[2024-05-10 16:07:10] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [pyfreeproxies]: Remove: archive file [/home/abi/fetcher/tmp/pyfreeproxies-0.0.3.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [pyfreeproxies]: Remove: archive file [/home/abi/fetcher/tmp/pyfreeproxies-0.1.0.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [pyfreeproxies]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.7.5.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.7.6.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [aigents]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715224161.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715348911.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.1.8.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.1.9.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [chilesz]: Remove: archive file [/home/abi/fetcher/tmp/chilesz-1.1.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [chilesz]: Remove: archive file [/home/abi/fetcher/tmp/chilesz-2.1.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [chilesz]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [dash-oflog-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_oflog_components-0.0.8.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [dash-oflog-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_oflog_components-0.0.9.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [dash-oflog-components]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.0.99.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.1.0.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2024-05-10 16:07:10] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202405071027.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202405101405.tar.gz]
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: End processing [mlops-ods]: success
+[2024-05-10 16:07:10] INFO root fetch - main [MainThread]: Store serial: [23147667]
