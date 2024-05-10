@@ -6261,3 +6261,54 @@
 [2024-05-10 06:10:58] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
 [2024-05-10 06:10:58] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
 [2024-05-10 06:10:58] INFO root fetch - main [MainThread]: Store serial: [23141107]
+[2024-05-10 06:13:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141107]
+[2024-05-10 06:13:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 06:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insights-core
+[2024-05-10 06:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjected
+[2024-05-10 06:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autofracture
+[2024-05-10 06:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ullm
+[2024-05-10 06:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-10 06:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RL-OM
+[2024-05-10 06:13:07] INFO root fetch - processPackages [ullm]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 06:13:07] INFO root fetch - processPackages [pinjected]: New version: [0.2.56] Old Version: [0.2.55]
+[2024-05-10 06:13:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-10 06:13:07] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-10 06:13:07] INFO root fetch - processPackages [insights-core]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-10 06:13:07] WARNING root fetch - processPackages [autofracture]: Skipping, unable to determine old version
+[2024-05-10 06:13:07] INFO root fetch - main [MainThread]: End processing [autofracture] error
+[2024-05-10 06:13:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/38/37/ff7b52886542472b230365da7ea7792e9cb18209e4101771b5bd5ca933cc/nonebot_plugin_tetris_stats-1.1.1.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/ba/d8/b4d9d13c98972e4370422b1d57a92708ffaadff3c348f7dbda016efd4b6e/insights-core-3.3.8.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/9c/de/b105eec95a2a85c318dec78a7d43dad04cbc62d8064d165435495f5aa909/pinjected-0.2.55.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/ca/f5/36fe8173650a9df61986fb01b90f486d57b5ff433a76e37113711f7a84c5/ullm-0.1.0.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/49/ea/d7fe3fdacd86b68bf4750f1b7ee9871a9d5aceaad9c7a1d74ddb43f37449/pinjected-0.2.56.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/a0/40/e4a004ee41742eac93e194aa9c82e0fb1bb3e5771eebd40fde586c8e5518/nonebot_plugin_tetris_stats-1.1.2.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/8e/f5/2099dd870e14c6df5f4dc6ac3b632548f2c8bcbb5e428f6db4e1bdf56b92/ullm-0.1.1.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/24/e5/442fc4f4958a234b3da006d746cfaa647f4bd2048585f64608614d4ba7da/insights-core-3.3.9.tar.gz
+[2024-05-10 06:13:07] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-10 06:13:07] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240510/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-10 06:13:07] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-10 06:13:07] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.55.tar.gz tmp/pinjected-0.2.56.tar.gz --markdown 20240510/p/pinjected/0.2.55-0.2.56/README.md --exclude *.pyd
+[2024-05-10 06:13:07] INFO root fetch - processPackages [ullm]: executing diffoscope
+[2024-05-10 06:13:07] INFO root fetch - processPackages [ullm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ullm-0.1.0.tar.gz tmp/ullm-0.1.1.tar.gz --markdown 20240510/u/ullm/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 06:13:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-10 06:13:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.1.1.tar.gz tmp/nonebot_plugin_tetris_stats-1.1.2.tar.gz --markdown 20240510/n/nonebot-plugin-tetris-stats/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-10 06:13:07] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2024-05-10 06:13:07] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.3.8.tar.gz tmp/insights-core-3.3.9.tar.gz --markdown 20240510/i/insights-core/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-10 06:13:08] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-10 06:13:08] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.1.0.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.1.1.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - main [MainThread]: End processing [ullm]: success
+[2024-05-10 06:13:08] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.1.1.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.1.2.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-10 06:13:08] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.55.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.56.tar.gz]
+[2024-05-10 06:13:08] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-10 06:13:13] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.8.tar.gz]
+[2024-05-10 06:13:13] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
+[2024-05-10 06:13:13] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2024-05-10 06:13:13] INFO root fetch - main [MainThread]: Store serial: [23141127]
