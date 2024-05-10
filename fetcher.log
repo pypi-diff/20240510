@@ -10098,3 +10098,24 @@
 [2024-05-10 09:52:51] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-10 09:52:51] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-10 09:52:51] INFO root fetch - main [MainThread]: Store serial: [23142949]
+[2024-05-10 09:54:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142949]
+[2024-05-10 09:55:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-10 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourcedefender
+[2024-05-10 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-txi
+[2024-05-10 09:55:01] INFO root fetch - processPackages [sourcedefender]: New version: [12.0.3] Old Version: [12.0.2]
+[2024-05-10 09:55:02] INFO root fetch - processPackages [py-txi]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-10 09:55:02] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/39/ef/584ccf9bf834e4c4deeb4cf8558ed92a85fadb7c58ed0f02e6d1d827790f/sourcedefender-12.0.2.tar.gz
+[2024-05-10 09:55:02] INFO root fetch - processPackages [py-txi]: Downloading https://files.pythonhosted.org/packages/3d/36/901617f7901d8eb539f9f7d1dfc70b2d1dcf01a4828cde6bb7b331cfe792/py-txi-0.7.0.tar.gz
+[2024-05-10 09:55:02] INFO root fetch - processPackages [py-txi]: Downloading https://files.pythonhosted.org/packages/9d/9c/2721714345bef1ecd58a4307c0b416d2ab3c6a6f6b77859516f46ed1f137/py-txi-0.8.0.tar.gz
+[2024-05-10 09:55:02] INFO root fetch - processPackages [py-txi]: executing diffoscope
+[2024-05-10 09:55:02] INFO root fetch - processPackages [py-txi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-txi-0.7.0.tar.gz tmp/py-txi-0.8.0.tar.gz --markdown 20240510/p/py-txi/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-10 09:55:02] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/db/1b/b3e4ed9f951a80d4ecdcb07385c1ce43c0a02428b6b01832aec03b6d53fb/sourcedefender-12.0.3.tar.gz
+[2024-05-10 09:55:03] INFO root fetch - processPackages [sourcedefender]: executing diffoscope
+[2024-05-10 09:55:03] INFO root fetch - processPackages [sourcedefender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcedefender-12.0.2.tar.gz tmp/sourcedefender-12.0.3.tar.gz --markdown 20240510/s/sourcedefender/12.0.2-12.0.3/README.md --exclude *.pyd
+[2024-05-10 09:55:03] INFO root fetch - processPackages [py-txi]: Remove: archive file [/home/abi/fetcher/tmp/py-txi-0.7.0.tar.gz]
+[2024-05-10 09:55:03] INFO root fetch - processPackages [py-txi]: Remove: archive file [/home/abi/fetcher/tmp/py-txi-0.8.0.tar.gz]
+[2024-05-10 09:55:03] INFO root fetch - main [MainThread]: End processing [py-txi]: success
+[2024-05-10 09:56:01] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-12.0.2.tar.gz]
+[2024-05-10 09:56:01] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-12.0.3.tar.gz]
+[2024-05-10 09:56:01] INFO root fetch - main [MainThread]: End processing [sourcedefender]: success
+[2024-05-10 09:56:01] INFO root fetch - main [MainThread]: Store serial: [23142964]
