@@ -9874,3 +9874,44 @@
 [2024-05-10 09:41:46] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-10 09:41:46] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-10 09:41:46] INFO root fetch - main [MainThread]: Store serial: [23142852]
+[2024-05-10 09:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142852]
+[2024-05-10 09:43:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 09:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contubernialz
+[2024-05-10 09:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySimultan
+[2024-05-10 09:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zaproxy
+[2024-05-10 09:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-editor
+[2024-05-10 09:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: random-real-address
+[2024-05-10 09:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homematicip
+[2024-05-10 09:43:55] WARNING root fetch - processPackages [random-real-address]: Skipping, unable to determine old version
+[2024-05-10 09:43:55] INFO root fetch - main [MainThread]: End processing [random-real-address] error
+[2024-05-10 09:43:55] INFO root fetch - processPackages [auto-editor]: New version: [24.9.1] Old Version: [24.7.1]
+[2024-05-10 09:43:55] WARNING root fetch - processPackages [contubernialz]: Skipping, unable to determine old version
+[2024-05-10 09:43:55] INFO root fetch - main [MainThread]: End processing [contubernialz] error
+[2024-05-10 09:43:55] INFO root fetch - processPackages [PySimultan]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-10 09:43:55] INFO root fetch - processPackages [zaproxy]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-10 09:43:55] INFO root fetch - processPackages [homematicip]: New version: [1.1.1] Old Version: [1.1.0.post1.dev23]
+[2024-05-10 09:43:55] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/32/67/bb09ca05b1a8c4f80454fe72ed6f25a7d2ee5e48e4d4c8e62e8a7facaa21/auto-editor-24.7.1.tar.gz
+[2024-05-10 09:43:55] INFO root fetch - processPackages [zaproxy]: Downloading https://files.pythonhosted.org/packages/66/b0/d7c6ae4503d9bce0a85ec0b6eeadca867c739ace99190a403a6a73fff0fd/zaproxy-0.2.0.tar.gz
+[2024-05-10 09:43:55] INFO root fetch - processPackages [PySimultan]: Downloading https://files.pythonhosted.org/packages/22/e0/09fa6a0b488f571d9e63cdad24d4a36702ff596a0a55363cbabbe3001b58/pysimultan-0.2.2.tar.gz
+[2024-05-10 09:43:55] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483535>=10485760
+[2024-05-10 09:43:55] INFO root fetch - main [MainThread]: End processing [PySimultan] error
+[2024-05-10 09:43:55] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/53/3e/1c534356b60738a50fc8f9ae54605d24e756fa84278612b39403d8f35c9f/homematicip-1.1.0.post1.dev23.tar.gz
+[2024-05-10 09:43:55] INFO root fetch - processPackages [zaproxy]: Downloading https://files.pythonhosted.org/packages/8a/38/a60253eb6c6ae24643ad03b1389eeb717ac6b44f768d4ace1ec897ac2f42/zaproxy-0.3.0.tar.gz
+[2024-05-10 09:43:55] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/83/47/8664c92644b42e4ee600cf0a4b4d7124817a725190170f430230ed7d5052/auto-editor-24.9.1.tar.gz
+[2024-05-10 09:43:56] INFO root fetch - processPackages [zaproxy]: executing diffoscope
+[2024-05-10 09:43:56] INFO root fetch - processPackages [zaproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaproxy-0.2.0.tar.gz tmp/zaproxy-0.3.0.tar.gz --markdown 20240510/z/zaproxy/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-10 09:43:56] INFO root fetch - processPackages [auto-editor]: executing diffoscope
+[2024-05-10 09:43:56] INFO root fetch - processPackages [auto-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-editor-24.7.1.tar.gz tmp/auto-editor-24.9.1.tar.gz --markdown 20240510/a/auto-editor/24.7.1-24.9.1/README.md --exclude *.pyd
+[2024-05-10 09:43:56] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/27/52/35f13729bcf397dec566908becf186d7f9078020ba54bfe0d38fc67e798c/homematicip-1.1.1.tar.gz
+[2024-05-10 09:43:56] INFO root fetch - processPackages [zaproxy]: Remove: archive file [/home/abi/fetcher/tmp/zaproxy-0.2.0.tar.gz]
+[2024-05-10 09:43:56] INFO root fetch - processPackages [zaproxy]: Remove: archive file [/home/abi/fetcher/tmp/zaproxy-0.3.0.tar.gz]
+[2024-05-10 09:43:56] INFO root fetch - main [MainThread]: End processing [zaproxy]: success
+[2024-05-10 09:43:56] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-24.7.1.tar.gz]
+[2024-05-10 09:43:56] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-24.9.1.tar.gz]
+[2024-05-10 09:43:56] INFO root fetch - main [MainThread]: End processing [auto-editor]: success
+[2024-05-10 09:43:56] INFO root fetch - processPackages [homematicip]: executing diffoscope
+[2024-05-10 09:43:56] INFO root fetch - processPackages [homematicip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homematicip-1.1.0.post1.dev23.tar.gz tmp/homematicip-1.1.1.tar.gz --markdown 20240510/h/homematicip/1.1.0.post1.dev23-1.1.1/README.md --exclude *.pyd
+[2024-05-10 09:43:57] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.0.post1.dev23.tar.gz]
+[2024-05-10 09:43:57] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.1.tar.gz]
+[2024-05-10 09:43:57] INFO root fetch - main [MainThread]: End processing [homematicip]: success
+[2024-05-10 09:43:57] INFO root fetch - main [MainThread]: Store serial: [23142870]
