@@ -5440,3 +5440,33 @@
 [2024-05-10 05:16:07] WARNING root fetch - processPackages [nonebot-plugin-tetris-stats]: Skipping package: exceeds size limit 15906949>=10485760
 [2024-05-10 05:16:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats] error
 [2024-05-10 05:16:07] INFO root fetch - main [MainThread]: Store serial: [23140776]
+[2024-05-10 05:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140776]
+[2024-05-10 05:18:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 05:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mllm
+[2024-05-10 05:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-gcp
+[2024-05-10 05:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: internet-domain-local
+[2024-05-10 05:18:15] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 05:18:15] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-10 05:18:15] INFO root fetch - processPackages [mllm]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 05:18:15] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-10 05:18:16] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-10 05:18:16] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/f2/44/5b779aa7a3ecad5f51567a8f135aca9219f10bbe5e0ccac8b509ab2b65d7/mllm-0.1.7.tar.gz
+[2024-05-10 05:18:16] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-10 05:18:16] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-10 05:18:16] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240510/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 05:18:16] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/dc/ad/0e1a9c70b058ad0a588c5bde67c28d26111389c945bd5153deb0b3a64a46/mllm-0.1.8.tar.gz
+[2024-05-10 05:18:16] INFO root fetch - processPackages [mllm]: executing diffoscope
+[2024-05-10 05:18:16] INFO root fetch - processPackages [mllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mllm-0.1.7.tar.gz tmp/mllm-0.1.8.tar.gz --markdown 20240510/m/mllm/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 05:18:16] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-10 05:18:16] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-10 05:18:16] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-10 05:18:16] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-10 05:18:17] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.7.tar.gz]
+[2024-05-10 05:18:17] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.8.tar.gz]
+[2024-05-10 05:18:17] INFO root fetch - main [MainThread]: End processing [mllm]: success
+[2024-05-10 05:18:17] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-10 05:18:17] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240510/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-10 05:18:27] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-10 05:18:27] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-10 05:18:27] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-10 05:18:27] INFO root fetch - main [MainThread]: Store serial: [23140786]
