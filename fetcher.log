@@ -13298,3 +13298,36 @@
 [2024-05-10 11:49:27] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-10 11:49:27] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-10 11:49:27] INFO root fetch - main [MainThread]: Store serial: [23144252]
+[2024-05-10 11:51:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144252]
+[2024-05-10 11:51:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 11:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: migration-db
+[2024-05-10 11:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ancillasz
+[2024-05-10 11:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NatanStanek
+[2024-05-10 11:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lcbuilder
+[2024-05-10 11:51:40] INFO root fetch - processPackages [NatanStanek]: New version: [0.14.1] Old Version: [0.14.0]
+[2024-05-10 11:51:40] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/7a/5c/f82c5b804f419f6c732a65a0a503630b2e6ec078e31d48f0102a4daa537c/natanstanek-0.14.0.tar.gz
+[2024-05-10 11:51:40] INFO root fetch - processPackages [migration-db]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 11:51:40] WARNING root fetch - processPackages [ancillasz]: Skipping, unable to determine old version
+[2024-05-10 11:51:40] INFO root fetch - main [MainThread]: End processing [ancillasz] error
+[2024-05-10 11:51:40] INFO root fetch - processPackages [lcbuilder]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 11:51:40] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/7f/ed/1d35592a8041b6e70f3af7408af064fcea50ebc84c2e08def0f09107c7ce/migration_db-1.0.8.tar.gz
+[2024-05-10 11:51:40] INFO root fetch - processPackages [lcbuilder]: Downloading https://files.pythonhosted.org/packages/f4/7f/fe7e2a3a797ae2569375c4260501908dc35c2a523d3e7f89eb1769068c3a/lcbuilder-0.9.8.tar.gz
+[2024-05-10 11:51:40] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/21/4d/a05ab9a9bb48f79223952469dbca6b72d5dd7b36d9ecafec42abe2033706/migration_db-1.0.9.tar.gz
+[2024-05-10 11:51:40] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-10 11:51:40] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.8.tar.gz tmp/migration_db-1.0.9.tar.gz --markdown 20240510/m/migration-db/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 11:51:41] INFO root fetch - processPackages [NatanStanek]: Downloading https://files.pythonhosted.org/packages/66/a0/223af60b83136460cbdf93941c67763c30a833900dc4e4abf72f91ae0d27/natanstanek-0.14.1.tar.gz
+[2024-05-10 11:51:41] INFO root fetch - processPackages [NatanStanek]: executing diffoscope
+[2024-05-10 11:51:41] INFO root fetch - processPackages [NatanStanek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natanstanek-0.14.0.tar.gz tmp/natanstanek-0.14.1.tar.gz --markdown 20240510/N/NatanStanek/0.14.0-0.14.1/README.md --exclude *.pyd
+[2024-05-10 11:51:41] INFO root fetch - processPackages [lcbuilder]: Downloading https://files.pythonhosted.org/packages/31/8f/6990e76cc8de8a1377d1e6653c8950226902239559275c6b11838d5cb379/lcbuilder-0.9.9.tar.gz
+[2024-05-10 11:51:41] INFO root fetch - processPackages [lcbuilder]: executing diffoscope
+[2024-05-10 11:51:41] INFO root fetch - processPackages [lcbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcbuilder-0.9.8.tar.gz tmp/lcbuilder-0.9.9.tar.gz --markdown 20240510/l/lcbuilder/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 11:51:41] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.8.tar.gz]
+[2024-05-10 11:51:41] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.9.tar.gz]
+[2024-05-10 11:51:41] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-10 11:51:41] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.14.0.tar.gz]
+[2024-05-10 11:51:41] INFO root fetch - processPackages [NatanStanek]: Remove: archive file [/home/abi/fetcher/tmp/natanstanek-0.14.1.tar.gz]
+[2024-05-10 11:51:41] INFO root fetch - main [MainThread]: End processing [NatanStanek]: success
+[2024-05-10 11:51:42] INFO root fetch - processPackages [lcbuilder]: Remove: archive file [/home/abi/fetcher/tmp/lcbuilder-0.9.8.tar.gz]
+[2024-05-10 11:51:42] INFO root fetch - processPackages [lcbuilder]: Remove: archive file [/home/abi/fetcher/tmp/lcbuilder-0.9.9.tar.gz]
+[2024-05-10 11:51:42] INFO root fetch - main [MainThread]: End processing [lcbuilder]: success
+[2024-05-10 11:51:42] INFO root fetch - main [MainThread]: Store serial: [23144269]
