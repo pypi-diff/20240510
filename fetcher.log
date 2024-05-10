@@ -4135,3 +4135,27 @@
 [2024-05-10 04:03:14] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715234502.tar.gz]
 [2024-05-10 04:03:14] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
 [2024-05-10 04:03:14] INFO root fetch - main [MainThread]: Store serial: [23140246]
+[2024-05-10 04:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140246]
+[2024-05-10 04:05:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 04:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reallegedz
+[2024-05-10 04:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imp-vol
+[2024-05-10 04:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-nomad
+[2024-05-10 04:05:24] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1715234415] Old Version: [2.3.0a1715061226]
+[2024-05-10 04:05:24] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/ad/52/e2174935ae55e26647596185cc67757ec7323352022f7e1eb69e41322d19/pulumi_nomad-2.3.0a1715061226.tar.gz
+[2024-05-10 04:05:24] WARNING root fetch - processPackages [reallegedz]: Skipping, unable to determine old version
+[2024-05-10 04:05:24] INFO root fetch - main [MainThread]: End processing [reallegedz] error
+[2024-05-10 04:05:24] INFO root fetch - processPackages [imp-vol]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 04:05:24] INFO root fetch - processPackages [imp-vol]: Downloading https://files.pythonhosted.org/packages/5e/c6/6df1bdf2539aef3f041f78ccde6d902452e036a8c37c435a329e1a5277d5/imp_vol-0.1.0.tar.gz
+[2024-05-10 04:05:24] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/31/30/7d6549b64df2708144ea28e68a08a79a0432464db9d347e05162c815d060/pulumi_nomad-2.3.0a1715234415.tar.gz
+[2024-05-10 04:05:24] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-05-10 04:05:24] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1715061226.tar.gz tmp/pulumi_nomad-2.3.0a1715234415.tar.gz --markdown 20240510/p/pulumi-nomad/2.3.0a1715061226-2.3.0a1715234415/README.md --exclude *.pyd
+[2024-05-10 04:05:24] INFO root fetch - processPackages [imp-vol]: Downloading https://files.pythonhosted.org/packages/88/6a/8405e80591695c7f3d6c5c955aef3a5a57ab4a6d8c505189ee0f276232df/imp_vol-0.1.1.tar.gz
+[2024-05-10 04:05:24] INFO root fetch - processPackages [imp-vol]: executing diffoscope
+[2024-05-10 04:05:24] INFO root fetch - processPackages [imp-vol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imp_vol-0.1.0.tar.gz tmp/imp_vol-0.1.1.tar.gz --markdown 20240510/i/imp-vol/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 04:05:25] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715061226.tar.gz]
+[2024-05-10 04:05:25] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715234415.tar.gz]
+[2024-05-10 04:05:25] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-05-10 04:05:25] INFO root fetch - processPackages [imp-vol]: Remove: archive file [/home/abi/fetcher/tmp/imp_vol-0.1.0.tar.gz]
+[2024-05-10 04:05:25] INFO root fetch - processPackages [imp-vol]: Remove: archive file [/home/abi/fetcher/tmp/imp_vol-0.1.1.tar.gz]
+[2024-05-10 04:05:25] INFO root fetch - main [MainThread]: End processing [imp-vol]: success
+[2024-05-10 04:05:25] INFO root fetch - main [MainThread]: Store serial: [23140262]
