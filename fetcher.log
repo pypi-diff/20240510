@@ -9722,3 +9722,60 @@
 [2024-05-10 09:32:58] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.5.tar.gz]
 [2024-05-10 09:32:58] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
 [2024-05-10 09:32:58] INFO root fetch - main [MainThread]: Store serial: [23142776]
+[2024-05-10 09:35:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142776]
+[2024-05-10 09:35:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luxos
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yellowdog-python-examples
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oslili
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opsramp-analytics-utils
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indralib
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-indie-tools
+[2024-05-10 09:35:07] INFO root fetch - processPackages [indralib]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 09:35:07] INFO root fetch - processPackages [luxos]: New version: [0.0.7b23] Old Version: [0.0.6b22]
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ml-indie-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 09:35:07] INFO root fetch - processPackages [indralib]: Downloading https://files.pythonhosted.org/packages/46/19/b3acae6a49ea3667fa8e027f49a5ad2d3b23091e9afd27bf111b298e671b/indralib-0.0.6.tar.gz
+[2024-05-10 09:35:07] INFO root fetch - processPackages [oslili]: New version: [0.9] Old Version: [0.8]
+[2024-05-10 09:35:07] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [7.9.1] Old Version: [7.9.0]
+[2024-05-10 09:35:07] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/e2/c6/49919fd6b4c1babd589fee9e9d0bb2f5570dbb001df6bac6fc22bfeefd75/luxos-0.0.6b22.tar.gz
+[2024-05-10 09:35:07] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-05-10 09:35:07] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/69/1d/c6da639234bf4fc987bcf4c70d7f07f77fa76a44aefc0606a4a01d5a7df1/ml-indie-tools-0.9.8.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/92/5a/973ba89e581f687e7d447ee8933af7dc3418d597d398df8e4885cbe5689b/yellowdog_python_examples-7.9.0.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/d6/16/83bff826f4da072f185d73330a5c376a0184abffaf881f9cd0fe3cf99c9d/oslili-0.8.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/27/d7/e1d29c19ddc6178c6e233cd47481d200e8dd4c1b46073426aaf5a33600aa/luxos-0.0.7b23.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/dc/de/d925fee74bb8d13f43b041409d0894d88ac152c18da6ca97c4d9820355c9/ml-indie-tools-0.9.9.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/16/46/502a29cd460f4cd104faead5c071072691e04f0e6d3c25184d216a5a2382/opsramp-analytics-utils-3.5.2.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [luxos]: executing diffoscope
+[2024-05-10 09:35:08] INFO root fetch - processPackages [luxos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luxos-0.0.6b22.tar.gz tmp/luxos-0.0.7b23.tar.gz --markdown 20240510/l/luxos/0.0.6b22-0.0.7b23/README.md --exclude *.pyd
+[2024-05-10 09:35:08] INFO root fetch - processPackages [indralib]: Downloading https://files.pythonhosted.org/packages/1b/23/efb0e8fe0ad00034c1536377746ea8919186b92af31a751dcb2402b0708c/indralib-0.0.7.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [ml-indie-tools]: executing diffoscope
+[2024-05-10 09:35:08] INFO root fetch - processPackages [ml-indie-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-indie-tools-0.9.8.tar.gz tmp/ml-indie-tools-0.9.9.tar.gz --markdown 20240510/m/ml-indie-tools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 09:35:08] INFO root fetch - processPackages [indralib]: executing diffoscope
+[2024-05-10 09:35:08] INFO root fetch - processPackages [indralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indralib-0.0.6.tar.gz tmp/indralib-0.0.7.tar.gz --markdown 20240510/i/indralib/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 09:35:08] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/f4/87/4846cc409dd10cd665e32182afc524a05971754ac3c4767788146fc42e8d/yellowdog_python_examples-7.9.1.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/16/35/75451c56b958f6d6563938b387adf36fd45d4211a37705096e1c5a7c8065/oslili-0.9.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/cd/89/71e57545591ef3b75619e554ded371ec4b86bc419fd0548eac230f75a9a7/opsramp-analytics-utils-3.5.3.tar.gz
+[2024-05-10 09:35:08] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2024-05-10 09:35:08] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog_python_examples-7.9.0.tar.gz tmp/yellowdog_python_examples-7.9.1.tar.gz --markdown 20240510/y/yellowdog-python-examples/7.9.0-7.9.1/README.md --exclude *.pyd
+[2024-05-10 09:35:08] INFO root fetch - processPackages [oslili]: executing diffoscope
+[2024-05-10 09:35:08] INFO root fetch - processPackages [oslili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-0.8.tar.gz tmp/oslili-0.9.tar.gz --markdown 20240510/o/oslili/0.8-0.9/README.md --exclude *.pyd
+[2024-05-10 09:35:08] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.8.tar.gz]
+[2024-05-10 09:35:08] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.9.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - main [MainThread]: End processing [ml-indie-tools]: success
+[2024-05-10 09:35:09] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2024-05-10 09:35:09] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.5.2.tar.gz tmp/opsramp-analytics-utils-3.5.3.tar.gz --markdown 20240510/o/opsramp-analytics-utils/3.5.2-3.5.3/README.md --exclude *.pyd
+[2024-05-10 09:35:09] INFO root fetch - processPackages [indralib]: Remove: archive file [/home/abi/fetcher/tmp/indralib-0.0.6.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - processPackages [indralib]: Remove: archive file [/home/abi/fetcher/tmp/indralib-0.0.7.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - main [MainThread]: End processing [indralib]: success
+[2024-05-10 09:35:09] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.6b22.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.7b23.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - main [MainThread]: End processing [luxos]: success
+[2024-05-10 09:35:09] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.9.0.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.9.1.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2024-05-10 09:35:09] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.2.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.3.tar.gz]
+[2024-05-10 09:35:09] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2024-05-10 09:35:12] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.8.tar.gz]
+[2024-05-10 09:35:12] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.9.tar.gz]
+[2024-05-10 09:35:12] INFO root fetch - main [MainThread]: End processing [oslili]: success
+[2024-05-10 09:35:12] INFO root fetch - main [MainThread]: Store serial: [23142794]
