@@ -6902,3 +6902,9 @@
 [2024-05-10 06:52:35] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-1.0.8-py3-none-any.whl.zip]
 [2024-05-10 06:52:35] INFO root fetch - main [MainThread]: End processing [PerplexiPy]: success
 [2024-05-10 06:52:35] INFO root fetch - main [MainThread]: Store serial: [23141396]
+[2024-05-10 06:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141396]
+[2024-05-10 06:54:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 06:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nectareouslyz
+[2024-05-10 06:54:43] WARNING root fetch - processPackages [nectareouslyz]: Skipping, unable to determine old version
+[2024-05-10 06:54:43] INFO root fetch - main [MainThread]: End processing [nectareouslyz] error
+[2024-05-10 06:54:43] INFO root fetch - main [MainThread]: Store serial: [23141402]
