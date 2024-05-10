@@ -14062,3 +14062,36 @@
 [2024-05-10 12:21:19] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715303559.tar.gz]
 [2024-05-10 12:21:19] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-10 12:21:19] INFO root fetch - main [MainThread]: Store serial: [23144570]
+[2024-05-10 12:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144570]
+[2024-05-10 12:23:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 12:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: somersetsz
+[2024-05-10 12:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smda
+[2024-05-10 12:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deebot-client
+[2024-05-10 12:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutils-poly
+[2024-05-10 12:23:32] INFO root fetch - processPackages [nutils-poly]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 12:23:32] WARNING root fetch - processPackages [somersetsz]: Skipping, unable to determine old version
+[2024-05-10 12:23:32] INFO root fetch - main [MainThread]: End processing [somersetsz] error
+[2024-05-10 12:23:32] INFO root fetch - processPackages [smda]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-10 12:23:32] INFO root fetch - processPackages [deebot-client]: New version: [7.2.0] Old Version: [7.1.0]
+[2024-05-10 12:23:32] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/0a/02/7144cdaabb7ced1428c53348f4608286160dcc6e4923a4ca258254a0a60a/smda-1.9.8.tar.gz
+[2024-05-10 12:23:32] INFO root fetch - processPackages [nutils-poly]: Downloading https://files.pythonhosted.org/packages/39/d6/76fa54bf1f104899875cb20642898c7a098a83b1fd09d972740e2bbb6377/nutils_poly-1.0.0.tar.gz
+[2024-05-10 12:23:32] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/42/7f/fc49d8bededd23dcfe39745d60da24ad7f0b330d98e63895c40d20810128/deebot_client-7.1.0.tar.gz
+[2024-05-10 12:23:32] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/ab/06/84931f94753844768180bb167b862a9c2f9926d6ebeeae36c5c24850cea1/deebot_client-7.2.0.tar.gz
+[2024-05-10 12:23:32] INFO root fetch - processPackages [nutils-poly]: Downloading https://files.pythonhosted.org/packages/1c/9c/ae9aeb0aa1ef8fd7159fe522c2c2bf3609834d2e122ef14aae172b1ce375/nutils_poly-1.0.1.tar.gz
+[2024-05-10 12:23:32] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/a4/5e/2ae3bfbc6c8969a963dd284b8e76c6d20a82197a9845e73e7e7be85080f8/smda-1.9.9.tar.gz
+[2024-05-10 12:23:32] INFO root fetch - processPackages [deebot-client]: executing diffoscope
+[2024-05-10 12:23:32] INFO root fetch - processPackages [deebot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deebot_client-7.1.0.tar.gz tmp/deebot_client-7.2.0.tar.gz --markdown 20240510/d/deebot-client/7.1.0-7.2.0/README.md --exclude *.pyd
+[2024-05-10 12:23:33] INFO root fetch - processPackages [smda]: executing diffoscope
+[2024-05-10 12:23:33] INFO root fetch - processPackages [smda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smda-1.9.8.tar.gz tmp/smda-1.9.9.tar.gz --markdown 20240510/s/smda/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-10 12:23:33] INFO root fetch - processPackages [nutils-poly]: executing diffoscope
+[2024-05-10 12:23:33] INFO root fetch - processPackages [nutils-poly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutils_poly-1.0.0.tar.gz tmp/nutils_poly-1.0.1.tar.gz --markdown 20240510/n/nutils-poly/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 12:23:33] INFO root fetch - processPackages [nutils-poly]: Remove: archive file [/home/abi/fetcher/tmp/nutils_poly-1.0.0.tar.gz]
+[2024-05-10 12:23:33] INFO root fetch - processPackages [nutils-poly]: Remove: archive file [/home/abi/fetcher/tmp/nutils_poly-1.0.1.tar.gz]
+[2024-05-10 12:23:33] INFO root fetch - main [MainThread]: End processing [nutils-poly]: success
+[2024-05-10 12:23:33] INFO root fetch - processPackages [smda]: Remove: archive file [/home/abi/fetcher/tmp/smda-1.9.8.tar.gz]
+[2024-05-10 12:23:33] INFO root fetch - processPackages [smda]: Remove: archive file [/home/abi/fetcher/tmp/smda-1.9.9.tar.gz]
+[2024-05-10 12:23:33] INFO root fetch - main [MainThread]: End processing [smda]: success
+[2024-05-10 12:23:33] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot_client-7.1.0.tar.gz]
+[2024-05-10 12:23:33] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot_client-7.2.0.tar.gz]
+[2024-05-10 12:23:33] INFO root fetch - main [MainThread]: End processing [deebot-client]: success
+[2024-05-10 12:23:33] INFO root fetch - main [MainThread]: Store serial: [23144588]
