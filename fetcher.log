@@ -5604,3 +5604,42 @@
 [2024-05-10 05:27:10] INFO root fetch - processPackages [examon_core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.5.0.tar.gz]
 [2024-05-10 05:27:10] INFO root fetch - main [MainThread]: End processing [examon_core]: success
 [2024-05-10 05:27:10] INFO root fetch - main [MainThread]: Store serial: [23140847]
+[2024-05-10 05:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140847]
+[2024-05-10 05:29:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 05:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced_navigation
+[2024-05-10 05:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medicafe
+[2024-05-10 05:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nlp-nightly
+[2024-05-10 05:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blastpipe
+[2024-05-10 05:29:19] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.50] Old Version: [0.1.5]
+[2024-05-10 05:29:19] INFO root fetch - processPackages [medicafe]: New version: [0.240509.4] Old Version: [0.240509.3]
+[2024-05-10 05:29:19] INFO root fetch - processPackages [blastpipe]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-10 05:29:19] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-10 05:29:19] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/90/e8/8ee5f4a19058b2b6485380325a6b428e9efa709efec011404429716a20b1/advanced_navigation-0.1.5.tar.gz
+[2024-05-10 05:29:19] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/2c/a2/f080a068f9b638643abe28d6d4921ec3c1426836cc49dd22d451ad7ed011/medicafe-0.240509.3.tar.gz
+[2024-05-10 05:29:19] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-10 05:29:19] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/70/9c/34f32f42be32e92b8af20b1418673871b6d1c5bbea634fc627cb834f49f0/blastpipe-2024.5.0.tar.gz
+[2024-05-10 05:29:19] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/38/32/c106f4faddb7ce007387b0ebccafe1c35bfccc78f393203b089b5e3ba700/blastpipe-2024.5.1.tar.gz
+[2024-05-10 05:29:19] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-10 05:29:19] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/16/44/2471d50a8a970d2f4cdfe8c00b4b0a3ce1d8a7690ef90aa91bc6ffd34972/advanced_navigation-0.1.50.tar.gz
+[2024-05-10 05:29:19] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/c0/03/e6fc06d325f1f1753184b507ecd27a29822866a740514d772bc4ae2366b9/medicafe-0.240509.4.tar.gz
+[2024-05-10 05:29:20] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-10 05:29:20] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240510/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-10 05:29:20] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-10 05:29:20] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.5.tar.gz tmp/advanced_navigation-0.1.50.tar.gz --markdown 20240510/a/advanced_navigation/0.1.5-0.1.50/README.md --exclude *.pyd
+[2024-05-10 05:29:20] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-10 05:29:20] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240509.3.tar.gz tmp/medicafe-0.240509.4.tar.gz --markdown 20240510/m/medicafe/0.240509.3-0.240509.4/README.md --exclude *.pyd
+[2024-05-10 05:29:20] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-10 05:29:20] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.5.0.tar.gz tmp/blastpipe-2024.5.1.tar.gz --markdown 20240510/b/blastpipe/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-10 05:29:20] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.3.tar.gz]
+[2024-05-10 05:29:20] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.4.tar.gz]
+[2024-05-10 05:29:20] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-10 05:29:20] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.5.tar.gz]
+[2024-05-10 05:29:20] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.50.tar.gz]
+[2024-05-10 05:29:20] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-10 05:29:21] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.5.0.tar.gz]
+[2024-05-10 05:29:21] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.5.1.tar.gz]
+[2024-05-10 05:29:21] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-10 05:29:21] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-10 05:29:21] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-10 05:29:21] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-10 05:29:21] INFO root fetch - main [MainThread]: Store serial: [23140858]
