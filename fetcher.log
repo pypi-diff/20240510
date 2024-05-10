@@ -23992,3 +23992,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:49:25] INFO root fetch - processPackages [python-glmnet]: Remove: archive file [/home/abi/fetcher/tmp/python_glmnet-2.2.2.post1-cp311-cp311-macosx_11_0_arm64.whl.zip]
 [2024-05-10 17:49:25] INFO root fetch - main [MainThread]: End processing [python-glmnet]: success
 [2024-05-10 17:49:25] INFO root fetch - main [MainThread]: Store serial: [23149253]
+[2024-05-10 17:51:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149253]
+[2024-05-10 17:51:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 17:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redshift_client
+[2024-05-10 17:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mecode-viewer
+[2024-05-10 17:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celery-streaming-result
+[2024-05-10 17:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onyx-extension
+[2024-05-10 17:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metabotk
+[2024-05-10 17:51:35] INFO root fetch - processPackages [onyx-extension]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-10 17:51:35] INFO root fetch - processPackages [metabotk]: New version: [0.1.33] Old Version: [0.1.31]
+[2024-05-10 17:51:35] INFO root fetch - processPackages [celery-streaming-result]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 17:51:35] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/9e/50/71046ad2b2cd453b96fcfde8cf7a6a93a2067a80b201e6283bb2b35b084f/metabotk-0.1.31.tar.gz
+[2024-05-10 17:51:35] INFO root fetch - processPackages [mecode-viewer]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-10 17:51:35] INFO root fetch - processPackages [redshift_client]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-05-10 17:51:35] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/1d/98/bff303c2e4976b301009dea65304ecf6e272965c5bd549d36a551ed3f776/onyx_extension-0.1.0-1-py3-none-any.whl
+[2024-05-10 17:51:35] INFO root fetch - processPackages [celery-streaming-result]: Downloading https://files.pythonhosted.org/packages/96/05/b4da58ce02ffca4ac198cec15d54f2f465fa887a70f8ca35292cd303d302/celery_streaming_result-0.1.1.tar.gz
+[2024-05-10 17:51:35] INFO root fetch - processPackages [mecode-viewer]: Downloading https://files.pythonhosted.org/packages/bf/ea/bd6a698228b6bde9892be93208113bbada51eff34b3c0706f776444f94e0/mecode_viewer-0.3.8.tar.gz
+[2024-05-10 17:51:35] INFO root fetch - processPackages [redshift_client]: Downloading https://files.pythonhosted.org/packages/8e/5b/b98437a8adb54224f586052235751b82f9bde87b97431ead55b37c657f4d/redshift_client-5.1.0.tar.gz
+[2024-05-10 17:51:35] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/1c/4e/5f6b67e234eec1ae0c64fe81bc3e4484728bc84b3248df6446c096a5f822/metabotk-0.1.33.tar.gz
+[2024-05-10 17:51:35] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/4e/0e/d438eee8c52056f4c47a49ca32ab1b065309bf77cabaed95f73cb1760629/onyx_extension-0.1.2-py3-none-any.whl
+[2024-05-10 17:51:35] INFO root fetch - processPackages [mecode-viewer]: Downloading https://files.pythonhosted.org/packages/43/39/a0fdd296e65a33f0a7fd448c436efeac4611c0e6544732e75f97ecc2a24b/mecode_viewer-0.3.9.tar.gz
+[2024-05-10 17:51:36] INFO root fetch - processPackages [metabotk]: executing diffoscope
+[2024-05-10 17:51:36] INFO root fetch - processPackages [metabotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabotk-0.1.31.tar.gz tmp/metabotk-0.1.33.tar.gz --markdown 20240510/m/metabotk/0.1.31-0.1.33/README.md --exclude *.pyd
+[2024-05-10 17:51:36] INFO root fetch - processPackages [onyx-extension]: executing diffoscope
+[2024-05-10 17:51:36] INFO root fetch - processPackages [onyx-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyx_extension-0.1.0-1-py3-none-any.whl.zip tmp/onyx_extension-0.1.2-py3-none-any.whl.zip --markdown 20240510/o/onyx-extension/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-10 17:51:36] INFO root fetch - processPackages [celery-streaming-result]: Downloading https://files.pythonhosted.org/packages/2e/09/32116d864a282e90543db3ff974f1613de7902cd7cae516758e9424742a0/celery_streaming_result-0.1.2.tar.gz
+[2024-05-10 17:51:36] INFO root fetch - processPackages [mecode-viewer]: executing diffoscope
+[2024-05-10 17:51:36] INFO root fetch - processPackages [mecode-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecode_viewer-0.3.8.tar.gz tmp/mecode_viewer-0.3.9.tar.gz --markdown 20240510/m/mecode-viewer/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-10 17:51:36] INFO root fetch - processPackages [redshift_client]: Downloading https://files.pythonhosted.org/packages/a4/59/6076165cfe7675a3eef4a29977e2f491315d007aabf5fb876bb7749c58b4/redshift_client-5.1.1.tar.gz
+[2024-05-10 17:51:36] INFO root fetch - processPackages [celery-streaming-result]: executing diffoscope
+[2024-05-10 17:51:36] INFO root fetch - processPackages [celery-streaming-result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery_streaming_result-0.1.1.tar.gz tmp/celery_streaming_result-0.1.2.tar.gz --markdown 20240510/c/celery-streaming-result/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 17:51:36] INFO root fetch - processPackages [redshift_client]: executing diffoscope
+[2024-05-10 17:51:36] INFO root fetch - processPackages [redshift_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redshift_client-5.1.0.tar.gz tmp/redshift_client-5.1.1.tar.gz --markdown 20240510/r/redshift_client/5.1.0-5.1.1/README.md --exclude *.pyd
+[2024-05-10 17:51:36] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.1.0-1-py3-none-any.whl.zip]
+[2024-05-10 17:51:36] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.1.2-py3-none-any.whl.zip]
+[2024-05-10 17:51:36] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
+[2024-05-10 17:51:36] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.31.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.33.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - main [MainThread]: End processing [metabotk]: success
+[2024-05-10 17:51:36] INFO root fetch - processPackages [mecode-viewer]: Remove: archive file [/home/abi/fetcher/tmp/mecode_viewer-0.3.8.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - processPackages [mecode-viewer]: Remove: archive file [/home/abi/fetcher/tmp/mecode_viewer-0.3.9.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - main [MainThread]: End processing [mecode-viewer]: success
+[2024-05-10 17:51:36] INFO root fetch - processPackages [celery-streaming-result]: Remove: archive file [/home/abi/fetcher/tmp/celery_streaming_result-0.1.1.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - processPackages [celery-streaming-result]: Remove: archive file [/home/abi/fetcher/tmp/celery_streaming_result-0.1.2.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - main [MainThread]: End processing [celery-streaming-result]: success
+[2024-05-10 17:51:36] INFO root fetch - processPackages [redshift_client]: Remove: archive file [/home/abi/fetcher/tmp/redshift_client-5.1.0.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - processPackages [redshift_client]: Remove: archive file [/home/abi/fetcher/tmp/redshift_client-5.1.1.tar.gz]
+[2024-05-10 17:51:36] INFO root fetch - main [MainThread]: End processing [redshift_client]: success
+[2024-05-10 17:51:36] INFO root fetch - main [MainThread]: Store serial: [23149278]
