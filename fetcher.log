@@ -13729,3 +13729,63 @@
 [2024-05-10 12:03:06] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-05-10 12:03:06] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-05-10 12:03:06] INFO root fetch - main [MainThread]: Store serial: [23144413]
+[2024-05-10 12:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144413]
+[2024-05-10 12:05:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 12:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gftools
+[2024-05-10 12:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antiphthisicz
+[2024-05-10 12:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgeimpulse
+[2024-05-10 12:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepsearcheath
+[2024-05-10 12:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-core
+[2024-05-10 12:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-claude
+[2024-05-10 12:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-griptape
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 12:05:19] WARNING root fetch - processPackages [antiphthisicz]: Skipping, unable to determine old version
+[2024-05-10 12:05:19] INFO root fetch - main [MainThread]: End processing [antiphthisicz] error
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-griptape]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-claude]: New version: [0.2.54] Old Version: [0.2.52]
+[2024-05-10 12:05:19] INFO root fetch - processPackages [deepsearcheath]: New version: [1.1.0] Old Version: [0.9.6]
+[2024-05-10 12:05:19] INFO root fetch - processPackages [gftools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 12:05:19] INFO root fetch - processPackages [edgeimpulse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/f3/6c/933dde8aebe19c3f8e67d410e40b972ef063e6f2c8377b4f87f87559e917/composio_claude-0.2.52.tar.gz
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/4b/28/2cae085ac4a54364c01ca191c64503de850d38d1599bc7a14ae2d029a67e/composio_griptape-0.2.52.tar.gz
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-10 12:05:19] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/6d/5d/f19c961c63554a9224a8abee321b0a8715dc1e05bbe03077b56b75a8bc0b/gftools-0.9.8.tar.gz
+[2024-05-10 12:05:19] INFO root fetch - processPackages [deepsearcheath]: Downloading https://files.pythonhosted.org/packages/fd/b2/23fc3f9041e75ead565c02cbfcea549f5478a7b2a332296d21f93e4ba7bb/deepsearcheath-0.9.6-py3-none-any.whl
+[2024-05-10 12:05:19] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/04/b3/1969fd57252f0b3e9704dbd018d887e129350405a5d27928607f97039512/edgeimpulse-1.0.8.tar.gz
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/b2/26/9b24eae033a127f9a35077b7a0fe084aacc90b008a5b4839d9cbe4dd269e/composio_griptape-0.2.54.tar.gz
+[2024-05-10 12:05:19] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/e9/44/046c1c00e1ab50d14d791f8b093fc40e7e01114b2bbb9e23a47bbcffac64/composio_claude-0.2.54.tar.gz
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.52.tar.gz tmp/composio_griptape-0.2.54.tar.gz --markdown 20240510/c/composio-griptape/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.52.tar.gz tmp/composio_claude-0.2.54.tar.gz --markdown 20240510/c/composio-claude/0.2.52-0.2.54/README.md --exclude *.pyd
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240510/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 12:05:20] INFO root fetch - processPackages [deepsearcheath]: Downloading https://files.pythonhosted.org/packages/c8/68/466451ff2fad11371c0d00453163b4f0116030d7f6a9077e7503fd863014/deepsearcheath-1.1.0-py3-none-any.whl
+[2024-05-10 12:05:20] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/72/52/c1c837b2e527625be5471be2cbf9c312f0f69f6f28ccd70cc0b3222cf54a/edgeimpulse-1.0.9.tar.gz
+[2024-05-10 12:05:20] INFO root fetch - processPackages [deepsearcheath]: executing diffoscope
+[2024-05-10 12:05:20] INFO root fetch - processPackages [deepsearcheath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearcheath-0.9.6-py3-none-any.whl.zip tmp/deepsearcheath-1.1.0-py3-none-any.whl.zip --markdown 20240510/d/deepsearcheath/0.9.6-1.1.0/README.md --exclude *.pyd
+[2024-05-10 12:05:20] INFO root fetch - processPackages [edgeimpulse]: executing diffoscope
+[2024-05-10 12:05:20] INFO root fetch - processPackages [edgeimpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse-1.0.8.tar.gz tmp/edgeimpulse-1.0.9.tar.gz --markdown 20240510/e/edgeimpulse/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 12:05:20] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/4a/43/0695adddf818c751dd6cd94baf605871116827e1297e634d3f4508330908/gftools-0.9.9.tar.gz
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.52.tar.gz]
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.54.tar.gz]
+[2024-05-10 12:05:20] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.52.tar.gz]
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.54.tar.gz]
+[2024-05-10 12:05:20] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-10 12:05:20] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-10 12:05:20] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-10 12:05:20] INFO root fetch - processPackages [deepsearcheath]: Remove: archive file [/home/abi/fetcher/tmp/deepsearcheath-0.9.6-py3-none-any.whl.zip]
+[2024-05-10 12:05:20] INFO root fetch - processPackages [deepsearcheath]: Remove: archive file [/home/abi/fetcher/tmp/deepsearcheath-1.1.0-py3-none-any.whl.zip]
+[2024-05-10 12:05:20] INFO root fetch - main [MainThread]: End processing [deepsearcheath]: success
+[2024-05-10 12:05:21] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.8.tar.gz]
+[2024-05-10 12:05:21] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.9.tar.gz]
+[2024-05-10 12:05:21] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
+[2024-05-10 12:05:22] INFO root fetch - processPackages [gftools]: executing diffoscope
+[2024-05-10 12:05:22] INFO root fetch - processPackages [gftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gftools-0.9.8.tar.gz tmp/gftools-0.9.9.tar.gz --markdown 20240510/g/gftools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 12:05:28] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.8.tar.gz]
+[2024-05-10 12:05:28] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
+[2024-05-10 12:05:28] INFO root fetch - main [MainThread]: End processing [gftools]: success
+[2024-05-10 12:05:28] INFO root fetch - main [MainThread]: Store serial: [23144433]
