@@ -8089,3 +8089,57 @@
 [2024-05-10 08:07:27] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-10 08:07:27] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-10 08:07:27] INFO root fetch - main [MainThread]: Store serial: [23142021]
+[2024-05-10 08:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142021]
+[2024-05-10 08:09:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hklpy2
+[2024-05-10 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vllm-xft
+[2024-05-10 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PerplexiPy
+[2024-05-10 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cochl
+[2024-05-10 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: culicinesz
+[2024-05-10 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text-block-local
+[2024-05-10 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prodiapy
+[2024-05-10 08:09:35] INFO root fetch - processPackages [hklpy2]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 08:09:35] INFO root fetch - processPackages [PerplexiPy]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-10 08:09:36] INFO root fetch - processPackages [prodiapy]: New version: [5.1.3] Old Version: [5.1.2]
+[2024-05-10 08:09:36] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/6b/56/a7197484acfac98a22c660f5a948a1851967b5ebff6cc60dac186b0f1219/hklpy2-0.0.6.tar.gz
+[2024-05-10 08:09:36] WARNING root fetch - processPackages [cochl]: Skipping, unable to determine old version
+[2024-05-10 08:09:36] INFO root fetch - main [MainThread]: End processing [cochl] error
+[2024-05-10 08:09:36] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:09:36] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/29/78/59b316d11dbf40da31d11d641ee0bc67642dc7dd3529cfd2a772e0d4cf72/PerplexiPy-1.0.7-py3-none-any.whl
+[2024-05-10 08:09:36] INFO root fetch - processPackages [vllm-xft]: New version: [0.3.3.1] Old Version: [0.3.3.0]
+[2024-05-10 08:09:36] WARNING root fetch - processPackages [culicinesz]: Skipping, unable to determine old version
+[2024-05-10 08:09:36] INFO root fetch - main [MainThread]: End processing [culicinesz] error
+[2024-05-10 08:09:36] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/6e/84/57d4e5794b71a71bdbe368c1416bc5838aed166c3daa24ec67569d024aba/prodiapy-5.1.2.tar.gz
+[2024-05-10 08:09:36] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/2a/0d/cf902587acd32619ef9063a866f7ac8ba9c4c632c6dfdf1b895be80e58f5/hklpy2-0.0.7.tar.gz
+[2024-05-10 08:09:36] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/2e/2f/40cad6cd9922db35d6d30116526932805394e0d482122986838fc068c7ae/prodiapy-5.1.3.tar.gz
+[2024-05-10 08:09:36] INFO root fetch - processPackages [vllm-xft]: Downloading https://files.pythonhosted.org/packages/31/9c/15f6f0e14fdcb2134c6c78f0f0c409719631c60a6024543453d7183b704d/vllm_xft-0.3.3.0-py3-none-any.whl
+[2024-05-10 08:09:36] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/cf/dd/30b98be8ad88ca8d3830eb41dc5b13dee0009d50f3cc75e938cea00e48d1/PerplexiPy-1.0.8-py3-none-any.whl
+[2024-05-10 08:09:36] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 08:09:36] INFO root fetch - processPackages [prodiapy]: executing diffoscope
+[2024-05-10 08:09:36] INFO root fetch - processPackages [prodiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodiapy-5.1.2.tar.gz tmp/prodiapy-5.1.3.tar.gz --markdown 20240510/p/prodiapy/5.1.2-5.1.3/README.md --exclude *.pyd
+[2024-05-10 08:09:36] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-05-10 08:09:36] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.6.tar.gz tmp/hklpy2-0.0.7.tar.gz --markdown 20240510/h/hklpy2/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 08:09:36] INFO root fetch - processPackages [PerplexiPy]: executing diffoscope
+[2024-05-10 08:09:36] INFO root fetch - processPackages [PerplexiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PerplexiPy-1.0.7-py3-none-any.whl.zip tmp/PerplexiPy-1.0.8-py3-none-any.whl.zip --markdown 20240510/P/PerplexiPy/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-10 08:09:36] INFO root fetch - processPackages [vllm-xft]: Downloading https://files.pythonhosted.org/packages/c2/11/ddb91e8ecce33230b542cdec888bc3e0d98a7a0ce5758700b09107e55470/vllm_xft-0.3.3.1-py3-none-any.whl
+[2024-05-10 08:09:36] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 08:09:36] INFO root fetch - processPackages [vllm-xft]: executing diffoscope
+[2024-05-10 08:09:36] INFO root fetch - processPackages [vllm-xft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vllm_xft-0.3.3.0-py3-none-any.whl.zip tmp/vllm_xft-0.3.3.1-py3-none-any.whl.zip --markdown 20240510/v/vllm-xft/0.3.3.0-0.3.3.1/README.md --exclude *.pyd
+[2024-05-10 08:09:37] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 08:09:37] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:09:37] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-5.1.2.tar.gz]
+[2024-05-10 08:09:37] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-5.1.3.tar.gz]
+[2024-05-10 08:09:37] INFO root fetch - main [MainThread]: End processing [prodiapy]: success
+[2024-05-10 08:09:37] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-1.0.7-py3-none-any.whl.zip]
+[2024-05-10 08:09:37] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-1.0.8-py3-none-any.whl.zip]
+[2024-05-10 08:09:37] INFO root fetch - main [MainThread]: End processing [PerplexiPy]: success
+[2024-05-10 08:09:37] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.6.tar.gz]
+[2024-05-10 08:09:37] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.7.tar.gz]
+[2024-05-10 08:09:37] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-05-10 08:09:37] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 08:09:37] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 08:09:37] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 08:09:37] INFO root fetch - processPackages [vllm-xft]: Remove: archive file [/home/abi/fetcher/tmp/vllm_xft-0.3.3.0-py3-none-any.whl.zip]
+[2024-05-10 08:09:37] INFO root fetch - processPackages [vllm-xft]: Remove: archive file [/home/abi/fetcher/tmp/vllm_xft-0.3.3.1-py3-none-any.whl.zip]
+[2024-05-10 08:09:37] INFO root fetch - main [MainThread]: End processing [vllm-xft]: success
+[2024-05-10 08:09:37] INFO root fetch - main [MainThread]: Store serial: [23142046]
