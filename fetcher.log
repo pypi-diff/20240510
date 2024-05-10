@@ -18212,3 +18212,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:46:50] INFO root fetch - processPackages [xlineparse]: Remove: archive file [/home/abi/fetcher/tmp/xlineparse-0.0.5-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
 [2024-05-10 14:46:50] INFO root fetch - main [MainThread]: End processing [xlineparse]: success
 [2024-05-10 14:46:50] INFO root fetch - main [MainThread]: Store serial: [23146373]
+[2024-05-10 14:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146373]
+[2024-05-10 14:49:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: depthai-viewer
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: justatestwithcpp
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indent-concluder
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glpic
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: affixapi
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygradflow
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: celus-nigiri
+[2024-05-10 14:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-azure
+[2024-05-10 14:49:02] INFO root fetch - processPackages [glpic]: New version: [99.0.202405101244] Old Version: [99.0.202405091056]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [affixapi]: New version: [1.1.72] Old Version: [1.1.71]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [justatestwithcpp]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [indent-concluder]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [celus-nigiri]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/92/a1/c8fbe42b380a6fc9570d98d1929734bd4c9cffba0e7a4a5e3d664d3d99ca/glpic-99.0.202405091056.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [depthai-viewer]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-10 14:49:02] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/11/ad/0f30632837c12c42da884f2209a185912576657076d601b8a8b8835ca332/affixapi-1.1.71.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/34/ff/54ecb00ea6c45ef7ce1b3d67a6afa03388acfd99d1998c62dd074e4669bd/celus_nigiri-2.1.0.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/aa/e5/e66929f69e0b785a026656785620408930ab26f46039ce826866da054cee/justatestwithcpp-0.1.7.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [indent-concluder]: Downloading https://files.pythonhosted.org/packages/a4/21/8a4a86b20c3842a8661a4e010b9118a7e2d38869ff1aa732bcd9517565af/indent-concluder-1.1.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [depthai-viewer]: Downloading https://files.pythonhosted.org/packages/f4/a1/1dbb178f8dd526b6102512e6d1e7fb274618e547f3b8e1df2fa7f509a871/depthai_viewer-0.1.9-cp38-abi3-win_amd64.whl
+[2024-05-10 14:49:02] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/27/ac/ac6414c4cd3ce14080c1c4e4a208d7ffc5f11af20a64611cc969a28b9d42/glpic-99.0.202405101244.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-10 14:49:02] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/41/38/c9915ef27e35c2d32d988f3953a0d4ef81001877abd864b18b5b6f4908ea/celus_nigiri-2.2.0.tar.gz
+[2024-05-10 14:49:03] INFO root fetch - processPackages [indent-concluder]: Downloading https://files.pythonhosted.org/packages/8e/3e/e5e47fb1013428ba3f3846c130fbf39b87c6b56f015c9d444753895db9a3/indent-concluder-1.1.1.tar.gz
+[2024-05-10 14:49:03] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/39/34/3808f5dc3940cc6a0f0054a14da5fc9d55a2f9545787d7924f5b056daf97/affixapi-1.1.72.tar.gz
+[2024-05-10 14:49:03] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-05-10 14:49:03] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202405091056.tar.gz tmp/glpic-99.0.202405101244.tar.gz --markdown 20240510/g/glpic/99.0.202405091056-99.0.202405101244/README.md --exclude *.pyd
+[2024-05-10 14:49:03] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-10 14:49:03] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240510/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-10 14:49:03] INFO root fetch - processPackages [celus-nigiri]: executing diffoscope
+[2024-05-10 14:49:03] INFO root fetch - processPackages [celus-nigiri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celus_nigiri-2.1.0.tar.gz tmp/celus_nigiri-2.2.0.tar.gz --markdown 20240510/c/celus-nigiri/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-10 14:49:03] INFO root fetch - processPackages [indent-concluder]: executing diffoscope
+[2024-05-10 14:49:03] INFO root fetch - processPackages [indent-concluder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indent-concluder-1.1.tar.gz tmp/indent-concluder-1.1.1.tar.gz --markdown 20240510/i/indent-concluder/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-10 14:49:03] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/48/2a/1bc32a653eeec550445ebff77c63c30d4e865ca113909fb34297b88dda9c/justatestwithcpp-0.1.8.tar.gz
+[2024-05-10 14:49:03] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-05-10 14:49:03] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.71.tar.gz tmp/affixapi-1.1.72.tar.gz --markdown 20240510/a/affixapi/1.1.71-1.1.72/README.md --exclude *.pyd
+[2024-05-10 14:49:03] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-10 14:49:03] INFO root fetch - processPackages [justatestwithcpp]: executing diffoscope
+[2024-05-10 14:49:03] INFO root fetch - processPackages [justatestwithcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justatestwithcpp-0.1.7.tar.gz tmp/justatestwithcpp-0.1.8.tar.gz --markdown 20240510/j/justatestwithcpp/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-10 14:49:03] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-10 14:49:03] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240510/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-10 14:49:03] INFO root fetch - processPackages [depthai-viewer]: Downloading https://files.pythonhosted.org/packages/c9/8b/c88748025839aa2a0a4f521947be2fe40a521bb0839c50261c13e7d53f4f/depthai_viewer-0.2.0-cp38-abi3-win_amd64.whl
+[2024-05-10 14:49:03] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405091056.tar.gz]
+[2024-05-10 14:49:03] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405101244.tar.gz]
+[2024-05-10 14:49:03] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-05-10 14:49:03] INFO root fetch - processPackages [indent-concluder]: Remove: archive file [/home/abi/fetcher/tmp/indent-concluder-1.1.tar.gz]
+[2024-05-10 14:49:03] INFO root fetch - processPackages [indent-concluder]: Remove: archive file [/home/abi/fetcher/tmp/indent-concluder-1.1.1.tar.gz]
+[2024-05-10 14:49:03] INFO root fetch - main [MainThread]: End processing [indent-concluder]: success
+[2024-05-10 14:49:03] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-10 14:49:03] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-10 14:49:03] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-10 14:49:04] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.1.0.tar.gz]
+[2024-05-10 14:49:04] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.2.0.tar.gz]
+[2024-05-10 14:49:04] INFO root fetch - main [MainThread]: End processing [celus-nigiri]: success
+[2024-05-10 14:49:04] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.7.tar.gz]
+[2024-05-10 14:49:04] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.8.tar.gz]
+[2024-05-10 14:49:04] INFO root fetch - main [MainThread]: End processing [justatestwithcpp]: success
+[2024-05-10 14:49:04] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.71.tar.gz]
+[2024-05-10 14:49:04] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.72.tar.gz]
+[2024-05-10 14:49:04] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-05-10 14:49:05] INFO root fetch - processPackages [depthai-viewer]: executing diffoscope
+[2024-05-10 14:49:05] INFO root fetch - processPackages [depthai-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthai_viewer-0.1.9-cp38-abi3-win_amd64.whl.zip tmp/depthai_viewer-0.2.0-cp38-abi3-win_amd64.whl.zip --markdown 20240510/d/depthai-viewer/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-10 14:49:06] INFO root fetch - processPackages [depthai-viewer]: Remove: archive file [/home/abi/fetcher/tmp/depthai_viewer-0.1.9-cp38-abi3-win_amd64.whl.zip]
+[2024-05-10 14:49:06] INFO root fetch - processPackages [depthai-viewer]: Remove: archive file [/home/abi/fetcher/tmp/depthai_viewer-0.2.0-cp38-abi3-win_amd64.whl.zip]
+[2024-05-10 14:49:06] INFO root fetch - main [MainThread]: End processing [depthai-viewer]: success
+[2024-05-10 14:49:12] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-10 14:49:12] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-10 14:49:12] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-10 14:49:12] INFO root fetch - main [MainThread]: Store serial: [23146399]
