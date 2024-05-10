@@ -14482,3 +14482,45 @@
 [2024-05-10 12:37:07] INFO root fetch - processPackages [autohemolyticz]: Remove: archive file [/home/abi/fetcher/tmp/autohemolyticz-2.1.tar.gz]
 [2024-05-10 12:37:07] INFO root fetch - main [MainThread]: End processing [autohemolyticz]: success
 [2024-05-10 12:37:07] INFO root fetch - main [MainThread]: Store serial: [23144761]
+[2024-05-10 12:39:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144761]
+[2024-05-10 12:39:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2024-05-10 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myokit
+[2024-05-10 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blivet
+[2024-05-10 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kozmoml-mllib
+[2024-05-10 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymemgpt-nightly
+[2024-05-10 12:39:20] INFO root fetch - processPackages [blivet]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-10 12:39:20] WARNING root fetch - processPackages [kozmoml-mllib]: Skipping, unable to determine old version
+[2024-05-10 12:39:20] INFO root fetch - main [MainThread]: End processing [kozmoml-mllib] error
+[2024-05-10 12:39:20] INFO root fetch - processPackages [myokit]: New version: [1.36.1] Old Version: [1.36.0]
+[2024-05-10 12:39:20] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-10 12:39:20] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240510] Old Version: [1.0.0.dev20240509]
+[2024-05-10 12:39:21] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [blivet]: Downloading https://files.pythonhosted.org/packages/d9/b6/4ebc504d1c7c39505f73da216680b20ca0a63efd34d5b0ac96cae3a934dc/blivet-3.9.1.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [myokit]: Downloading https://files.pythonhosted.org/packages/e4/22/e701d0d1bd3578e2288057fea3bb151a962b11205e049db64798e5eff57b/myokit-1.36.0.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/64/21/353e98e0aed41caa06013ea65a61c7b88419ea3cdea050ccdfa5e77e9ea7/skypilot_nightly-1.0.0.dev20240509.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-10 12:39:21] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240510/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-10 12:39:21] INFO root fetch - processPackages [blivet]: Downloading https://files.pythonhosted.org/packages/4e/51/40829ed261994ccc9618604fc72df7f817955a648eded0a7ab66e39ce477/blivet-3.9.2.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/6f/88/ba39303914df6680a8ac96361282fe139d5bba2326a52e860b4d72191827/skypilot_nightly-1.0.0.dev20240510.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [myokit]: Downloading https://files.pythonhosted.org/packages/85/18/18c11aacee1e337e58f37bb98216c607d04b6d5a5aeff5a6e68c799e0803/myokit-1.36.1.tar.gz
+[2024-05-10 12:39:21] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-10 12:39:21] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240509.tar.gz tmp/skypilot_nightly-1.0.0.dev20240510.tar.gz --markdown 20240510/s/skypilot-nightly/1.0.0.dev20240509-1.0.0.dev20240510/README.md --exclude *.pyd
+[2024-05-10 12:39:21] INFO root fetch - processPackages [blivet]: executing diffoscope
+[2024-05-10 12:39:21] INFO root fetch - processPackages [blivet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blivet-3.9.1.tar.gz tmp/blivet-3.9.2.tar.gz --markdown 20240510/b/blivet/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-10 12:39:22] INFO root fetch - processPackages [myokit]: executing diffoscope
+[2024-05-10 12:39:22] INFO root fetch - processPackages [myokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myokit-1.36.0.tar.gz tmp/myokit-1.36.1.tar.gz --markdown 20240510/m/myokit/1.36.0-1.36.1/README.md --exclude *.pyd
+[2024-05-10 12:39:22] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-10 12:39:22] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-10 12:39:22] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-10 12:39:23] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240509.tar.gz]
+[2024-05-10 12:39:23] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240510.tar.gz]
+[2024-05-10 12:39:23] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-10 12:39:24] INFO root fetch - processPackages [blivet]: Remove: archive file [/home/abi/fetcher/tmp/blivet-3.9.1.tar.gz]
+[2024-05-10 12:39:24] INFO root fetch - processPackages [blivet]: Remove: archive file [/home/abi/fetcher/tmp/blivet-3.9.2.tar.gz]
+[2024-05-10 12:39:24] INFO root fetch - main [MainThread]: End processing [blivet]: success
+[2024-05-10 12:39:24] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.36.0.tar.gz]
+[2024-05-10 12:39:24] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.36.1.tar.gz]
+[2024-05-10 12:39:24] INFO root fetch - main [MainThread]: End processing [myokit]: success
+[2024-05-10 12:39:24] INFO root fetch - main [MainThread]: Store serial: [23144778]
