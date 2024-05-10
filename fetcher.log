@@ -9779,3 +9779,48 @@
 [2024-05-10 09:35:12] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.9.tar.gz]
 [2024-05-10 09:35:12] INFO root fetch - main [MainThread]: End processing [oslili]: success
 [2024-05-10 09:35:12] INFO root fetch - main [MainThread]: Store serial: [23142794]
+[2024-05-10 09:37:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142794]
+[2024-05-10 09:37:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cornflow
+[2024-05-10 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: featurefactory
+[2024-05-10 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sacn
+[2024-05-10 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-base
+[2024-05-10 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coldp
+[2024-05-10 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helicinz
+[2024-05-10 09:37:21] WARNING root fetch - processPackages [helicinz]: Skipping, unable to determine old version
+[2024-05-10 09:37:21] INFO root fetch - main [MainThread]: End processing [helicinz] error
+[2024-05-10 09:37:21] INFO root fetch - processPackages [sacn]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-10 09:37:21] INFO root fetch - processPackages [coldp]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-10 09:37:21] WARNING root fetch - processPackages [featurefactory]: Skipping, unable to determine old version
+[2024-05-10 09:37:21] INFO root fetch - main [MainThread]: End processing [featurefactory] error
+[2024-05-10 09:37:21] INFO root fetch - processPackages [cornflow]: New version: [1.0.9] Old Version: [1.0.8a3]
+[2024-05-10 09:37:21] INFO root fetch - processPackages [scikit-base]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-10 09:37:22] INFO root fetch - processPackages [sacn]: Downloading https://files.pythonhosted.org/packages/2b/3a/5f7fa70575492ed6fbbf3cb2093059c6d38ae634cd96f3b6de0930720371/sacn-1.9.0.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [coldp]: Downloading https://files.pythonhosted.org/packages/73/5c/0b353fbfc0785ab80cf0c9375aad7ede9f71bf0aaae479895b298208a4fa/coldp-2024.5.2.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/0d/d5/ac5cb4ac214dde3350bcdbc865c8fbc8fe6b44f26dcd9129eccbb8f0c2c9/scikit_base-0.7.7.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/c0/5e/9ee10ba99b32c0b2643c2ade9ce60f7eace38c3e2d537059f1e4e8fc08fa/cornflow-1.0.8a3.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [coldp]: Downloading https://files.pythonhosted.org/packages/57/69/6fdda8957681bb11e2f8292aa6e7ff598680916dfb6d3fb03956570a9c39/coldp-2024.5.3.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [sacn]: Downloading https://files.pythonhosted.org/packages/67/06/793a400d2d936db8d11c65c39932023abe119393ded6cba2960c5af4a5e9/sacn-1.9.1.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/64/bc/5e42d74e560b060a33b6cddc0c887c89a3a6ae9deb6f49d095fe5f88ebd7/scikit_base-0.7.8.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/2a/b9/7640258564c4ce8170ef07e43bfa17f62ba8236fbfbacbb54d2d957c226c/cornflow-1.0.9.tar.gz
+[2024-05-10 09:37:22] INFO root fetch - processPackages [sacn]: executing diffoscope
+[2024-05-10 09:37:22] INFO root fetch - processPackages [sacn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sacn-1.9.0.tar.gz tmp/sacn-1.9.1.tar.gz --markdown 20240510/s/sacn/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-10 09:37:22] INFO root fetch - processPackages [cornflow]: executing diffoscope
+[2024-05-10 09:37:22] INFO root fetch - processPackages [cornflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-1.0.8a3.tar.gz tmp/cornflow-1.0.9.tar.gz --markdown 20240510/c/cornflow/1.0.8a3-1.0.9/README.md --exclude *.pyd
+[2024-05-10 09:37:22] INFO root fetch - processPackages [scikit-base]: executing diffoscope
+[2024-05-10 09:37:22] INFO root fetch - processPackages [scikit-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_base-0.7.7.tar.gz tmp/scikit_base-0.7.8.tar.gz --markdown 20240510/s/scikit-base/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-10 09:37:23] INFO root fetch - processPackages [coldp]: executing diffoscope
+[2024-05-10 09:37:23] INFO root fetch - processPackages [coldp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coldp-2024.5.2.tar.gz tmp/coldp-2024.5.3.tar.gz --markdown 20240510/c/coldp/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-10 09:37:23] INFO root fetch - processPackages [sacn]: Remove: archive file [/home/abi/fetcher/tmp/sacn-1.9.0.tar.gz]
+[2024-05-10 09:37:23] INFO root fetch - processPackages [sacn]: Remove: archive file [/home/abi/fetcher/tmp/sacn-1.9.1.tar.gz]
+[2024-05-10 09:37:23] INFO root fetch - main [MainThread]: End processing [sacn]: success
+[2024-05-10 09:37:23] INFO root fetch - processPackages [scikit-base]: Remove: archive file [/home/abi/fetcher/tmp/scikit_base-0.7.7.tar.gz]
+[2024-05-10 09:37:23] INFO root fetch - processPackages [scikit-base]: Remove: archive file [/home/abi/fetcher/tmp/scikit_base-0.7.8.tar.gz]
+[2024-05-10 09:37:23] INFO root fetch - main [MainThread]: End processing [scikit-base]: success
+[2024-05-10 09:37:23] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.0.8a3.tar.gz]
+[2024-05-10 09:37:23] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.0.9.tar.gz]
+[2024-05-10 09:37:23] INFO root fetch - main [MainThread]: End processing [cornflow]: success
+[2024-05-10 09:37:24] INFO root fetch - processPackages [coldp]: Remove: archive file [/home/abi/fetcher/tmp/coldp-2024.5.2.tar.gz]
+[2024-05-10 09:37:24] INFO root fetch - processPackages [coldp]: Remove: archive file [/home/abi/fetcher/tmp/coldp-2024.5.3.tar.gz]
+[2024-05-10 09:37:24] INFO root fetch - main [MainThread]: End processing [coldp]: success
+[2024-05-10 09:37:24] INFO root fetch - main [MainThread]: Store serial: [23142815]
