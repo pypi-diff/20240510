@@ -9170,3 +9170,69 @@
 [2024-05-10 09:01:59] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-10 09:01:59] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-10 09:01:59] INFO root fetch - main [MainThread]: Store serial: [23142532]
+[2024-05-10 09:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142532]
+[2024-05-10 09:04:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-indie-tools
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiida-bader
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-block-local
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turbofan
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: laserfields
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hata
+[2024-05-10 09:04:10] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 09:04:10] INFO root fetch - processPackages [aiida-bader]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ml-indie-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 09:04:10] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-10 09:04:10] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [laserfields]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-10 09:04:10] INFO root fetch - processPackages [turbofan]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/69/1d/c6da639234bf4fc987bcf4c70d7f07f77fa76a44aefc0606a4a01d5a7df1/ml-indie-tools-0.9.8.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [hata]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-10 09:04:10] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [aiida-bader]: Downloading https://files.pythonhosted.org/packages/58/4c/1e98c2e70a16732d39fc8a84e064cae1de464f51c01cd6eb4792bddc7fa6/aiida_bader-0.0.4.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [laserfields]: Downloading https://files.pythonhosted.org/packages/a6/12/bd8f6701f825ab99ab8ca4fc73fa49d22805e952cca34692acfee86d6e5b/laserfields-0.3.1.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [turbofan]: Downloading https://files.pythonhosted.org/packages/12/fd/cef80b620b0df38514ac6cf813da925ee9b4a88e59f72e5bfd33b7ea9dac/turbofan-0.2.0.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/4a/f2/c0100f2b17527fd7c8a6216f876eb9b3db8fd117f96ff46478b7b23e990e/hata-1.3.8.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ml-indie-tools]: Downloading https://files.pythonhosted.org/packages/dc/de/d925fee74bb8d13f43b041409d0894d88ac152c18da6ca97c4d9820355c9/ml-indie-tools-0.9.9.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 09:04:10] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ml-indie-tools]: executing diffoscope
+[2024-05-10 09:04:10] INFO root fetch - processPackages [ml-indie-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-indie-tools-0.9.8.tar.gz tmp/ml-indie-tools-0.9.9.tar.gz --markdown 20240510/m/ml-indie-tools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 09:04:10] INFO root fetch - processPackages [aiida-bader]: Downloading https://files.pythonhosted.org/packages/47/09/bc0a50f97dddca02616dbc62cd908f3a882137e9b6a437fb9f8e86120f48/aiida_bader-0.0.5.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-10 09:04:10] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240510/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-10 09:04:10] INFO root fetch - processPackages [turbofan]: Downloading https://files.pythonhosted.org/packages/9d/cd/00398b9c66bbe81fdc43d9b6fc9b1fb0d75f11f32088f5550e854f611179/turbofan-0.2.1.tar.gz
+[2024-05-10 09:04:10] INFO root fetch - processPackages [aiida-bader]: executing diffoscope
+[2024-05-10 09:04:10] INFO root fetch - processPackages [aiida-bader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_bader-0.0.4.tar.gz tmp/aiida_bader-0.0.5.tar.gz --markdown 20240510/a/aiida-bader/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 09:04:11] INFO root fetch - processPackages [turbofan]: executing diffoscope
+[2024-05-10 09:04:11] INFO root fetch - processPackages [turbofan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbofan-0.2.0.tar.gz tmp/turbofan-0.2.1.tar.gz --markdown 20240510/t/turbofan/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-10 09:04:11] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/b5/e0/4cb0546a643922b80592e8b745ce9b6d33d9a414e9540b749a0e2eea2045/hata-1.3.9.tar.gz
+[2024-05-10 09:04:11] INFO root fetch - processPackages [laserfields]: Downloading https://files.pythonhosted.org/packages/d7/ae/64fbe3c9c3e321a29ed9508565473d7370b02fe9368a5c4fd79af630bb2c/laserfields-0.4.0.tar.gz
+[2024-05-10 09:04:11] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 09:04:11] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.8.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - processPackages [ml-indie-tools]: Remove: archive file [/home/abi/fetcher/tmp/ml-indie-tools-0.9.9.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - main [MainThread]: End processing [ml-indie-tools]: success
+[2024-05-10 09:04:11] INFO root fetch - processPackages [aiida-bader]: Remove: archive file [/home/abi/fetcher/tmp/aiida_bader-0.0.4.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - processPackages [aiida-bader]: Remove: archive file [/home/abi/fetcher/tmp/aiida_bader-0.0.5.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - main [MainThread]: End processing [aiida-bader]: success
+[2024-05-10 09:04:11] INFO root fetch - processPackages [turbofan]: Remove: archive file [/home/abi/fetcher/tmp/turbofan-0.2.0.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - processPackages [turbofan]: Remove: archive file [/home/abi/fetcher/tmp/turbofan-0.2.1.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - main [MainThread]: End processing [turbofan]: success
+[2024-05-10 09:04:11] INFO root fetch - processPackages [laserfields]: executing diffoscope
+[2024-05-10 09:04:11] INFO root fetch - processPackages [laserfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laserfields-0.3.1.tar.gz tmp/laserfields-0.4.0.tar.gz --markdown 20240510/l/laserfields/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-10 09:04:11] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-10 09:04:11] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-10 09:04:12] INFO root fetch - processPackages [hata]: executing diffoscope
+[2024-05-10 09:04:12] INFO root fetch - processPackages [hata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hata-1.3.8.tar.gz tmp/hata-1.3.9.tar.gz --markdown 20240510/h/hata/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-10 09:04:12] INFO root fetch - processPackages [laserfields]: Remove: archive file [/home/abi/fetcher/tmp/laserfields-0.3.1.tar.gz]
+[2024-05-10 09:04:12] INFO root fetch - processPackages [laserfields]: Remove: archive file [/home/abi/fetcher/tmp/laserfields-0.4.0.tar.gz]
+[2024-05-10 09:04:12] INFO root fetch - main [MainThread]: End processing [laserfields]: success
+[2024-05-10 09:04:14] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.8.tar.gz]
+[2024-05-10 09:04:14] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.9.tar.gz]
+[2024-05-10 09:04:14] INFO root fetch - main [MainThread]: End processing [hata]: success
+[2024-05-10 09:04:14] INFO root fetch - main [MainThread]: Store serial: [23142555]
