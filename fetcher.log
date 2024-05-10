@@ -3506,3 +3506,36 @@
 [2024-05-10 03:36:25] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.4.tar.gz]
 [2024-05-10 03:36:25] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
 [2024-05-10 03:36:25] INFO root fetch - main [MainThread]: Store serial: [23139982]
+[2024-05-10 03:38:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139982]
+[2024-05-10 03:38:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: largebrainedz
+[2024-05-10 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jzchatbot
+[2024-05-10 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-05-10 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pixell
+[2024-05-10 03:38:33] INFO root fetch - processPackages [jzchatbot]: New version: [59.83.89] Old Version: [59.83.87]
+[2024-05-10 03:38:33] WARNING root fetch - processPackages [largebrainedz]: Skipping, unable to determine old version
+[2024-05-10 03:38:33] INFO root fetch - main [MainThread]: End processing [largebrainedz] error
+[2024-05-10 03:38:33] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 03:38:33] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/bd/f4/39a63364bd738181d13a365809988e419afcf30c537e39e42d290ba67896/pms_encoder-0.0.3.tar.gz
+[2024-05-10 03:38:33] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/75/69/b44b59e8204353f45ccf82c3fe6479ed1f77a52c81761bff0bd5a17ec316/jzchatbot-59.83.87.tar.gz
+[2024-05-10 03:38:33] INFO root fetch - processPackages [pixell]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-10 03:38:33] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/bd/43/fa09e4b10cd89648d9ef180aa0427e323c03b7936e9d7015422ce4ae62f5/jzchatbot-59.83.89.tar.gz
+[2024-05-10 03:38:33] INFO root fetch - processPackages [pixell]: Downloading https://files.pythonhosted.org/packages/cd/21/600b31eb7ee7eb1cd007ce6b4bd3ebc34c24dc2482534c31f108dfac7df3/pixell-0.9.5-cp38-cp38-manylinux2010_x86_64.whl
+[2024-05-10 03:38:33] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/e6/ab/1e15a736c49eff3ca292098dc2ebee0a7258e23497d7ffcf014307feb652/pms_encoder-0.0.4.tar.gz
+[2024-05-10 03:38:33] INFO root fetch - processPackages [jzchatbot]: executing diffoscope
+[2024-05-10 03:38:33] INFO root fetch - processPackages [jzchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzchatbot-59.83.87.tar.gz tmp/jzchatbot-59.83.89.tar.gz --markdown 20240510/j/jzchatbot/59.83.87-59.83.89/README.md --exclude *.pyd
+[2024-05-10 03:38:34] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-10 03:38:34] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.3.tar.gz tmp/pms_encoder-0.0.4.tar.gz --markdown 20240510/p/pms-encoder/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 03:38:34] INFO root fetch - processPackages [pixell]: Downloading https://files.pythonhosted.org/packages/99/51/d79a5767de2d6607a8c1d08392635a65479285d7c7a071158bc441a76a0c/pixell-0.9.6.tar.gz
+[2024-05-10 03:38:34] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.87.tar.gz]
+[2024-05-10 03:38:34] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.89.tar.gz]
+[2024-05-10 03:38:34] INFO root fetch - main [MainThread]: End processing [jzchatbot]: success
+[2024-05-10 03:38:34] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.3.tar.gz]
+[2024-05-10 03:38:34] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.4.tar.gz]
+[2024-05-10 03:38:34] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-10 03:38:34] INFO root fetch - processPackages [pixell]: executing diffoscope
+[2024-05-10 03:38:34] INFO root fetch - processPackages [pixell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixell-0.9.5-cp38-cp38-manylinux2010_x86_64.whl.zip tmp/pixell-0.9.6.tar.gz --markdown 20240510/p/pixell/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-10 03:38:43] INFO root fetch - processPackages [pixell]: Remove: archive file [/home/abi/fetcher/tmp/pixell-0.9.5-cp38-cp38-manylinux2010_x86_64.whl.zip]
+[2024-05-10 03:38:43] INFO root fetch - processPackages [pixell]: Remove: archive file [/home/abi/fetcher/tmp/pixell-0.9.6.tar.gz]
+[2024-05-10 03:38:43] INFO root fetch - main [MainThread]: End processing [pixell]: success
+[2024-05-10 03:38:43] INFO root fetch - main [MainThread]: Store serial: [23140001]
