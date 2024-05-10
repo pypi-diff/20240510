@@ -15328,3 +15328,78 @@
 [2024-05-10 13:02:08] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc2.tar.gz]
 [2024-05-10 13:02:08] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-05-10 13:02:08] INFO root fetch - main [MainThread]: Store serial: [23145131]
+[2024-05-10 13:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145131]
+[2024-05-10 13:04:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: townletz
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agit
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: profile-local
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-managed-apis
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvprocessor
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prothiel
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zeval
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-transformation-wizzard
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recharge-api
+[2024-05-10 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-snippets
+[2024-05-10 13:04:31] INFO root fetch - processPackages [recharge-api]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-10 13:04:31] INFO root fetch - processPackages [data-transformation-wizzard]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 13:04:31] INFO root fetch - processPackages [cvprocessor]: New version: [0.1.0] Old Version: [0.0.31]
+[2024-05-10 13:04:31] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.49]
+[2024-05-10 13:04:31] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 13:04:31] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.4.0.0rc2] Old Version: [1.4.0.0rc1]
+[2024-05-10 13:04:31] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/ec/69/0885e00a9393bc563d42225d96d819232542e7bdaa84d08cb60e5edf146f/recharge_api-1.6.0.tar.gz
+[2024-05-10 13:04:31] WARNING root fetch - processPackages [zeval]: Skipping, unable to determine old version
+[2024-05-10 13:04:31] INFO root fetch - main [MainThread]: End processing [zeval] error
+[2024-05-10 13:04:31] WARNING root fetch - processPackages [townletz]: Skipping, unable to determine old version
+[2024-05-10 13:04:31] INFO root fetch - main [MainThread]: End processing [townletz] error
+[2024-05-10 13:04:31] INFO root fetch - processPackages [agit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 13:04:31] ERROR root fetch - processPackages [prothiel]: Unable to get metadata: No such project 'prothiel'
+[2024-05-10 13:04:31] INFO root fetch - main [MainThread]: End processing [prothiel] error
+[2024-05-10 13:04:31] INFO root fetch - processPackages [data-transformation-wizzard]: Downloading https://files.pythonhosted.org/packages/20/da/b4dd4fd03e944971b5e700b6858125b3233a3a7469fb55b02feea0f9cdde/data_transformation_wizzard-0.1.1.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/40/56/242a4edbfab2ea303d27569bdd7e1b29865efa351c6c4ce66178e96ceda5/cvprocessor-0.0.31.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/5e/95/ca31fc35c8797d159dfb02da463c7d84ec3e44ee4f932e7070d7f4d91516/python-snippets-0.0.49.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/8e/35/84e9bd83f61584d50d2835f5305579d1de65e01385e73fb4b7ce38c3eaea/agit-0.1.8.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/d9/0e/56fdd88bfbb0cb6b76c52ab901d8ed6b90c2be96df7bb4f9914009941d54/openmetadata_managed_apis-1.4.0.0rc1.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/97/d5/9a7536296d6d422cab5e8b091ae7d9369f55522b6166113d9915633b19fe/cvprocessor-0.1.0.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/b0/0c/deec3793470a24788337c1e7f91e71c6c778e0627da32007fffbb723efa0/recharge_api-1.6.1.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [data-transformation-wizzard]: Downloading https://files.pythonhosted.org/packages/c5/62/567d5f77d5d17aa70235fc3715e098fb59890a58170ab118e95ec36da2c2/data_transformation_wizzard-0.1.2.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-10 13:04:31] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240510/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 13:04:31] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2024-05-10 13:04:31] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.49.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20240510/p/python-snippets/0.0.49-0.0.6/README.md --exclude *.pyd
+[2024-05-10 13:04:31] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-10 13:04:31] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.31.tar.gz tmp/cvprocessor-0.1.0.tar.gz --markdown 20240510/c/cvprocessor/0.0.31-0.1.0/README.md --exclude *.pyd
+[2024-05-10 13:04:31] INFO root fetch - processPackages [data-transformation-wizzard]: executing diffoscope
+[2024-05-10 13:04:31] INFO root fetch - processPackages [data-transformation-wizzard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_transformation_wizzard-0.1.1.tar.gz tmp/data_transformation_wizzard-0.1.2.tar.gz --markdown 20240510/d/data-transformation-wizzard/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 13:04:31] INFO root fetch - processPackages [recharge-api]: executing diffoscope
+[2024-05-10 13:04:31] INFO root fetch - processPackages [recharge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recharge_api-1.6.0.tar.gz tmp/recharge_api-1.6.1.tar.gz --markdown 20240510/r/recharge-api/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-10 13:04:31] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/39/01/b12b4db16893b18f1cdfff4a8f86ec2987d29127773bb94de3710af609ac/openmetadata_managed_apis-1.4.0.0rc2.tar.gz
+[2024-05-10 13:04:31] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/60/33/b2bf26349fba7328d66c4a5b6fd237c552d1830b8eff1e2aa7cf9aab1d1f/agit-0.1.9.tar.gz
+[2024-05-10 13:04:32] INFO root fetch - processPackages [agit]: executing diffoscope
+[2024-05-10 13:04:32] INFO root fetch - processPackages [agit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agit-0.1.8.tar.gz tmp/agit-0.1.9.tar.gz --markdown 20240510/a/agit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 13:04:32] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-05-10 13:04:32] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.4.0.0rc1.tar.gz tmp/openmetadata_managed_apis-1.4.0.0rc2.tar.gz --markdown 20240510/o/openmetadata-managed-apis/1.4.0.0rc1-1.4.0.0rc2/README.md --exclude *.pyd
+[2024-05-10 13:04:32] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.49.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2024-05-10 13:04:32] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-10 13:04:32] INFO root fetch - processPackages [data-transformation-wizzard]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_wizzard-0.1.1.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - processPackages [data-transformation-wizzard]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_wizzard-0.1.2.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [data-transformation-wizzard]: success
+[2024-05-10 13:04:32] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.6.0.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.6.1.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [recharge-api]: success
+[2024-05-10 13:04:32] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.31.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.1.0.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-10 13:04:32] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.8.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.9.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [agit]: success
+[2024-05-10 13:04:32] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.0rc1.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.0rc2.tar.gz]
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-05-10 13:04:32] INFO root fetch - main [MainThread]: Store serial: [23145194]
