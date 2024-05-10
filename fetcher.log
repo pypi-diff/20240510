@@ -6192,3 +6192,36 @@
 [2024-05-10 06:06:37] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
 [2024-05-10 06:06:37] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-05-10 06:06:37] INFO root fetch - main [MainThread]: Store serial: [23141076]
+[2024-05-10 06:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141076]
+[2024-05-10 06:08:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2024-05-10 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfem
+[2024-05-10 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ascianz
+[2024-05-10 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leprikon
+[2024-05-10 06:08:46] INFO root fetch - processPackages [leprikon]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-05-10 06:08:46] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-10 06:08:46] INFO root fetch - processPackages [pyfem]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 06:08:46] WARNING root fetch - processPackages [ascianz]: Skipping, unable to determine old version
+[2024-05-10 06:08:46] INFO root fetch - main [MainThread]: End processing [ascianz] error
+[2024-05-10 06:08:46] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/9a/bf/16e38fcebc2544dc6fd08fdff9c24cd12630fe6ea1f3d08275d0b499eaa6/leprikon-3.9.8.tar.gz
+[2024-05-10 06:08:46] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-10 06:08:46] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/61/fa/1232e6bbe7a630053412b3ef45dce6046a0fc87f9f48ea2adfec3a039fa7/pyfem-0.2.1.tar.gz
+[2024-05-10 06:08:46] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-10 06:08:46] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-10 06:08:46] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240510/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-10 06:08:46] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/fc/bf/8586488436c267dc0a04120d5c3497c1e51ea0c492c84ab51e0402564b30/leprikon-3.9.9.tar.gz
+[2024-05-10 06:08:46] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/9f/83/0356882072a4a869dba05e37001b639340e1147c02378c0688a9f4b32399/pyfem-0.2.2.tar.gz
+[2024-05-10 06:08:46] INFO root fetch - processPackages [leprikon]: executing diffoscope
+[2024-05-10 06:08:46] INFO root fetch - processPackages [leprikon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leprikon-3.9.8.tar.gz tmp/leprikon-3.9.9.tar.gz --markdown 20240510/l/leprikon/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-05-10 06:08:46] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2024-05-10 06:08:46] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.2.1.tar.gz tmp/pyfem-0.2.2.tar.gz --markdown 20240510/p/pyfem/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 06:08:47] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-10 06:08:47] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-10 06:08:47] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-10 06:08:48] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.2.1.tar.gz]
+[2024-05-10 06:08:48] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.2.2.tar.gz]
+[2024-05-10 06:08:48] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2024-05-10 06:08:48] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.8.tar.gz]
+[2024-05-10 06:08:48] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.9.tar.gz]
+[2024-05-10 06:08:48] INFO root fetch - main [MainThread]: End processing [leprikon]: success
+[2024-05-10 06:08:48] INFO root fetch - main [MainThread]: Store serial: [23141087]
