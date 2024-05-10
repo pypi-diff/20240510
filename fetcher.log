@@ -10011,3 +10011,39 @@
 [2024-05-10 09:48:22] INFO root fetch - processPackages [nemoguardrails]: Remove: archive file [/home/abi/fetcher/tmp/nemoguardrails-0.9.0-py3-none-any.whl.zip]
 [2024-05-10 09:48:22] INFO root fetch - main [MainThread]: End processing [nemoguardrails]: success
 [2024-05-10 09:48:22] INFO root fetch - main [MainThread]: Store serial: [23142907]
+[2024-05-10 09:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142907]
+[2024-05-10 09:50:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 09:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riddlesolver
+[2024-05-10 09:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockipy
+[2024-05-10 09:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-shapes
+[2024-05-10 09:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChainPipe
+[2024-05-10 09:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyxLSTM
+[2024-05-10 09:50:31] INFO root fetch - processPackages [riddlesolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 09:50:31] WARNING root fetch - processPackages [PyxLSTM]: Skipping, unable to determine old version
+[2024-05-10 09:50:31] INFO root fetch - main [MainThread]: End processing [PyxLSTM] error
+[2024-05-10 09:50:32] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/8b/0b/5d8ba16dc2ea29ecfd27ef083dad139cd6ff7a327a7f22334bb9aa882db7/riddlesolver-0.1.8.tar.gz
+[2024-05-10 09:50:32] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 09:50:32] WARNING root fetch - processPackages [ChainPipe]: Skipping, unable to determine old version
+[2024-05-10 09:50:32] INFO root fetch - main [MainThread]: End processing [ChainPipe] error
+[2024-05-10 09:50:32] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-10 09:50:32] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-05-10 09:50:32] INFO root fetch - processPackages [riddlesolver]: Downloading https://files.pythonhosted.org/packages/46/68/daef27bbcc176c6be119dbd92ff2be28b6d27558058a394d39d371188751/riddlesolver-0.1.9.tar.gz
+[2024-05-10 09:50:32] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-10 09:50:32] INFO root fetch - processPackages [riddlesolver]: executing diffoscope
+[2024-05-10 09:50:32] INFO root fetch - processPackages [riddlesolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riddlesolver-0.1.8.tar.gz tmp/riddlesolver-0.1.9.tar.gz --markdown 20240510/r/riddlesolver/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 09:50:32] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-05-10 09:50:32] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-10 09:50:32] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-05-10 09:50:32] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240510/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:50:32] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-10 09:50:32] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240510/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-10 09:50:32] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.8.tar.gz]
+[2024-05-10 09:50:32] INFO root fetch - processPackages [riddlesolver]: Remove: archive file [/home/abi/fetcher/tmp/riddlesolver-0.1.9.tar.gz]
+[2024-05-10 09:50:32] INFO root fetch - main [MainThread]: End processing [riddlesolver]: success
+[2024-05-10 09:50:33] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-05-10 09:50:33] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-05-10 09:50:33] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-05-10 09:50:33] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-10 09:50:33] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-10 09:50:33] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-10 09:50:33] INFO root fetch - main [MainThread]: Store serial: [23142920]
