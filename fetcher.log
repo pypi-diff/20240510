@@ -12630,3 +12630,36 @@
 [2024-05-10 11:24:32] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.8.tar.gz]
 [2024-05-10 11:24:32] INFO root fetch - main [MainThread]: End processing [narwhals]: success
 [2024-05-10 11:24:32] INFO root fetch - main [MainThread]: Store serial: [23144012]
+[2024-05-10 11:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144012]
+[2024-05-10 11:26:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 11:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monviso
+[2024-05-10 11:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cabberz
+[2024-05-10 11:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyqml
+[2024-05-10 11:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cornflow
+[2024-05-10 11:26:43] INFO root fetch - processPackages [cornflow]: New version: [1.0.9] Old Version: [1.0.8a3]
+[2024-05-10 11:26:44] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/c0/5e/9ee10ba99b32c0b2643c2ade9ce60f7eace38c3e2d537059f1e4e8fc08fa/cornflow-1.0.8a3.tar.gz
+[2024-05-10 11:26:44] INFO root fetch - processPackages [monviso]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 11:26:44] WARNING root fetch - processPackages [cabberz]: Skipping, unable to determine old version
+[2024-05-10 11:26:44] INFO root fetch - main [MainThread]: End processing [cabberz] error
+[2024-05-10 11:26:44] INFO root fetch - processPackages [lazyqml]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-10 11:26:44] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/b8/de/e8017c916a660910c96cdc8ea1f3d492f3e4ab77021b582fb9c86035b31b/lazyqml-0.3.4.tar.gz
+[2024-05-10 11:26:44] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/b5/a6/3952d7d6bbc048ad055edc866f41bcd51d0dcb0a062dd7648e7da70d8085/monviso-0.1.4.tar.gz
+[2024-05-10 11:26:44] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/2a/b9/7640258564c4ce8170ef07e43bfa17f62ba8236fbfbacbb54d2d957c226c/cornflow-1.0.9.tar.gz
+[2024-05-10 11:26:44] INFO root fetch - processPackages [cornflow]: executing diffoscope
+[2024-05-10 11:26:44] INFO root fetch - processPackages [cornflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-1.0.8a3.tar.gz tmp/cornflow-1.0.9.tar.gz --markdown 20240510/c/cornflow/1.0.8a3-1.0.9/README.md --exclude *.pyd
+[2024-05-10 11:26:44] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/59/7f/9c0f7788bc42dbab9a17958a1357d5bcbf031073300840b1a5962bcdc25c/lazyqml-0.3.5.tar.gz
+[2024-05-10 11:26:44] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-10 11:26:44] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.3.4.tar.gz tmp/lazyqml-0.3.5.tar.gz --markdown 20240510/l/lazyqml/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-10 11:26:44] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/ae/67/b3d331de1ed87e7f5644426a72af5f44dc03c1bad3e824abcc3a2fc068b4/monviso-0.1.5.tar.gz
+[2024-05-10 11:26:44] INFO root fetch - processPackages [monviso]: executing diffoscope
+[2024-05-10 11:26:44] INFO root fetch - processPackages [monviso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monviso-0.1.4.tar.gz tmp/monviso-0.1.5.tar.gz --markdown 20240510/m/monviso/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 11:26:45] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.4.tar.gz]
+[2024-05-10 11:26:45] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.5.tar.gz]
+[2024-05-10 11:26:45] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-10 11:26:45] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.0.8a3.tar.gz]
+[2024-05-10 11:26:45] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.0.9.tar.gz]
+[2024-05-10 11:26:45] INFO root fetch - main [MainThread]: End processing [cornflow]: success
+[2024-05-10 11:26:45] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.4.tar.gz]
+[2024-05-10 11:26:45] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.5.tar.gz]
+[2024-05-10 11:26:45] INFO root fetch - main [MainThread]: End processing [monviso]: success
+[2024-05-10 11:26:45] INFO root fetch - main [MainThread]: Store serial: [23144025]
