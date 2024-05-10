@@ -8314,3 +8314,116 @@
 [2024-05-10 08:21:34] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.3-py3-none-any.whl.zip]
 [2024-05-10 08:21:34] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-05-10 08:21:34] INFO root fetch - main [MainThread]: Store serial: [23142113]
+[2024-05-10 08:23:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142113]
+[2024-05-10 08:24:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loose-dependency-manager
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyNeuroTrace
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text-block-local
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeastvision
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comwatt
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dlprog
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: infrable
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openmm-cuda
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openmm-cuda
+[2024-05-10 08:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openmm-cuda
+[2024-05-10 08:24:04] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [loose-dependency-manager]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [comwatt]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: New version: [8.1.1.12] Old Version: [8.1.1.11.8]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: New version: [8.1.1.12] Old Version: [8.1.1.11.8]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: New version: [8.1.1.12] Old Version: [8.1.1.11.8]
+[2024-05-10 08:24:04] WARNING root fetch - processPackages [pyNeuroTrace]: Skipping, unable to determine old version
+[2024-05-10 08:24:04] INFO root fetch - processPackages [pyNeuroTrace]: Start processing: santex
+[2024-05-10 08:24:04] INFO root fetch - main [MainThread]: End processing [pyNeuroTrace] error
+[2024-05-10 08:24:04] INFO root fetch - processPackages [yeastvision]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [dlprog]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [santex]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-10 08:24:04] INFO root fetch - processPackages [loose-dependency-manager]: Downloading https://files.pythonhosted.org/packages/e7/3b/e7cec5ade6bfe6a57680b701a9f57137a874fdf988348cace6f35bcb754a/loose_dependency_manager-0.1.0.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: Downloading https://files.pythonhosted.org/packages/4d/8b/27f1d9f1917b2bf8b73f529e47e266b2ad34131b70608a1bb9274b8145b5/openmm_cuda-8.1.1.11.8-py3-none-win_amd64.whl
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: Downloading https://files.pythonhosted.org/packages/4d/8b/27f1d9f1917b2bf8b73f529e47e266b2ad34131b70608a1bb9274b8145b5/openmm_cuda-8.1.1.11.8-py3-none-win_amd64.whl
+[2024-05-10 08:24:04] INFO root fetch - processPackages [comwatt]: Downloading https://files.pythonhosted.org/packages/a5/2c/ea377e93029682c8134fa4b2c8180424b4192dcc0116e5dceab5a872831e/comwatt-0.5.0.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: Downloading https://files.pythonhosted.org/packages/4d/8b/27f1d9f1917b2bf8b73f529e47e266b2ad34131b70608a1bb9274b8145b5/openmm_cuda-8.1.1.11.8-py3-none-win_amd64.whl
+[2024-05-10 08:24:04] INFO root fetch - processPackages [dlprog]: Downloading https://files.pythonhosted.org/packages/66/c7/fd37fff0504ae1f8df59091e6798c77c6daebb8cfc6b70555fb1e6fe2db7/dlprog-1.2.6.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/02/54/03ef7feb5a069c9ec29c9cc8bd7d30900248c1f02a425ca240a5698b718e/yeastvision-0.1.7.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [santex]: Downloading https://files.pythonhosted.org/packages/8b/91/89aaf78dcd9d97e9d3b44d96f6f0ed775bdc601acebb5e88a4d64e8275ef/santex-1.2.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [loose-dependency-manager]: Downloading https://files.pythonhosted.org/packages/4b/b2/44703e8d802e48bb5b230142a4d1f1259e33c3040edb375335f214a83316/loose_dependency_manager-0.1.1.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 08:24:04] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:24:04] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-10 08:24:04] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240510/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 08:24:04] INFO root fetch - processPackages [loose-dependency-manager]: executing diffoscope
+[2024-05-10 08:24:04] INFO root fetch - processPackages [loose-dependency-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loose_dependency_manager-0.1.0.tar.gz tmp/loose_dependency_manager-0.1.1.tar.gz --markdown 20240510/l/loose-dependency-manager/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 08:24:04] INFO root fetch - processPackages [comwatt]: Downloading https://files.pythonhosted.org/packages/61/a3/83998f581c044ed43fd563e8484deb41f1dda4e001387a458fb196d18e56/comwatt-0.6.0.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/ca/b9/a6ea7d4301424e1292a0163c278c3763cc8a40c1437af17464222ff4badc/yeastvision-0.1.9.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [dlprog]: Downloading https://files.pythonhosted.org/packages/69/57/fbbe5de55c5990c5f7464f315509292d03c457cd0967bc76f6bee35b1ac8/dlprog-1.2.7.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [santex]: Downloading https://files.pythonhosted.org/packages/e7/99/0a2fa309efa00cddb0d72390b826a8531b429cfd074a79f86c53682a9d2b/santex-1.2.1.tar.gz
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: Downloading https://files.pythonhosted.org/packages/76/bc/1e9b359baf2a878959eca5dd4efffe2d9ceb4ba149a8f5c6ae949f509bb9/openmm_cuda-8.1.1.12-py3-none-win_amd64.whl
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: Downloading https://files.pythonhosted.org/packages/76/bc/1e9b359baf2a878959eca5dd4efffe2d9ceb4ba149a8f5c6ae949f509bb9/openmm_cuda-8.1.1.12-py3-none-win_amd64.whl
+[2024-05-10 08:24:04] INFO root fetch - processPackages [openmm-cuda]: Downloading https://files.pythonhosted.org/packages/76/bc/1e9b359baf2a878959eca5dd4efffe2d9ceb4ba149a8f5c6ae949f509bb9/openmm_cuda-8.1.1.12-py3-none-win_amd64.whl
+[2024-05-10 08:24:04] INFO root fetch - processPackages [comwatt]: executing diffoscope
+[2024-05-10 08:24:04] INFO root fetch - processPackages [comwatt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comwatt-0.5.0.tar.gz tmp/comwatt-0.6.0.tar.gz --markdown 20240510/c/comwatt/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-10 08:24:05] INFO root fetch - processPackages [dlprog]: executing diffoscope
+[2024-05-10 08:24:05] INFO root fetch - processPackages [dlprog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlprog-1.2.6.tar.gz tmp/dlprog-1.2.7.tar.gz --markdown 20240510/d/dlprog/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-10 08:24:05] INFO root fetch - processPackages [yeastvision]: executing diffoscope
+[2024-05-10 08:24:05] INFO root fetch - processPackages [yeastvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastvision-0.1.7.tar.gz tmp/yeastvision-0.1.9.tar.gz --markdown 20240510/y/yeastvision/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-10 08:24:05] INFO root fetch - processPackages [santex]: executing diffoscope
+[2024-05-10 08:24:05] INFO root fetch - processPackages [santex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/santex-1.2.tar.gz tmp/santex-1.2.1.tar.gz --markdown 20240510/s/santex/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-10 08:24:05] INFO root fetch - processPackages [openmm-cuda]: executing diffoscope
+[2024-05-10 08:24:05] INFO root fetch - processPackages [openmm-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmm_cuda-8.1.1.11.8-py3-none-win_amd64.whl.zip tmp/openmm_cuda-8.1.1.12-py3-none-win_amd64.whl.zip --markdown 20240510/o/openmm-cuda/8.1.1.11.8-8.1.1.12/README.md --exclude *.pyd
+[2024-05-10 08:24:05] INFO root fetch - processPackages [openmm-cuda]: executing diffoscope
+[2024-05-10 08:24:05] INFO root fetch - processPackages [openmm-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmm_cuda-8.1.1.11.8-py3-none-win_amd64.whl.zip tmp/openmm_cuda-8.1.1.12-py3-none-win_amd64.whl.zip --markdown 20240510/o/openmm-cuda/8.1.1.11.8-8.1.1.12/README.md --exclude *.pyd
+[2024-05-10 08:24:05] INFO root fetch - processPackages [openmm-cuda]: executing diffoscope
+[2024-05-10 08:24:05] INFO root fetch - processPackages [openmm-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmm_cuda-8.1.1.11.8-py3-none-win_amd64.whl.zip tmp/openmm_cuda-8.1.1.12-py3-none-win_amd64.whl.zip --markdown 20240510/o/openmm-cuda/8.1.1.11.8-8.1.1.12/README.md --exclude *.pyd
+[2024-05-10 08:24:05] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [text-block-local]: Start processing: REVHubInterface
+[2024-05-10 08:24:05] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 08:24:05] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.2.dev7] Old Version: [1.3.2.dev6]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/17/a8/727ee31f6d6197ab57b31ae006428d162efe6e5b9a2a38bd805787539e4e/revhubinterface-1.3.2.dev6.tar.gz
+[2024-05-10 08:24:05] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [infrable]: Start processing: airmarkerz
+[2024-05-10 08:24:05] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-10 08:24:05] INFO root fetch - processPackages [loose-dependency-manager]: Remove: archive file [/home/abi/fetcher/tmp/loose_dependency_manager-0.1.0.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [loose-dependency-manager]: Remove: archive file [/home/abi/fetcher/tmp/loose_dependency_manager-0.1.1.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [loose-dependency-manager]: Start processing: contact-notes-local
+[2024-05-10 08:24:05] INFO root fetch - main [MainThread]: End processing [loose-dependency-manager]: success
+[2024-05-10 08:24:05] INFO root fetch - processPackages [comwatt]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-0.5.0.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [comwatt]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-0.6.0.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - main [MainThread]: End processing [comwatt]: success
+[2024-05-10 08:24:05] WARNING root fetch - processPackages [airmarkerz]: Skipping, unable to determine old version
+[2024-05-10 08:24:05] INFO root fetch - main [MainThread]: End processing [airmarkerz] error
+[2024-05-10 08:24:05] INFO root fetch - processPackages [dlprog]: Remove: archive file [/home/abi/fetcher/tmp/dlprog-1.2.6.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - processPackages [dlprog]: Remove: archive file [/home/abi/fetcher/tmp/dlprog-1.2.7.tar.gz]
+[2024-05-10 08:24:05] INFO root fetch - main [MainThread]: End processing [dlprog]: success
+[2024-05-10 08:24:05] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/44/41/1d34c323b159e218481ac70ee73120b04208ac3321241dfb902f8b22cc83/revhubinterface-1.3.2.dev7.tar.gz
+[2024-05-10 08:24:05] INFO root fetch - processPackages [contact-notes-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:24:06] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-10 08:24:06] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.2.dev6.tar.gz tmp/revhubinterface-1.3.2.dev7.tar.gz --markdown 20240510/R/REVHubInterface/1.3.2.dev6-1.3.2.dev7/README.md --exclude *.pyd
+[2024-05-10 08:24:06] INFO root fetch - processPackages [santex]: Remove: archive file [/home/abi/fetcher/tmp/santex-1.2.tar.gz]
+[2024-05-10 08:24:06] INFO root fetch - processPackages [santex]: Remove: archive file [/home/abi/fetcher/tmp/santex-1.2.1.tar.gz]
+[2024-05-10 08:24:06] INFO root fetch - main [MainThread]: End processing [santex]: success
+[2024-05-10 08:24:06] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/94/02/401f72b4bc3a22137e39e519a300db91b6d7f6f995ff3fdd5266dd81540c/contact-notes-local-0.0.8.tar.gz
+[2024-05-10 08:24:06] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.7.tar.gz]
+[2024-05-10 08:24:06] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.9.tar.gz]
+[2024-05-10 08:24:06] INFO root fetch - main [MainThread]: End processing [yeastvision]: success
+[2024-05-10 08:24:06] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/7d/da/15635ad28159f22874e3fbe243ec786d3658da7812c3243f5feb8d5f8385/contact-notes-local-0.0.9.tar.gz
+[2024-05-10 08:24:06] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev6.tar.gz]
+[2024-05-10 08:24:06] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev7.tar.gz]
+[2024-05-10 08:24:06] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-10 08:24:06] INFO root fetch - processPackages [contact-notes-local]: executing diffoscope
+[2024-05-10 08:24:06] INFO root fetch - processPackages [contact-notes-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-notes-local-0.0.8.tar.gz tmp/contact-notes-local-0.0.9.tar.gz --markdown 20240510/c/contact-notes-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:24:07] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.8.tar.gz]
+[2024-05-10 08:24:07] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.9.tar.gz]
+[2024-05-10 08:24:07] INFO root fetch - main [MainThread]: End processing [contact-notes-local]: success
+[2024-05-10 08:24:17] INFO root fetch - processPackages [openmm-cuda]: Remove: archive file [/home/abi/fetcher/tmp/openmm_cuda-8.1.1.11.8-py3-none-win_amd64.whl.zip]
+[2024-05-10 08:24:17] INFO root fetch - processPackages [openmm-cuda]: Remove: archive file [/home/abi/fetcher/tmp/openmm_cuda-8.1.1.12-py3-none-win_amd64.whl.zip]
+[2024-05-10 08:24:17] INFO root fetch - main [MainThread]: End processing [openmm-cuda]: success
+[2024-05-10 08:24:17] INFO root fetch - main [MainThread]: End processing [openmm-cuda]: success
+[2024-05-10 08:24:17] INFO root fetch - main [MainThread]: End processing [openmm-cuda]: success
+[2024-05-10 08:24:17] INFO root fetch - main [MainThread]: Store serial: [23142158]
