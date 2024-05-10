@@ -7294,3 +7294,39 @@
 [2024-05-10 07:23:05] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.2.tar.gz]
 [2024-05-10 07:23:05] INFO root fetch - main [MainThread]: End processing [autofracture]: success
 [2024-05-10 07:23:05] INFO root fetch - main [MainThread]: Store serial: [23141641]
+[2024-05-10 07:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141641]
+[2024-05-10 07:25:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bacGWAStatLearn
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soarv1
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infrable
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cancel-contexts
+[2024-05-10 07:25:14] INFO root fetch - processPackages [cancel-contexts]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 07:25:14] WARNING root fetch - processPackages [soarv1]: Skipping, unable to determine old version
+[2024-05-10 07:25:14] INFO root fetch - main [MainThread]: End processing [soarv1] error
+[2024-05-10 07:25:14] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 07:25:14] WARNING root fetch - processPackages [bacGWAStatLearn]: Skipping, unable to determine old version
+[2024-05-10 07:25:14] INFO root fetch - main [MainThread]: End processing [bacGWAStatLearn] error
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 07:25:14] INFO root fetch - processPackages [cancel-contexts]: Downloading https://files.pythonhosted.org/packages/d6/b1/33c76188b9559073f4bdc65e303829787909fb7dc362b2d0361d14cc3a7d/cancel_contexts-0.1.1.tar.gz
+[2024-05-10 07:25:14] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-10 07:25:14] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-10 07:25:14] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-10 07:25:14] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240510/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 07:25:14] INFO root fetch - processPackages [cancel-contexts]: Downloading https://files.pythonhosted.org/packages/1f/fa/e939fd5312763404fe1fe983c821f9b4647b53232ff9430afb5eeb5b0f69/cancel_contexts-0.1.2.tar.gz
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-10 07:25:14] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240510/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 07:25:14] INFO root fetch - processPackages [cancel-contexts]: executing diffoscope
+[2024-05-10 07:25:14] INFO root fetch - processPackages [cancel-contexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancel_contexts-0.1.1.tar.gz tmp/cancel_contexts-0.1.2.tar.gz --markdown 20240510/c/cancel-contexts/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 07:25:15] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-10 07:25:15] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-10 07:25:15] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-10 07:25:15] INFO root fetch - processPackages [cancel-contexts]: Remove: archive file [/home/abi/fetcher/tmp/cancel_contexts-0.1.1.tar.gz]
+[2024-05-10 07:25:15] INFO root fetch - processPackages [cancel-contexts]: Remove: archive file [/home/abi/fetcher/tmp/cancel_contexts-0.1.2.tar.gz]
+[2024-05-10 07:25:15] INFO root fetch - main [MainThread]: End processing [cancel-contexts]: success
+[2024-05-10 07:25:16] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-10 07:25:16] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-10 07:25:16] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-10 07:25:16] INFO root fetch - main [MainThread]: Store serial: [23141656]
