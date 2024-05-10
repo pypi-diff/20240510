@@ -22857,3 +22857,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:17:09] INFO root fetch - processPackages [AEPi]: Remove: archive file [/home/abi/fetcher/tmp/aepi-0.8.3.2.tar.gz]
 [2024-05-10 17:17:09] INFO root fetch - main [MainThread]: End processing [AEPi]: success
 [2024-05-10 17:17:09] INFO root fetch - main [MainThread]: Store serial: [23148684]
+[2024-05-10 17:19:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148684]
+[2024-05-10 17:19:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-energiepartagee
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: check-sdist
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: costsz
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: contusez
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bdmc
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangoldp-energiepartagee
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langfuse
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keymorph
+[2024-05-10 17:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onyx-extension
+[2024-05-10 17:19:20] INFO root fetch - processPackages [bdmc]: New version: [0.1.4a0] Old Version: [0.1.4]
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-10 17:19:20] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-10 17:19:20] INFO root fetch - processPackages [check-sdist]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-05-10 17:19:20] INFO root fetch - processPackages [costsz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 17:19:20] WARNING root fetch - processPackages [contusez]: Skipping, unable to determine old version
+[2024-05-10 17:19:20] INFO root fetch - main [MainThread]: End processing [contusez] error
+[2024-05-10 17:19:20] WARNING root fetch - processPackages [keymorph]: Skipping, unable to determine old version
+[2024-05-10 17:19:20] INFO root fetch - main [MainThread]: End processing [keymorph] error
+[2024-05-10 17:19:20] WARNING root fetch - processPackages [onyx-extension]: Skipping, unable to determine old version
+[2024-05-10 17:19:20] INFO root fetch - main [MainThread]: End processing [onyx-extension] error
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [langfuse]: New version: [2.9.2] Old Version: [2.9.1a0]
+[2024-05-10 17:19:20] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/47/ad/04d1190e0cb0b49a2cd6aa56eee191a43fe3cad4df48f3d591dc847d42aa/bdmc-0.1.4.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [check-sdist]: Downloading https://files.pythonhosted.org/packages/0c/63/05ae33e263dc2a370585af3feebb9d9a9263748a0194ed9e382e5157e53b/check_sdist-1.0.0rc1.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [costsz]: Downloading https://files.pythonhosted.org/packages/c1/4d/73c2e9ab6f3dae9bb3cbb37bc0887fabd1a6ecd8151488733bb79ac5b024/costsz-1.1.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/43/38/4a1023711cee549cb5f62c09965d08724e93f5cac8e7dcd2becd75f7b302/langfuse-2.9.1a0.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/83/5a/82934e746c240f98fd7cb01ce65e76f86e610a27d824ef551bd85306c4d6/bdmc-0.1.4a0.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-10 17:19:20] INFO root fetch - processPackages [costsz]: Downloading https://files.pythonhosted.org/packages/03/55/f4e39672ef9e7ea52cb0990be07603c0c837913d7a2834bc8436203cd28c/costsz-2.1.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240510/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-10 17:19:20] INFO root fetch - processPackages [check-sdist]: Downloading https://files.pythonhosted.org/packages/e9/82/6c432f7a42133a7ea690eee06f4d5bf31fdb55c75701a91ecba8277074e9/check_sdist-1.0.0rc2.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-10 17:19:20] INFO root fetch - processPackages [bdmc]: executing diffoscope
+[2024-05-10 17:19:20] INFO root fetch - processPackages [bdmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdmc-0.1.4.tar.gz tmp/bdmc-0.1.4a0.tar.gz --markdown 20240510/b/bdmc/0.1.4-0.1.4a0/README.md --exclude *.pyd
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-10 17:19:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240510/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-10 17:19:20] INFO root fetch - processPackages [costsz]: executing diffoscope
+[2024-05-10 17:19:20] INFO root fetch - processPackages [costsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/costsz-1.1.tar.gz tmp/costsz-2.1.tar.gz --markdown 20240510/c/costsz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 17:19:20] INFO root fetch - processPackages [check-sdist]: executing diffoscope
+[2024-05-10 17:19:20] INFO root fetch - processPackages [check-sdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_sdist-1.0.0rc1.tar.gz tmp/check_sdist-1.0.0rc2.tar.gz --markdown 20240510/c/check-sdist/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-05-10 17:19:20] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/71/c4/6571f0f3c2539390fbd49ca27636f5611971c2b1f9f15fae183b3c67838c/langfuse-2.9.2.tar.gz
+[2024-05-10 17:19:21] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2024-05-10 17:19:21] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-2.9.1a0.tar.gz tmp/langfuse-2.9.2.tar.gz --markdown 20240510/l/langfuse/2.9.1a0-2.9.2/README.md --exclude *.pyd
+[2024-05-10 17:19:21] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-10 17:19:21] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240510/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-10 17:19:21] INFO root fetch - processPackages [costsz]: Remove: archive file [/home/abi/fetcher/tmp/costsz-1.1.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - processPackages [costsz]: Remove: archive file [/home/abi/fetcher/tmp/costsz-2.1.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - main [MainThread]: End processing [costsz]: success
+[2024-05-10 17:19:21] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.4.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.4a0.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - main [MainThread]: End processing [bdmc]: success
+[2024-05-10 17:19:21] INFO root fetch - processPackages [check-sdist]: Remove: archive file [/home/abi/fetcher/tmp/check_sdist-1.0.0rc1.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - processPackages [check-sdist]: Remove: archive file [/home/abi/fetcher/tmp/check_sdist-1.0.0rc2.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - main [MainThread]: End processing [check-sdist]: success
+[2024-05-10 17:19:21] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.1a0.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
+[2024-05-10 17:19:21] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2024-05-10 17:19:22] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-10 17:19:22] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-10 17:19:22] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-10 17:19:22] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-10 17:19:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-10 17:19:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-10 17:19:37] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-10 17:19:37] INFO root fetch - main [MainThread]: Store serial: [23148718]
