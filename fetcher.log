@@ -20120,3 +20120,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:49:02] INFO root fetch - processPackages [iog-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/iog_randomizer-5.0.0.tar.gz]
 [2024-05-10 15:49:02] INFO root fetch - main [MainThread]: End processing [iog-randomizer]: success
 [2024-05-10 15:49:02] INFO root fetch - main [MainThread]: Store serial: [23147285]
+[2024-05-10 15:51:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147285]
+[2024-05-10 15:51:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cephalalgiaz
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmuxradio
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pieces-cli
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garak
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apmtools
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digimat.mbio
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioaquacell
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: toui
+[2024-05-10 15:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unassailablyz
+[2024-05-10 15:51:30] WARNING root fetch - processPackages [tmuxradio]: Skipping, unable to determine old version
+[2024-05-10 15:51:30] INFO root fetch - processPackages [tmuxradio]: Start processing: supervision
+[2024-05-10 15:51:30] INFO root fetch - main [MainThread]: End processing [tmuxradio] error
+[2024-05-10 15:51:30] INFO root fetch - processPackages [garak]: New version: [0.9.post3] Old Version: [0.9.post2]
+[2024-05-10 15:51:30] INFO root fetch - processPackages [apmtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 15:51:30] INFO root fetch - processPackages [toui]: New version: [3.5.0a3] Old Version: [3.5.0a2]
+[2024-05-10 15:51:30] INFO root fetch - processPackages [aioaquacell]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-10 15:51:30] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-10 15:51:30] INFO root fetch - processPackages [cephalalgiaz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 15:51:30] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 15:51:30] WARNING root fetch - processPackages [unassailablyz]: Skipping, unable to determine old version
+[2024-05-10 15:51:30] WARNING root fetch - processPackages [pieces-cli]: Skipping, unable to determine old version
+[2024-05-10 15:51:30] INFO root fetch - main [MainThread]: End processing [unassailablyz] error
+[2024-05-10 15:51:30] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/de/e4/d6e711ac61fe6f7af46eda73a0f1b76b8fea3058ed7ff8d5ed8e37631da0/apmtools-0.0.8.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - main [MainThread]: End processing [pieces-cli] error
+[2024-05-10 15:51:30] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/8a/5a/3262f5a4b86ffd2f9ce661e8ef95014e0387462e54942a47a4bbbca52e47/toui-3.5.0a2.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/03/df/1f7c0c0498f0b20f9f47da2a3f0d97091567e575df6c574929ec2d2ed74f/garak-0.9.post2.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [supervision]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 15:51:30] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [aioaquacell]: Downloading https://files.pythonhosted.org/packages/b5/b8/c5c7f5f491e7e76fff814e247eb5f46706b813e2ec7434831a1a18e6946f/aioaquacell-0.1.4.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [cephalalgiaz]: Downloading https://files.pythonhosted.org/packages/a9/15/131fd3a2547618e3f23ae06f687eeafd3fb9f82963a75f9ee71e7b35d1d5/cephalalgiaz-1.1.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/fd/46/504e103d0921ed63e9e221ea4f3a1e6e23c70f8b7bd69114ec09cda3d87c/supervision-0.8.0.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/db/33/48b9aff5805cd85069c8cef6c1f79de816a42850ef54e9db130e2bd7b4aa/garak-0.9.post3.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [aioaquacell]: Downloading https://files.pythonhosted.org/packages/fb/2e/f9bced47c7fcfa2679bb11304e2e8428c35bede050b0583d479762c43235/aioaquacell-0.1.5.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [cephalalgiaz]: Downloading https://files.pythonhosted.org/packages/4d/29/507784c2144fb948af80d675c99b2a08153cc29f60d28cedcf8bb3e04680/cephalalgiaz-2.1.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [garak]: executing diffoscope
+[2024-05-10 15:51:30] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.post2.tar.gz tmp/garak-0.9.post3.tar.gz --markdown 20240510/g/garak/0.9.post2-0.9.post3/README.md --exclude *.pyd
+[2024-05-10 15:51:30] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/1b/d8/f078c028e3a31e87a9d21228f1c6989660a625af41cadc32b810ce6f8332/apmtools-0.0.9.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [cephalalgiaz]: executing diffoscope
+[2024-05-10 15:51:30] INFO root fetch - processPackages [cephalalgiaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cephalalgiaz-1.1.tar.gz tmp/cephalalgiaz-2.1.tar.gz --markdown 20240510/c/cephalalgiaz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 15:51:30] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/33/e3/cefad5cc9fae45c45c8a0f600257c9ade3a9cf09229695e8559ccaf5d054/toui-3.5.0a3.tar.gz
+[2024-05-10 15:51:30] INFO root fetch - processPackages [aioaquacell]: executing diffoscope
+[2024-05-10 15:51:30] INFO root fetch - processPackages [aioaquacell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioaquacell-0.1.4.tar.gz tmp/aioaquacell-0.1.5.tar.gz --markdown 20240510/a/aioaquacell/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-10 15:51:30] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/2f/2e/d3b88227b65bdc7baf25b7c2c6f46b214b5926f7dc583ffbe2d8abcf496a/supervision-0.9.0.tar.gz
+[2024-05-10 15:51:31] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-05-10 15:51:31] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240510/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-10 15:51:31] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-05-10 15:51:31] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240510/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 15:51:31] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-05-10 15:51:31] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.8.tar.gz tmp/apmtools-0.0.9.tar.gz --markdown 20240510/a/apmtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 15:51:31] INFO root fetch - processPackages [cephalalgiaz]: Remove: archive file [/home/abi/fetcher/tmp/cephalalgiaz-1.1.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - processPackages [cephalalgiaz]: Remove: archive file [/home/abi/fetcher/tmp/cephalalgiaz-2.1.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - main [MainThread]: End processing [cephalalgiaz]: success
+[2024-05-10 15:51:31] INFO root fetch - processPackages [aioaquacell]: Remove: archive file [/home/abi/fetcher/tmp/aioaquacell-0.1.4.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - processPackages [aioaquacell]: Remove: archive file [/home/abi/fetcher/tmp/aioaquacell-0.1.5.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - main [MainThread]: End processing [aioaquacell]: success
+[2024-05-10 15:51:31] INFO root fetch - processPackages [toui]: executing diffoscope
+[2024-05-10 15:51:31] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-3.5.0a2.tar.gz tmp/toui-3.5.0a3.tar.gz --markdown 20240510/t/toui/3.5.0a2-3.5.0a3/README.md --exclude *.pyd
+[2024-05-10 15:51:31] INFO root fetch - processPackages [supervision]: executing diffoscope
+[2024-05-10 15:51:31] INFO root fetch - processPackages [supervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervision-0.8.0.tar.gz tmp/supervision-0.9.0.tar.gz --markdown 20240510/s/supervision/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 15:51:31] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-05-10 15:51:31] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post2.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
+[2024-05-10 15:51:31] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2024-05-10 15:51:32] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.8.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-05-10 15:51:32] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.5.0a2.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.5.0a3.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2024-05-10 15:51:32] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.8.0.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.9.0.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - main [MainThread]: End processing [supervision]: success
+[2024-05-10 15:51:32] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-05-10 15:51:32] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-05-10 15:51:32] INFO root fetch - main [MainThread]: Store serial: [23147323]
