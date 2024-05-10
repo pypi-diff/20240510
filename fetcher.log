@@ -19701,3 +19701,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:34:01] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.5.0a2.tar.gz]
 [2024-05-10 15:34:01] INFO root fetch - main [MainThread]: End processing [toui]: success
 [2024-05-10 15:34:01] INFO root fetch - main [MainThread]: Store serial: [23147063]
+[2024-05-10 15:36:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147063]
+[2024-05-10 15:36:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 15:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2024-05-10 15:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rag-pychunk
+[2024-05-10 15:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apt-mirror
+[2024-05-10 15:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opensesame-core
+[2024-05-10 15:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reenjoinz
+[2024-05-10 15:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indent-concluder
+[2024-05-10 15:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-prefect
+[2024-05-10 15:36:27] INFO root fetch - processPackages [indent-concluder]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-10 15:36:27] INFO root fetch - processPackages [apt-mirror]: New version: [5] Old Version: [4]
+[2024-05-10 15:36:27] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-10 15:36:27] WARNING root fetch - processPackages [rag-pychunk]: Skipping, unable to determine old version
+[2024-05-10 15:36:27] INFO root fetch - main [MainThread]: End processing [rag-pychunk] error
+[2024-05-10 15:36:27] WARNING root fetch - processPackages [reenjoinz]: Skipping, unable to determine old version
+[2024-05-10 15:36:27] INFO root fetch - main [MainThread]: End processing [reenjoinz] error
+[2024-05-10 15:36:27] ERROR root fetch - processPackages [pulumi-prefect]: Unable to get metadata: No such project 'pulumi-prefect'
+[2024-05-10 15:36:27] INFO root fetch - main [MainThread]: End processing [pulumi-prefect] error
+[2024-05-10 15:36:27] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-10 15:36:27] INFO root fetch - processPackages [indent-concluder]: Downloading https://files.pythonhosted.org/packages/8e/3e/e5e47fb1013428ba3f3846c130fbf39b87c6b56f015c9d444753895db9a3/indent-concluder-1.1.1.tar.gz
+[2024-05-10 15:36:27] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-10 15:36:27] INFO root fetch - processPackages [apt-mirror]: Downloading https://files.pythonhosted.org/packages/c3/d9/0b8c2f237fa213aaeba967425272029ba7bc2aaa16962f0092b947b94295/apt-mirror-4.tar.gz
+[2024-05-10 15:36:28] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/2f/82/cb0de352611dd746ed1858500254507bf5dfbfe22caab1e8c1ac51e27cb5/opensesame_core-4.0.8.tar.gz
+[2024-05-10 15:36:28] INFO root fetch - processPackages [apt-mirror]: Downloading https://files.pythonhosted.org/packages/da/c3/38b4311c0e19ddbc54eb13d70c410d15769faa1a7885353972e91b82a506/apt_mirror-5.tar.gz
+[2024-05-10 15:36:28] INFO root fetch - processPackages [indent-concluder]: Downloading https://files.pythonhosted.org/packages/5f/47/620742764844787bfb57f177ded2426b3edef2bf3a55118b634abc28bafc/indent-concluder-1.1.2.tar.gz
+[2024-05-10 15:36:28] INFO root fetch - processPackages [apt-mirror]: executing diffoscope
+[2024-05-10 15:36:28] INFO root fetch - processPackages [apt-mirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apt-mirror-4.tar.gz tmp/apt_mirror-5.tar.gz --markdown 20240510/a/apt-mirror/4-5/README.md --exclude *.pyd
+[2024-05-10 15:36:28] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-10 15:36:28] INFO root fetch - processPackages [indent-concluder]: executing diffoscope
+[2024-05-10 15:36:28] INFO root fetch - processPackages [indent-concluder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indent-concluder-1.1.1.tar.gz tmp/indent-concluder-1.1.2.tar.gz --markdown 20240510/i/indent-concluder/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-10 15:36:28] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18923484>=10485760
+[2024-05-10 15:36:28] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2024-05-10 15:36:28] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-10 15:36:28] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240510/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-10 15:36:28] INFO root fetch - processPackages [indent-concluder]: Remove: archive file [/home/abi/fetcher/tmp/indent-concluder-1.1.1.tar.gz]
+[2024-05-10 15:36:28] INFO root fetch - processPackages [indent-concluder]: Remove: archive file [/home/abi/fetcher/tmp/indent-concluder-1.1.2.tar.gz]
+[2024-05-10 15:36:28] INFO root fetch - main [MainThread]: End processing [indent-concluder]: success
+[2024-05-10 15:36:28] INFO root fetch - processPackages [apt-mirror]: Remove: archive file [/home/abi/fetcher/tmp/apt-mirror-4.tar.gz]
+[2024-05-10 15:36:28] INFO root fetch - processPackages [apt-mirror]: Remove: archive file [/home/abi/fetcher/tmp/apt_mirror-5.tar.gz]
+[2024-05-10 15:36:28] INFO root fetch - main [MainThread]: End processing [apt-mirror]: success
+[2024-05-10 15:36:36] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-10 15:36:36] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-10 15:36:36] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-10 15:36:36] INFO root fetch - main [MainThread]: Store serial: [23147091]
