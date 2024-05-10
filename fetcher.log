@@ -8466,3 +8466,20 @@
 [2024-05-10 08:26:28] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.9.tar.gz]
 [2024-05-10 08:26:28] INFO root fetch - main [MainThread]: End processing [anaplan-api]: success
 [2024-05-10 08:26:28] INFO root fetch - main [MainThread]: Store serial: [23142171]
+[2024-05-10 08:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142171]
+[2024-05-10 08:28:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deanToolsNew
+[2024-05-10 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bmt-py
+[2024-05-10 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: create-flask-package
+[2024-05-10 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shaiz
+[2024-05-10 08:28:37] WARNING root fetch - processPackages [deanToolsNew]: Skipping, unable to determine old version
+[2024-05-10 08:28:37] INFO root fetch - main [MainThread]: End processing [deanToolsNew] error
+[2024-05-10 08:28:37] WARNING root fetch - processPackages [shaiz]: Skipping, unable to determine old version
+[2024-05-10 08:28:37] INFO root fetch - main [MainThread]: End processing [shaiz] error
+[2024-05-10 08:28:37] WARNING root fetch - processPackages [create-flask-package]: Skipping, unable to determine old version
+[2024-05-10 08:28:37] INFO root fetch - main [MainThread]: End processing [create-flask-package] error
+[2024-05-10 08:28:37] INFO root fetch - processPackages [bmt-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 08:28:37] INFO root fetch - processPackages [bmt-py]: Downloading https://files.pythonhosted.org/packages/a2/d2/49f1fc996a742d53f203527811baa4f6ffa04e0b120c64bc489af9ea5326/bmt_py-0.1.2.tar.gz
+[2024-05-10 08:28:38] WARNING root fetch - processPackages [bmt-py]: Skipping package: exceeds size limit 83551556>=10485760
+[2024-05-10 08:28:38] INFO root fetch - main [MainThread]: End processing [bmt-py] error
+[2024-05-10 08:28:38] INFO root fetch - main [MainThread]: Store serial: [23142187]
