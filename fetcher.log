@@ -21799,3 +21799,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:39:15] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.5.tar.gz]
 [2024-05-10 16:39:15] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
 [2024-05-10 16:39:15] INFO root fetch - main [MainThread]: Store serial: [23148189]
+[2024-05-10 16:41:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148189]
+[2024-05-10 16:41:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 16:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opal-lang
+[2024-05-10 16:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splight-lib
+[2024-05-10 16:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omopsurvey
+[2024-05-10 16:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-cdk
+[2024-05-10 16:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064
+[2024-05-10 16:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: getmyancestors
+[2024-05-10 16:41:24] WARNING root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Skipping, unable to determine old version
+[2024-05-10 16:41:24] INFO root fetch - main [MainThread]: End processing [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064] error
+[2024-05-10 16:41:24] INFO root fetch - processPackages [omopsurvey]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 16:41:24] WARNING root fetch - processPackages [opal-lang]: Skipping, unable to determine old version
+[2024-05-10 16:41:24] INFO root fetch - main [MainThread]: End processing [opal-lang] error
+[2024-05-10 16:41:24] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-10 16:41:24] INFO root fetch - processPackages [omopsurvey]: Downloading https://files.pythonhosted.org/packages/f1/5e/fa2d981e45df956f753c959560490ef56b3093115a73c916981a8dff13fa/omopsurvey-0.0.2.tar.gz
+[2024-05-10 16:41:24] INFO root fetch - processPackages [splight-lib]: New version: [5.6.5.dev0] Old Version: [5.6.4]
+[2024-05-10 16:41:24] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-05-10 16:41:24] INFO root fetch - processPackages [getmyancestors]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-10 16:41:25] INFO root fetch - processPackages [omopsurvey]: Downloading https://files.pythonhosted.org/packages/f4/91/75701464d97cf287746725e3b96196c647511dac88206ec91f621554fd60/omopsurvey-0.0.3.tar.gz
+[2024-05-10 16:41:25] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-05-10 16:41:25] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/75/16/81c4e2d38cdef63ec6212419d86a7845429a62c2e85c7a6a8d8e3aff171c/splight_lib-5.6.4.tar.gz
+[2024-05-10 16:41:25] INFO root fetch - processPackages [getmyancestors]: Downloading https://files.pythonhosted.org/packages/74/f8/97deda059de6040745ae483a5a07af509f93c5d058a9150de2cb18af48c5/getmyancestors-1.0.5.tar.gz
+[2024-05-10 16:41:25] INFO root fetch - processPackages [omopsurvey]: executing diffoscope
+[2024-05-10 16:41:25] INFO root fetch - processPackages [omopsurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omopsurvey-0.0.2.tar.gz tmp/omopsurvey-0.0.3.tar.gz --markdown 20240510/o/omopsurvey/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 16:41:25] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-05-10 16:41:25] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240510/a/airbyte-cdk/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-10 16:41:25] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/10/bd/847c18469c1f12729d9934251c286ed59eb945a9a07fb7bcad07f057cbd5/splight_lib-5.6.5.dev0.tar.gz
+[2024-05-10 16:41:25] INFO root fetch - processPackages [getmyancestors]: Downloading https://files.pythonhosted.org/packages/c3/92/66e84a8c024128fceb3fda8ca72725a8161a1c6ff3458137c3de2f92fedd/getmyancestors-1.0.6.tar.gz
+[2024-05-10 16:41:25] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2024-05-10 16:41:25] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight_lib-5.6.4.tar.gz tmp/splight_lib-5.6.5.dev0.tar.gz --markdown 20240510/s/splight-lib/5.6.4-5.6.5.dev0/README.md --exclude *.pyd
+[2024-05-10 16:41:25] INFO root fetch - processPackages [getmyancestors]: executing diffoscope
+[2024-05-10 16:41:25] INFO root fetch - processPackages [getmyancestors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmyancestors-1.0.5.tar.gz tmp/getmyancestors-1.0.6.tar.gz --markdown 20240510/g/getmyancestors/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-10 16:41:25] INFO root fetch - processPackages [omopsurvey]: Remove: archive file [/home/abi/fetcher/tmp/omopsurvey-0.0.2.tar.gz]
+[2024-05-10 16:41:25] INFO root fetch - processPackages [omopsurvey]: Remove: archive file [/home/abi/fetcher/tmp/omopsurvey-0.0.3.tar.gz]
+[2024-05-10 16:41:25] INFO root fetch - main [MainThread]: End processing [omopsurvey]: success
+[2024-05-10 16:41:26] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight_lib-5.6.4.tar.gz]
+[2024-05-10 16:41:26] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight_lib-5.6.5.dev0.tar.gz]
+[2024-05-10 16:41:26] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2024-05-10 16:41:26] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-05-10 16:41:26] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-05-10 16:41:26] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-05-10 16:41:26] INFO root fetch - processPackages [getmyancestors]: Remove: archive file [/home/abi/fetcher/tmp/getmyancestors-1.0.5.tar.gz]
+[2024-05-10 16:41:26] INFO root fetch - processPackages [getmyancestors]: Remove: archive file [/home/abi/fetcher/tmp/getmyancestors-1.0.6.tar.gz]
+[2024-05-10 16:41:26] INFO root fetch - main [MainThread]: End processing [getmyancestors]: success
+[2024-05-10 16:41:26] INFO root fetch - main [MainThread]: Store serial: [23148213]
