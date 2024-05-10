@@ -2718,3 +2718,39 @@
 [2024-05-10 02:30:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-05-10 02:30:00] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-05-10 02:30:00] INFO root fetch - main [MainThread]: Store serial: [23139450]
+[2024-05-10 02:32:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139450]
+[2024-05-10 02:32:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 02:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datafog
+[2024-05-10 02:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fairchem-applications
+[2024-05-10 02:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2024-05-10 02:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: somedecorators
+[2024-05-10 02:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lastree
+[2024-05-10 02:32:09] WARNING root fetch - processPackages [lastree]: Skipping, unable to determine old version
+[2024-05-10 02:32:09] INFO root fetch - main [MainThread]: End processing [lastree] error
+[2024-05-10 02:32:09] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240509] Old Version: [0.1.5.dev20240508]
+[2024-05-10 02:32:09] INFO root fetch - processPackages [somedecorators]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-10 02:32:09] WARNING root fetch - processPackages [fairchem-applications]: Skipping, unable to determine old version
+[2024-05-10 02:32:09] INFO root fetch - main [MainThread]: End processing [fairchem-applications] error
+[2024-05-10 02:32:09] INFO root fetch - processPackages [datafog]: New version: [3.1.0b1] Old Version: [3.1.0]
+[2024-05-10 02:32:09] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/c5/4e/407daabad37f214db071ff5129fbbbc5fb9d60ccdbe4d8ec02b2c7f9369a/aeppl_nightly-0.1.5.dev20240508.tar.gz
+[2024-05-10 02:32:09] INFO root fetch - processPackages [somedecorators]: Downloading https://files.pythonhosted.org/packages/fc/c7/000cfe699127e320f122ced12c5274d08cdaf0ef5eaad00679db1b1bd1fc/somedecorators-1.2.1.tar.gz
+[2024-05-10 02:32:09] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/b6/c4/47cd81059ba4d360179a013b2c2a6be521ceb00d4e25a4e38703a6772c2f/datafog-3.1.0.tar.gz
+[2024-05-10 02:32:09] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/72/89/c9645eeed502750536fc4c68143bf6be0afafcbf4a32a1589138edce71e7/aeppl_nightly-0.1.5.dev20240509.tar.gz
+[2024-05-10 02:32:09] INFO root fetch - processPackages [somedecorators]: Downloading https://files.pythonhosted.org/packages/c7/9d/c847bb81fb47fbc130cda6202bd0f4cb16162f2da41cf6c3c79062e5dfc6/somedecorators-1.2.2.tar.gz
+[2024-05-10 02:32:09] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/9e/72/c23562d9f3f5b9738aa0f1af07a80c8b266793acaabe172183c963cad592/datafog-3.1.0b1.tar.gz
+[2024-05-10 02:32:09] INFO root fetch - processPackages [somedecorators]: executing diffoscope
+[2024-05-10 02:32:09] INFO root fetch - processPackages [somedecorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somedecorators-1.2.1.tar.gz tmp/somedecorators-1.2.2.tar.gz --markdown 20240510/s/somedecorators/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-10 02:32:09] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-10 02:32:09] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240508.tar.gz tmp/aeppl_nightly-0.1.5.dev20240509.tar.gz --markdown 20240510/a/aeppl-nightly/0.1.5.dev20240508-0.1.5.dev20240509/README.md --exclude *.pyd
+[2024-05-10 02:32:09] INFO root fetch - processPackages [datafog]: executing diffoscope
+[2024-05-10 02:32:09] INFO root fetch - processPackages [datafog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafog-3.1.0.tar.gz tmp/datafog-3.1.0b1.tar.gz --markdown 20240510/d/datafog/3.1.0-3.1.0b1/README.md --exclude *.pyd
+[2024-05-10 02:32:10] INFO root fetch - processPackages [somedecorators]: Remove: archive file [/home/abi/fetcher/tmp/somedecorators-1.2.1.tar.gz]
+[2024-05-10 02:32:10] INFO root fetch - processPackages [somedecorators]: Remove: archive file [/home/abi/fetcher/tmp/somedecorators-1.2.2.tar.gz]
+[2024-05-10 02:32:10] INFO root fetch - main [MainThread]: End processing [somedecorators]: success
+[2024-05-10 02:32:10] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.1.0.tar.gz]
+[2024-05-10 02:32:10] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.1.0b1.tar.gz]
+[2024-05-10 02:32:10] INFO root fetch - main [MainThread]: End processing [datafog]: success
+[2024-05-10 02:32:10] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240508.tar.gz]
+[2024-05-10 02:32:10] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240509.tar.gz]
+[2024-05-10 02:32:10] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-10 02:32:10] INFO root fetch - main [MainThread]: Store serial: [23139466]
