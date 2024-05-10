@@ -4866,3 +4866,57 @@
 [2024-05-10 04:42:56] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.0.1.tar.gz]
 [2024-05-10 04:42:56] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
 [2024-05-10 04:42:56] INFO root fetch - main [MainThread]: Store serial: [23140549]
+[2024-05-10 04:44:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140549]
+[2024-05-10 04:45:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 04:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ParentLOL
+[2024-05-10 04:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snk-cli
+[2024-05-10 04:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvcx
+[2024-05-10 04:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adenoncusz
+[2024-05-10 04:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planetMagFields
+[2024-05-10 04:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webscout
+[2024-05-10 04:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aim-flask
+[2024-05-10 04:45:04] INFO root fetch - processPackages [dvcx]: New version: [0.78.0] Old Version: [0.77.0]
+[2024-05-10 04:45:04] INFO root fetch - processPackages [aim-flask]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-10 04:45:04] WARNING root fetch - processPackages [ParentLOL]: Skipping, unable to determine old version
+[2024-05-10 04:45:04] INFO root fetch - main [MainThread]: End processing [ParentLOL] error
+[2024-05-10 04:45:04] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/2e/bf/48f3c5442977fc5fc9d665e51e69639d4b3abe9999eb86fdec29859fd400/dvcx-0.77.0.tar.gz
+[2024-05-10 04:45:04] INFO root fetch - processPackages [aim-flask]: Downloading https://files.pythonhosted.org/packages/10/24/04354c459dbb77851548d726ca619878402b18e972cd0adf36aa4dc70ba3/aim_flask-1.0.6-py3-none-any.whl
+[2024-05-10 04:45:04] INFO root fetch - processPackages [snk-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-10 04:45:04] WARNING root fetch - processPackages [adenoncusz]: Skipping, unable to determine old version
+[2024-05-10 04:45:04] INFO root fetch - main [MainThread]: End processing [adenoncusz] error
+[2024-05-10 04:45:04] INFO root fetch - processPackages [planetMagFields]: New version: [1.4.3.post1] Old Version: [1.4.3]
+[2024-05-10 04:45:04] INFO root fetch - processPackages [webscout]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-10 04:45:04] INFO root fetch - processPackages [planetMagFields]: Downloading https://files.pythonhosted.org/packages/be/23/a6c294e5d0b3caaa9b58def0d6e7ad0738cccbe2e8976ad6fd9663887b14/planetmagfields-1.4.3.tar.gz
+[2024-05-10 04:45:04] INFO root fetch - processPackages [snk-cli]: Downloading https://files.pythonhosted.org/packages/69/e3/02617c2ec3a851e1ec911d1e9fb90112915d84931adec41420062163ae94/snk_cli-0.3.0.tar.gz
+[2024-05-10 04:45:04] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/f1/6c/ba5360887e8f6fd9aee4afa02edddd298d2de7ef0c46279b811956b25dee/dvcx-0.78.0.tar.gz
+[2024-05-10 04:45:04] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/e6/79/cdf9caee54fe16140eeecd7329893cb088e4c0e6a657fe158608c4dc2f42/webscout-1.4.3.tar.gz
+[2024-05-10 04:45:05] INFO root fetch - processPackages [aim-flask]: Downloading https://files.pythonhosted.org/packages/73/4c/ebd5db415502556e1eb75c0f98fa7b9985393321990f639d6da2eb086177/aim_flask-1.0.7-py3-none-any.whl
+[2024-05-10 04:45:05] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-10 04:45:05] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.77.0.tar.gz tmp/dvcx-0.78.0.tar.gz --markdown 20240510/d/dvcx/0.77.0-0.78.0/README.md --exclude *.pyd
+[2024-05-10 04:45:05] INFO root fetch - processPackages [aim-flask]: executing diffoscope
+[2024-05-10 04:45:05] INFO root fetch - processPackages [aim-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim_flask-1.0.6-py3-none-any.whl.zip tmp/aim_flask-1.0.7-py3-none-any.whl.zip --markdown 20240510/a/aim-flask/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-10 04:45:05] INFO root fetch - processPackages [snk-cli]: Downloading https://files.pythonhosted.org/packages/f8/86/8d359d34c52c25a20c5efadac38da05511fbf79e36089ebe1ad52a9ee9f9/snk_cli-0.3.1.tar.gz
+[2024-05-10 04:45:05] INFO root fetch - processPackages [planetMagFields]: Downloading https://files.pythonhosted.org/packages/4c/11/78f0eb693b6cecbb75324d53dbf32facbaafde2af55128c3fc165941a2d7/planetmagfields-1.4.3.post1.tar.gz
+[2024-05-10 04:45:05] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/45/98/6d4fb7a5c600a500da5103d03614edf69beb9564d9997e73d1a38776061c/webscout-1.4.4.tar.gz
+[2024-05-10 04:45:05] INFO root fetch - processPackages [snk-cli]: executing diffoscope
+[2024-05-10 04:45:05] INFO root fetch - processPackages [snk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk_cli-0.3.0.tar.gz tmp/snk_cli-0.3.1.tar.gz --markdown 20240510/s/snk-cli/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-10 04:45:05] INFO root fetch - processPackages [planetMagFields]: executing diffoscope
+[2024-05-10 04:45:05] INFO root fetch - processPackages [planetMagFields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmagfields-1.4.3.tar.gz tmp/planetmagfields-1.4.3.post1.tar.gz --markdown 20240510/p/planetMagFields/1.4.3-1.4.3.post1/README.md --exclude *.pyd
+[2024-05-10 04:45:05] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-10 04:45:05] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.4.3.tar.gz tmp/webscout-1.4.4.tar.gz --markdown 20240510/w/webscout/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-10 04:45:05] INFO root fetch - processPackages [aim-flask]: Remove: archive file [/home/abi/fetcher/tmp/aim_flask-1.0.6-py3-none-any.whl.zip]
+[2024-05-10 04:45:05] INFO root fetch - processPackages [aim-flask]: Remove: archive file [/home/abi/fetcher/tmp/aim_flask-1.0.7-py3-none-any.whl.zip]
+[2024-05-10 04:45:05] INFO root fetch - main [MainThread]: End processing [aim-flask]: success
+[2024-05-10 04:45:06] INFO root fetch - processPackages [snk-cli]: Remove: archive file [/home/abi/fetcher/tmp/snk_cli-0.3.0.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - processPackages [snk-cli]: Remove: archive file [/home/abi/fetcher/tmp/snk_cli-0.3.1.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - main [MainThread]: End processing [snk-cli]: success
+[2024-05-10 04:45:06] INFO root fetch - processPackages [planetMagFields]: Remove: archive file [/home/abi/fetcher/tmp/planetmagfields-1.4.3.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - processPackages [planetMagFields]: Remove: archive file [/home/abi/fetcher/tmp/planetmagfields-1.4.3.post1.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - main [MainThread]: End processing [planetMagFields]: success
+[2024-05-10 04:45:06] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.77.0.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.78.0.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-10 04:45:06] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.3.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.4.4.tar.gz]
+[2024-05-10 04:45:06] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-10 04:45:06] INFO root fetch - main [MainThread]: Store serial: [23140569]
