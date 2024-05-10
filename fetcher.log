@@ -13580,3 +13580,50 @@
 [2024-05-10 11:58:30] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.23-py3-none-any.whl.zip]
 [2024-05-10 11:58:30] INFO root fetch - main [MainThread]: End processing [msanic]: success
 [2024-05-10 11:58:30] INFO root fetch - main [MainThread]: Store serial: [23144351]
+[2024-05-10 12:00:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144351]
+[2024-05-10 12:00:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 12:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tonpy-dev
+[2024-05-10 12:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-keras-nightly
+[2024-05-10 12:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-10 12:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airtestProject
+[2024-05-10 12:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exoml
+[2024-05-10 12:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlv-client
+[2024-05-10 12:00:44] INFO root fetch - processPackages [qlv-client]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-10 12:00:44] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 12:00:44] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024050909] Old Version: [2.17.0.dev2024050809]
+[2024-05-10 12:00:44] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/c1/f2/99bf3ceed8cbfb79eca4dacce1bc2995061d77f4269c9160baea949211fb/qlv-client-0.2.5.tar.gz
+[2024-05-10 12:00:44] INFO root fetch - processPackages [exoml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 12:00:44] WARNING root fetch - processPackages [airtestProject]: Skipping, unable to determine old version
+[2024-05-10 12:00:44] INFO root fetch - main [MainThread]: End processing [airtestProject] error
+[2024-05-10 12:00:44] INFO root fetch - processPackages [tonpy-dev]: New version: [0.0.0.4.2b1] Old Version: [0.0.0.4.2a1]
+[2024-05-10 12:00:44] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 12:00:44] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/68/42/bcc22304c9c6c64d568edde9419a6507ab06a521d7f99a21c9b4edc0b082/tf_keras_nightly-2.17.0.dev2024050809.tar.gz
+[2024-05-10 12:00:45] INFO root fetch - processPackages [exoml]: Downloading https://files.pythonhosted.org/packages/01/c6/c69e6c3e4f7816b784360d5d0b4f0b4bc1b0b04ac8b2134f47dbba420089/exoml-0.1.8.tar.gz
+[2024-05-10 12:00:45] INFO root fetch - processPackages [tonpy-dev]: Downloading https://files.pythonhosted.org/packages/74/11/d75c9c05d53af64b9e61a1b2cd0051629ec08f5e9387017bf243606d8af6/tonpy_dev-0.0.0.4.2a1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-10 12:00:45] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 12:00:45] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/ee/b2/85bd0ef9933f4a9a0bd9c663b104d7ca0404bf44c1ae9a8b8ff6c01ead3d/qlv-client-0.2.6.tar.gz
+[2024-05-10 12:00:45] WARNING root fetch - processPackages [tonpy-dev]: Skipping package: exceeds size limit 10970190>=10485760
+[2024-05-10 12:00:45] INFO root fetch - main [MainThread]: End processing [tonpy-dev] error
+[2024-05-10 12:00:45] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 12:00:45] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 12:00:45] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/4f/30/74d90f1b7f3a62ce9d851003340cd7ba1553aec69b9aa57140e5262e9616/tf_keras_nightly-2.17.0.dev2024050909.tar.gz
+[2024-05-10 12:00:45] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-10 12:00:45] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.2.5.tar.gz tmp/qlv-client-0.2.6.tar.gz --markdown 20240510/q/qlv-client/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-10 12:00:45] INFO root fetch - processPackages [exoml]: Downloading https://files.pythonhosted.org/packages/0b/19/f1be2b6c9e89d040510ae0a0dd8508d61b4171fe02dc51c250bc2252cf05/exoml-0.1.9.tar.gz
+[2024-05-10 12:00:45] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-10 12:00:45] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024050809.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024050909.tar.gz --markdown 20240510/t/tf-keras-nightly/2.17.0.dev2024050809-2.17.0.dev2024050909/README.md --exclude *.pyd
+[2024-05-10 12:00:45] INFO root fetch - processPackages [exoml]: executing diffoscope
+[2024-05-10 12:00:45] INFO root fetch - processPackages [exoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exoml-0.1.8.tar.gz tmp/exoml-0.1.9.tar.gz --markdown 20240510/e/exoml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 12:00:45] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.5.tar.gz]
+[2024-05-10 12:00:45] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.6.tar.gz]
+[2024-05-10 12:00:45] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-10 12:00:46] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 12:00:46] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 12:00:46] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 12:00:46] INFO root fetch - processPackages [exoml]: Remove: archive file [/home/abi/fetcher/tmp/exoml-0.1.8.tar.gz]
+[2024-05-10 12:00:46] INFO root fetch - processPackages [exoml]: Remove: archive file [/home/abi/fetcher/tmp/exoml-0.1.9.tar.gz]
+[2024-05-10 12:00:46] INFO root fetch - main [MainThread]: End processing [exoml]: success
+[2024-05-10 12:00:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050809.tar.gz]
+[2024-05-10 12:00:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050909.tar.gz]
+[2024-05-10 12:00:47] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-10 12:00:47] INFO root fetch - main [MainThread]: Store serial: [23144371]
