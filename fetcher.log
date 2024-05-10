@@ -14386,3 +14386,63 @@
 [2024-05-10 12:32:38] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715335882.tar.gz]
 [2024-05-10 12:32:38] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-05-10 12:32:38] INFO root fetch - main [MainThread]: Store serial: [23144710]
+[2024-05-10 12:34:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144710]
+[2024-05-10 12:34:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-viewrouter
+[2024-05-10 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owega
+[2024-05-10 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopetroleum
+[2024-05-10 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablite
+[2024-05-10 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kafka
+[2024-05-10 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-consul
+[2024-05-10 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agilerl
+[2024-05-10 12:34:51] INFO root fetch - processPackages [django-viewrouter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-10 12:34:51] INFO root fetch - processPackages [agilerl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1715333336] Old Version: [3.8.0a1715303604]
+[2024-05-10 12:34:51] INFO root fetch - processPackages [tablite]: New version: [2023.9.8] Old Version: [2023.9.7]
+[2024-05-10 12:34:51] INFO root fetch - processPackages [django-viewrouter]: Downloading https://files.pythonhosted.org/packages/9f/f5/976527f69fcc0095f73bb0a6c6eedaaf25bb876d20c717d18439e4f4e181/django_viewrouter-0.1.0.tar.gz
+[2024-05-10 12:34:51] WARNING root fetch - processPackages [autopetroleum]: Skipping, unable to determine old version
+[2024-05-10 12:34:51] INFO root fetch - main [MainThread]: End processing [autopetroleum] error
+[2024-05-10 12:34:51] INFO root fetch - processPackages [owega]: New version: [5.6.4] Old Version: [5.6.3]
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/21/3f/a17180520084e34bf0f646ee21ba4a3ba8c0e5f96c8632b6626339976779/pulumi_kafka-3.8.0a1715303604.tar.gz
+[2024-05-10 12:34:51] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/cd/04/c0b2d5132a58a541c9585b788e4b6802e918fcc135af86ccfeeae5a42666/agilerl-0.1.8.tar.gz
+[2024-05-10 12:34:51] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/69/1a/7380abcd1131d63fbfc3f716566dd75131728fab496d42a2a313fe6ba840/tablite-2023.9.7-py3-none-any.whl
+[2024-05-10 12:34:51] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/f9/57/ccc2b013af5f9eb70fae9f3bbe4c5574d11fc319937e63f9997f2f67fe0b/owega-5.6.3.tar.gz
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-10 12:34:51] INFO root fetch - processPackages [django-viewrouter]: Downloading https://files.pythonhosted.org/packages/f5/42/289aed9d1ce50d918f2791622e8f3df3ab3794275856385b6e622cfbc837/django_viewrouter-0.1.1.tar.gz
+[2024-05-10 12:34:51] INFO root fetch - processPackages [django-viewrouter]: executing diffoscope
+[2024-05-10 12:34:51] INFO root fetch - processPackages [django-viewrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_viewrouter-0.1.0.tar.gz tmp/django_viewrouter-0.1.1.tar.gz --markdown 20240510/d/django-viewrouter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/9c/f9/c324adee06dec3edf9d77bd1e0331de4811e61bc23f7c06210146b024843/pulumi_kafka-3.8.0a1715333336.tar.gz
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-10 12:34:51] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240510/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-10 12:34:52] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-10 12:34:52] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715303604.tar.gz tmp/pulumi_kafka-3.8.0a1715333336.tar.gz --markdown 20240510/p/pulumi-kafka/3.8.0a1715303604-3.8.0a1715333336/README.md --exclude *.pyd
+[2024-05-10 12:34:52] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/69/c5/89d0c8d25ee1f1aa49019e466a6408ab3b700afb790bf35c965d9f6a4ee3/agilerl-0.1.9.tar.gz
+[2024-05-10 12:34:52] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/24/ab/d976771037a31a19dab2c7297a5ed871d95c938f05830ce9d2f69e459346/owega-5.6.4.tar.gz
+[2024-05-10 12:34:52] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/b8/4a/752f66fecda7a2172d5056375800c9d050a5bc79c8c17e507a15a09c09ed/tablite-2023.9.8-py3-none-any.whl
+[2024-05-10 12:34:52] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-10 12:34:52] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.6.3.tar.gz tmp/owega-5.6.4.tar.gz --markdown 20240510/o/owega/5.6.3-5.6.4/README.md --exclude *.pyd
+[2024-05-10 12:34:52] INFO root fetch - processPackages [agilerl]: executing diffoscope
+[2024-05-10 12:34:52] INFO root fetch - processPackages [agilerl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilerl-0.1.8.tar.gz tmp/agilerl-0.1.9.tar.gz --markdown 20240510/a/agilerl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 12:34:52] INFO root fetch - processPackages [django-viewrouter]: Remove: archive file [/home/abi/fetcher/tmp/django_viewrouter-0.1.0.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - processPackages [django-viewrouter]: Remove: archive file [/home/abi/fetcher/tmp/django_viewrouter-0.1.1.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - main [MainThread]: End processing [django-viewrouter]: success
+[2024-05-10 12:34:52] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2024-05-10 12:34:52] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.9.7-py3-none-any.whl.zip tmp/tablite-2023.9.8-py3-none-any.whl.zip --markdown 20240510/t/tablite/2023.9.7-2023.9.8/README.md --exclude *.pyd
+[2024-05-10 12:34:52] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715303604.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715333336.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-10 12:34:52] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-10 12:34:52] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.6.3.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.6.4.tar.gz]
+[2024-05-10 12:34:52] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-10 12:34:53] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.7-py3-none-any.whl.zip]
+[2024-05-10 12:34:53] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.8-py3-none-any.whl.zip]
+[2024-05-10 12:34:53] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2024-05-10 12:34:53] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.8.tar.gz]
+[2024-05-10 12:34:53] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.9.tar.gz]
+[2024-05-10 12:34:53] INFO root fetch - main [MainThread]: End processing [agilerl]: success
+[2024-05-10 12:34:53] INFO root fetch - main [MainThread]: Store serial: [23144732]
