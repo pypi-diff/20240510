@@ -5070,3 +5070,21 @@
 [2024-05-10 04:53:56] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
 [2024-05-10 04:53:56] INFO root fetch - main [MainThread]: End processing [launchflow]: success
 [2024-05-10 04:53:56] INFO root fetch - main [MainThread]: Store serial: [23140627]
+[2024-05-10 04:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140627]
+[2024-05-10 04:56:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 04:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dermatologyz
+[2024-05-10 04:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ParentLOL
+[2024-05-10 04:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rancher2
+[2024-05-10 04:56:05] WARNING root fetch - processPackages [ParentLOL]: Skipping, unable to determine old version
+[2024-05-10 04:56:05] INFO root fetch - main [MainThread]: End processing [ParentLOL] error
+[2024-05-10 04:56:05] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715304682] Old Version: [6.2.0a1715235918]
+[2024-05-10 04:56:05] WARNING root fetch - processPackages [dermatologyz]: Skipping, unable to determine old version
+[2024-05-10 04:56:05] INFO root fetch - main [MainThread]: End processing [dermatologyz] error
+[2024-05-10 04:56:05] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/87/75/6858ad54303cbf8bfb49e3e92c804b0629be27c0309e5e6ed194007b3d28/pulumi_rancher2-6.2.0a1715235918.tar.gz
+[2024-05-10 04:56:05] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/b9/66/344c4b5617e3071ef7465da4a1110b1bc979df4d6a26946ea8a3a324f157/pulumi_rancher2-6.2.0a1715304682.tar.gz
+[2024-05-10 04:56:06] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-10 04:56:06] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715235918.tar.gz tmp/pulumi_rancher2-6.2.0a1715304682.tar.gz --markdown 20240510/p/pulumi-rancher2/6.2.0a1715235918-6.2.0a1715304682/README.md --exclude *.pyd
+[2024-05-10 04:56:07] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715235918.tar.gz]
+[2024-05-10 04:56:07] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715304682.tar.gz]
+[2024-05-10 04:56:07] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-10 04:56:07] INFO root fetch - main [MainThread]: Store serial: [23140637]
