@@ -6019,3 +6019,42 @@
 [2024-05-10 05:57:48] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.5.0.tar.gz]
 [2024-05-10 05:57:48] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-10 05:57:48] INFO root fetch - main [MainThread]: Store serial: [23141009]
+[2024-05-10 05:59:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141009]
+[2024-05-10 05:59:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 05:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparklestock
+[2024-05-10 05:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meerschaum
+[2024-05-10 05:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coretex
+[2024-05-10 05:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mosaic-widget
+[2024-05-10 05:59:56] INFO root fetch - processPackages [sparklestock]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2024-05-10 05:59:56] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/ae/c5/ce0e907a9a3b93dd821c088df24f4c935530e9fa53bf3f938b09db927b68/sparklestock-0.0.0.7.tar.gz
+[2024-05-10 05:59:56] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-05-10 05:59:56] INFO root fetch - processPackages [meerschaum]: New version: [2.2.0.dev1] Old Version: [2.1.7]
+[2024-05-10 05:59:56] INFO root fetch - processPackages [mosaic-widget]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-05-10 05:59:57] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-05-10 05:59:57] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/bd/04/0d47c4cda9fc34298bb77ce3675a99310c2301d0fd8ecd1b668f82a703ba/sparklestock-0.0.0.8.tar.gz
+[2024-05-10 05:59:57] INFO root fetch - processPackages [mosaic-widget]: Downloading https://files.pythonhosted.org/packages/b3/5a/48d3e4453cdfaed43085197961decc84e60f784abe10e3a67d975c12c14d/mosaic_widget-0.7.1.tar.gz
+[2024-05-10 05:59:57] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/b9/35/5792c9e8b489b93ef3682f716dcbd312d8f80d44d4df38744f022136e909/meerschaum-2.1.7.tar.gz
+[2024-05-10 05:59:57] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-10 05:59:57] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.7.tar.gz tmp/sparklestock-0.0.0.8.tar.gz --markdown 20240510/s/sparklestock/0.0.0.7-0.0.0.8/README.md --exclude *.pyd
+[2024-05-10 05:59:57] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-05-10 05:59:57] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-05-10 05:59:57] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240510/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-05-10 05:59:57] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.7.tar.gz]
+[2024-05-10 05:59:57] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.8.tar.gz]
+[2024-05-10 05:59:57] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-10 05:59:58] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/b7/16/fea39831386dd569ba5361352541e92dbd2d7684ec6acc3850fe86938339/meerschaum-2.2.0.dev1.tar.gz
+[2024-05-10 05:59:58] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-05-10 05:59:58] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-05-10 05:59:58] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-05-10 05:59:59] INFO root fetch - processPackages [mosaic-widget]: Downloading https://files.pythonhosted.org/packages/d5/33/9b2ec681bafe85df45fe6549fe5fad5abbe605c321b30ed41baf140f6fcb/mosaic_widget-0.8.0.tar.gz
+[2024-05-10 05:59:59] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2024-05-10 05:59:59] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-2.1.7.tar.gz tmp/meerschaum-2.2.0.dev1.tar.gz --markdown 20240510/m/meerschaum/2.1.7-2.2.0.dev1/README.md --exclude *.pyd
+[2024-05-10 05:59:59] INFO root fetch - processPackages [mosaic-widget]: executing diffoscope
+[2024-05-10 05:59:59] INFO root fetch - processPackages [mosaic-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaic_widget-0.7.1.tar.gz tmp/mosaic_widget-0.8.0.tar.gz --markdown 20240510/m/mosaic-widget/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-05-10 06:00:00] INFO root fetch - processPackages [mosaic-widget]: Remove: archive file [/home/abi/fetcher/tmp/mosaic_widget-0.7.1.tar.gz]
+[2024-05-10 06:00:00] INFO root fetch - processPackages [mosaic-widget]: Remove: archive file [/home/abi/fetcher/tmp/mosaic_widget-0.8.0.tar.gz]
+[2024-05-10 06:00:00] INFO root fetch - main [MainThread]: End processing [mosaic-widget]: success
+[2024-05-10 06:00:02] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.1.7.tar.gz]
+[2024-05-10 06:00:02] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev1.tar.gz]
+[2024-05-10 06:00:02] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2024-05-10 06:00:02] INFO root fetch - main [MainThread]: Store serial: [23141022]
