@@ -20976,3 +20976,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:14:51] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-10 16:14:51] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-10 16:14:51] INFO root fetch - main [MainThread]: Store serial: [23147751]
+[2024-05-10 16:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147751]
+[2024-05-10 16:17:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glue-utils
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recharge-api
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: churningsz
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpl-ascii
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medicafe
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: romanityz
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zboxapi
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rio-ui
+[2024-05-10 16:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: schwifty
+[2024-05-10 16:17:00] INFO root fetch - processPackages [mpl-ascii]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-10 16:17:00] INFO root fetch - processPackages [recharge-api]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-10 16:17:00] INFO root fetch - processPackages [glue-utils]: New version: [0.3.0rc0] Old Version: [0.2.3]
+[2024-05-10 16:17:00] INFO root fetch - processPackages [schwifty]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-10 16:17:00] INFO root fetch - processPackages [medicafe]: New version: [0.240509.6] Old Version: [0.240509.5]
+[2024-05-10 16:17:00] INFO root fetch - processPackages [mpl-ascii]: Downloading https://files.pythonhosted.org/packages/04/0c/9abdacc52b2701376f656bbf0706b47257ad906f7138df5ab1ef327a8eb6/mpl_ascii-0.4.0.tar.gz
+[2024-05-10 16:17:00] WARNING root fetch - processPackages [romanityz]: Skipping, unable to determine old version
+[2024-05-10 16:17:00] INFO root fetch - main [MainThread]: End processing [romanityz] error
+[2024-05-10 16:17:00] INFO root fetch - processPackages [zboxapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 16:17:00] INFO root fetch - processPackages [churningsz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:17:00] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/b0/0c/deec3793470a24788337c1e7f91e71c6c778e0627da32007fffbb723efa0/recharge_api-1.6.1.tar.gz
+[2024-05-10 16:17:00] INFO root fetch - processPackages [rio-ui]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-10 16:17:01] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/9f/ff/9ae3c4f2c9a91a9165c87c71707b7c654ab1e9160d58a135696506d397c1/medicafe-0.240509.5.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/87/f3/1a2bd7c6f0c5b8b6bfb4eef144815459fd3788c49e5ee5959c2450d98299/glue_utils-0.2.3.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [schwifty]: Downloading https://files.pythonhosted.org/packages/3d/dc/a2a56d0d3a8185ed3d9643d1122e08efcf2d6f3d477063ec7c7ed6b156db/schwifty-2024.5.1.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [churningsz]: Downloading https://files.pythonhosted.org/packages/68/44/3d3837fe6ecd64c0aacd3e198559061fbd6f841e04b41dc764c21b6d6d4e/churningsz-1.1.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [mpl-ascii]: Downloading https://files.pythonhosted.org/packages/ad/9d/e3266df0ba4b3387cb6bc45432a4adc634daeba2117350a62def60de2204/mpl_ascii-0.5.0.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [zboxapi]: Downloading https://files.pythonhosted.org/packages/9e/cf/ecd78ca27ada28359b2ecd34b3e48b7f4964b24ff96593560a31c213e3c6/zboxapi-0.0.2.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/e3/31/dae5cb37f2e669aa8d4e5f959872142d81c3dce6078eb25706bf5663be40/rio_ui-0.6.2.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/ab/3b/590829102adfbebedd61e795a129cba4fa13185304cd9fefcabcb63d8937/glue_utils-0.3.0rc0.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [schwifty]: Downloading https://files.pythonhosted.org/packages/af/31/41ef6ce8cb0d3231c7f0ccb04642618f97aa7dd772e6876b5d028dae547b/schwifty-2024.5.2.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/54/6e/b07e8639c123b5559b7289f2a3f698f4149a55d11260952d4541a5b31412/recharge_api-1.6.2.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [mpl-ascii]: executing diffoscope
+[2024-05-10 16:17:01] INFO root fetch - processPackages [mpl-ascii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpl_ascii-0.4.0.tar.gz tmp/mpl_ascii-0.5.0.tar.gz --markdown 20240510/m/mpl-ascii/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-10 16:17:01] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/18/07/4ffa930f9ed33f804e6a462b5b34db93e06a03a56d72b094419915cf0185/medicafe-0.240509.6.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-10 16:17:01] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.2.3.tar.gz tmp/glue_utils-0.3.0rc0.tar.gz --markdown 20240510/g/glue-utils/0.2.3-0.3.0rc0/README.md --exclude *.pyd
+[2024-05-10 16:17:01] INFO root fetch - processPackages [recharge-api]: executing diffoscope
+[2024-05-10 16:17:01] INFO root fetch - processPackages [recharge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recharge_api-1.6.1.tar.gz tmp/recharge_api-1.6.2.tar.gz --markdown 20240510/r/recharge-api/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-10 16:17:01] INFO root fetch - processPackages [schwifty]: executing diffoscope
+[2024-05-10 16:17:01] INFO root fetch - processPackages [schwifty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwifty-2024.5.1.tar.gz tmp/schwifty-2024.5.2.tar.gz --markdown 20240510/s/schwifty/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-10 16:17:01] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-10 16:17:01] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240509.5.tar.gz tmp/medicafe-0.240509.6.tar.gz --markdown 20240510/m/medicafe/0.240509.5-0.240509.6/README.md --exclude *.pyd
+[2024-05-10 16:17:01] INFO root fetch - processPackages [churningsz]: Downloading https://files.pythonhosted.org/packages/75/a5/574d5450ca7344cef7ff0bf27fd47b0a88b28e0112649edda6e12a83b488/churningsz-2.1.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [zboxapi]: Downloading https://files.pythonhosted.org/packages/5b/fd/1d796098046faebe41ad02d91346b9927380f4098cbd4471dee1bdb6a60e/zboxapi-0.0.3.tar.gz
+[2024-05-10 16:17:01] INFO root fetch - processPackages [churningsz]: executing diffoscope
+[2024-05-10 16:17:01] INFO root fetch - processPackages [churningsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/churningsz-1.1.tar.gz tmp/churningsz-2.1.tar.gz --markdown 20240510/c/churningsz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:17:01] INFO root fetch - processPackages [zboxapi]: executing diffoscope
+[2024-05-10 16:17:01] INFO root fetch - processPackages [zboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zboxapi-0.0.2.tar.gz tmp/zboxapi-0.0.3.tar.gz --markdown 20240510/z/zboxapi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 16:17:01] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/72/1f/7750a16f39b3416494b0bdb1a8978b9cdde3dd72f7c50bf51e92d2bb1eec/rio_ui-0.6.3.tar.gz
+[2024-05-10 16:17:02] INFO root fetch - processPackages [mpl-ascii]: Remove: archive file [/home/abi/fetcher/tmp/mpl_ascii-0.4.0.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - processPackages [mpl-ascii]: Remove: archive file [/home/abi/fetcher/tmp/mpl_ascii-0.5.0.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - main [MainThread]: End processing [mpl-ascii]: success
+[2024-05-10 16:17:02] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.3.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.3.0rc0.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-10 16:17:02] INFO root fetch - processPackages [churningsz]: Remove: archive file [/home/abi/fetcher/tmp/churningsz-1.1.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - processPackages [churningsz]: Remove: archive file [/home/abi/fetcher/tmp/churningsz-2.1.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - main [MainThread]: End processing [churningsz]: success
+[2024-05-10 16:17:02] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.5.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240509.6.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-10 16:17:02] INFO root fetch - processPackages [zboxapi]: Remove: archive file [/home/abi/fetcher/tmp/zboxapi-0.0.2.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - processPackages [zboxapi]: Remove: archive file [/home/abi/fetcher/tmp/zboxapi-0.0.3.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - main [MainThread]: End processing [zboxapi]: success
+[2024-05-10 16:17:02] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.6.1.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.6.2.tar.gz]
+[2024-05-10 16:17:02] INFO root fetch - main [MainThread]: End processing [recharge-api]: success
+[2024-05-10 16:17:02] INFO root fetch - processPackages [rio-ui]: executing diffoscope
+[2024-05-10 16:17:02] INFO root fetch - processPackages [rio-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_ui-0.6.2.tar.gz tmp/rio_ui-0.6.3.tar.gz --markdown 20240510/r/rio-ui/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-10 16:17:03] INFO root fetch - processPackages [schwifty]: Remove: archive file [/home/abi/fetcher/tmp/schwifty-2024.5.1.tar.gz]
+[2024-05-10 16:17:03] INFO root fetch - processPackages [schwifty]: Remove: archive file [/home/abi/fetcher/tmp/schwifty-2024.5.2.tar.gz]
+[2024-05-10 16:17:03] INFO root fetch - main [MainThread]: End processing [schwifty]: success
+[2024-05-10 16:17:04] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.6.2.tar.gz]
+[2024-05-10 16:17:04] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.6.3.tar.gz]
+[2024-05-10 16:17:04] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
+[2024-05-10 16:17:04] INFO root fetch - main [MainThread]: Store serial: [23147789]
