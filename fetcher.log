@@ -17235,3 +17235,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:09:15] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2024-05-10 14:09:15] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2024-05-10 14:09:15] INFO root fetch - main [MainThread]: Store serial: [23145867]
+[2024-05-10 14:11:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145867]
+[2024-05-10 14:11:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 14:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exist-client
+[2024-05-10 14:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kayer-pretty-logger
+[2024-05-10 14:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fab-react-toolkit
+[2024-05-10 14:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kthcloud
+[2024-05-10 14:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-fedit
+[2024-05-10 14:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: justatestwithcpp
+[2024-05-10 14:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2024-05-10 14:11:38] WARNING root fetch - processPackages [justatestwithcpp]: Skipping, unable to determine old version
+[2024-05-10 14:11:38] INFO root fetch - main [MainThread]: End processing [justatestwithcpp] error
+[2024-05-10 14:11:38] WARNING root fetch - processPackages [kthcloud]: Skipping, unable to determine old version
+[2024-05-10 14:11:38] INFO root fetch - main [MainThread]: End processing [kthcloud] error
+[2024-05-10 14:11:38] INFO root fetch - processPackages [exist-client]: New version: [0.1.2.dev2] Old Version: [0.1.1]
+[2024-05-10 14:11:38] INFO root fetch - processPackages [kayer-pretty-logger]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-10 14:11:38] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-10 14:11:38] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.5rc6] Old Version: [1.5.5rc5]
+[2024-05-10 14:11:38] INFO root fetch - processPackages [exist-client]: Downloading https://files.pythonhosted.org/packages/8b/c4/b98ced55fa855f7e34b85f43a661da88882c22dcd7abc115d860517bfcdf/exist_client-0.1.1.tar.gz
+[2024-05-10 14:11:38] INFO root fetch - processPackages [kayer-pretty-logger]: Downloading https://files.pythonhosted.org/packages/ab/1f/5c8e0a6d5517b7516dc77206140bafd655d56af9234f5cbb248ccd7674a0/kayer_pretty_logger-1.2.0.tar.gz
+[2024-05-10 14:11:38] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/54/07/c88ec973e73b111ab3e472f6961b270fd7fe33267970ef27b0249b771c0e/fab_react_toolkit-0.4.6.tar.gz
+[2024-05-10 14:11:38] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/6a/ba/6e490d47ceca89172b695bcd6af6a234e5b6db2cd909a3db5fadf778cc84/wagtail_fedit-1.5.5rc5.tar.gz
+[2024-05-10 14:11:39] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-10 14:11:39] INFO root fetch - processPackages [exist-client]: Downloading https://files.pythonhosted.org/packages/6f/07/42e6c701ec3751e699f0cd4b07d8595933d24705a18f51098d924ea52d5c/exist_client-0.1.2.dev2.tar.gz
+[2024-05-10 14:11:39] INFO root fetch - processPackages [kayer-pretty-logger]: Downloading https://files.pythonhosted.org/packages/9e/6d/66779b4add3c8bdf1e6c390d4af4872b1f0f8b9d2c842752c9c1ec5d45f6/kayer_pretty_logger-1.2.1.tar.gz
+[2024-05-10 14:11:39] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/78/13/a7441c79379f7ceacfe6ccf20c00521084612b547f79de2e7a5bc75d03b6/fab_react_toolkit-0.4.7.tar.gz
+[2024-05-10 14:11:39] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/64/ae/2f986cd475122ec53ebb9d54422dc11917b07177be12faa370990601c8b5/wagtail_fedit-1.5.5rc6.tar.gz
+[2024-05-10 14:11:39] INFO root fetch - processPackages [kayer-pretty-logger]: executing diffoscope
+[2024-05-10 14:11:39] INFO root fetch - processPackages [kayer-pretty-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayer_pretty_logger-1.2.0.tar.gz tmp/kayer_pretty_logger-1.2.1.tar.gz --markdown 20240510/k/kayer-pretty-logger/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-10 14:11:39] INFO root fetch - processPackages [exist-client]: executing diffoscope
+[2024-05-10 14:11:39] INFO root fetch - processPackages [exist-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exist_client-0.1.1.tar.gz tmp/exist_client-0.1.2.dev2.tar.gz --markdown 20240510/e/exist-client/0.1.1-0.1.2.dev2/README.md --exclude *.pyd
+[2024-05-10 14:11:39] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-05-10 14:11:39] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab_react_toolkit-0.4.6.tar.gz tmp/fab_react_toolkit-0.4.7.tar.gz --markdown 20240510/f/fab-react-toolkit/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-10 14:11:39] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-10 14:11:39] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.5rc5.tar.gz tmp/wagtail_fedit-1.5.5rc6.tar.gz --markdown 20240510/w/wagtail-fedit/1.5.5rc5-1.5.5rc6/README.md --exclude *.pyd
+[2024-05-10 14:11:39] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-10 14:11:39] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-10 14:11:39] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.6.tar.gz]
+[2024-05-10 14:11:39] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.7.tar.gz]
+[2024-05-10 14:11:39] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-05-10 14:11:40] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-10 14:11:40] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240510/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-10 14:11:40] INFO root fetch - processPackages [kayer-pretty-logger]: Remove: archive file [/home/abi/fetcher/tmp/kayer_pretty_logger-1.2.0.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - processPackages [kayer-pretty-logger]: Remove: archive file [/home/abi/fetcher/tmp/kayer_pretty_logger-1.2.1.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - main [MainThread]: End processing [kayer-pretty-logger]: success
+[2024-05-10 14:11:40] INFO root fetch - processPackages [exist-client]: Remove: archive file [/home/abi/fetcher/tmp/exist_client-0.1.1.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - processPackages [exist-client]: Remove: archive file [/home/abi/fetcher/tmp/exist_client-0.1.2.dev2.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - main [MainThread]: End processing [exist-client]: success
+[2024-05-10 14:11:40] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc5.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc6.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-10 14:11:40] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-05-10 14:11:40] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-10 14:11:40] INFO root fetch - main [MainThread]: Store serial: [23145889]
