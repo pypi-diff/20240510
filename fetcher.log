@@ -8648,3 +8648,29 @@
 [2024-05-10 08:35:12] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
 [2024-05-10 08:35:12] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
 [2024-05-10 08:35:12] INFO root fetch - main [MainThread]: Store serial: [23142314]
+[2024-05-10 08:37:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142314]
+[2024-05-10 08:37:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 08:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-relay
+[2024-05-10 08:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-block-local
+[2024-05-10 08:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zetamarkets-py
+[2024-05-10 08:37:22] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 08:37:22] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-10 08:37:22] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2024-05-10 08:37:22] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-10 08:37:22] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2024-05-10 08:37:22] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-10 08:37:22] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-05-10 08:37:22] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-10 08:37:22] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240510/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 08:37:22] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-05-10 08:37:23] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-05-10 08:37:23] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240510/z/zetamarkets-py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-10 08:37:23] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-10 08:37:23] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-10 08:37:23] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-10 08:37:23] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2024-05-10 08:37:23] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-05-10 08:37:28] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-05-10 08:37:28] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-05-10 08:37:28] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-05-10 08:37:28] INFO root fetch - main [MainThread]: Store serial: [23142325]
