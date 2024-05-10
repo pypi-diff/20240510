@@ -10768,3 +10768,63 @@
 [2024-05-10 10:24:26] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.5.1.tar.gz]
 [2024-05-10 10:24:26] INFO root fetch - main [MainThread]: End processing [recharge-api]: success
 [2024-05-10 10:24:26] INFO root fetch - main [MainThread]: Store serial: [23143235]
+[2024-05-10 10:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143235]
+[2024-05-10 10:26:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acetylz
+[2024-05-10 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebook_setup2
+[2024-05-10 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eprllib
+[2024-05-10 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forloop-modules
+[2024-05-10 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SunoAI
+[2024-05-10 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metabotk
+[2024-05-10 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bakerstreet
+[2024-05-10 10:26:34] INFO root fetch - processPackages [metabotk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 10:26:34] INFO root fetch - processPackages [forloop-modules]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-10 10:26:34] INFO root fetch - processPackages [SunoAI]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-10 10:26:34] WARNING root fetch - processPackages [notebook_setup2]: Skipping, unable to determine old version
+[2024-05-10 10:26:34] INFO root fetch - main [MainThread]: End processing [notebook_setup2] error
+[2024-05-10 10:26:34] INFO root fetch - processPackages [acetylz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 10:26:34] INFO root fetch - processPackages [eprllib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 10:26:34] INFO root fetch - processPackages [bakerstreet]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-10 10:26:34] INFO root fetch - processPackages [SunoAI]: Downloading https://files.pythonhosted.org/packages/45/69/b643cda548e7bd07077e8f5d571b8271681881f0da443f82bfea4df6cf0a/sunoai-1.0.2.tar.gz
+[2024-05-10 10:26:34] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/f4/5d/4f46a8e9f1f83a0cd27f3fff0a66eef502e1ce65c311d478287e2ca99409/forloop_modules-1.1.0.tar.gz
+[2024-05-10 10:26:34] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/66/83/616b98b59ee9b7f328bf5c9344bba101703d812b3be302e7b15a90933d10/metabotk-0.1.1.tar.gz
+[2024-05-10 10:26:34] INFO root fetch - processPackages [acetylz]: Downloading https://files.pythonhosted.org/packages/2e/21/25ac47bd727a209db04a6e7308e04a529ca6eb10da06ebfe39a1c8460ad3/acetylz-1.1.tar.gz
+[2024-05-10 10:26:34] INFO root fetch - processPackages [eprllib]: Downloading https://files.pythonhosted.org/packages/ad/d4/72d594130ddf36680612d001126358421e222ce86c0f8e85025db2b8ceae/eprllib-1.0.8.tar.gz
+[2024-05-10 10:26:34] INFO root fetch - processPackages [bakerstreet]: Downloading https://files.pythonhosted.org/packages/e3/68/682c5d88fd6092173948602a97192dfdb91cc8201a5406161bee8ed16d5f/bakerstreet-1.0.0.tar.gz
+[2024-05-10 10:26:35] INFO root fetch - processPackages [SunoAI]: Downloading https://files.pythonhosted.org/packages/68/c3/4f32d51839508abdadc95184962ae62bb8bb2f3bd881d99caa270102d2d1/sunoai-1.0.3.tar.gz
+[2024-05-10 10:26:35] INFO root fetch - processPackages [acetylz]: Downloading https://files.pythonhosted.org/packages/59/65/d04a1522533bc992b2018b44d742212f26c0cf73b455e356f10aac36842b/acetylz-2.1.tar.gz
+[2024-05-10 10:26:35] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/6f/16/d89268d861ed38cddf50cb825a26cc9599fc72c29baef18a13c7bb62e79f/metabotk-0.1.2.tar.gz
+[2024-05-10 10:26:35] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/82/cc/ad867b05a4ec6deaa70d180402e90fbd9ddd108b1c324bfd248f3eacc918/forloop_modules-1.1.1.tar.gz
+[2024-05-10 10:26:35] INFO root fetch - processPackages [SunoAI]: executing diffoscope
+[2024-05-10 10:26:35] INFO root fetch - processPackages [SunoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunoai-1.0.2.tar.gz tmp/sunoai-1.0.3.tar.gz --markdown 20240510/S/SunoAI/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-10 10:26:35] INFO root fetch - processPackages [acetylz]: executing diffoscope
+[2024-05-10 10:26:35] INFO root fetch - processPackages [acetylz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetylz-1.1.tar.gz tmp/acetylz-2.1.tar.gz --markdown 20240510/a/acetylz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 10:26:35] INFO root fetch - processPackages [bakerstreet]: Downloading https://files.pythonhosted.org/packages/67/59/795fbe6d76c8b1a2d86335b3ef3179f8898ca3f01a3d07b0712cfe403339/bakerstreet-1.1.0-py3-none-any.whl
+[2024-05-10 10:26:35] INFO root fetch - processPackages [metabotk]: executing diffoscope
+[2024-05-10 10:26:35] INFO root fetch - processPackages [metabotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabotk-0.1.1.tar.gz tmp/metabotk-0.1.2.tar.gz --markdown 20240510/m/metabotk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 10:26:35] INFO root fetch - processPackages [forloop-modules]: executing diffoscope
+[2024-05-10 10:26:35] INFO root fetch - processPackages [forloop-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forloop_modules-1.1.0.tar.gz tmp/forloop_modules-1.1.1.tar.gz --markdown 20240510/f/forloop-modules/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-10 10:26:35] INFO root fetch - processPackages [bakerstreet]: executing diffoscope
+[2024-05-10 10:26:35] INFO root fetch - processPackages [bakerstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bakerstreet-1.0.0.tar.gz tmp/bakerstreet-1.1.0-py3-none-any.whl.zip --markdown 20240510/b/bakerstreet/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-10 10:26:35] INFO root fetch - processPackages [acetylz]: Remove: archive file [/home/abi/fetcher/tmp/acetylz-1.1.tar.gz]
+[2024-05-10 10:26:35] INFO root fetch - processPackages [acetylz]: Remove: archive file [/home/abi/fetcher/tmp/acetylz-2.1.tar.gz]
+[2024-05-10 10:26:35] INFO root fetch - main [MainThread]: End processing [acetylz]: success
+[2024-05-10 10:26:35] INFO root fetch - processPackages [SunoAI]: Remove: archive file [/home/abi/fetcher/tmp/sunoai-1.0.2.tar.gz]
+[2024-05-10 10:26:35] INFO root fetch - processPackages [SunoAI]: Remove: archive file [/home/abi/fetcher/tmp/sunoai-1.0.3.tar.gz]
+[2024-05-10 10:26:35] INFO root fetch - main [MainThread]: End processing [SunoAI]: success
+[2024-05-10 10:26:35] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.1.tar.gz]
+[2024-05-10 10:26:35] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.2.tar.gz]
+[2024-05-10 10:26:35] INFO root fetch - main [MainThread]: End processing [metabotk]: success
+[2024-05-10 10:26:35] INFO root fetch - processPackages [eprllib]: Downloading https://files.pythonhosted.org/packages/47/f8/5e41c363fa717baf6283cab308f005912ff0dda861edd81f9e4c2467b03f/eprllib-1.0.9.tar.gz
+[2024-05-10 10:26:35] INFO root fetch - processPackages [bakerstreet]: Remove: archive file [/home/abi/fetcher/tmp/bakerstreet-1.0.0.tar.gz]
+[2024-05-10 10:26:35] INFO root fetch - processPackages [bakerstreet]: Remove: archive file [/home/abi/fetcher/tmp/bakerstreet-1.1.0-py3-none-any.whl.zip]
+[2024-05-10 10:26:35] INFO root fetch - main [MainThread]: End processing [bakerstreet]: success
+[2024-05-10 10:26:36] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.0.tar.gz]
+[2024-05-10 10:26:36] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.1.tar.gz]
+[2024-05-10 10:26:36] INFO root fetch - main [MainThread]: End processing [forloop-modules]: success
+[2024-05-10 10:26:36] INFO root fetch - processPackages [eprllib]: executing diffoscope
+[2024-05-10 10:26:36] INFO root fetch - processPackages [eprllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eprllib-1.0.8.tar.gz tmp/eprllib-1.0.9.tar.gz --markdown 20240510/e/eprllib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 10:26:37] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.0.8.tar.gz]
+[2024-05-10 10:26:37] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.0.9.tar.gz]
+[2024-05-10 10:26:37] INFO root fetch - main [MainThread]: End processing [eprllib]: success
+[2024-05-10 10:26:37] INFO root fetch - main [MainThread]: Store serial: [23143255]
