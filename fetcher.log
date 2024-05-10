@@ -2870,3 +2870,60 @@
 [2024-05-10 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
 [2024-05-10 02:47:56] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2024-05-10 02:47:56] INFO root fetch - main [MainThread]: Store serial: [23139528]
+[2024-05-10 02:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139528]
+[2024-05-10 02:50:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 02:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hklpy2
+[2024-05-10 02:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robin-api
+[2024-05-10 02:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geocif
+[2024-05-10 02:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama_tools
+[2024-05-10 02:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2024-05-10 02:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioversions
+[2024-05-10 02:50:05] INFO root fetch - processPackages [llama_tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-10 02:50:05] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 02:50:05] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-10 02:50:05] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/a3/e6/442e844181615361f41efd54f923b6adfe27a8a89ee33a220933ec49dc6c/llama_tools-0.1.3.tar.gz
+[2024-05-10 02:50:05] INFO root fetch - processPackages [hklpy2]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 02:50:05] INFO root fetch - processPackages [geocif]: New version: [0.1.2] Old Version: [0.0.1]
+[2024-05-10 02:50:05] INFO root fetch - processPackages [robin-api]: New version: [1.5] Old Version: [1.4]
+[2024-05-10 02:50:05] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-10 02:50:05] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-10 02:50:05] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/6b/56/a7197484acfac98a22c660f5a948a1851967b5ebff6cc60dac186b0f1219/hklpy2-0.0.6.tar.gz
+[2024-05-10 02:50:05] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/a6/8f/f63f37f57e10860125d711c1895d8baa5eeb6737da3b03ae61f01d0b0eec/geocif-0.0.1.tar.gz
+[2024-05-10 02:50:05] INFO root fetch - processPackages [robin-api]: Downloading https://files.pythonhosted.org/packages/9c/bc/d758d5d9706be861bad0da573e571dd5ffc5ec1fb75ab89107748ceeb128/robin_api-1.4.tar.gz
+[2024-05-10 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-10 02:50:06] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-10 02:50:06] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/05/3d/6695ba7dd4e0160f739d102a5c9a7057c65b3f90ad84eafb7910b10fd240/llama_tools-0.1.4.tar.gz
+[2024-05-10 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-10 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240510/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 02:50:06] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-10 02:50:06] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.3.tar.gz tmp/llama_tools-0.1.4.tar.gz --markdown 20240510/l/llama_tools/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-10 02:50:06] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-10 02:50:06] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240510/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-10 02:50:06] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/2a/0d/cf902587acd32619ef9063a866f7ac8ba9c4c632c6dfdf1b895be80e58f5/hklpy2-0.0.7.tar.gz
+[2024-05-10 02:50:06] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/0a/22/b82eabacf7efd3f1c87950011f856f8ca521e769e296d1a40c860cfd2792/geocif-0.1.2.tar.gz
+[2024-05-10 02:50:06] INFO root fetch - processPackages [robin-api]: Downloading https://files.pythonhosted.org/packages/0a/5b/4c2640f0fe5b180248fc74acce5cf1547ce17506a4895df69fe14ec5a958/robin_api-1.5.tar.gz
+[2024-05-10 02:50:06] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-05-10 02:50:06] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.6.tar.gz tmp/hklpy2-0.0.7.tar.gz --markdown 20240510/h/hklpy2/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 02:50:06] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-10 02:50:06] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.0.1.tar.gz tmp/geocif-0.1.2.tar.gz --markdown 20240510/g/geocif/0.0.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 02:50:06] INFO root fetch - processPackages [robin-api]: executing diffoscope
+[2024-05-10 02:50:06] INFO root fetch - processPackages [robin-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_api-1.4.tar.gz tmp/robin_api-1.5.tar.gz --markdown 20240510/r/robin-api/1.4-1.5/README.md --exclude *.pyd
+[2024-05-10 02:50:06] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.3.tar.gz]
+[2024-05-10 02:50:06] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.4.tar.gz]
+[2024-05-10 02:50:06] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-10 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-10 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-10 02:50:06] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-10 02:50:07] INFO root fetch - processPackages [robin-api]: Remove: archive file [/home/abi/fetcher/tmp/robin_api-1.4.tar.gz]
+[2024-05-10 02:50:07] INFO root fetch - processPackages [robin-api]: Remove: archive file [/home/abi/fetcher/tmp/robin_api-1.5.tar.gz]
+[2024-05-10 02:50:07] INFO root fetch - main [MainThread]: End processing [robin-api]: success
+[2024-05-10 02:50:07] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.0.1.tar.gz]
+[2024-05-10 02:50:07] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.2.tar.gz]
+[2024-05-10 02:50:07] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-10 02:50:07] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.6.tar.gz]
+[2024-05-10 02:50:07] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.7.tar.gz]
+[2024-05-10 02:50:07] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-05-10 02:50:25] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-10 02:50:25] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-10 02:50:25] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-10 02:50:25] INFO root fetch - main [MainThread]: Store serial: [23139544]
