@@ -10047,3 +10047,54 @@
 [2024-05-10 09:50:33] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
 [2024-05-10 09:50:33] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
 [2024-05-10 09:50:33] INFO root fetch - main [MainThread]: Store serial: [23142920]
+[2024-05-10 09:52:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23142920]
+[2024-05-10 09:52:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyxLSTM
+[2024-05-10 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orbitkit
+[2024-05-10 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitcommiter
+[2024-05-10 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure
+[2024-05-10 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysarpro
+[2024-05-10 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: racesz
+[2024-05-10 09:52:41] INFO root fetch - processPackages [PyxLSTM]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 09:52:41] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-10 09:52:41] INFO root fetch - processPackages [gitcommiter]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 09:52:41] WARNING root fetch - processPackages [racesz]: Skipping, unable to determine old version
+[2024-05-10 09:52:41] INFO root fetch - main [MainThread]: End processing [racesz] error
+[2024-05-10 09:52:41] INFO root fetch - processPackages [orbitkit]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-10 09:52:41] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-10 09:52:41] INFO root fetch - processPackages [PyxLSTM]: Downloading https://files.pythonhosted.org/packages/65/59/4bcfe841c62959739d13152befed1a3ebbe6371ecb80c6083bdd1678c642/pyxlstm-1.0.0.tar.gz
+[2024-05-10 09:52:41] INFO root fetch - processPackages [gitcommiter]: Downloading https://files.pythonhosted.org/packages/08/6b/1b95165d8b3e39322f9aebcedd21a4c9be20191eaec1391006a798eee1f5/gitcommiter-0.1.1.tar.gz
+[2024-05-10 09:52:42] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/94/b4/738b2c414f1f885063663d4e52c8d79655923e7869975ba518c57ccfa224/orbitkit-0.6.4.tar.gz
+[2024-05-10 09:52:42] INFO root fetch - processPackages [pysarpro]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 09:52:42] INFO root fetch - processPackages [PyxLSTM]: Downloading https://files.pythonhosted.org/packages/3f/9e/4efe4c863871c84b3114adc2e74dda9d1e8ff37d3fac1d8c9d46242fe030/pyxlstm-1.0.1.tar.gz
+[2024-05-10 09:52:42] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-10 09:52:42] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/fd/81/c6e88e2868c43c40f21f3984c16dcc42d7e3b660e8aeab6ced847a597d4b/orbitkit-0.6.5.tar.gz
+[2024-05-10 09:52:42] INFO root fetch - processPackages [pysarpro]: Downloading https://files.pythonhosted.org/packages/33/85/ea101d3b464a13b22459cd6e26de963f0f4285ae3710901fd05fe9a4f878/pysarpro-0.1.2.tar.gz
+[2024-05-10 09:52:42] INFO root fetch - processPackages [PyxLSTM]: executing diffoscope
+[2024-05-10 09:52:42] INFO root fetch - processPackages [PyxLSTM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxlstm-1.0.0.tar.gz tmp/pyxlstm-1.0.1.tar.gz --markdown 20240510/P/PyxLSTM/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 09:52:42] INFO root fetch - processPackages [gitcommiter]: Downloading https://files.pythonhosted.org/packages/b4/73/861fe7e676541cec518d07d386818a5ffed4876b7338b1ad3a5334eddd5e/gitcommiter-0.1.2.tar.gz
+[2024-05-10 09:52:42] INFO root fetch - processPackages [orbitkit]: executing diffoscope
+[2024-05-10 09:52:42] INFO root fetch - processPackages [orbitkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbitkit-0.6.4.tar.gz tmp/orbitkit-0.6.5.tar.gz --markdown 20240510/o/orbitkit/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-10 09:52:42] INFO root fetch - processPackages [gitcommiter]: executing diffoscope
+[2024-05-10 09:52:42] INFO root fetch - processPackages [gitcommiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitcommiter-0.1.1.tar.gz tmp/gitcommiter-0.1.2.tar.gz --markdown 20240510/g/gitcommiter/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 09:52:42] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-10 09:52:42] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240510/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-10 09:52:43] INFO root fetch - processPackages [pysarpro]: Downloading https://files.pythonhosted.org/packages/99/41/fa1750f20630bd5ff8f948f401ed944b06c3899859b34a95ae98af5638bd/pysarpro-0.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 09:52:43] INFO root fetch - processPackages [PyxLSTM]: Remove: archive file [/home/abi/fetcher/tmp/pyxlstm-1.0.0.tar.gz]
+[2024-05-10 09:52:43] INFO root fetch - processPackages [PyxLSTM]: Remove: archive file [/home/abi/fetcher/tmp/pyxlstm-1.0.1.tar.gz]
+[2024-05-10 09:52:43] INFO root fetch - main [MainThread]: End processing [PyxLSTM]: success
+[2024-05-10 09:52:43] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.6.4.tar.gz]
+[2024-05-10 09:52:43] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.6.5.tar.gz]
+[2024-05-10 09:52:43] INFO root fetch - main [MainThread]: End processing [orbitkit]: success
+[2024-05-10 09:52:43] INFO root fetch - processPackages [gitcommiter]: Remove: archive file [/home/abi/fetcher/tmp/gitcommiter-0.1.1.tar.gz]
+[2024-05-10 09:52:43] INFO root fetch - processPackages [gitcommiter]: Remove: archive file [/home/abi/fetcher/tmp/gitcommiter-0.1.2.tar.gz]
+[2024-05-10 09:52:43] INFO root fetch - main [MainThread]: End processing [gitcommiter]: success
+[2024-05-10 09:52:44] INFO root fetch - processPackages [pysarpro]: executing diffoscope
+[2024-05-10 09:52:44] INFO root fetch - processPackages [pysarpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysarpro-0.1.2.tar.gz tmp/pysarpro-0.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240510/p/pysarpro/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 09:52:45] INFO root fetch - processPackages [pysarpro]: Remove: archive file [/home/abi/fetcher/tmp/pysarpro-0.1.2.tar.gz]
+[2024-05-10 09:52:45] INFO root fetch - processPackages [pysarpro]: Remove: archive file [/home/abi/fetcher/tmp/pysarpro-0.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-10 09:52:45] INFO root fetch - main [MainThread]: End processing [pysarpro]: success
+[2024-05-10 09:52:51] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-10 09:52:51] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-10 09:52:51] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-10 09:52:51] INFO root fetch - main [MainThread]: Store serial: [23142949]
