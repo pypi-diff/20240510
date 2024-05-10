@@ -2927,3 +2927,23 @@
 [2024-05-10 02:50:25] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-10 02:50:25] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-10 02:50:25] INFO root fetch - main [MainThread]: Store serial: [23139544]
+[2024-05-10 02:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23139544]
+[2024-05-10 02:52:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vscode-server-bin
+[2024-05-10 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: petumz
+[2024-05-10 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcs-sdk-python
+[2024-05-10 02:52:33] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-05-10 02:52:33] INFO root fetch - processPackages [vscode-server-bin]: New version: [1.89.1] Old Version: [1.88.1]
+[2024-05-10 02:52:33] WARNING root fetch - processPackages [petumz]: Skipping, unable to determine old version
+[2024-05-10 02:52:33] INFO root fetch - main [MainThread]: End processing [petumz] error
+[2024-05-10 02:52:33] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 02:52:34] INFO root fetch - processPackages [vscode-server-bin]: Downloading https://files.pythonhosted.org/packages/ee/50/4f075adde0177fe7b77ecba4188cc24f66328c78ef6383b04c8d3cc3095e/vscode_server_bin-1.88.1-py3-none-any.whl
+[2024-05-10 02:52:34] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-10 02:52:34] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2024-05-10 02:52:34] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240510/q/qcs-sdk-python/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-05-10 02:52:35] WARNING root fetch - processPackages [vscode-server-bin]: Skipping package: exceeds size limit 56945940>=10485760
+[2024-05-10 02:52:35] INFO root fetch - main [MainThread]: End processing [vscode-server-bin] error
+[2024-05-10 02:54:47] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-10 02:54:47] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-10 02:54:47] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2024-05-10 02:54:47] INFO root fetch - main [MainThread]: Store serial: [23139563]
