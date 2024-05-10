@@ -15885,3 +15885,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:16:40] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
 [2024-05-10 13:16:40] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
 [2024-05-10 13:16:40] INFO root fetch - main [MainThread]: Store serial: [23145323]
+[2024-05-10 13:18:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145323]
+[2024-05-10 13:19:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phones-local
+[2024-05-10 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microdetectionz
+[2024-05-10 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easywebhooker
+[2024-05-10 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-okta
+[2024-05-10 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-postgresql
+[2024-05-10 13:19:03] INFO root fetch - processPackages [phones-local]: New version: [0.0.22] Old Version: [0.0.21]
+[2024-05-10 13:19:03] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-10 13:19:03] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/52/8b/7a3c6f6aeff5633ab0ac542168b26e8d1db4c16627d34c9b7422ede9a298/phones_local-0.0.21.tar.gz
+[2024-05-10 13:19:03] WARNING root fetch - processPackages [easywebhooker]: Skipping, unable to determine old version
+[2024-05-10 13:19:03] INFO root fetch - main [MainThread]: End processing [easywebhooker] error
+[2024-05-10 13:19:03] WARNING root fetch - processPackages [microdetectionz]: Skipping, unable to determine old version
+[2024-05-10 13:19:03] INFO root fetch - main [MainThread]: End processing [microdetectionz] error
+[2024-05-10 13:19:03] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-10 13:19:03] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1715338646] Old Version: [4.9.0a1715234992]
+[2024-05-10 13:19:03] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-10 13:19:03] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/30/47/de533deead30d79cde864b912d3399563a7e06e1d0e095c37f3472f5d465/pulumi_okta-4.9.0a1715234992.tar.gz
+[2024-05-10 13:19:03] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/b7/48/addd61cdc1b3622ec13d5cdf09c8c838266aecbe783cd3916b1cb5094f61/phones_local-0.0.22.tar.gz
+[2024-05-10 13:19:03] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-10 13:19:03] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240510/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-10 13:19:03] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-10 13:19:03] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones_local-0.0.21.tar.gz tmp/phones_local-0.0.22.tar.gz --markdown 20240510/p/phones-local/0.0.21-0.0.22/README.md --exclude *.pyd
+[2024-05-10 13:19:04] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f9/1c/1f51c296b5da171a437873707a9a54ce72b43ae7307a33b0ad20e413b077/pulumi_okta-4.9.0a1715338646.tar.gz
+[2024-05-10 13:19:04] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-10 13:19:04] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1715234992.tar.gz tmp/pulumi_okta-4.9.0a1715338646.tar.gz --markdown 20240510/p/pulumi-okta/4.9.0a1715234992-4.9.0a1715338646/README.md --exclude *.pyd
+[2024-05-10 13:19:04] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.21.tar.gz]
+[2024-05-10 13:19:04] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.22.tar.gz]
+[2024-05-10 13:19:04] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-10 13:19:04] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-10 13:19:04] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-10 13:19:04] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-10 13:19:05] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715234992.tar.gz]
+[2024-05-10 13:19:05] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715338646.tar.gz]
+[2024-05-10 13:19:05] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-10 13:19:05] INFO root fetch - main [MainThread]: Store serial: [23145342]
