@@ -24887,3 +24887,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 18:23:01] INFO root fetch - processPackages [debyetools]: Remove: archive file [/home/abi/fetcher/tmp/debyetools-2.0.6.tar.gz]
 [2024-05-10 18:23:01] INFO root fetch - main [MainThread]: End processing [debyetools]: success
 [2024-05-10 18:23:01] INFO root fetch - main [MainThread]: Store serial: [23149629]
+[2024-05-10 18:25:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149629]
+[2024-05-10 18:25:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 18:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuralneuron
+[2024-05-10 18:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hollandishz
+[2024-05-10 18:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudflare
+[2024-05-10 18:25:10] INFO root fetch - processPackages [neuralneuron]: New version: [15.6] Old Version: [14.6]
+[2024-05-10 18:25:11] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-10 18:25:11] WARNING root fetch - processPackages [hollandishz]: Skipping, unable to determine old version
+[2024-05-10 18:25:11] INFO root fetch - main [MainThread]: End processing [hollandishz] error
+[2024-05-10 18:25:11] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-10 18:25:11] INFO root fetch - processPackages [neuralneuron]: Downloading https://files.pythonhosted.org/packages/e5/d0/9cdc3cbb115d46b64e0521621ae333218b96afdb7817e0a7510d2db4e907/neuralneuron-14.6.tar.gz
+[2024-05-10 18:25:11] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-10 18:25:11] INFO root fetch - processPackages [neuralneuron]: Downloading https://files.pythonhosted.org/packages/3a/5c/d632f0bf111c8fae8b605cd89211c0ec40da19dd58af6fc73c1c6ae54b19/neuralneuron-15.6.tar.gz
+[2024-05-10 18:25:11] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-10 18:25:11] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240510/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-10 18:25:11] INFO root fetch - processPackages [neuralneuron]: executing diffoscope
+[2024-05-10 18:25:11] INFO root fetch - processPackages [neuralneuron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralneuron-14.6.tar.gz tmp/neuralneuron-15.6.tar.gz --markdown 20240510/n/neuralneuron/14.6-15.6/README.md --exclude *.pyd
+[2024-05-10 18:25:12] INFO root fetch - processPackages [neuralneuron]: Remove: archive file [/home/abi/fetcher/tmp/neuralneuron-14.6.tar.gz]
+[2024-05-10 18:25:12] INFO root fetch - processPackages [neuralneuron]: Remove: archive file [/home/abi/fetcher/tmp/neuralneuron-15.6.tar.gz]
+[2024-05-10 18:25:12] INFO root fetch - main [MainThread]: End processing [neuralneuron]: success
+[2024-05-10 18:25:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-10 18:25:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-10 18:25:12] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-10 18:25:12] INFO root fetch - main [MainThread]: Store serial: [23149638]
