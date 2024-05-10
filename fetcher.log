@@ -17955,3 +17955,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:37:58] INFO root fetch - processPackages [dbt-score]: Remove: archive file [/home/abi/fetcher/tmp/dbt_score-0.1.0b1.tar.gz]
 [2024-05-10 14:37:58] INFO root fetch - main [MainThread]: End processing [dbt-score]: success
 [2024-05-10 14:37:58] INFO root fetch - main [MainThread]: Store serial: [23146249]
+[2024-05-10 14:40:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146249]
+[2024-05-10 14:40:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xoa-driver
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phc-ingestion
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pwrpy
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glue-utils
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apmtools
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlglot-doris
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yid-langchain-extensions
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: softpy
+[2024-05-10 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crawfishedz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.1.9] Old Version: [1.1.8.3]
+[2024-05-10 14:40:07] INFO root fetch - processPackages [pwrpy]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-10 14:40:07] INFO root fetch - processPackages [apmtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 14:40:07] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 14:40:07] INFO root fetch - processPackages [glue-utils]: New version: [0.3.0rc0] Old Version: [0.2.3]
+[2024-05-10 14:40:07] WARNING root fetch - processPackages [crawfishedz]: Skipping, unable to determine old version
+[2024-05-10 14:40:07] INFO root fetch - processPackages [crawfishedz]: Start processing: python-glmnet
+[2024-05-10 14:40:07] INFO root fetch - processPackages [softpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 14:40:07] INFO root fetch - main [MainThread]: End processing [crawfishedz] error
+[2024-05-10 14:40:07] INFO root fetch - processPackages [xoa-driver]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-10 14:40:07] INFO root fetch - processPackages [phc-ingestion]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-10 14:40:07] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-10 14:40:07] INFO root fetch - processPackages [pwrpy]: Downloading https://files.pythonhosted.org/packages/cd/85/274adae1e1e6efaabda161b80576c1c0246aaa4c846c921cec813aec9299/pwrpy-1.1.3.tar.gz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/de/71/c192e2fcdb3fab9979b996d2220926ee19492c7b66a071795d7ea7762117/sqlglot-doris-1.1.8.3.tar.gz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/de/e4/d6e711ac61fe6f7af46eda73a0f1b76b8fea3058ed7ff8d5ed8e37631da0/apmtools-0.0.8.tar.gz
+[2024-05-10 14:40:07] WARNING root fetch - processPackages [sqlglot-doris]: Skipping package: exceeds size limit 13526316>=10485760
+[2024-05-10 14:40:07] INFO root fetch - main [MainThread]: End processing [sqlglot-doris] error
+[2024-05-10 14:40:07] INFO root fetch - processPackages [softpy]: Downloading https://files.pythonhosted.org/packages/07/b7/415ec46187a28381c707bcde3e87463f0dd16c6cc85c606e416476071e88/softpy-0.0.4.tar.gz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/87/f3/1a2bd7c6f0c5b8b6bfb4eef144815459fd3788c49e5ee5959c2450d98299/glue_utils-0.2.3.tar.gz
+[2024-05-10 14:40:07] WARNING root fetch - processPackages [python-glmnet]: Skipping, unable to determine old version
+[2024-05-10 14:40:07] INFO root fetch - main [MainThread]: End processing [python-glmnet] error
+[2024-05-10 14:40:07] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/14/c0/bb7b84bf45ab34ee3f02230bbf62cba63b11c87779032621677e38ad3ce5/xoa-driver-2.5.3.tar.gz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/02/04/8d438a1686e66b52dfdfa5de3b7057ceb58aa969e2234409675b6e62556e/phc-ingestion-0.8.8.tar.gz
+[2024-05-10 14:40:07] INFO root fetch - processPackages [pwrpy]: Downloading https://files.pythonhosted.org/packages/06/b1/b3323371c4c1b2811c10223bd31abf5e73975df210c9d2b3abd636968426/pwrpy-1.1.4.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [pwrpy]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [pwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwrpy-1.1.3.tar.gz tmp/pwrpy-1.1.4.tar.gz --markdown 20240510/p/pwrpy/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [softpy]: Downloading https://files.pythonhosted.org/packages/21/d5/e3f33f924aefaeb998db85ee01e7ac4806cf567e38ec477a57fda13cfb87/softpy-0.0.5.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/ab/3b/590829102adfbebedd61e795a129cba4fa13185304cd9fefcabcb63d8937/glue_utils-0.3.0rc0.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/55/62/6ff676d0d273ee3dab0f5ca2d4f5d805b2ac7008d18c3111f1376d30589b/xoa_driver-2.5.4.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [softpy]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [softpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/softpy-0.0.4.tar.gz tmp/softpy-0.0.5.tar.gz --markdown 20240510/s/softpy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/1b/d8/f078c028e3a31e87a9d21228f1c6989660a625af41cadc32b810ce6f8332/apmtools-0.0.9.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/f8/0f/62839607b06ab11e228299fc8542a8149718c194d0d7da12972bfc1133c5/phc-ingestion-0.8.9.tar.gz
+[2024-05-10 14:40:08] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20240510/y/yid-langchain-extensions/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.2.3.tar.gz tmp/glue_utils-0.3.0rc0.tar.gz --markdown 20240510/g/glue-utils/0.2.3-0.3.0rc0/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [xoa-driver]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [xoa-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-driver-2.5.3.tar.gz tmp/xoa_driver-2.5.4.tar.gz --markdown 20240510/x/xoa-driver/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.8.8.tar.gz tmp/phc-ingestion-0.8.9.tar.gz --markdown 20240510/p/phc-ingestion/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-05-10 14:40:08] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.8.tar.gz tmp/apmtools-0.0.9.tar.gz --markdown 20240510/a/apmtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 14:40:08] INFO root fetch - processPackages [pwrpy]: Remove: archive file [/home/abi/fetcher/tmp/pwrpy-1.1.3.tar.gz]
+[2024-05-10 14:40:08] INFO root fetch - processPackages [pwrpy]: Remove: archive file [/home/abi/fetcher/tmp/pwrpy-1.1.4.tar.gz]
+[2024-05-10 14:40:08] INFO root fetch - main [MainThread]: End processing [pwrpy]: success
+[2024-05-10 14:40:09] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2024-05-10 14:40:09] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.3.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.3.0rc0.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-10 14:40:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 14:40:09] INFO root fetch - processPackages [softpy]: Remove: archive file [/home/abi/fetcher/tmp/softpy-0.0.4.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - processPackages [softpy]: Remove: archive file [/home/abi/fetcher/tmp/softpy-0.0.5.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - main [MainThread]: End processing [softpy]: success
+[2024-05-10 14:40:09] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.8.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.9.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2024-05-10 14:40:09] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.8.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
+[2024-05-10 14:40:09] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-05-10 14:40:10] INFO root fetch - processPackages [xoa-driver]: Remove: archive file [/home/abi/fetcher/tmp/xoa-driver-2.5.3.tar.gz]
+[2024-05-10 14:40:10] INFO root fetch - processPackages [xoa-driver]: Remove: archive file [/home/abi/fetcher/tmp/xoa_driver-2.5.4.tar.gz]
+[2024-05-10 14:40:10] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
+[2024-05-10 14:40:10] INFO root fetch - main [MainThread]: Store serial: [23146287]
