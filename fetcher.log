@@ -12282,3 +12282,42 @@
 [2024-05-10 11:10:59] INFO root fetch - processPackages [beetcamp]: Remove: archive file [/home/abi/fetcher/tmp/beetcamp-0.9.3.tar.gz]
 [2024-05-10 11:10:59] INFO root fetch - main [MainThread]: End processing [beetcamp]: success
 [2024-05-10 11:10:59] INFO root fetch - main [MainThread]: Store serial: [23143870]
+[2024-05-10 11:13:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143870]
+[2024-05-10 11:13:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amberoidsz
+[2024-05-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-intercom
+[2024-05-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amilib
+[2024-05-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moleculekit
+[2024-05-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openCV-movement-detection
+[2024-05-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zsx-Phylogenetic-Tree
+[2024-05-10 11:13:12] WARNING root fetch - processPackages [amberoidsz]: Skipping, unable to determine old version
+[2024-05-10 11:13:12] INFO root fetch - main [MainThread]: End processing [amberoidsz] error
+[2024-05-10 11:13:12] WARNING root fetch - processPackages [openCV-movement-detection]: Skipping, unable to determine old version
+[2024-05-10 11:13:12] INFO root fetch - main [MainThread]: End processing [openCV-movement-detection] error
+[2024-05-10 11:13:12] INFO root fetch - processPackages [airbyte-source-intercom]: New version: [0.6.3] Old Version: [0.6.2.dev202403211932]
+[2024-05-10 11:13:12] INFO root fetch - processPackages [amilib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 11:13:12] INFO root fetch - processPackages [moleculekit]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-05-10 11:13:12] WARNING root fetch - processPackages [zsx-Phylogenetic-Tree]: Skipping, unable to determine old version
+[2024-05-10 11:13:12] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/e2/20/c60db63b68b26d67ba3acc423e2fd1ae0fa6575b473a39fe9f9fb0f343b1/amilib-0.0.8.tar.gz
+[2024-05-10 11:13:12] INFO root fetch - main [MainThread]: End processing [zsx-Phylogenetic-Tree] error
+[2024-05-10 11:13:12] INFO root fetch - processPackages [airbyte-source-intercom]: Downloading https://files.pythonhosted.org/packages/cb/02/e203369c0267f16bad59603f7f94703e9361584a82d63be21b08002b2e5f/airbyte_source_intercom-0.6.2.dev202403211932.tar.gz
+[2024-05-10 11:13:12] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/e4/a8/ef9f25e6e42436ceaecfd8bb0aadbf40855976374a46b8cf8d55000fa0a8/moleculekit-1.8.6.tar.gz
+[2024-05-10 11:13:12] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/70/44/00e2940e873e98111a9ced7abcdf953aa810fd247caf1b1b4f441eb98a88/amilib-0.0.9.tar.gz
+[2024-05-10 11:13:12] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-05-10 11:13:12] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.0.8.tar.gz tmp/amilib-0.0.9.tar.gz --markdown 20240510/a/amilib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 11:13:12] INFO root fetch - processPackages [airbyte-source-intercom]: Downloading https://files.pythonhosted.org/packages/f3/4b/5a67f62229af44b71519f8e3b060db1e0b4e7d59d9e984d9ec3b9af65919/airbyte_source_intercom-0.6.3.tar.gz
+[2024-05-10 11:13:12] INFO root fetch - processPackages [airbyte-source-intercom]: executing diffoscope
+[2024-05-10 11:13:12] INFO root fetch - processPackages [airbyte-source-intercom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_intercom-0.6.2.dev202403211932.tar.gz tmp/airbyte_source_intercom-0.6.3.tar.gz --markdown 20240510/a/airbyte-source-intercom/0.6.2.dev202403211932-0.6.3/README.md --exclude *.pyd
+[2024-05-10 11:13:13] INFO root fetch - processPackages [airbyte-source-intercom]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_intercom-0.6.2.dev202403211932.tar.gz]
+[2024-05-10 11:13:13] INFO root fetch - processPackages [airbyte-source-intercom]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_intercom-0.6.3.tar.gz]
+[2024-05-10 11:13:13] INFO root fetch - main [MainThread]: End processing [airbyte-source-intercom]: success
+[2024-05-10 11:13:13] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.8.tar.gz]
+[2024-05-10 11:13:13] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.9.tar.gz]
+[2024-05-10 11:13:13] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-05-10 11:13:16] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/67/c5/ed682f5ea9a16915b98612e0b274b50303bb912ccb71ab106247e01be8c2/moleculekit-1.8.7.tar.gz
+[2024-05-10 11:13:19] INFO root fetch - processPackages [moleculekit]: executing diffoscope
+[2024-05-10 11:13:19] INFO root fetch - processPackages [moleculekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moleculekit-1.8.6.tar.gz tmp/moleculekit-1.8.7.tar.gz --markdown 20240510/m/moleculekit/1.8.6-1.8.7/README.md --exclude *.pyd
+[2024-05-10 11:13:25] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.8.6.tar.gz]
+[2024-05-10 11:13:25] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.8.7.tar.gz]
+[2024-05-10 11:13:25] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
+[2024-05-10 11:13:25] INFO root fetch - main [MainThread]: Store serial: [23143887]
