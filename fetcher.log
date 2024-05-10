@@ -14622,3 +14622,83 @@
 [2024-05-10 12:41:53] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial_model-1.0.5-py3-none-any.whl.zip]
 [2024-05-10 12:41:53] INFO root fetch - main [MainThread]: End processing [antibacterial-model]: success
 [2024-05-10 12:41:53] INFO root fetch - main [MainThread]: Store serial: [23144831]
+[2024-05-10 12:44:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23144831]
+[2024-05-10 12:44:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antibacterial-model
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Weblate
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonvitrifiedz
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kozmoml-xgboost
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-external
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airtestProject
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataclasses-json
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chiasmodon
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: r-shepard
+[2024-05-10 12:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-chargebee
+[2024-05-10 12:44:25] INFO root fetch - processPackages [antibacterial-model]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-10 12:44:25] INFO root fetch - processPackages [airbyte-source-chargebee]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-10 12:44:25] WARNING root fetch - processPackages [airtestProject]: Skipping, unable to determine old version
+[2024-05-10 12:44:25] INFO root fetch - processPackages [airtestProject]: Start processing: aiostream
+[2024-05-10 12:44:25] INFO root fetch - processPackages [r-shepard]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 12:44:25] INFO root fetch - main [MainThread]: End processing [airtestProject] error
+[2024-05-10 12:44:25] INFO root fetch - processPackages [pulumi-external]: New version: [0.1.0a1715336687] Old Version: [0.1.0a1715303509]
+[2024-05-10 12:44:25] INFO root fetch - processPackages [aiostream]: New version: [0.6.0rc1] Old Version: [0.5.2]
+[2024-05-10 12:44:25] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/4a/4d/b883059c2807ea4b931b02d59f4ee17d1575ee1c4cbd88d1f832eba5d0f7/antibacterial-model-1.0.4.tar.gz
+[2024-05-10 12:44:25] WARNING root fetch - processPackages [nonvitrifiedz]: Skipping, unable to determine old version
+[2024-05-10 12:44:25] INFO root fetch - main [MainThread]: End processing [nonvitrifiedz] error
+[2024-05-10 12:44:25] WARNING root fetch - processPackages [kozmoml-xgboost]: Skipping, unable to determine old version
+[2024-05-10 12:44:25] INFO root fetch - main [MainThread]: End processing [kozmoml-xgboost] error
+[2024-05-10 12:44:25] INFO root fetch - processPackages [chiasmodon]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-10 12:44:25] INFO root fetch - processPackages [Weblate]: New version: [5.5.4] Old Version: [5.5.3]
+[2024-05-10 12:44:25] INFO root fetch - processPackages [dataclasses-json]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-10 12:44:25] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/66/3d/2b702e03df94bbf73abaff56f47f64382d41f75fdc7b53093461c7ffb260/r_shepard-0.2.1.tar.gz
+[2024-05-10 12:44:25] INFO root fetch - processPackages [aiostream]: Downloading https://files.pythonhosted.org/packages/e4/60/0b46dfd568d1e22ff587ff0b00829a11411bc34be1b6497c8783cbd9ec82/aiostream-0.5.2.tar.gz
+[2024-05-10 12:44:25] INFO root fetch - processPackages [airbyte-source-chargebee]: Downloading https://files.pythonhosted.org/packages/a2/7a/95eab96249292caa06b6d32b2bb354b84397abe35c4ff24a73a14317a3eb/airbyte_source_chargebee-0.4.2.tar.gz
+[2024-05-10 12:44:25] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/76/d8/1ef59891fc832c467788c4302903e1b2cd32b7d3bfa9d05d3b852b857ac4/pulumi_external-0.1.0a1715303509.tar.gz
+[2024-05-10 12:44:25] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/79/7d/7b2148b8d4cbdb4080de978211cdec443bd8369c865b9c96d1b780c35335/weblate-5.5.3.tar.gz
+[2024-05-10 12:44:25] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/ea/45/9776c171ce904b0a336cc3c8057570e0ff2c9a0476ace5e18780c05a7bc6/dataclasses_json-0.6.5.tar.gz
+[2024-05-10 12:44:25] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/8f/12/06b9db1ea32b5261808b845cac0229c503eae5dd45e32132fd2da79fbf7a/chiasmodon-2.0.2.tar.gz
+[2024-05-10 12:44:25] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 64825080>=10485760
+[2024-05-10 12:44:25] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2024-05-10 12:44:25] INFO root fetch - processPackages [antibacterial-model]: Downloading https://files.pythonhosted.org/packages/35/25/8c7979d146fbc30ce7204fc0955eddbbab1c3a59d8c65cd972e78f7a7da4/antibacterial_model-1.0.5-py3-none-any.whl
+[2024-05-10 12:44:26] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/4c/ac/514679486ae556b27dfd8829d9d333788ddc7181191a7317369b16f44df2/r_shepard-0.2.2.tar.gz
+[2024-05-10 12:44:26] INFO root fetch - processPackages [aiostream]: Downloading https://files.pythonhosted.org/packages/46/27/b73379ce08eb869ecb5636fa390f91649cb44e633929f6a4f31501a78f25/aiostream-0.6.0rc1.tar.gz
+[2024-05-10 12:44:26] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/f6/46/7cecfeb3e9419cbdc45f4425446a0fa8d914ceeb2d0c9fe6648f1691d592/dataclasses_json-0.6.6.tar.gz
+[2024-05-10 12:44:26] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/79/87/05cd6b96d42d5d7b4ec9a6e947b15e79c97462aa8c6a97567218b28d4d5e/pulumi_external-0.1.0a1715336687.tar.gz
+[2024-05-10 12:44:26] INFO root fetch - processPackages [r-shepard]: executing diffoscope
+[2024-05-10 12:44:26] INFO root fetch - processPackages [r-shepard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_shepard-0.2.1.tar.gz tmp/r_shepard-0.2.2.tar.gz --markdown 20240510/r/r-shepard/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 12:44:26] INFO root fetch - processPackages [airbyte-source-chargebee]: Downloading https://files.pythonhosted.org/packages/4e/8d/94ffa4a51290e130752a84463425dbdd680b43a2aa8893f262fe745a00bd/airbyte_source_chargebee-0.5.0.tar.gz
+[2024-05-10 12:44:26] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/25/17/b5f908d2026f311130c674046aa56b269636e0cc1dd8c9794eda76390c0f/chiasmodon-2.0.3.tar.gz
+[2024-05-10 12:44:26] INFO root fetch - processPackages [aiostream]: executing diffoscope
+[2024-05-10 12:44:26] INFO root fetch - processPackages [aiostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiostream-0.5.2.tar.gz tmp/aiostream-0.6.0rc1.tar.gz --markdown 20240510/a/aiostream/0.5.2-0.6.0rc1/README.md --exclude *.pyd
+[2024-05-10 12:44:26] INFO root fetch - processPackages [antibacterial-model]: executing diffoscope
+[2024-05-10 12:44:26] INFO root fetch - processPackages [antibacterial-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antibacterial-model-1.0.4.tar.gz tmp/antibacterial_model-1.0.5-py3-none-any.whl.zip --markdown 20240510/a/antibacterial-model/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-10 12:44:26] INFO root fetch - processPackages [airbyte-source-chargebee]: executing diffoscope
+[2024-05-10 12:44:26] INFO root fetch - processPackages [airbyte-source-chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_chargebee-0.4.2.tar.gz tmp/airbyte_source_chargebee-0.5.0.tar.gz --markdown 20240510/a/airbyte-source-chargebee/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-10 12:44:26] INFO root fetch - processPackages [dataclasses-json]: executing diffoscope
+[2024-05-10 12:44:26] INFO root fetch - processPackages [dataclasses-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_json-0.6.5.tar.gz tmp/dataclasses_json-0.6.6.tar.gz --markdown 20240510/d/dataclasses-json/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-10 12:44:26] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-05-10 12:44:26] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.1.0a1715303509.tar.gz tmp/pulumi_external-0.1.0a1715336687.tar.gz --markdown 20240510/p/pulumi-external/0.1.0a1715303509-0.1.0a1715336687/README.md --exclude *.pyd
+[2024-05-10 12:44:26] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-05-10 12:44:26] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-2.0.2.tar.gz tmp/chiasmodon-2.0.3.tar.gz --markdown 20240510/c/chiasmodon/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-10 12:44:27] INFO root fetch - processPackages [aiostream]: Remove: archive file [/home/abi/fetcher/tmp/aiostream-0.5.2.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - processPackages [aiostream]: Remove: archive file [/home/abi/fetcher/tmp/aiostream-0.6.0rc1.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - main [MainThread]: End processing [aiostream]: success
+[2024-05-10 12:44:27] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_json-0.6.5.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_json-0.6.6.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - main [MainThread]: End processing [dataclasses-json]: success
+[2024-05-10 12:44:27] INFO root fetch - processPackages [airbyte-source-chargebee]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_chargebee-0.4.2.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - processPackages [airbyte-source-chargebee]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_chargebee-0.5.0.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - main [MainThread]: End processing [airbyte-source-chargebee]: success
+[2024-05-10 12:44:27] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.2.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.3.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-05-10 12:44:27] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.2.1.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.2.2.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - main [MainThread]: End processing [r-shepard]: success
+[2024-05-10 12:44:27] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715303509.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715336687.tar.gz]
+[2024-05-10 12:44:27] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-05-10 12:44:38] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial-model-1.0.4.tar.gz]
+[2024-05-10 12:44:38] INFO root fetch - processPackages [antibacterial-model]: Remove: archive file [/home/abi/fetcher/tmp/antibacterial_model-1.0.5-py3-none-any.whl.zip]
+[2024-05-10 12:44:38] INFO root fetch - main [MainThread]: End processing [antibacterial-model]: success
+[2024-05-10 12:44:38] INFO root fetch - main [MainThread]: Store serial: [23144866]
