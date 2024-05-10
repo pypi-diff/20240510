@@ -3713,3 +3713,51 @@
 [2024-05-10 03:49:59] INFO root fetch - processPackages [leads]: Remove: archive file [/home/abi/fetcher/tmp/leads-0.8.9.tar.gz]
 [2024-05-10 03:49:59] INFO root fetch - main [MainThread]: End processing [leads]: success
 [2024-05-10 03:49:59] INFO root fetch - main [MainThread]: Store serial: [23140088]
+[2024-05-10 03:52:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140088]
+[2024-05-10 03:52:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-10 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-civo
+[2024-05-10 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-auth0
+[2024-05-10 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-archive
+[2024-05-10 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-cloudinit
+[2024-05-10 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dycw-utilities
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1715232200] Old Version: [1.5.0a1715228122]
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1715231401] Old Version: [0.1.0a1715058618]
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715259886] Old Version: [2.4.0a1715232078]
+[2024-05-10 03:52:08] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/6b/6d/028399dac983f956f4f97a48b8bafd0c3f14970f8ee3563499f75c616b6b/pulumi_archive-0.1.0a1715058618.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1715303443] Old Version: [3.4.0a1714161308]
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/b2/27/789883f295fdbdcfa3c2ec1c949e3147ea8dabbaa217391b98a5375ec103/pulumi_cloudinit-1.5.0a1715228122.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/82/b9/bc06ec60a95038c7504a7ccff1d18f2217f395b9282163cce3ca2819792c/pulumi_civo-2.4.0a1715232078.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/03/ba/2846ffa9bb1f63ef75b20cf0abb0dd732a6b02cc4436bc16e63eaa146d9a/pulumi_archive-0.1.0a1715231401.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/c0/d0/157fcd0831bfcad23c209c8ccaf5ea69f728b973cb2d914e2b5801b0271a/pulumi_auth0-3.4.0a1714161308.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/16/ef/ce873452934870877bd52dde2c51e81bb78494f1d0f0b906969d5ba28263/pulumi_civo-2.4.0a1715259886.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1715058618.tar.gz tmp/pulumi_archive-0.1.0a1715231401.tar.gz --markdown 20240510/p/pulumi-archive/0.1.0a1715058618-0.1.0a1715231401/README.md --exclude *.pyd
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/54/e5/1ac16b65c08cd655e012843726ee2ae51d048edd59f566a1079aa19fafae/pulumi_cloudinit-1.5.0a1715232200.tar.gz
+[2024-05-10 03:52:08] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-10 03:52:08] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240510/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715232078.tar.gz tmp/pulumi_civo-2.4.0a1715259886.tar.gz --markdown 20240510/p/pulumi-civo/2.4.0a1715232078-2.4.0a1715259886/README.md --exclude *.pyd
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1715228122.tar.gz tmp/pulumi_cloudinit-1.5.0a1715232200.tar.gz --markdown 20240510/p/pulumi-cloudinit/1.5.0a1715228122-1.5.0a1715232200/README.md --exclude *.pyd
+[2024-05-10 03:52:08] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/f1/aa/d07c9b5fd0b65fd4cfab4018408dda8cc12f38665461decca6fd5c41258d/pulumi_auth0-3.4.0a1715303443.tar.gz
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1714161308.tar.gz tmp/pulumi_auth0-3.4.0a1715303443.tar.gz --markdown 20240510/p/pulumi-auth0/3.4.0a1714161308-3.4.0a1715303443/README.md --exclude *.pyd
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715058618.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715231401.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715228122.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715232200.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715232078.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715259886.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-10 03:52:09] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1714161308.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715303443.tar.gz]
+[2024-05-10 03:52:09] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-10 03:52:09] INFO root fetch - main [MainThread]: Store serial: [23140103]
