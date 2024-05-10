@@ -5933,3 +5933,36 @@
 [2024-05-10 05:53:23] WARNING root fetch - processPackages [rhadamanthinez]: Skipping, unable to determine old version
 [2024-05-10 05:53:23] INFO root fetch - main [MainThread]: End processing [rhadamanthinez] error
 [2024-05-10 05:53:23] INFO root fetch - main [MainThread]: Store serial: [23140975]
+[2024-05-10 05:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140975]
+[2024-05-10 05:55:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 05:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qlv-client
+[2024-05-10 05:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddleocr-convert
+[2024-05-10 05:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt-custom-adapter
+[2024-05-10 05:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bushwhackz
+[2024-05-10 05:55:33] INFO root fetch - processPackages [qlv-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-10 05:55:33] INFO root fetch - processPackages [ccxt-custom-adapter]: New version: [4.3.24] Old Version: [4.3.23]
+[2024-05-10 05:55:33] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/c4/19/a8136c80bcbdafb7f7b4049f86d9c8e5be1ad6178e8b9088a0c85bd87485/qlv-client-0.2.1.tar.gz
+[2024-05-10 05:55:33] INFO root fetch - processPackages [paddleocr-convert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 05:55:33] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/18/65/b477738f2873ab936d3ce14e5089052c8503ac261262eb34a6d0095f6c1b/ccxt-custom-adapter-4.3.23.tar.gz
+[2024-05-10 05:55:33] WARNING root fetch - processPackages [bushwhackz]: Skipping, unable to determine old version
+[2024-05-10 05:55:33] INFO root fetch - main [MainThread]: End processing [bushwhackz] error
+[2024-05-10 05:55:33] INFO root fetch - processPackages [paddleocr-convert]: Downloading https://files.pythonhosted.org/packages/b6/e5/3f5c704bd5f685e408daab7d6b81a4bece240b527480fc358ab602b94fcb/paddleocr_convert-0.0.8-py3-none-any.whl
+[2024-05-10 05:55:33] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/bd/ab/1807e4950c0848230d6cd4b86d18368031adb7e46fce22af91f7658f2c57/qlv-client-0.2.2.tar.gz
+[2024-05-10 05:55:33] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-10 05:55:33] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.2.1.tar.gz tmp/qlv-client-0.2.2.tar.gz --markdown 20240510/q/qlv-client/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-10 05:55:33] INFO root fetch - processPackages [paddleocr-convert]: Downloading https://files.pythonhosted.org/packages/c3/bd/a9b1929a499f90e6b5992840327d1d3b74da4cf7b31bbdf4609f700a2648/paddleocr_convert-0.0.9-py3-none-any.whl
+[2024-05-10 05:55:33] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/a9/9a/d59527e286a19ff69d958307f9501005cf5cc441d77494d359b597f3b6f8/ccxt-custom-adapter-4.3.24.tar.gz
+[2024-05-10 05:55:33] INFO root fetch - processPackages [paddleocr-convert]: executing diffoscope
+[2024-05-10 05:55:33] INFO root fetch - processPackages [paddleocr-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_convert-0.0.8-py3-none-any.whl.zip tmp/paddleocr_convert-0.0.9-py3-none-any.whl.zip --markdown 20240510/p/paddleocr-convert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 05:55:34] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.1.tar.gz]
+[2024-05-10 05:55:34] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.2.tar.gz]
+[2024-05-10 05:55:34] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-10 05:55:34] INFO root fetch - processPackages [ccxt-custom-adapter]: executing diffoscope
+[2024-05-10 05:55:34] INFO root fetch - processPackages [ccxt-custom-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-custom-adapter-4.3.23.tar.gz tmp/ccxt-custom-adapter-4.3.24.tar.gz --markdown 20240510/c/ccxt-custom-adapter/4.3.23-4.3.24/README.md --exclude *.pyd
+[2024-05-10 05:55:34] INFO root fetch - processPackages [paddleocr-convert]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_convert-0.0.8-py3-none-any.whl.zip]
+[2024-05-10 05:55:34] INFO root fetch - processPackages [paddleocr-convert]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_convert-0.0.9-py3-none-any.whl.zip]
+[2024-05-10 05:55:34] INFO root fetch - main [MainThread]: End processing [paddleocr-convert]: success
+[2024-05-10 05:55:37] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.23.tar.gz]
+[2024-05-10 05:55:37] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.24.tar.gz]
+[2024-05-10 05:55:37] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter]: success
+[2024-05-10 05:55:37] INFO root fetch - main [MainThread]: Store serial: [23140982]
