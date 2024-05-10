@@ -17802,3 +17802,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 14:29:16] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.2.tar.gz]
 [2024-05-10 14:29:16] INFO root fetch - main [MainThread]: End processing [justatestwithcpp]: success
 [2024-05-10 14:29:16] INFO root fetch - main [MainThread]: Store serial: [23146187]
+[2024-05-10 14:31:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23146187]
+[2024-05-10 14:31:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jocuz
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ownotp
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byousz
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveflask
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: justatestwithcpp
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modernqt
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-05-10 14:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eprllib
+[2024-05-10 14:31:26] INFO root fetch - processPackages [justatestwithcpp]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-10 14:31:26] WARNING root fetch - processPackages [ownotp]: Skipping, unable to determine old version
+[2024-05-10 14:31:26] INFO root fetch - main [MainThread]: End processing [ownotp] error
+[2024-05-10 14:31:26] INFO root fetch - processPackages [eprllib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 14:31:26] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-10 14:31:26] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 14:31:26] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/bd/c1/57c54c3df4fe47d23ee270e853dfeaa074908634f442631e797a7efef912/justatestwithcpp-0.1.2.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [byousz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 14:31:26] WARNING root fetch - processPackages [jocuz]: Skipping, unable to determine old version
+[2024-05-10 14:31:26] INFO root fetch - main [MainThread]: End processing [jocuz] error
+[2024-05-10 14:31:26] WARNING root fetch - processPackages [modernqt]: Skipping, unable to determine old version
+[2024-05-10 14:31:26] INFO root fetch - main [MainThread]: End processing [modernqt] error
+[2024-05-10 14:31:26] INFO root fetch - processPackages [eprllib]: Downloading https://files.pythonhosted.org/packages/ad/d4/72d594130ddf36680612d001126358421e222ce86c0f8e85025db2b8ceae/eprllib-1.0.8.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [byousz]: Downloading https://files.pythonhosted.org/packages/1b/30/7921c5587fa64849f49fc6447d611c83107ef8b437eac89ce6b5779ea067/byousz-1.1.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-10 14:31:26] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240510/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-10 14:31:26] INFO root fetch - processPackages [justatestwithcpp]: Downloading https://files.pythonhosted.org/packages/73/68/812a2f2c7ebb938c71cee95aef62678cac77122bfedaa0883232d1c85517/justatestwithcpp-0.1.4.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [eprllib]: Downloading https://files.pythonhosted.org/packages/47/f8/5e41c363fa717baf6283cab308f005912ff0dda861edd81f9e4c2467b03f/eprllib-1.0.9.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 14:31:26] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 14:31:26] INFO root fetch - processPackages [byousz]: Downloading https://files.pythonhosted.org/packages/45/cb/39a5f709bc3cdd437bf67163189f29ac96fb94a750a0c4f98b95bcceb5c0/byousz-2.1.tar.gz
+[2024-05-10 14:31:26] INFO root fetch - processPackages [byousz]: executing diffoscope
+[2024-05-10 14:31:26] INFO root fetch - processPackages [byousz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byousz-1.1.tar.gz tmp/byousz-2.1.tar.gz --markdown 20240510/b/byousz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 14:31:26] INFO root fetch - processPackages [justatestwithcpp]: executing diffoscope
+[2024-05-10 14:31:26] INFO root fetch - processPackages [justatestwithcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justatestwithcpp-0.1.2.tar.gz tmp/justatestwithcpp-0.1.4.tar.gz --markdown 20240510/j/justatestwithcpp/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-10 14:31:26] INFO root fetch - processPackages [eprllib]: executing diffoscope
+[2024-05-10 14:31:26] INFO root fetch - processPackages [eprllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eprllib-1.0.8.tar.gz tmp/eprllib-1.0.9.tar.gz --markdown 20240510/e/eprllib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 14:31:27] INFO root fetch - processPackages [byousz]: Remove: archive file [/home/abi/fetcher/tmp/byousz-1.1.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - processPackages [byousz]: Remove: archive file [/home/abi/fetcher/tmp/byousz-2.1.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - main [MainThread]: End processing [byousz]: success
+[2024-05-10 14:31:27] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 14:31:27] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-10 14:31:27] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.2.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - processPackages [justatestwithcpp]: Remove: archive file [/home/abi/fetcher/tmp/justatestwithcpp-0.1.4.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - main [MainThread]: End processing [justatestwithcpp]: success
+[2024-05-10 14:31:27] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.0.8.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.0.9.tar.gz]
+[2024-05-10 14:31:27] INFO root fetch - main [MainThread]: End processing [eprllib]: success
+[2024-05-10 14:31:27] INFO root fetch - main [MainThread]: Store serial: [23146212]
