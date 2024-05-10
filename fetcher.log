@@ -16649,3 +16649,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:44:24] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.0.tar.gz]
 [2024-05-10 13:44:24] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
 [2024-05-10 13:44:24] INFO root fetch - main [MainThread]: Store serial: [23145641]
+[2024-05-10 13:46:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145641]
+[2024-05-10 13:46:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: koinapy
+[2024-05-10 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ModernQt
+[2024-05-10 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: common-image-tools
+[2024-05-10 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meowcat
+[2024-05-10 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-05-10 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfreeproxies
+[2024-05-10 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongodb-orm
+[2024-05-10 13:46:48] INFO root fetch - processPackages [meowcat]: New version: [0.1.1rc1] Old Version: [0.1.0]
+[2024-05-10 13:46:48] INFO root fetch - processPackages [ModernQt]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-10 13:46:48] INFO root fetch - processPackages [pyfreeproxies]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 13:46:48] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.130] Old Version: [0.0.129a7]
+[2024-05-10 13:46:48] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-10 13:46:48] INFO root fetch - processPackages [koinapy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-10 13:46:48] INFO root fetch - processPackages [common-image-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-10 13:46:48] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/98/b5/95ab46168fc3fcdc680855f8f334a727bf34fd38bf0c55623c3c2af220f2/meowcat-0.1.0.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/20/b1/e3f6507f3babb300b7f9c4d7516b32a63e123c1754d00bf6e5def6f2df20/mongodb_orm-0.0.129a7.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-10 13:46:48] INFO root fetch - processPackages [ModernQt]: Downloading https://files.pythonhosted.org/packages/b2/8d/de32850aa4437a6ffae3c1c710168e9a473d0ccdee8e6a4b9ee51d97f30c/modernqt-1.0.0.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [pyfreeproxies]: Downloading https://files.pythonhosted.org/packages/06/05/9e8111aac7aaaaf6267bea4fff38cb153b921e5cef7ab9d449b911c10176/pyfreeproxies-0.0.1.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [koinapy]: Downloading https://files.pythonhosted.org/packages/35/78/c3f9911bcc54f3f04e4007d95b4aeea3240bdf75e3bcfc3a0d9a1629365b/koinapy-0.0.3.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [common-image-tools]: Downloading https://files.pythonhosted.org/packages/3a/1d/0a9a846f2f941d9d2dd0904108b9292400daec72aee75d368f8e3c83a39e/common_image_tools-0.1.5.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/63/98/dbb18e061c99e4dc4d016ac42a90f4c7e6071755cef64b0ffb90f187e3be/mongodb_orm-0.0.130.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/73/e2/0d9f1649daa294a1d7c06c88b9e160bb0011fdc066ac989c46908407271c/meowcat-0.1.1rc1.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-05-10 13:46:48] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.129a7.tar.gz tmp/mongodb_orm-0.0.130.tar.gz --markdown 20240510/m/mongodb-orm/0.0.129a7-0.0.130/README.md --exclude *.pyd
+[2024-05-10 13:46:48] INFO root fetch - processPackages [meowcat]: executing diffoscope
+[2024-05-10 13:46:48] INFO root fetch - processPackages [meowcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowcat-0.1.0.tar.gz tmp/meowcat-0.1.1rc1.tar.gz --markdown 20240510/m/meowcat/0.1.0-0.1.1rc1/README.md --exclude *.pyd
+[2024-05-10 13:46:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-10 13:46:48] INFO root fetch - processPackages [ModernQt]: Downloading https://files.pythonhosted.org/packages/19/81/d7369a420b29d27cd5fa102e036fac3054d1bb9360b3332694c0bc0611af/modernqt-1.0.1.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [pyfreeproxies]: Downloading https://files.pythonhosted.org/packages/27/18/5fccaf09bec19b94d084df3a3fbe5806a9724eaf3c50909b21684bfb9f74/pyfreeproxies-0.0.2.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [common-image-tools]: Downloading https://files.pythonhosted.org/packages/31/53/57b68804a956db8496bdf2a95b059aa1718b443b2e96a98502a31bf0dea0/common_image_tools-0.1.6.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [ModernQt]: executing diffoscope
+[2024-05-10 13:46:48] INFO root fetch - processPackages [ModernQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modernqt-1.0.0.tar.gz tmp/modernqt-1.0.1.tar.gz --markdown 20240510/M/ModernQt/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-10 13:46:48] INFO root fetch - processPackages [pyfreeproxies]: executing diffoscope
+[2024-05-10 13:46:48] INFO root fetch - processPackages [pyfreeproxies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfreeproxies-0.0.1.tar.gz tmp/pyfreeproxies-0.0.2.tar.gz --markdown 20240510/p/pyfreeproxies/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 13:46:48] INFO root fetch - processPackages [koinapy]: Downloading https://files.pythonhosted.org/packages/96/4e/d1e3d765e4ce315dd50eb4a6ccb8945f05834518dd1f8d0072354bb23a85/koinapy-0.0.4.tar.gz
+[2024-05-10 13:46:48] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-10 13:46:48] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240510/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-10 13:46:48] INFO root fetch - processPackages [common-image-tools]: executing diffoscope
+[2024-05-10 13:46:48] INFO root fetch - processPackages [common-image-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_image_tools-0.1.5.tar.gz tmp/common_image_tools-0.1.6.tar.gz --markdown 20240510/c/common-image-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-10 13:46:48] INFO root fetch - processPackages [koinapy]: executing diffoscope
+[2024-05-10 13:46:48] INFO root fetch - processPackages [koinapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koinapy-0.0.3.tar.gz tmp/koinapy-0.0.4.tar.gz --markdown 20240510/k/koinapy/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-10 13:46:49] INFO root fetch - processPackages [meowcat]: Remove: archive file [/home/abi/fetcher/tmp/meowcat-0.1.0.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - processPackages [meowcat]: Remove: archive file [/home/abi/fetcher/tmp/meowcat-0.1.1rc1.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - main [MainThread]: End processing [meowcat]: success
+[2024-05-10 13:46:49] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129a7.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.130.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-05-10 13:46:49] INFO root fetch - processPackages [ModernQt]: Remove: archive file [/home/abi/fetcher/tmp/modernqt-1.0.0.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - processPackages [ModernQt]: Remove: archive file [/home/abi/fetcher/tmp/modernqt-1.0.1.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - main [MainThread]: End processing [ModernQt]: success
+[2024-05-10 13:46:49] INFO root fetch - processPackages [pyfreeproxies]: Remove: archive file [/home/abi/fetcher/tmp/pyfreeproxies-0.0.1.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - processPackages [pyfreeproxies]: Remove: archive file [/home/abi/fetcher/tmp/pyfreeproxies-0.0.2.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - main [MainThread]: End processing [pyfreeproxies]: success
+[2024-05-10 13:46:49] INFO root fetch - processPackages [common-image-tools]: Remove: archive file [/home/abi/fetcher/tmp/common_image_tools-0.1.5.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - processPackages [common-image-tools]: Remove: archive file [/home/abi/fetcher/tmp/common_image_tools-0.1.6.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - main [MainThread]: End processing [common-image-tools]: success
+[2024-05-10 13:46:49] INFO root fetch - processPackages [koinapy]: Remove: archive file [/home/abi/fetcher/tmp/koinapy-0.0.3.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - processPackages [koinapy]: Remove: archive file [/home/abi/fetcher/tmp/koinapy-0.0.4.tar.gz]
+[2024-05-10 13:46:49] INFO root fetch - main [MainThread]: End processing [koinapy]: success
+[2024-05-10 13:46:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-10 13:46:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-10 13:46:50] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-10 13:46:50] INFO root fetch - main [MainThread]: Store serial: [23145659]
