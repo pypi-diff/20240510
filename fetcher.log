@@ -23899,3 +23899,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:45:01] INFO root fetch - processPackages [navigator-auth]: Remove: archive file [/home/abi/fetcher/tmp/navigator_auth-0.9.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-10 17:45:01] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
 [2024-05-10 17:45:01] INFO root fetch - main [MainThread]: Store serial: [23149203]
+[2024-05-10 17:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23149203]
+[2024-05-10 17:47:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 17:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dimsdk
+[2024-05-10 17:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zenflow
+[2024-05-10 17:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-RanFurryPic
+[2024-05-10 17:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dimplugins
+[2024-05-10 17:47:10] WARNING root fetch - processPackages [nonebot-plugin-RanFurryPic]: Skipping, unable to determine old version
+[2024-05-10 17:47:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-RanFurryPic] error
+[2024-05-10 17:47:10] INFO root fetch - processPackages [zenflow]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-10 17:47:10] INFO root fetch - processPackages [dimplugins]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-10 17:47:10] INFO root fetch - processPackages [dimsdk]: New version: [2.0.0] Old Version: [1.0.3]
+[2024-05-10 17:47:10] INFO root fetch - processPackages [dimsdk]: Downloading https://files.pythonhosted.org/packages/96/52/9d1f7325c9cffa6cdec8089aae291cf4f16561bffef993099a4f2d7f7e7a/dimsdk-1.0.3.tar.gz
+[2024-05-10 17:47:10] INFO root fetch - processPackages [zenflow]: Downloading https://files.pythonhosted.org/packages/d7/df/ee63f9be2b8a0d76d1d430400f1178dd1d6e1e1ff5a382519a2317ee1e9e/zenflow-0.1.2.tar.gz
+[2024-05-10 17:47:10] INFO root fetch - processPackages [dimplugins]: Downloading https://files.pythonhosted.org/packages/1b/05/a58015ed2e2d259ff2b902bf9736ee72d1b6179afacd8ac8a44a28e98b1f/dimplugins-1.0.2.tar.gz
+[2024-05-10 17:47:10] INFO root fetch - processPackages [dimsdk]: Downloading https://files.pythonhosted.org/packages/10/05/5c20ffe41bd571ae6e36c2ca297c23e7fedf9e5ad7dab605bcd98247d763/dimsdk-2.0.0.tar.gz
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimplugins]: Downloading https://files.pythonhosted.org/packages/63/08/5d221b24e9d130803fdfe2fbd9c03bb4f3c51c8f86f837ff3c6c314cd50b/dimplugins-2.0.0.tar.gz
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimsdk]: executing diffoscope
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimsdk-1.0.3.tar.gz tmp/dimsdk-2.0.0.tar.gz --markdown 20240510/d/dimsdk/1.0.3-2.0.0/README.md --exclude *.pyd
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimplugins]: executing diffoscope
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimplugins-1.0.2.tar.gz tmp/dimplugins-2.0.0.tar.gz --markdown 20240510/d/dimplugins/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-10 17:47:11] INFO root fetch - processPackages [zenflow]: Downloading https://files.pythonhosted.org/packages/05/72/da612f6147649c7edcd96f2b95dd75c7674bf41c9b04c0e801f9ce99f4d3/zenflow-0.1.4.tar.gz
+[2024-05-10 17:47:11] INFO root fetch - processPackages [zenflow]: executing diffoscope
+[2024-05-10 17:47:11] INFO root fetch - processPackages [zenflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenflow-0.1.2.tar.gz tmp/zenflow-0.1.4.tar.gz --markdown 20240510/z/zenflow/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimplugins]: Remove: archive file [/home/abi/fetcher/tmp/dimplugins-1.0.2.tar.gz]
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimplugins]: Remove: archive file [/home/abi/fetcher/tmp/dimplugins-2.0.0.tar.gz]
+[2024-05-10 17:47:11] INFO root fetch - main [MainThread]: End processing [dimplugins]: success
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimsdk]: Remove: archive file [/home/abi/fetcher/tmp/dimsdk-1.0.3.tar.gz]
+[2024-05-10 17:47:11] INFO root fetch - processPackages [dimsdk]: Remove: archive file [/home/abi/fetcher/tmp/dimsdk-2.0.0.tar.gz]
+[2024-05-10 17:47:11] INFO root fetch - main [MainThread]: End processing [dimsdk]: success
+[2024-05-10 17:47:12] INFO root fetch - processPackages [zenflow]: Remove: archive file [/home/abi/fetcher/tmp/zenflow-0.1.2.tar.gz]
+[2024-05-10 17:47:12] INFO root fetch - processPackages [zenflow]: Remove: archive file [/home/abi/fetcher/tmp/zenflow-0.1.4.tar.gz]
+[2024-05-10 17:47:12] INFO root fetch - main [MainThread]: End processing [zenflow]: success
+[2024-05-10 17:47:12] INFO root fetch - main [MainThread]: Store serial: [23149222]
