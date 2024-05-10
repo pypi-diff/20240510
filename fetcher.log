@@ -7657,3 +7657,82 @@
 [2024-05-10 07:38:26] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.1.2.tar.gz]
 [2024-05-10 07:38:26] INFO root fetch - main [MainThread]: End processing [ullm]: success
 [2024-05-10 07:38:26] INFO root fetch - main [MainThread]: Store serial: [23141803]
+[2024-05-10 07:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141803]
+[2024-05-10 07:40:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuneapi
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLConn
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infrable
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karellen-llvm-clang
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: karellen-llvm-core
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyaitaskexecutor
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autofracture
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dingodb
+[2024-05-10 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-researcher
+[2024-05-10 07:40:34] INFO root fetch - processPackages [autofracture]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [tuneapi]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [gpt-researcher]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.5.0.post13] Old Version: [18.1.4.0.post30]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.5.0.post13] Old Version: [18.1.4.0.post30]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.5.0.post13] Old Version: [18.1.4.0.post30]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 07:40:35] INFO root fetch - processPackages [SQLConn]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 07:40:35] WARNING root fetch - processPackages [pyaitaskexecutor]: Skipping, unable to determine old version
+[2024-05-10 07:40:35] INFO root fetch - main [MainThread]: End processing [pyaitaskexecutor] error
+[2024-05-10 07:40:35] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/af/df/be74fd1d9525eaac630e1810eb173f12a0c1c2c7b46e573ff17a421adce2/autofracture-0.0.2.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/7a/71/a2a66fbb6a6ad550ae037de1623543df89ea9849ebd7edd3aa648f78cd00/karellen_llvm_clang-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 07:40:35] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/58/f6/bb5295da9df2ee7d99b55976fc9add1523856e22d58a6a18f4a0543d8fbd/karellen_llvm_toolchain_tools-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 07:40:35] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/3d/a9/e0296a14ba01ad13f96f45a57ffeb166c963bd3bcab60e29f274d5722dd7/gpt-researcher-0.3.4.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/03/13/6df6159b21b4d9ac607a5821f7d6d69e46d84c47a6cdf0de0cc85ea60856/tuneapi-0.3.2.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-10 07:40:35] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78659923>=10485760
+[2024-05-10 07:40:35] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-05-10 07:40:35] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/74/93/aeee4fad4b285db2faec6ff06c89268aba5555fe1312c3e2a7a74585cb5f/karellen_llvm_core-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 07:40:35] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/97/e6/b81cd0daa500385c79af68dfc5c1ecb1018583e3ba52d17a752e2c30aa39/SQLConn-0.0.6.tar.gz
+[2024-05-10 07:40:35] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28600149>=10485760
+[2024-05-10 07:40:35] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-05-10 07:40:35] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [autofracture]: Downloading https://files.pythonhosted.org/packages/58/86/c5ea6ab3db7d08cc432456156dbb4bb5c7ee78c0f0f07603fda6f66e5f63/autofracture-0.0.3.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/22/2a/851169c0bcce277bb7d1e03960b472fdb19d21abdfd9f219cb12b685d8d1/tuneapi-0.3.3.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/df/e3/66d7a70b3acaf393fdd8f1384aab13b406e18ddc39db9e522f767cd563c9/gpt-researcher-0.3.5.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/d0/1f/877f7cca7d7173cfa5b636709543b52b8ada1f4538f1967dde00dfe85a66/SQLConn-0.0.7.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-10 07:40:35] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240510/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 07:40:35] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-10 07:40:35] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/42/a2/90794f970524f2ce65d4675edeeca9850c894f3457cbd5d5b70d42add85e/karellen_llvm_toolchain_tools-18.1.5.0.post13-py3-none-manylinux2014_x86_64.whl
+[2024-05-10 07:40:35] INFO root fetch - processPackages [autofracture]: executing diffoscope
+[2024-05-10 07:40:35] INFO root fetch - processPackages [autofracture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofracture-0.0.2.tar.gz tmp/autofracture-0.0.3.tar.gz --markdown 20240510/a/autofracture/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 07:40:35] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-05-10 07:40:35] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.3.2.tar.gz tmp/tuneapi-0.3.3.tar.gz --markdown 20240510/t/tuneapi/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-10 07:40:35] INFO root fetch - processPackages [SQLConn]: executing diffoscope
+[2024-05-10 07:40:35] INFO root fetch - processPackages [SQLConn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLConn-0.0.6.tar.gz tmp/SQLConn-0.0.7.tar.gz --markdown 20240510/S/SQLConn/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 07:40:35] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-05-10 07:40:35] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.3.4.tar.gz tmp/gpt-researcher-0.3.5.tar.gz --markdown 20240510/g/gpt-researcher/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-10 07:40:35] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-10 07:40:35] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240510/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 07:40:36] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-10 07:40:36] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.5.0.post13-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240510/k/karellen-llvm-toolchain-tools/18.1.4.0.post30-18.1.5.0.post13/README.md --exclude *.pyd
+[2024-05-10 07:40:36] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.2.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - processPackages [autofracture]: Remove: archive file [/home/abi/fetcher/tmp/autofracture-0.0.3.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - main [MainThread]: End processing [autofracture]: success
+[2024-05-10 07:40:36] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-10 07:40:36] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.6.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.7.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - main [MainThread]: End processing [SQLConn]: success
+[2024-05-10 07:40:36] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.2.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.3.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-05-10 07:40:36] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-10 07:40:36] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.4.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.5.tar.gz]
+[2024-05-10 07:40:36] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-05-10 07:41:02] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-10 07:41:02] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post13-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-10 07:41:02] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-10 07:41:02] INFO root fetch - main [MainThread]: Store serial: [23141838]
