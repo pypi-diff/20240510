@@ -5232,3 +5232,108 @@
 [2024-05-10 05:07:09] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
 [2024-05-10 05:07:09] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2024-05-10 05:07:09] INFO root fetch - main [MainThread]: Store serial: [23140699]
+[2024-05-10 05:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140699]
+[2024-05-10 05:09:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NJFU
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypy-boto3-bedrock-agent-runtime
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-route53resolver
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-pinpoint
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-oci
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-ssm-sap
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-verifiedpermissions
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: epionynychiaz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3
+[2024-05-10 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boto3-stubs
+[2024-05-10 05:09:18] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-pinpoint]: New version: [1.34.81] Old Version: [1.34.102]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-05-10 05:09:18] WARNING root fetch - processPackages [epionynychiaz]: Skipping, unable to determine old version
+[2024-05-10 05:09:18] INFO root fetch - processPackages [epionynychiaz]: Start processing: advanced_navigation
+[2024-05-10 05:09:18] INFO root fetch - main [MainThread]: End processing [epionynychiaz] error
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-bedrock-agent-runtime]: New version: [1.34.90] Old Version: [1.34.89]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-verifiedpermissions]: New version: [1.34.79] Old Version: [1.34.78]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [NJFU]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.42] Old Version: [0.1.41]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-ssm-sap]: New version: [1.34.102] Old Version: [1.34.0]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [boto3-stubs]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-route53resolver]: New version: [1.34.95] Old Version: [1.34.3]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-10 05:09:18] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/ce/e8/d58d922ae2904d5b2c9480af6b636fba7d01db1dd4148ef30696b315ab00/advanced_navigation-0.1.41.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-pinpoint]: Downloading https://files.pythonhosted.org/packages/07/ba/d64a30afb555c8b97fb79e833b72d32275c2eab2003a4c87cb04113a9dfa/mypy_boto3_pinpoint-1.34.102.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/3c/fb/91786f7cccbcab30ed7b21dcd9959734760b29b3efb3c4cab8bf7de9f383/NJFU-0.0.4.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-bedrock-agent-runtime]: Downloading https://files.pythonhosted.org/packages/4d/f0/113aa7f554f2e988b6ebf271ba21aeb4582b4ed9d82bcbec3ead8a141efc/mypy_boto3_bedrock_agent_runtime-1.34.89.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-ssm-sap]: Downloading https://files.pythonhosted.org/packages/23/6c/aa6fe10c114cb9a1a9666e491d73c43c84f430a060e49bcca520c0b842ee/mypy-boto3-ssm-sap-1.34.0.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Downloading https://files.pythonhosted.org/packages/e3/44/09325526b52fc1960fd51d9d2a8e8e48435d4b64c05a63c56a788a1077d9/mypy-boto3-route53resolver-1.34.3.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3-verifiedpermissions]: Downloading https://files.pythonhosted.org/packages/d2/f8/a9de5d9b3b4f84a5093d21f5a11bfe1dfda11486f5ff3f938c1d5eb7b4bf/mypy-boto3-verifiedpermissions-1.34.78.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/30/4e/c1c128695de7b71c508e935709f150b3786af0129a928e487226243306db/mypy_boto3-1.34.98.tar.gz
+[2024-05-10 05:09:18] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/4c/cf/563ab2c2a40b8ce7b9d0e1c2d8ac58ab76d69988312d4273784129fd0f36/boto3_stubs-1.34.98.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/c8/c0/1aeac3bc458fc85f32414854b0174c946ea90eec8dc3575b45cae9183279/advanced_navigation-0.1.42.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-pinpoint]: Downloading https://files.pythonhosted.org/packages/b0/ea/260e6bf3f15ffdf724f2fd5a7170b7c765ffda21dd5e05629ad11364c4ac/mypy-boto3-pinpoint-1.34.81.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-bedrock-agent-runtime]: Downloading https://files.pythonhosted.org/packages/af/92/5ed4cda78ecafb08b849640e95e3b5a5d2bcba33c7f7b2249d0f9b3abf1e/mypy_boto3_bedrock_agent_runtime-1.34.90.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-ssm-sap]: Downloading https://files.pythonhosted.org/packages/e5/7d/aefa33c456b220a190370ede09781ada047432d4a12ad1cc868e4830db95/mypy_boto3_ssm_sap-1.34.102.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/77/4b/d63939446956eec325a632967141b730034fd8f305b41670b59e42c71c88/NJFU-0.0.5.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Downloading https://files.pythonhosted.org/packages/fc/04/5828f1984a8fa110e774cad851329df3bcc9ea4f19fe0f0f54ff4a76d16e/mypy_boto3_route53resolver-1.34.95.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.41.tar.gz tmp/advanced_navigation-0.1.42.tar.gz --markdown 20240510/a/advanced_navigation/0.1.41-0.1.42/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-bedrock-agent-runtime]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-bedrock-agent-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_boto3_bedrock_agent_runtime-1.34.89.tar.gz tmp/mypy_boto3_bedrock_agent_runtime-1.34.90.tar.gz --markdown 20240510/m/mypy-boto3-bedrock-agent-runtime/1.34.89-1.34.90/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/c2/7a/2b2f6c326bd14afc8db49381f42d478f66c889557cc7e29cb87bde1debfd/mypy_boto3-1.34.99.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.4.tar.gz tmp/NJFU-0.0.5.tar.gz --markdown 20240510/N/NJFU/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-ssm-sap]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-ssm-sap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-ssm-sap-1.34.0.tar.gz tmp/mypy_boto3_ssm_sap-1.34.102.tar.gz --markdown 20240510/m/mypy-boto3-ssm-sap/1.34.0-1.34.102/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-pinpoint]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-pinpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_boto3_pinpoint-1.34.102.tar.gz tmp/mypy-boto3-pinpoint-1.34.81.tar.gz --markdown 20240510/m/mypy-boto3-pinpoint/1.34.102-1.34.81/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-route53resolver]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-route53resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-route53resolver-1.34.3.tar.gz tmp/mypy_boto3_route53resolver-1.34.95.tar.gz --markdown 20240510/m/mypy-boto3-route53resolver/1.34.3-1.34.95/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-verifiedpermissions]: Downloading https://files.pythonhosted.org/packages/2d/0e/a6246f56c5ec4da87a9e571b621f0adf521e5b52bf67406c74ef0d73e8d2/mypy-boto3-verifiedpermissions-1.34.79.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_boto3-1.34.98.tar.gz tmp/mypy_boto3-1.34.99.tar.gz --markdown 20240510/m/mypy-boto3/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-verifiedpermissions]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [mypy-boto3-verifiedpermissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-verifiedpermissions-1.34.78.tar.gz tmp/mypy-boto3-verifiedpermissions-1.34.79.tar.gz --markdown 20240510/m/mypy-boto3-verifiedpermissions/1.34.78-1.34.79/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/70/fa/2b1ff65115f3a17c2534fc7f10be825f3c1c5f760ddb01d099a5e51df41a/boto3_stubs-1.34.99.tar.gz
+[2024-05-10 05:09:19] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240510/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-05-10 05:09:19] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2024-05-10 05:09:19] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3_stubs-1.34.98.tar.gz tmp/boto3_stubs-1.34.99.tar.gz --markdown 20240510/b/boto3-stubs/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-10 05:09:20] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.4.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.5.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [NJFU]: Start processing: boto3-stubs-lite
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3-1.34.98.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3-1.34.99.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-ssm-sap]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-ssm-sap-1.34.0.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-ssm-sap]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_ssm_sap-1.34.102.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-ssm-sap]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-route53resolver-1.34.3.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_route53resolver-1.34.95.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-route53resolver]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-bedrock-agent-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_bedrock_agent_runtime-1.34.89.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-bedrock-agent-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_bedrock_agent_runtime-1.34.90.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-bedrock-agent-runtime]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-pinpoint]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_pinpoint-1.34.102.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-pinpoint]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-pinpoint-1.34.81.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-pinpoint]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.41.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.42.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-verifiedpermissions]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-verifiedpermissions-1.34.78.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [mypy-boto3-verifiedpermissions]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-verifiedpermissions-1.34.79.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-verifiedpermissions]: success
+[2024-05-10 05:09:20] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs-1.34.98.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs-1.34.99.tar.gz]
+[2024-05-10 05:09:20] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2024-05-10 05:09:21] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/0e/48/561f3b18311fba8e95431da13edc2800394ffb50ada91fbb50d484d13b61/boto3_stubs_lite-1.34.98.tar.gz
+[2024-05-10 05:09:21] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/32/ef/3a06b99b3013fe6c861e0e41657b24ef0d9c8fffd7baa15ee27ca0c8af54/boto3_stubs_lite-1.34.99.tar.gz
+[2024-05-10 05:09:21] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2024-05-10 05:09:21] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3_stubs_lite-1.34.98.tar.gz tmp/boto3_stubs_lite-1.34.99.tar.gz --markdown 20240510/b/boto3-stubs-lite/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-10 05:09:22] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs_lite-1.34.98.tar.gz]
+[2024-05-10 05:09:22] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs_lite-1.34.99.tar.gz]
+[2024-05-10 05:09:22] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2024-05-10 05:09:34] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-05-10 05:09:34] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-05-10 05:09:34] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-05-10 05:09:34] INFO root fetch - main [MainThread]: Store serial: [23140731]
