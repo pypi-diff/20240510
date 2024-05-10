@@ -5193,3 +5193,42 @@
 [2024-05-10 05:04:57] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-10 05:04:57] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-10 05:04:57] INFO root fetch - main [MainThread]: Store serial: [23140687]
+[2024-05-10 05:07:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140687]
+[2024-05-10 05:07:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-10 05:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-restit
+[2024-05-10 05:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-vsphere
+[2024-05-10 05:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-wavefront
+[2024-05-10 05:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daml
+[2024-05-10 05:07:06] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-10 05:07:06] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1715307330] Old Version: [3.2.0a1715237486]
+[2024-05-10 05:07:06] INFO root fetch - processPackages [daml]: New version: [0.52.0] Old Version: [0.51.0]
+[2024-05-10 05:07:06] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-10 05:07:06] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/11/50/802e6aeabe0d7c68d1fba4103abfc05c7b8f3b7042c77fb9247e9195124e/pulumi_wavefront-3.2.0a1715237486.tar.gz
+[2024-05-10 05:07:06] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-05-10 05:07:07] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/c2/a7/9a624d19b03f5a2774d34ae27fa11ab51ecdc59b679adabd04219cc8b435/django_restit-4.2.8.tar.gz
+[2024-05-10 05:07:07] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/a7/fd/4118601d0257ff014d4c1671cf30ed7764a91a2dfb4c17758c5fb1458812/daml-0.51.0.tar.gz
+[2024-05-10 05:07:07] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-10 05:07:07] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/d6/f0/5a8288e3997ea206d7068a1b7d505ed5fe411db8f9e88e2883829b07ec9c/pulumi_wavefront-3.2.0a1715307330.tar.gz
+[2024-05-10 05:07:07] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-10 05:07:07] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1715237486.tar.gz tmp/pulumi_wavefront-3.2.0a1715307330.tar.gz --markdown 20240510/p/pulumi-wavefront/3.2.0a1715237486-3.2.0a1715307330/README.md --exclude *.pyd
+[2024-05-10 05:07:07] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/05/75/21c5dce6854b27173dc65af9ed1cf09dfa7cfbec1b55e79ff73b058dbe6e/daml-0.52.0.tar.gz
+[2024-05-10 05:07:07] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-10 05:07:07] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-10 05:07:07] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240510/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-10 05:07:07] INFO root fetch - processPackages [daml]: executing diffoscope
+[2024-05-10 05:07:07] INFO root fetch - processPackages [daml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daml-0.51.0.tar.gz tmp/daml-0.52.0.tar.gz --markdown 20240510/d/daml/0.51.0-0.52.0/README.md --exclude *.pyd
+[2024-05-10 05:07:07] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-10 05:07:07] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.8.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240510/d/django-restit/4.2.8-4.2.9/README.md --exclude *.pyd
+[2024-05-10 05:07:08] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.51.0.tar.gz]
+[2024-05-10 05:07:08] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.52.0.tar.gz]
+[2024-05-10 05:07:08] INFO root fetch - main [MainThread]: End processing [daml]: success
+[2024-05-10 05:07:08] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715237486.tar.gz]
+[2024-05-10 05:07:08] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715307330.tar.gz]
+[2024-05-10 05:07:08] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-10 05:07:08] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-10 05:07:08] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-10 05:07:08] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-10 05:07:09] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.8.tar.gz]
+[2024-05-10 05:07:09] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-10 05:07:09] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-10 05:07:09] INFO root fetch - main [MainThread]: Store serial: [23140699]
