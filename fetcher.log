@@ -15200,3 +15200,131 @@
 [2024-05-10 12:59:35] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.2.0.tar.gz]
 [2024-05-10 12:59:35] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-05-10 12:59:35] INFO root fetch - main [MainThread]: Store serial: [23145087]
+[2024-05-10 13:01:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145087]
+[2024-05-10 13:01:58] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: versioning-remla
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-keycloak
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kong
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dalpha
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-drive-sdk
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mailgun
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glglue
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: basiglandularz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-hcloud
+[2024-05-10 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1715303829] Old Version: [5.4.0a1715233878]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1715303844] Old Version: [3.6.0a1715233961]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1715303820] Old Version: [4.6.0a1715233805]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-10 13:01:58] WARNING root fetch - processPackages [versioning-remla]: Skipping, unable to determine old version
+[2024-05-10 13:01:58] INFO root fetch - processPackages [versioning-remla]: Start processing: wah
+[2024-05-10 13:01:58] INFO root fetch - main [MainThread]: End processing [versioning-remla] error
+[2024-05-10 13:01:58] INFO root fetch - processPackages [glglue]: New version: [2.3.0] Old Version: [2.1.0]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [dalpha]: New version: [0.5.0rc0] Old Version: [0.4.5rc1]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [basiglandularz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/81/1f/1272799987d240edc64692fc2fa9e4570c3fd213b42bfe35acb1c6b7f475/pulumi_kong-4.6.0a1715233805.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/57/ac/94a0399e4db45ca2878bd7aedc510c224f1f329e069e079ca50dc2d3d615/pulumi_keycloak-5.4.0a1715233878.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/75/af/88502ab320d48d18b96ccdb9c81d6520a8b02a04f7972d0e56e66c2ced64/pulumi_mailgun-3.6.0a1715233961.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 13:01:58] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/3e/52/460e7089648caba18d7d33d11d2fe89bba1e2a58878fd66ef1f72bdd2df7/dalpha-0.4.5rc1.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [basiglandularz]: Downloading https://files.pythonhosted.org/packages/40/28/2dac323585dadf7ea64182a6c086f69a6306a83200eea392a0a9843991f0/basiglandularz-1.1.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [glglue]: Downloading https://files.pythonhosted.org/packages/c0/8d/6124a16effcd5c6110f68a1849055189a511e66629003410e909d2223dbe/glglue-2.1.0.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/24/b5/89b169ef32aebb63338ca7caa39a3df5c1e51c5c84b15e4b4f0cd5a15a2a/pulumi_kong-4.6.0a1715303820.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/df/0f/d94331fa2bb5907a201873656ea1be438d04fa7596ae6ebc6871fe0920b6/pulumi_keycloak-5.4.0a1715303829.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1715233805.tar.gz tmp/pulumi_kong-4.6.0a1715303820.tar.gz --markdown 20240510/p/pulumi-kong/4.6.0a1715233805-4.6.0a1715303820/README.md --exclude *.pyd
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/35/46/3796883074ad20ff62f2cde09ffaf2785ee0deaa3c944019c0a30d91bbc0/pulumi_mailgun-3.6.0a1715303844.tar.gz
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-10 13:01:58] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240510/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1715233878.tar.gz tmp/pulumi_keycloak-5.4.0a1715303829.tar.gz --markdown 20240510/p/pulumi-keycloak/5.4.0a1715233878-5.4.0a1715303829/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240510/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [basiglandularz]: Downloading https://files.pythonhosted.org/packages/eb/03/db7b1cd6ded980e9098d3367a9d535533a918b89bf02e09e5e5786be67e2/basiglandularz-2.1.tar.gz
+[2024-05-10 13:01:59] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/ef/78/75950482a2a0f10aa6992caae266e1afbca44a4a5e611fa9483e448c746a/dalpha-0.5.0rc0.tar.gz
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1715233961.tar.gz tmp/pulumi_mailgun-3.6.0a1715303844.tar.gz --markdown 20240510/p/pulumi-mailgun/3.6.0a1715233961-3.6.0a1715303844/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-05-10 13:01:59] INFO root fetch - processPackages [basiglandularz]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [basiglandularz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basiglandularz-1.1.tar.gz tmp/basiglandularz-2.1.tar.gz --markdown 20240510/b/basiglandularz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [glglue]: Downloading https://files.pythonhosted.org/packages/e2/16/7608b4fcccb0aadacb55dfab00673a3373efb7379d8a8581e0fbe2a6538d/glglue-2.3.0.tar.gz
+[2024-05-10 13:01:59] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.4.5rc1.tar.gz tmp/dalpha-0.5.0rc0.tar.gz --markdown 20240510/d/dalpha/0.4.5rc1-0.5.0rc0/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-10 13:01:59] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240510/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240510/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [glglue]: executing diffoscope
+[2024-05-10 13:01:59] INFO root fetch - processPackages [glglue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glglue-2.1.0.tar.gz tmp/glglue-2.3.0.tar.gz --markdown 20240510/g/glglue/2.1.0-2.3.0/README.md --exclude *.pyd
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715233805.tar.gz]
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715303820.tar.gz]
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-kong]: Start processing: openmetadata-ingestion
+[2024-05-10 13:01:59] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715233961.tar.gz]
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715303844.tar.gz]
+[2024-05-10 13:01:59] INFO root fetch - processPackages [pulumi-mailgun]: Start processing: recharge-api
+[2024-05-10 13:01:59] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [recharge-api]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [basiglandularz]: Remove: archive file [/home/abi/fetcher/tmp/basiglandularz-1.1.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [basiglandularz]: Remove: archive file [/home/abi/fetcher/tmp/basiglandularz-2.1.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [basiglandularz]: Start processing: rhino3dm
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [basiglandularz]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.4.0.0rc2] Old Version: [1.4.0.0rc1]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/40/b0/9442b4352639088f28e1a2124e52d666e4557502b9312508e220e0265e4b/recharge_api-1.5.1.tar.gz
+[2024-05-10 13:02:00] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.5rc1.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc0.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [dalpha]: Start processing: pulumi-f5bigip
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [rhino3dm]: New version: [8.6.1] Old Version: [8.6.0b1]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715233878.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715303829.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/ec/69/0885e00a9393bc563d42225d96d819232542e7bdaa84d08cb60e5edf146f/recharge_api-1.6.0.tar.gz
+[2024-05-10 13:02:00] INFO root fetch - processPackages [glglue]: Remove: archive file [/home/abi/fetcher/tmp/glglue-2.1.0.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - processPackages [glglue]: Remove: archive file [/home/abi/fetcher/tmp/glglue-2.3.0.tar.gz]
+[2024-05-10 13:02:00] INFO root fetch - main [MainThread]: End processing [glglue]: success
+[2024-05-10 13:02:00] INFO root fetch - processPackages [rhino3dm]: Downloading https://files.pythonhosted.org/packages/d1/d2/51797ca14129e2a18a54a3ec316a84644c9eb4cfeca58f64b9d08727acbc/rhino3dm-8.6.0b1.tar.gz
+[2024-05-10 13:02:00] INFO root fetch - processPackages [recharge-api]: executing diffoscope
+[2024-05-10 13:02:00] INFO root fetch - processPackages [recharge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recharge_api-1.5.1.tar.gz tmp/recharge_api-1.6.0.tar.gz --markdown 20240510/r/recharge-api/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-10 13:02:00] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/a7/d1/22ef0740726dfbca4de6bfa2934e55f2aebed812cd7c53d8beaf59db6304/openmetadata-ingestion-1.4.0.0rc1.tar.gz
+[2024-05-10 13:02:00] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2024-05-10 13:02:01] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/02/3b/c095752f6cc0bcc717433f11f469fd1e270267406fa769efdd68e4486f12/openmetadata-ingestion-1.4.0.0rc2.tar.gz
+[2024-05-10 13:02:01] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2024-05-10 13:02:01] WARNING root fetch - processPackages [rhino3dm]: Skipping package: exceeds size limit 65998728>=10485760
+[2024-05-10 13:02:01] INFO root fetch - main [MainThread]: End processing [rhino3dm] error
+[2024-05-10 13:02:01] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.5.1.tar.gz]
+[2024-05-10 13:02:01] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.6.0.tar.gz]
+[2024-05-10 13:02:01] INFO root fetch - main [MainThread]: End processing [recharge-api]: success
+[2024-05-10 13:02:01] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2024-05-10 13:02:01] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20240510/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/README.md --exclude *.pyd
+[2024-05-10 13:02:01] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-05-10 13:02:01] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.4.0.0rc1.tar.gz tmp/openmetadata-ingestion-1.4.0.0rc2.tar.gz --markdown 20240510/o/openmetadata-ingestion/1.4.0.0rc1-1.4.0.0rc2/README.md --exclude *.pyd
+[2024-05-10 13:02:03] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2024-05-10 13:02:03] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2024-05-10 13:02:03] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2024-05-10 13:02:08] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc1.tar.gz]
+[2024-05-10 13:02:08] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc2.tar.gz]
+[2024-05-10 13:02:08] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-05-10 13:02:08] INFO root fetch - main [MainThread]: Store serial: [23145131]
