@@ -23284,3 +23284,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 17:28:32] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.99.tar.gz]
 [2024-05-10 17:28:32] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
 [2024-05-10 17:28:32] INFO root fetch - main [MainThread]: Store serial: [23148894]
+[2024-05-10 17:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148894]
+[2024-05-10 17:30:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swiss-army-man
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sdk-remote
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jeedomdaemon
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secondtrycpp
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: startrek
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: partenaire-qualif
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keymorph
+[2024-05-10 17:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddtrace
+[2024-05-10 17:30:42] WARNING root fetch - processPackages [keymorph]: Skipping, unable to determine old version
+[2024-05-10 17:30:42] INFO root fetch - main [MainThread]: End processing [keymorph] error
+[2024-05-10 17:30:42] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-10 17:30:42] WARNING root fetch - processPackages [secondtrycpp]: Skipping, unable to determine old version
+[2024-05-10 17:30:42] INFO root fetch - main [MainThread]: End processing [secondtrycpp] error
+[2024-05-10 17:30:42] WARNING root fetch - processPackages [partenaire-qualif]: Skipping, unable to determine old version
+[2024-05-10 17:30:42] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-10 17:30:42] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.94] Old Version: [0.0.93]
+[2024-05-10 17:30:42] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/01/d8/48b7a718478d1f602f4dc7abb4ce6ae1ceebb10ca1fdce9737297ddf47fc/python_sdk_remote-0.0.93.tar.gz
+[2024-05-10 17:30:42] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/bb/03/9f017afa408ea503851709b7d11096f449969f474789dfcd673c7f4e2e8c/jeedomdaemon-0.8.1.tar.gz
+[2024-05-10 17:30:42] INFO root fetch - processPackages [startrek]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-05-10 17:30:42] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-10 17:30:42] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-05-10 17:30:42] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/54/52/90926bd9d7806bb08db117aad464305ed14d3b9a10836b7a9fe32c8ec38a/python_sdk_remote-0.0.94.tar.gz
+[2024-05-10 17:30:42] INFO root fetch - processPackages [startrek]: Downloading https://files.pythonhosted.org/packages/9a/b0/d2da8a9f2a04673dc378b4bb515aed753b1c6e3830bcfc013ed7fdbcdcfe/startrek-1.2.0.tar.gz
+[2024-05-10 17:30:42] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/59/d5/9c097f13c8faf36131450d2106ff490bea4dc900df15759d831e2a123a66/jeedomdaemon-0.8.2.tar.gz
+[2024-05-10 17:30:42] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-10 17:30:42] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.93.tar.gz tmp/python_sdk_remote-0.0.94.tar.gz --markdown 20240510/p/python-sdk-remote/0.0.93-0.0.94/README.md --exclude *.pyd
+[2024-05-10 17:30:42] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-05-10 17:30:42] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.8.1.tar.gz tmp/jeedomdaemon-0.8.2.tar.gz --markdown 20240510/j/jeedomdaemon/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-10 17:30:42] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-05-10 17:30:42] INFO root fetch - processPackages [startrek]: Downloading https://files.pythonhosted.org/packages/2b/98/f44cc3cafc4e501b62d83ab13fa5cdbbdcacdc99ae8bd45ca7b311743f13/startrek-2.0.0.tar.gz
+[2024-05-10 17:30:43] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-05-10 17:30:43] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240510/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-10 17:30:43] INFO root fetch - processPackages [startrek]: executing diffoscope
+[2024-05-10 17:30:43] INFO root fetch - processPackages [startrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/startrek-1.2.0.tar.gz tmp/startrek-2.0.0.tar.gz --markdown 20240510/s/startrek/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-05-10 17:30:43] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.93.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.94.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-10 17:30:43] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.1.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.2.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-05-10 17:30:43] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-05-10 17:30:43] INFO root fetch - processPackages [startrek]: Remove: archive file [/home/abi/fetcher/tmp/startrek-1.2.0.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - processPackages [startrek]: Remove: archive file [/home/abi/fetcher/tmp/startrek-2.0.0.tar.gz]
+[2024-05-10 17:30:43] INFO root fetch - main [MainThread]: End processing [startrek]: success
+[2024-05-10 17:30:45] INFO root fetch - processPackages [ddtrace]: New version: [2.9.0rc5] Old Version: [2.9.0rc4]
+[2024-05-10 17:30:45] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/70/0d/dd068425c64808ca4ca1e084ca9b6e384bf017755b57666f6159d49b2c7a/ddtrace-2.9.0rc4.tar.gz
+[2024-05-10 17:30:46] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/21/c9/e11b71e295e68b6edb2cacc02b1df0a0c305bdd4f33410eff9652d3a281c/ddtrace-2.9.0rc5-cp310-cp310-macosx_11_0_x86_64.whl
+[2024-05-10 17:30:47] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2024-05-10 17:30:47] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-2.9.0rc4.tar.gz tmp/ddtrace-2.9.0rc5-cp310-cp310-macosx_11_0_x86_64.whl.zip --markdown 20240510/d/ddtrace/2.9.0rc4-2.9.0rc5/README.md --exclude *.pyd
+[2024-05-10 17:30:49] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-2.9.0rc4.tar.gz]
+[2024-05-10 17:30:49] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-2.9.0rc5-cp310-cp310-macosx_11_0_x86_64.whl.zip]
+[2024-05-10 17:30:49] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2024-05-10 17:30:49] INFO root fetch - main [MainThread]: Store serial: [23148917]
