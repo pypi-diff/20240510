@@ -6312,3 +6312,72 @@
 [2024-05-10 06:13:13] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
 [2024-05-10 06:13:13] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2024-05-10 06:13:13] INFO root fetch - main [MainThread]: Store serial: [23141127]
+[2024-05-10 06:15:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141127]
+[2024-05-10 06:15:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-connector-python-nightly
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prediscriminatez
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RL-OM
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiny-progress-bar
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ParentLOL
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anotify
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowmancer
+[2024-05-10 06:15:22] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 06:15:22] INFO root fetch - processPackages [tiny-progress-bar]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ParentLOL]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 06:15:22] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-10 06:15:22] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-10 06:15:22] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-10 06:15:22] WARNING root fetch - processPackages [prediscriminatez]: Skipping, unable to determine old version
+[2024-05-10 06:15:22] INFO root fetch - main [MainThread]: End processing [prediscriminatez] error
+[2024-05-10 06:15:22] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.5.10] Old Version: [2024.4.9]
+[2024-05-10 06:15:22] INFO root fetch - processPackages [anotify]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-10 06:15:22] INFO root fetch - processPackages [tiny-progress-bar]: Downloading https://files.pythonhosted.org/packages/0f/2b/8122f49537211bb3ba88667b25738620b21b81cefa4939d26427830299f7/tiny_progress_bar-0.1.1.tar.gz
+[2024-05-10 06:15:22] INFO root fetch - processPackages [ParentLOL]: Downloading https://files.pythonhosted.org/packages/21/10/049f11390bc2dfa200e6ce00322516d21b210b450cc8e3f3611c99d45703/parentlol-0.0.2.tar.gz
+[2024-05-10 06:15:22] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-10 06:15:22] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/2b/1f/ba851f8a5f400cf41366dc7216d298165e7c4fe21d731943caebce0a7907/snowflake-connector-python-nightly-2024.4.9.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/7e/9d/4b4567c51e6d7c0cc1f87c1277e3eb5f885746774d3a8dfcfbbb896d61a4/anotify-0.0.6.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [tiny-progress-bar]: Downloading https://files.pythonhosted.org/packages/53/91/bd6e0347684b5111b8ee2249f16a9aba710736da7ee406e6a880f1d4069b/tiny_progress_bar-0.1.2.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-10 06:15:23] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240510/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 06:15:23] INFO root fetch - processPackages [ParentLOL]: Downloading https://files.pythonhosted.org/packages/f0/49/cb2f0acb6227b475dca155b9af83be85b4a46d9b56f97d28f644b706ab0e/parentlol-0.0.3.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-10 06:15:23] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240510/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-10 06:15:23] INFO root fetch - processPackages [tiny-progress-bar]: executing diffoscope
+[2024-05-10 06:15:23] INFO root fetch - processPackages [tiny-progress-bar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_progress_bar-0.1.1.tar.gz tmp/tiny_progress_bar-0.1.2.tar.gz --markdown 20240510/t/tiny-progress-bar/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 06:15:23] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-05-10 06:15:23] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240510/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-10 06:15:23] INFO root fetch - processPackages [ParentLOL]: executing diffoscope
+[2024-05-10 06:15:23] INFO root fetch - processPackages [ParentLOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parentlol-0.0.2.tar.gz tmp/parentlol-0.0.3.tar.gz --markdown 20240510/P/ParentLOL/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 06:15:23] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/a5/31/a01955b6a25f0a3a8ecbb717fe7a7199a40950fdcfa9875f2f81ab515bdb/anotify-0.0.7.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/17/6b/3d1beb5128609e1a5af026285147245fb5392622bfac639edd4bbf575bfe/snowflake_connector_python_nightly-2024.5.10.tar.gz
+[2024-05-10 06:15:23] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-10 06:15:23] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.0.6.tar.gz tmp/anotify-0.0.7.tar.gz --markdown 20240510/a/anotify/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-10 06:15:23] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-05-10 06:15:23] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz tmp/snowflake_connector_python_nightly-2024.5.10.tar.gz --markdown 20240510/s/snowflake-connector-python-nightly/2024.4.9-2024.5.10/README.md --exclude *.pyd
+[2024-05-10 06:15:23] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-10 06:15:23] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-10 06:15:23] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-10 06:15:24] INFO root fetch - processPackages [tiny-progress-bar]: Remove: archive file [/home/abi/fetcher/tmp/tiny_progress_bar-0.1.1.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - processPackages [tiny-progress-bar]: Remove: archive file [/home/abi/fetcher/tmp/tiny_progress_bar-0.1.2.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - main [MainThread]: End processing [tiny-progress-bar]: success
+[2024-05-10 06:15:24] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.6.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.7.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-10 06:15:24] INFO root fetch - processPackages [ParentLOL]: Remove: archive file [/home/abi/fetcher/tmp/parentlol-0.0.2.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - processPackages [ParentLOL]: Remove: archive file [/home/abi/fetcher/tmp/parentlol-0.0.3.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - main [MainThread]: End processing [ParentLOL]: success
+[2024-05-10 06:15:24] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-05-10 06:15:24] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-10 06:15:24] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-10 06:15:25] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
+[2024-05-10 06:15:25] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_connector_python_nightly-2024.5.10.tar.gz]
+[2024-05-10 06:15:25] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-05-10 06:15:25] INFO root fetch - main [MainThread]: Store serial: [23141169]
