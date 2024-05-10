@@ -5586,3 +5586,21 @@
 [2024-05-10 05:25:01] INFO root fetch - processPackages [citric]: Remove: archive file [/home/abi/fetcher/tmp/citric-1.0.1a4.tar.gz]
 [2024-05-10 05:25:01] INFO root fetch - main [MainThread]: End processing [citric]: success
 [2024-05-10 05:25:01] INFO root fetch - main [MainThread]: Store serial: [23140837]
+[2024-05-10 05:27:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23140837]
+[2024-05-10 05:27:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 05:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dukesz
+[2024-05-10 05:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: examon_core
+[2024-05-10 05:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh-cli
+[2024-05-10 05:27:09] WARNING root fetch - processPackages [docmesh-cli]: Skipping, unable to determine old version
+[2024-05-10 05:27:09] INFO root fetch - main [MainThread]: End processing [docmesh-cli] error
+[2024-05-10 05:27:09] WARNING root fetch - processPackages [dukesz]: Skipping, unable to determine old version
+[2024-05-10 05:27:09] INFO root fetch - main [MainThread]: End processing [dukesz] error
+[2024-05-10 05:27:09] INFO root fetch - processPackages [examon_core]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-05-10 05:27:09] INFO root fetch - processPackages [examon_core]: Downloading https://files.pythonhosted.org/packages/9f/a7/38c10a9bd3752a6d429602bd72924286a32a06bf49e7b999490ec504a910/examon_core-1.4.2.tar.gz
+[2024-05-10 05:27:10] INFO root fetch - processPackages [examon_core]: Downloading https://files.pythonhosted.org/packages/ca/f9/454ca16c575c3e9d97aae2ef84abfd8dcdb6618accde3dacff6d5c9149c9/examon_core-1.5.0.tar.gz
+[2024-05-10 05:27:10] INFO root fetch - processPackages [examon_core]: executing diffoscope
+[2024-05-10 05:27:10] INFO root fetch - processPackages [examon_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.4.2.tar.gz tmp/examon_core-1.5.0.tar.gz --markdown 20240510/e/examon_core/1.4.2-1.5.0/README.md --exclude *.pyd
+[2024-05-10 05:27:10] INFO root fetch - processPackages [examon_core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.4.2.tar.gz]
+[2024-05-10 05:27:10] INFO root fetch - processPackages [examon_core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.5.0.tar.gz]
+[2024-05-10 05:27:10] INFO root fetch - main [MainThread]: End processing [examon_core]: success
+[2024-05-10 05:27:10] INFO root fetch - main [MainThread]: Store serial: [23140847]
