@@ -22218,3 +22218,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 16:56:53] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc2.tar.gz]
 [2024-05-10 16:56:53] INFO root fetch - main [MainThread]: End processing [skillsnetwork-jupyter-extension]: success
 [2024-05-10 16:56:53] INFO root fetch - main [MainThread]: Store serial: [23148398]
+[2024-05-10 16:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23148398]
+[2024-05-10 16:59:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conspirersz
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mybody-api-client
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samtool
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-f5bigip
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bulletroulette
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tribadez
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goshdb
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-upgrade
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adeft
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ModernQQt
+[2024-05-10 16:59:02] INFO root fetch - processPackages [mybody-api-client]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-10 16:59:02] WARNING root fetch - processPackages [ModernQQt]: Skipping, unable to determine old version
+[2024-05-10 16:59:02] INFO root fetch - processPackages [ModernQQt]: Start processing: exsource-tools
+[2024-05-10 16:59:02] INFO root fetch - main [MainThread]: End processing [ModernQQt] error
+[2024-05-10 16:59:02] INFO root fetch - processPackages [goshdb]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-10 16:59:02] INFO root fetch - processPackages [adeft]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 16:59:02] INFO root fetch - processPackages [bulletroulette]: New version: [1.1.1] Old Version: [1.0.6]
+[2024-05-10 16:59:02] INFO root fetch - processPackages [samtool]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-10 16:59:02] INFO root fetch - processPackages [conspirersz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 16:59:02] WARNING root fetch - processPackages [tribadez]: Skipping, unable to determine old version
+[2024-05-10 16:59:02] INFO root fetch - main [MainThread]: End processing [tribadez] error
+[2024-05-10 16:59:02] INFO root fetch - processPackages [django-upgrade]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-10 16:59:02] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2024-05-10 16:59:02] INFO root fetch - processPackages [mybody-api-client]: Downloading https://files.pythonhosted.org/packages/89/b9/6c343a6744accfb243f9f6d10b35d9404b7e7c784d542bdafb1384eec63f/mybody_api_client-0.5.8.tar.gz
+[2024-05-10 16:59:02] INFO root fetch - processPackages [adeft]: Downloading https://files.pythonhosted.org/packages/0e/a9/5812106c5b20c84f4126ea687af8a09853d9846962f824333ea6a47fd521/adeft-0.8.0.tar.gz
+[2024-05-10 16:59:02] INFO root fetch - processPackages [goshdb]: Downloading https://files.pythonhosted.org/packages/5f/76/ed8346326464a19a15fe604e92b5afdd03b73b452397b7ad83ca76b35a48/goshdb-0.2.0.tar.gz
+[2024-05-10 16:59:02] INFO root fetch - processPackages [exsource-tools]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 16:59:03] INFO root fetch - processPackages [samtool]: Downloading https://files.pythonhosted.org/packages/1f/f3/49433523caff950b141ca9c8ffb8498efb85cf397a5fb1e4e6cf9ea82e72/samtool-0.0.1.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/d2/ba/3b415892a137496740eea2f5e813ac367ef742773eeb21ef4d7fd67c45c7/bulletroulette-1.0.6.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [django-upgrade]: Downloading https://files.pythonhosted.org/packages/f4/ab/00fbdcfb8d069b8ad2c70b4fe042bbe10491e4ff82bc90d5f3ec95fb3007/django-upgrade-1.8.1.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [conspirersz]: Downloading https://files.pythonhosted.org/packages/9c/9f/d893f4cbd8b70dd3643d3fdeffcec16d1214269763281f90a12acac2b392/conspirersz-1.1.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [exsource-tools]: Downloading https://files.pythonhosted.org/packages/97/39/29f5b1fc779d0dca251319b5b50e52276849fcb9aac3c7b4625a2b96786b/exsource_tools-0.0.5.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [mybody-api-client]: Downloading https://files.pythonhosted.org/packages/05/e6/a86994fd0636a33563e55a821541927c603bc85c308649457629e3ad588c/mybody_api_client-0.5.9.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [adeft]: Downloading https://files.pythonhosted.org/packages/41/65/ec03ce902b78e4dc34776fe52a8c8deed553ccac74c6f8d09d93c54fd6a9/adeft-0.9.0.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [goshdb]: Downloading https://files.pythonhosted.org/packages/40/ac/3157baacd3bafb8d830665e585db481cbce0d8dc24a2e73f20e7f5a4e894/goshdb-0.2.1.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [samtool]: Downloading https://files.pythonhosted.org/packages/24/c4/f550cfa5962e0c54bcf8bb6f008d7883ba01ace9f9e0a001ab3615d7350c/samtool-0.0.2.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [mybody-api-client]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [mybody-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybody_api_client-0.5.8.tar.gz tmp/mybody_api_client-0.5.9.tar.gz --markdown 20240510/m/mybody-api-client/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-10 16:59:03] INFO root fetch - processPackages [conspirersz]: Downloading https://files.pythonhosted.org/packages/1c/86/80d063b1bad032df406016d1c4a37495d5ff23f865718f4cee5e0d950314/conspirersz-2.1.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [django-upgrade]: Downloading https://files.pythonhosted.org/packages/9f/66/d0e279df697808ef4a079ca6cebfa36a2792e2877f361f9350becc218668/django-upgrade-1.9.0.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [adeft]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [adeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adeft-0.8.0.tar.gz tmp/adeft-0.9.0.tar.gz --markdown 20240510/a/adeft/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 16:59:03] INFO root fetch - processPackages [goshdb]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [goshdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goshdb-0.2.0.tar.gz tmp/goshdb-0.2.1.tar.gz --markdown 20240510/g/goshdb/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-10 16:59:03] INFO root fetch - processPackages [samtool]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [samtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samtool-0.0.1.tar.gz tmp/samtool-0.0.2.tar.gz --markdown 20240510/s/samtool/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-10 16:59:03] INFO root fetch - processPackages [exsource-tools]: Downloading https://files.pythonhosted.org/packages/73/09/73557538f4503701b484f950ea9ed76fe2618e6d4dbe5b646c5bcf262f90/exsource_tools-0.0.6.tar.gz
+[2024-05-10 16:59:03] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20240510/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/README.md --exclude *.pyd
+[2024-05-10 16:59:03] INFO root fetch - processPackages [conspirersz]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [conspirersz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conspirersz-1.1.tar.gz tmp/conspirersz-2.1.tar.gz --markdown 20240510/c/conspirersz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 16:59:03] INFO root fetch - processPackages [django-upgrade]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [django-upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-upgrade-1.8.1.tar.gz tmp/django-upgrade-1.9.0.tar.gz --markdown 20240510/d/django-upgrade/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-10 16:59:03] INFO root fetch - processPackages [exsource-tools]: executing diffoscope
+[2024-05-10 16:59:03] INFO root fetch - processPackages [exsource-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exsource_tools-0.0.5.tar.gz tmp/exsource_tools-0.0.6.tar.gz --markdown 20240510/e/exsource-tools/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 16:59:04] INFO root fetch - processPackages [conspirersz]: Remove: archive file [/home/abi/fetcher/tmp/conspirersz-1.1.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - processPackages [conspirersz]: Remove: archive file [/home/abi/fetcher/tmp/conspirersz-2.1.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [conspirersz]: success
+[2024-05-10 16:59:04] INFO root fetch - processPackages [goshdb]: Remove: archive file [/home/abi/fetcher/tmp/goshdb-0.2.0.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - processPackages [goshdb]: Remove: archive file [/home/abi/fetcher/tmp/goshdb-0.2.1.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [goshdb]: success
+[2024-05-10 16:59:04] INFO root fetch - processPackages [adeft]: Remove: archive file [/home/abi/fetcher/tmp/adeft-0.8.0.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - processPackages [adeft]: Remove: archive file [/home/abi/fetcher/tmp/adeft-0.9.0.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [adeft]: success
+[2024-05-10 16:59:04] INFO root fetch - processPackages [samtool]: Remove: archive file [/home/abi/fetcher/tmp/samtool-0.0.1.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - processPackages [samtool]: Remove: archive file [/home/abi/fetcher/tmp/samtool-0.0.2.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [samtool]: success
+[2024-05-10 16:59:04] INFO root fetch - processPackages [exsource-tools]: Remove: archive file [/home/abi/fetcher/tmp/exsource_tools-0.0.5.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - processPackages [exsource-tools]: Remove: archive file [/home/abi/fetcher/tmp/exsource_tools-0.0.6.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [exsource-tools]: success
+[2024-05-10 16:59:04] INFO root fetch - processPackages [django-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/django-upgrade-1.8.1.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - processPackages [django-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/django-upgrade-1.9.0.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [django-upgrade]: success
+[2024-05-10 16:59:04] INFO root fetch - processPackages [mybody-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mybody_api_client-0.5.8.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - processPackages [mybody-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mybody_api_client-0.5.9.tar.gz]
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [mybody-api-client]: success
+[2024-05-10 16:59:04] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/ad/ed/7fd6316a63de3dc5c0c75b687d96999b5d0bf662d34ed8107849cdc3ea41/bulletroulette-1.1.1.tar.gz
+[2024-05-10 16:59:04] WARNING root fetch - processPackages [bulletroulette]: Skipping package: exceeds size limit 15080268>=10485760
+[2024-05-10 16:59:04] INFO root fetch - main [MainThread]: End processing [bulletroulette] error
+[2024-05-10 16:59:05] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2024-05-10 16:59:05] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2024-05-10 16:59:05] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2024-05-10 16:59:05] INFO root fetch - main [MainThread]: Store serial: [23148433]
