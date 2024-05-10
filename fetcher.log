@@ -19954,3 +19954,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 15:44:02] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.6.tar.gz]
 [2024-05-10 15:44:02] INFO root fetch - main [MainThread]: End processing [peewee]: success
 [2024-05-10 15:44:02] INFO root fetch - main [MainThread]: Store serial: [23147215]
+[2024-05-10 15:46:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23147215]
+[2024-05-10 15:46:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ceilersz
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meowcat
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hexkit
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meowcat
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbis-relational-model
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: toui
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tgbotzero
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heat-tempest-plugin
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: carnousz
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prothiel
+[2024-05-10 15:46:29] WARNING root fetch - processPackages [ceilersz]: Skipping, unable to determine old version
+[2024-05-10 15:46:29] INFO root fetch - processPackages [ceilersz]: Start processing: zhlyr
+[2024-05-10 15:46:29] INFO root fetch - main [MainThread]: End processing [ceilersz] error
+[2024-05-10 15:46:29] INFO root fetch - processPackages [meowcat]: New version: [0.1.2rc1] Old Version: [0.1.1rc1]
+[2024-05-10 15:46:29] INFO root fetch - processPackages [meowcat]: New version: [0.1.2rc1] Old Version: [0.1.1rc1]
+[2024-05-10 15:46:29] INFO root fetch - processPackages [toui]: New version: [3.5.0a2] Old Version: [3.5.0a1]
+[2024-05-10 15:46:29] INFO root fetch - processPackages [prothiel]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-10 15:46:29] WARNING root fetch - processPackages [carnousz]: Skipping, unable to determine old version
+[2024-05-10 15:46:29] INFO root fetch - main [MainThread]: End processing [carnousz] error
+[2024-05-10 15:46:29] WARNING root fetch - processPackages [zhlyr]: Skipping, unable to determine old version
+[2024-05-10 15:46:29] INFO root fetch - main [MainThread]: End processing [zhlyr] error
+[2024-05-10 15:46:29] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/73/e2/0d9f1649daa294a1d7c06c88b9e160bb0011fdc066ac989c46908407271c/meowcat-0.1.1rc1.tar.gz
+[2024-05-10 15:46:29] INFO root fetch - processPackages [dbis-relational-model]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-10 15:46:29] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/73/e2/0d9f1649daa294a1d7c06c88b9e160bb0011fdc066ac989c46908407271c/meowcat-0.1.1rc1.tar.gz
+[2024-05-10 15:46:29] INFO root fetch - processPackages [heat-tempest-plugin]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-10 15:46:29] INFO root fetch - processPackages [hexkit]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-10 15:46:29] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/ab/b9/63fa36c851a817f940b6ca5cba6922f3c1d9e4b51287765c9e8b51328acc/toui-3.5.0a1-py3-none-any.whl
+[2024-05-10 15:46:29] INFO root fetch - processPackages [prothiel]: Downloading https://files.pythonhosted.org/packages/fb/d6/871ab447db114ebb4a9f607031a6b8161140cfe791aa088c58430140875b/prothiel-0.1.1.tar.gz
+[2024-05-10 15:46:29] INFO root fetch - processPackages [tgbotzero]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-10 15:46:30] INFO root fetch - processPackages [dbis-relational-model]: Downloading https://files.pythonhosted.org/packages/9c/43/4e971f6a13308fe23de43bf4d199013cefa1cc932cf2eaf437b076125c50/dbis_relational_model-1.0.1.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [hexkit]: Downloading https://files.pythonhosted.org/packages/5d/3c/abbb6c407000981cad481b9c2fa2a752fbe23a06d035dac45b020c4b3869/hexkit-3.0.1.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [heat-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/ff/74/3395c1d751e561be29d64f30d177096e76aa6d212798471610d62af5f8a0/heat-tempest-plugin-2.1.0.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [tgbotzero]: Downloading https://files.pythonhosted.org/packages/61/b1/8625a52a8d141800188e916852e3fee5d136e96d71b2f07d5e9543d0c3e8/tgbotzero-0.0.7.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [prothiel]: Downloading https://files.pythonhosted.org/packages/6b/fc/17ce34ef920be905dce3e4bdb091be5a69e77f2982a5b829b49c11d04b32/prothiel-0.1.2.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/00/c4/245313bf7f37b78f763acf186b305776ceb6309f9029e2638e9cf087d267/meowcat-0.1.2rc1.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [meowcat]: Downloading https://files.pythonhosted.org/packages/00/c4/245313bf7f37b78f763acf186b305776ceb6309f9029e2638e9cf087d267/meowcat-0.1.2rc1.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/8a/5a/3262f5a4b86ffd2f9ce661e8ef95014e0387462e54942a47a4bbbca52e47/toui-3.5.0a2.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [prothiel]: executing diffoscope
+[2024-05-10 15:46:30] INFO root fetch - processPackages [prothiel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prothiel-0.1.1.tar.gz tmp/prothiel-0.1.2.tar.gz --markdown 20240510/p/prothiel/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-10 15:46:30] INFO root fetch - processPackages [meowcat]: executing diffoscope
+[2024-05-10 15:46:30] INFO root fetch - processPackages [meowcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowcat-0.1.1rc1.tar.gz tmp/meowcat-0.1.2rc1.tar.gz --markdown 20240510/m/meowcat/0.1.1rc1-0.1.2rc1/README.md --exclude *.pyd
+[2024-05-10 15:46:30] INFO root fetch - processPackages [meowcat]: executing diffoscope
+[2024-05-10 15:46:30] INFO root fetch - processPackages [meowcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowcat-0.1.1rc1.tar.gz tmp/meowcat-0.1.2rc1.tar.gz --markdown 20240510/m/meowcat/0.1.1rc1-0.1.2rc1/README.md --exclude *.pyd
+[2024-05-10 15:46:30] INFO root fetch - processPackages [dbis-relational-model]: Downloading https://files.pythonhosted.org/packages/0c/11/be2479c6b5a67006bdda2428f55893a9a5f4f34156bfadc2069ad070d118/dbis_relational_model-1.0.2.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [hexkit]: Downloading https://files.pythonhosted.org/packages/3a/11/66122bf010a1ce8f6f836aaeb3aaa0adec603c0862367e796a26d78ed2f6/hexkit-3.0.2.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [heat-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/8d/6f/35de8a32c5293c492cf360ba0a7890b901010edbcd102ba6bde9cd318a8f/heat-tempest-plugin-2.2.0.tar.gz
+[2024-05-10 15:46:30] INFO root fetch - processPackages [dbis-relational-model]: executing diffoscope
+[2024-05-10 15:46:30] INFO root fetch - processPackages [dbis-relational-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis_relational_model-1.0.1.tar.gz tmp/dbis_relational_model-1.0.2.tar.gz --markdown 20240510/d/dbis-relational-model/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-10 15:46:30] INFO root fetch - processPackages [hexkit]: executing diffoscope
+[2024-05-10 15:46:30] INFO root fetch - processPackages [hexkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexkit-3.0.1.tar.gz tmp/hexkit-3.0.2.tar.gz --markdown 20240510/h/hexkit/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-05-10 15:46:30] INFO root fetch - processPackages [toui]: executing diffoscope
+[2024-05-10 15:46:30] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-3.5.0a1-py3-none-any.whl.zip tmp/toui-3.5.0a2.tar.gz --markdown 20240510/t/toui/3.5.0a1-3.5.0a2/README.md --exclude *.pyd
+[2024-05-10 15:46:30] INFO root fetch - processPackages [heat-tempest-plugin]: executing diffoscope
+[2024-05-10 15:46:30] INFO root fetch - processPackages [heat-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heat-tempest-plugin-2.1.0.tar.gz tmp/heat-tempest-plugin-2.2.0.tar.gz --markdown 20240510/h/heat-tempest-plugin/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-10 15:46:31] INFO root fetch - processPackages [prothiel]: Remove: archive file [/home/abi/fetcher/tmp/prothiel-0.1.1.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - processPackages [prothiel]: Remove: archive file [/home/abi/fetcher/tmp/prothiel-0.1.2.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - main [MainThread]: End processing [prothiel]: success
+[2024-05-10 15:46:31] INFO root fetch - processPackages [meowcat]: Remove: archive file [/home/abi/fetcher/tmp/meowcat-0.1.1rc1.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - processPackages [meowcat]: Remove: archive file [/home/abi/fetcher/tmp/meowcat-0.1.2rc1.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - main [MainThread]: End processing [meowcat]: success
+[2024-05-10 15:46:31] INFO root fetch - main [MainThread]: End processing [meowcat]: success
+[2024-05-10 15:46:31] INFO root fetch - processPackages [tgbotzero]: Downloading https://files.pythonhosted.org/packages/32/2e/a0d9bc721c89e48293252acebdc6a9c0134432a1c8d7d8d06529e8cfb183/tgbotzero-0.0.9.tar.gz
+[2024-05-10 15:46:31] INFO root fetch - processPackages [dbis-relational-model]: Remove: archive file [/home/abi/fetcher/tmp/dbis_relational_model-1.0.1.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - processPackages [dbis-relational-model]: Remove: archive file [/home/abi/fetcher/tmp/dbis_relational_model-1.0.2.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - main [MainThread]: End processing [dbis-relational-model]: success
+[2024-05-10 15:46:31] INFO root fetch - processPackages [hexkit]: Remove: archive file [/home/abi/fetcher/tmp/hexkit-3.0.1.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - processPackages [hexkit]: Remove: archive file [/home/abi/fetcher/tmp/hexkit-3.0.2.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - main [MainThread]: End processing [hexkit]: success
+[2024-05-10 15:46:31] INFO root fetch - processPackages [heat-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/heat-tempest-plugin-2.1.0.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - processPackages [heat-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/heat-tempest-plugin-2.2.0.tar.gz]
+[2024-05-10 15:46:31] INFO root fetch - main [MainThread]: End processing [heat-tempest-plugin]: success
+[2024-05-10 15:46:32] INFO root fetch - processPackages [tgbotzero]: executing diffoscope
+[2024-05-10 15:46:32] INFO root fetch - processPackages [tgbotzero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgbotzero-0.0.7.tar.gz tmp/tgbotzero-0.0.9.tar.gz --markdown 20240510/t/tgbotzero/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-10 15:46:33] INFO root fetch - processPackages [tgbotzero]: Remove: archive file [/home/abi/fetcher/tmp/tgbotzero-0.0.7.tar.gz]
+[2024-05-10 15:46:33] INFO root fetch - processPackages [tgbotzero]: Remove: archive file [/home/abi/fetcher/tmp/tgbotzero-0.0.9.tar.gz]
+[2024-05-10 15:46:33] INFO root fetch - main [MainThread]: End processing [tgbotzero]: success
+[2024-05-10 15:46:33] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.5.0a1-py3-none-any.whl.zip]
+[2024-05-10 15:46:33] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.5.0a2.tar.gz]
+[2024-05-10 15:46:33] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2024-05-10 15:46:33] INFO root fetch - main [MainThread]: Store serial: [23147252]
