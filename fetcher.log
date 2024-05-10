@@ -11508,3 +11508,67 @@
 [2024-05-10 10:46:30] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-10 10:46:30] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-10 10:46:30] INFO root fetch - main [MainThread]: Store serial: [23143548]
+[2024-05-10 10:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23143548]
+[2024-05-10 10:48:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scatcluster
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enhanceezqq
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scatcluster
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocf-datapipes
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: europarser
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: create-flask-package
+[2024-05-10 10:48:40] INFO root fetch - processPackages [europarser]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 10:48:40] INFO root fetch - processPackages [create-flask-package]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-10 10:48:40] INFO root fetch - processPackages [scatcluster]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 10:48:40] INFO root fetch - processPackages [scatcluster]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-10 10:48:40] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-10 10:48:40] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/99/38/1c1927ee993b52fdb0c2a25f7b40d86e090dcc1e7ccda4f9c2a3ca9b76bd/create_flask_package-0.1.2.tar.gz
+[2024-05-10 10:48:40] INFO root fetch - processPackages [enhanceezqq]: New version: [1.0.2.1] Old Version: [1.0.2]
+[2024-05-10 10:48:40] INFO root fetch - processPackages [europarser]: Downloading https://files.pythonhosted.org/packages/84/ed/9d3477bedff0b479534a4407f4324b94b3e53f398923885a8a6f7a046cf6/europarser-0.1.8.tar.gz
+[2024-05-10 10:48:40] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/fe/97/9e404d69d95cb21715a754c0b79a1aae9701f0de14f70e5b7701089bc9ad/scatcluster-0.0.5.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/fe/97/9e404d69d95cb21715a754c0b79a1aae9701f0de14f70e5b7701089bc9ad/scatcluster-0.0.5.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/70/08/f83ca707dd9918fc865cffd3fbd794188814759680f71286b0952d8031fe/enhanceezqq-1.0.2.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [create-flask-package]: Downloading https://files.pythonhosted.org/packages/9f/da/368fb6ac54fd4ca22b38b34e36786104f31e5ca642c94c5c1c75626f0d1d/create_flask_package-0.1.3.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/89/d2/8181212d3d1c9dfe1c607d2588fac3f65cba29dad6f22e098165bbf2ed48/scatcluster-0.0.6.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [europarser]: Downloading https://files.pythonhosted.org/packages/55/0c/51cdcf004abb1c4f3e90fa8b49998505adf1c8b64661fd01ada9201409e9/europarser-0.1.9.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/89/d2/8181212d3d1c9dfe1c607d2588fac3f65cba29dad6f22e098165bbf2ed48/scatcluster-0.0.6.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-10 10:48:41] INFO root fetch - processPackages [create-flask-package]: executing diffoscope
+[2024-05-10 10:48:41] INFO root fetch - processPackages [create-flask-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_flask_package-0.1.2.tar.gz tmp/create_flask_package-0.1.3.tar.gz --markdown 20240510/c/create-flask-package/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: executing diffoscope
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatcluster-0.0.5.tar.gz tmp/scatcluster-0.0.6.tar.gz --markdown 20240510/s/scatcluster/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 10:48:41] INFO root fetch - processPackages [europarser]: executing diffoscope
+[2024-05-10 10:48:41] INFO root fetch - processPackages [europarser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/europarser-0.1.8.tar.gz tmp/europarser-0.1.9.tar.gz --markdown 20240510/e/europarser/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: executing diffoscope
+[2024-05-10 10:48:41] INFO root fetch - processPackages [scatcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatcluster-0.0.5.tar.gz tmp/scatcluster-0.0.6.tar.gz --markdown 20240510/s/scatcluster/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-10 10:48:41] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/a4/51/09e6845c9984d7b766c2a6a030d097e3777681f8f9d71a90a1298f6e13b4/enhanceezqq-1.0.2.1-py3-none-any.whl
+[2024-05-10 10:48:41] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-10 10:48:41] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240510/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-10 10:48:41] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-05-10 10:48:41] INFO root fetch - processPackages [enhanceezqq]: executing diffoscope
+[2024-05-10 10:48:41] INFO root fetch - processPackages [enhanceezqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhanceezqq-1.0.2.tar.gz tmp/enhanceezqq-1.0.2.1-py3-none-any.whl.zip --markdown 20240510/e/enhanceezqq/1.0.2-1.0.2.1/README.md --exclude *.pyd
+[2024-05-10 10:48:41] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-05-10 10:48:41] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240510/o/ocf-datapipes/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-10 10:48:42] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.5.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.6.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - main [MainThread]: End processing [scatcluster]: success
+[2024-05-10 10:48:42] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.2.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - processPackages [create-flask-package]: Remove: archive file [/home/abi/fetcher/tmp/create_flask_package-0.1.3.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - main [MainThread]: End processing [create-flask-package]: success
+[2024-05-10 10:48:42] INFO root fetch - main [MainThread]: End processing [scatcluster]: success
+[2024-05-10 10:48:42] INFO root fetch - processPackages [enhanceezqq]: Remove: archive file [/home/abi/fetcher/tmp/enhanceezqq-1.0.2.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - processPackages [enhanceezqq]: Remove: archive file [/home/abi/fetcher/tmp/enhanceezqq-1.0.2.1-py3-none-any.whl.zip]
+[2024-05-10 10:48:42] INFO root fetch - main [MainThread]: End processing [enhanceezqq]: success
+[2024-05-10 10:48:42] INFO root fetch - processPackages [europarser]: Remove: archive file [/home/abi/fetcher/tmp/europarser-0.1.8.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - processPackages [europarser]: Remove: archive file [/home/abi/fetcher/tmp/europarser-0.1.9.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - main [MainThread]: End processing [europarser]: success
+[2024-05-10 10:48:42] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-05-10 10:48:42] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-05-10 10:48:43] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-10 10:48:43] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-10 10:48:43] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-10 10:48:43] INFO root fetch - main [MainThread]: Store serial: [23143569]
