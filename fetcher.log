@@ -6908,3 +6908,9 @@
 [2024-05-10 06:54:43] WARNING root fetch - processPackages [nectareouslyz]: Skipping, unable to determine old version
 [2024-05-10 06:54:43] INFO root fetch - main [MainThread]: End processing [nectareouslyz] error
 [2024-05-10 06:54:43] INFO root fetch - main [MainThread]: Store serial: [23141402]
+[2024-05-10 06:56:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141402]
+[2024-05-10 06:56:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-10 06:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: propitiatorilyz
+[2024-05-10 06:56:53] WARNING root fetch - processPackages [propitiatorilyz]: Skipping, unable to determine old version
+[2024-05-10 06:56:53] INFO root fetch - main [MainThread]: End processing [propitiatorilyz] error
+[2024-05-10 06:56:53] INFO root fetch - main [MainThread]: Store serial: [23141406]
