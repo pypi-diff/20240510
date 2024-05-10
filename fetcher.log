@@ -6381,3 +6381,48 @@
 [2024-05-10 06:15:25] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_connector_python_nightly-2024.5.10.tar.gz]
 [2024-05-10 06:15:25] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2024-05-10 06:15:25] INFO root fetch - main [MainThread]: Store serial: [23141169]
+[2024-05-10 06:17:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141169]
+[2024-05-10 06:17:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-10 06:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmancer
+[2024-05-10 06:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-elasticsearch20170613-py2
+[2024-05-10 06:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: replit-river
+[2024-05-10 06:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-elasticsearch20170613
+[2024-05-10 06:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prespontaneouslyz
+[2024-05-10 06:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Glam-Array
+[2024-05-10 06:17:33] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613-py2]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-05-10 06:17:33] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-10 06:17:33] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-05-10 06:17:34] WARNING root fetch - processPackages [prespontaneouslyz]: Skipping, unable to determine old version
+[2024-05-10 06:17:34] INFO root fetch - main [MainThread]: End processing [prespontaneouslyz] error
+[2024-05-10 06:17:34] WARNING root fetch - processPackages [Glam-Array]: Skipping, unable to determine old version
+[2024-05-10 06:17:34] INFO root fetch - main [MainThread]: End processing [Glam-Array] error
+[2024-05-10 06:17:34] INFO root fetch - processPackages [replit-river]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-10 06:17:34] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613-py2]: Downloading https://files.pythonhosted.org/packages/a2/e8/e3197ee002ff5d65844543bbb385a4b1176319932ec2d285a5f6a4928e15/alibabacloud_elasticsearch20170613_py2-1.4.0.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Downloading https://files.pythonhosted.org/packages/c5/80/d43b7f851b477669eb87f0c01cb1e450954350af1f7b140107519ba5db8b/alibabacloud_elasticsearch20170613-1.4.0.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613-py2]: Downloading https://files.pythonhosted.org/packages/1b/2a/c1d95133dd179b00a6324aad31224c2512ab77a4ad2664fece3e7b844c8c/alibabacloud_elasticsearch20170613_py2-2.0.0.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-05-10 06:17:34] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240510/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Downloading https://files.pythonhosted.org/packages/16/0b/80b0c58cae50aedfe12063390494a77ac48319553ace8dd5d6d96d451d82/alibabacloud_elasticsearch20170613-2.0.0.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/63/d0/cf3e1765cd7b168b65aab1449b4829714a8999032e46f8c202867d284f77/replit_river-0.1.9.tar.gz
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613-py2]: executing diffoscope
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_elasticsearch20170613_py2-1.4.0.tar.gz tmp/alibabacloud_elasticsearch20170613_py2-2.0.0.tar.gz --markdown 20240510/a/alibabacloud-elasticsearch20170613-py2/1.4.0-2.0.0/README.md --exclude *.pyd
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: executing diffoscope
+[2024-05-10 06:17:34] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_elasticsearch20170613-1.4.0.tar.gz tmp/alibabacloud_elasticsearch20170613-2.0.0.tar.gz --markdown 20240510/a/alibabacloud-elasticsearch20170613/1.4.0-2.0.0/README.md --exclude *.pyd
+[2024-05-10 06:17:34] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-05-10 06:17:34] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.8.tar.gz tmp/replit_river-0.1.9.tar.gz --markdown 20240510/r/replit-river/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-10 06:17:35] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-05-10 06:17:35] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-05-10 06:17:35] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_elasticsearch20170613_py2-1.4.0.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_elasticsearch20170613_py2-2.0.0.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-elasticsearch20170613-py2]: success
+[2024-05-10 06:17:35] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_elasticsearch20170613-1.4.0.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_elasticsearch20170613-2.0.0.tar.gz]
+[2024-05-10 06:17:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-elasticsearch20170613]: success
+[2024-05-10 06:17:35] INFO root fetch - main [MainThread]: Store serial: [23141189]
