@@ -16017,3 +16017,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:21:33] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-10 13:21:33] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-10 13:21:33] INFO root fetch - main [MainThread]: Store serial: [23145373]
+[2024-05-10 13:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145373]
+[2024-05-10 13:23:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blazoningz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rabbitmq
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scuttlerz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: message-local
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rpgPy
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accessible-pygments
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crossword-puzzle
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: depot-api
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsmetrics
+[2024-05-10 13:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codedepot-depot
+[2024-05-10 13:23:57] INFO root fetch - processPackages [blazoningz]: New version: [2.1] Old Version: [1.1]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1715304398] Old Version: [3.4.0a1715235763]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [depot-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [accessible-pygments]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/34/10/af549e6dbae3c7a1636500ca75b6d428829dc6b0a3e9fbdff6a689ee5018/pulumi_rabbitmq-3.4.0a1715235763.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-10 13:23:57] WARNING root fetch - processPackages [scuttlerz]: Skipping, unable to determine old version
+[2024-05-10 13:23:57] INFO root fetch - processPackages [scuttlerz]: Start processing: LCPDelta
+[2024-05-10 13:23:57] INFO root fetch - main [MainThread]: End processing [scuttlerz] error
+[2024-05-10 13:23:57] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.65] Old Version: [1.2.64]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [jsmetrics]: New version: [0.2.3] Old Version: [0.2.2b0]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [blazoningz]: Downloading https://files.pythonhosted.org/packages/cf/04/a44aafd02df826cd9beaefd395f7aa8d127b2dfe3f6f205a87aaaede89fc/blazoningz-1.1.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4e/02/82d5dc03168143e31a13edfe21344444d2e7e75b3a7fa5e93a229cbdbd25/codedepot_depot-0.0.8.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [rpgPy]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [depot-api]: Downloading https://files.pythonhosted.org/packages/61/03/5fa8fc7d4d51e315a3ea2bb0e3adb7686cd1f5bd6f365595c40f811b670a/depot_api-1.0.7.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [accessible-pygments]: Downloading https://files.pythonhosted.org/packages/b2/50/7055ebd9b7928eca202768bcf5f8f69d8d69dec1767c956c08f055c5b31e/accessible-pygments-0.0.4.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [LCPDelta]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-10 13:23:57] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/45/e9/f147dc5c1cce1c20b4e9b670e844ac384c0b36b3a90c8bfbe2c31c163f1d/crossword_puzzle-1.2.64.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [jsmetrics]: Downloading https://files.pythonhosted.org/packages/3f/d4/4938ed2e14e1ab6bb2950764aedb713ade4f43ad14bca828ac4d03a27e63/jsmetrics-0.2.2b0.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [blazoningz]: Downloading https://files.pythonhosted.org/packages/6b/20/373484b4f731e3077f62b48049bf1c86e1c63c11f871b3ef929b87a8d3ac/blazoningz-2.1.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/f9/9c/9a2ee848c97171d8dca5de669b819fc5470c4195e13d05b476eb407172bb/rpgPy-0.8.0.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/ba/33/b42289173e6854c4adaaec4366238ee82a8aa6fe61b33aad0d27447bf1bc/codedepot_depot-0.0.9.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/59/0d/65353e4846d29e1726d70cbd60df272fdd224faba903ccef4790d02a478b/pulumi_rabbitmq-3.4.0a1715304398.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [depot-api]: Downloading https://files.pythonhosted.org/packages/bc/e0/6acfe1f2348f2d13e2fd7ca9e3b176263df8a43f8424d0660668d8eeaada/depot_api-1.0.8.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/e1/c2/b9f4a3e6959cdff11d311c276c5959998686d576741f4d1aadb176428554/LCPDelta-1.1.8.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [blazoningz]: executing diffoscope
+[2024-05-10 13:23:57] INFO root fetch - processPackages [blazoningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blazoningz-1.1.tar.gz tmp/blazoningz-2.1.tar.gz --markdown 20240510/b/blazoningz/1.1-2.1/README.md --exclude *.pyd
+[2024-05-10 13:23:57] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-05-10 13:23:57] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.8.tar.gz tmp/codedepot_depot-0.0.9.tar.gz --markdown 20240510/c/codedepot-depot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-10 13:23:57] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-10 13:23:57] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1715235763.tar.gz tmp/pulumi_rabbitmq-3.4.0a1715304398.tar.gz --markdown 20240510/p/pulumi-rabbitmq/3.4.0a1715235763-3.4.0a1715304398/README.md --exclude *.pyd
+[2024-05-10 13:23:57] INFO root fetch - processPackages [accessible-pygments]: Downloading https://files.pythonhosted.org/packages/bc/c1/bbac6a50d02774f91572938964c582fff4270eee73ab822a4aeea4d8b11b/accessible_pygments-0.0.5.tar.gz
+[2024-05-10 13:23:57] INFO root fetch - processPackages [depot-api]: executing diffoscope
+[2024-05-10 13:23:57] INFO root fetch - processPackages [depot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depot_api-1.0.7.tar.gz tmp/depot_api-1.0.8.tar.gz --markdown 20240510/d/depot-api/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-10 13:23:58] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-10 13:23:58] INFO root fetch - processPackages [accessible-pygments]: executing diffoscope
+[2024-05-10 13:23:58] INFO root fetch - processPackages [accessible-pygments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accessible-pygments-0.0.4.tar.gz tmp/accessible_pygments-0.0.5.tar.gz --markdown 20240510/a/accessible-pygments/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-10 13:23:58] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-10 13:23:58] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240510/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-10 13:23:58] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/95/be/a78072a656626a68d3b17c7dbe27f3b2c55b5bb2692fd18e338eda986c0c/rpgPy-0.9.0.tar.gz
+[2024-05-10 13:23:58] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/84/25/10e53704ee31389c1936801ca4636b2bda2da3af18021f46764fe8e573e8/LCPDelta-1.1.9.tar.gz
+[2024-05-10 13:23:58] INFO root fetch - processPackages [LCPDelta]: executing diffoscope
+[2024-05-10 13:23:58] INFO root fetch - processPackages [LCPDelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LCPDelta-1.1.8.tar.gz tmp/LCPDelta-1.1.9.tar.gz --markdown 20240510/L/LCPDelta/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-10 13:23:58] INFO root fetch - processPackages [rpgPy]: executing diffoscope
+[2024-05-10 13:23:58] INFO root fetch - processPackages [rpgPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpgPy-0.8.0.tar.gz tmp/rpgPy-0.9.0.tar.gz --markdown 20240510/r/rpgPy/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-10 13:23:58] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/0f/d9/9c962781f20ba5c7e9a682e7780443ce7130b46292e0fafb4863ffe70a8a/crossword_puzzle-1.2.65.tar.gz
+[2024-05-10 13:23:58] INFO root fetch - processPackages [blazoningz]: Remove: archive file [/home/abi/fetcher/tmp/blazoningz-1.1.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - processPackages [blazoningz]: Remove: archive file [/home/abi/fetcher/tmp/blazoningz-2.1.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - main [MainThread]: End processing [blazoningz]: success
+[2024-05-10 13:23:58] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.8.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.9.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-05-10 13:23:58] INFO root fetch - processPackages [depot-api]: Remove: archive file [/home/abi/fetcher/tmp/depot_api-1.0.7.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - processPackages [depot-api]: Remove: archive file [/home/abi/fetcher/tmp/depot_api-1.0.8.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - main [MainThread]: End processing [depot-api]: success
+[2024-05-10 13:23:58] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-10 13:23:58] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.64.tar.gz tmp/crossword_puzzle-1.2.65.tar.gz --markdown 20240510/c/crossword-puzzle/1.2.64-1.2.65/README.md --exclude *.pyd
+[2024-05-10 13:23:58] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715235763.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715304398.tar.gz]
+[2024-05-10 13:23:58] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-10 13:23:59] INFO root fetch - processPackages [accessible-pygments]: Remove: archive file [/home/abi/fetcher/tmp/accessible-pygments-0.0.4.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - processPackages [accessible-pygments]: Remove: archive file [/home/abi/fetcher/tmp/accessible_pygments-0.0.5.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - main [MainThread]: End processing [accessible-pygments]: success
+[2024-05-10 13:23:59] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-10 13:23:59] INFO root fetch - processPackages [jsmetrics]: Downloading https://files.pythonhosted.org/packages/05/ad/4a045dcb2028f9a8b2587e2013168ca67f89b82dac315ce68a7beff30219/jsmetrics-0.2.3.tar.gz
+[2024-05-10 13:23:59] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.1.8.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.1.9.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - main [MainThread]: End processing [LCPDelta]: success
+[2024-05-10 13:23:59] INFO root fetch - processPackages [jsmetrics]: executing diffoscope
+[2024-05-10 13:23:59] INFO root fetch - processPackages [jsmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsmetrics-0.2.2b0.tar.gz tmp/jsmetrics-0.2.3.tar.gz --markdown 20240510/j/jsmetrics/0.2.2b0-0.2.3/README.md --exclude *.pyd
+[2024-05-10 13:23:59] INFO root fetch - processPackages [rpgPy]: Remove: archive file [/home/abi/fetcher/tmp/rpgPy-0.8.0.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - processPackages [rpgPy]: Remove: archive file [/home/abi/fetcher/tmp/rpgPy-0.9.0.tar.gz]
+[2024-05-10 13:23:59] INFO root fetch - main [MainThread]: End processing [rpgPy]: success
+[2024-05-10 13:24:13] INFO root fetch - processPackages [jsmetrics]: Remove: archive file [/home/abi/fetcher/tmp/jsmetrics-0.2.2b0.tar.gz]
+[2024-05-10 13:24:13] INFO root fetch - processPackages [jsmetrics]: Remove: archive file [/home/abi/fetcher/tmp/jsmetrics-0.2.3.tar.gz]
+[2024-05-10 13:24:13] INFO root fetch - main [MainThread]: End processing [jsmetrics]: success
+[2024-05-10 13:24:19] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.64.tar.gz]
+[2024-05-10 13:24:19] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.65.tar.gz]
+[2024-05-10 13:24:19] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-10 13:24:19] INFO root fetch - main [MainThread]: Store serial: [23145428]
