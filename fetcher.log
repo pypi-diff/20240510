@@ -16507,3 +16507,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-10 13:37:04] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715307330.tar.gz]
 [2024-05-10 13:37:04] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2024-05-10 13:37:04] INFO root fetch - main [MainThread]: Store serial: [23145585]
+[2024-05-10 13:39:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23145585]
+[2024-05-10 13:39:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-10 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-spotinst
+[2024-05-10 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boldoinez
+[2024-05-10 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: popoll-backend
+[2024-05-10 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: so-vits-svc-fork
+[2024-05-10 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chimerasz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pwrpy
+[2024-05-10 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: txt-from-pdf
+[2024-05-10 13:39:28] INFO root fetch - processPackages [popoll-backend]: New version: [0.0.42] Old Version: [0.0.41]
+[2024-05-10 13:39:28] WARNING root fetch - processPackages [boldoinez]: Skipping, unable to determine old version
+[2024-05-10 13:39:28] INFO root fetch - main [MainThread]: End processing [boldoinez] error
+[2024-05-10 13:39:28] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-10 13:39:28] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-10 13:39:28] INFO root fetch - processPackages [txt-from-pdf]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-10 13:39:28] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/19/dd/ba3efd7e6e75e8e581000255c34ffd93f5e04b1fe512e69cb22f9d00f544/popoll_backend-0.0.41.tar.gz
+[2024-05-10 13:39:28] WARNING root fetch - processPackages [chimerasz]: Skipping, unable to determine old version
+[2024-05-10 13:39:28] INFO root fetch - main [MainThread]: End processing [chimerasz] error
+[2024-05-10 13:39:28] INFO root fetch - processPackages [pwrpy]: New version: [5.0.2] Old Version: [1.1.4]
+[2024-05-10 13:39:28] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/cc/a0/2e7c04485b6a8b8263a15c463582718c6c23ce77a4c56bc6afac7c647132/so_vits_svc_fork-4.2.0.tar.gz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [txt-from-pdf]: Downloading https://files.pythonhosted.org/packages/18/56/b1de6b8a8a28d07204947398eba216cd84031c24e1e2c002444ac18c973f/txt-from-pdf-1.1.0.tar.gz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [pwrpy]: Downloading https://files.pythonhosted.org/packages/06/b1/b3323371c4c1b2811c10223bd31abf5e73975df210c9d2b3abd636968426/pwrpy-1.1.4.tar.gz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/b1/47/b2ed4c9d3f94e0e86c31a57557b11a6b67814cbc7ec094a9c22994075be2/so_vits_svc_fork-4.2.1.tar.gz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/1c/16/45f00e1006717605a5f3abbeccd295d2e9d2376192e1bbdc2415b47c229e/popoll_backend-0.0.42.tar.gz
+[2024-05-10 13:39:28] INFO root fetch - processPackages [popoll-backend]: executing diffoscope
+[2024-05-10 13:39:28] INFO root fetch - processPackages [popoll-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popoll_backend-0.0.41.tar.gz tmp/popoll_backend-0.0.42.tar.gz --markdown 20240510/p/popoll-backend/0.0.41-0.0.42/README.md --exclude *.pyd
+[2024-05-10 13:39:28] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2024-05-10 13:39:28] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-4.2.0.tar.gz tmp/so_vits_svc_fork-4.2.1.tar.gz --markdown 20240510/s/so-vits-svc-fork/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-05-10 13:39:28] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-10 13:39:28] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240510/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-10 13:39:28] INFO root fetch - processPackages [txt-from-pdf]: Downloading https://files.pythonhosted.org/packages/b2/c3/6784e51e973000607cf708569626fa66b7059fb74d06a92dbeb5c1275ff7/txt-from-pdf-1.1.1.tar.gz
+[2024-05-10 13:39:29] INFO root fetch - processPackages [pwrpy]: Downloading https://files.pythonhosted.org/packages/70/e1/23d1889bd3d52e5bee178887129533202038f7122a5ab1677a604291aad5/pwrpy-5.0.2.tar.gz
+[2024-05-10 13:39:29] INFO root fetch - processPackages [txt-from-pdf]: executing diffoscope
+[2024-05-10 13:39:29] INFO root fetch - processPackages [txt-from-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt-from-pdf-1.1.0.tar.gz tmp/txt-from-pdf-1.1.1.tar.gz --markdown 20240510/t/txt-from-pdf/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-10 13:39:29] INFO root fetch - processPackages [pwrpy]: executing diffoscope
+[2024-05-10 13:39:29] INFO root fetch - processPackages [pwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwrpy-1.1.4.tar.gz tmp/pwrpy-5.0.2.tar.gz --markdown 20240510/p/pwrpy/1.1.4-5.0.2/README.md --exclude *.pyd
+[2024-05-10 13:39:29] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.0.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.1.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2024-05-10 13:39:29] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.41.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.42.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
+[2024-05-10 13:39:29] INFO root fetch - processPackages [txt-from-pdf]: Remove: archive file [/home/abi/fetcher/tmp/txt-from-pdf-1.1.0.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - processPackages [txt-from-pdf]: Remove: archive file [/home/abi/fetcher/tmp/txt-from-pdf-1.1.1.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - main [MainThread]: End processing [txt-from-pdf]: success
+[2024-05-10 13:39:29] INFO root fetch - processPackages [pwrpy]: Remove: archive file [/home/abi/fetcher/tmp/pwrpy-1.1.4.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - processPackages [pwrpy]: Remove: archive file [/home/abi/fetcher/tmp/pwrpy-5.0.2.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - main [MainThread]: End processing [pwrpy]: success
+[2024-05-10 13:39:29] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-10 13:39:29] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-10 13:39:29] INFO root fetch - main [MainThread]: Store serial: [23145606]
