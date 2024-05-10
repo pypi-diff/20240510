@@ -6426,3 +6426,23 @@
 [2024-05-10 06:17:35] INFO root fetch - processPackages [alibabacloud-elasticsearch20170613]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_elasticsearch20170613-2.0.0.tar.gz]
 [2024-05-10 06:17:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-elasticsearch20170613]: success
 [2024-05-10 06:17:35] INFO root fetch - main [MainThread]: Store serial: [23141189]
+[2024-05-10 06:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23141189]
+[2024-05-10 06:19:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-10 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tlvisuals
+[2024-05-10 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-core
+[2024-05-10 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marketablez
+[2024-05-10 06:19:44] INFO root fetch - processPackages [tlvisuals]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-10 06:19:44] WARNING root fetch - processPackages [marketablez]: Skipping, unable to determine old version
+[2024-05-10 06:19:44] INFO root fetch - main [MainThread]: End processing [marketablez] error
+[2024-05-10 06:19:44] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a96] Old Version: [0.0.8a95]
+[2024-05-10 06:19:44] INFO root fetch - processPackages [tlvisuals]: Downloading https://files.pythonhosted.org/packages/1b/9a/38b98c46be1614b8f1d33c91a2ded008e14582bbd81959736952e47f0016/tlvisuals-0.0.2.tar.gz
+[2024-05-10 06:19:44] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/02/81/780ae3c439599e1a219237b1f47983e32b8191b2533633ecd0af862ed50b/ovos_core-0.0.8a95-py3-none-any.whl
+[2024-05-10 06:19:44] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18553604>=10485760
+[2024-05-10 06:19:44] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-05-10 06:19:45] INFO root fetch - processPackages [tlvisuals]: Downloading https://files.pythonhosted.org/packages/61/ae/9bcc78e264018bd4b17692321d43f70119c7ee03a514709d5d1ec2de64f2/tlvisuals-0.0.3.tar.gz
+[2024-05-10 06:19:45] INFO root fetch - processPackages [tlvisuals]: executing diffoscope
+[2024-05-10 06:19:45] INFO root fetch - processPackages [tlvisuals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240510:/home/abi/fetcher/20240510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlvisuals-0.0.2.tar.gz tmp/tlvisuals-0.0.3.tar.gz --markdown 20240510/t/tlvisuals/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-10 06:19:45] INFO root fetch - processPackages [tlvisuals]: Remove: archive file [/home/abi/fetcher/tmp/tlvisuals-0.0.2.tar.gz]
+[2024-05-10 06:19:45] INFO root fetch - processPackages [tlvisuals]: Remove: archive file [/home/abi/fetcher/tmp/tlvisuals-0.0.3.tar.gz]
+[2024-05-10 06:19:45] INFO root fetch - main [MainThread]: End processing [tlvisuals]: success
+[2024-05-10 06:19:45] INFO root fetch - main [MainThread]: Store serial: [23141198]
